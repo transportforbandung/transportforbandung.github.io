@@ -1,2 +1,2 @@
 # transportforbandung.github.io
-Website of Transport for Bandung community organisation
+Prototype of Transport for Bandung community organisation.
