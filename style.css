@@ -1,10 +1,7 @@
 /* styles.css */
-body {
+body, ul, li, a {
     font-family: 'Plus Jakarta Sans', sans-serif;
     margin: 0 auto; /* Centers the website horizontally */
-    max-width: 1920px; /* Sets the maximum width of the website */
-    padding: 20px; /* Adds some padding inside the body */
-    box-sizing: border-box; /* Ensures padding is included in the width */
 }
 }
 
@@ -24,23 +21,19 @@ body {
     z-index: 1000; /* Ensures the navbar stays above other content */
 }
 
-.navbar nav ul {
+.nav-links ul {
     display: flex;
     gap: 20px; /* Space between links */
     align-items: center;
 }
 
-.navbar nav ul li {
-    margin-left: 20px;
-}
-
-.navbar nav ul li a {
+.nav-links ul li a {
     color: #000000;
     font-size: 16px;
     transition: color 0.3s ease;
 }
 
-.navbar nav ul li a:hover {
+.nav-links ul li a:hover {
     color: #007bff; /* Change color on hover */
 }
 
