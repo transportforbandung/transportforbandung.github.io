@@ -111,14 +111,16 @@ body {
     background-image: url('assets/banner-image.png');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 .hero-overlay {
-    position: absolute;
+    position: relative;
     flex-direction: column;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 326px;
     display: flex;
     align-items: center;
     justify-content: center;
