@@ -9,26 +9,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <header class="navbar">
-            <div class="logo">
-                <img src="assets/TfB-green-logo-stacked.svg" alt="Logo Transport for Bandung" width="200" height="60">
-            </div>
-        <nav class="nav-links">
-            <ul>
-                <li><a href="#tentang-kami">Tentang Kami</a></li>
-                <li><a href="#publikasi">Publikasi</a></li>
-                <li><a href="#peta-dan-panduan" class="button" style="color: #FFFFFF;">Peta dan Panduan</a></li>
-            </ul>
-        </nav>
-        <!--Hamburger for phone-->
-        <button class="hamburger" aria-label="Toggle navigation">
-            <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-            </span>
-        </button>
-    </header>
-
+    <div id="header"></div>
+    
     <!--Hero section-->
     <section class="hero">
         <div class="hero-overlay">
@@ -50,33 +32,9 @@
             <p>Please wait.</p>
         </section>
     </main>
-
-    <!--Javascript for hamburger nav-->
-    <script>
-    const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
-
-    // Toggle mobile menu
-    hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('active');
-        navLinks.classList.toggle('active');
-    });
-
-    // Close menu when clicking outside
-    document.addEventListener('click', (event) => {
-        if (!event.target.closest('.navbar') && navLinks.classList.contains('active')) {
-            hamburger.classList.remove('active');
-            navLinks.classList.remove('active');
-        }
-    });
-
-    // Close menu after clicking a link
-    document.querySelectorAll('.nav-links a').forEach(link => {
-        link.addEventListener('click', () => {
-            hamburger.classList.remove('active');
-            navLinks.classList.remove('active');
-        });
-    });
-    </script>
+    <div id="footer"></div>
+        
+    <script src="hamburger.js"></script>
+    <script src="load-header-footer.js"></script>
 </body>
 </html>
