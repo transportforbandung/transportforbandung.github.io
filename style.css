@@ -10,9 +10,12 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    box-sizing: border-box;
     height: 125px;
     background-color: #FFFFFF;
     padding: 10px 50px;
+    top: 0;
+    left: 0;
 }
 
 /* Navigation Links Styles */
@@ -21,18 +24,19 @@ body {
     display: flex;
     gap: 20px; /* Space between links */
     align-items: center;
-    padding-right: 50px;
+    margin: 0;
 }
 
 .nav-links ul li a {
-  color: #000000;
-  text-decoration: none;
-  font-size: 28px;
-  transition: color 0.3s ease;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+    white-space: nowrap;
 }
 
 .nav-links ul li a:hover {
-  color: #ff6347; /* Change to your preferred hover color */
+    color: #ff6347; /* Change to your preferred hover color */
 }
 
 /* Logo styles */
@@ -54,8 +58,6 @@ body {
     background-size: cover;
     background-position: center;
 }
-
-/* Overlay image container */
 .hero-overlay {
     position: absolute;
     top: 0;
@@ -128,6 +130,12 @@ section {
 
 /* Responsive design */
 @media (max-width: 768px) {
+    .nav-links ul li a {
+        font-size: 16px; /* Smaller text on mobile */
+    }
+    .navbar {
+        padding: 10px 20px; /* Reduce padding on smaller screens */
+    }
     .hero-overlay {
         flex-direction: column;
         text-align: center;
