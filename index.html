@@ -20,6 +20,12 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <!--Hamburger for phone-->
+        <button class="hamburger" aria-label="Toggle navigation">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
     </header>
 
     <!--Hero section-->
@@ -46,5 +52,33 @@
             <p>Please wait.</p>
         </section>
     </main>
+
+    <!--Javascript for hamburger nav-->
+    <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    // Toggle mobile menu
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navLinks.classList.toggle('active');
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (event) => {
+        if (!event.target.closest('.navbar') && navLinks.classList.contains('active')) {
+            hamburger.classList.remove('active');
+            navLinks.classList.remove('active');
+        }
+    });
+
+    // Close menu after clicking a link
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navLinks.classList.remove('active');
+        });
+    });
+    </script>
 </body>
 </html>
