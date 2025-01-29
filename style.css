@@ -10,9 +10,9 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 180px;
+    height: 125px;
     background-color: #FFFFFF;
-    padding: 10px 60px;
+    padding: 10px 50px;
 }
 
 /* Navigation Links Styles */
@@ -21,13 +21,13 @@ body {
     display: flex;
     gap: 20px; /* Space between links */
     align-items: center;
-    padding-right: 60px;
+    padding-right: 50px;
 }
 
 .nav-links ul li a {
   color: #000000;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 28px;
   transition: color 0.3s ease;
 }
 
