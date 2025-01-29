@@ -10,24 +10,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <header class="navbar">
-            <div class="logo">
-                <img src="assets/TfB-green-logo-stacked.svg" alt="Logo Transport for Bandung" width="200" height="60">
-            </div>
-        <nav class="nav-links">
-            <ul>
-                <li><a href="#tentang-kami">Tentang Kami</a></li>
-                <li><a href="#publikasi">Publikasi</a></li>
-                <li><a href="#peta-dan-panduan" class="button" style="color: #FFFFFF;">Peta dan Panduan</a></li>
-            </ul>
-        </nav>
-        <!--Hamburger for phone-->
-        <button class="hamburger" aria-label="Toggle navigation">
-            <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-            </span>
-        </button>
-    </header>
+    <div id="header"></div>
 
     <!--Hero section-->
     <section class="hero">
@@ -80,14 +63,6 @@
         });
     });
     </script>
-    <script>
-    // Fetch and insert the footer
-    fetch('./components/footer.html') // Relative path to footer.html
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('footer').innerHTML = data;
-      })
-      .catch(error => console.error('Error loading footer:', error));
-  </script>
+    <script src="./components/fetch-script.js"></script>
 </body>
 </html>
