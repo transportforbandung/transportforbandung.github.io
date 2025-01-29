@@ -1,9 +1,19 @@
-// Function to include HTML files
-function includeHTML(elementId, file) {
-  fetch(file)
-    .then(response => response.text())
-    .then(data => document.getElementById(elementId).innerHTML = data);
+function loadComponent(url, elementId) {
+  fetch(url)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Failed to load ${url}: ${response.statusText}`);
+      }
+      return response.text();
+    })
+    .then(data => {
+      document.getElementById(elementId).innerHTML = data;
+    })
+    .catch(error => {
+      console.error(`Error loading ${url}:`, error);
+    });
 }
+
 // Load header and footer
-includeHTML("header", "header.html");
-includeHTML("footer", "footer.html");
+loadComponent('./components/header.html', 'header');
+loadComponent('./components/footer.html', 'footer');
