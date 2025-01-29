@@ -6,43 +6,42 @@ body {
 /* Navbar Styles */
 .navbar {
     position: fixed; /* Keeps the navbar fixed at the top */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 180px;
-    background-color: #ffffff;
-    color: white;
-    padding: 10px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1000; /* Ensures the navbar stays above other content */
+    width: 100%;
+    height: 180px;
+    background-color: #FFFFFF;
+    padding: 1rem 2rem;
+    padding: 10px 60px;
 }
 
-.navbar .logo {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.navbar nav ul {
+.nav-links {
   list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
+  gap: 1.5rem;
 }
 
-.navbar nav ul li {
-  margin-left: 20px;
-}
-
-.navbar nav ul li a {
-  color: white;
+.nav-links li a {
+  color: #fff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1rem;
+  transition: color 0.3s ease;
 }
 
-.navbar nav ul li a:hover {
-  color: #007bff; /* Change color on hover */
+.nav-links li a:hover {
+  color: #ff6347; /* Change to your preferred hover color */
+}
+
+.logo {
+  display: flex;
+  align-items: center; /* Vertically center the logo */
+}
+
+/* If using an <img> tag for the SVG */
+.logo img {
+  width: 100px; /* Adjust SVG width */
+  height: auto; /* Maintain aspect ratio */
 }
 
 /* Main Content Styles */
