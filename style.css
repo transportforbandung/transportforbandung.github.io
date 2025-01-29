@@ -1,6 +1,11 @@
 /* styles.css */
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0 auto; /* Centers the website horizontally */
+    max-width: 1920px; /* Sets the maximum width of the website */
+    padding: 20px; /* Adds some padding inside the body */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
 }
 
 /* Navbar Styles */
