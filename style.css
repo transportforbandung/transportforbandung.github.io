@@ -16,29 +16,30 @@ body {
     padding: 10px 60px;
 }
 
-.nav-links {
-  list-style: none;
+/* Navigation Links Styles */
+.nav-links ul {
   display: flex;
-  gap: 1.5rem;
+  gap: 20px; /* Space between links */
+  align-items: center;
 }
 
-.nav-links li a {
-  color: #fff;
+.nav-links ul li a {
+  color: #000000;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 32px;
   transition: color 0.3s ease;
 }
 
-.nav-links li a:hover {
+.nav-links ul li a:hover {
   color: #ff6347; /* Change to your preferred hover color */
 }
 
+/* Logo styles */
 .logo {
   display: flex;
   align-items: center; /* Vertically center the logo */
 }
 
-/* If using an <img> tag for the SVG */
 .logo img {
   width: 266px; /* Adjust SVG width */
   height: auto; /* Maintain aspect ratio */
