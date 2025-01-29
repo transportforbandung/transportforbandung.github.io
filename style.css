@@ -1,6 +1,8 @@
 /* styles.css */
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0; /* Ensure no default body margin */
+    padding-top: 125px; /* Offset body content for fixed navbar */
 }
 
 /* Navbar Styles */
@@ -19,22 +21,26 @@ body {
 }
 
 /* Navigation Links Styles */
+.nav-links {
+    min-width: 0; /* Allows shrinking past content width */
+}
 .nav-links ul {
     list-style-type: none;
     display: flex;
     gap: 20px; /* Space between links */
     align-items: center;
     margin: 0;
+    min-width: 0; /* Critical for overflow control */
 }
-
 .nav-links ul li a {
     color: #000000;
     text-decoration: none;
     font-size: 20px;
     transition: color 0.3s ease;
     white-space: nowrap;
+    display: block;
+    padding: 5px 10px; /* Add clickable area padding */
 }
-
 .nav-links ul li a:hover {
     color: #ff6347; /* Change to your preferred hover color */
 }
