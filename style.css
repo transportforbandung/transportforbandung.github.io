@@ -190,8 +190,8 @@ section {
 
 /* Footer */
 .footer {
-    background-color: #000;
-    color: #fff;
+    background-color: #00A64F;
+    color: #FFFFFF;
     text-align: center;
     padding: 40px 20px;
     margin-top: 50px;
@@ -202,10 +202,6 @@ section {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-}
-
-.footer-logo img {
-    width: 150px; /* Adjust as needed */
 }
 
 .footer-links {
