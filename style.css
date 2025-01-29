@@ -45,6 +45,22 @@ body {
   color: #007bff; /* Change color on hover */
 }
 
+.logo {
+  display: flex;
+  align-items: left; /* Vertically center the logo */
+}
+
+.logo svg {
+  width: 266px; /* Adjust SVG width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* If using an <img> tag for the SVG */
+.logo img {
+  width: 266px; /* Adjust SVG width */
+  height: auto; /* Maintain aspect ratio */
+}
+
 /* Main Content Styles */
 main {
   padding-top: 180px; /* Adds padding to prevent content from being hidden behind the fixed navbar */
