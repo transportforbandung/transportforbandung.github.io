@@ -404,7 +404,7 @@ section {
     min-height: 500px; /* Prevent collapse */
     padding-top: 110px; /* Offset for navbar */
     box-sizing: border-box; /* Include padding in height calculation */
-    background-image: url('assets/nyasar-di-Baleendah.jpg'); /* Replace with your image path */
+    background-image: url('assets/nyasar-di-Majalaya.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -418,7 +418,7 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .page-404 .container {
@@ -522,6 +522,7 @@ section {
     .footer-container {
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
         max-width: 1200px;
         margin: 0 auto;
     }
