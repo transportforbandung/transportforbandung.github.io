@@ -1,4 +1,4 @@
-function loadComponent(url, elementId) {
+function loadComponent(url, elementId, callback) {
   fetch(url)
     .then(response => {
       if (!response.ok) {
@@ -15,5 +15,10 @@ function loadComponent(url, elementId) {
 }
 
 // Load header and footer
-loadComponent('./components/header.html', 'header');
+loadComponent('./components/header.html', 'header', () => {
+  // Initialize hamburger after header loads
+  if (typeof initializeHamburger === 'function') {
+    initializeHamburger();
+  }
+});
 loadComponent('./components/footer.html', 'footer');
