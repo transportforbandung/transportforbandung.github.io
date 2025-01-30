@@ -409,14 +409,6 @@ section {
     align-items: center;
     justify-content: center;
 }
-.404-overlay {
-    position: relative;
-    z-index: 2;
-    text-align: left;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 .404::before {
     content: '';
     position: absolute;
@@ -427,7 +419,12 @@ section {
     background: rgba(0, 0, 0, 0.4);
 }
 
-.404-content {
+.404-container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     color: white;
 }
 
