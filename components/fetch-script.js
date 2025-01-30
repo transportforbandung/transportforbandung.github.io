@@ -8,6 +8,7 @@ function loadComponent(url, elementId, callback) {
     })
     .then(data => {
       document.getElementById(elementId).innerHTML = data;
+      if (callback) callback();
     })
     .catch(error => {
       console.error(`Error loading ${url}:`, error);
