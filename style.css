@@ -1,8 +1,50 @@
 /* styles.css */
+/*body*/
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     margin: 0; /* Ensure no default body margin */
     padding-top: 110px; /* Offset body content for fixed navbar */
+}
+
+/* Text styling */
+.h1 {
+    font-size: 28px;
+    margin-bottom: 0.8em;
+}
+.h2 {
+    font-size: 28px;
+    margin-bottom: 0.8em;
+}
+.h3 {
+    font-size: 28px;
+    margin-bottom: 0.8em;
+}
+.p {
+    font-size: 28px;
+    margin-bottom: 0.8em;
+}
+
+/* Button style */
+.button {
+    background-color: #00A64F;
+    color: #ffffff; /* White text */
+    width: 240px;
+    height: 50px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex !important ;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0 !important;
+    line-height: 1 !important;
+}
+
+.button:hover {
+    background-color: #218838; /* Darker green on hover */
 }
 
 /* Navbar Styles */
@@ -55,7 +97,7 @@ body {
     background: transparent;
     border: none;
     padding: 10px;
-    z-index: 1000;
+    z-index: 1002;
 }
 
 .hamburger-box {
@@ -150,39 +192,6 @@ body {
 /* Text content styling */
 .hero-content {
     color: white;
-}
-
-.hero-content h1 {
-    font-size: 28px;
-    margin-bottom: 28px;
-}
-
-.hero-content p {
-    font-size: 28px;
-    margin-bottom: 1rem;
-}
-
-/* Button style */
-.button {
-    background-color: #00A64F;
-    color: #ffffff; /* White text */
-    width: 240px;
-    height: 50px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex !important ;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    padding: 0 !important;
-    line-height: 1 !important;
-}
-
-.button:hover {
-    background-color: #218838; /* Darker green on hover */
 }
 
 /* Main Content Styles */
