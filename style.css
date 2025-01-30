@@ -397,6 +397,39 @@ section {
     opacity: 0.7;
 }
 
+/* 404 page */
+.404 {
+    position: relative;
+    height: calc(100vh - 110px); /* Full viewport minus navbar height */
+    min-height: 500px; /* Prevent collapse */
+    background-image: url('assets/nyasar-di-Baleendah.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.404-overlay {
+    position: relative;
+    z-index: 2;
+    text-align: left;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.404::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.404-content {
+    color: white;
+}
 
 
 
@@ -492,4 +525,5 @@ section {
         max-width: 1200px;
         margin: 0 auto;
     }
+    
 }
