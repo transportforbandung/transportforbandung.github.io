@@ -80,7 +80,7 @@ html {
     height: 110px;
     background-color: #FFFFFF;
     transition: background-color 0.3s ease;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
     padding: 10px 50px;
     top: 0;
     left: 0;
@@ -204,7 +204,7 @@ html {
 
 /* Overlay image styling */
 .overlay-image {
-    max-width: 650px;
+    max-width: 500px;
     width: 100%;
     z-index: 2;
     opacity: 1;
