@@ -250,10 +250,10 @@ html {
 }
 
 .arrow-line {
-    border: solid black;
-    border-width: 0 25px 25px 0;
+    border: white;
+    border-width: 0 3px 3px 0;
     display: inline-block;
-    padding: 3px;
+    padding: 5px;
     border-radius: 2px;
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
