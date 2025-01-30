@@ -399,15 +399,10 @@ section {
 
 /* 404 page */
 .404 {
-    position: relative;
-    height: calc(100vh - 110px); /* Full viewport minus navbar height */
-    min-height: 500px; /* Prevent collapse */
-    background-image: url('assets/nyasar-di-Baleendah.jpg');
+    background-image: url('nyasar-di-Baleendah.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-repeat: no-repeat;
 }
 .404::before {
     content: '';
