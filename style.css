@@ -220,6 +220,63 @@ html {
     color: white;
 }
 
+.scroll-indicator {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  animation: slideUp 1s ease-out 0.5s forwards;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.arrow-line {
+  width: 25px;
+  height: 3px;
+  background: white;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.arrow-line.left {
+  transform: rotate(45deg) translateX(4px);
+}
+
+.arrow-line.right {
+  transform: rotate(-45deg) translateX(-4px);
+}
+
+/* Animations */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 20px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, 20px);
+  }
+}
+
+/* Hide when scrolled past hero */
+.hide-arrow {
+  animation: slideDown 0.5s ease-out forwards !important;
+}
+
+
+
 /* Main Content Styles */
 main {
     padding-top: 30px; /* Adds padding to prevent content from being hidden behind the fixed navbar */
