@@ -250,19 +250,13 @@ html {
 }
 
 .arrow-line {
-  width: 25px;
-  height: 3px;
-  background: white;
-  position: absolute;
-  border-radius: 2px;
-}
-
-.arrow-line.left {
-  transform: rotate(45deg) translateX(4px);
-}
-
-.arrow-line.right {
-  transform: rotate(-45deg) translateX(-4px);
+    border: solid black;
+    border-width: 0 25px 25px 0;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 2px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
 }
 
 /* Animations */
