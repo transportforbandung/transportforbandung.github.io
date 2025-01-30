@@ -7,21 +7,43 @@ body {
 }
 
 /* Text styling */
+html {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+}
+.light {
+    font-weight: 300;
+}
+.regular {
+    font-weight: 400;
+}
+.medium {
+    font-weight: 500;
+}
+.semibold {
+    font-weight: 600;
+}
+.bold {
+    font-weight: 700;
+}
+.extrabold {
+    font-weight: 800;
+}
 .h1 {
-    font-size: 28px;
-    margin-bottom: 0.8em;
+    font-size: 2rem;
+    margin-bottom: 1.8rem;
 }
 .h2 {
-    font-size: 28px;
-    margin-bottom: 0.8em;
+    font-size: 1.6rem;
+    margin-bottom: 1.4rem;
 }
 .h3 {
-    font-size: 28px;
-    margin-bottom: 0.8em;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
 .p {
-    font-size: 28px;
-    margin-bottom: 0.8em;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 /* Button style */
