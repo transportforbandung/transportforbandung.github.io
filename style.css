@@ -400,8 +400,10 @@ section {
 /* 404 page */
 .page-404 {
     position: relative;
-    height: calc(100vh - 110px); /* Full viewport minus navbar height */
+    height: 100vh; /* Full viewport minus navbar height */
     min-height: 500px; /* Prevent collapse */
+    padding-top: 110px; /* Offset for navbar */
+    box-sizing: border-box; /* Include padding in height calculation */
     background-image: url('assets/nyasar-di-Baleendah.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
@@ -421,11 +423,12 @@ section {
 
 .page-404 .container {
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    z-index: 1000; /* Lower than navbar's 1001 */
+    padding: 40px; /* Add breathing room */
     color: white;
+    text-align: left; /* Left-align text */
+    max-width: 1200px; /* Prevent overly wide text */
+    margin: 0 auto;
 }
 
 
@@ -522,5 +525,15 @@ section {
         max-width: 1200px;
         margin: 0 auto;
     }
+    .page-404 {
+        padding-top: 90px; /* Match mobile navbar height */
+    }
     
+    .page-404 .container {
+        padding: 20px;
+    }
+    
+    .page-404 h1 {
+        font-size: 2.5rem !important;
+    }
 }
