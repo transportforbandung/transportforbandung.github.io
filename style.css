@@ -18,7 +18,7 @@ body {
     padding: 10px 50px;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 1001;
 }
 
 /* Navigation Links Styles */
@@ -265,10 +265,10 @@ section {
 
     .nav-links {
         position: fixed;
-        top: 125px;
+        top: 110px;
         right: -100%;
         width: 100%;
-        height: calc(100vh - 125px);
+        height: calc(100vh - 110px);
         background-color: #fff;
         transition: right 0.3s ease;
         overflow-y: auto;
