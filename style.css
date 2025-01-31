@@ -371,7 +371,7 @@ section {
 .card-container {
     width: 100%;
     max-width: 1200px;
-    margin: 25px auto;
+    margin: 35px auto;
 }
 
 .clickable-card {
@@ -510,7 +510,7 @@ section {
     
     html {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
         
     .hamburger {
         display: block; /* Show hamburger on mobile */
@@ -581,7 +581,14 @@ section {
     .hero-content p {
         font-size: 24px; /* Better mobile readability */
     }
-        .clickable-card {
+    
+    .card-container {
+        width: 100%;
+        max-width: 80vp;
+        margin: 25px auto;
+    }
+    
+    .clickable-card {
         flex-direction: column;
     }
 
