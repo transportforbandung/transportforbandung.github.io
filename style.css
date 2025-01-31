@@ -91,6 +91,12 @@ html {
     line-height: 1 !important;
 }
 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 25px auto;
+}
+
 /* Navbar Styles */
 .navbar {
     position: fixed; /* Keeps the navbar fixed at the top */
