@@ -97,6 +97,15 @@ html {
     margin: 25px auto;
 }
 
+/* Overlay image styling */
+.overlay-image {
+    max-width: 500px;
+    width: 100%;
+    z-index: 2;
+    opacity: 1;
+    margin: 0;
+}
+
 /* Navbar Styles */
 .navbar {
     position: fixed; /* Keeps the navbar fixed at the top */
@@ -230,15 +239,6 @@ html {
     background: rgba(0, 0, 0, 0.4);
 }
 
-/* Overlay image styling */
-.overlay-image {
-    max-width: 500px;
-    width: 100%;
-    z-index: 2;
-    opacity: 1;
-    margin: 0;
-}
-
 /* Text content styling */
 .hero-content {
     color: white;
@@ -291,7 +291,6 @@ html {
 .hide-arrow {
   animation: slideDown 0.5s ease-out forwards !important;
 }
-
 
 
 /* Main Content Styles */
@@ -444,6 +443,11 @@ section {
     body {
         padding-top: 90px; /* Adjust if navbar height changes on mobile */
     }
+    
+    html {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+        
     .hamburger {
         display: block; /* Show hamburger on mobile */
     }
