@@ -273,6 +273,45 @@ html {
   max-width: 600px;
 }
 
+.icon-section {
+  padding: 4rem 5%;
+  text-align: center;
+}
+
+.section-title {
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px; /* Reduced from 2rem (32px) to 20px */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px; /* Added container padding */
+}
+
+.icon-item {
+  padding: 15px; /* Reduced from 1.5rem (24px) */
+  transition: transform 0.3s ease;
+}
+
+.icon-item:hover {
+  transform: translateY(-5px);
+}
+
+.icon-img {
+  width: 70px; /* Slightly reduced size */
+  height: 70px;
+  margin-bottom: 0.5rem; /* Reduced text spacing */
+}
+
+.icon-caption {
+  margin: 0;
+  font-weight: 500;
+}
+
 /* Scroll */
 .scroll-indicator {
   position: absolute;
