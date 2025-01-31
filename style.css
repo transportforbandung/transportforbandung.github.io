@@ -492,11 +492,11 @@ section {
 
 .page-404 .container {
     position: relative;
-    z-index: 1000; /* Lower than navbar's 1001 */
-    padding: 40px; /* Add breathing room */
+    z-index: 1000;
+    padding: 70px;
     color: white;
-    text-align: left; /* Left-align text */
-    max-width: 1200px; /* Prevent overly wide text */
+    text-align: left;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
