@@ -673,7 +673,11 @@ section {
     .footer-socials {
         justify-content: center;
     }
-    
+
+    .footer-socials img {
+        width: 40px;
+    }
+        
     .page-404 {
         padding-top: 90px;
     }
