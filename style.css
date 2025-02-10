@@ -673,7 +673,8 @@ section {
         width: 100%; /* Full width for the image */
         max-width: 400px; /* Limit image width */
         height: auto; /* Maintain aspect ratio */
-        margin-bottom: 20px; /* Add space below the image */
+        margin-top: 10px;
+        margin-bottom: 5px; /* Add space below the image */
     }
 
     .mini-hero-content {
