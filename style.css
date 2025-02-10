@@ -572,10 +572,27 @@ section {
     
     html {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
         
     .hamburger {
         display: block; /* Show hamburger on mobile */
+    }
+
+    .navbar {
+        position: fixed; /* Keeps the navbar fixed at the top */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+        height: 90px;
+        background-color: #FFFFFF;
+        transition: background-color 0.3s ease;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.20);
+        padding: 10px 30px;
+        top: 0;
+        left: 0;
+        z-index: 1001;
     }
 
     .nav-links {
