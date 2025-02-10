@@ -316,6 +316,64 @@ html {
   max-width: 600px;
 }
 
+.mini-hero-content .button-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between buttons */
+}
+
+.mini-hero-content .button-white {
+  background-color: #FFFFFF;
+  color: #00A64F;
+  width: 240px;
+  height: 50px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mini-hero-content .dropdown {
+  display: inline-block;
+}
+
+.mini-hero-content .dropbutton {
+  background-color: transparent;
+  color: #FFFFFF;
+  padding: 0;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.mini-hero-content .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.mini-hero-content .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.mini-hero-content .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.mini-hero-content .dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .icon-section {
   padding: 4rem 5%;
   text-align: center;
@@ -689,10 +747,15 @@ section {
         font-size: 16px; /* Adjust font size for mobile */
     }
 
+    .mini-hero-content .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 10px; /* Reduce gap between buttons */
+    }
+
     .mini-hero-content .button-white {
         width: 100%; /* Full width for buttons */
         max-width: 240px; /* Limit button width */
-        margin: 0 auto 10px; /* Center-align button and add space below */
+        margin: 0 auto; /* Center-align button */
     }
 
     .mini-hero-content .dropdown {
@@ -702,7 +765,7 @@ section {
     }
 
     .mini-hero-content .dropbutton {
-        width: 100%;
+        width: 100%; /* Full width for dropdown button */
     }
 
     .icon-grid {
