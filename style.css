@@ -663,14 +663,19 @@ section {
     }
 
     .footer-container {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
         max-width: 1200px;
         margin: 0 auto;
     }
+
+    .footer-socials {
+        justify-content: center;
+    }
+    
     .page-404 {
-        padding-top: 90px; /* Match mobile navbar height */
+        padding-top: 90px;
     }
     
     .page-404 .container {
