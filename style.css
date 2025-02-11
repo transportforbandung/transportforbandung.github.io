@@ -320,9 +320,10 @@ a {
 }
 
 .mini-hero-content .button-container {
-  display: flex;
-  align-items: center;
-  gap: 20px; /* Space between buttons */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
 }
 
 .mini-hero-content .button-white {
