@@ -731,12 +731,12 @@ section {
     }
 
     .mini-hero-img {
-        flex: 0 0 auto; /* Reset flex for mobile */
-        width: 100%; /* Full width for the image */
-        max-width: 400px; /* Limit image width */
-        height: auto; /* Maintain aspect ratio */
+        flex: 0 0 auto; 
+        width: 100%; 
+        max-width: 400px; 
+        height: auto; 
         margin-top: 10px;
-        margin-bottom: 5px; /* Add space below the image */
+        box-sizing: border-box;
     }
 
     .mini-hero-content {
