@@ -290,11 +290,11 @@ a {
 
 /* Mini Hero for Subpage */
 .mini-hero {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  min-height: 40vh;
-  padding: 40px 5%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    min-height: 40vh;
+    padding: 40px 5%;
 }
 
 .mini-hero-img {
@@ -393,18 +393,18 @@ a {
 }
 
 .icon-item {
-  padding: 15px;
-  transition: transform 0.3s ease;
+    padding: 15px;
+    transition: transform 0.3s ease;
 }
 
 .icon-item:hover {
-  transform: translateY(-5px);
+    transform: translateY(-5px);
 }
 
 .icon-img {
-  width: 70px;
-  height: 70px;
-  margin-bottom: 0.5rem;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 0.5rem;
 }
 
 .icon-img-wide {
@@ -426,6 +426,7 @@ a {
 }
 
 .icon-caption {
+    width: 70px;
     margin: 0;
     font-weight: 500;
     text-decoration: none !important;
