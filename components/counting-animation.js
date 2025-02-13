@@ -17,7 +17,7 @@ function startCountingAnimation(counterElement, targetNumber) {
     updateCounter();
 }
 
-// Function to check if the counting section is in the viewport
+// Function to check if an element is in the viewport
 function isInViewport(element) {
     const rect = element.getBoundingClientRect();
     return (
@@ -28,10 +28,15 @@ function isInViewport(element) {
 
 // Add a scroll event listener to trigger the counting animation
 document.addEventListener("scroll", () => {
-    const counterElement = document.querySelector(".counter");
-    const targetNumber = parseInt(counterElement.getAttribute("data-target"), 10);
+    const counterElements = document.querySelectorAll(".counter"); // Select ALL .counter elements
 
-    if (isInViewport(counterElement) && counterElement.textContent === "0") {
-        startCountingAnimation(counterElement, targetNumber);
-    }
+    counterElements.forEach((counterElement) => {
+        const targetNumber = parseInt(counterElement.getAttribute("data-target"), 10);
+
+        if (isInViewport(counterElement) {
+            if (counterElement.textContent === "0") {
+                startCountingAnimation(counterElement, targetNumber);
+            }
+        }
+    });
 });
