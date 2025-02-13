@@ -533,6 +533,17 @@ section {
     justify-content: center;
 }
 
+/* Count */
+.counting-section {
+    background-color: #007bff;
+    color: #fff;
+}
+.counter {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
 /* Footer */
 .footer {
     background-color: #00A64F;
