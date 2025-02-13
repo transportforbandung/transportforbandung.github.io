@@ -557,6 +557,78 @@ section {
     margin: 20px 0;
 }
 
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    width: 800px; /* Fixed width for the slideshow */
+    height: 400px; /* Fixed height for the slideshow */
+    margin: 0 auto; /* Center the slideshow */
+    overflow: hidden; /* Hide overflow */
+    border: 2px solid #ccc; /* Optional: Add a border */
+}
+
+/* Slides wrapper */
+.slides {
+    display: flex; /* Arrange slides horizontally */
+    width: 300%; /* Total width of all slides (3 slides x 100%) */
+    transition: transform 0.5s ease-in-out; /* Smooth slide transition */
+}
+
+/* Individual slide */
+.slide {
+    width: 100%; /* Each slide takes up 100% of the container width */
+    height: 100%;
+    position: relative;
+}
+
+/* Slide image */
+.slide-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* Ensure the image covers the area without stretching */
+    background-position: center; /* Center the image */
+}
+
+/* Caption */
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 18px; /* Font size */
+}
+
+/* Navigation arrows */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white; /* Arrow color */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1; /* Ensure arrows are above the slides */
+}
+
+.arrow.prev {
+    left: 10px; /* Position left arrow */
+}
+
+.arrow.next {
+    right: 10px; /* Position right arrow */
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+}
+
 /* Footer */
 .footer {
     background-color: #00A64F;
