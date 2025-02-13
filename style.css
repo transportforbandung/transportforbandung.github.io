@@ -429,7 +429,12 @@ a {
     width: 70px;
     margin: 0;
     font-weight: 500;
-    text-decoration: none !important;
+}
+
+.icon-caption-wide {
+    width: 240px;
+    margin: 0;
+    font-weight: 500;
 }
 
 /* Scroll */
@@ -506,7 +511,6 @@ section {
     flex-direction: row;
     gap: 15px;
     align-items: center;
-    justify-content: center;
 }
 
 .card-container {
