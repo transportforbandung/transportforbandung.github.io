@@ -502,6 +502,7 @@ section {
 /* Card */
 .flex-horizontal {
     display: flex;
+    flex-direction: row;
     gap: 15px;
     align-items: center;
     justify-content: center;
@@ -812,6 +813,14 @@ section {
 
     .icon-caption {
         font-size: 1rem;
+    }
+
+    .flex-horizontal {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
     }
         
     .card-container {
