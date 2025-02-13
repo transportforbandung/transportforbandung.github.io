@@ -491,6 +491,13 @@ section {
     min-height: 30vh;
 }
 
+.centered-content {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+
 /* Card */
 .card-container {
     width: 100%;
