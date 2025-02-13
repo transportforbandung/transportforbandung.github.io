@@ -33,7 +33,7 @@ document.addEventListener("scroll", () => {
     counterElements.forEach((counterElement) => {
         const targetNumber = parseInt(counterElement.getAttribute("data-target"), 10);
 
-        if (isInViewport(counterElement) {
+        if (isInViewport(counterElement)) { // Fixed: Added missing closing parenthesis
             if (counterElement.textContent === "0") {
                 startCountingAnimation(counterElement, targetNumber);
             }
