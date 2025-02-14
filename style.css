@@ -575,7 +575,6 @@ section {
 /* Slides wrapper */
 .slides {
     display: flex; /* Arrange slides horizontally */
-    width: 300%; /* Total width of all slides (3 slides x 100%) */
     transition: transform 0.5s ease-in-out; /* Smooth slide transition */
 }
 
