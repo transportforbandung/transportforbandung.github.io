@@ -611,8 +611,8 @@ section {
 /* Navigation arrows */
 .arrow {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for exact vertical centering */
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     color: white; /* Arrow color */
     border: none;
