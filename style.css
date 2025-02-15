@@ -32,22 +32,22 @@ a {
 .extrabold {
     font-weight: 800;
 }
-.h1 {
+h1 {
     font-size: 6rem;
     margin-bottom: 4rem;
     line-height: 1.2;
 }
-.h2 {
+h2 {
     font-size: 2rem;
     margin-bottom: 1.8rem;
     line-height: 1.2;
 }
-.h3 {
+h3 {
     font-size: 1.2rem;
     margin-bottom: 0.6rem;
     line-height: 1.2;
 }
-.p {
+p {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     line-height: 1.2;
@@ -668,7 +668,7 @@ section {
     line-height: 1.2;
 }
 
-.blog-content .p {
+.blog-content p {
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 0.5rem;
