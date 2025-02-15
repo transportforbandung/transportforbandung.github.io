@@ -682,7 +682,7 @@ section {
     justify-content: space-between;
     align-items: center;
     margin: 2rem 0;
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: #f9f9f9;
     border-radius: 10px;
 }
@@ -701,7 +701,7 @@ section {
 .author-details {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.25rem;
 }
 
 .author-name {
@@ -720,7 +720,7 @@ section {
 .share-buttons {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.75rem;
 }
 
 .share-text {
@@ -730,8 +730,9 @@ section {
 }
 
 .social-icons {
-  display: flex;
-  gap: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
 }
 
 .social-icons a {
