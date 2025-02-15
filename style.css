@@ -843,6 +843,13 @@ section {
         box-sizing: border-box;
     }
 
+    .mini-hero-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
     .mini-hero-content {
         max-width: 100%; /* Full width for text and buttons */
     }
