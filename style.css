@@ -862,18 +862,20 @@ section {
 
     .mini-hero-content .button-white {
         width: 100%; /* Full width for buttons */
-        max-width: 240px; /* Limit button width */
+        max-width: 300px; /* Limit button width */
         margin: 0 auto; /* Center-align button */
     }
 
-    .mini-hero-content .dropdown {
-        width: 100%; /* Full width for dropdown */
-        max-width: 240px; /* Limit dropdown width */
-        margin: 0 auto; /* Center-align dropdown */
+    .dropdown {
+        display: flex;
+        justify-content: center; /* Center the dropdown button */
+        width: 100%; /* Ensure the dropdown takes full width */
     }
 
-    .mini-hero-content .dropbutton {
-        width: 100%; /* Full width for dropdown button */
+    .dropdown-content {
+        left: 50%; /* Center the dropdown content */
+        transform: translateX(-50%); /* Adjust for exact centering */
+        top: 100%; /* Position below the button */
     }
 
     .icon-grid {
