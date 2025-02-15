@@ -829,9 +829,9 @@ section {
 
     .mini-hero {
         flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center-align content */
-        text-align: center; /* Center-align text */
-        padding: 20px 5%; /* Adjust padding for mobile */
+        align-items: center;
+        text-align: center;
+        padding: 20px 5%;
     }
 
     .mini-hero-img {
