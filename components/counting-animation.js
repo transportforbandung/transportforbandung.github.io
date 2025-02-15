@@ -28,12 +28,12 @@ function isInViewport(element) {
 
 // Add a scroll event listener to trigger the counting animation
 document.addEventListener("scroll", () => {
-    const counterElements = document.querySelectorAll(".counter"); // Select ALL .counter elements
+    const counterNumberElements = document.querySelectorAll(".counter-number"); // Select ALL .counter-number elements
 
-    counterElements.forEach((counterElement) => {
+    counterNumberElements.forEach((counterElement) => {
         const targetNumber = parseInt(counterElement.getAttribute("data-target"), 10);
 
-        if (isInViewport(counterElement)) { // Fixed: Added missing closing parenthesis
+        if (isInViewport(counterElement)) {
             if (counterElement.textContent === "0") {
                 startCountingAnimation(counterElement, targetNumber);
             }
