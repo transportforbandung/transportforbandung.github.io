@@ -661,6 +661,20 @@ section {
     object-fit: contain;
 }
 
+.blog-content .caption {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.blog-content .p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
 /* Footer */
 .footer {
     background-color: #00A64F;
