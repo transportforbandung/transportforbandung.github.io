@@ -513,6 +513,13 @@ section {
     justify-content: center;
 }
 
+.flex-collaborator {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+}
+
 .card-container {
     width: 100%;
     max-width: 1200px;
@@ -904,6 +911,17 @@ section {
         gap: 5px;
         align-items: center;
         justify-content: center;
+    }
+
+    .flex-collaborator {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .flex-collaborator img {
+        max-width: 40px
     }
         
     .card-container {
