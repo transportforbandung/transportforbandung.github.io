@@ -33,12 +33,12 @@ a {
     font-weight: 800;
 }
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 0.8rem;
     line-height: 1.2;
 }
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-bottom: 0.8rem;
     line-height: 1.2;
 }
@@ -1021,7 +1021,7 @@ section {
     .flex-horizontal {
         display: flex;
         flex-direction: column;
-        gap: 5px;
+        gap: 10px;
         align-items: center;
         justify-content: center;
     }
