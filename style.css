@@ -526,6 +526,12 @@ section {
     margin: 35px auto;
 }
 
+.card-container-main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 35px auto;
+}
+
 .clickable-card {
     display: flex;
     background-color: #00A64F;
@@ -926,6 +932,12 @@ section {
     }
         
     .card-container {
+        width: 100%;
+        max-width: 90vp;
+        margin: 25px auto;
+    }
+
+    .card-container-main {
         width: 90%;
         max-width: 90vp;
         margin: 25px auto;
