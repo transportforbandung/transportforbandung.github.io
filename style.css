@@ -648,7 +648,7 @@ section {
 
 /* Blog */
 .blog-content {
-    width: 60%;
+    width: 50%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -661,11 +661,12 @@ section {
     object-fit: contain;
 }
 
-.blog-content .caption {
+.blog-content .img-caption {
     font-size: 0.8rem;
     font-weight: 400;
     margin-bottom: 0.5rem;
     line-height: 1.2;
+    text-align: center;
 }
 
 .blog-content p {
@@ -673,7 +674,7 @@ section {
     font-weight: 500;
     margin-bottom: 1rem;
     line-height: 1.2;
-    align-text: justify;
+    text-align: justify;
 }
 
 /* Footer */
