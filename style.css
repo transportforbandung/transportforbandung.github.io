@@ -1083,6 +1083,13 @@ section {
         box-sizing: border-box;
     }
 
+    .icon-img-wide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
     .icon-caption {
         font-size: 1rem;
     }
