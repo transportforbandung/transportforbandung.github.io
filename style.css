@@ -754,27 +754,66 @@ section {
 }
 
 .blog-preview {
-    background-color: #FFFFFF;
-    color: #00A64F;
-    width: 40%;
-    height: 200px;
-    border-radius: 10px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    padding: 0 !important;
-    line-height: 1 !important;
+  width: 300px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  font-family: Arial, sans-serif;
+  text-align: left;
 }
 
-.blog-preview img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+/* Article image */
+.blog-image-preview {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Publish date */
+.blog-preview-publish-date {
+  font-size: 12px;
+  color: #666;
+  margin: 10px;
+}
+
+/* Content preview */
+.blog-content-preview {
+  padding: 0 10px;
+}
+
+/* Article title */
+.blog-title-preview {
+  font-size: 18px;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+/* Article excerpt */
+.blog-article-excerpt {
+  font-size: 14px;
+  color: #555;
+  margin: 0 0 15px;
+  line-height: 1.5;
+}
+
+/* Read More button */
+.blog-read-more-button {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 0 0 8px 8px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.blog-read-more-button:hover {
+  background-color: #0056b3;
 }
 
 /* Footer */
