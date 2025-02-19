@@ -1073,7 +1073,8 @@ section {
     }
 
     .icon-img-wide {
-        width: 100%; /* Full width on mobile */
+        width: 240px;
+        height: 160px;
         margin-bottom: 0.5rem;
         border-radius: 10px;
         overflow: hidden;
