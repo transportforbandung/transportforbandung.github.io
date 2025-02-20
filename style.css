@@ -1012,6 +1012,13 @@ section {
     .overlay-image {
         max-width: 200px;
     }
+
+    .centered-content {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
     
     .hero-content h1,
     .hero-content p {
