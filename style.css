@@ -828,6 +828,7 @@ section {
 /* Grid Item */
 .guide-preview-item {
     display: flex;
+    align-items: flex-start;
     align-items: start;
 }
 
