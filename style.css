@@ -817,6 +817,47 @@ section {
   background-color: #0056b3;
 }
 
+/* Guide */
+.guide-preview-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns for desktop */
+  gap: 20px; /* Space between grid items */
+  padding: 20px;
+}
+
+/* Grid Item */
+.guide-preview-item {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+/* Preview Image */
+.guide-preview-image {
+  width: 80px; /* Adjust size as needed */
+  height: 80px; /* Adjust size as needed */
+  margin-right: 15px;
+}
+
+/* Preview Text */
+.guide-preview-text {
+  flex: 1;
+}
+
+/* Link */
+.guide-preview-link {
+  font-size: 0.9rem;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.guide-preview-link:hover {
+  text-decoration: underline;
+}
+
 /* Footer */
 .footer {
     background-color: #00A64F;
@@ -1146,6 +1187,10 @@ section {
     }
     .blog-content {
         width: 90%;
+    }
+
+    .guide-preview-container {
+        grid-template-columns: 1fr;
     }
 
     .footer-container {
