@@ -818,6 +818,11 @@ section {
 }
 
 /* Guide */
+body, .guide-preview-container {
+  margin: 0;
+  padding: 0;
+}
+
 .guide-preview-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
