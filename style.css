@@ -819,20 +819,21 @@ section {
 
 /* Guide */
 .guide-preview-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: start;
 }
 
 /* Grid Item */
 .guide-preview-item {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: start;
 }
 
 /* Preview Image */
 .guide-preview-image {
-  width: 100px;/
+  width: 100px;
   height: 100px;
   margin-right: 20px;
 }
