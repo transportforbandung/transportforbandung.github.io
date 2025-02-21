@@ -820,8 +820,8 @@ section {
 /* Guide */
 .guide-preview-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns for desktop */
-  gap: 20px; /* Space between grid items */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
 /* Grid Item */
@@ -832,9 +832,9 @@ section {
 
 /* Preview Image */
 .guide-preview-image {
-  width: 80px; /* Adjust size as needed */
-  height: 80px; /* Adjust size as needed */
-  margin-right: 15px;
+  width: 100px;/
+  height: 100px;
+  margin-right: 20px;
 }
 
 /* Preview Text */
