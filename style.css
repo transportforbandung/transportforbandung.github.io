@@ -388,10 +388,11 @@ p {
 .collapsible {
     width: 100%;
     max-width: 1100px;
+    margin-bottom: 10px;
 }
 
 .collapsible-bar {
-    background-color: grey;
+    background-color: white;
     padding: 10px;
     cursor: pointer;
     display: flex;
