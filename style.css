@@ -826,7 +826,7 @@ section {
 .guide-preview-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 50px 30px;
     justify-content: start;
     margin: 2rem 0 2rem;
     padding: 0;
@@ -854,6 +854,7 @@ section {
 /* Link */
 .guide-preview-link {
     font-size: 0.9rem;
+    color: #D9D9D9;
     text-decoration: none;
     font-weight: 600;
 }
