@@ -393,17 +393,17 @@ p {
 
 .collapsible-bar {
     background-color: white;
-    padding: 10px;
+    padding: 1rem 10px 1rem 10px;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 15px;
     transition: border-radius 0.3s ease;
 }
 
 .collapsible-bar.active {
-    border-radius: 5px 5px 0 0;
+    border-radius: 15px 15px 0 0;
 }
 
 .collapsible-content {
@@ -416,7 +416,8 @@ p {
 
 .collapsible-content.open {
     max-height: 2000px;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 15px 15px;
+    padding: 2rem 0;
 }
 
 .collapsible-bar-arrow {
