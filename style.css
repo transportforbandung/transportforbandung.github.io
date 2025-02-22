@@ -1115,7 +1115,7 @@ section {
     }
 
     .centered-content {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         padding: 20px;
         box-sizing: border-box;
@@ -1252,6 +1252,18 @@ section {
 
     .guide-preview-container {
         grid-template-columns: 1fr;
+    }
+
+    .guide-preview-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .guide-preview-image {
+        width: 60%;
+        height: 60%;
+        margin: 2rem 0 2rem;
     }
 
     .footer-container {
