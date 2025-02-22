@@ -848,13 +848,14 @@ section {
 
 /* Link */
 .guide-preview-link {
-  font-size: 0.9rem;
-  color: #007BFF;
-  text-decoration: none;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 .guide-preview-link:hover {
-  text-decoration: underline;
+    text-decoration: underline;
+    color: #00A64F;
 }
 
 /* Footer */
