@@ -384,6 +384,49 @@ p {
   display: block;
 }
 
+/* Collapsible bar */
+.collapsible {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+}
+
+.collapsible-bar {
+    background-color: grey;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    transition: border-radius 0.3s ease;
+}
+
+.collapsible-bar.active {
+    border-radius: 5px 5px 0 0;
+}
+
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, border-radius 0.3s ease;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+}
+
+.collapsible-content.open {
+    max-height: 200px; /* Adjust based on content */
+    border-radius: 0 0 5px 5px;
+}
+
+.collapsible-bar-arrow {
+    transition: transform 0.3s ease;
+}
+
+.collapsible-bar-arrow.rotate {
+    transform: rotate(180deg);
+}
+
+/* Icon */
 .icon-section {
   padding: 4rem 5%;
   text-align: center;
