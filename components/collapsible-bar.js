@@ -1,11 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const collapsibleBar = document.querySelector('.collapsible-bar');
-    const collapsibleContent = document.querySelector('.collapsible-content');
-    const arrow = document.querySelector('.arrow');
+    const collapsibleBars = document.querySelectorAll('.collapsible-bar');
 
-    collapsibleBar.addEventListener('click', function() {
-        collapsibleBar.classList.toggle('active');
-        collapsibleContent.classList.toggle('open');
-        arrow.classList.toggle('rotate');
+    collapsibleBars.forEach(bar => {
+        bar.addEventListener('click', function() {
+            const content = bar.nextElementSibling; // Get the corresponding content
+            const arrow = bar.querySelector('.collapsible-bar-arrow'); // Get the arrow inside the bar
+
+            bar.classList.toggle('active');
+            content.classList.toggle('open');
+            arrow.classList.toggle('rotate');
+        });
     });
 });
