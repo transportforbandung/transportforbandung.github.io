@@ -635,7 +635,7 @@ section {
     margin: 20px 0;
 }
 
-/* Slideshow container */
+/* Slideshow */
 .slideshow-container {
     position: relative;
     width: 100%; 
@@ -645,20 +645,17 @@ section {
     border: 2px solid #ccc; /* Optional: Add a border */
 }
 
-/* Slides wrapper */
 .slides {
     display: flex; /* Arrange slides horizontally */
     transition: transform 0.5s ease-in-out; /* Smooth slide transition */
 }
 
-/* Individual slide */
 .slide {
     width: 100%; /* Each slide takes up 100% of the container width */
     height: 100%;
     position: relative;
 }
 
-/* Slide image */
 .slide-image {
     width: 100%;
     height: 100%;
@@ -666,7 +663,6 @@ section {
     background-position: center; /* Center the image */
 }
 
-/* Caption */
 .caption {
     position: absolute;
     bottom: 0;
@@ -680,7 +676,6 @@ section {
     font-size: 18px; /* Font size */
 }
 
-/* Navigation arrows */
 .arrow {
     position: absolute;
     top: 50%; /* Center vertically */
@@ -704,6 +699,28 @@ section {
 
 .arrow:hover {
     background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
 }
 
 /* Blog */
