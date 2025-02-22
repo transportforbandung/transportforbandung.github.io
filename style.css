@@ -444,9 +444,13 @@ p {
 .icon-item {
     max-width: 300px;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     transition: transform 0.3s ease;
 }
+
 
 .icon-item:hover {
     transform: translateY(-5px);
@@ -480,12 +484,14 @@ p {
     width: 70px;
     margin: 0 auto;
     font-weight: 500;
+    text-align: center
 }
 
 .icon-caption-wide {
     width: 240px;
     margin: 0 auto;
     font-weight: 500;
+    text-align: center
 }
 
 /* Scroll */
