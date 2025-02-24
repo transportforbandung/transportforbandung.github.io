@@ -784,7 +784,7 @@ tr:hover {
 }
 
 .telegram-button {
-    width: 300px;
+    width: 400px;
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -792,15 +792,16 @@ tr:hover {
 }
 
 .telegram-button img {
-    width: 100%;
+    width: 40%;
     height: auto;
     display: block;
+    margin: auto;
+    padding-top: 30px;
 }
 
 .telegram-button .text {
-    padding: 15px;
+    padding: 15px 30px;
     text-align: center;
-    font-family: Arial, sans-serif;
     color: #333;
 }
 
