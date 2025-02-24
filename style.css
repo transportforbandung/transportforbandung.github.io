@@ -14,7 +14,6 @@ html {
 }
 :target {
     padding-top: 110px;
-    margin-top: -110px;
 }
 a {
     color: #00152B;
@@ -1100,7 +1099,6 @@ tr:hover {
 
     :target {
         padding-top: 90px;
-        margin-top: -90px;
     }
         
     .hamburger {
