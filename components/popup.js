@@ -1,7 +1,7 @@
 // Get the pop-up and link elements
 const popup = document.getElementById("popup");
 const popupLink = document.querySelector(".popup-link");
-const closeBtn = document.querySelector(".close-btn");
+const closeBtn = document.querySelector(".popup-close-button");
 
 // Open the pop-up when the link is clicked
 popupLink.addEventListener("click", function (e) {
