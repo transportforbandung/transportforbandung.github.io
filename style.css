@@ -754,14 +754,14 @@ tr:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    padding: 20px;
+    padding: 35px 10px 10px 10px;
     border-radius: 10px;
     text-align: center;
 }
 
 .popup-close-button {
     position: absolute;
-    top: 10px;
+    top: 0px;
     right: 15px;
     font-size: 24px;
     cursor: pointer;
@@ -773,8 +773,7 @@ tr:hover {
 }
 
 .popup-content img {
-    max-height: 100%;
-    width: 500px;
+    width: 300px;
     object-fit: contain;
     border-radius: 5px;
 }
