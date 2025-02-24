@@ -734,7 +734,7 @@ tr:hover {
 }
 
 .popup-link:hover {
-    background-color: #00A64F;
+    color: #00A64F;
 }
 
 .popup {
@@ -773,8 +773,9 @@ tr:hover {
 }
 
 .popup-content img {
-    max-width: 100%;
-    height: auto;
+    max-height: 100%;
+    width: 500px;
+    object-fit: contain;
     border-radius: 5px;
 }
 
