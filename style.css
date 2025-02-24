@@ -783,6 +783,27 @@ tr:hover {
     border-radius: 5px;
 }
 
+.telegram-button {
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.telegram-button img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.telegram-button .text {
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
 /* Blog */
 .blog-content {
     width: 50%;
