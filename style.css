@@ -13,7 +13,8 @@ html {
     scroll-behavior: smooth;
 }
 :target {
-    margin-top: 110px;
+    position: relative;
+    top: 110px;
 }
 a {
     color: #00152B;
@@ -1098,7 +1099,8 @@ tr:hover {
     font-size: 16px;
 
     :target {
-        padding-top: 90px;
+        position: relative;
+        top: 90px;
     }
         
     .hamburger {
