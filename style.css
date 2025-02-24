@@ -1208,6 +1208,10 @@ tr:hover {
         font-size: 24px; /* Better mobile readability */
     }
 
+    .scroll-indicator {
+        bottom: 150px;
+    }
+
     .mini-hero {
         flex-direction: column; /* Stack elements vertically */
         align-items: center;
