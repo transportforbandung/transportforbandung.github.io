@@ -19,6 +19,9 @@ html {
 a {
     text-decoration: none !important;
 }
+a:visited { 
+    text-decoration: none !important; 
+}
 .light {
     font-weight: 300;
 }
