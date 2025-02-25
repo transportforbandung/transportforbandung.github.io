@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let autoSlideInterval; // Variable for automatic slideshow
 
     // Dynamically set the width of the slides container
-    slides.style.width = `${totalSlides * 100}%`;
+    //slides.style.width = `${totalSlides * 100}%`;//
 
     // Function to move to a specific slide
     function goToSlide(slideIndex) {
