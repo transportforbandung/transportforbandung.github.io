@@ -1360,6 +1360,29 @@ tr:hover {
     .card-content {
         padding: 30px;
     }
+
+    .telegram-button {
+        width: 100px;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .telegram-button img {
+        width: 20%;
+        height: auto;
+        display: block;
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .telegram-button .text {
+        padding: 15px auto;
+        text-align: center;
+        color: #333;
+    }
+        
     .blog-content {
         width: 90%;
     }
