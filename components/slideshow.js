@@ -40,17 +40,24 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Event listeners for arrows
-    document.querySelector('.arrow.next').addEventListener('click', () => {
-        nextSlide();
-        stopAutoSlide(); // Stop auto-slide on manual navigation
-        startAutoSlide(); // Restart auto-slide after manual navigation
-    });
+    const nextButton = document.querySelector('.arrow.next');
+    const prevButton = document.querySelector('.arrow.prev');
 
-    document.querySelector('.arrow.prev').addEventListener('click', () => {
-        prevSlide();
-        stopAutoSlide(); // Stop auto-slide on manual navigation
-        startAutoSlide(); // Restart auto-slide after manual navigation
-    });
+    if (nextButton) {
+        nextButton.addEventListener('click', () => {
+            nextSlide();
+            stopAutoSlide(); // Stop auto-slide on manual navigation
+            startAutoSlide(); // Restart auto-slide after manual navigation
+        });
+    }
+
+    if (prevButton) {
+        prevButton.addEventListener('click', () => {
+            prevSlide();
+            stopAutoSlide(); // Stop auto-slide on manual navigation
+            startAutoSlide(); // Restart auto-slide after manual navigation
+        });
+    }
 
     // Start automatic slideshow on page load
     startAutoSlide();
