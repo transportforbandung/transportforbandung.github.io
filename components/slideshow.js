@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalSlides = document.querySelectorAll('.slide').length; // Total number of slides
     let autoSlideInterval; // Variable for automatic slideshow
 
+    // Dynamically set the width of the slides container
+    slides.style.width = `${totalSlides * 100}%`;
+
     // Function to move to a specific slide
     function goToSlide(slideIndex) {
         if (slideIndex < 0) {
