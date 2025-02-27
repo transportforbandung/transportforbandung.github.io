@@ -314,7 +314,7 @@ p {
 
 .mini-hero-img {
     flex: 0 0 500px;
-    height: 300px;
+    height: 200px;
     border-radius: 25px;
     overflow: hidden;
     border: 8px solid #FFFFFF;
@@ -789,14 +789,7 @@ tr:hover {
     border-radius: 5px;
 }
 
-.contact-us {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    justify-content: center;
-}
-
-.gram-button {
+.telegram-button {
     width: 500px;
     background-color: white;
     border-radius: 15px;
@@ -804,7 +797,7 @@ tr:hover {
     overflow: hidden;
 }
 
-.gram-button img {
+.telegram-button img {
     width: 20%;
     height: auto;
     display: block;
@@ -812,7 +805,7 @@ tr:hover {
     padding-top: 30px;
 }
 
-.gram-button .text {
+.telegram-button .text {
     padding: 15px 30px;
     text-align: center;
     color: #333;
@@ -1235,15 +1228,10 @@ tr:hover {
     }
     
     .hero {
-        height: 60vh;
+        height: calc(100vh - 90px);
         min-height: 200px;
-        align-items: start;
     }
-
-    .hero-overlay {
-        margin: 40px 0;
-    }
-        
+    
     .hero-content {
         width: 100%;
     }
@@ -1264,6 +1252,10 @@ tr:hover {
         font-size: 24px; /* Better mobile readability */
     }
 
+    .scroll-indicator {
+        bottom: 150px;
+    }
+
     .mini-hero {
         flex-direction: column; /* Stack elements vertically */
         align-items: center;
@@ -1275,7 +1267,6 @@ tr:hover {
         flex: 0 0 auto; 
         width: 100%; 
         max-width: 400px;  
-        height: 200px;
         margin-top: 10px;
         box-sizing: border-box;
     }
@@ -1386,20 +1377,13 @@ tr:hover {
         padding: 30px;
     }
 
-    .gram-button {
+    .telegram-button {
         width: 100px;
         background-color: white;
         border-radius: 15px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         overflow: hidden;
     }
-
-    .contact-us {
-        gap: 30px;
-    }
-
-    .telegram-button {
-        width: 100%;
 
     .telegram-button img {
         width: 20%;
