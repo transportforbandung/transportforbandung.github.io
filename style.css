@@ -1171,7 +1171,8 @@ tr:hover {
     .nav-links {
         position: fixed;
         top: 90px;
-        width: 100%;
+        right: -100%;
+        width: 100vp;
         height: calc(100vh - 110px);
         background-color: #fff;
         transition: right 0.3s ease;
