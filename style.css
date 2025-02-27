@@ -1235,10 +1235,15 @@ tr:hover {
     }
     
     .hero {
-        height: calc(100vh - 90px);
+        height: 55vh;
         min-height: 200px;
+        align-items: start;
     }
-    
+
+    .hero-overlay {
+        margin: 40px 0;
+    }
+        
     .hero-content {
         width: 100%;
     }
@@ -1257,10 +1262,6 @@ tr:hover {
     .hero-content h1,
     .hero-content p {
         font-size: 24px; /* Better mobile readability */
-    }
-
-    .scroll-indicator {
-        bottom: 150px;
     }
 
     .mini-hero {
