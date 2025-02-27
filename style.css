@@ -789,6 +789,13 @@ tr:hover {
     border-radius: 5px;
 }
 
+.contant-us {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
 .telegram-button {
     width: 500px;
     background-color: white;
@@ -1377,8 +1384,16 @@ tr:hover {
         padding: 30px;
     }
 
+    .contact-us {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
     .telegram-button {
-        width: 100px;
+        width: 100%;
         background-color: white;
         border-radius: 15px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
