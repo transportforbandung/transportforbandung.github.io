@@ -1,3 +1,4 @@
+// route-map.js
 // Function to fetch and display a specific route
 function displayRoute(relationId, displayType, routeColor) {
     // Ensure routeLayer is cleared before adding new data
@@ -8,6 +9,7 @@ function displayRoute(relationId, displayType, routeColor) {
         [out:json];
         relation(${relationId});
         (way(r);>;);
+        out geom;
         node(r:"stop");
         out geom;
     `;
@@ -37,7 +39,7 @@ function displayRoute(relationId, displayType, routeColor) {
                 }).addTo(routeLayer);
             });
 
-            // Draw stop nodes (if enabled)
+            // Draw stop nodes
             if (displayType === "ways_with_points") {
                 stopNodes.forEach(node => {
                     L.circleMarker([node.lat, node.lon], {
