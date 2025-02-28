@@ -27,23 +27,26 @@ function initMap() {
         fullscreenElement: false // Use the entire map container for fullscreen
     }).addTo(map);
 
-    // Customize the fullscreen button with local SVG icons
-    const fullscreenButton = document.querySelector('.leaflet-control-fullscreen a');
-    if (fullscreenButton) {
-        // Set the initial icon (enter fullscreen)
-        fullscreenButton.innerHTML = '<img src="https://transportforbandung.org/assets/fullscreen-enter.svg" alt="Enter Fullscreen" class="fullscreen-icon">';
-
-        // Update the icon when the fullscreen state changes
-        map.on('enterFullscreen', () => {
-            fullscreenButton.innerHTML = '<img src="https://transportforbandung.org/assets/fullscreen-exit.svg" alt="Exit Fullscreen" class="fullscreen-icon">';
-        });
-
-        map.on('exitFullscreen', () => {
+    // Wait for the DOM to update before querying the button
+    setTimeout(() => {
+        // Customize the fullscreen button with local SVG icons
+        const fullscreenButton = document.querySelector('a.leaflet-control-zoom-fullscreen.fullscreen-icon');
+        if (fullscreenButton) {
+            // Set the initial icon (enter fullscreen)
             fullscreenButton.innerHTML = '<img src="https://transportforbandung.org/assets/fullscreen-enter.svg" alt="Enter Fullscreen" class="fullscreen-icon">';
-        });
-    } else {
-        console.error('Fullscreen button not found!');
-    }
+
+            // Update the icon when the fullscreen state changes
+            map.on('enterFullscreen', () => {
+                fullscreenButton.innerHTML = '<img src="https://transportforbandung.org/assets/fullscreen-exit.svg" alt="Exit Fullscreen" class="fullscreen-icon">';
+            });
+
+            map.on('exitFullscreen', () => {
+                fullscreenButton.innerHTML = '<img src="https://transportforbandung.org/assets/fullscreen-enter.svg" alt="Enter Fullscreen" class="fullscreen-icon">';
+            });
+        } else {
+            console.error('Fullscreen button not found!');
+        }
+    }, 100); // Small delay to ensure the DOM is updated
 }
 
 // Initialize the map when the DOM is fully loaded
