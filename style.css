@@ -1084,6 +1084,20 @@ tr:hover {
     height: 16px;
 }
 
+.map-dropdown-header {
+    font-weight: bold;
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+    margin-top: 10px;
+    pointer-events: none;
+    cursor: default;
+}
+
+/* Style for regular options */
+#routeSelector option:not(.map-dropdown-header) {
+    padding: 8px 12px;
+}
+
 /* Footer */
 .footer {
     background-color: #00A64F;
