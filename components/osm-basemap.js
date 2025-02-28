@@ -15,6 +15,13 @@ function initMap() {
 
     // Initialize routeLayer and add it to the map
     routeLayer = L.layerGroup().addTo(map);
+
+    // Add full-screen control
+    L.control.fullscreen({
+        position: 'topleft', // Position the button next to zoom controls
+        title: 'Toggle Fullscreen', // Tooltip text
+        forceSeparateButton: true // Ensure it's a separate button
+    }).addTo(map);
 }
 
 // Initialize the map when page loads
