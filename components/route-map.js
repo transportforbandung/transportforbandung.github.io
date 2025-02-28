@@ -5,12 +5,8 @@ function displayRoute(relationId, displayType, routeColor) {
 
     const query = `
         [out:json][timeout:25];
-        relation(id:${relationId});
-        (
-          way(r);
-          node(r:"stop");
-        );
-        out geom;
+        relation(id:14270173);
+        out body;
         >;
         out skel qt;
     `;
@@ -25,7 +21,7 @@ function displayRoute(relationId, displayType, routeColor) {
             data.elements.forEach(element => {
                 if (element.type === "way" && element.geometry) {
                     ways.push(element);
-                } else if (element.type === "node" && element.tags?.public_transport === "stop") {
+                } else if (element.type === "node" && element.role === "stop") {
                     stopNodes.push(element);
                 }
             });
