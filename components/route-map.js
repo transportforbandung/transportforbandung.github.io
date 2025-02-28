@@ -17,6 +17,12 @@ function displayRoute(relationId, displayType, routeColor) {
         relation(${relationId});
         node(r:"stop");
         out geom;
+        relation(${relationId});
+        node(r:"stop_entry_only");
+        out geom;
+        relation(${relationId});
+        node(r:"stop_exit_only");
+        out geom;
     `;
 
     // Fetch ways
