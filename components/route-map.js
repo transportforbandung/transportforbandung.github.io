@@ -4,13 +4,13 @@ function displayRoute(relationId, displayType, routeColor) {
     // Ensure routeLayer is cleared before adding new data
     routeLayer.clearLayers();
 
-    // Overpass query to fetch relation, ways, and platform nodes
+    // Overpass query to fetch relation, ways, and stop nodes
     const query = `
         [out:json];
         relation(${relationId});
         (way(r);>;);
         out geom;
-        node(r:"platform");
+        node(r:"stop");
         out geom;
     `;
 
@@ -18,15 +18,15 @@ function displayRoute(relationId, displayType, routeColor) {
         .then(response => response.json())
         .then(data => {
             const ways = [];
-            const platformNodes = [];
+            const stopNodes = [];
 
-            // Separate ways and platform nodes
+            // Separate ways and stop nodes
             data.elements.forEach(element => {
                 if (element.type === "way" && element.geometry) {
                     ways.push(element);
                 }
-                if (element.type === "node" && element.tags && element.tags.public_transport === "platform") {
-                    platformNodes.push(element);
+                if (element.type === "node" && element.tags && element.tags.public_transport === "stop") {
+                    stopNodes.push(element);
                 }
             });
 
@@ -39,9 +39,9 @@ function displayRoute(relationId, displayType, routeColor) {
                 }).addTo(routeLayer);
             });
 
-            // Draw platform nodes (if enabled)
+            // Draw stop nodes
             if (displayType === "ways_with_points") {
-                platformNodes.forEach(node => {
+                stopNodes.forEach(node => {
                     L.circleMarker([node.lat, node.lon], {
                         radius: 5,
                         color: routeColor,
