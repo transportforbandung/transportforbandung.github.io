@@ -1,17 +1,18 @@
 // route-map.js
 // Function to fetch and display a specific route
 function displayRoute(relationId, displayType, routeColor) {
-    // Ensure routeLayer is cleared before adding new data
     routeLayer.clearLayers();
 
-    // Overpass query to fetch relation, ways, and stop nodes
     const query = `
-        [out:json];
-        relation(${relationId});
-        (way(r);>;);
+        [out:json][timeout:25];
+        relation(id:${relationId});
+        (
+          way(r);
+          node(r:"stop");
+        );
         out geom;
-        node(r:"stop");
-        out geom;
+        >;
+        out skel qt;
     `;
 
     fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(query)}`)
@@ -24,22 +25,20 @@ function displayRoute(relationId, displayType, routeColor) {
             data.elements.forEach(element => {
                 if (element.type === "way" && element.geometry) {
                     ways.push(element);
-                }
-                if (element.type === "node" && element.tags && element.tags.public_transport === "stop") {
+                } else if (element.type === "node" && element.tags?.public_transport === "stop") {
                     stopNodes.push(element);
                 }
             });
 
             // Draw ways
             ways.forEach(way => {
-                const coords = way.geometry.map(p => [p.lat, p.lon]);
-                L.polyline(coords, {
-                    color: routeColor,
-                    weight: 4
-                }).addTo(routeLayer);
+                L.polyline(
+                    way.geometry.map(p => [p.lat, p.lon]),
+                    { color: routeColor, weight: 4 }
+                ).addTo(routeLayer);
             });
 
-            // Draw stop nodes
+            // Draw stop nodes (if enabled)
             if (displayType === "ways_with_points") {
                 stopNodes.forEach(node => {
                     L.circleMarker([node.lat, node.lon], {
