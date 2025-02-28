@@ -1,32 +1,34 @@
-// route-map.js
 // Function to fetch and display a specific route
 function displayRoute(relationId, displayType, routeColor) {
     // Ensure routeLayer is cleared before adding new data
     routeLayer.clearLayers();
 
-    // Overpass query to fetch relation, ways, and platform nodes
-    const query = `
+    // Overpass query to fetch ways
+    const queryWay = `
         [out:json];
         relation(${relationId});
         (way(r);>;);
         out geom;
-        node(r:"platform");
+    `;
+
+    // Overpass query to fetch stop nodes
+    const queryStop = `
+        [out:json];
+        relation(${relationId});
+        node(r:"stop");
         out geom;
     `;
 
-    fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(query)}`)
+    // Fetch ways
+    fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(queryWay)}`)
         .then(response => response.json())
         .then(data => {
             const ways = [];
-            const platformNodes = [];
 
-            // Separate ways and platform nodes
+            // Extract ways
             data.elements.forEach(element => {
                 if (element.type === "way" && element.geometry) {
                     ways.push(element);
-                }
-                if (element.type === "node" && element.tags && element.tags.public_transport === "platform") {
-                    platformNodes.push(element);
                 }
             });
 
@@ -39,19 +41,34 @@ function displayRoute(relationId, displayType, routeColor) {
                 }).addTo(routeLayer);
             });
 
-            // Draw platform nodes (if enabled)
-            if (displayType === "ways_with_points") {
-                platformNodes.forEach(node => {
-                    L.circleMarker([node.lat, node.lon], {
-                        radius: 5,
-                        color: routeColor,
-                        fillColor: "#ffffff",
-                        fillOpacity: 1
-                    }).addTo(routeLayer);
-                });
-            }
+            // Fetch stop nodes after ways are drawn
+            fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(queryStop)}`)
+                .then(response => response.json())
+                .then(data => {
+                    const stopNodes = [];
+
+                    // Extract stop nodes
+                    data.elements.forEach(element => {
+                        if (element.type === "node") {
+                            stopNodes.push(element);
+                        }
+                    });
+
+                    // Draw stop nodes (if enabled)
+                    if (displayType === "ways_with_points") {
+                        stopNodes.forEach(node => {
+                            L.circleMarker([node.lat, node.lon], {
+                                radius: 5,
+                                color: routeColor,
+                                fillColor: "#ffffff",
+                                fillOpacity: 1
+                            }).addTo(routeLayer);
+                        });
+                    }
+                })
+                .catch(error => console.error("Error fetching stop nodes:", error));
         })
-        .catch(error => console.error("Error fetching data:", error));
+        .catch(error => console.error("Error fetching ways:", error));
 }
 
 // Event listener for dropdown
