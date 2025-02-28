@@ -63,12 +63,21 @@ function displayRoute(relationId, displayType, routeColor) {
                     // Draw stop nodes (if enabled)
                     if (displayType === "ways_with_points") {
                         stopNodes.forEach(node => {
-                            L.circleMarker([node.lat, node.lon], {
+                            // Create a circle marker for the node
+                            const marker = L.circleMarker([node.lat, node.lon], {
                                 radius: 5,
                                 color: routeColor,
                                 fillColor: "#ffffff",
                                 fillOpacity: 1
                             }).addTo(routeLayer);
+
+                            // Add a popup with the node's name (if available)
+                            if (node.tags?.name) {
+                                marker.bindPopup(node.tags.name); // Bind the name as a popup
+                            } else {
+                                marker.bindPopup("Unnamed Stop"); // Default text if no name is available
+                            }
+
                         });
                     }
                 })
