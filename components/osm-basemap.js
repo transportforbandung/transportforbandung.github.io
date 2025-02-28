@@ -19,9 +19,27 @@ function initMap() {
     // Add full-screen control
     L.control.fullscreen({
         position: 'topleft', // Position the button next to zoom controls
-        title: 'Toggle Fullscreen', // Tooltip text
-        forceSeparateButton: true // Ensure it's a separate button
-    }).addTo(map);
+        title: {
+            false: 'Layar Penuh', // Tooltip for entering fullscreen
+            true: 'Keluar Layar Penuh' // Tooltip for exiting fullscreen
+                },
+        forceSeparateButton: true, // Ensure it's a separate button
+        fullscreenElement: false // Use the entire map container for fullscreen
+    ).addTo(map);
+    
+    // Customize the fullscreen button with SVG icons
+    const fullscreenControl = document.querySelector('.leaflet-control-fullscreen a');
+    if (fullscreenControl) {
+        // Set the initial icon (enter fullscreen)
+        fullscreenControl.innerHTML = '<img src="/assets/fullscreen-enter.svg" alt="Enter Fullscreen" style="width: 16px; height: 16px;">';
+        // Update the icon when the fullscreen state changes
+        map.on('enterFullscreen', () => {
+            fullscreenControl.innerHTML = '<img src="/assets/fullscreen-exit.svg" alt="Exit Fullscreen" style="width: 16px; height: 16px;">';
+        });
+        map.on('exitFullscreen', () => {
+            fullscreenControl.innerHTML = '<img src="/assets/fullscreen-enter.svg" alt="Enter Fullscreen" style="width: 16px; height: 16px;">';
+        });
+    }
 }
 
 // Initialize the map when page loads
