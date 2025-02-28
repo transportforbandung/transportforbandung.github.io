@@ -1,13 +1,16 @@
 // route-map.js
 // Function to fetch and display a specific route
 function displayRoute(relationId, displayType, routeColor) {
+    // Ensure routeLayer is cleared before adding new data
     routeLayer.clearLayers();
 
+    // Overpass query to fetch relation, ways, and platform nodes
     const query = `
-        relation(14270173);
+        [out:json];
+        relation(${relationId});
         (way(r);>;);
         out geom;
-        node(r:"stop");
+        node(r:"platform");
         out geom;
     `;
 
@@ -15,28 +18,30 @@ function displayRoute(relationId, displayType, routeColor) {
         .then(response => response.json())
         .then(data => {
             const ways = [];
-            const stopNodes = [];
+            const platformNodes = [];
 
-            // Separate ways and stop nodes
+            // Separate ways and platform nodes
             data.elements.forEach(element => {
                 if (element.type === "way" && element.geometry) {
                     ways.push(element);
-                } else if (element.type === "node" && element.role === "stop") {
-                    stopNodes.push(element);
+                }
+                if (element.type === "node" && element.tags && element.tags.public_transport === "platform") {
+                    platformNodes.push(element);
                 }
             });
 
             // Draw ways
             ways.forEach(way => {
-                L.polyline(
-                    way.geometry.map(p => [p.lat, p.lon]),
-                    { color: routeColor, weight: 4 }
-                ).addTo(routeLayer);
+                const coords = way.geometry.map(p => [p.lat, p.lon]);
+                L.polyline(coords, {
+                    color: routeColor,
+                    weight: 4
+                }).addTo(routeLayer);
             });
 
-            // Draw stop nodes (if enabled)
+            // Draw platform nodes (if enabled)
             if (displayType === "ways_with_points") {
-                stopNodes.forEach(node => {
+                platformNodes.forEach(node => {
                     L.circleMarker([node.lat, node.lon], {
                         radius: 5,
                         color: routeColor,
