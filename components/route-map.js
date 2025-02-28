@@ -1,6 +1,4 @@
-// Layer group for public transport routes
-const routeLayer = L.layerGroup().addTo(map);
-
+// route-map.js
 // Function to fetch and display a specific route
 function displayRoute(relationId, displayType, routeColor) {
     routeLayer.clearLayers();
