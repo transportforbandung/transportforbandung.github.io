@@ -1,3 +1,7 @@
+// osm-basemap.js
+let map; // Declare map globally
+const routeLayer = L.layerGroup(); // Declare routeLayer globally
+
 // Initialize the map
 function initMap() {
     // Create map
