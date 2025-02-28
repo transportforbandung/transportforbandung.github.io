@@ -17,30 +17,34 @@ function initMap() {
     routeLayer = L.layerGroup().addTo(map);
 
     // Add full-screen control
-    L.control.fullscreen({
+    const fullscreenControl = L.control.fullscreen({
         position: 'topleft', // Position the button next to zoom controls
         title: {
             false: 'Layar Penuh', // Tooltip for entering fullscreen
             true: 'Keluar Layar Penuh' // Tooltip for exiting fullscreen
-                },
+        },
         forceSeparateButton: true, // Ensure it's a separate button
         fullscreenElement: false // Use the entire map container for fullscreen
     }).addTo(map);
-    
+
     // Customize the fullscreen button with SVG icons
-    const fullscreenControl = document.querySelector('.leaflet-control-fullscreen a');
-    if (fullscreenControl) {
+    const fullscreenButton = document.querySelector('.leaflet-control-fullscreen a');
+    if (fullscreenButton) {
         // Set the initial icon (enter fullscreen)
-        fullscreenControl.innerHTML = '<img src="/assets/fullscreen-enter.svg" alt="Enter Fullscreen" style="width: 16px; height: 16px;">';
+        fullscreenButton.innerHTML = '<img src="/assets/fullscreen-enter.svg" alt="Enter Fullscreen" style="width: 16px; height: 16px;">';
+
         // Update the icon when the fullscreen state changes
         map.on('enterFullscreen', () => {
-            fullscreenControl.innerHTML = '<img src="/assets/fullscreen-exit.svg" alt="Exit Fullscreen" style="width: 16px; height: 16px;">';
+            fullscreenButton.innerHTML = '<img src="/assets/fullscreen-exit.svg" alt="Exit Fullscreen" style="width: 16px; height: 16px;">';
         });
+
         map.on('exitFullscreen', () => {
-            fullscreenControl.innerHTML = '<img src="/assets/fullscreen-enter.svg" alt="Enter Fullscreen" style="width: 16px; height: 16px;">';
+            fullscreenButton.innerHTML = '<img src="/assets/fullscreen-enter.svg" alt="Enter Fullscreen" style="width: 16px; height: 16px;">';
         });
+    } else {
+        console.error('Fullscreen button not found!');
     }
 }
 
-// Initialize the map when page loads
-window.onload = initMap;
+// Initialize the map when the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', initMap);
