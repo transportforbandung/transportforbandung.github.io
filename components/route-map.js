@@ -1,6 +1,7 @@
 // route-map.js
 // Function to fetch and display a specific route
 function displayRoute(relationId, displayType, routeColor) {
+    // Ensure routeLayer is cleared before adding new data
     routeLayer.clearLayers();
 
     // Overpass query to fetch relation, ways, and platform nodes
