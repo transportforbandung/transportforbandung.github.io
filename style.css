@@ -1062,6 +1062,16 @@ tr:hover {
     min-width: 200px;
 }
 
+.leaflet-control-fullscreen a {
+    font-family: 'FontAwesome';
+}
+.leaflet-control-fullscreen a::before {
+    content: "\f065";
+}
+.leaflet-control-fullscreen a.leaflet-fullscreen-on::before {
+    content: "\f066";
+}
+
 /* Footer */
 .footer {
     background-color: #00A64F;
