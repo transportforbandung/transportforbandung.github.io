@@ -1062,13 +1062,19 @@ tr:hover {
     min-width: 200px;
 }
 
-.leaflet-control-fullscreen a {
-    font-family: 'FontAwesome';
+/* Leaflet fullscreen */
+.leaflet-control-zoom-fullscreen a {
+    font-family: 'FontAwesome'; /* Use FontAwesome for icons */
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
 }
-.leaflet-control-fullscreen a::before {
+
+.leaflet-control-zoom-fullscreen a::before {
     content: "\f065";
 }
-.leaflet-control-fullscreen a.leaflet-fullscreen-on::before {
+
+.leaflet-control-zoom-fullscreen a.fullscreen-icon::before {
     content: "\f066";
 }
 
