@@ -1063,7 +1063,7 @@ tr:hover {
 }
 
 /* Leaflet fullscreen */
-.leaflet-control-fullscreen a {
+.leaflet-control-zoom-fullscreen.fullscreen-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1075,11 +1075,11 @@ tr:hover {
     transition: background-color 0.3s ease;
 }
 
-.leaflet-control-fullscreen a:hover {
+.leaflet-control-zoom-fullscreen.fullscreen-icon:hover {
     background-color: #f4f4f4;
 }
 
-.leaflet-control-fullscreen a img {
+.leaflet-control-zoom-fullscreen.fullscreen-icon img {
     width: 16px;
     height: 16px;
 }
