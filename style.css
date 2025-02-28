@@ -1063,19 +1063,25 @@ tr:hover {
 }
 
 /* Leaflet fullscreen */
-.leaflet-control-zoom-fullscreen a {
-    font-family: 'FontAwesome'; /* Use FontAwesome for icons */
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
+.leaflet-control-fullscreen a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease;
 }
 
-.leaflet-control-zoom-fullscreen a::before {
-    content: "\f065";
+.leaflet-control-fullscreen a:hover {
+    background-color: #f4f4f4;
 }
 
-.leaflet-control-zoom-fullscreen a.fullscreen-icon::before {
-    content: "\f066";
+.leaflet-control-fullscreen a img {
+    width: 16px;
+    height: 16px;
 }
 
 /* Footer */
