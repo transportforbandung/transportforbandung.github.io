@@ -25,7 +25,7 @@ function initMap() {
                 },
         forceSeparateButton: true, // Ensure it's a separate button
         fullscreenElement: false // Use the entire map container for fullscreen
-    ).addTo(map);
+    }).addTo(map);
     
     // Customize the fullscreen button with SVG icons
     const fullscreenControl = document.querySelector('.leaflet-control-fullscreen a');
