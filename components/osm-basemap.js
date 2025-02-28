@@ -31,15 +31,15 @@ function initMap() {
     const fullscreenButton = document.querySelector('.leaflet-control-fullscreen a');
     if (fullscreenButton) {
         // Set the initial icon (enter fullscreen)
-        fullscreenButton.innerHTML = '<img src="./assets/fullscreen-enter.svg" alt="Enter Fullscreen" class="fullscreen-icon">';
+        fullscreenButton.innerHTML = '<img src="https://transportforbandung.org/assets/fullscreen-enter.svg" alt="Enter Fullscreen" class="fullscreen-icon">';
 
         // Update the icon when the fullscreen state changes
         map.on('enterFullscreen', () => {
-            fullscreenButton.innerHTML = '<img src="./assets/fullscreen-exit.svg" alt="Exit Fullscreen" class="fullscreen-icon">';
+            fullscreenButton.innerHTML = '<img src="https://transportforbandung.org/assets/fullscreen-exit.svg" alt="Exit Fullscreen" class="fullscreen-icon">';
         });
 
         map.on('exitFullscreen', () => {
-            fullscreenButton.innerHTML = '<img src="./assets/fullscreen-enter.svg" alt="Enter Fullscreen" class="fullscreen-icon">';
+            fullscreenButton.innerHTML = '<img src="https://transportforbandung.org/assets/fullscreen-enter.svg" alt="Enter Fullscreen" class="fullscreen-icon">';
         });
     } else {
         console.error('Fullscreen button not found!');
