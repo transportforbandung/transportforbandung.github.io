@@ -1487,8 +1487,17 @@ tr:hover {
     }
 
     .map-container {
-        height: 300px;
-        margin: 10px;
+        height: 500px;
+        margin: 10px auto;
+        max-width: 100%;
+    }
+
+    .map-dropdown {
+        max-width: 60%;
+    }
+
+    #route-selector {
+        max-width: 100%;
     }
 
     .footer-container {
