@@ -4,11 +4,11 @@ function displayRoute(relationId, displayType, routeColor) {
     routeLayer.clearLayers();
 
     const query = `
-        [out:json][timeout:25];
-        relation(id:${relationId});
-        out body;
-        >;
-        out skel qt;
+        relation(14270173);
+        (way(r);>;);
+        out geom;
+        node(r:"stop");
+        out geom;
     `;
 
     fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(query)}`)
