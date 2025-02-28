@@ -89,7 +89,13 @@ function displayRoute(relationId, displayType, routeColor) {
 // Event listener for dropdown
 document.getElementById("routeSelector").addEventListener("change", (e) => {
     const selectedOption = e.target.options[e.target.selectedIndex];
-    if (!selectedOption.value) return;
+
+    // Check if the selected option is a header (no data-relation-id)
+    if (!selectedOption.dataset.relationId) {
+        // Reset the dropdown to the default option ("Pilih Rute")
+        e.target.selectedIndex = 0;
+        return; // Exit the function
+    }
 
     const relationId = selectedOption.dataset.relationId;
     const displayType = selectedOption.dataset.displayType;
