@@ -1045,6 +1045,22 @@ tr:hover {
     height: 100%;
 }
 
+.map-dropdown {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#routeSelector {
+    padding: 5px;
+    min-width: 200px;
+}
+
 /* Footer */
 .footer {
     background-color: #00A64F;
@@ -1431,6 +1447,11 @@ tr:hover {
         width: 60%;
         height: 60%;
         margin: 2rem 0 2rem;
+    }
+
+    .map-container {
+        height: 300px;
+        margin: 10px;
     }
 
     .footer-container {
