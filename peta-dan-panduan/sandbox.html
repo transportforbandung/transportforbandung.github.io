@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panduan Angkot Bandung Raya</title>
+    <meta name="description" content="Kenali, pahami, dan gunakan moda transportasi angkot di Bandung Raya">
+    <meta name="author" content="Transport for Bandung">
+    <meta name="keywords" content="transportasi umum, bandung, angkot, angkutan kota, transport for bandung">
+    <link rel="canonical" href="https://transportforbandung.org/peta-dan-panduan/angkot">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Panduan Angkot di Bandung Raya">
+    <meta property="og:description" content="Kenali, pahami, dan gunakan moda transportasi angkot di Bandung Raya">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Transport For Bandung">
+    <meta property="og:image" content="https://transportforbandung.org/assets/peta-fdtb-snippet.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="A preview of Greater Bandung mass transit map">
+    <meta property="og:url" content="https://transportforbandung.org/peta-dan-panduan/angkot">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Panduan Angkot di Bandung Raya">
+    <meta name="twitter:description" content="Kenali, pahami, dan gunakan moda transportasi angkot di Bandung Raya">
+    <meta name="twitter:image" content="https://transportforbandung.org/assets/peta-fdtb-snippet.png">
+    <link rel="icon" href="/assets/TfB-logo-green-white-background.svg">
+    <meta name="theme-color" content="#00A64F">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/2.4.0/Control.FullScreen.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="../style.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MNSZN2RKR0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MNSZN2RKR0');
+</script>
+<body>
+    <!-- Navbar -->
+    <div id="header"></div>
+    <div class="map-container">
+        <div id="map"></div>
+        <div class="map-dropdown">
+            <select id="routeSelector">
+                <option value="">Pilih Rute</option>
+                <option value=""><b>Kereta Api Perkotaan</b></option>
+                <option data-relation-id="17077466" data-display-type="ways_with_points" data-route-color="#2D398B">Commuter Line Bandung Raya: Padalarang → Cicalengka</option>
+                <option data-relation-id="17077467" data-display-type="ways_with_points" data-route-color="#2D398B">Commuter Line Bandung Raya: Cicalengka → Padalarang</option>
+                <option data-relation-id="4626672" data-display-type="ways_with_points" data-route-color="#2D398B">Commuter Line Bandung Raya: Cicalengka → Purwakarta</option>
+                <option data-relation-id="15534571" data-display-type="ways_with_points" data-route-color="#1C75BC">Commuter Line Garut: Purwakarta → Garut</option>
+                <option data-relation-id="17545520" data-display-type="ways_with_points" data-route-color="#1C75BC">Commuter Line Garut: Garut → Purwakarta</option>
+                <option value="">Metro Jabar Trans</option>
+                <option data-relation-id="14365267" data-display-type="ways_with_points" data-route-color="#00A64F">Koridor 1: Leuwipanjang → Soreang</option>
+                <option data-relation-id="18765871" data-display-type="ways_with_points" data-route-color="#00A64F">Koridor 1: Soreang → Leuwipanjang</option>
+                <option data-relation-id="18766205" data-display-type="ways_with_points" data-route-color="#ED1C24">Koridor 2: Kota Baru Parahyangan → Alun-alun Bandung</option>
+                <option data-relation-id="18766206" data-display-type="ways_with_points" data-route-color="#ED1C24">Koridor 2: Alun-Alun Bandung → Kota Baru Parahyangan</option>
+                <option data-relation-id="15660998" data-display-type="ways_with_points" data-route-color="#EC008C">Koridor 5: Dipatiukur → Jatinangor</option>
+                <option data-relation-id="14364569" data-display-type="ways_with_points" data-route-color="#EC008C">Koridor 5: Jatinangor → Dipatiukur</option>
+                <option value="">Trans Metro Bandung</option>
+                <option data-relation-id="15520324" data-display-type="ways" data-route-color="#2E3192">Koridor 2: Cicaheum → Cibeureum</option>
+                <option data-relation-id="17329177" data-display-type="ways" data-route-color="#2E3192">Koridor 2: Cibeureum → Cicaheum</option>
+                <option value="">Angkot</option>
+                <option data-relation-id="3415464" data-display-type="ways" data-route-color="#FFF200">01A: Abdul Muis → Cicaheum via Binong</option>
+                <option data-relation-id="4635390" data-display-type="ways" data-route-color="#FFF200">01A: Cicaheum → Abdul Muis via Binong</option>
+                <option data-relation-id="4636155" data-display-type="ways" data-route-color="#BE1E2D">01B: Abdul Muis → Cicaheum via Aceh</option>
+                <option data-relation-id="4635842" data-display-type="ways" data-route-color="#BE1E2D">01B: Cicaheum → Abdul Muis via Aceh</option>
+                <option data-relation-id="4643111" data-display-type="ways" data-route-color="#BE1E2D">02: Abdul Muis → Dago</option>
+                <option data-relation-id="4643109" data-display-type="ways" data-route-color="#BE1E2D">02: Dago → Abdul Muis</option>
+                
+            </select>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div id="footer"></div>
+    
+    <!--Javascript for hamburger nav and fetch-->
+    <script src="../components/fetch-script.js"></script>
+    <script src="../components/main.js"></script>
+    <script src="../components/hamburger.js"></script>
+    <script src="../components/popup.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/2.4.0/Control.FullScreen.min.js"></script>
+    <script src="../components/osm-basemap.js"></script>
+    <script src="../components/route-map.js"></script>
+</body>
+</html>
