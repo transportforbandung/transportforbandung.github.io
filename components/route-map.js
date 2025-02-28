@@ -5,7 +5,7 @@ function displayRoute(relationId, displayType, routeColor) {
 
     const query = `
         [out:json][timeout:25];
-        relation(id:14270173);
+        relation(id:${relationId});
         out body;
         >;
         out skel qt;
