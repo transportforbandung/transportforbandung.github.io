@@ -1547,7 +1547,7 @@ tr:hover {
 
     .map-container {
         flex-direction: column; /* Stack map and menu vertically */
-        height: auto; /* Allow container to grow in height */
+        overflow: hidden; /* Allow container to grow in height */
     }
 
     #map {
@@ -1557,10 +1557,14 @@ tr:hover {
     .map-checkbox-menu {
         position: static; /* Reset absolute positioning */
         width: 100%; /* Full width for the menu */
-        height: auto; /* Allow menu to grow in height */
+        height: 200px; /* Allow menu to grow in height */
         border-left: none; /* Remove left border */
         border-top: 2px solid #ddd; /* Add top border as a separator */
         margin-top: 10px; /* Add some spacing between map and menu */
+    }
+
+    .route-header {
+        max-width: 85%;
     }
 
     .leaflet-container:-webkit-full-screen .map-checkbox-menu,
