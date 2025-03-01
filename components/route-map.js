@@ -14,6 +14,17 @@ function fetchRouteData(relationId, displayType, routeColor) {
             out geom;
         `;
 
+        // Overpass query to fetch end stop nodes
+        const queryEndStop = `
+            [out:json];
+            relation(${relationId});
+            node(r:"stop_entry_only");
+            out geom;
+            relation(${relationId});
+            node(r:"stop_exit_only");
+            out geom;
+        `;
+
         // Overpass query to fetch stop nodes
         const queryStop = `
             [out:json];
@@ -65,6 +76,43 @@ function fetchRouteData(relationId, displayType, routeColor) {
 
                         // Draw stop nodes (if enabled)
                         if (displayType === "ways_with_points") {
+                            stopNodes.forEach(node => {
+                                // Create a circle marker for the node
+                                const marker = L.circleMarker([node.lat, node.lon], {
+                                    radius: 5,
+                                    color: routeColor,
+                                    fillColor: "#ffffff",
+                                    fillOpacity: 1
+                                }).addTo(layerGroup);
+
+                                // Add a popup with the node's name (if available)
+                                if (node.tags?.name) {
+                                    marker.bindPopup(node.tags.name); // Bind the name as a popup
+                                } else {
+                                    marker.bindPopup("Unnamed Stop"); // Default text if no name is available
+                                }
+                            });
+                        }
+
+                        resolve(layerGroup); // Resolve the promise with the layer group
+                    })
+                    .catch(error => reject(error));
+
+                // Fetch end stop nodes after ways drawn
+                fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(queryEndStop)}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        const endstopNodes = [];
+
+                        // Extract stop nodes
+                        data.elements.forEach(element => {
+                            if (element.type === "node") {
+                                endstopNodes.push(element);
+                            }
+                        });
+
+                        // Draw stop nodes (if enabled)
+                        if (displayType === "ways") {
                             stopNodes.forEach(node => {
                                 // Create a circle marker for the node
                                 const marker = L.circleMarker([node.lat, node.lon], {
