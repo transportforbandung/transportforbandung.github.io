@@ -61,21 +61,21 @@ function fetchRouteData(relationId, displayType, routeColor) {
                     }).addTo(layerGroup);
                 });
 
-                // Fetch stop nodes after ways are drawn
-                fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(queryStop)}`)
-                    .then(response => response.json())
-                    .then(data => {
-                        const stopNodes = [];
+                // Fetch stop nodes based on displayType
+                if (displayType === "ways_with_points") {
+                    fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(queryStop)}`)
+                        .then(response => response.json())
+                        .then(data => {
+                            const stopNodes = [];
 
-                        // Extract stop nodes
-                        data.elements.forEach(element => {
-                            if (element.type === "node") {
-                                stopNodes.push(element);
-                            }
-                        });
+                            // Extract stop nodes
+                            data.elements.forEach(element => {
+                                if (element.type === "node") {
+                                    stopNodes.push(element);
+                                }
+                            });
 
-                        // Draw stop nodes (if enabled)
-                        if (displayType === "ways_with_points") {
+                            // Draw stop nodes
                             stopNodes.forEach(node => {
                                 // Create a circle marker for the node
                                 const marker = L.circleMarker([node.lat, node.lon], {
@@ -92,27 +92,24 @@ function fetchRouteData(relationId, displayType, routeColor) {
                                     marker.bindPopup("Unnamed Stop"); // Default text if no name is available
                                 }
                             });
-                        }
 
-                        resolve(layerGroup); // Resolve the promise with the layer group
-                    })
-                    .catch(error => reject(error));
+                            resolve(layerGroup); // Resolve the promise with the layer group
+                        })
+                        .catch(error => reject(error));
+                } else if (displayType === "ways") {
+                    fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(queryEndStop)}`)
+                        .then(response => response.json())
+                        .then(data => {
+                            const endstopNodes = [];
 
-                // Fetch end stop nodes after ways drawn
-                fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(queryEndStop)}`)
-                    .then(response => response.json())
-                    .then(data => {
-                        const endstopNodes = [];
+                            // Extract end stop nodes
+                            data.elements.forEach(element => {
+                                if (element.type === "node") {
+                                    endstopNodes.push(element);
+                                }
+                            });
 
-                        // Extract stop nodes
-                        data.elements.forEach(element => {
-                            if (element.type === "node") {
-                                endstopNodes.push(element);
-                            }
-                        });
-
-                        // Draw stop nodes (if enabled)
-                        if (displayType === "ways") {
+                            // Draw end stop nodes
                             endstopNodes.forEach(node => {
                                 // Create a circle marker for the node
                                 const marker = L.circleMarker([node.lat, node.lon], {
@@ -129,11 +126,13 @@ function fetchRouteData(relationId, displayType, routeColor) {
                                     marker.bindPopup("Unnamed Stop"); // Default text if no name is available
                                 }
                             });
-                        }
 
-                        resolve(layerGroup); // Resolve the promise with the layer group
-                    })
-                    .catch(error => reject(error));
+                            resolve(layerGroup); // Resolve the promise with the layer group
+                        })
+                        .catch(error => reject(error));
+                } else {
+                    resolve(layerGroup); // Resolve the promise with the layer group (no stops to draw)
+                }
             })
             .catch(error => reject(error));
     });
@@ -165,5 +164,3 @@ document.querySelector('.map-checkbox-menu').addEventListener('change', (e) => {
         }
     }
 });
-
-// document.getElementById("routeSelector").removeEventListener("change", ...);
