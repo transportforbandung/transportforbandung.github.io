@@ -1115,7 +1115,7 @@ tr:hover {
     background: white;
     z-index: 10000; /* Higher than the map's z-index */
     overflow-y: auto; /* Enable scrolling if the content overflows */
-    padding: 10px;
+    padding: 0 10px;
     border-left: 2px solid #ddd;
 }
 
