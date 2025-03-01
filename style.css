@@ -1084,6 +1084,44 @@ tr:hover {
     height: 16px;
 }
 
+.map-checkbox-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-height: 70vh;
+    overflow-y: auto;
+    width: 300px;
+}
+
+.route-header {
+    font-weight: bold;
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+.route-option {
+    display: block;
+    padding: 8px 12px;
+    margin: 2px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.route-option:hover {
+    background-color: #f8f8f8;
+}
+
+.route-option input {
+    margin-right: 8px;
+}
+
 .map-dropdown-header {
     font-weight: bold;
     background-color: #f0f0f0;
