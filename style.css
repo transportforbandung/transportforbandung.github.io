@@ -1098,23 +1098,24 @@ tr:hover {
 .leaflet-container:-webkit-full-screen .map-checkbox-menu,
 .leaflet-container:-moz-full-screen .map-checkbox-menu,
 .leaflet-container:fullscreen .map-checkbox-menu {
+    position: fixed; /* Use fixed positioning in fullscreen mode */
+    right: 0;
+    top: 0;
+    height: 100vh; /* Full height of the viewport */
+    z-index: 1000; /* Ensure it appears above the map */
+}
+
+.map-checkbox-menu {
     position: absolute;
     right: 0;
     top: 0;
     height: 100%;
-    z-index: 1000; /* Ensure it appears above the map */
-    background: white; /* Add a background to make it readable */
-    overflow-y: auto; /* Enable scrolling if the content overflows */
-    padding: 10px;
-    border-left: 2px solid #ddd; /* Add a separator */
-}
-
-.map-checkbox-menu {
     width: 300px; /* Fixed width for the checkbox menu */
     background: white;
+    z-index: 1000; /* Higher than the map's z-index */
+    overflow-y: auto; /* Enable scrolling if the content overflows */
     padding: 10px;
-    border-left: 2px solid #ddd; /* Separator between map and menu */
-    overflow-y: auto; /* Enable scrolling if content overflows */
+    border-left: 2px solid #ddd;
 }
 
 .route-header {
