@@ -1073,11 +1073,13 @@ tr:hover {
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
-    transition: background-color 0.3s ease;
+    transform: none !important;
+    transition: none !important;
 }
 
 .leaflet-control-zoom-fullscreen.fullscreen-icon:hover {
     background-color: #f4f4f4;
+    transform: none !important;
 }
 
 .leaflet-control-zoom-fullscreen.fullscreen-icon img {
