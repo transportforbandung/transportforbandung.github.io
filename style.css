@@ -1040,6 +1040,7 @@ tr:hover {
     border-radius: 8px;
     overflow: visible;
     position: relative;
+    z-index: 1;
 }
 
 #map {
@@ -1101,8 +1102,8 @@ tr:hover {
     position: fixed; /* Use fixed positioning in fullscreen mode */
     right: 0;
     top: 0;
-    height: 100vh; /* Full height of the viewport */
-    z-index: 1000; /* Ensure it appears above the map */
+    height: 100vh;
+    z-index: 10000;
 }
 
 .map-checkbox-menu {
@@ -1112,7 +1113,7 @@ tr:hover {
     height: 100%;
     width: 300px; /* Fixed width for the checkbox menu */
     background: white;
-    z-index: 1000; /* Higher than the map's z-index */
+    z-index: 10000; /* Higher than the map's z-index */
     overflow-y: auto; /* Enable scrolling if the content overflows */
     padding: 10px;
     border-left: 2px solid #ddd;
