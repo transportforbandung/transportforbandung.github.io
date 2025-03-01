@@ -1087,6 +1087,28 @@ tr:hover {
     height: 16px;
 }
 
+.leaflet-container:-webkit-full-screen .map-container,
+.leaflet-container:-moz-full-screen .map-container,
+.leaflet-container:fullscreen .map-container {
+    width: 100vw !important;
+    height: 100vh !important;
+    position: relative;
+}
+
+.leaflet-container:-webkit-full-screen .map-checkbox-menu,
+.leaflet-container:-moz-full-screen .map-checkbox-menu,
+.leaflet-container:fullscreen .map-checkbox-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    z-index: 1000; /* Ensure it appears above the map */
+    background: white; /* Add a background to make it readable */
+    overflow-y: auto; /* Enable scrolling if the content overflows */
+    padding: 10px;
+    border-left: 2px solid #ddd; /* Add a separator */
+}
+
 .map-checkbox-menu {
     width: 300px; /* Fixed width for the checkbox menu */
     background: white;
