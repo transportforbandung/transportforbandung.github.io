@@ -47,6 +47,9 @@ function initMap() {
             console.error('Fullscreen button not found!');
         }
     }, 100); // Small delay to ensure the DOM is updated
+
+    // Create the GPS button after the map is initialized
+    createGPSButton();
 }
 
 // Initialize the map when the DOM is fully loaded
@@ -125,9 +128,3 @@ function createGPSButton() {
     // Add the button to the map
     gpsButton = new GPSButton({ position: 'topleft' }).addTo(map);
 }
-
-// Call the GPS button creation function when the map is initialized
-document.addEventListener('DOMContentLoaded', () => {
-    initMap(); // Your existing map initialization function
-    createGPSButton(); // Create the GPS button
-});
