@@ -113,7 +113,7 @@ function fetchRouteData(relationId, displayType, routeColor) {
 
                         // Draw stop nodes (if enabled)
                         if (displayType === "ways") {
-                            stopNodes.forEach(node => {
+                            endstopNodes.forEach(node => {
                                 // Create a circle marker for the node
                                 const marker = L.circleMarker([node.lat, node.lon], {
                                     radius: 5,
