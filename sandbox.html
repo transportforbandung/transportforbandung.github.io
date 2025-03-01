@@ -26,55 +26,127 @@
     <div id="header"></div>
     <div class="map-container">
         <div id="map"></div>
-        <div class="map-dropdown">
-            <select id="routeSelector">
-                <option value="">Pilih Rute</option>
-                <option value="" class="map-dropdown-header"><b>Kereta Api Perkotaan</b></option>
-                <option data-relation-id="17077466" data-display-type="ways_with_points" data-route-color="#2D398B">Commuter Line Bandung Raya: Padalarang → Cicalengka</option>
-                <option data-relation-id="17077467" data-display-type="ways_with_points" data-route-color="#2D398B">Commuter Line Bandung Raya: Cicalengka → Padalarang</option>
-                <option data-relation-id="4626672" data-display-type="ways_with_points" data-route-color="#2D398B">Commuter Line Bandung Raya: Cicalengka → Purwakarta</option>
-                <option data-relation-id="15534571" data-display-type="ways_with_points" data-route-color="#1C75BC">Commuter Line Garut: Purwakarta → Garut</option>
-                <option data-relation-id="17545520" data-display-type="ways_with_points" data-route-color="#1C75BC">Commuter Line Garut: Garut → Purwakarta</option>
-                <option value="" class="map-dropdown-header"><b>Metro Jabar Trans</b></option>
-                <option data-relation-id="14365267" data-display-type="ways_with_points" data-route-color="#00A64F">Koridor 1: Leuwipanjang → Soreang</option>
-                <option data-relation-id="18765871" data-display-type="ways_with_points" data-route-color="#00A64F">Koridor 1: Soreang → Leuwipanjang</option>
-                <option data-relation-id="18766205" data-display-type="ways_with_points" data-route-color="#ED1C24">Koridor 2: Kota Baru Parahyangan → Alun-alun Bandung</option>
-                <option data-relation-id="18766206" data-display-type="ways_with_points" data-route-color="#ED1C24">Koridor 2: Alun-Alun Bandung → Kota Baru Parahyangan</option>
-                <option data-relation-id="18766208" data-display-type="ways_with_points" data-route-color="#562B63">Koridor 3: Baleendah → BEC</option>
-                <option data-relation-id="18766207" data-display-type="ways_with_points" data-route-color="#562B63">Koridor 3: BEC → Baleendah</option>
-                <option data-relation-id="15660998" data-display-type="ways_with_points" data-route-color="#EC008C">Koridor 5: Dipatiukur → Jatinangor</option>
-                <option data-relation-id="14364569" data-display-type="ways_with_points" data-route-color="#EC008C">Koridor 5: Jatinangor → Dipatiukur</option>
-                <option value="" class="map-dropdown-header"><b>Trans Metro Bandung</b></option>
-                <option data-relation-id="18768805" data-display-type="ways" data-route-color="#EF2A33">Koridor 1: Cibiru → Cibeureum</option>
-                <option data-relation-id="18768804" data-display-type="ways" data-route-color="#EF2A33">Koridor 1: Cibeureum → Cibiru</option>
-                <option data-relation-id="15520324" data-display-type="ways" data-route-color="#2E3192">Koridor 2: Cicaheum → Cibeureum</option>
-                <option data-relation-id="17329177" data-display-type="ways" data-route-color="#2E3192">Koridor 2: Cibeureum → Cicaheum</option>
-                <option data-relation-id="17564612" data-display-type="ways_with_points" data-route-color="#734D29">Koridor 3: Cicaheum → Sarijadi</option>
-                <option data-relation-id="17564831" data-display-type="ways_with_points" data-route-color="#734D29">Koridor 3: Sarijadi → Cicaheum</option>
-                <option data-relation-id="17770945" data-display-type="ways" data-route-color="#F7941D">Koridor 4: Leuwipanjang → Flyover Antapani</option>
-                <option data-relation-id="15555901" data-display-type="ways" data-route-color="#F7941D">Koridor 4: Flyover Antapani → Leuwipanjang</option>
-                <option data-relation-id="17350725" data-display-type="ways" data-route-color="#00A14B">Koridor 5: Stasiun Hall → Antapani</option>
-                <option data-relation-id="15555900" data-display-type="ways" data-route-color="#00A14B">Koridor 5: Antapani → Stasiun Hall</option>
-                <option data-relation-id="17772446" data-display-type="ways" data-route-color="#662D91">Feeder 1: Stasiun Hall → Gunung Batu</option>
-                <option data-relation-id="17772447" data-display-type="ways" data-route-color="#662D91">Feeder 1: Gunung Batu → Stasiun Hall</option>
-                <option data-relation-id="17771075" data-display-type="ways" data-route-color="#3499CC">Feeder 2: Cibeureum → Mall Summarecon Bandung</option>
-                <option data-relation-id="17772429" data-display-type="ways" data-route-color="#3499CC">Feeder 2: Mall Summarecon Bandung → Cibeureum</option>
-                <option value="" class="map-dropdown-header"><b>Bus Kota Damri</b></option>
-                <option data-relation-id="17771220" data-display-type="ways" data-route-color="#85191B">Jalur 2: Leuwipanjang → Ledeng</option>
-                <option data-relation-id="17771221" data-display-type="ways" data-route-color="#85191B">Jalur 2: Ledeng → Leuwipanjang</option>
-                <option data-relation-id="17771076" data-display-type="ways" data-route-color="#F288B7">Jalur 6A: Elang → Jatinangor via Tol Padaleunyi</option>
-                <option data-relation-id="17772430" data-display-type="ways" data-route-color="#F288B7">Jalur 6A: Jatinangor → Elang via Tol Padaleunyi</option>
-                <option data-relation-id="17565369" data-display-type="ways" data-route-color="#00A651">Jalur 8: Tanjungsari → Kebon Kalapa</option>
-                <option data-relation-id="17771073" data-display-type="ways" data-route-color="#00A651">Jalur 8: Kebon Kalapa → Tanjungsari</option>
-                <option data-relation-id="17771219" data-display-type="ways" data-route-color="#754C29">Jalur 11: Leuwipanjang → Cibiru</option>
-                <option data-relation-id="17771223" data-display-type="ways" data-route-color="#754C29">Jalur 11: Cibiru → Leuwipanjang</option>
-                <option value="" class="map-dropdown-header"><b>Angkot</b></option>
-                <option data-relation-id="3415464" data-display-type="ways" data-route-color="#FFF200">01A: Abdul Muis → Cicaheum via Binong</option>
-                <option data-relation-id="4635390" data-display-type="ways" data-route-color="#FFF200">01A: Cicaheum → Abdul Muis via Binong</option>
-                <option data-relation-id="4636155" data-display-type="ways" data-route-color="#BE1E2D">01B: Abdul Muis → Cicaheum via Aceh</option>
-                <option data-relation-id="4635842" data-display-type="ways" data-route-color="#BE1E2D">01B: Cicaheum → Abdul Muis via Aceh</option>
-                <option data-relation-id="4643111" data-display-type="ways" data-route-color="#BE1E2D">02: Abdul Muis → Dago</option>
-                <option data-relation-id="4643109" data-display-type="ways" data-route-color="#BE1E2D">02: Dago → Abdul Muis</option>
+        <div class="map-checkbox-menu">
+            <div class="route-header"><b>Pilih Rute</b></div>
+            <div class="route-section">
+                <div class="route-header">Kereta Api Perkotaan</div>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17077466" data-display-type="ways_with_points" data-route-color="#2D398B">Commuter Line Bandung Raya: Padalarang → Cicalengka
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17077467" data-display-type="ways_with_points" data-route-color="#2D398B">Commuter Line Bandung Raya: Cicalengka → Padalarang
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="4626672" data-display-type="ways_with_points" data-route-color="#2D398B">Commuter Line Bandung Raya: Cicalengka → Purwakarta
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="15534571" data-display-type="ways_with_points" data-route-color="#1C75BC">Commuter Line Garut: Purwakarta → Garut
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17545520" data-display-type="ways_with_points" data-route-color="#1C75BC">Commuter Line Garut: Garut → Purwakarta
+                </label>
+                <div class="route-header">Metro Jabar Trans</div>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="14365267" data-display-type="ways_with_points" data-route-color="#00A64F">Koridor 1: Leuwipanjang → Soreang</option>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="18765871" data-display-type="ways_with_points" data-route-color="#00A64F">Koridor 1: Soreang → Leuwipanjang</option>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="18766205" data-display-type="ways_with_points" data-route-color="#ED1C24">Koridor 2: Kota Baru Parahyangan → Alun-alun Bandung</option>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="18766206" data-display-type="ways_with_points" data-route-color="#ED1C24">Koridor 2: Alun-Alun Bandung → Kota Baru Parahyangan</option>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="18766208" data-display-type="ways_with_points" data-route-color="#562B63">Koridor 3: Baleendah → BEC</option>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="18766207" data-display-type="ways_with_points" data-route-color="#562B63">Koridor 3: BEC → Baleendah</option>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="15660998" data-display-type="ways_with_points" data-route-color="#EC008C">Koridor 5: Dipatiukur → Jatinangor</option>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="14364569" data-display-type="ways_with_points" data-route-color="#EC008C">Koridor 5: Jatinangor → Dipatiukur</option>
+                <div class="route-header">Trans Metro Bandung</div>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="18768805" data-display-type="ways" data-route-color="#EF2A33">Koridor 1: Cibiru → Cibeureum</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="18768804" data-display-type="ways" data-route-color="#EF2A33">Koridor 1: Cibeureum → Cibiru</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="15520324" data-display-type="ways" data-route-color="#2E3192">Koridor 2: Cicaheum → Cibeureum</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17329177" data-display-type="ways" data-route-color="#2E3192">Koridor 2: Cibeureum → Cicaheum</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17564612" data-display-type="ways_with_points" data-route-color="#734D29">Koridor 3: Cicaheum → Sarijadi</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17564831" data-display-type="ways_with_points" data-route-color="#734D29">Koridor 3: Sarijadi → Cicaheum</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17770945" data-display-type="ways" data-route-color="#F7941D">Koridor 4: Leuwipanjang → Flyover Antapani</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="15555901" data-display-type="ways" data-route-color="#F7941D">Koridor 4: Flyover Antapani → Leuwipanjang</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17350725" data-display-type="ways" data-route-color="#00A14B">Koridor 5: Stasiun Hall → Antapani</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="15555900" data-display-type="ways" data-route-color="#00A14B">Koridor 5: Antapani → Stasiun Hall</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17772446" data-display-type="ways" data-route-color="#662D91">Feeder 1: Stasiun Hall → Gunung Batu</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17772447" data-display-type="ways" data-route-color="#662D91">Feeder 1: Gunung Batu → Stasiun Hall</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17771075" data-display-type="ways" data-route-color="#3499CC">Feeder 2: Cibeureum → Mall Summarecon Bandung</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17772429" data-display-type="ways" data-route-color="#3499CC">Feeder 2: Mall Summarecon Bandung → Cibeureum</option>
+                <div class="route-header">Bus Kota Damri</div>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17771220" data-display-type="ways" data-route-color="#85191B">Jalur 2: Leuwipanjang → Ledeng</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17771221" data-display-type="ways" data-route-color="#85191B">Jalur 2: Ledeng → Leuwipanjang</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17771076" data-display-type="ways" data-route-color="#F288B7">Jalur 6A: Elang → Jatinangor via Tol Padaleunyi</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17772430" data-display-type="ways" data-route-color="#F288B7">Jalur 6A: Jatinangor → Elang via Tol Padaleunyi</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17565369" data-display-type="ways" data-route-color="#00A651">Jalur 8: Tanjungsari → Kebon Kalapa</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17771073" data-display-type="ways" data-route-color="#00A651">Jalur 8: Kebon Kalapa → Tanjungsari</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17771219" data-display-type="ways" data-route-color="#754C29">Jalur 11: Leuwipanjang → Cibiru</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="17771223" data-display-type="ways" data-route-color="#754C29">Jalur 11: Cibiru → Leuwipanjang</option>
+                <div class="route-header">Angkot</div>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="3415464" data-display-type="ways" data-route-color="#FFF200">01A: Abdul Muis → Cicaheum via Binong</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="4635390" data-display-type="ways" data-route-color="#FFF200">01A: Cicaheum → Abdul Muis via Binong</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="4636155" data-display-type="ways" data-route-color="#BE1E2D">01B: Abdul Muis → Cicaheum via Aceh</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="4635842" data-display-type="ways" data-route-color="#BE1E2D">01B: Cicaheum → Abdul Muis via Aceh</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="4643111" data-display-type="ways" data-route-color="#BE1E2D">02: Abdul Muis → Dago</option>
+                </label>
+                <label class="route-option">
+                    <input type="checkbox" data-relation-id="4643109" data-display-type="ways" data-route-color="#BE1E2D">02: Dago → Abdul Muis</option>
+                </label>
                 
             </select>
         </div>
