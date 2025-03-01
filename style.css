@@ -1106,6 +1106,31 @@ tr:hover {
     z-index: 10000;
 }
 
+/* GPS Button */
+.leaflet-control-gps {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease;
+}
+
+.leaflet-control-gps:hover {
+    background-color: #f4f4f4;
+}
+
+.leaflet-control-gps.active {
+    background-color: #3388ff; /* Change color when active */
+    color: white;
+}
+
+.leaflet-control-gps.active i {
+    color: white; /* Change icon color when active */
+}
+
 .map-checkbox-menu {
     position: absolute;
     right: 0;
