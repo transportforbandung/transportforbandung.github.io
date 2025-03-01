@@ -1546,18 +1546,9 @@ tr:hover {
     }
 
     .map-container {
-        flex-direction: column;
-        height: auto;
-    }
-
-    #map {
-        height: 400px;
-    }
-
-    .map-checkbox-menu {
-        width: 100%;
-        border-left: none;
-        border-top: 2px solid #ddd;
+        height: 500px;
+        margin: 10px auto;
+        max-width: 100%;
     }
 
     .map-dropdown {
