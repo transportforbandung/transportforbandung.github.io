@@ -1206,7 +1206,7 @@ tr:hover {
 }
 
 .route-map-collapsible-content.open {
-    max-height: 2000px;
+    max-height: none;
     border-radius: 0 0 15px 15px;
     padding: 0.5rem 0;
 }
