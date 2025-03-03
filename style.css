@@ -1379,10 +1379,14 @@ tr:hover {
     }
     
     .hero {
-        height: calc(100vh - 90px);
+        height: 60vh;
         min-height: 200px;
     }
-    
+
+    .hero-overlay {
+        top: -25px;
+    }
+        
     .hero-content {
         width: 100%;
     }
@@ -1404,7 +1408,7 @@ tr:hover {
     }
 
     .scroll-indicator {
-        bottom: 150px;
+        bottom: 20px;
     }
 
     .mini-hero {
@@ -1412,12 +1416,14 @@ tr:hover {
         align-items: center;
         text-align: center;
         padding: 20px 5%;
+        gap: 20px;
     }
 
     .mini-hero-img {
         flex: 0 0 auto; 
         width: 100%; 
-        max-width: 400px;  
+        max-width: 400px;
+        height: 200px;
         margin-top: 10px;
         box-sizing: border-box;
     }
