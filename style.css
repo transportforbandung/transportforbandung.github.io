@@ -1183,7 +1183,7 @@ tr:hover {
 }
 
 .route-map-collapsible-bar {
-    background-color: white;
+    background-color: #f0f0f0;
     padding: 10px 1rem 10px 1rem;
     cursor: pointer;
     display: flex;
@@ -1208,7 +1208,7 @@ tr:hover {
 .route-map-collapsible-content.open {
     max-height: 2000px;
     border-radius: 0 0 15px 15px;
-    padding: 2rem 0;
+    padding: 0.5rem 0;
 }
 
 .route-map-collapsible-bar-arrow {
@@ -1637,6 +1637,10 @@ tr:hover {
     }
 
     .route-header {
+        max-width: 85%;
+    }
+
+    .route-map-collapsible-bar {
         max-width: 85%;
     }
 
