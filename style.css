@@ -1176,13 +1176,47 @@ tr:hover {
     margin-right: 8px;
 }
 
-.map-dropdown-header {
-    font-weight: bold;
-    background-color: #f0f0f0;
-    padding: 8px 12px;
-    margin-top: 10px;
-    pointer-events: none;
-    cursor: default;
+.route-map-collapsible {
+    width: 100%;
+    max-width: 1100px;
+    margin-bottom: 10px;
+}
+
+.route-map-collapsible-bar {
+    background-color: white;
+    padding: 10px 1rem 10px 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    transition: border-radius 0.3s ease;
+}
+
+.route-map-collapsible-bar.active {
+    border-radius: 15px 15px 0 0;
+}
+
+.route-map-collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, border-radius 0.3s ease;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+}
+
+.route-map-collapsible-content.open {
+    max-height: 2000px;
+    border-radius: 0 0 15px 15px;
+    padding: 2rem 0;
+}
+
+.route-map-collapsible-bar-arrow {
+    transition: transform 0.3s ease;
+}
+
+.route-map-collapsible-bar-arrow.rotate {
+    transform: rotate(180deg);
 }
 
 /* Style for regular options */
