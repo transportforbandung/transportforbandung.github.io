@@ -1,166 +1,122 @@
-// Declare a global object to track active routes
+// Combined route-map.js
 let activeRoutes = {};
 
-// Function to fetch and return a route layer group
-function fetchRouteData(relationId, displayType, routeColor) {
+// Local data version (neo)
+function fetchLocalRoute(relationIds, displayType, routeColor) {
     return new Promise((resolve, reject) => {
         const layerGroup = L.layerGroup();
+        const basePath = `data/${relationIds}`;
 
-        // Overpass query to fetch ways
-        const queryWay = `
-            [out:json];
-            relation(${relationId});
-            (way(r);>;);
-            out geom;
-        `;
-
-        // Overpass query to fetch end stop nodes
-        const queryEndStop = `
-            [out:json];
-            relation(${relationId});
-            node(r:"stop_entry_only");
-            out geom;
-            relation(${relationId});
-            node(r:"stop_exit_only");
-            out geom;
-        `;
-
-        // Overpass query to fetch stop nodes
-        const queryStop = `
-            [out:json];
-            relation(${relationId});
-            node(r:"stop");
-            out geom;
-            relation(${relationId});
-            node(r:"stop_entry_only");
-            out geom;
-            relation(${relationId});
-            node(r:"stop_exit_only");
-            out geom;
-        `;
-
-        // Fetch ways
-        fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(queryWay)}`)
+        fetch(`${basePath}/ways.geojson`)
             .then(response => response.json())
-            .then(data => {
-                const ways = [];
-
-                // Extract ways
-                data.elements.forEach(element => {
-                    if (element.type === "way" && element.geometry) {
-                        ways.push(element);
+            .then(waysData => {
+                waysData.features.forEach(feature => {
+                    if (feature.geometry.type === "LineString") {
+                        L.polyline(feature.geometry.coordinates.map(coord => [coord[1], coord[0]]), {
+                            color: routeColor,
+                            weight: 4
+                        }).addTo(layerGroup);
                     }
                 });
 
-                // Draw ways
-                ways.forEach(way => {
-                    const coords = way.geometry.map(p => [p.lat, p.lon]);
-                    L.polyline(coords, {
-                        color: routeColor,
-                        weight: 4
-                    }).addTo(layerGroup);
-                });
-
-                // Fetch stop nodes based on displayType
-                if (displayType === "ways_with_points") {
-                    fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(queryStop)}`)
-                        .then(response => response.json())
-                        .then(data => {
-                            const stopNodes = [];
-
-                            // Extract stop nodes
-                            data.elements.forEach(element => {
-                                if (element.type === "node") {
-                                    stopNodes.push(element);
-                                }
-                            });
-
-                            // Draw stop nodes
-                            stopNodes.forEach(node => {
-                                // Create a circle marker for the node
-                                const marker = L.circleMarker([node.lat, node.lon], {
+                const stopFile = displayType === "ways_with_points" ? 
+                    "stops.geojson" : 
+                    "endstops.geojson";
+                
+                fetch(`${basePath}/${stopFile}`)
+                    .then(response => response.json())
+                    .then(stopsData => {
+                        stopsData.features.forEach(feature => {
+                            if (feature.geometry.type === "Point") {
+                                const coords = feature.geometry.coordinates;
+                                const marker = L.circleMarker([coords[1], coords[0]], {
                                     radius: 5,
                                     color: routeColor,
                                     fillColor: "#ffffff",
                                     fillOpacity: 1
-                                }).addTo(layerGroup);
-
-                                // Add a popup with the node's name (if available)
-                                if (node.tags?.name) {
-                                    marker.bindPopup(node.tags.name); // Bind the name as a popup
-                                } else {
-                                    marker.bindPopup("Unnamed Stop"); // Default text if no name is available
-                                }
-                            });
-
-                            resolve(layerGroup); // Resolve the promise with the layer group
-                        })
-                        .catch(error => reject(error));
-                } else if (displayType === "ways") {
-                    fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(queryEndStop)}`)
-                        .then(response => response.json())
-                        .then(data => {
-                            const endstopNodes = [];
-
-                            // Extract end stop nodes
-                            data.elements.forEach(element => {
-                                if (element.type === "node") {
-                                    endstopNodes.push(element);
-                                }
-                            });
-
-                            // Draw end stop nodes
-                            endstopNodes.forEach(node => {
-                                // Create a circle marker for the node
-                                const marker = L.circleMarker([node.lat, node.lon], {
-                                    radius: 5,
-                                    color: routeColor,
-                                    fillColor: "#ffffff",
-                                    fillOpacity: 1
-                                }).addTo(layerGroup);
-
-                                // Add a popup with the node's name (if available)
-                                if (node.tags?.name) {
-                                    marker.bindPopup(node.tags.name); // Bind the name as a popup
-                                } else {
-                                    marker.bindPopup("Unnamed Stop"); // Default text if no name is available
-                                }
-                            });
-
-                            resolve(layerGroup); // Resolve the promise with the layer group
-                        })
-                        .catch(error => reject(error));
-                } else {
-                    resolve(layerGroup); // Resolve the promise with the layer group (no stops to draw)
-                }
+                                });
+                                
+                                marker.bindPopup(feature.properties?.name || "Unnamed Stop");
+                                marker.addTo(layerGroup);
+                            }
+                        });
+                        resolve(layerGroup);
+                    })
+                    .catch(reject);
             })
-            .catch(error => reject(error));
+            .catch(reject);
     });
 }
 
-// Event listener for checkbox changes
+// Overpass API version (original)
+function fetchOverpassRoute(relationId, displayType, routeColor) {
+    return new Promise((resolve, reject) => {
+        const layerGroup = L.layerGroup();
+        const queries = {
+            way: `[out:json];relation(${relationId});(way(r);>;);out geom;`,
+            stop: `[out:json];relation(${relationId});node(r:"stop");out geom;node(r:"stop_entry_only");out geom;node(r:"stop_exit_only");out geom;`,
+            endStop: `[out:json];relation(${relationId});node(r:"stop_entry_only");out geom;node(r:"stop_exit_only");out geom;`
+        };
+
+        fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(queries.way)}`)
+            .then(response => response.json())
+            .then(data => {
+                data.elements.forEach(element => {
+                    if (element.type === "way" && element.geometry) {
+                        L.polyline(element.geometry.map(p => [p.lat, p.lon]), {
+                            color: routeColor,
+                            weight: 4
+                        }).addTo(layerGroup);
+                    }
+                });
+
+                const stopQuery = displayType === "ways_with_points" ? queries.stop : queries.endStop;
+                fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(stopQuery)}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        data.elements.forEach(element => {
+                            if (element.type === "node") {
+                                const marker = L.circleMarker([element.lat, element.lon], {
+                                    radius: 5,
+                                    color: routeColor,
+                                    fillColor: "#ffffff",
+                                    fillOpacity: 1
+                                });
+                                marker.bindPopup(element.tags?.name || "Unnamed Stop");
+                                marker.addTo(layerGroup);
+                            }
+                        });
+                        resolve(layerGroup);
+                    })
+                    .catch(reject);
+            })
+            .catch(reject);
+    });
+}
+
+// Unified event handler
 document.querySelector('.map-checkbox-menu').addEventListener('change', (e) => {
     if (e.target.tagName === 'INPUT' && e.target.type === 'checkbox') {
-        const { relationId, displayType, routeColor } = e.target.dataset;
+        const dataset = e.target.dataset;
+        const isLocal = 'relationIds' in dataset;
+        const id = dataset.relationIds || dataset.relationId;
+        const { displayType, routeColor } = dataset;
+
+        if (!id) return;
 
         if (e.target.checked) {
-            // If the route is not already loaded, fetch and display it
-            if (!activeRoutes[relationId]) {
-                fetchRouteData(relationId, displayType, routeColor)
+            if (!activeRoutes[id]) {
+                const fetchFunction = isLocal ? fetchLocalRoute : fetchOverpassRoute;
+                fetchFunction(id, displayType, routeColor)
                     .then(layerGroup => {
-                        activeRoutes[relationId] = layerGroup; // Cache the layer group
-                        layerGroup.addTo(map); // Add the layer group to the map
+                        activeRoutes[id] = layerGroup.addTo(map);
                     })
-                    .catch(error => console.error("Error fetching route data:", error));
+                    .catch(error => console.error("Error loading route:", error));
             } else {
-                // If the route is already loaded, just add it to the map
-                activeRoutes[relationId].addTo(map);
+                activeRoutes[id].addTo(map);
             }
         } else {
-            // If the checkbox is unchecked, remove the route from the map
-            if (activeRoutes[relationId]) {
-                activeRoutes[relationId].remove();
-            }
+            activeRoutes[id]?.remove();
         }
     }
 });
