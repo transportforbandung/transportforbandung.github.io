@@ -3,12 +3,12 @@
 let activeRoutes = {};
 
 // Modified function to load local GeoJSON data
-function fetchRouteData(relationId, displayType, routeColor) {
+function fetchRouteData(relationIds, displayType, routeColor) {
     return new Promise((resolve, reject) => {
         const layerGroup = L.layerGroup();
 
         // Paths to local GeoJSON files (modify according to your structure)
-        const basePath = `data/${relationId}`;
+        const basePath = `data/${relationIds}`;
         
         // Load ways data
         fetch(`${basePath}/ways.geojson`)
@@ -63,22 +63,22 @@ function fetchRouteData(relationId, displayType, routeColor) {
 // Keep the existing event listener unchanged
 document.querySelector('.map-checkbox-menu').addEventListener('change', (e) => {
     if (e.target.tagName === 'INPUT' && e.target.type === 'checkbox') {
-        const { relationId, displayType, routeColor } = e.target.dataset;
+        const { relationIds, displayType, routeColor } = e.target.dataset;
 
         if (e.target.checked) {
-            if (!activeRoutes[relationId]) {
-                fetchRouteData(relationId, displayType, routeColor)
+            if (!activeRoutes[relationIds]) {
+                fetchRouteData(relationIds, displayType, routeColor)
                     .then(layerGroup => {
-                        activeRoutes[relationId] = layerGroup;
+                        activeRoutes[relationIds] = layerGroup;
                         layerGroup.addTo(map);
                     })
                     .catch(error => console.error("Error loading route data:", error));
             } else {
-                activeRoutes[relationId].addTo(map);
+                activeRoutes[relationIds].addTo(map);
             }
         } else {
-            if (activeRoutes[relationId]) {
-                activeRoutes[relationId].remove();
+            if (activeRoutes[relationIds]) {
+                activeRoutes[relationIds].remove();
             }
         }
     }
