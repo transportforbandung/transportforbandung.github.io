@@ -8,7 +8,7 @@ function fetchRouteData(relationId, displayType, routeColor) {
         const layerGroup = L.layerGroup();
 
         // Paths to local GeoJSON files (modify according to your structure)
-        const basePath = `/data/${relationId}`;
+        const basePath = `data/${relationId}`;
         
         // Load ways data
         fetch(`${basePath}/ways.geojson`)
