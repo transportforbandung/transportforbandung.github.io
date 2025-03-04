@@ -55,7 +55,7 @@ function fetchOverpassRoute(relationId, displayType, routeColor) {
         const queries = {
             way: `[out:json];relation(${relationId});(way(r);>;);out geom;`,
             stop: `[out:json];relation(${relationId});node(r:"stop");out geom;relation(${relationId});node(r:"stop_entry_only");out geom;relation(${relationId});node(r:"stop_exit_only");out geom;`,
-            endStop: `[out:json];relation(${relationId});node(r:"stop_entry_only");relation(${relationId});out geom;node(r:"stop_exit_only");out geom;`
+            endStop: `[out:json];relation(${relationId});node(r:"stop_entry_only");out geom;relation(${relationId});node(r:"stop_exit_only");out geom;`
         };
 
         fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(queries.way)}`)
