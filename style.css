@@ -996,6 +996,8 @@ tr:hover {
     justify-content: start;
     margin: 2rem 0 2rem;
     padding: 0;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
 
 /* Grid Item */
@@ -1603,7 +1605,46 @@ tr:hover {
     }
 
     .guide-preview-container {
-        grid-template-columns: 1fr;
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 0;
+        margin: 2rem 0 1rem;
+        padding-bottom: 1rem;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    .guide-preview-container::-webkit-scrollbar {
+        display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+    }
+
+    .guide-preview-item {
+        flex: 0 0 100%;
+        scroll-snap-align: start;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .slide-indicators {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        padding: 1rem 0;
+        position: relative;
+    }
+
+    .slide-indicators span {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .slide-indicators span.active {
+        background-color: #FFFFFF;
     }
 
     .guide-preview-item {
