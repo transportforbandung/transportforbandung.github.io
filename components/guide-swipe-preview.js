@@ -1,12 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Process each slider container
     document.querySelectorAll('.guide-preview-container').forEach(container => {
-        // Create indicators container
         const indicators = document.createElement('div');
         indicators.className = 'slide-indicators';
         container.parentNode.insertBefore(indicators, container.nextElementSibling);
-
-        // Initialize slider functionality
         initSlider(container, indicators);
     });
 
@@ -18,94 +14,95 @@ document.addEventListener('DOMContentLoaded', function() {
         let prevTranslate = 0;
         let animationID = 0;
         let currentIndex = 0;
+        let velocity = 0;
+        let lastTime = Date.now();
+        let startTime = 0;
 
-        // Initialize indicators
+        // Add CSS transition class
+        container.classList.add('smooth-transition');
+
         function initIndicators() {
             indicators.innerHTML = '';
             items.forEach((_, index) => {
                 const dot = document.createElement('span');
-                if(index === 0) dot.classList.add('active');
+                dot.classList.toggle('active', index === 0);
                 dot.addEventListener('click', () => goToIndex(index));
                 indicators.appendChild(dot);
             });
         }
 
-        // Update indicators
         function updateIndicators(index) {
             indicators.querySelectorAll('span').forEach((dot, i) => {
                 dot.classList.toggle('active', i === index);
             });
         }
 
-        // Slide to specific index
         function goToIndex(index) {
-            currentIndex = index;
+            currentIndex = Math.max(0, Math.min(index, items.length - 1));
             const itemWidth = container.offsetWidth;
-            container.scrollTo({
-                left: itemWidth * index,
-                behavior: 'smooth'
-            });
-            updateIndicators(index);
-        }
-
-        // Touch events
-        container.addEventListener('touchstart', touchStart);
-        container.addEventListener('touchmove', touchMove);
-        container.addEventListener('touchend', touchEnd);
-
-        // Mouse events
-        container.addEventListener('mousedown', touchStart);
-        container.addEventListener('mousemove', touchMove);
-        container.addEventListener('mouseup', touchEnd);
-        container.addEventListener('mouseleave', touchEnd);
-
-        function getPositionX(event) {
-            return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
-        }
-
-        function touchStart(event) {
-            startPos = getPositionX(event);
-            isDragging = true;
-            animationID = requestAnimationFrame(animation);
-            container.classList.add('grabbing');
-        }
-
-        function touchMove(event) {
-            if (!isDragging) return;
-            const currentPosition = getPositionX(event);
-            const diff = currentPosition - startPos;
-            container.scrollLeft = prevTranslate - diff;
-        }
-
-        function touchEnd() {
-            cancelAnimationFrame(animationID);
-            isDragging = false;
-            const movedBy = prevTranslate - container.scrollLeft;
-            container.classList.remove('grabbing');
-
-            if (Math.abs(movedBy) < 50) return;
-
-            currentIndex = movedBy > 0 ? currentIndex + 1 : currentIndex - 1;
-            currentIndex = Math.max(0, Math.min(currentIndex, items.length - 1));
-            goToIndex(currentIndex);
-        }
-
-        function animation() {
-            prevTranslate = container.scrollLeft;
-            animationID = requestAnimationFrame(animation);
-        }
-
-        // Handle scroll events
-        container.addEventListener('scroll', () => {
-            const itemWidth = container.offsetWidth;
-            currentIndex = Math.round(container.scrollLeft / itemWidth);
+            currentTranslate = currentIndex * -itemWidth;
+            
+            container.style.transform = `translateX(${currentTranslate}px)`;
             updateIndicators(currentIndex);
-        });
+        }
 
-        // Initialize
-        initIndicators();
-        
-        // Handle window resize
+        // Touch/Mouse handlers
+        function handleStart(x) {
+            startPos = x;
+            startTime = Date.now();
+            isDragging = true;
+            container.classList.remove('smooth-transition');
+            cancelAnimationFrame(animationID);
+        }
+
+        function handleMove(x) {
+            if (!isDragging) return;
+            const currentTime = Date.now();
+            const timeDelta = currentTime - lastTime;
+            
+            currentTranslate = prevTranslate + (x - startPos);
+            container.style.transform = `translateX(${currentTranslate}px)`;
+            
+            // Calculate velocity
+            if (timeDelta > 0) {
+                velocity = (x - startPos) / timeDelta;
+            }
+            lastTime = currentTime;
+        }
+
+        function handleEnd() {
+            if (!isDragging) return;
+            isDragging = false;
+            container.classList.add('smooth-transition');
+
+            const itemWidth = container.offsetWidth;
+            const timeDelta = Date.now() - startTime;
+            const momentum = velocity * 300; // Adjust multiplier for throw sensitivity
+            
+            let targetIndex = currentIndex + Math.round(
+                (currentTranslate + momentum) / -itemWidth
+            ) - currentIndex;
+
+            // Normal swipe detection if momentum is small
+            if (Math.abs(momentum) < 50) {
+                targetIndex = Math.round(currentTranslate / -itemWidth);
+            }
+
+            targetIndex = Math.max(0, Math.min(targetIndex, items.length - 1));
+            goToIndex(targetIndex);
+        }
+
+        // Event Listeners
+        container.addEventListener('touchstart', e => handleStart(e.touches[0].clientX));
+        container.addEventListener('touchmove', e => handleMove(e.touches[0].clientX));
+        container.addEventListener('touchend', handleEnd);
+
+        container.addEventListener('mousedown', e => handleStart(e.pageX));
+        container.addEventListener('mousemove', e => handleMove(e.pageX));
+        container.addEventListener('mouseup', handleEnd);
+        container.addEventListener('mouseleave', handleEnd);
+
+        // Resize handler
         let resizeTimer;
         window.addEventListener('resize', () => {
             clearTimeout(resizeTimer);
@@ -115,5 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 goToIndex(currentIndex);
             }, 250);
         });
+
+        initIndicators();
     }
 });
