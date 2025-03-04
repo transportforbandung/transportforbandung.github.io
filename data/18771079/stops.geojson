@@ -1,0 +1,150 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-03-04T22:35:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/305891851",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Palasari Ceres",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6173961,
+          -6.9719753
+        ]
+      },
+      "id": "node/305891851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3277886365",
+        "bus": "yes",
+        "name": "Terminal Leuwipanjang",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5932469,
+          -6.9458124
+        ]
+      },
+      "id": "node/3277886365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10815723012",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Simpang Mohamad Toha",
+        "public_transport": "stop_position",
+        "shelter": "yes",
+        "source": "POI_WRI_Survey_2023",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6055097,
+          -6.9375586
+        ]
+      },
+      "id": "node/10815723012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11739021648",
+        "alt_name": "Mohammad Toha",
+        "bus": "yes",
+        "name": "TK Kemala Bhayangkari",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.608407,
+          -6.9453744
+        ]
+      },
+      "id": "node/11739021648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12626499683",
+        "bus": "yes",
+        "name": "Borma Bojongsoang",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6330944,
+          -6.984586
+        ]
+      },
+      "id": "node/12626499683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12628930753",
+        "bus": "yes",
+        "name": "Pasar Baleendah B",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6316458,
+          -6.9990175
+        ]
+      },
+      "id": "node/12628930753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12628930757",
+        "bus": "yes",
+        "name": "Giriharja Jelekong",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6563884,
+          -7.020725
+        ]
+      },
+      "id": "node/12628930757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12628930760",
+        "bus": "yes",
+        "name": "Terminal Majalaya",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7601839,
+          -7.0477492
+        ]
+      },
+      "id": "node/12628930760"
+    }
+  ]
+}
