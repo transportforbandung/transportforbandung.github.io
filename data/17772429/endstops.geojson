@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-03-05T14:25:03Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11730486996",
+        "bus": "yes",
+        "name": "Summarecon Mall Bandung",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6992029,
+          -6.955658
+        ]
+      },
+      "id": "node/11730486996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12627968405",
+        "bus": "yes",
+        "name": "Terminal Elang",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5755804,
+          -6.9135489
+        ]
+      },
+      "id": "node/12627968405"
+    }
+  ]
+}
