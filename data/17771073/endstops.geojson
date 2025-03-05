@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-03-05T16:09:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11883812981",
+        "bus": "yes",
+        "name": "SDN Moh. Toha",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6067877,
+          -6.9301452
+        ]
+      },
+      "id": "node/11883812981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12629197814",
+        "bus": "yes",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.798194,
+          -6.9057915
+        ]
+      },
+      "id": "node/12629197814"
+    }
+  ]
+}
