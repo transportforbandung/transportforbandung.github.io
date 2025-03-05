@@ -1,0 +1,43 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-03-05T14:26:05Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4608003593",
+        "bus": "yes",
+        "name": "Terminal Leuwipanjang",
+        "name:ar": "محطه باصات بندوق",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5932396,
+          -6.9458755
+        ]
+      },
+      "id": "node/4608003593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11711070002",
+        "bus": "yes",
+        "name": "Terminal Ledeng",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5951942,
+          -6.85933
+        ]
+      },
+      "id": "node/11711070002"
+    }
+  ]
+}
