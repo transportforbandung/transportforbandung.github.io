@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-03-06T19:56:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3374033509",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Terminal Abdul Muis/Kebon Kalapa",
+        "public_transport": "stop_position",
+        "ref": "Terminal Abdul Muis/Kebon Kalapa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6058931,
+          -6.9273804
+        ]
+      },
+      "id": "node/3374033509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11291524413",
+        "bus": "yes",
+        "name": "Terminal Angkot Cicaheum",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6562486,
+          -6.9024172
+        ]
+      },
+      "id": "node/11291524413"
+    }
+  ]
+}
