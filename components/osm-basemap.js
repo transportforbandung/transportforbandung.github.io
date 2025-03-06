@@ -17,7 +17,7 @@ function initMap() {
     attribution: '© OpenStreetMap'
     }).addTo(map);
 
-    tileLayer.getContainer().style.filter = 'grayscale(70%) brightness(90%) saturate(80%)';
+    tileLayer.getContainer().style.filter = 'grayscale(50%) brightness(90%) saturate(80%)';
 
     // Initialize routeLayer and add it to the map
     routeLayer = L.layerGroup().addTo(map);
