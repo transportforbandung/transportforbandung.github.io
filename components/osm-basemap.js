@@ -13,9 +13,11 @@ function initMap() {
     map = L.map('map').setView([-6.9104, 107.6183], 12);
 
     // Add OpenStreetMap base layer
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    var tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap'
     }).addTo(map);
+
+    tileLayer.getContainer().style.filter = 'grayscale(70%) brightness(90%) saturate(80%)';
 
     // Initialize routeLayer and add it to the map
     routeLayer = L.layerGroup().addTo(map);
