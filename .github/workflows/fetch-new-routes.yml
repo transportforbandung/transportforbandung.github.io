@@ -1,4 +1,4 @@
-name: Fetch Route Data
+name: Fetch New Route Data
 
 on:
   workflow_dispatch: # Allows manual triggering
@@ -20,7 +20,7 @@ jobs:
         run: npm install cheerio axios mkdirp
 
       - name: Run script
-        run: node fetch-routes.js
+        run: node fetch-new-routes.js
 
       - name: Check for changes in the data folder
         id: check-data
