@@ -2,13 +2,16 @@
 let activeRoutes = {};
 
 // Local data version (neo)
-function fetchLocalRoute(relationIds, displayType, routeColor) {
+function fetchLocalRoute(relationId, displayType, routeColor) {
     return new Promise((resolve, reject) => {
         const layerGroup = L.layerGroup();
-        const basePath = `data/${relationIds}`;
+        const basePath = `data/${relationId}`;
 
         fetch(`${basePath}/ways.geojson`)
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) throw new Error('Local files not found');
+                return response.json();
+            })
             .then(waysData => {
                 waysData.features.forEach(feature => {
                     if (feature.geometry.type === "LineString") {
@@ -98,18 +101,25 @@ function fetchOverpassRoute(relationId, displayType, routeColor) {
 document.querySelector('.map-checkbox-menu').addEventListener('change', (e) => {
     if (e.target.tagName === 'INPUT' && e.target.type === 'checkbox') {
         const dataset = e.target.dataset;
-        const isLocal = 'relationIds' in dataset;
-        const id = dataset.relationIds || dataset.relationId;
+        const id = dataset.relationId;
         const { displayType, routeColor } = dataset;
 
         if (!id) return;
 
         if (e.target.checked) {
             if (!activeRoutes[id]) {
-                const fetchFunction = isLocal ? fetchLocalRoute : fetchOverpassRoute;
-                fetchFunction(id, displayType, routeColor)
+                fetchLocalRoute(id, displayType, routeColor)
                     .then(layerGroup => {
                         activeRoutes[id] = layerGroup.addTo(map);
+                    })
+                    .catch(error => {
+                        console.log(`Local data not found for ${id}, using Overpass API`);
+                        return fetchOverpassRoute(id, displayType, routeColor);
+                    })
+                    .then(layerGroup => {
+                        if (layerGroup) {
+                            activeRoutes[id] = layerGroup.addTo(map);
+                        }
                     })
                     .catch(error => console.error("Error loading route:", error));
             } else {
