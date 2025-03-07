@@ -2,8 +2,6 @@ name: Fetch Route Data
 
 on:
   workflow_dispatch: # Allows manual triggering
-  schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight (optional)
 
 jobs:
   fetch-routes:
@@ -12,6 +10,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT }} # Use the PAT for checkout
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -42,4 +42,4 @@ jobs:
           git config --global user.email "actions@github.com"
           git add data
           git commit -m "Automated update: Fetched route data"
-          git push
+          git push https://${{ secrets.PAT }}@github.com/${{ github.repository }}.git
