@@ -2,10 +2,10 @@ const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
 const axios = require('axios');
-const mkdirp = require('mkdirp');
+const { mkdirp } = require('mkdirp'); // Correct usage of mkdirp
 
 // Load your HTML file
-const html = fs.readFileSync('peta-dan-panduan.html', 'utf-8');
+const html = fs.readFileSync('peta-dan-panduan.html', 'utf-8'); // Update path to your HTML file
 const $ = cheerio.load(html);
 
 // Collect all unique routes with display types
@@ -68,7 +68,7 @@ function processNodes(elements) {
 // Main processing function
 async function processRoute({ relationId, displayType }) {
   const dir = path.join(__dirname, 'data', relationId);
-  await mkdirp(dir);
+  await mkdirp(dir); // Correct usage of mkdirp
 
   // Fetch and save ways
   const waysQuery = `[out:json]; relation(${relationId}); way(r); out geom;`;
