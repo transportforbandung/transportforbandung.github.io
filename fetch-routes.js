@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
 const axios = require('axios');
-const { mkdirp } = require('mkdirp'); // Correct usage of mkdirp
+const { mkdirp } = require('mkdirp');
 
 // Load your HTML file
 const html = fs.readFileSync('peta-dan-panduan.html', 'utf-8'); // Update path to your HTML file
@@ -22,16 +22,18 @@ $('input[data-relation-ids], input[data-relation-id]').each((i, el) => {
 // Remove duplicate entries
 const uniqueRoutes = [...new Map(routes.map(route => [route.relationId, route])).values()];
 
-// Overpass API query function with delay to avoid rate limiting
-async function overpassQuery(query) {
-  await new Promise(resolve => setTimeout(resolve, 1000)); // 1 second delay
+// Overpass API query function with retry logic
+async function overpassQuery(query, retries = 3, delay = 2000) {
   const url = `https://overpass-api.de/api/interpreter?data=${encodeURIComponent(query)}`;
-  try {
-    const response = await axios.get(url);
-    return response.data.elements;
-  } catch (error) {
-    console.error('Overpass query failed:', error.message);
-    return [];
+  for (let i = 0; i < retries; i++) {
+    try {
+      await new Promise(resolve => setTimeout(resolve, delay)); // Delay between retries
+      const response = await axios.get(url, { timeout: 10000 }); // 10-second timeout
+      return response.data.elements;
+    } catch (error) {
+      console.error(`Overpass query failed (attempt ${i + 1}/${retries}):`, error.message);
+      if (i === retries - 1) throw error; // Throw error on final retry
+    }
   }
 }
 
@@ -65,10 +67,19 @@ function processNodes(elements) {
   };
 }
 
+// Check if a relation already has data
+function hasExistingData(relationId) {
+  const dir = path.join(__dirname, 'data', relationId);
+  if (!fs.existsSync(dir)) return false;
+
+  const requiredFiles = ['ways.geojson', 'stops.geojson', 'endstops.geojson'];
+  return requiredFiles.some(file => fs.existsSync(path.join(dir, file)));
+}
+
 // Main processing function
 async function processRoute({ relationId, displayType }) {
   const dir = path.join(__dirname, 'data', relationId);
-  await mkdirp(dir); // Correct usage of mkdirp
+  await mkdirp(dir);
 
   // Fetch and save ways
   const waysQuery = `[out:json]; relation(${relationId}); way(r); out geom;`;
@@ -80,7 +91,7 @@ async function processRoute({ relationId, displayType }) {
 
   // Determine and fetch stops
   const stopsQuery = displayType === 'ways_with_points' 
-    ? `[out:json]; relation(${relationId}); node(r:"stop"); node(r:"stop_entry_only"); node(r:"stop_exit_only"); out geom;`
+    ? `[out:json]; relation(${relationId}); node(r:"stop"); out geom;`
     : `[out:json]; relation(${relationId}); node(r:"stop_entry_only"); node(r:"stop_exit_only"); out geom;`;
 
   const stopsData = await overpassQuery(stopsQuery);
@@ -95,10 +106,32 @@ async function processRoute({ relationId, displayType }) {
 (async () => {
   for (const route of uniqueRoutes) {
     try {
+      // Skip if data already exists
+      if (hasExistingData(route.relationId)) {
+        console.log(`Skipping relation ${route.relationId}: Data already exists.`);
+        continue;
+      }
+
       console.log(`Processing relation ${route.relationId}...`);
-      await processRoute(route);
+
+      // Retry processing up to 3 times if Overpass query fails
+      let retries = 3;
+      while (retries > 0) {
+        try {
+          await processRoute(route);
+          break; // Exit retry loop if successful
+        } catch (error) {
+          console.error(`Error processing ${route.relationId}:`, error.message);
+          retries--;
+          if (retries === 0) {
+            console.error(`Failed to process relation ${route.relationId} after 3 attempts.`);
+          } else {
+            console.log(`Retrying relation ${route.relationId} (${retries} attempts remaining)...`);
+          }
+        }
+      }
     } catch (error) {
-      console.error(`Error processing ${route.relationId}:`, error.message);
+      console.error(`Fatal error processing relation ${route.relationId}:`, error.message);
     }
   }
   console.log('All routes processed!');
