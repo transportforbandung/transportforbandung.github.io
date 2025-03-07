@@ -5,7 +5,7 @@ const axios = require('axios');
 const { mkdirp } = require('mkdirp');
 
 // Load your HTML file
-const html = fs.readFileSync('./index.html', 'utf-8');
+const html = fs.readFileSync('peta-dan-panduan.html', 'utf-8');
 const $ = cheerio.load(html);
 
 // Collect all unique routes with display types
@@ -82,8 +82,8 @@ async function processRoute({ relationId, displayType }) {
 
   // Always fetch and overwrite stops data
   const stopsQuery = displayType === 'ways_with_points' 
-    ? `[out:json]; relation(${relationId}); node(r:"stop"); node(r:"stop_entry_only"); node(r:"stop_exit_only"); out geom;`
-    : `[out:json]; relation(${relationId}); node(r:"stop_entry_only"); node(r:"stop_exit_only"); out geom;`;
+    ? `[out:json];relation(${relationId});node(r:"stop");out geom;relation(${relationId});node(r:"stop_entry_only");out geom;relation(${relationId});node(r:"stop_exit_only");out geom;`
+    : `[out:json];relation(${relationId});node(r:"stop_entry_only");out geom;relation(${relationId});node(r:"stop_exit_only");out geom;`;
 
   const stopsData = await overpassQuery(stopsQuery);
   const fileName = displayType === 'ways_with_points' ? 'stops.geojson' : 'endstops.geojson';
