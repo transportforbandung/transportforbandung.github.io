@@ -24,7 +24,19 @@ jobs:
       - name: Run script
         run: node fetch-routes.js
 
+      - name: Check for changes in the data folder
+        id: check-data
+        run: |
+          if [ -d "data" ]; then
+            echo "data folder exists"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "data folder does not exist"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Commit and push changes
+        if: steps.check-data.outputs.has_changes == 'true'
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
