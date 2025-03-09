@@ -15,36 +15,59 @@ document.addEventListener('DOMContentLoaded', () => {
   // Hamburger Menu Initialization
   initializeHamburger();
 
-  // Footnote Functionality
+  // Improved Footnote Functionality
   document.querySelectorAll('fn').forEach(fnElement => {
-    // Move content to a hidden div
     const content = fnElement.innerHTML;
-    fnElement.innerHTML = '';
     const contentDiv = document.createElement('div');
     contentDiv.className = 'fn-content';
     contentDiv.innerHTML = content;
-    fnElement.appendChild(contentDiv);
-    
-    // Toggle on click
+    document.body.appendChild(contentDiv);
+    fnElement.contentDiv = contentDiv;
+
     fnElement.addEventListener('click', (e) => {
       e.stopPropagation();
       const wasActive = fnElement.classList.contains('active');
       
       // Close all footnotes first
-      document.querySelectorAll('fn').forEach(f => f.classList.remove('active'));
+      document.querySelectorAll('fn').forEach(f => {
+        f.classList.remove('active');
+        f.contentDiv.style.display = 'none';
+      });
       
-      // Toggle if clicking the same footnote
       if (!wasActive) {
+        const rect = fnElement.getBoundingClientRect();
+        contentDiv.style.display = 'block';
+        contentDiv.style.top = `${rect.top - contentDiv.offsetHeight - 5}px`;
+        contentDiv.style.left = `${rect.left}px`;
         fnElement.classList.add('active');
       }
     });
   });
 
-  // Close footnotes when clicking anywhere
-  document.addEventListener('click', () => {
-    document.querySelectorAll('fn').forEach(f => f.classList.remove('active'));
+  // Close footnotes when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('fn') && !e.target.closest('.fn-content') && !e.target.closest('.popup')) {
+      document.querySelectorAll('fn').forEach(f => {
+        f.classList.remove('active');
+        f.contentDiv.style.display = 'none';
+      });
+    }
   });
+
+  // Update footnote positions on scroll/resize
+  window.addEventListener('scroll', updateFnPositions);
+  window.addEventListener('resize', updateFnPositions);
 });
+
+// Position update function for footnotes
+function updateFnPositions() {
+  document.querySelectorAll('fn.active').forEach(fnElement => {
+    const rect = fnElement.getBoundingClientRect();
+    const contentDiv = fnElement.contentDiv;
+    contentDiv.style.top = `${rect.top - contentDiv.offsetHeight - 5}px`;
+    contentDiv.style.left = `${rect.left}px`;
+  });
+}
 
 // Hamburger Menu Function
 function initializeHamburger() {
