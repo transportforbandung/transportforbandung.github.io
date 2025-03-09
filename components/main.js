@@ -1,4 +1,3 @@
-// combined main.js and hamburger.js
 document.addEventListener('DOMContentLoaded', () => {
   // Scroll Indicator Functionality
   const scrollIndicator = document.querySelector('.scroll-indicator');
@@ -13,18 +12,48 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Initialize hamburger for static content
+  // Hamburger Menu Initialization
   initializeHamburger();
+
+  // Footnote Functionality
+  document.querySelectorAll('fn').forEach(fnElement => {
+    // Move content to a hidden div
+    const content = fnElement.innerHTML;
+    fnElement.innerHTML = '';
+    const contentDiv = document.createElement('div');
+    contentDiv.className = 'fn-content';
+    contentDiv.innerHTML = content;
+    fnElement.appendChild(contentDiv);
+    
+    // Toggle on click
+    fnElement.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const wasActive = fnElement.classList.contains('active');
+      
+      // Close all footnotes first
+      document.querySelectorAll('fn').forEach(f => f.classList.remove('active'));
+      
+      // Toggle if clicking the same footnote
+      if (!wasActive) {
+        fnElement.classList.add('active');
+      }
+    });
+  });
+
+  // Close footnotes when clicking anywhere
+  document.addEventListener('click', () => {
+    document.querySelectorAll('fn').forEach(f => f.classList.remove('active'));
+  });
 });
 
-// Hamburger function needs to be available globally
+// Hamburger Menu Function
 function initializeHamburger() {
   const hamburger = document.querySelector('.hamburger');
   const navLinks = document.querySelector('.nav-links');
   const body = document.body;
 
   if (hamburger && navLinks) {
-    // Remove existing event listeners to prevent duplicates
+    // Clone to remove existing event listeners
     const newHamburger = hamburger.cloneNode(true);
     hamburger.parentNode.replaceChild(newHamburger, hamburger);
 
@@ -54,5 +83,5 @@ function initializeHamburger() {
   }
 }
 
-// Make available for dynamic loading
+// Global exports
 window.initializeHamburger = initializeHamburger;
