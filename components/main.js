@@ -17,7 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Improved Footnote Functionality
   document.querySelectorAll('fn').forEach(fnElement => {
-    const content = fnElement.innerHTML;
+    const content = fnElement.textContent;
+    fnElement.innerHTML = '';
+    
     const contentDiv = document.createElement('div');
     contentDiv.className = 'fn-content';
     contentDiv.innerHTML = content;
