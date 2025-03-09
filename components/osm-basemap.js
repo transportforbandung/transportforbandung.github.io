@@ -14,7 +14,7 @@ function initMap() {
 
     // Add OpenStreetMap base layer
     var tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap Contributors</a> | Data processing by Transport for Bandung'
+    attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap Contributors</a> | Data processing by <a href="https://transportforbandung.org/tentang-kami">Transport for Bandung</a>'
     }).addTo(map);
 
     tileLayer.getContainer().style.filter = 'grayscale(80%) brightness(90%) saturate(80%)';
