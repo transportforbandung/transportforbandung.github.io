@@ -1,31 +1,42 @@
+// fetch-script.js
 function loadComponent(url, elementId, callback) {
   console.log(`Loading ${url} into #${elementId}...`);
   fetch(url)
     .then(response => {
-      if (!response.ok) {
-        throw new Error(`Failed to load ${url}: ${response.statusText}`);
-      }
+      if (!response.ok) throw new Error(`Failed to load ${url}: ${response.statusText}`);
       return response.text();
     })
     .then(data => {
       console.log(`Successfully loaded ${url}`);
-      document.getElementById(elementId).innerHTML = data;
+      const container = document.getElementById(elementId);
+      container.innerHTML = data;
+      
+      // Dispatch a custom event after insertion
+      const event = new CustomEvent('component-loaded', {
+        detail: { elementId, content: data }
+      });
+      container.dispatchEvent(event);
+      
       if (callback) callback();
     })
-    .catch(error => {
-      console.error(`Error loading ${url}:`, error);
-    });
+    .catch(console.error);
 }
 
-// Load header and footer using root-relative paths
+// Load components with enhanced initialization
 loadComponent('/components/header.html', 'header', () => {
-  console.log('Header loaded. Initializing hamburger...');
-  if (typeof initializeHamburger === 'function') {
+  // Re-initialize hamburger after header load
+  initializeHamburger();
+  
+  // Add mutation observer for dynamic content changes
+  const headerObserver = new MutationObserver((mutations) => {
     initializeHamburger();
-  } else {
-    console.error('initializeHamburger is not defined.');
-  }
+  });
+  
+  const header = document.getElementById('header');
+  headerObserver.observe(header, {
+    childList: true,
+    subtree: true
+  });
 });
-loadComponent('/components/footer.html', 'footer', () => {
-  console.log('Footer loaded.');
-});
+
+loadComponent('/components/footer.html', 'footer');
