@@ -59,6 +59,39 @@ document.addEventListener('DOMContentLoaded', () => {
   // Update footnote positions on scroll/resize
   window.addEventListener('scroll', updateFnPositions);
   window.addEventListener('resize', updateFnPositions);
+
+  // Popup Functionality
+  const popupLinks = document.querySelectorAll(".popup-link");
+  const closeButtons = document.querySelectorAll(".popup-close-button");
+
+  // Handle popup links
+  popupLinks.forEach((link) => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      const popupId = link.getAttribute("data-popup");
+      const popup = document.getElementById(popupId);
+      if (popup) {
+        popup.style.display = "block";
+      }
+    });
+  });
+
+  // Handle close buttons
+  closeButtons.forEach((btn) => {
+    btn.addEventListener("click", function () {
+      const popup = btn.closest(".popup");
+      if (popup) {
+        popup.style.display = "none";
+      }
+    });
+  });
+
+  // Close popups when clicking outside
+  window.addEventListener("click", function (e) {
+    if (e.target.classList.contains("popup")) {
+      e.target.style.display = "none";
+    }
+  });
 });
 
 // Position update function for footnotes
