@@ -1,3 +1,4 @@
+// combined main.js and hamburger.js
 document.addEventListener('DOMContentLoaded', () => {
   // Scroll Indicator Functionality
   const scrollIndicator = document.querySelector('.scroll-indicator');
@@ -12,14 +13,23 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Hamburger Menu Functionality
+  // Initialize hamburger for static content
+  initializeHamburger();
+});
+
+// Hamburger function needs to be available globally
+function initializeHamburger() {
   const hamburger = document.querySelector('.hamburger');
   const navLinks = document.querySelector('.nav-links');
   const body = document.body;
 
   if (hamburger && navLinks) {
-    hamburger.addEventListener('click', () => {
-      hamburger.classList.toggle('active');
+    // Remove existing event listeners to prevent duplicates
+    const newHamburger = hamburger.cloneNode(true);
+    hamburger.parentNode.replaceChild(newHamburger, hamburger);
+
+    newHamburger.addEventListener('click', () => {
+      newHamburger.classList.toggle('active');
       navLinks.classList.toggle('active');
       body.classList.toggle('menu-open');
     });
@@ -27,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Close menu when clicking outside
     document.addEventListener('click', (event) => {
       if (!event.target.closest('.navbar') && navLinks.classList.contains('active')) {
-        hamburger.classList.remove('active');
+        newHamburger.classList.remove('active');
         navLinks.classList.remove('active');
         body.classList.remove('menu-open');
       }
@@ -36,12 +46,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Close menu after clicking a link
     document.querySelectorAll('.nav-links a').forEach(link => {
       link.addEventListener('click', () => {
-        hamburger.classList.remove('active');
+        newHamburger.classList.remove('active');
         navLinks.classList.remove('active');
         body.classList.remove('menu-open');
       });
     });
-  } else if (!hamburger || !navLinks) {
-    console.error('Hamburger menu elements not found');
   }
-});
+}
+
+// Make available for dynamic loading
+window.initializeHamburger = initializeHamburger;
