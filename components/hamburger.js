@@ -2,17 +2,17 @@
 function initializeHamburger() {
   const hamburger = document.querySelector('.hamburger');
   const navLinks = document.querySelector('.nav-links');
+  const body = document.body;
 
   console.log('Initializing hamburger...');
   console.log('Hamburger element:', hamburger);
   console.log('Nav links element:', navLinks);
 
   if (hamburger && navLinks) {
-    // Mobile menu toggle
     hamburger.addEventListener('click', () => {
-      console.log('Hamburger clicked');
       hamburger.classList.toggle('active');
       navLinks.classList.toggle('active');
+      body.classList.toggle('menu-open');
     });
 
     // Close menu when clicking outside
