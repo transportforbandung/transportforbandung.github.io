@@ -27,6 +27,45 @@ a {
 a:visited { 
     text-decoration: none !important; 
 }
+
+fn {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+fn::after {
+    content: "[Catatan]";
+    vertical-align: super;
+    font-size: 0.8em;
+    color: #007bff;
+    padding: 0 3px;
+}
+
+fn:hover::after {
+    background-color: #f0f8ff;
+}
+
+.fn-content {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background: #fff;
+    padding: 1em;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    min-width: 200px;
+    z-index: 100;
+    font-size: 0.9em;
+    line-height: 1.4;
+    cursor: auto;
+}
+
+fn.active .fn-content {
+    display: block;
+}
+
 .light {
     font-weight: 300;
 }
