@@ -48,22 +48,16 @@ fn:hover::after {
 
 .fn-content {
     display: none;
-    position: absolute;
-    bottom: 100%;
-    left: 0;
+    position: fixed;
     background: #fff;
     padding: 1em;
     border: 1px solid #ccc;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     min-width: 200px;
-    z-index: 100;
+    z-index: 1000;
     font-size: 0.9em;
     line-height: 1.4;
     cursor: auto;
-}
-
-fn.active .fn-content {
-    display: block;
 }
 
 .light {
