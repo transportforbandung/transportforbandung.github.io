@@ -1273,6 +1273,45 @@ tr:hover {
     padding: 8px 12px;
 }
 
+/* Route downloader */
+.route-download-options {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.route-download-option {
+    padding: 10px;
+    margin: 5px 0;
+    background: #f5f5f5;
+    border-radius: 4px;
+}
+
+#routedownloadBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    background: #00A64F;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#routedownloadBtn:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+}
+
+.route-download-option.unavailable {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.route-download-option.unavailable label {
+    cursor: not-allowed;
+}
+
 /* Footer */
 .footer {
     background-color: #00A64F;
