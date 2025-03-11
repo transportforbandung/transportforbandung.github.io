@@ -7,98 +7,43 @@
     <link rel="icon" href="/assets/TfB-logo-green-white-background.svg">
     <meta name="theme-color" content="#00A64F">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/2.4.0/Control.FullScreen.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <link rel="stylesheet" href="../style.css">
 </head>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MNSZN2RKR0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-MNSZN2RKR0');
-</script>
 <body>
     <!-- Navbar -->
     <div id="header"></div>
-    <div class="map-container">
-        <div id="map"></div>
-        <div class="map-checkbox-menu">
-            <div class="route-header"><b>Pilih Rute</b></div>
-            <div class="route-section">
-                <!-- Example of a collapsible section -->
-                <div class="route-map-collapsible">
-                    <div class="route-map-collapsible-bar">
-                        <span>Kereta Api Perkotaan</span>
-                        <span class="route-map-collapsible-bar-arrow">▼</span>
-                    </div>
-                    <div class="route-map-collapsible-content">
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-ids="17077466" data-display-type="ways_with_points" data-route-color="#2D398B">Commuter Line Bandung Raya: Padalarang → Cicalengka
-                        </label>
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-ids="17077467" data-display-type="ways_with_points" data-route-color="#2D398B">Commuter Line Bandung Raya: Cicalengka → Padalarang
-                        </label>
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-ids="4626672" data-display-type="ways_with_points" data-route-color="#2D398B">Commuter Line Bandung Raya: Cicalengka → Purwakarta
-                        </label>
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-ids="15534571" data-display-type="ways_with_points" data-route-color="#1C75BC">Commuter Line Garut: Purwakarta → Garut
-                        </label>
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-id="17545520" data-display-type="ways_with_points" data-route-color="#1C75BC">Commuter Line Garut: Garut → Purwakarta
-                        </label>
-                    </div>
-                </div>
-                <div class="route-map-collapsible">
-                    <div class="route-map-collapsible-bar">
-                        <span>Metro Jabar Trans</span>
-                        <span class="route-map-collapsible-bar-arrow">▼</span>
-                    </div>
-                    <div class="route-map-collapsible-content">
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-ids="14365267" data-display-type="ways_with_points" data-route-color="#00A64F">Koridor 1: Leuwipanjang → Soreang</option>
-                        </label>
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-ids="18765871" data-display-type="ways_with_points" data-route-color="#00A64F">Koridor 1: Soreang → Leuwipanjang</option>
-                        </label>
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-id="18766205" data-display-type="ways_with_points" data-route-color="#ED1C24">Koridor 2: Kota Baru Parahyangan → Alun-alun Bandung</option>
-                        </label>
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-id="18766206" data-display-type="ways_with_points" data-route-color="#ED1C24">Koridor 2: Alun-Alun Bandung → Kota Baru Parahyangan</option>
-                        </label>
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-id="18766208" data-display-type="ways_with_points" data-route-color="#562B63">Koridor 3: Baleendah → BEC</option>
-                        </label>
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-id="18766207" data-display-type="ways_with_points" data-route-color="#562B63">Koridor 3: BEC → Baleendah</option>
-                        </label>
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-id="14298213" data-display-type="ways_with_points" data-route-color="#2E3192">Koridor 4: Leuwipanjang → Dago</option>
-                        </label>
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-id="18770906" data-display-type="ways_with_points" data-route-color="#2E3192">Koridor 4: Dago → Leuwipanjang</option>
-                        </label>
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-id="15660998" data-display-type="ways_with_points" data-route-color="#EC008C">Koridor 5: Dipatiukur → Jatinangor</option>
-                        </label>
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-id="14364569" data-display-type="ways_with_points" data-route-color="#EC008C">Koridor 5: Jatinangor → Dipatiukur</option>
-                        </label>
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-id="18771078" data-display-type="ways_with_points" data-route-color="#F04B23">Koridor 6: Leuwipanjang → Majalaya</option>
-                        </label>
-                        <label class="route-option">
-                            <input type="checkbox" data-relation-id="18771079" data-display-type="ways_with_points" data-route-color="#F04B23">Koridor 6: Majalaya → Leuwipanjang</option>
-                        </label>
-                    </div>
-                </div>
+    <section class="centered-content">
+        <h1>Unduh Data Rute</h1>
+        <div class="route-download-options">
+            <div class="route-download-option">
+                <label>
+                    <input type="checkbox" data-relation-id="17077466" data-display-type="ways_with_points" data-route-color="#2D398B">Commuter Line Bandung Raya: Padalarang → Cicalengka
+                </label>
+            </div>
+            <div class="route-download-option">
+                <label>
+                    <input type="checkbox" data-relation-id="17077467" data-display-type="ways_with_points" data-route-color="#2D398B">Commuter Line Bandung Raya: Cicalengka → Padalarang
+                </label>
+            </div>
+            <div class="route-download-option">
+                <label>
+                    <input type="checkbox" data-relation-id="4626672" data-display-type="ways_with_points" data-route-color="#2D398B">Commuter Line Bandung Raya: Cicalengka → Purwakarta
+                </label>
+            </div>
+            <div class="route-download-option">
+                <label>
+                    <input type="checkbox" data-relation-id="15534571" data-display-type="ways_with_points" data-route-color="#1C75BC">Commuter Line Garut: Purwakarta → Garut
+                </label>
+            </div>
+            <div class="route-download-option">
+                <label>
+                    <input type="checkbox" data-relation-id="17545520" data-display-type="ways_with_points" data-route-color="#1C75BC">Commuter Line Garut: Garut → Purwakarta
+                </label>
             </div>
         </div>
+        <button id="downloadBtn" disabled>Download GeoJSON</button>
+    </section>
     </div>
 
     <!--Footer-->
