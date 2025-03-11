@@ -42,19 +42,32 @@ document.addEventListener('DOMContentLoaded', () => {
         const routeName = selected.parentElement.textContent.trim();
 
         try {
-            // Always fetch ways
-            const ways = await fetch(`data/${relationId}/ways.geojson`).then(r => r.json());
-            
-            // Conditionally fetch stops
-            let stops = { features: [] };
-            if (displayType === 'ways_with_points') {
-                stops = await fetch(`data/${relationId}/stops.geojson`).then(r => r.json());
-            }
+            // Fetch data
+            const [ways, stops] = await Promise.all([
+                fetch(`data/${relationId}/ways.geojson`).then(r => r.json()),
+                displayType === 'ways_with_points' 
+                    ? fetch(`data/${relationId}/stops.geojson`).then(r => r.json())
+                    : Promise.resolve({features: []})
+            ]);
 
-            // Create combined GeoJSON
-            const combined = {
+            // Create enhanced GeoJSON
+            const combinedGeoJSON = {
                 type: "FeatureCollection",
-                features: [...ways.features, ...stops.features]
+                generator: "overpass-turbo via Transport for Bandung",
+                copyright: "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+                timestamp: new Date().toISOString(),
+                features: [
+                    ...ways.features,
+                    ...stops.features
+                ].map(feature => ({
+                    ...feature,
+                    properties: {
+                        ...feature.properties,
+                        source: "OpenStreetMap",
+                        processed_by: "Transport for Bandung",
+                        processed_date: new Date().toISOString()
+                    }
+                }))
             };
 
             // Generate filename
@@ -62,8 +75,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 displayType === 'ways_with_points' ? 'jalur-halte' : 'jalur'
             }-${new Date().toISOString().slice(0, 10)}.geojson`;
 
-            // Trigger download
-            const blob = new Blob([JSON.stringify(combined)], { type: "application/json" });
+            // Create download
+            const blob = new Blob([JSON.stringify(combinedGeoJSON, null, 2)], {
+                type: "application/json"
+            });
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
