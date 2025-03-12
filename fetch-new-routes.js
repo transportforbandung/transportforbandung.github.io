@@ -4,8 +4,8 @@ const cheerio = require('cheerio');
 const axios = require('axios');
 const { mkdirp } = require('mkdirp');
 
-// Load your HTML file
-const html = fs.readFileSync('peta-dan-panduan.html', 'utf-8'); // Update path to your HTML file
+// Load HTML file
+const html = fs.readFileSync('peta-dan-panduan.html', 'utf-8');
 const $ = cheerio.load(html);
 
 // Collect all unique routes with display types
