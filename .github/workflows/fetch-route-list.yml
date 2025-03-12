@@ -1,9 +1,6 @@
 name: Extract Route Data
 
 on:
-  push:
-    branches: [ main ]
-    paths: [ 'peta-dan-panduan.html' ] # Only run when HTML changes
   workflow_dispatch: # Allow manual runs
 
 jobs:
