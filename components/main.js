@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Scroll Indicator Functionality
-  const scrollIndicator = document.querySelector('.scroll-indicator');
+  const scrollIndicator = document.querySelector('.scroll-indicator .arrow-line');
   const heroSection = document.querySelector('.hero');
 
   if (scrollIndicator && heroSection) {
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
       const scrollPosition = window.scrollY;
       const progress = (scrollPosition / scrollHeight) * 100;
-      scrollIndicator.style.width = `${progress}%`;
+      scrollIndicator.style.height = `${100 - progress}%`;
     });
   }
 
