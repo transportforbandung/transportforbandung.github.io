@@ -1,2 +1,2 @@
 # transportforbandung.github.io
-The official website of Transport for Bandung community organization.
+Public interface of Transport for Bandung community website.
