@@ -1,10 +1,7 @@
 name: Update Route Configuration
 
 on:
-  push:
-    paths:
-      - 'peta-interaktif.html'
-    branches: [ main ]
+  workflow_dispatch: # Allows manual triggering
 
 jobs:
   extract-routes:
