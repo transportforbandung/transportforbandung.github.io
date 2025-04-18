@@ -130,3 +130,43 @@ document.querySelector('.map-checkbox-menu').addEventListener('change', (e) => {
         }
     }
 });
+
+// Add layer recycling and memory management
+const layerRecycler = new Map();
+
+function createRouteLayer(features, routeColor) {
+  const key = JSON.stringify(features);
+  
+  if (!layerRecycler.has(key)) {
+    const group = L.layerGroup();
+    features.forEach(feature => {
+      // Your existing feature creation logic
+    });
+    layerRecycler.set(key, group);
+  }
+  
+  return layerRecycler.get(key).copy();
+}
+
+// Optimize GeoJSON parsing
+function processGeoJSON(data, color) {
+  return data.elements ? processOverpassData(data, color) : processLocalGeoJSON(data, color);
+}
+
+function processLocalGeoJSON(data, color) {
+  // Your existing local data processing logic
+}
+
+function processOverpassData(data, color) {
+  // Your existing Overpass data processing logic
+}
+
+// Add cleanup logic
+function clearCache() {
+  routeCache.clear();
+  activeLayers.clear();
+  layerRecycler.clear();
+}
+
+// Add periodic cleanup
+setInterval(clearCache, 3600000); // Clear cache every hour
