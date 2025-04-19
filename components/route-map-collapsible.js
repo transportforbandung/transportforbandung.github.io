@@ -1,18 +1,14 @@
-function initializeCollapsibles() {
-    document.getElementById('route-container').addEventListener('click', (e) => {
-        const header = e.target.closest('.route-map-collapsible-bar');
-        if (!header) return;
+document.addEventListener('DOMContentLoaded', function() {
+    const collapsibleBars = document.querySelectorAll('.route-map-collapsible-bar');
 
-        const collapsible = header.parentElement;
-        const content = collapsible.querySelector('.route-map-collapsible-content');
-        const arrow = header.querySelector('.route-map-collapsible-bar-arrow');
+    collapsibleBars.forEach(bar => {
+        bar.addEventListener('click', function() {
+            const content = this.nextElementSibling;
+            const arrow = this.querySelector('.route-map-collapsible-bar-arrow');
 
-        // Toggle visibility
-        content.style.display = content.style.display === 'none' ? 'block' : 'none';
-        
-        // Rotate arrow
-        arrow.style.transform = content.style.display === 'none' 
-            ? 'rotate(0deg)' 
-            : 'rotate(180deg)';
+            this.classList.toggle('active');
+            content.classList.toggle('open');
+            arrow.classList.toggle('rotate');
+        });
     });
-}
+});
