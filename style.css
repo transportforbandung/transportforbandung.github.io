@@ -1232,14 +1232,10 @@ tr:hover {
 }
 
 .route-map-collapsible-bar {
-    background-color: #f0f0f0;
-    padding: 10px 1rem 10px 1rem;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
     cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 15px;
-    transition: border-radius 0.3s ease;
 }
 
 .route-map-collapsible-bar.active {
@@ -1247,11 +1243,8 @@ tr:hover {
 }
 
 .route-map-collapsible-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease, border-radius 0.3s ease;
-    background-color: white;
-    border-radius: 0 0 5px 5px;
+    display: none;
+    padding: 10px;
 }
 
 .route-map-collapsible-content.open {
@@ -1261,11 +1254,17 @@ tr:hover {
 }
 
 .route-map-collapsible-bar-arrow {
-    transition: transform 0.3s ease;
+    float: right;
+    transition: transform 0.2s ease;
 }
 
 .route-map-collapsible-bar-arrow.rotate {
     transform: rotate(180deg);
+}
+
+.route-option {
+    display: block;
+    margin: 5px 0;
 }
 
 /* Style for regular options */
