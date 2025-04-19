@@ -21,7 +21,8 @@ function initMap() {
 
     // Initialize routeLayer and add it to the map
     routeLayer = L.layerGroup().addTo(map);
-
+    window.routeLayer = routeLayer;
+    
     // Add full-screen control
     const fullscreenControl = L.control.fullscreen({
         position: 'topleft',
