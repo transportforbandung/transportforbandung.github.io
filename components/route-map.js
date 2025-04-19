@@ -87,7 +87,7 @@ function setupCheckboxHandlers() {
                     activeRoutes[id].addTo(map);
                 }
             } else {
-                activeRoutes[id]?.remove();
+                activeRoutes[id]?.removeFrom(window.routeLayer);
             }
         }
     });
