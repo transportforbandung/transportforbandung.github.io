@@ -1,5 +1,4 @@
 let activeRoutes = {};
-let routeLayer = window.routeLayer;
 
 // Initialize routes after map is ready
 window.initRoutes = function() {
@@ -79,7 +78,7 @@ function setupCheckboxHandlers() {
                         if (!layerGroup) {
                             layerGroup = await fetchOverpassRoute(id, displayType, routeColor);
                         }
-                        activeRoutes[id] = layerGroup.addTo(map);
+                        activeRoutes[id] = layerGroup.addTo(window.routeLayer);
                     } catch (error) {
                         console.error("Error loading route:", error);
                         e.target.checked = false;
