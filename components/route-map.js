@@ -1,25 +1,33 @@
-// Combined route-map.js
+// components/route-map.js
 let activeRoutes = {};
-const routeCache = new Map();
-let map; // Leaflet map instance
+let routeLayer;
 
-// Collapsible functionality
-document.addEventListener('DOMContentLoaded', function() {
-    // Initialize collapsibles with event delegation
-    document.getElementById('route-container').addEventListener('click', function(e) {
+// Initialize routes after map is ready
+function initRoutes() {
+    // Clear existing content first
+    const container = document.getElementById('route-container');
+    container.innerHTML = '';
+
+    // Initialize collapsibles
+    initializeCollapsibles();
+    
+    // Load route data
+    initializeRoutes().catch(error => {
+        console.error('Route initialization failed:', error);
+    });
+}
+
+function initializeCollapsibles() {
+    document.addEventListener('click', (e) => {
         const header = e.target.closest('.route-map-collapsible-bar');
         if (header) {
             const content = header.nextElementSibling;
             const arrow = header.querySelector('.route-map-collapsible-bar-arrow');
-            
             content.style.display = content.style.display === 'none' ? 'block' : 'none';
             arrow.style.transform = content.style.display === 'none' ? 'rotate(0deg)' : 'rotate(180deg)';
         }
     });
-
-    // Initialize routes
-    initializeRoutes();
-});
+}
 
 async function initializeRoutes() {
     try {
@@ -37,7 +45,7 @@ async function initializeRoutes() {
                     <div class="route-map-collapsible-content" style="display:none">
                         ${category.routes.map(route => `
                             <label class="route-option">
-                                <input type="checkbox" 
+                                <input type="checkbox"
                                        data-relation-id="${route.relationId}"
                                        data-display-type="${route.type}"
                                        data-route-color="${route.color}">
@@ -52,6 +60,7 @@ async function initializeRoutes() {
         setupCheckboxHandlers();
     } catch (error) {
         console.error('Error initializing routes:', error);
+        throw error;
     }
 }
 
