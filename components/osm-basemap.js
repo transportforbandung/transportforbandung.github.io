@@ -49,6 +49,12 @@ function initMap() {
 
     // Create the GPS button
     createGPSButton();
+    
+    map.whenReady(() => {
+        if (typeof initRoutes === 'function') {
+            initRoutes();
+        }
+    });
 }
 
 document.addEventListener('DOMContentLoaded', initMap);
@@ -123,10 +129,3 @@ function createGPSButton() {
 
     gpsButton = new GPSButton({ position: 'topleft' }).addTo(map);
 }
-
-// Initialize routes after map is fully loaded
-map.whenReady(() => {
-    if (window.initRoutes) {
-        window.initRoutes();
-    }
-});
