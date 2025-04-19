@@ -123,3 +123,10 @@ function createGPSButton() {
 
     gpsButton = new GPSButton({ position: 'topleft' }).addTo(map);
 }
+
+// Initialize routes after map is fully loaded
+map.whenReady(() => {
+    if (window.initRoutes) {
+        window.initRoutes();
+    }
+});
