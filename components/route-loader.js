@@ -93,3 +93,4 @@ function unloadRoute(relationId) {
 
 // Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', initializeRoutes);
+export { initializeCollapsibles };
