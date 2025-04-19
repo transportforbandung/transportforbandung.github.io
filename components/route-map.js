@@ -84,7 +84,7 @@ function setupCheckboxHandlers() {
                         e.target.checked = false;
                     }
                 } else {
-                    activeRoutes[id].addTo(map);
+                    activeRoutes[id].addTo(window.routeLayer);
                 }
             } else {
                 activeRoutes[id]?.removeFrom(window.routeLayer);
@@ -187,8 +187,8 @@ async function fetchOverpassRoute(relationId, displayType, routeColor) {
 setInterval(() => {
     Object.keys(activeRoutes).forEach(id => {
         if (!document.querySelector(`input[data-relation-id="${id}"]:checked`)) {
-            activeRoutes[id]?.remove();
+            activeRoutes[id]?.removeFrom(window.routeLayer);
             delete activeRoutes[id];
         }
     });
-}, 3600000); // Cleanup hourly
+}, 3600000);
