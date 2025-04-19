@@ -1,10 +1,10 @@
 // components/route-map.js
 let activeRoutes = {};
-let routeLayer;
+let routeLayer = window.routeLayer;
 
 // Initialize routes after map is ready
-function initRoutes() {
-    // Clear existing content first
+window.initRoutes = function() {
+    // Existing initRoutes code
     const container = document.getElementById('route-container');
     container.innerHTML = '';
 
