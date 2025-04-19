@@ -1,4 +1,3 @@
-// components/route-map.js
 let activeRoutes = {};
 let routeLayer = window.routeLayer;
 
