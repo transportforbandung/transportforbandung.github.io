@@ -1,6 +1,7 @@
 name: Optimize SVG Assets
 
 on:
+  workflow_dispatch: # Allows manual triggering
   push:
     paths:
       - '**/*.svg' # Trigger only when SVG files are pushed
