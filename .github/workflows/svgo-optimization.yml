@@ -1,0 +1,36 @@
+name: Optimize SVG Assets
+
+on:
+  push:
+    paths:
+      - '**/*.svg' # Trigger only when SVG files are pushed
+  pull_request:
+    paths:
+      - '**/*.svg' # Trigger for pull requests with SVG changes
+
+jobs:
+  optimize-svg:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18' # Use the appropriate Node.js version
+
+    - name: Install SVGO
+      run: npm install -g svgo
+
+    - name: Optimize SVG Files
+      run: svgo -f ./assets --config=action-scripts/svgo.config.js
+
+    - name: Commit Changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+        git add .
+        git commit -m 'Optimize SVG assets using SVGO' || echo "No changes to commit"
+        git push
