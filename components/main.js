@@ -134,6 +134,20 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  // Collapsible Bar Functionality
+  const collapsibleBars = document.querySelectorAll('.collapsible-bar');
+
+  collapsibleBars.forEach(bar => {
+    bar.addEventListener('click', () => {
+      const content = bar.nextElementSibling;
+      const arrow = bar.querySelector('.collapsible-bar-arrow');
+
+      bar.classList.toggle('active');
+      content.classList.toggle('open');
+      arrow.classList.toggle('rotate');
+    });
+  });
 });
 
 // Position update function for footnotes
