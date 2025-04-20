@@ -92,6 +92,48 @@ document.addEventListener('DOMContentLoaded', () => {
       e.target.style.display = "none";
     }
   });
+
+  // Counting Animation Functionality
+  function startCountingAnimation(counterElement, targetNumber) {
+    let currentNumber = 0;
+    const duration = 2000;
+    const increment = targetNumber / (duration / 16);
+
+    const updateCounter = () => {
+      if (currentNumber < targetNumber) {
+        currentNumber += increment;
+        counterElement.textContent = Math.floor(currentNumber);
+        requestAnimationFrame(updateCounter);
+      } else {
+        counterElement.textContent = targetNumber;
+      }
+    };
+
+    updateCounter();
+  }
+
+  function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+    );
+  }
+
+  // Initialize counting animation on scroll
+  document.addEventListener("scroll", () => {
+    const counterNumberElements = document.querySelectorAll(".counter-number");
+    
+    counterNumberElements.forEach((counterElement) => {
+      const targetNumber = parseInt(counterElement.getAttribute("data-target"), 10);
+      
+      if (isInViewport(counterElement)) {
+        if (counterElement.textContent === "0") {
+          startCountingAnimation(counterElement, targetNumber);
+        }
+      }
+    });
+  });
 });
 
 // Position update function for footnotes
@@ -111,7 +153,6 @@ function initializeHamburger() {
   const body = document.body;
 
   if (hamburger && navLinks) {
-    // Clone to remove existing event listeners
     const newHamburger = hamburger.cloneNode(true);
     hamburger.parentNode.replaceChild(newHamburger, hamburger);
 
@@ -121,7 +162,6 @@ function initializeHamburger() {
       body.classList.toggle('menu-open');
     });
 
-    // Close menu when clicking outside
     document.addEventListener('click', (event) => {
       if (!event.target.closest('.navbar') && navLinks.classList.contains('active')) {
         newHamburger.classList.remove('active');
@@ -130,7 +170,6 @@ function initializeHamburger() {
       }
     });
 
-    // Close menu after clicking a link
     document.querySelectorAll('.nav-links a').forEach(link => {
       link.addEventListener('click', () => {
         newHamburger.classList.remove('active');
