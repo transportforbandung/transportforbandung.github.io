@@ -131,20 +131,15 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 // Revised Collapsible Bar Functionality to match CSS
-document.addEventListener('DOMContentLoaded', () => {
-    // Collapsible Bar Functionality
-    const collapsibleBars = document.querySelectorAll('.collapsible-bar');
-
-    collapsibleBars.forEach(bar => {
-        bar.addEventListener('click', function () {
-            const content = bar.nextElementSibling; // Get the corresponding content
-            const arrow = bar.querySelector('.collapsible-bar-arrow'); // Get the arrow inside the bar
-
-            // Toggle classes
-            bar.classList.toggle('active');
-            content.classList.toggle('open');
-            arrow.classList.toggle('rotate');
-        });
+const collapsibleBars = document.querySelectorAll('.collapsible-bar');
+collapsibleBars.forEach(bar => {
+    bar.addEventListener('click', function () {
+        const content = bar.nextElementSibling; // Get the corresponding content
+        const arrow = bar.querySelector('.collapsible-bar-arrow'); // Get the arrow inside the bar
+        // Toggle classes
+        bar.classList.toggle('active');
+        content.classList.toggle('open');
+        arrow.classList.toggle('rotate');
     });
 });
 
