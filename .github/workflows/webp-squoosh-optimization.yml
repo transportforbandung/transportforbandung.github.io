@@ -22,7 +22,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20' # Use the latest stable Node.js version
+          node-version: '18' # Use the latest stable Node.js version
 
       # Step 3: Install Squoosh CLI
       - name: Install Squoosh CLI
