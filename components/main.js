@@ -130,28 +130,27 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Collapsible Bar Functionality (Revised)
-  document.querySelectorAll('.collapsible').forEach(collapsible => {
+// Revised Collapsible Bar Functionality to match CSS
+document.querySelectorAll('.collapsible').forEach(collapsible => {
     const bar = collapsible.querySelector('.collapsible-bar');
     const content = collapsible.querySelector('.collapsible-content');
     const arrow = bar.querySelector('.collapsible-bar-arrow');
 
     bar.addEventListener('click', () => {
-      const isOpening = !content.classList.contains('active');
-      
-      // Toggle current state only
-      bar.classList.toggle('active');
-      content.classList.toggle('active');
-      arrow.classList.toggle('rotate');
+        const isOpening = !content.classList.contains('open');
+        
+        // Toggle classes that match CSS
+        bar.classList.toggle('active');
+        content.classList.toggle('open');
+        arrow.classList.toggle('rotate');
 
-      // Smooth height transition
-      if (isOpening) {
-        content.style.maxHeight = content.scrollHeight + "px";
-      } else {
-        content.style.maxHeight = null;
-      }
+        // Smooth height transition
+        if (isOpening) {
+            content.style.maxHeight = content.scrollHeight + "px";
+        } else {
+            content.style.maxHeight = null;
+        }
     });
-  });
 });
 
 // Position update function for footnotes
