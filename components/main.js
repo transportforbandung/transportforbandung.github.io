@@ -1,174 +1,141 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // ==== FILE 1 START ====
-  // Scroll Indicator Functionality
+  // Scroll Indicator
   const scrollIndicator = document.querySelector('.scroll-indicator .arrow-line');
-  const heroSection = document.querySelector('.hero');
-
-  if (scrollIndicator && heroSection) {
+  if (scrollIndicator) {
     window.addEventListener('scroll', () => {
-      const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const scrollPosition = window.scrollY;
-      const progress = (scrollPosition / scrollHeight) * 100;
+      const progress = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight) * 100;
       scrollIndicator.style.height = `${100 - progress}%`;
     });
   }
 
-  // Hamburger Menu Initialization
-  initializeHamburger();
-
-  // Improved Footnote Functionality
-  document.querySelectorAll('fn').forEach(fnElement => {
-    const content = fnElement.textContent;
-    fnElement.innerHTML = '';
+  // Hamburger Menu
+  const hamburger = document.querySelector('.hamburger');
+  if (hamburger) {
+    const newHamburger = hamburger.cloneNode(true);
+    hamburger.parentNode.replaceChild(newHamburger, hamburger);
+    const navLinks = document.querySelector('.nav-links');
     
+    newHamburger.addEventListener('click', () => {
+      newHamburger.classList.toggle('active');
+      navLinks.classList.toggle('active');
+      document.body.classList.toggle('menu-open');
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.navbar') && navLinks.classList.contains('active')) {
+        newHamburger.classList.remove('active');
+        navLinks.classList.remove('active');
+        document.body.classList.remove('menu-open');
+      }
+    });
+
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => navLinks.classList.remove('active'));
+    });
+  }
+
+  // Footnotes
+  document.querySelectorAll('fn').forEach(fnElement => {
     const contentDiv = document.createElement('div');
     contentDiv.className = 'fn-content';
-    contentDiv.innerHTML = content;
+    contentDiv.innerHTML = fnElement.textContent;
     document.body.appendChild(contentDiv);
     fnElement.contentDiv = contentDiv;
 
     fnElement.addEventListener('click', (e) => {
       e.stopPropagation();
-      const wasActive = fnElement.classList.contains('active');
-      
-      // Close all footnotes first
+      const wasActive = fnElement.classList.toggle('active');
       document.querySelectorAll('fn').forEach(f => {
         f.classList.remove('active');
         f.contentDiv.style.display = 'none';
       });
-      
-      if (!wasActive) {
+      if (wasActive) {
         const rect = fnElement.getBoundingClientRect();
         contentDiv.style.display = 'block';
         contentDiv.style.top = `${rect.top - contentDiv.offsetHeight - 5}px`;
         contentDiv.style.left = `${rect.left}px`;
-        fnElement.classList.add('active');
       }
     });
   });
 
-  // Close footnotes when clicking outside
-  document.addEventListener('click', (e) => {
-    if (!e.target.closest('fn') && !e.target.closest('.fn-content') && !e.target.closest('.popup')) {
-      document.querySelectorAll('fn').forEach(f => {
-        f.classList.remove('active');
-        f.contentDiv.style.display = 'none';
-      });
-    }
-  });
-
-  // Update footnote positions on scroll/resize
-  window.addEventListener('scroll', updateFnPositions);
-  window.addEventListener('resize', updateFnPositions);
-
-  // Popup Functionality
-  const popupLinks = document.querySelectorAll(".popup-link");
-  const closeButtons = document.querySelectorAll(".popup-close-button");
-
-  // Handle popup links
-  popupLinks.forEach((link) => {
-    link.addEventListener("click", function (e) {
+  // Popups
+  document.querySelectorAll(".popup-link").forEach(link => {
+    link.addEventListener("click", (e) => {
       e.preventDefault();
-      const popupId = link.getAttribute("data-popup");
-      const popup = document.getElementById(popupId);
-      if (popup) {
-        popup.style.display = "block";
-      }
+      document.getElementById(link.dataset.popup).style.display = "block";
     });
   });
 
-  // Handle close buttons
-  closeButtons.forEach((btn) => {
-    btn.addEventListener("click", function () {
-      const popup = btn.closest(".popup");
-      if (popup) {
-        popup.style.display = "none";
-      }
-    });
+  document.querySelectorAll(".popup-close-button").forEach(btn => {
+    btn.addEventListener("click", () => btn.closest(".popup").style.display = "none");
   });
 
-  // Close popups when clicking outside
-  window.addEventListener("click", function (e) {
-    if (e.target.classList.contains("popup")) {
-      e.target.style.display = "none";
-    }
-  });
-
-  // ==== FILE 2 START ====
-  // Counting Animation Functionality
-  function startCountingAnimation(counterElement, targetNumber) {
-    let currentNumber = 0;
-    const duration = 2000;
-    const increment = targetNumber / (duration / 16);
-
-    const updateCounter = () => {
-      if (currentNumber < targetNumber) {
-        currentNumber += increment;
-        counterElement.textContent = Math.floor(currentNumber);
-        requestAnimationFrame(updateCounter);
-      } else {
-        counterElement.textContent = targetNumber;
-      }
+  // Counter Animation
+  function startCounting(counter, target) {
+    let current = 0;
+    const increment = target / (2000 / 16);
+    const update = () => {
+      if ((current += increment) < target) {
+        counter.textContent = Math.floor(current);
+        requestAnimationFrame(update);
+      } else counter.textContent = target;
     };
-    updateCounter();
-  }
-
-  function isInViewport(element) {
-    const rect = element.getBoundingClientRect();
-    return (
-      rect.top >= 0 &&
-      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-    );
+    requestAnimationFrame(update);
   }
 
   document.addEventListener("scroll", () => {
-    document.querySelectorAll(".counter-number").forEach((counterElement) => {
-      const targetNumber = parseInt(counterElement.getAttribute("data-target"), 10);
-      if (isInViewport(counterElement) && counterElement.textContent === "0") {
-        startCountingAnimation(counterElement, targetNumber);
+    document.querySelectorAll(".counter-number").forEach(counter => {
+      if (!counter.dataset.triggered && counter.getBoundingClientRect().top <= window.innerHeight) {
+        startCounting(counter, +counter.dataset.target);
+        counter.dataset.triggered = true;
       }
     });
   });
 
-  // ==== FILE 3 START ====
-  // Collapsible Bars Functionality
-  const collapsibleBars = document.querySelectorAll('.collapsible-bar');
-  collapsibleBars.forEach(bar => {
-    bar.addEventListener('click', function() {
-      const content = bar.nextElementSibling;
-      const arrow = bar.querySelector('.collapsible-bar-arrow');
+  // Collapsible Bars
+  document.querySelectorAll('.collapsible-bar').forEach(bar => {
+    bar.addEventListener('click', () => {
       bar.classList.toggle('active');
-      content.classList.toggle('open');
-      arrow.classList.toggle('rotate');
+      bar.nextElementSibling.classList.toggle('open');
+      bar.querySelector('.collapsible-bar-arrow').classList.toggle('rotate');
     });
   });
 
-  // ==== FILE 4 START ====
-  // Slider Functionality
+  // Sliders
   document.querySelectorAll('.guide-preview-container').forEach(container => {
     const indicators = document.createElement('div');
     indicators.className = 'slide-indicators';
     container.parentNode.insertBefore(indicators, container.nextElementSibling);
-    initSlider(container, indicators);
+    
+    let currentIndex = 0;
+    const items = container.querySelectorAll('.guide-preview-item');
+    const updateIndicators = () => {
+      indicators.querySelectorAll('span').forEach((dot, i) => dot.classList.toggle('active', i === currentIndex));
+    };
+
+    indicators.innerHTML = Array.from({length: items.length}, (_, i) => 
+      `<span onclick="container.scrollTo({left: ${container.offsetWidth * i}, behavior: 'smooth'})"></span>`
+    ).join('');
+
+    container.addEventListener('scroll', () => {
+      currentIndex = Math.round(container.scrollLeft / container.offsetWidth);
+      updateIndicators();
+    });
   });
 
-  function initSlider(container, indicators) {
-    // ... (keep original slider implementation code unchanged) ...
-  }
+  // Shared Events
+  window.addEventListener('click', (e) => {
+    if (e.target.classList.contains('popup')) e.target.style.display = "none";
+    if (!e.target.closest('fn') && !e.target.closest('.fn-content')) {
+      document.querySelectorAll('fn').forEach(f => f.contentDiv.style.display = 'none');
+    }
+  });
 
-  // ==== SHARED FUNCTIONS ====
-  function updateFnPositions() {
-    document.querySelectorAll('fn.active').forEach(fnElement => {
-      const rect = fnElement.getBoundingClientRect();
-      const contentDiv = fnElement.contentDiv;
-      contentDiv.style.top = `${rect.top - contentDiv.offsetHeight - 5}px`;
-      contentDiv.style.left = `${rect.left}px`;
+  window.addEventListener('resize', () => {
+    document.querySelectorAll('fn.active').forEach(fn => {
+      const rect = fn.getBoundingClientRect();
+      fn.contentDiv.style.top = `${rect.top - fn.contentDiv.offsetHeight - 5}px`;
+      fn.contentDiv.style.left = `${rect.left}px`;
     });
-  }
-
-  function initializeHamburger() {
-    // ... (keep original hamburger implementation code unchanged) ...
-  }
-
-  window.initializeHamburger = initializeHamburger;
+  });
 });
