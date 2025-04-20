@@ -41,7 +41,7 @@ function initControls() {
             L.DomEvent.on(button, 'click', () => isGPSActive ? stopGPSTracking() : initGPSTracking());
             return button;
         }
-    })({ position: 'topleft' }).addTo(map);
+    }))({ position: 'topleft' }).addTo(map);
 }
 
 function setupFullscreenButton() {
