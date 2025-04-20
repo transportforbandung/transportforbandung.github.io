@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
       e.stopPropagation();
       const wasActive = fnElement.classList.contains('active');
       
+      // Close all footnotes first
       document.querySelectorAll('fn').forEach(f => {
         f.classList.remove('active');
         f.contentDiv.style.display = 'none';
@@ -63,6 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const popupLinks = document.querySelectorAll(".popup-link");
   const closeButtons = document.querySelectorAll(".popup-close-button");
 
+  // Handle popup links
   popupLinks.forEach((link) => {
     link.addEventListener("click", function (e) {
       e.preventDefault();
@@ -74,6 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Handle close buttons
   closeButtons.forEach((btn) => {
     btn.addEventListener("click", function () {
       const popup = btn.closest(".popup");
@@ -83,6 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Close popups when clicking outside
   window.addEventListener("click", function (e) {
     if (e.target.classList.contains("popup")) {
       e.target.style.display = "none";
@@ -116,6 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
     );
   }
 
+  // Initialize counting animation on scroll
   document.addEventListener("scroll", () => {
     const counterNumberElements = document.querySelectorAll(".counter-number");
     
@@ -130,17 +135,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-// Revised Collapsible Bar Functionality to match CSS
-const collapsibleBars = document.querySelectorAll('.collapsible-bar');
-collapsibleBars.forEach(bar => {
-    bar.addEventListener('click', function () {
-        const content = bar.nextElementSibling; // Get the corresponding content
-        const arrow = bar.querySelector('.collapsible-bar-arrow'); // Get the arrow inside the bar
-        // Toggle classes
-        bar.classList.toggle('active');
-        content.classList.toggle('open');
-        arrow.classList.toggle('rotate');
+  // Collapsible Bar Functionality
+  const collapsibleBars = document.querySelectorAll('.collapsible-bar');
+
+  collapsibleBars.forEach(bar => {
+    bar.addEventListener('click', () => {
+      const content = bar.nextElementSibling;
+      const arrow = bar.querySelector('.collapsible-bar-arrow');
+
+      bar.classList.toggle('active');
+      content.classList.toggle('open');
+      arrow.classList.toggle('rotate');
     });
+  });
 });
 
 // Position update function for footnotes
