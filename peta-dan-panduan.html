@@ -235,12 +235,19 @@
                     </div>
                 </div>
             </div>
-            <!--<h2 style="color: #FFFFFF">Peta Interaktif</h2>
+            <h2 style="color: #FFFFFF">Peta Interaktif</h2>
             <p style="color: #FFFFFF">Bingung dengan peta diagram? Cek rute kereta api perkotaan, bus kota, dan angkot di Bandung Raya secara langsung di peta berikut. Data peta dan rute transportasi umum berasal dari OpenStreetMap dan akan terus diperbaharui.</p>
             <p style="color: #FFFFFF">Klik rute yang ingin Anda ketahui, kemudian tunggu beberapa saat hingga rute muncul di peta. Lihat peta dengan layar penuh dan lacak lokasi saat ini melalui tombol di kiri atas.</p>
-            <p style="color: #000; text-align:left; font-size: 0.6rem; margin-bottom: 20px">Terdapat masalah data? Diskusikan di <a href="https://t.me/fdtbandung"><b>grup Telegram FDTB</b></a>.</p>-->
-    </section>
-    </div>
+            <p style="color: #000; text-align:left; font-size: 0.6rem; margin-bottom: 20px">Terdapat masalah data? Diskusikan di <a href="https://t.me/fdtbandung"><b>grup Telegram FDTB</b></a>.</p>
+            <div class="map-container">
+                <div id="map"></div>
+                <div class="map-checkbox-menu">
+                    <div class="route-header"><b>Pilih Rute</b></div>
+                    <div id="route-container"></div>
+                    <p style="color: #000; text-align:left; font-size: 0.6rem; margin-bottom: 20px">Terdapat masalah data? Diskusikan di <a href="https://t.me/fdtbandung"><b>grup Telegram FDTB</b></a>.</p>
+                </div>
+            </div>
+        </section>
     </div>
     
     <div id="panduan" style="background-color: #00568E">
@@ -311,6 +318,10 @@
     <script src="./components/main.js" async></script>
     <script src="./components/collapsible-bar.js" async></script>
     <script src="./components/guide-swipe-preview.js" async></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/2.4.0/Control.FullScreen.min.js" async></script>
+    <script src="./components/osm-basemap.js" async></script>
+    <script src="./components/route-map.js" async></script>
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
