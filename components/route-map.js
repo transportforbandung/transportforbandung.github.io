@@ -17,7 +17,9 @@ function initMap() {
         attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap Contributors</a> | Data processing by <a href="https://transportforbandung.org/tentang-kami">Transport for Bandung</a>'
     }).addTo(map);
     
-    tileLayer.getContainer().style.filter = 'grayscale(80%) brightness(90%) saturate(80%)';
+    if (tileLayer.getContainer) {
+        tileLayer.getContainer().style.filter = 'grayscale(80%) brightness(90%) saturate(80%)';
+    }
     routeLayer = L.layerGroup().addTo(map);
     
     initControls();
@@ -88,7 +90,9 @@ function initGPSTracking() {
     );
 
     isGPSActive = true;
-    gpsButton.getContainer().classList.add('active');
+    if (gpsButton && gpsButton.getContainer) {
+        gpsButton.getContainer().classList.add('active');
+    }
 }
 
 function stopGPSTracking() {
@@ -138,7 +142,11 @@ async function initializeRoutes() {
                         `).join('')}
                     </div>
                 </div>`;
-            routeContainer.insertAdjacentHTML('beforeend', categoryHTML);
+            if (routeContainer) {
+                routeContainer.insertAdjacentHTML('beforeend', categoryHTML);
+            } else {
+                console.error('Route container not found in DOM.');
+            }
         });
 
         document.querySelector('.map-checkbox-menu').addEventListener('change', handleCheckboxChange);
@@ -175,10 +183,11 @@ async function fetchRouteData(id, displayType, color) {
     try {
         // Only load data when checkbox is checked
         const layerGroup = L.layerGroup();
-        const [localData, overpassData] = await Promise.allSettled([
-            fetchLocalRoute(id, displayType, color),
-            fetchOverpassRoute(id, displayType, color)
-        ]);
+        const result = localData.value || overpassData.value || null;
+        if (!result) {
+            throw new Error('Failed to fetch route data.');
+        }
+        return result;
         
         return localData.value || overpassData.value;
     } catch (error) {
