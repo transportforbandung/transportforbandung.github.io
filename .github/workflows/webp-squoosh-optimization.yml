@@ -1,6 +1,7 @@
 name: Optimize WebP Files
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - '**/*.webp'
