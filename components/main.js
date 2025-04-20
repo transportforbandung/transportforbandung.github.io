@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
       e.stopPropagation();
       const wasActive = fnElement.classList.contains('active');
       
-      // Close all footnotes first
       document.querySelectorAll('fn').forEach(f => {
         f.classList.remove('active');
         f.contentDiv.style.display = 'none';
@@ -64,7 +63,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const popupLinks = document.querySelectorAll(".popup-link");
   const closeButtons = document.querySelectorAll(".popup-close-button");
 
-  // Handle popup links
   popupLinks.forEach((link) => {
     link.addEventListener("click", function (e) {
       e.preventDefault();
@@ -76,7 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Handle close buttons
   closeButtons.forEach((btn) => {
     btn.addEventListener("click", function () {
       const popup = btn.closest(".popup");
@@ -86,7 +83,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Close popups when clicking outside
   window.addEventListener("click", function (e) {
     if (e.target.classList.contains("popup")) {
       e.target.style.display = "none";
@@ -120,7 +116,6 @@ document.addEventListener('DOMContentLoaded', () => {
     );
   }
 
-  // Initialize counting animation on scroll
   document.addEventListener("scroll", () => {
     const counterNumberElements = document.querySelectorAll(".counter-number");
     
@@ -135,17 +130,26 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Collapsible Bar Functionality
-  const collapsibleBars = document.querySelectorAll('.collapsible-bar');
+  // Collapsible Bar Functionality (Revised)
+  document.querySelectorAll('.collapsible').forEach(collapsible => {
+    const bar = collapsible.querySelector('.collapsible-bar');
+    const content = collapsible.querySelector('.collapsible-content');
+    const arrow = bar.querySelector('.collapsible-bar-arrow');
 
-  collapsibleBars.forEach(bar => {
     bar.addEventListener('click', () => {
-      const content = bar.nextElementSibling;
-      const arrow = bar.querySelector('.collapsible-bar-arrow');
-
+      const isOpening = !content.classList.contains('active');
+      
+      // Toggle current state only
       bar.classList.toggle('active');
-      content.classList.toggle('open');
+      content.classList.toggle('active');
       arrow.classList.toggle('rotate');
+
+      // Smooth height transition
+      if (isOpening) {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } else {
+        content.style.maxHeight = null;
+      }
     });
   });
 });
