@@ -25,8 +25,14 @@ jobs:
     - name: Install SVGO
       run: npm install -g svgo
 
-    - name: Optimize SVG Files
+    - name: Optimize SVG Files in assets
       run: svgo -f ./assets --config=action-scripts/svgo.config.js
+
+    - name: Optimize SVG Files in assets/logo
+      run: svgo -f ./assets/logo --config=action-scripts/svgo.config.js
+
+    - name: Optimize SVG Files in assets/route-icon
+      run: svgo -f ./assets/route-icon --config=action-scripts/svgo.config.js
 
     - name: Commit Changes
       run: |
