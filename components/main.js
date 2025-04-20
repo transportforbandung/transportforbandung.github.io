@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
       e.stopPropagation();
       const wasActive = fnElement.classList.contains('active');
       
-      // Close all footnotes first
       document.querySelectorAll('fn').forEach(f => {
         f.classList.remove('active');
         f.contentDiv.style.display = 'none';
@@ -64,7 +63,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const popupLinks = document.querySelectorAll(".popup-link");
   const closeButtons = document.querySelectorAll(".popup-close-button");
 
-  // Handle popup links
   popupLinks.forEach((link) => {
     link.addEventListener("click", function (e) {
       e.preventDefault();
@@ -76,7 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Handle close buttons
   closeButtons.forEach((btn) => {
     btn.addEventListener("click", function () {
       const popup = btn.closest(".popup");
@@ -86,7 +83,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Close popups when clicking outside
   window.addEventListener("click", function (e) {
     if (e.target.classList.contains("popup")) {
       e.target.style.display = "none";
@@ -120,7 +116,6 @@ document.addEventListener('DOMContentLoaded', () => {
     );
   }
 
-  // Initialize counting animation on scroll
   document.addEventListener("scroll", () => {
     const counterNumberElements = document.querySelectorAll(".counter-number");
     
@@ -148,6 +143,115 @@ document.addEventListener('DOMContentLoaded', () => {
       arrow.classList.toggle('rotate');
     });
   });
+
+  // Horizontal Swipe Slider Functionality
+  document.querySelectorAll('.guide-preview-container').forEach(container => {
+    const indicators = document.createElement('div');
+    indicators.className = 'slide-indicators';
+    container.parentNode.insertBefore(indicators, container.nextElementSibling);
+    initSlider(container, indicators);
+  });
+
+  function initSlider(container, indicators) {
+    let items = container.querySelectorAll('.guide-preview-item');
+    let isDragging = false;
+    let startPos = 0;
+    let currentTranslate = 0;
+    let prevTranslate = 0;
+    let animationID = 0;
+    let currentIndex = 0;
+
+    function initIndicators() {
+      indicators.innerHTML = '';
+      items.forEach((_, index) => {
+        const dot = document.createElement('span');
+        if(index === 0) dot.classList.add('active');
+        dot.addEventListener('click', () => goToIndex(index));
+        indicators.appendChild(dot);
+      });
+    }
+
+    function updateIndicators(index) {
+      indicators.querySelectorAll('span').forEach((dot, i) => {
+        dot.classList.toggle('active', i === index);
+      });
+    }
+
+    function goToIndex(index) {
+      currentIndex = index;
+      const itemWidth = container.offsetWidth;
+      container.scrollTo({
+        left: itemWidth * index,
+        behavior: 'smooth'
+      });
+      updateIndicators(index);
+    }
+
+    // Touch/Mouse event handlers
+    const eventHandlers = {
+      start: (event) => {
+        startPos = getPositionX(event);
+        isDragging = true;
+        animationID = requestAnimationFrame(animation);
+        container.classList.add('grabbing');
+      },
+      move: (event) => {
+        if (!isDragging) return;
+        const currentPosition = getPositionX(event);
+        const diff = currentPosition - startPos;
+        container.scrollLeft = prevTranslate - diff;
+      },
+      end: () => {
+        cancelAnimationFrame(animationID);
+        isDragging = false;
+        const movedBy = prevTranslate - container.scrollLeft;
+        container.classList.remove('grabbing');
+
+        if (Math.abs(movedBy) < 50) return;
+        currentIndex = movedBy > 0 ? currentIndex + 1 : currentIndex - 1;
+        currentIndex = Math.max(0, Math.min(currentIndex, items.length - 1));
+        goToIndex(currentIndex);
+      }
+    };
+
+    // Event listeners
+    container.addEventListener('touchstart', eventHandlers.start);
+    container.addEventListener('touchmove', eventHandlers.move);
+    container.addEventListener('touchend', eventHandlers.end);
+    container.addEventListener('mousedown', eventHandlers.start);
+    container.addEventListener('mousemove', eventHandlers.move);
+    container.addEventListener('mouseup', eventHandlers.end);
+    container.addEventListener('mouseleave', eventHandlers.end);
+
+    function getPositionX(event) {
+      return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+    }
+
+    function animation() {
+      prevTranslate = container.scrollLeft;
+      animationID = requestAnimationFrame(animation);
+    }
+
+    container.addEventListener('scroll', () => {
+      const itemWidth = container.offsetWidth;
+      currentIndex = Math.round(container.scrollLeft / itemWidth);
+      updateIndicators(currentIndex);
+    });
+
+    // Initialize slider
+    initIndicators();
+    
+    // Resize handler
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        items = container.querySelectorAll('.guide-preview-item');
+        initIndicators();
+        goToIndex(currentIndex);
+      }, 250);
+    });
+  }
 });
 
 // Position update function for footnotes
