@@ -1,0 +1,49 @@
+name: Optimize WebP Files
+
+on:
+  push:
+    paths:
+      - '**/*.webp'
+  pull_request:
+    paths:
+      - '**/*.webp'
+
+jobs:
+  optimize-webp:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20' # Use the latest stable Node.js version
+
+      # Step 3: Install Squoosh CLI
+      - name: Install Squoosh CLI
+        run: npm install -g @squoosh/cli
+
+      # Step 4: Find and Optimize WebP files
+      - name: Optimize WebP files
+        run: |
+          find . -name "*.webp" -print0 | while IFS= read -r -d '' file; do
+            echo "Optimizing $file"
+            npx squoosh-cli --output-dir ./optimized "$file"
+            mv ./optimized/$(basename "$file") "$file"
+          done
+
+      # Step 5: Commit Changes
+      - name: Commit optimized WebP files
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Optimize WebP files using Squoosh" || echo "No changes to commit"
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
