@@ -131,25 +131,20 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 // Revised Collapsible Bar Functionality to match CSS
-document.querySelectorAll('.collapsible').forEach(collapsible => {
-    const bar = collapsible.querySelector('.collapsible-bar');
-    const content = collapsible.querySelector('.collapsible-content');
-    const arrow = bar.querySelector('.collapsible-bar-arrow');
+document.addEventListener('DOMContentLoaded', () => {
+    // Collapsible Bar Functionality
+    const collapsibleBars = document.querySelectorAll('.collapsible-bar');
 
-    bar.addEventListener('click', () => {
-        const isOpening = !content.classList.contains('open');
-        
-        // Toggle classes that match CSS
-        bar.classList.toggle('active');
-        content.classList.toggle('open');
-        arrow.classList.toggle('rotate');
+    collapsibleBars.forEach(bar => {
+        bar.addEventListener('click', function () {
+            const content = bar.nextElementSibling; // Get the corresponding content
+            const arrow = bar.querySelector('.collapsible-bar-arrow'); // Get the arrow inside the bar
 
-        // Smooth height transition
-        if (isOpening) {
-            content.style.maxHeight = content.scrollHeight + "px";
-        } else {
-            content.style.maxHeight = null;
-        }
+            // Toggle classes
+            bar.classList.toggle('active');
+            content.classList.toggle('open');
+            arrow.classList.toggle('rotate');
+        });
     });
 });
 
