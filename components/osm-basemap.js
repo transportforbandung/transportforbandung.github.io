@@ -21,8 +21,7 @@ function initMap() {
 
     // Initialize routeLayer and add it to the map
     routeLayer = L.layerGroup().addTo(map);
-    window.routeLayer = routeLayer;
-    
+
     // Add full-screen control
     const fullscreenControl = L.control.fullscreen({
         position: 'topleft',
@@ -50,12 +49,6 @@ function initMap() {
 
     // Create the GPS button
     createGPSButton();
-    
-    map.whenReady(() => {
-        if (typeof initRoutes === 'function') {
-            initRoutes();
-        }
-    });
 }
 
 document.addEventListener('DOMContentLoaded', initMap);
