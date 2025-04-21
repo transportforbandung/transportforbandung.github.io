@@ -51,7 +51,7 @@ function fetchLocalRoute(relationId, displayType, routeColor) {
     });
 }
 
-// Overpass API version (original)
+// Overpass API version (DO NOT CHANGE QUERY)
 function fetchOverpassRoute(relationId, displayType, routeColor) {
     return new Promise((resolve, reject) => {
         const layerGroup = L.layerGroup();
