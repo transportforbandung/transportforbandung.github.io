@@ -1,21 +1,95 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Scroll Indicator Functionality
   const scrollIndicator = document.querySelector('.scroll-indicator .arrow-line');
-  const heroSection = document.querySelector('.hero');
-
-  if (scrollIndicator && heroSection) {
+  if (scrollIndicator) {
     window.addEventListener('scroll', () => {
       const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
       const scrollPosition = window.scrollY;
       const progress = (scrollPosition / scrollHeight) * 100;
       scrollIndicator.style.height = `${100 - progress}%`;
-    });
+    }, { passive: true });
   }
 
-  // Hamburger Menu Initialization
+  // Initialize hamburger menu
   initializeHamburger();
 
-  // Improved Footnote Functionality
+  // Initialize footnotes
+  initFootnotes();
+
+  // Set up event delegation for the entire document
+  document.addEventListener('click', handleDocumentClick);
+
+  // Counting Animation Functionality
+  initCounterAnimation();
+
+  // Collapsible Bar Functionality
+  initCollapsibleBars();
+
+  // Guide Swipe Preview Functionality
+  initGuideSliders();
+
+  // Update footnote positions on scroll/resize
+  window.addEventListener('scroll', updateFnPositions, { passive: true });
+  window.addEventListener('resize', updateFnPositions);
+});
+
+// Event Delegation Handler
+function handleDocumentClick(e) {
+  // Handle popup links
+  if (e.target.closest('.popup-link')) {
+    e.preventDefault();
+    const popupId = e.target.closest('.popup-link').getAttribute('data-popup');
+    const popup = document.getElementById(popupId);
+    if (popup) popup.style.display = 'block';
+    return;
+  }
+
+  // Handle popup close buttons
+  if (e.target.closest('.popup-close-button')) {
+    const popup = e.target.closest('.popup');
+    if (popup) popup.style.display = 'none';
+    return;
+  }
+
+  // Handle popup background clicks
+  if (e.target.classList.contains('popup')) {
+    e.target.style.display = 'none';
+    return;
+  }
+
+  // Handle footnote clicks
+  if (e.target.closest('fn')) {
+    const fnElement = e.target.closest('fn');
+    e.stopPropagation();
+    const wasActive = fnElement.classList.contains('active');
+    
+    // Close all footnotes first
+    document.querySelectorAll('fn').forEach(f => {
+      f.classList.remove('active');
+      f.contentDiv.style.display = 'none';
+    });
+    
+    if (!wasActive) {
+      const rect = fnElement.getBoundingClientRect();
+      fnElement.contentDiv.style.display = 'block';
+      fnElement.contentDiv.style.top = `${rect.top - fnElement.contentDiv.offsetHeight - 5}px`;
+      fnElement.contentDiv.style.left = `${rect.left}px`;
+      fnElement.classList.add('active');
+    }
+    return;
+  }
+
+  // Close all footnotes when clicking outside
+  if (!e.target.closest('fn') && !e.target.closest('.fn-content')) {
+    document.querySelectorAll('fn').forEach(f => {
+      f.classList.remove('active');
+      f.contentDiv.style.display = 'none';
+    });
+  }
+}
+
+// Initialize Footnotes
+function initFootnotes() {
   document.querySelectorAll('fn').forEach(fnElement => {
     const content = fnElement.textContent;
     fnElement.innerHTML = '';
@@ -25,126 +99,64 @@ document.addEventListener('DOMContentLoaded', () => {
     contentDiv.innerHTML = content;
     document.body.appendChild(contentDiv);
     fnElement.contentDiv = contentDiv;
-
-    fnElement.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const wasActive = fnElement.classList.contains('active');
-      
-      // Close all footnotes first
-      document.querySelectorAll('fn').forEach(f => {
-        f.classList.remove('active');
-        f.contentDiv.style.display = 'none';
-      });
-      
-      if (!wasActive) {
-        const rect = fnElement.getBoundingClientRect();
-        contentDiv.style.display = 'block';
-        contentDiv.style.top = `${rect.top - contentDiv.offsetHeight - 5}px`;
-        contentDiv.style.left = `${rect.left}px`;
-        fnElement.classList.add('active');
-      }
-    });
   });
+}
 
-  // Close footnotes when clicking outside
-  document.addEventListener('click', (e) => {
-    if (!e.target.closest('fn') && !e.target.closest('.fn-content') && !e.target.closest('.popup')) {
-      document.querySelectorAll('fn').forEach(f => {
-        f.classList.remove('active');
-        f.contentDiv.style.display = 'none';
-      });
-    }
-  });
-
-  // Update footnote positions on scroll/resize
-  window.addEventListener('scroll', updateFnPositions);
-  window.addEventListener('resize', updateFnPositions);
-
-  // Popup Functionality
-  const popupLinks = document.querySelectorAll(".popup-link");
-  const closeButtons = document.querySelectorAll(".popup-close-button");
-
-  popupLinks.forEach((link) => {
-    link.addEventListener("click", function (e) {
-      e.preventDefault();
-      const popupId = link.getAttribute("data-popup");
-      const popup = document.getElementById(popupId);
-      if (popup) {
-        popup.style.display = "block";
-      }
-    });
-  });
-
-  closeButtons.forEach((btn) => {
-    btn.addEventListener("click", function () {
-      const popup = btn.closest(".popup");
-      if (popup) {
-        popup.style.display = "none";
-      }
-    });
-  });
-
-  window.addEventListener("click", function (e) {
-    if (e.target.classList.contains("popup")) {
-      e.target.style.display = "none";
-    }
-  });
-
-  // Counting Animation Functionality
-  function startCountingAnimation(counterElement, targetNumber) {
-    let currentNumber = 0;
-    const duration = 2000;
-    const increment = targetNumber / (duration / 16);
-
-    const updateCounter = () => {
-      if (currentNumber < targetNumber) {
-        currentNumber += increment;
-        counterElement.textContent = Math.floor(currentNumber);
-        requestAnimationFrame(updateCounter);
-      } else {
-        counterElement.textContent = targetNumber;
-      }
-    };
-
-    updateCounter();
-  }
-
-  function isInViewport(element) {
-    const rect = element.getBoundingClientRect();
-    return (
-      rect.top >= 0 &&
-      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-    );
-  }
-
-  document.addEventListener("scroll", () => {
-    const counterNumberElements = document.querySelectorAll(".counter-number");
-    
-    counterNumberElements.forEach((counterElement) => {
-      const targetNumber = parseInt(counterElement.getAttribute("data-target"), 10);
-      
-      if (isInViewport(counterElement)) {
+// Initialize Counter Animation
+function initCounterAnimation() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const counterElement = entry.target;
         if (counterElement.textContent === "0") {
+          const targetNumber = parseInt(counterElement.getAttribute('data-target'), 10);
           startCountingAnimation(counterElement, targetNumber);
         }
+        observer.unobserve(counterElement);
       }
     });
-  });
+  }, { threshold: 0.5 });
 
-  // Collapsible Bar Functionality
-  const collapsibleBars = document.querySelectorAll('.collapsible-bar');
-  collapsibleBars.forEach(bar => {
-    bar.addEventListener('click', () => {
+  document.querySelectorAll('.counter-number').forEach(counter => {
+    observer.observe(counter);
+  });
+}
+
+function startCountingAnimation(counterElement, targetNumber) {
+  let currentNumber = 0;
+  const duration = 2000;
+  const increment = targetNumber / (duration / 16);
+
+  const updateCounter = () => {
+    if (currentNumber < targetNumber) {
+      currentNumber += increment;
+      counterElement.textContent = Math.floor(currentNumber);
+      requestAnimationFrame(updateCounter);
+    } else {
+      counterElement.textContent = targetNumber;
+    }
+  };
+
+  updateCounter();
+}
+
+// Initialize Collapsible Bars
+function initCollapsibleBars() {
+  document.addEventListener('click', (e) => {
+    if (e.target.closest('.collapsible-bar')) {
+      const bar = e.target.closest('.collapsible-bar');
       const content = bar.nextElementSibling;
       const arrow = bar.querySelector('.collapsible-bar-arrow');
 
       bar.classList.toggle('active');
       content.classList.toggle('open');
       arrow.classList.toggle('rotate');
-    });
+    }
   });
+}
 
-  // Guide Swipe Preview Functionality
+// Initialize Guide Sliders
+function initGuideSliders() {
   document.querySelectorAll('.guide-preview-container').forEach(container => {
     const indicators = document.createElement('div');
     indicators.className = 'slide-indicators';
@@ -152,106 +164,99 @@ document.addEventListener('DOMContentLoaded', () => {
 
     initSlider(container, indicators);
   });
+}
 
-  function initSlider(container, indicators) {
-    let items = container.querySelectorAll('.guide-preview-item');
-    let isDragging = false;
-    let startPos = 0;
-    let currentTranslate = 0;
-    let prevTranslate = 0;
-    let animationID = 0;
-    let currentIndex = 0;
+function initSlider(container, indicators) {
+  let items = container.querySelectorAll('.guide-preview-item');
+  let isDragging = false;
+  let startPos = 0;
+  let prevTranslate = 0;
+  let currentIndex = 0;
 
-    function initIndicators() {
-      indicators.innerHTML = '';
-      items.forEach((_, index) => {
-        const dot = document.createElement('span');
-        if (index === 0) dot.classList.add('active');
-        dot.addEventListener('click', () => goToIndex(index));
-        indicators.appendChild(dot);
-      });
-    }
+  function initIndicators() {
+    indicators.innerHTML = '';
+    items.forEach((_, index) => {
+      const dot = document.createElement('span');
+      if (index === 0) dot.classList.add('active');
+      dot.addEventListener('click', () => goToIndex(index));
+      indicators.appendChild(dot);
+    });
+  }
 
-    function updateIndicators(index) {
-      indicators.querySelectorAll('span').forEach((dot, i) => {
-        dot.classList.toggle('active', i === index);
-      });
-    }
+  function updateIndicators(index) {
+    indicators.querySelectorAll('span').forEach((dot, i) => {
+      dot.classList.toggle('active', i === index);
+    });
+  }
 
-    function goToIndex(index) {
-      currentIndex = index;
-      const itemWidth = container.offsetWidth;
-      container.scrollTo({
-        left: itemWidth * index,
-        behavior: 'smooth'
-      });
-      updateIndicators(index);
-    }
+  function goToIndex(index) {
+    currentIndex = index;
+    const itemWidth = container.offsetWidth;
+    container.scrollTo({
+      left: itemWidth * index,
+      behavior: 'smooth'
+    });
+    updateIndicators(index);
+  }
 
-    container.addEventListener('touchstart', touchStart);
-    container.addEventListener('touchmove', touchMove);
-    container.addEventListener('touchend', touchEnd);
+  // Event handlers
+  const touchStart = (e) => {
+    startPos = getPositionX(e);
+    isDragging = true;
+    container.classList.add('grabbing');
+  };
 
-    container.addEventListener('mousedown', touchStart);
-    container.addEventListener('mousemove', touchMove);
-    container.addEventListener('mouseup', touchEnd);
-    container.addEventListener('mouseleave', touchEnd);
+  const touchMove = (e) => {
+    if (!isDragging) return;
+    const currentPosition = getPositionX(e);
+    const diff = currentPosition - startPos;
+    container.scrollLeft = prevTranslate - diff;
+  };
 
-    function getPositionX(event) {
-      return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
-    }
+  const touchEnd = () => {
+    isDragging = false;
+    const movedBy = prevTranslate - container.scrollLeft;
+    container.classList.remove('grabbing');
 
-    function touchStart(event) {
-      startPos = getPositionX(event);
-      isDragging = true;
-      animationID = requestAnimationFrame(animation);
-      container.classList.add('grabbing');
-    }
-
-    function touchMove(event) {
-      if (!isDragging) return;
-      const currentPosition = getPositionX(event);
-      const diff = currentPosition - startPos;
-      container.scrollLeft = prevTranslate - diff;
-    }
-
-    function touchEnd() {
-      cancelAnimationFrame(animationID);
-      isDragging = false;
-      const movedBy = prevTranslate - container.scrollLeft;
-      container.classList.remove('grabbing');
-
-      if (Math.abs(movedBy) < 50) return;
-
+    if (Math.abs(movedBy) >= 50) {
       currentIndex = movedBy > 0 ? currentIndex + 1 : currentIndex - 1;
       currentIndex = Math.max(0, Math.min(currentIndex, items.length - 1));
       goToIndex(currentIndex);
     }
+  };
 
-    function animation() {
-      prevTranslate = container.scrollLeft;
-      animationID = requestAnimationFrame(animation);
-    }
+  const getPositionX = (event) => {
+    return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+  };
 
-    container.addEventListener('scroll', () => {
-      const itemWidth = container.offsetWidth;
-      currentIndex = Math.round(container.scrollLeft / itemWidth);
-      updateIndicators(currentIndex);
-    });
+  // Add event listeners
+  container.addEventListener('touchstart', touchStart, { passive: true });
+  container.addEventListener('touchmove', touchMove, { passive: false });
+  container.addEventListener('touchend', touchEnd);
+  container.addEventListener('mousedown', touchStart);
+  container.addEventListener('mousemove', touchMove);
+  container.addEventListener('mouseup', touchEnd);
+  container.addEventListener('mouseleave', touchEnd);
 
-    initIndicators();
+  container.addEventListener('scroll', () => {
+    prevTranslate = container.scrollLeft;
+    const itemWidth = container.offsetWidth;
+    currentIndex = Math.round(container.scrollLeft / itemWidth);
+    updateIndicators(currentIndex);
+  }, { passive: true });
 
-    let resizeTimer;
-    window.addEventListener('resize', () => {
-      clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(() => {
-        items = container.querySelectorAll('.guide-preview-item');
-        initIndicators();
-        goToIndex(currentIndex);
-      }, 250);
-    });
-  }
-});
+  initIndicators();
+
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      items = container.querySelectorAll('.guide-preview-item');
+      initIndicators();
+      goToIndex(currentIndex);
+    }, 250);
+  });
+}
 
 // Position update function for footnotes
 function updateFnPositions() {
@@ -287,12 +292,13 @@ function initializeHamburger() {
       }
     });
 
-    document.querySelectorAll('.nav-links a').forEach(link => {
-      link.addEventListener('click', () => {
+    // Use event delegation for nav links
+    navLinks.addEventListener('click', (e) => {
+      if (e.target.tagName === 'A') {
         newHamburger.classList.remove('active');
         navLinks.classList.remove('active');
         body.classList.remove('menu-open');
-      });
+      }
     });
   }
 }
