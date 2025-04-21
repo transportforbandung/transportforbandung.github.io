@@ -64,7 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const popupLinks = document.querySelectorAll(".popup-link");
   const closeButtons = document.querySelectorAll(".popup-close-button");
 
-  // Handle popup links
   popupLinks.forEach((link) => {
     link.addEventListener("click", function (e) {
       e.preventDefault();
@@ -76,7 +75,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Handle close buttons
   closeButtons.forEach((btn) => {
     btn.addEventListener("click", function () {
       const popup = btn.closest(".popup");
@@ -86,7 +84,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Close popups when clicking outside
   window.addEventListener("click", function (e) {
     if (e.target.classList.contains("popup")) {
       e.target.style.display = "none";
@@ -120,7 +117,6 @@ document.addEventListener('DOMContentLoaded', () => {
     );
   }
 
-  // Initialize counting animation on scroll
   document.addEventListener("scroll", () => {
     const counterNumberElements = document.querySelectorAll(".counter-number");
     
@@ -137,7 +133,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Collapsible Bar Functionality
   const collapsibleBars = document.querySelectorAll('.collapsible-bar');
-
   collapsibleBars.forEach(bar => {
     bar.addEventListener('click', () => {
       const content = bar.nextElementSibling;
@@ -148,6 +143,114 @@ document.addEventListener('DOMContentLoaded', () => {
       arrow.classList.toggle('rotate');
     });
   });
+
+  // Guide Swipe Preview Functionality
+  document.querySelectorAll('.guide-preview-container').forEach(container => {
+    const indicators = document.createElement('div');
+    indicators.className = 'slide-indicators';
+    container.parentNode.insertBefore(indicators, container.nextElementSibling);
+
+    initSlider(container, indicators);
+  });
+
+  function initSlider(container, indicators) {
+    let items = container.querySelectorAll('.guide-preview-item');
+    let isDragging = false;
+    let startPos = 0;
+    let currentTranslate = 0;
+    let prevTranslate = 0;
+    let animationID = 0;
+    let currentIndex = 0;
+
+    function initIndicators() {
+      indicators.innerHTML = '';
+      items.forEach((_, index) => {
+        const dot = document.createElement('span');
+        if (index === 0) dot.classList.add('active');
+        dot.addEventListener('click', () => goToIndex(index));
+        indicators.appendChild(dot);
+      });
+    }
+
+    function updateIndicators(index) {
+      indicators.querySelectorAll('span').forEach((dot, i) => {
+        dot.classList.toggle('active', i === index);
+      });
+    }
+
+    function goToIndex(index) {
+      currentIndex = index;
+      const itemWidth = container.offsetWidth;
+      container.scrollTo({
+        left: itemWidth * index,
+        behavior: 'smooth'
+      });
+      updateIndicators(index);
+    }
+
+    container.addEventListener('touchstart', touchStart);
+    container.addEventListener('touchmove', touchMove);
+    container.addEventListener('touchend', touchEnd);
+
+    container.addEventListener('mousedown', touchStart);
+    container.addEventListener('mousemove', touchMove);
+    container.addEventListener('mouseup', touchEnd);
+    container.addEventListener('mouseleave', touchEnd);
+
+    function getPositionX(event) {
+      return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+    }
+
+    function touchStart(event) {
+      startPos = getPositionX(event);
+      isDragging = true;
+      animationID = requestAnimationFrame(animation);
+      container.classList.add('grabbing');
+    }
+
+    function touchMove(event) {
+      if (!isDragging) return;
+      const currentPosition = getPositionX(event);
+      const diff = currentPosition - startPos;
+      container.scrollLeft = prevTranslate - diff;
+    }
+
+    function touchEnd() {
+      cancelAnimationFrame(animationID);
+      isDragging = false;
+      const movedBy = prevTranslate - container.scrollLeft;
+      container.classList.remove('grabbing');
+
+      if (Math.abs(movedBy) < 50) return;
+
+      currentIndex = movedBy > 0 ? currentIndex + 1 : currentIndex - 1;
+      currentIndex = Math.max(0, Math.min(currentIndex, items.length - 1));
+      goToIndex(currentIndex);
+    }
+
+    function animation() {
+      prevTranslate = container.scrollLeft;
+      animationID = requestAnimationFrame(animation);
+    }
+
+    container.addEventListener('scroll', () => {
+      const itemWidth = container.offsetWidth;
+      currentIndex = Math.round(container.scrollLeft / itemWidth);
+      updateIndicators(currentIndex);
+    });
+
+    initIndicators();
+
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        items = container.querySelectorAll('.guide-preview-item');
+        initIndicators();
+        goToIndex(currentIndex);
+      }, 250);
+    });
+  }
 });
 
 // Position update function for footnotes
