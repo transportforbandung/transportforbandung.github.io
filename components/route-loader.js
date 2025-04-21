@@ -1,16 +1,21 @@
+// route-loader.js
 const routeCache = new Map();
-let activeLayers = new Map();
+const activeLayers = new Map();
 
+// Optimized initialization with batch DOM operations
 async function initializeRoutes() {
   try {
+    const container = document.getElementById('route-container');
     const response = await fetch('data/routes.json');
     const { categories } = await response.json();
-    const container = document.getElementById('route-container');
-
+    
+    // Use DocumentFragment for batch insertion
+    const fragment = document.createDocumentFragment();
+    
     categories.forEach(category => {
       const categoryHTML = `
         <div class="route-map-collapsible">
-          <div class="route-map-collapsible-bar">
+          <div class="route-map-collapsible-bar" role="button" tabindex="0">
             <span>${category.name}</span>
             <span class="route-map-collapsible-bar-arrow">▼</span>
           </div>
@@ -27,69 +32,92 @@ async function initializeRoutes() {
           </div>
         </div>
       `;
-      container.insertAdjacentHTML('beforeend', categoryHTML);
+      const tempDiv = document.createElement('div');
+      tempDiv.innerHTML = categoryHTML;
+      fragment.appendChild(tempDiv.firstElementChild);
     });
 
+    container.appendChild(fragment);
     initializeCollapsibles();
     setupEventDelegation();
   } catch (error) {
     console.error('Error initializing routes:', error);
+    // Consider adding user-facing error message
   }
 }
 
+// More efficient event delegation
 function setupEventDelegation() {
-  document.getElementById('route-container').addEventListener('change', async (e) => {
-    if (!e.target.matches('input[type="checkbox"]')) return;
+  const handler = async (e) => {
+    const checkbox = e.target.closest('input[type="checkbox"]');
+    if (!checkbox) return;
 
-    const { relationId, displayType, routeColor } = e.target.dataset;
+    const { relationId, displayType, routeColor } = checkbox.dataset;
     if (!relationId) return;
 
     try {
-      if (e.target.checked) {
+      checkbox.disabled = true; // Prevent rapid toggling
+      if (checkbox.checked) {
         await loadRoute(relationId, displayType, routeColor);
       } else {
         unloadRoute(relationId);
       }
     } catch (error) {
       console.error(`Route operation failed for ${relationId}:`, error);
-      e.target.checked = false;
+      checkbox.checked = false;
+      // Consider adding visual error feedback
+    } finally {
+      checkbox.disabled = false;
     }
-  });
+  };
+
+  document.getElementById('route-container').addEventListener('change', handler);
 }
 
+// Improved layer management
 async function loadRoute(relationId, displayType, routeColor) {
   if (activeLayers.has(relationId)) {
     map.addLayer(activeLayers.get(relationId));
     return;
   }
 
-  let layerGroup;
-  if (routeCache.has(relationId)) {
-    layerGroup = routeCache.get(relationId);
-  } else {
-    layerGroup = await fetchRouteData(relationId, displayType, routeColor);
-    routeCache.set(relationId, layerGroup);
-  }
+  try {
+    const layerGroup = routeCache.has(relationId) 
+      ? routeCache.get(relationId)
+      : await fetchRouteData(relationId, displayType, routeColor);
 
-  layerGroup.addTo(map);
-  activeLayers.set(relationId, layerGroup);
+    layerGroup.addTo(map);
+    activeLayers.set(relationId, layerGroup);
+    routeCache.set(relationId, layerGroup);
+  } catch (error) {
+    throw new Error(`Failed loading route ${relationId}: ${error.message}`);
+  }
 }
 
+// Consolidated error handling
 async function fetchRouteData(relationId, displayType, routeColor) {
   try {
     return await fetchLocalRoute(relationId, displayType, routeColor);
   } catch (localError) {
-    console.warn(`Local data not found for ${relationId}, using Overpass API`);
-    return await fetchOverpassRoute(relationId, displayType, routeColor);
+    console.warn(`Local data missing for ${relationId}:`, localError);
+    try {
+      return await fetchOverpassRoute(relationId, displayType, routeColor);
+    } catch (overpassError) {
+      throw new Error(`Both local and Overpass sources failed for ${relationId}`);
+    }
   }
 }
 
+// Safer layer cleanup
 function unloadRoute(relationId) {
-  if (activeLayers.has(relationId)) {
-    map.removeLayer(activeLayers.get(relationId));
-    activeLayers.delete(relationId);
+  const layer = activeLayers.get(relationId);
+  if (layer && map.hasLayer(layer)) {
+    map.removeLayer(layer);
   }
+  activeLayers.delete(relationId);
 }
 
-// Initialize when DOM is ready
-document.addEventListener('DOMContentLoaded', initializeRoutes);
+// Initialize after DOM and base map are ready
+document.addEventListener('DOMContentLoaded', () => {
+  if (typeof map !== 'undefined') initializeRoutes();
+});
