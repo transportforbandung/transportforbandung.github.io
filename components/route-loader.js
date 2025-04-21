@@ -2,6 +2,25 @@
 const routeCache = new Map();
 const activeLayers = new Map();
 
+function initializeCollapsibles() {
+  document.querySelectorAll('.route-map-collapsible-bar').forEach(header => {
+    header.addEventListener('click', () => {
+      const content = header.nextElementSibling;
+      const isOpen = content.style.display === 'block';
+      
+      // Toggle content visibility
+      content.style.display = isOpen ? 'none' : 'block';
+      
+      // Rotate arrow indicator
+      const arrow = header.querySelector('.route-map-collapsible-bar-arrow');
+      arrow.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
+    });
+
+    // Initialize closed state
+    header.nextElementSibling.style.display = 'none';
+  });
+}
+
 // Optimized initialization with batch DOM operations
 async function initializeRoutes() {
   try {
