@@ -16,10 +16,6 @@ html {
     font-size: 16px;
     scroll-behavior: smooth;
 }
-:target {
-    position: relative;
-    top: 110px;
-}
 a {
     text-decoration: none !important;
     color: unset;
@@ -1413,11 +1409,6 @@ tr:hover {
     html {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 12px;
-
-    :target {
-        position: relative;
-        top: 90px;
-    }
         
     .hamburger {
         display: block;
