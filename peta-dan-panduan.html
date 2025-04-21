@@ -24,21 +24,16 @@
     <meta name="twitter:image" content="https://transportforbandung.org/assets/peta-fdtb-snippet.png">
     <link rel="icon" href="assets/TfB-logo-green-white-background.svg">
     <meta name="theme-color" content="#00A64F">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/2.4.0/Control.FullScreen.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="./components/fetch-script.js" as="script">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="style.css">
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MNSZN2RKR0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-MNSZN2RKR0');
-</script>
 <body>
     <!-- Navbar -->
     <div id="header"></div>
@@ -306,9 +301,15 @@
     
     <div id="footer"></div>
     
-    <!--Javascript for hamburger nav and fetch-->
-    <script src="./components/fetch-script.js"></script>
-    <script src="./components/main.js"></script>
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-MNSZN2RKR0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-MNSZN2RKR0');
+    </script>
+    <script src="./components/fetch-script.js" defer></script>
+    <script src="./components/main.js" defer></script>
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
