@@ -46,7 +46,7 @@ async function initializeRoutes() {
             <div id="${collapseId}" class="accordion-collapse collapse" aria-labelledby="heading-${index}" data-bs-parent="#${accordionId}">
               <div class="accordion-body">
                 ${category.routes.map((route, routeIndex) => `
-                  <div class="form-check mb-2">
+                  <div class="form-check mb-2" style="margin-bottom: 1.0rem !important;">
                     <input class="form-check-input" type="checkbox"
                            id="route-${index}-${routeIndex}"
                            data-relation-id="${route.relationId}"
