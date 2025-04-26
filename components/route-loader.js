@@ -32,32 +32,43 @@ async function initializeRoutes() {
     const fragment = document.createDocumentFragment();
     
     categories.forEach(category => {
+      const accordionId = `accordion-category-${index}`;
+      const collapseId = `collapse-category-${index}`;
+      
       const categoryHTML = `
-        <div class="route-map-collapsible">
-          <div class="route-map-collapsible-bar" role="button" tabindex="0">
-            <span>${category.name}</span>
-            <span class="route-map-collapsible-bar-arrow">▼</span>
-          </div>
-          <div class="route-map-collapsible-content">
-            ${category.routes.map(route => `
-              <label class="route-option">
-                <input type="checkbox"
-                       data-relation-id="${route.relationId}"
-                       data-display-type="${route.type}"
-                       data-route-color="${route.color}">
-                ${route.name}
-              </label>
-            `).join('')}
+        <div class="accordion mb-3" id="${accordionId}">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-${index}">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}">
+                ${category.name}
+              </button>
+            </h2>
+            <div id="${collapseId}" class="accordion-collapse collapse" aria-labelledby="heading-${index}" data-bs-parent="#${accordionId}">
+              <div class="accordion-body">
+                ${category.routes.map((route, routeIndex) => `
+                  <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox"
+                           id="route-${index}-${routeIndex}"
+                           data-relation-id="${route.relationId}"
+                           data-display-type="${route.type}"
+                           data-route-color="${route.color}">
+                    <label class="form-check-label" for="route-${index}-${routeIndex}">
+                      ${route.name}
+                    </label>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
           </div>
         </div>
       `;
+
       const tempDiv = document.createElement('div');
       tempDiv.innerHTML = categoryHTML;
       fragment.appendChild(tempDiv.firstElementChild);
     });
 
     container.appendChild(fragment);
-    initializeCollapsibles();
     setupEventDelegation();
   } catch (error) {
     console.error('Error initializing routes:', error);
