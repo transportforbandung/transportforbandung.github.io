@@ -25,10 +25,7 @@ function initMap() {
     // Add full-screen control
     const fullscreenControl = L.control.fullscreen({
         position: 'topleft',
-        title: {
-            false: 'Layar Penuh',
-            true: 'Keluar Layar Penuh'
-        },
+        title: false, // disable default title
         forceSeparateButton: true,
         fullscreenElement: false
     }).addTo(map);
@@ -37,22 +34,23 @@ function initMap() {
     setTimeout(() => {
         const fullscreenButton = document.querySelector('a.leaflet-control-zoom-fullscreen.fullscreen-icon');
         if (fullscreenButton) {
-            fullscreenButton.innerHTML = '<img src="https://transportforbandung.org/assets/fullscreen-enter.svg" alt="Enter Fullscreen" class="fullscreen-icon">';
+            fullscreenButton.innerHTML = '<i class="bi bi-fullscreen"></i>';
+            fullscreenButton.title = "Layar Penuh";
+
             map.on('enterFullscreen', () => {
-                fullscreenButton.innerHTML = '<img src="https://transportforbandung.org/assets/fullscreen-exit.svg" alt="Exit Fullscreen" class="fullscreen-icon">';
+                fullscreenButton.innerHTML = '<i class="bi bi-fullscreen-exit"></i>';
+                fullscreenButton.title = "Keluar Layar Penuh";
             });
+
             map.on('exitFullscreen', () => {
-                fullscreenButton.innerHTML = '<img src="https://transportforbandung.org/assets/fullscreen-enter.svg" alt="Enter Fullscreen" class="fullscreen-icon">';
+                fullscreenButton.innerHTML = '<i class="bi bi-fullscreen"></i>';
+                fullscreenButton.title = "Layar Penuh";
             });
         }
     }, 100);
 
     // Create the GPS button
     createGPSButton();
-
-    map.whenReady(() => {
-    document.dispatchEvent(new Event('mapInitialized'));
-  });
 }
 
 document.addEventListener('DOMContentLoaded', initMap);
@@ -112,9 +110,9 @@ function createGPSButton() {
     const GPSButton = L.Control.extend({
         onAdd: function(map) {
             const button = L.DomUtil.create('button', 'leaflet-bar leaflet-control leaflet-control-gps');
-            button.innerHTML = '<i class="fas fa-location-arrow"></i>';
+            button.innerHTML = '<i class="bi bi-cursor-fill"></i>';
             button.title = 'Aktifkan Pelacakan GPS';
-            button.style.cssText = 'background-color: white; border: 2px solid rgba(0,0,0,0.2); cursor: pointer;';
+            button.style.cssText = 'width: 34px; height: 34px; background-color: white; border: 2px solid rgba(0,0,0,0.2); cursor: pointer; color: #000; align-items: center; justify-content: center;';
 
             L.DomEvent.on(button, 'click', function(e) {
                 L.DomEvent.stopPropagation(e);
