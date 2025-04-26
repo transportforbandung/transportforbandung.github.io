@@ -157,13 +157,63 @@ function initCollapsibleBars() {
 
 // Initialize Guide Sliders
 function initGuideSliders() {
-  document.querySelectorAll('.guide-preview-container').forEach(container => {
-    const indicators = document.createElement('div');
-    indicators.className = 'slide-indicators';
-    container.parentNode.insertBefore(indicators, container.nextElementSibling);
+  let guideSwipers = [];
 
-    initSlider(container, indicators);
-  });
+  function setupGuideSwipers() {
+    document.querySelectorAll('.guide-preview-container').forEach(container => {
+      if (window.innerWidth < 768) {
+        if (!container.classList.contains('swiper-initialized')) {
+          container.classList.add('swiper');
+
+          const wrapper = document.createElement('div');
+          wrapper.classList.add('swiper-wrapper');
+
+          [...container.children].forEach(child => {
+            const slide = document.createElement('div');
+            slide.classList.add('swiper-slide');
+            slide.appendChild(child);
+            wrapper.appendChild(slide);
+          });
+
+          container.innerHTML = '';
+          container.appendChild(wrapper);
+
+          const swiper = new Swiper(container, {
+            slidesPerView: 1.2,
+            spaceBetween: 16,
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+          });
+
+          guideSwipers.push(swiper);
+          container.classList.add('swiper-initialized');
+        }
+      } else {
+        if (container.classList.contains('swiper-initialized')) {
+          const swiperIndex = guideSwipers.findIndex(sw => sw.el === container);
+          if (swiperIndex > -1) {
+            guideSwipers[swiperIndex].destroy(true, true);
+            guideSwipers.splice(swiperIndex, 1);
+          }
+
+          const wrapper = container.querySelector('.swiper-wrapper');
+          if (wrapper) {
+            container.innerHTML = '';
+            [...wrapper.children].forEach(slide => {
+              container.appendChild(slide.firstChild);
+            });
+          }
+          container.classList.remove('swiper');
+          container.classList.remove('swiper-initialized');
+        }
+      }
+    });
+  }
+
+  window.addEventListener('load', setupGuideSwipers);
+  window.addEventListener('resize', setupGuideSwipers);
 }
 
 function initSlider(container, indicators) {
