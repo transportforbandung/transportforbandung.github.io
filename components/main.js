@@ -184,7 +184,7 @@ function initGuideSliders() {
 
           const swiper = new Swiper(container, {
             loop: true, // Enable looping
-            slidesPerView: 1.2,
+            slidesPerView: 1,
             spaceBetween: 16,
             pagination: {
               el: pagination,
