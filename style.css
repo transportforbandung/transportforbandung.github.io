@@ -1065,6 +1065,11 @@ tr:hover {
     color: #00A64F;
 }
 
+.swiper-pagination {
+  display: none;
+}
+
+/*Map*/
 .map-container {
     display: flex;
     width: 100%;
@@ -1709,10 +1714,16 @@ tr:hover {
 
     .swiper-slide {
         flex-shrink: 0;
-        width: 85%;
+        width: 100%;
         box-sizing: border-box;
         display: flex;
         justify-content: center;
+    }
+
+    .swiper-pagination {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
     }
 
     .slide-indicators {
