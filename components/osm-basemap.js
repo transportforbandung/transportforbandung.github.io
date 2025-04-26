@@ -49,6 +49,10 @@ function initMap() {
 
     // Create the GPS button
     createGPSButton();
+
+    map.whenReady(() => {
+    document.dispatchEvent(new Event('mapInitialized'));
+  });
 }
 
 document.addEventListener('DOMContentLoaded', initMap);
