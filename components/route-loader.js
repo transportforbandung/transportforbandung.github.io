@@ -31,7 +31,7 @@ async function initializeRoutes() {
     // Use DocumentFragment for batch insertion
     const fragment = document.createDocumentFragment();
     
-    categories.forEach(category => {
+    categories.forEach((category, index) => {
       const accordionId = `accordion-category-${index}`;
       const collapseId = `collapse-category-${index}`;
       
