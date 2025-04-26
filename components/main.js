@@ -155,7 +155,7 @@ function initCollapsibleBars() {
   });
 }
 
-// Initialize Guide Sliders
+// Initialize Guide Sliders using Swiper
 function initGuideSliders() {
   let guideSwipers = [];
 
@@ -178,11 +178,15 @@ function initGuideSliders() {
           container.innerHTML = '';
           container.appendChild(wrapper);
 
+          const pagination = document.createElement('div');
+          pagination.className = 'swiper-pagination';
+          container.appendChild(pagination);
+
           const swiper = new Swiper(container, {
             slidesPerView: 1.2,
             spaceBetween: 16,
             pagination: {
-              el: '.swiper-pagination',
+              el: pagination,
               clickable: true,
             },
           });
