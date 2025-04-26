@@ -1077,7 +1077,7 @@ tr:hover {
     height: 500px;
     margin: 20px auto;
     border: 2px solid #ddd;
-    border-radius: 15px;
+    border-radius: 10px;
     overflow: visible;
     position: relative;
     z-index: 1;
@@ -1089,7 +1089,7 @@ tr:hover {
     flex: 1;
     width: calc(100% - 300px);
     height: 100% !important;
-    border-radius: 13px 0 0 13px;
+    border-radius: 9px 0 0 9px;
 }
 
 .map-dropdown {
@@ -1197,7 +1197,7 @@ tr:hover {
     background: white;
     z-index: 10000; /* Higher than the map's z-index */
     overflow-y: auto; /* Enable scrolling if the content overflows */
-    padding: 0 10px;
+    padding: 10px 20px;
     border-left: 2px solid #ddd;
     berder-radius: 0 13px 13px 0;
 }
