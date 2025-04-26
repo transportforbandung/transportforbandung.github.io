@@ -17,6 +17,11 @@ function initMap() {
     attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap Contributors</a> | Data processing by <a href="https://transportforbandung.org/tentang-kami">Transport for Bandung</a>'
     }).addTo(map);
 
+    // When tiles load, hide the loader
+    map.on('load', () => {
+        document.getElementById('loader').style.display = 'none';
+    });
+
     tileLayer.getContainer().style.filter = 'grayscale(80%) brightness(90%) saturate(80%)';
 
     // Initialize routeLayer and add it to the map
