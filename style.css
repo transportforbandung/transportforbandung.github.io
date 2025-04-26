@@ -1698,26 +1698,21 @@ tr:hover {
         width: 90%;
     }
 
-    .guide-preview-container {
+    .swiper {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .swiper-wrapper {
         display: flex;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        gap: 0;
-        margin: 2rem 0 1rem;
-        padding-bottom: 1rem;
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
     }
 
-    .guide-preview-container::-webkit-scrollbar {
-        display: none; /* Hide scrollbar for Chrome, Safari and Opera */
-    }
-
-    .guide-preview-item {
-        flex: 0 0 100%;
-        scroll-snap-align: start;
-        padding: 0 15px;
+    .swiper-slide {
+        flex-shrink: 0;
+        width: 85%;
         box-sizing: border-box;
+        display: flex;
+        justify-content: center;
     }
 
     .slide-indicators {
@@ -1739,12 +1734,6 @@ tr:hover {
 
     .slide-indicators span.active {
         background-color: #FFFFFF;
-    }
-
-    .guide-preview-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     .guide-preview-image {
