@@ -113,7 +113,7 @@ function createGPSButton() {
     const GPSButton = L.Control.extend({
         onAdd: function(map) {
             const button = L.DomUtil.create('button', 'leaflet-bar leaflet-control leaflet-control-gps');
-            button.innerHTML = '<i class="fas fa-location-arrow"></i>';
+            button.innerHTML = '<i class="bi bi-cursor-fill"></i>';
             button.title = 'Aktifkan Pelacakan GPS';
             button.style.cssText = 'background-color: white; border: 2px solid rgba(0,0,0,0.2); cursor: pointer;';
 
