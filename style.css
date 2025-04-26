@@ -1188,7 +1188,7 @@ tr:hover {
     right: 0;
     top: 0;
     height: 100%;
-    width: 320px; /* Fixed width for the checkbox menu */
+    width: 380px; /* Fixed width for the checkbox menu */
     background: white;
     z-index: 10000; /* Higher than the map's z-index */
     overflow-y: auto; /* Enable scrolling if the content overflows */
