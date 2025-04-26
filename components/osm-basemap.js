@@ -14,7 +14,7 @@ function initMap() {
 
     // Add OpenStreetMap base layer
     var tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap Contributors</a> | Data processing by <a href="https://transportforbandung.org/tentang-kami">Transport for Bandung</a>'
+    attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap Contributors</a> | <a href="https://transportforbandung.org/tentang-kami">Transport for Bandung</a>'
     }).addTo(map);
 
     // When tiles load, hide the loader
