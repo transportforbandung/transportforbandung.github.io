@@ -183,11 +183,20 @@ function initGuideSliders() {
           container.appendChild(pagination);
 
           const swiper = new Swiper(container, {
+            loop: true, // Enable looping
             slidesPerView: 1.2,
             spaceBetween: 16,
             pagination: {
               el: pagination,
               clickable: true,
+            },
+            slideToClickedSlide: true, // Navigate to clicked slide
+            on: {
+              slideChangeTransitionEnd: function () {
+                if (this.swiping) {
+                  this.slideTo(this.realIndex); // Adjust based on swipe distance
+                }
+              },
             },
           });
 
