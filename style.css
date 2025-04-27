@@ -1,7 +1,7 @@
 /* styles.css */
 /*body*/
 body {
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
     margin: 0; /* Ensure no default body margin */
     padding-top: 110px; /* Offset body content for fixed navbar */
 }
