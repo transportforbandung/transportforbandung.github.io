@@ -1726,6 +1726,10 @@ tr:hover {
         margin-top: 10px;
     }
 
+    :root {
+        --swiper-theme-color: #ffffff;
+    }
+
     .guide-preview-item {
          display: flex;
          flex-direction: column;
