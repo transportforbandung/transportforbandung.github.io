@@ -7,6 +7,17 @@ let watchId = null;
 let userMarker = null;
 let gpsButton;
 
+// Dynamically load Bootstrap CSS
+function loadBootstrap() {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css';
+    document.head.appendChild(link);
+}
+
+// Call the function
+loadBootstrap();
+
 // Initialize the map
 function initMap() {
     // Create map
