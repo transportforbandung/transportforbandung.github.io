@@ -1369,6 +1369,10 @@ tr:hover {
     color: #FFFFFF;
 }
 
+html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
 /* 404 page */
 .page-404 {
     position: relative;
