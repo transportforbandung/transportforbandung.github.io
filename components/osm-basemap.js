@@ -8,15 +8,31 @@ let userMarker = null;
 let gpsButton;
 
 // Dynamically load Bootstrap CSS
-function loadBootstrap() {
+function loadBootstrapScoped(container) {
+    const shadowRoot = container.attachShadow({ mode: 'open' });
+
+    // Add Bootstrap CSS
     const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css';
-    document.head.appendChild(link);
+    shadowRoot.appendChild(link);
+
+    // Add your map-container content
+    const mapDiv = document.createElement('div');
+    mapDiv.id = 'map';
+    mapDiv.style.height = '100vh';
+    shadowRoot.appendChild(mapDiv);
+
+    return shadowRoot;
 }
 
-// Call the function
-loadBootstrap();
+document.addEventListener('DOMContentLoaded', () => {
+    const container = document.querySelector('.map-container');
+    if (container) {
+        loadBootstrapScoped(container);
+    }
+    initMap(); // Initialize the map
+});
 
 // Initialize the map
 function initMap() {
