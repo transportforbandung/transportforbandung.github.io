@@ -336,6 +336,7 @@ p {
 
 .hero-content {
     color: white;
+    max-width: 900px;
 }
 
 /* Mini Hero for Subpage */
@@ -593,10 +594,9 @@ p {
 
 /* Main Content Styles */
 main {
-    padding-top: 30px;
-    margin: 0 40px;
-    max-width: 900px;
-    
+    padding: 30px 40px 0 40px;
+    margin: auto;
+    max-width: 940px;
 }
 
 section {
