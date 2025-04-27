@@ -7,33 +7,6 @@ let watchId = null;
 let userMarker = null;
 let gpsButton;
 
-// Dynamically load Bootstrap CSS
-function loadBootstrapScoped(container) {
-    const shadowRoot = container.attachShadow({ mode: 'open' });
-
-    // Add Bootstrap CSS
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css';
-    shadowRoot.appendChild(link);
-
-    // Add your map-container content
-    const mapDiv = document.createElement('div');
-    mapDiv.id = 'map';
-    mapDiv.style.height = '100vh';
-    shadowRoot.appendChild(mapDiv);
-
-    return shadowRoot;
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-    const container = document.querySelector('.map-container');
-    if (container) {
-        loadBootstrapScoped(container);
-    }
-    initMap(); // Initialize the map
-});
-
 // Initialize the map
 function initMap() {
     // Create map
