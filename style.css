@@ -16,6 +16,9 @@ html {
     font-size: 16px;
     scroll-behavior: smooth;
 }
+:root {
+    --swiper-theme-color: #ffffff !important;
+}
 a {
     text-decoration: none !important;
     color: unset;
@@ -1728,10 +1731,6 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
         display: block;
         text-align: center;
         margin-top: 10px;
-    }
-
-    :root {
-        --swiper-theme-color: #ffffff;
     }
 
     .guide-preview-item {
