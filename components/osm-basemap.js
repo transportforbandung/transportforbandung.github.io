@@ -7,33 +7,6 @@ let watchId = null;
 let userMarker = null;
 let gpsButton;
 
-// Dynamically load boostrap CSS
-function loadBootstrapScoped(container) {
-    const shadowRoot = container.attachShadow({ mode: 'open' });
-
-    // Add Bootstrap CSS
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css';
-    shadowRoot.appendChild(link);
-
-    // Add the original content of map-checkbox-menu
-    const originalContent = container.innerHTML;
-    container.innerHTML = ''; // Clear the container
-    const wrapper = document.createElement('div');
-    wrapper.innerHTML = originalContent;
-    shadowRoot.appendChild(wrapper);
-
-    return shadowRoot;
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-    const container = document.querySelector('.map-checkbox-menu');
-    if (container) {
-        loadBootstrapScoped(container);
-    }
-});
-
 // Initialize the map
 function initMap() {
     // Create map
