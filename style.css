@@ -593,7 +593,10 @@ p {
 
 /* Main Content Styles */
 main {
-    padding-top: 30px; /* Adds padding to prevent content from being hidden behind the fixed navbar */
+    padding-top: 30px;
+    margin: 0 40px;
+    max-width: 900px;
+    
 }
 
 section {
