@@ -605,9 +605,16 @@ section {
 }
 
 .centered-content {
-    max-width: 940px;
+    max-width: 980px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.wide-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px;
     box-sizing: border-box;
 }
 
@@ -1539,9 +1546,10 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
     }
 
     .centered-content {
-        width: 90%;
-        margin: 0 auto;
-        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .wide-content {
         padding: 20px;
     }
     
