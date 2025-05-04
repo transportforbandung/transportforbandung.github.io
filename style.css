@@ -1682,12 +1682,16 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
     .hamburger.active .hamburger-inner::after {
         transform: translateY(-8px) rotate(-45deg);
     }
+	
+	main {
+		padding: 30px 10px 0 10px;
+	}
     
     .hero {
         height: 60vh;
         min-height: 200px;
     }
-
+	
     .hero-overlay {
         top: -25px;
     }
