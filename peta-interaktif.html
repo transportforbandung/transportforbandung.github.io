@@ -61,8 +61,41 @@
 </script>
 <body>
     <!-- Navbar -->
-    <div id="header"></div>  
+    <div id="header"></div>
     <div style="background-color: #00A64F">
+        <div class="container py-4">
+            <section class="mb-4">
+                <p>Cek rute kereta api perkotaan, bus kota, dan angkot di Wilayah Kota Bandung secara langsung di peta berikut.</p>
+                <p class="alert alert-info small"><i class="bi bi-info-circle fs-5 me-2"></i> Klik <i class="bi bi-list"></i> pilih rute yang ingin Anda ketahui, kemudian tunggu beberapa saat hingga rute muncul di peta. Lihat peta dengan layar penuh dan lacak lokasi saat ini melalui tombol di kiri atas.</p>
+            </section>
+            
+            <div class="card overflow-hidden mb-3">
+                <!-- Map -->
+                <div class="col-lg-12">
+                    <div id="map" class="w-100" style="height: 600px;"></div>
+                </div>
+                
+                <!-- Sidebar -->
+                <div id="sidebar-map" class="col-lg-4 border-start bg-white rounded shadow d-none">
+                    <div class="sidebar-content d-md-flex flex-column h-100 p-3">
+                        
+                        <!-- Title -->
+                        <div class="fw-bold bg-primary text-white rounded py-2 px-3 mb-2">Pilih Rute</div>
+                        
+                        <!-- Accordion container -->
+                        <div id="route-container" class="flex-grow-1 overflow-auto" style="min-height: 0;">
+                        </div>
+                        
+                        <!-- Footer -->
+                        <div class="text-muted opacity-75 mt-2" style="font-size: .6rem;">
+                            <i class="bi bi-database"></i>&nbsp;Data dari 
+                            <p style="color: #000; text-align:left; font-size: 0.6rem; margin-bottom: 20px">Terdapat masalah data? Diskusikan di <a href="https://t.me/fdtbandung"><b>grup Telegram FDTB</b></a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
         <section class="centered-content" style="width: 95%">
             <h2 style="color: #FFFFFF">Peta Interaktif</h2>
             <p style="color: #FFFFFF">Bingung dengan peta diagram? Cek rute kereta api perkotaan, bus kota, dan angkot di Bandung Raya secara langsung di peta berikut. Data peta dan rute transportasi umum berasal dari OpenStreetMap dan akan terus diperbaharui.</p>
@@ -86,7 +119,7 @@
                     <div id="route-container"></div>
                     <p style="color: #000; text-align:left; font-size: 0.6rem; margin-bottom: 20px">Terdapat masalah data? Diskusikan di <a href="https://t.me/fdtbandung"><b>grup Telegram FDTB</b></a>.</p>
                 </div>
-            </div>
+            </div>-->
             <!--JS for map-->
             <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/2.4.0/Control.FullScreen.min.js"></script>
