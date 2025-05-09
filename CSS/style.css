@@ -1584,7 +1584,10 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
     html {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 12px;
-        
+    }
+}
+
+@media (max-width: 972px) {	
     .hamburger {
         display: block;
     }
@@ -1681,7 +1684,9 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
     .hamburger.active .hamburger-inner::after {
         transform: translateY(-8px) rotate(-45deg);
     }
-	
+}
+
+@media (max-width: 768px) {
 	main {
 		padding: 30px 10px 0 10px;
 	}
