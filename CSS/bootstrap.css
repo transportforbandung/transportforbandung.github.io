@@ -369,7 +369,8 @@ tbody,td,tfoot,th,thead,tr {
 }
 
 label {
-	display:inline-block
+	display:inline-block;
+	font-size: 0.8rem;
 }
 
 button {
@@ -9196,7 +9197,8 @@ textarea.form-control-lg {
 
 .text-muted {
 	--bs-text-opacity:1;
-	color:var(--bs-secondary-color)!important
+	color:var(--bs-secondary-color)!important;
+	font-size: 1rem;
 }
 
 .text-black-50 {
