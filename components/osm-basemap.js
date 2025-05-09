@@ -150,7 +150,7 @@ function addRouteContainerControl() {
             const container = L.DomUtil.create('div', 'route-container-control shadow rounded m-2 position-absolute');
             container.style.top = '0';
             container.style.right = '0';
-            container.style.width = '300px';
+            container.style.width = '400px';
 
             // Sidebar toggle button
             const toggleButton = L.DomUtil.create('button', 'btn btn-primary m-3 border shadow rounded position-absolute');
