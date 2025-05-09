@@ -863,6 +863,16 @@ tr:hover {
 }
 
 /* Blog */
+.blog-1 {
+	margin: 3rem auto !important;
+    max-width: 75%;
+}
+
+.img-blog {
+	vertical-align: middle;
+    max-width: 100%;
+}
+
 .blog-content {
     width: 50%;
     max-width: 1200px;
@@ -1724,6 +1734,10 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
         text-align: center;
         color: #333;
     }
+
+	.blog-1 {
+    max-width: 90%;
+	}
         
     .blog-content {
         width: 90%;
