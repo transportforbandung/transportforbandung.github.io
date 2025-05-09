@@ -1,1 +1,38 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[107.7601839,-7.0477492]},"properties":{"id":12628930760,"bus":"yes","name":"Terminal Majalaya","public_transport":"stop_position"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[107.6058931,-6.9273804]},"properties":{"id":3374033509,"amenity":"bus_station","bus":"yes","highway":"bus_stop","name":"Terminal Abdul Muis/Kebon Kalapa","public_transport":"stop_position","ref":"Terminal Abdul Muis/Kebon Kalapa"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7601839,
+          -7.0477492
+        ]
+      },
+      "properties": {
+        "id": 12628930760,
+        "bus": "yes",
+        "name": "Terminal Majalaya",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6059095,
+          -6.9275213
+        ]
+      },
+      "properties": {
+        "id": 3374033509,
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Terminal Abdul Muis/Kebon Kalapa",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
+}
