@@ -64,15 +64,28 @@
     <div id="header"></div>
     <div style="background-color: #00A64F">
         <div class="container py-4">
-            <section class="mb-4">
-                <p>Cek rute kereta api perkotaan, bus kota, dan angkot di Wilayah Kota Bandung secara langsung di peta berikut.</p>
+            <div class="mb-4">
+                <h2 style="color: #FFFFFF">Peta Interaktif</h2>
+                <p style="color: #FFFFFF">Bingung dengan peta diagram? Cek rute kereta api perkotaan, bus kota, dan angkot di Bandung Raya secara langsung di peta berikut. Data peta dan rute transportasi umum berasal dari OpenStreetMap dan akan terus diperbaharui.</p>          <p style="color: #FFFFFF">Klik rute yang ingin Anda ketahui, kemudian tunggu beberapa saat hingga rute muncul di peta. Lihat peta dengan layar penuh dan lacak lokasi saat ini melalui tombol di kiri atas.</p>
                 <p class="alert alert-info small"><i class="bi bi-info-circle fs-5 me-2"></i> Klik <i class="bi bi-list"></i> pilih rute yang ingin Anda ketahui, kemudian tunggu beberapa saat hingga rute muncul di peta. Lihat peta dengan layar penuh dan lacak lokasi saat ini melalui tombol di kiri atas.</p>
-            </section>
+            </div>
             
             <div class="card overflow-hidden mb-3">
                 <!-- Map -->
                 <div class="col-lg-12">
                     <div id="map" class="w-100" style="height: 600px;"></div>
+                </div>
+                <div id="loader" style="
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    font-size: 18px;
+                    background: white;
+                    padding: 10px 20px;
+                    border-radius: 8px;
+                    box-shadow: 0 2px 10px rgba(0,0,0,0.2);">
+                    Memuat peta...
                 </div>
                 
                 <!-- Sidebar -->
