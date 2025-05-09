@@ -989,22 +989,9 @@ tr:hover {
   line-height: 1.5;
 }
 
-/* Read More button */
-.blog-read-more-button {
-  display: block;
-  text-align: center;
-  padding: 10px;
-  background-color: #00A64F;
-  color: #fff;
-  text-decoration: none;
-  font-size: 14px;
-  border-radius: 0 0 4px 4px;
-  transition: background-color 0.3s ease;
-}
-
 /* Hover effect for the button */
-.blog-read-more-button:hover {
-  background-color: #0056b3;
+.blog-preview:hover {
+  background-color: #e6f6ed;
 }
 
 /* Guide */
