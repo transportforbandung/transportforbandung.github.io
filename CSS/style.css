@@ -1441,7 +1441,7 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
         align-items: center;
         width: 100%;
         box-sizing: border-box;
-        height: 90px;
+        height: 110px;
         background-color: #FFFFFF;
         transition: background-color 0.3s ease;
         box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.20);
@@ -1531,6 +1531,10 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
 @media (max-width: 768px) {
 	main {
 		padding: 30px 10px 0 10px;
+	}
+
+	.navbar {
+        height: 90px;
 	}
     
     .hero {
