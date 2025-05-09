@@ -1,10 +1,10 @@
-name: Fetch Updated Route Data
+name: Update Route Data
 
 on:
-  workflow_dispatch: # Allows manual triggering
+  workflow_dispatch:
 
 permissions:
-  contents: write # Needed to commit changes
+  contents: write
 
 jobs:
   fetch-routes:
@@ -22,10 +22,10 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm install cheerio axios mkdirp
+        run: npm install axios mkdirp
 
       - name: Run script
-        run: node fetch-updated-routes.js
+        run: node action-scripts/update-routes.js
 
       - name: Check for changes
         id: check-changes
