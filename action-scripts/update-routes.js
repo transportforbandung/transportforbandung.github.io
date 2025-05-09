@@ -8,17 +8,18 @@ function loadRouteData() {
   const routesPath = path.join(__dirname, '..', 'data', 'routes.json');
   
   try {
-    // Read and parse the file
     const fileContent = fs.readFileSync(routesPath, 'utf-8');
     const routesData = JSON.parse(fileContent);
 
-    // Validate the data structure
-    if (!Array.isArray(routesData)) {
-      throw new Error('routes.json should contain an array of route objects');
+    // Extract routes from categories
+    const allRoutes = routesData.categories.flatMap(category => category.routes);
+
+    if (!Array.isArray(allRoutes)) {
+      throw new Error('No routes found in categories array');
     }
 
     // Validate each route object
-    const validatedRoutes = routesData.map((route, index) => {
+    const validatedRoutes = allRoutes.map((route, index) => {
       if (!route.relationId) {
         throw new Error(`Route at index ${index} is missing relationId`);
       }
