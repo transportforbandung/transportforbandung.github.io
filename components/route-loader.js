@@ -2,35 +2,15 @@
 const routeCache = new Map();
 const activeLayers = new Map();
 
-function initializeCollapsibles() {
-  document.querySelectorAll('.route-map-collapsible-bar').forEach(header => {
-    header.addEventListener('click', () => {
-      const content = header.nextElementSibling;
-      const isOpen = content.style.display === 'block';
-      
-      // Toggle content visibility
-      content.style.display = isOpen ? 'none' : 'block';
-      
-      // Rotate arrow indicator
-      const arrow = header.querySelector('.route-map-collapsible-bar-arrow');
-      arrow.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
-    });
-
-    // Initialize closed state
-    header.nextElementSibling.style.display = 'none';
-  });
-}
-
 // Optimized initialization with batch DOM operations
 async function initializeRoutes() {
   try {
     const container = document.getElementById('route-container');
     const response = await fetch('data/routes.json');
     const { categories } = await response.json();
-    
-    // Use DocumentFragment for batch insertion
+
     const fragment = document.createDocumentFragment();
-    
+
     categories.forEach((category, index) => {
       const accordionId = `accordion-category-${index}`;
       const collapseId = `collapse-category-${index}`;
@@ -38,11 +18,11 @@ async function initializeRoutes() {
       const categoryHTML = `
         <div class="accordion mb-3" id="${accordionId}">
           <div class="accordion-item">
-            <h2 class="accordion-header" id="heading-${index}">
+            <div class="accordion-header" id="heading-${index}">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}">
                 ${category.name}
               </button>
-            </h2>
+            </div>
             <div id="${collapseId}" class="accordion-collapse collapse" aria-labelledby="heading-${index}" data-bs-parent="#${accordionId}">
               <div class="accordion-body">
                 ${category.routes.map((route, routeIndex) => `
@@ -72,9 +52,9 @@ async function initializeRoutes() {
     setupEventDelegation();
   } catch (error) {
     console.error('Error initializing routes:', error);
-    // Consider adding user-facing error message
   }
 }
+
 
 // More efficient event delegation
 function setupEventDelegation() {
