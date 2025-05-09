@@ -1,25 +1,19 @@
 const fs = require('fs');
 const path = require('path');
-const cheerio = require('cheerio');
 const axios = require('axios');
 const { mkdirp } = require('mkdirp');
 
-// Load your HTML file
-const html = fs.readFileSync('peta-dan-panduan.html', 'utf-8');
-const $ = cheerio.load(html);
+// Load routes data from JSON
+const routesPath = path.join(__dirname, '..', 'data', 'routes.json');
+const routesData = JSON.parse(fs.readFileSync(routesPath, 'utf-8'));
 
-// Collect all unique routes with display types
-const routes = [];
-$('input[data-relation-ids], input[data-relation-id]').each((i, el) => {
-  const $el = $(el);
-  const relationId = $el.attr('data-relation-ids') || $el.attr('data-relation-id');
-  const displayType = $el.attr('data-display-type');
-  if (relationId) {
-    routes.push({ relationId, displayType });
-  }
-});
+// Collect all unique routes with their types
+const routes = routesData.map(route => ({
+  relationId: route.relationId.toString(),
+  type: route.type
+}));
 
-// Remove duplicate entries
+// Remove duplicate entries based on relationId
 const uniqueRoutes = [...new Map(routes.map(route => [route.relationId, route])).values()];
 
 // Overpass API query function with retry logic
@@ -68,11 +62,11 @@ function processNodes(elements) {
 }
 
 // Main processing function
-async function processRoute({ relationId, displayType }) {
-  const dir = path.join(__dirname, 'data', relationId);
+async function processRoute({ relationId, type }) {
+  const dir = path.join(__dirname, '..', 'data', relationId);
   await mkdirp(dir);
 
-  // Always fetch and overwrite ways data
+  // Fetch and overwrite ways data
   const waysQuery = `[out:json]; relation(${relationId}); way(r); out geom;`;
   const waysData = await overpassQuery(waysQuery);
   fs.writeFileSync(
@@ -80,13 +74,13 @@ async function processRoute({ relationId, displayType }) {
     JSON.stringify(processWays(waysData))
   );
 
-  // Always fetch and overwrite stops data
-  const stopsQuery = displayType === 'ways_with_points' 
+  // Fetch and overwrite stops/endstops data
+  const stopsQuery = type === 'ways_with_points' 
     ? `[out:json];relation(${relationId});node(r:"stop");out geom;relation(${relationId});node(r:"stop_entry_only");out geom;relation(${relationId});node(r:"stop_exit_only");out geom;`
     : `[out:json];relation(${relationId});node(r:"stop_entry_only");out geom;relation(${relationId});node(r:"stop_exit_only");out geom;`;
 
   const stopsData = await overpassQuery(stopsQuery);
-  const fileName = displayType === 'ways_with_points' ? 'stops.geojson' : 'endstops.geojson';
+  const fileName = type === 'ways_with_points' ? 'stops.geojson' : 'endstops.geojson';
   fs.writeFileSync(
     path.join(dir, fileName),
     JSON.stringify(processNodes(stopsData))
