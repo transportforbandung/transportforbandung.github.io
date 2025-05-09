@@ -132,18 +132,9 @@ async function processRoute(route) {
 
     // Process stops data based on route type
     const stopsQuery = type === 'ways_with_points'
-      ? `[out:json];
-         relation(${relationId});
-         node(r:"stop");
-         node(r:"stop_entry_only");
-         node(r:"stop_exit_only");
-         out geom;`
-      : `[out:json];
-         relation(${relationId});
-         node(r:"stop_entry_only");
-         node(r:"stop_exit_only");
-         out geom;`;
-
+      ? `[out:json];relation(${relationId});node(r:"stop");out geom;relation(${relationId});node(r:"stop_entry_only");out geom;relation(${relationId});node(r:"stop_exit_only");out geom;`
+      : `[out:json];relation(${relationId});node(r:"stop_entry_only");out geom;relation(${relationId});node(r:"stop_exit_only");out geom;`;
+    
     const stopsData = await overpassQuery(stopsQuery);
     const stopsGeoJSON = processNodes(stopsData);
     const fileName = type === 'ways_with_points' ? 'stops.geojson' : 'endstops.geojson';
