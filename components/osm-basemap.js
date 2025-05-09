@@ -22,7 +22,7 @@ function initMap() {
         document.getElementById('loader').style.display = 'none';
     });
 
-    tileLayer.getContainer().style.filter = 'grayscale(80%) brightness(90%) saturate(80%)';
+    tileLayer.getContainer().style.filter = 'grayscale(30%) brightness(90%) saturate(80%)';
 
     // Initialize routeLayer and add it to the map
     routeLayer = L.layerGroup().addTo(map);
@@ -30,10 +30,7 @@ function initMap() {
     // Add full-screen control
     const fullscreenControl = L.control.fullscreen({
         position: 'topleft',
-        title: {
-            false: 'Layar Penuh',
-            true: 'Keluar Layar Penuh'
-        },
+        title: false, // disable default title
         forceSeparateButton: true,
         fullscreenElement: false
     }).addTo(map);
@@ -42,16 +39,22 @@ function initMap() {
     setTimeout(() => {
         const fullscreenButton = document.querySelector('a.leaflet-control-zoom-fullscreen.fullscreen-icon');
         if (fullscreenButton) {
-            fullscreenButton.innerHTML = '<img src="https://transportforbandung.org/assets/fullscreen-enter.svg" alt="Enter Fullscreen" class="fullscreen-icon">';
+            fullscreenButton.innerHTML = '<i class="bi bi-fullscreen"></i>';
+            fullscreenButton.title = "Layar Penuh";
+
             map.on('enterFullscreen', () => {
-                fullscreenButton.innerHTML = '<img src="https://transportforbandung.org/assets/fullscreen-exit.svg" alt="Exit Fullscreen" class="fullscreen-icon">';
+                fullscreenButton.innerHTML = '<i class="bi bi-fullscreen-exit"></i>';
+                fullscreenButton.title = "Keluar Layar Penuh";
             });
+
             map.on('exitFullscreen', () => {
-                fullscreenButton.innerHTML = '<img src="https://transportforbandung.org/assets/fullscreen-enter.svg" alt="Enter Fullscreen" class="fullscreen-icon">';
+                fullscreenButton.innerHTML = '<i class="bi bi-fullscreen"></i>';
+                fullscreenButton.title = "Layar Penuh";
             });
         }
     }, 100);
-
+    
+    addRouteContainerControl();
     // Create the GPS button
     createGPSButton();
 }
@@ -115,7 +118,7 @@ function createGPSButton() {
             const button = L.DomUtil.create('button', 'leaflet-bar leaflet-control leaflet-control-gps');
             button.innerHTML = '<i class="bi bi-cursor-fill"></i>';
             button.title = 'Aktifkan Pelacakan GPS';
-            button.style.cssText = 'background-color: white; border: 2px solid rgba(0,0,0,0.2); cursor: pointer;';
+            button.style.cssText = 'width: 34px; height: 34px; background-color: white; border: 2px solid rgba(0,0,0,0.2); cursor: pointer; color: #000; align-items: center; justify-content: center;';
 
             L.DomEvent.on(button, 'click', function(e) {
                 L.DomEvent.stopPropagation(e);
@@ -127,4 +130,74 @@ function createGPSButton() {
     });
 
     gpsButton = new GPSButton({ position: 'topleft' }).addTo(map);
+}
+
+function addRouteContainerControl() {
+    const sourceElement = document.getElementById('sidebar-map');
+    if (!sourceElement) {
+        console.error('Route container template not found!');
+        return;
+    }
+
+    // New control for sidebar
+    const RouteContainerControl = L.Control.extend({
+        options: {
+            position: 'topright'
+        },
+
+        onAdd: function(map) {
+            // Div container for the control
+            const container = L.DomUtil.create('div', 'route-container-control shadow rounded m-2 position-absolute');
+            container.style.top = '0';
+            container.style.right = '0';
+            container.style.width = '400px';
+
+            // Sidebar toggle button
+            const toggleButton = L.DomUtil.create('button', 'btn btn-primary m-3 border shadow rounded position-absolute');
+            toggleButton.innerHTML = '<i class="bi bi-list"></i>';
+            toggleButton.style.top = '-.1rem';
+            toggleButton.style.right = '0';
+            toggleButton.style.zIndex = '1001'; // Tombol di atas kontrol
+            toggleButton.style.pointerEvents = 'all'; // Memastikan tombol bisa diklik
+
+            // Read all content from #sidebar-map, including certain classes (eg. .sidebar-content)
+            const sidebarContent = sourceElement.innerHTML; // Read HTML from #sidebar-map
+
+            // Create div for sidebar
+            const contentDiv = L.DomUtil.create('div', 'sidebar-content border bg-white shadow rounded overflow-auto position-absolute');
+            contentDiv.style.zIndex = '1000';
+            contentDiv.style.width = '400px';
+            contentDiv.style.right = '-400px'; //Hide sidebar to the right
+            contentDiv.style.maxHeight = '700px';
+            contentDiv.style.transition = 'right 0.3s ease';
+            contentDiv.innerHTML = sidebarContent;
+            container.appendChild(contentDiv);
+
+            // Add toggle button to control (outside sidebar-content)
+            container.appendChild(toggleButton);
+
+            // Set sidebar visibility
+            let isSidebarVisible = false;
+
+            toggleButton.addEventListener('pointerdown', function(e) {
+                e.preventDefault();
+                e.stopPropagation(); // Stop event propagation to the map
+
+                if (isSidebarVisible) {
+                    contentDiv.style.right = '-400px'; // Hide sidebar-content
+                    toggleButton.innerHTML = '<i class="bi bi-list"></i>'; // Back button
+                } else {
+                    contentDiv.style.right = '0'; // Show sidebar-content
+                    toggleButton.innerHTML = '<i class="bi bi-x-lg"></i>'; //
+                }
+
+                isSidebarVisible = !isSidebarVisible;
+            });
+
+            return container;
+        }
+    });
+
+    // Added map control
+    map.addControl(new RouteContainerControl());
 }
