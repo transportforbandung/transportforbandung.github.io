@@ -2955,6 +2955,50 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6073185,
+            -6.9143005
+          ],
+          [
+            107.6073396,
+            -6.9142915
+          ],
+          [
+            107.6073918,
+            -6.9142744
+          ],
+          [
+            107.607494,
+            -6.9142383
+          ],
+          [
+            107.6075641,
+            -6.9142136
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1232501592,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "destination:lanes": "Wastukencana;Aceh;Merdeka;Purnawarman||Braga;Lembong;Suniaraja;Veteran",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Perintis Kemerdekaan",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "left|left;right|right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.602401,
             -6.902382
           ],

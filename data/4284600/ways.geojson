@@ -493,26 +493,6 @@
           [
             107.6819663,
             -6.9436312
-          ],
-          [
-            107.6823032,
-            -6.9436031
-          ],
-          [
-            107.682605,
-            -6.9435781
-          ],
-          [
-            107.6828611,
-            -6.9435796
-          ],
-          [
-            107.6830616,
-            -6.943586
-          ],
-          [
-            107.683135,
-            -6.9435874
           ]
         ]
       },
@@ -3264,6 +3244,32 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6212119,
+            -6.8670778
+          ],
+          [
+            107.62112,
+            -6.8672823
+          ],
+          [
+            107.6208429,
+            -6.8672088
+          ]
+        ]
+      },
+      "properties": {
+        "id": 377397439,
+        "highway": "service",
+        "name": "Terminal Dago",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6742862,
             -6.9382242
           ],
@@ -3986,49 +3992,6 @@
             -6.8905914
           ],
           [
-            107.6167811,
-            -6.8905771
-          ],
-          [
-            107.6166296,
-            -6.8903696
-          ],
-          [
-            107.6166223,
-            -6.8903544
-          ],
-          [
-            107.6166188,
-            -6.8903399
-          ],
-          [
-            107.6166228,
-            -6.8903248
-          ]
-        ]
-      },
-      "properties": {
-        "id": 777626647,
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "secondary",
-        "horse": "yes",
-        "lanes": "1",
-        "name": "Jalan Dipatiukur",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6168134,
-            -6.8905914
-          ],
-          [
             107.6169111,
             -6.890724
           ],
@@ -4071,6 +4034,53 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6166228,
+            -6.8903248
+          ],
+          [
+            107.6166372,
+            -6.8903228
+          ],
+          [
+            107.6166517,
+            -6.890328
+          ],
+          [
+            107.6166706,
+            -6.8903452
+          ],
+          [
+            107.6167537,
+            -6.8904642
+          ],
+          [
+            107.6168098,
+            -6.8905555
+          ],
+          [
+            107.6168134,
+            -6.8905914
+          ]
+        ]
+      },
+      "properties": {
+        "id": 777626649,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "1",
+        "name": "Jalan Dipatiukur",
+        "oneway": "yes",
         "surface": "asphalt"
       }
     },
@@ -4374,64 +4384,6 @@
         "name": "Jalan H. Ibrahim Adjie",
         "old_name": "Jalan Kiaracondong",
         "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6209351,
-            -6.8668623
-          ],
-          [
-            107.620889,
-            -6.8670356
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1073721511,
-        "alt_name": "Jalan Dago",
-        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Ir. H. Djuanda",
-        "official_name": "Jalan Insinyur Haji Djuanda",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6209442,
-            -6.866704
-          ],
-          [
-            107.6209483,
-            -6.8668113
-          ],
-          [
-            107.6209351,
-            -6.8668623
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1073721512,
-        "alt_name": "Jalan Dago",
-        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Ir. H. Djuanda",
-        "official_name": "Jalan Insinyur Haji Djuanda",
-        "oneway": "yes",
-        "surface": "asphalt"
       }
     },
     {
@@ -5887,33 +5839,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.620889,
-            -6.8670356
-          ],
-          [
-            107.6208429,
-            -6.8672088
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1279857972,
-        "alt_name": "Jalan Dago",
-        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Ir. H. Djuanda",
-        "official_name": "Jalan Insinyur Haji Djuanda",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6837893,
             -6.9456634
           ],
@@ -6372,6 +6297,111 @@
         "name": "Jalan Sentot Alibasyah",
         "oneway": "yes",
         "ref": "387",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.682605,
+            -6.9435781
+          ],
+          [
+            107.6828611,
+            -6.9435796
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385116122,
+        "highway": "unclassified",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6823032,
+            -6.9436031
+          ],
+          [
+            107.682605,
+            -6.9435781
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385116123,
+        "highway": "unclassified",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6819663,
+            -6.9436312
+          ],
+          [
+            107.6823032,
+            -6.9436031
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385116124,
+        "highway": "unclassified",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6828611,
+            -6.9435796
+          ],
+          [
+            107.6830616,
+            -6.943586
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385116125,
+        "highway": "unclassified",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6830616,
+            -6.943586
+          ],
+          [
+            107.683135,
+            -6.9435874
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385116126,
+        "highway": "unclassified",
         "surface": "asphalt"
       }
     }

@@ -45,39 +45,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6179955,
-            -6.8925877
-          ],
-          [
-            107.6180071,
-            -6.8928368
-          ],
-          [
-            107.6180341,
-            -6.8934132
-          ],
-          [
-            107.6180361,
-            -6.8934568
-          ]
-        ]
-      },
-      "properties": {
-        "id": 4623302,
-        "avgspeed": "15",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Dipatiukur",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6130675,
             -6.8988411
           ],
@@ -330,26 +297,6 @@
           [
             107.6819663,
             -6.9436312
-          ],
-          [
-            107.6823032,
-            -6.9436031
-          ],
-          [
-            107.682605,
-            -6.9435781
-          ],
-          [
-            107.6828611,
-            -6.9435796
-          ],
-          [
-            107.6830616,
-            -6.943586
-          ],
-          [
-            107.683135,
-            -6.9435874
           ]
         ]
       },
@@ -365,53 +312,23 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.683135,
-            -6.9435874
+            107.6826775,
+            -6.9451829
           ],
           [
-            107.6829443,
-            -6.9452145
+            107.6827714,
+            -6.9443687
+          ],
+          [
+            107.6828611,
+            -6.9435796
           ]
         ]
       },
       "properties": {
-        "id": 153812830,
+        "id": 153812853,
         "highway": "unclassified",
-        "name": "Jalan Riung Mungpulung Raya",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6829007,
-            -6.9455341
-          ],
-          [
-            107.6831268,
-            -6.9455681
-          ],
-          [
-            107.6833249,
-            -6.9455982
-          ],
-          [
-            107.683331,
-            -6.9455991
-          ],
-          [
-            107.6837893,
-            -6.9456634
-          ]
-        ]
-      },
-      "properties": {
-        "id": 153812845,
-        "highway": "unclassified",
-        "name": "Jalan Riung Mungpulung II",
+        "name": "Jalan Riung Subur",
         "oneway": "yes"
       }
     },
@@ -459,6 +376,32 @@
         "highway": "residential",
         "name": "Jalan Menado",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6276409,
+            -6.9133915
+          ],
+          [
+            107.62749,
+            -6.9135012
+          ],
+          [
+            107.627082,
+            -6.91382
+          ]
+        ]
+      },
+      "properties": {
+        "id": 174303681,
+        "highway": "residential",
+        "name": "Jalan Anggrek",
+        "oneway": "yes"
       }
     },
     {
@@ -586,47 +529,6 @@
         "id": 175069458,
         "highway": "tertiary",
         "name": "Jalan Banda",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6180383,
-            -6.8938553
-          ],
-          [
-            107.6179971,
-            -6.8939395
-          ],
-          [
-            107.6178302,
-            -6.8942182
-          ],
-          [
-            107.6177817,
-            -6.8942718
-          ],
-          [
-            107.6176835,
-            -6.8943336
-          ]
-        ]
-      },
-      "properties": {
-        "id": 175071632,
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "secondary",
-        "horse": "yes",
-        "lanes": "2",
-        "motor_vehicle": "yes",
-        "name": "Jalan Dipatiukur",
-        "oneway": "yes",
         "surface": "asphalt"
       }
     },
@@ -1016,51 +918,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6170172,
-            -6.9028952
-          ],
-          [
-            107.617019,
-            -6.9029565
-          ],
-          [
-            107.6170378,
-            -6.9030696
-          ],
-          [
-            107.6170559,
-            -6.9031196
-          ],
-          [
-            107.617072,
-            -6.9031529
-          ],
-          [
-            107.6170942,
-            -6.9031889
-          ],
-          [
-            107.6171124,
-            -6.9032111
-          ]
-        ]
-      },
-      "properties": {
-        "id": 244807186,
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Cilamaya",
-        "oneway": "yes",
-        "ref": "382",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6170441,
             -6.9074272
           ],
@@ -1389,62 +1246,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6126895,
-            -6.8990737
-          ],
-          [
-            107.6127027,
-            -6.8988485
-          ]
-        ]
-      },
-      "properties": {
-        "id": 318053623,
-        "alt_name": "Jalan Dago",
-        "bicycle": "yes",
-        "cycleway": "lane",
-        "foot": "yes",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Ir. H. Djuanda",
-        "oneway": "yes",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6127027,
-            -6.8988485
-          ],
-          [
-            107.6127945,
-            -6.8988445
-          ]
-        ]
-      },
-      "properties": {
-        "id": 318053626,
-        "avgspeed": "30",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Cikapayang",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6313458,
             -6.9186198
           ],
@@ -1609,59 +1410,6 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6178188,
-            -6.8923923
-          ],
-          [
-            107.6179955,
-            -6.8925877
-          ]
-        ]
-      },
-      "properties": {
-        "id": 318729557,
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "secondary",
-        "horse": "yes",
-        "lanes": "2",
-        "name": "Jalan Dipatiukur",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6127772,
-            -6.8990757
-          ],
-          [
-            107.6126895,
-            -6.8990737
-          ]
-        ]
-      },
-      "properties": {
-        "id": 319191949,
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Cikapayang",
-        "oneway": "yes",
         "surface": "asphalt"
       }
     },
@@ -2356,35 +2104,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6180361,
-            -6.8934568
-          ],
-          [
-            107.6180362,
-            -6.8934861
-          ],
-          [
-            107.6180383,
-            -6.8938553
-          ]
-        ]
-      },
-      "properties": {
-        "id": 330996293,
-        "avgspeed": "15",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Dipatiukur",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6420981,
             -6.9411497
           ],
@@ -2401,6 +2120,70 @@
         "lanes": "3",
         "name": "Jalan H. Ibrahim Adjie",
         "old_name": "Jalan Kiaracondong",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6176835,
+            -6.8943336
+          ],
+          [
+            107.6177104,
+            -6.8942378
+          ],
+          [
+            107.6177564,
+            -6.8941579
+          ],
+          [
+            107.6178531,
+            -6.8940151
+          ],
+          [
+            107.6178962,
+            -6.8939401
+          ],
+          [
+            107.6179191,
+            -6.893871
+          ],
+          [
+            107.6179139,
+            -6.8934868
+          ],
+          [
+            107.6179108,
+            -6.8934136
+          ],
+          [
+            107.6179071,
+            -6.8932726
+          ],
+          [
+            107.6178942,
+            -6.8927885
+          ],
+          [
+            107.6178794,
+            -6.8926864
+          ],
+          [
+            107.6178188,
+            -6.8923923
+          ]
+        ]
+      },
+      "properties": {
+        "id": 334857874,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3720,21 +3503,34 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6171771,
-            -6.9034417
+            107.6170291,
+            -6.9032627
           ],
           [
-            107.617246,
-            -6.9033908
+            107.6170003,
+            -6.9032181
+          ],
+          [
+            107.6169661,
+            -6.9031402
+          ],
+          [
+            107.6169446,
+            -6.9030523
+          ],
+          [
+            107.6169308,
+            -6.9028954
           ]
         ]
       },
       "properties": {
-        "id": 1043672189,
+        "id": 1043672190,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Banda",
+        "name": "Jalan Cilamaya",
         "oneway": "yes",
+        "ref": "382",
         "surface": "asphalt"
       }
     },
@@ -3825,6 +3621,37 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6209442,
+            -6.866704
+          ],
+          [
+            107.6209483,
+            -6.8668113
+          ],
+          [
+            107.6209351,
+            -6.8668623
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1073721512,
+        "alt_name": "Jalan Dago",
+        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6832794,
             -6.9493063
           ],
@@ -3874,42 +3701,24 @@
             -6.8990822
           ],
           [
-            107.6129037,
-            -6.8990787
+            107.6129909,
+            -6.8990718
           ],
           [
-            107.6128833,
-            -6.8990781
+            107.6129463,
+            -6.8990311
           ],
           [
-            107.6127772,
-            -6.8990757
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1079472306,
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Prabu Dimuntur",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6127945,
-            -6.8988445
+            107.6129308,
+            -6.8989728
           ],
           [
-            107.6129946,
-            -6.8988408
+            107.6129495,
+            -6.8989155
+          ],
+          [
+            107.6129964,
+            -6.8988773
           ],
           [
             107.6130675,
@@ -3918,12 +3727,9 @@
         ]
       },
       "properties": {
-        "id": 1079472307,
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "2",
-        "loc_name": "Jalan Surapati",
-        "name": "Jalan Surapati",
+        "id": 1079472305,
+        "highway": "primary_link",
+        "lanes": "1",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -4074,17 +3880,17 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6171124,
-            -6.9032111
+            107.6171771,
+            -6.9034417
           ],
           [
-            107.617246,
-            -6.9033908
+            107.6170291,
+            -6.9032627
           ]
         ]
       },
       "properties": {
-        "id": 1112041094,
+        "id": 1112041095,
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cilamaya",
@@ -4099,17 +3905,17 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6170066,
-            -6.9025384
+            107.6169308,
+            -6.9028954
           ],
           [
-            107.6170172,
-            -6.9028952
+            107.6169204,
+            -6.9026169
           ]
         ]
       },
       "properties": {
-        "id": 1112041098,
+        "id": 1112041096,
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cilamaya",
@@ -4124,29 +3930,29 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6169735,
-            -6.9013373
+            107.6169204,
+            -6.9026169
           ],
           [
-            107.6169753,
-            -6.9015014
+            107.6169036,
+            -6.9020191
           ],
           [
-            107.6169755,
-            -6.9015156
+            107.6168987,
+            -6.9017889
           ],
           [
-            107.6169912,
-            -6.9020163
+            107.6168927,
+            -6.9015054
           ],
           [
-            107.6170066,
-            -6.9025384
+            107.6168907,
+            -6.9013406
           ]
         ]
       },
       "properties": {
-        "id": 1112041099,
+        "id": 1112041097,
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cilamaya",
@@ -4193,23 +3999,27 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.627082,
+            -6.91382
+          ],
+          [
+            107.6267213,
+            -6.9133198
+          ],
+          [
+            107.6267078,
+            -6.9132642
+          ],
+          [
             107.6267142,
             -6.9132049
-          ],
-          [
-            107.6274364,
-            -6.9133538
-          ],
-          [
-            107.6276409,
-            -6.9133915
           ]
         ]
       },
       "properties": {
-        "id": 1179695708,
+        "id": 1179695707,
         "highway": "residential",
-        "name": "Jalan Patra Komala",
+        "name": "Jalan Kamuning",
         "oneway": "yes"
       }
     },
@@ -5413,6 +5223,55 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6828602,
+            -6.94586
+          ],
+          [
+            107.6829007,
+            -6.9455341
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1236532144,
+        "highway": "unclassified",
+        "name": "Jalan Riung Mungpulung Raya",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6837521,
+            -6.9459801
+          ],
+          [
+            107.6836004,
+            -6.94596
+          ],
+          [
+            107.6828602,
+            -6.94586
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1236532146,
+        "highway": "unclassified",
+        "name": "Jalan Riung Mulya I",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6177764,
             -6.8923055
           ],
@@ -5463,17 +5322,17 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6837893,
-            -6.9456634
+            107.6829443,
+            -6.9452145
           ],
           [
-            107.6837521,
-            -6.9459801
+            107.6826775,
+            -6.9451829
           ]
         ]
       },
       "properties": {
-        "id": 1333763338,
+        "id": 1333763339,
         "highway": "unclassified",
         "oneway": "yes",
         "surface": "asphalt"
@@ -6029,24 +5888,94 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6168907,
-            -6.9013406
+            107.6209351,
+            -6.8668623
           ],
           [
-            107.6169735,
-            -6.9013373
+            107.6212402,
+            -6.8669638
+          ],
+          [
+            107.6212512,
+            -6.8669765
+          ],
+          [
+            107.6212498,
+            -6.8669935
+          ],
+          [
+            107.6212119,
+            -6.8670778
           ]
         ]
       },
       "properties": {
-        "id": 1384127085,
-        "avgspeed": "30",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Diponegoro",
-        "ref": "381",
+        "id": 1384239546,
+        "highway": "service",
+        "name": "Terminal Dago",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.682605,
+            -6.9435781
+          ],
+          [
+            107.6828611,
+            -6.9435796
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385116122,
+        "highway": "unclassified",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6823032,
+            -6.9436031
+          ],
+          [
+            107.682605,
+            -6.9435781
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385116123,
+        "highway": "unclassified",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6819663,
+            -6.9436312
+          ],
+          [
+            107.6823032,
+            -6.9436031
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385116124,
+        "highway": "unclassified",
         "surface": "asphalt"
       }
     }

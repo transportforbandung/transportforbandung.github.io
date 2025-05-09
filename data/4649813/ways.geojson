@@ -373,37 +373,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5980123,
-            -6.9131539
-          ],
-          [
-            107.5980039,
-            -6.9129036
-          ],
-          [
-            107.5979891,
-            -6.912651
-          ]
-        ]
-      },
-      "properties": {
-        "id": 32360540,
-        "alt_name": "Jalan HOS. Tjokroaminoto",
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "2",
-        "loc_name": "Jalan Pasir Kaliki",
-        "name": "Jalan HOS. Cokroaminoto",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5981191,
             -6.9141458
           ],
@@ -777,36 +746,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6074055,
-            -6.9052607
-          ],
-          [
-            107.6075169,
-            -6.9054865
-          ]
-        ]
-      },
-      "properties": {
-        "id": 168569234,
-        "avgspeed": "25",
-        "bicycle": "yes",
-        "bridge": "yes",
-        "foot": "yes",
-        "highway": "primary",
-        "lanes": "2",
-        "layer": "1",
-        "name": "Jalan Wastukencana",
-        "oneway": "yes",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6042016,
             -6.9003842
           ],
@@ -1111,6 +1050,42 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6075845,
+            -6.9054713
+          ],
+          [
+            107.6076232,
+            -6.9055849
+          ],
+          [
+            107.6076653,
+            -6.9057056
+          ],
+          [
+            107.6077012,
+            -6.9058222
+          ]
+        ]
+      },
+      "properties": {
+        "id": 292668837,
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukencana",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.595629,
             -6.8999074
           ],
@@ -1363,6 +1338,89 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.604907,
+            -6.904268
+          ],
+          [
+            107.6050035,
+            -6.9041885
+          ],
+          [
+            107.6051531,
+            -6.9040927
+          ],
+          [
+            107.605225,
+            -6.9040549
+          ],
+          [
+            107.6052645,
+            -6.9040341
+          ],
+          [
+            107.605369,
+            -6.9039986
+          ],
+          [
+            107.6054495,
+            -6.9039862
+          ],
+          [
+            107.6055461,
+            -6.9039795
+          ],
+          [
+            107.6056396,
+            -6.9039773
+          ],
+          [
+            107.6058035,
+            -6.9039995
+          ],
+          [
+            107.6059967,
+            -6.9040381
+          ],
+          [
+            107.6061616,
+            -6.9040807
+          ],
+          [
+            107.606306,
+            -6.9041384
+          ],
+          [
+            107.6063615,
+            -6.9041606
+          ],
+          [
+            107.6065841,
+            -6.9042698
+          ]
+        ]
+      },
+      "properties": {
+        "id": 321030145,
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukencana",
+        "oneway": "yes",
+        "smoothness": "intermediate",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.604264,
             -6.9008715
           ],
@@ -1449,106 +1507,6 @@
         "official_name": "Jalan Dokter Haji Djundjunan Setiakusumah",
         "oneway": "yes",
         "short_name": "Jalan dr. Djundjunan",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.604907,
-            -6.904268
-          ],
-          [
-            107.6050069,
-            -6.9042364
-          ],
-          [
-            107.6052804,
-            -6.9041005
-          ],
-          [
-            107.6053744,
-            -6.90407
-          ],
-          [
-            107.6054375,
-            -6.9040541
-          ],
-          [
-            107.6055836,
-            -6.9040421
-          ],
-          [
-            107.6057001,
-            -6.9040566
-          ],
-          [
-            107.6058666,
-            -6.904082
-          ],
-          [
-            107.6061415,
-            -6.9041472
-          ],
-          [
-            107.6062746,
-            -6.904201
-          ],
-          [
-            107.6063427,
-            -6.9042285
-          ],
-          [
-            107.6065578,
-            -6.9043358
-          ],
-          [
-            107.6068071,
-            -6.9045045
-          ],
-          [
-            107.6068707,
-            -6.9045644
-          ],
-          [
-            107.6069853,
-            -6.9046722
-          ],
-          [
-            107.6070822,
-            -6.9047818
-          ],
-          [
-            107.6072335,
-            -6.9049789
-          ],
-          [
-            107.6073344,
-            -6.9051411
-          ],
-          [
-            107.6073666,
-            -6.9051911
-          ],
-          [
-            107.6074055,
-            -6.9052607
-          ]
-        ]
-      },
-      "properties": {
-        "id": 331411122,
-        "avgspeed": "25",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Wastukencana",
-        "oneway": "yes",
-        "sidewalk": "separate",
         "surface": "asphalt"
       }
     },
@@ -1929,6 +1887,29 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6077353,
+            -6.9060495
+          ],
+          [
+            107.6076516,
+            -6.9060628
+          ]
+        ]
+      },
+      "properties": {
+        "id": 691215817,
+        "highway": "primary_link",
+        "lanes": "2",
+        "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6039561,
             -6.9125447
           ],
@@ -2134,6 +2115,34 @@
         "name": "Jalan Pajajaran",
         "oneway": "yes",
         "ref": "369;371",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6075734,
+            -6.9054436
+          ],
+          [
+            107.6075845,
+            -6.9054713
+          ]
+        ]
+      },
+      "properties": {
+        "id": 995208890,
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukencana",
+        "oneway": "yes",
+        "sidewalk": "separate",
         "surface": "asphalt"
       }
     },
@@ -2431,6 +2440,36 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6074694,
+            -6.9052123
+          ],
+          [
+            107.6075734,
+            -6.9054436
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1160465561,
+        "bridge": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Wastukencana",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6038068,
             -6.9126542
           ],
@@ -2562,68 +2601,6 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.598048,
-            -6.9133911
-          ],
-          [
-            107.598024,
-            -6.9133618
-          ],
-          [
-            107.5980203,
-            -6.9133298
-          ],
-          [
-            107.5980147,
-            -6.9132606
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1191374725,
-        "alt_name": "Jalan HOS. Tjokroaminoto",
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "2",
-        "loc_name": "Jalan Pasir Kaliki",
-        "name": "Jalan HOS. Cokroaminoto",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5980147,
-            -6.9132606
-          ],
-          [
-            107.5980123,
-            -6.9131539
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1191374726,
-        "alt_name": "Jalan HOS. Tjokroaminoto",
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "2",
-        "loc_name": "Jalan Pasir Kaliki",
-        "name": "Jalan HOS. Cokroaminoto",
-        "oneway": "yes",
         "surface": "asphalt"
       }
     },
@@ -2812,46 +2789,171 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6075169,
-            -6.9054865
+            107.6077012,
+            -6.9058222
           ],
           [
-            107.6075389,
-            -6.9055493
-          ],
-          [
-            107.6075434,
-            -6.9055659
-          ],
-          [
-            107.6075819,
-            -6.9056882
-          ],
-          [
-            107.6076093,
-            -6.9058193
-          ],
-          [
-            107.6076358,
-            -6.9059658
-          ],
-          [
-            107.6076516,
-            -6.9060628
+            107.6077353,
+            -6.9060495
           ]
         ]
       },
       "properties": {
-        "id": 1220953661,
-        "avgspeed": "25",
-        "bicycle": "yes",
-        "foot": "yes",
+        "id": 1220953662,
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Wastukencana",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6070138,
+            -6.9046
+          ],
+          [
+            107.6071411,
+            -6.9047305
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1227244444,
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukencana",
+        "oneway": "yes",
+        "smoothness": "intermediate",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6071411,
+            -6.9047305
+          ],
+          [
+            107.607265,
+            -6.9048943
+          ],
+          [
+            107.607283,
+            -6.9049195
+          ],
+          [
+            107.6074027,
+            -6.9050877
+          ],
+          [
+            107.6074694,
+            -6.9052123
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1227244445,
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukencana",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "smoothness": "intermediate",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6069187,
+            -6.9045127
+          ],
+          [
+            107.6070138,
+            -6.9046
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1240055291,
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukencana",
+        "oneway": "yes",
+        "smoothness": "intermediate",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6065841,
+            -6.9042698
+          ],
+          [
+            107.6067222,
+            -6.904359
+          ],
+          [
+            107.6068568,
+            -6.9044553
+          ],
+          [
+            107.6069187,
+            -6.9045127
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1240055292,
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Wastukencana",
+        "oneway": "yes",
+        "smoothness": "intermediate",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no"
       }
     },
     {

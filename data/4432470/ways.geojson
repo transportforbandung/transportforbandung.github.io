@@ -193,54 +193,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6024466,
-            -6.9041854
-          ],
-          [
-            107.6024607,
-            -6.9042319
-          ],
-          [
-            107.6024726,
-            -6.904279
-          ],
-          [
-            107.6024795,
-            -6.9043278
-          ],
-          [
-            107.6024842,
-            -6.9043825
-          ],
-          [
-            107.6024848,
-            -6.904433
-          ],
-          [
-            107.60248,
-            -6.9044983
-          ]
-        ]
-      },
-      "properties": {
-        "id": 4567502,
-        "alt_name": "Jalan Dokter Rum Mangunprojo",
-        "avgspeed": "30",
-        "highway": "secondary",
-        "lanes": "1",
-        "name": "Jalan Dokter Raden Roem Mangoenprodjo",
-        "oneway": "yes",
-        "short_name": "Jalan dr. Radjiman",
-        "surface": "asphalt",
-        "width": "6"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6029269,
             -6.904267
           ],
@@ -933,38 +885,6 @@
         "oneway": "yes",
         "ref": "380",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6024466,
-            -6.9041854
-          ],
-          [
-            107.6025371,
-            -6.9042372
-          ],
-          [
-            107.6026381,
-            -6.9042582
-          ]
-        ]
-      },
-      "properties": {
-        "id": 247058986,
-        "avgspeed": "25",
-        "highway": "primary",
-        "lanes": "1",
-        "name": "Jalan Dokter Abdul Rivai",
-        "official_name": "Jalan Abdul Rivai",
-        "oneway": "yes",
-        "short_name": "Jalan Dr. Abdul Rivai",
-        "surface": "asphalt",
-        "width": "6"
       }
     },
     {
@@ -2022,6 +1942,56 @@
         "name": "Jalan L.L. RE. Martadinata",
         "sidewalk": "separate",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6025713,
+            -6.9045005
+          ],
+          [
+            107.6025372,
+            -6.9044602
+          ],
+          [
+            107.6025209,
+            -6.9044101
+          ],
+          [
+            107.6025248,
+            -6.9043576
+          ],
+          [
+            107.6025484,
+            -6.9043104
+          ],
+          [
+            107.6025881,
+            -6.9042756
+          ],
+          [
+            107.6026381,
+            -6.9042582
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320416452,
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:lane": "advisory",
+        "highway": "primary_link",
+        "lanes": "1",
+        "name": "Jalan Dokter Abdul Rivai",
+        "official_name": "Jalan Abdul Rivai",
+        "oneway": "yes",
+        "short_name": "Jalan Dr. Abdul Rivai",
+        "surface": "asphalt",
+        "width": "6"
       }
     },
     {
@@ -3135,31 +3105,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6025713,
-            -6.9045005
-          ],
-          [
-            107.60248,
-            -6.9044983
-          ]
-        ]
-      },
-      "properties": {
-        "id": 339026891,
-        "highway": "primary",
-        "lanes": "1",
-        "name": "Jalan Abdul Rivai",
-        "oneway": "yes",
-        "surface": "asphalt",
-        "width": "6"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6026381,
             -6.9042582
           ],
@@ -3492,6 +3437,7 @@
       },
       "properties": {
         "id": 384124729,
+        "bus": "yes",
         "highway": "service",
         "oneway": "yes",
         "service": "driveway"
@@ -4061,35 +4007,30 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6273673,
-            -6.9096179
+            107.6277593,
+            -6.9094173
           ],
           [
-            107.6275137,
-            -6.9094872
+            107.6277374,
+            -6.9094385
           ],
           [
-            107.6276488,
-            -6.9093665
+            107.6277185,
+            -6.9094567
           ],
           [
-            107.6276661,
-            -6.9093511
-          ],
-          [
-            107.6276819,
-            -6.9093369
+            107.6274553,
+            -6.9097114
           ]
         ]
       },
       "properties": {
-        "id": 778206502,
+        "id": 778206501,
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Cendana",
         "name:en": "Cendana Avenue",
-        "oneway": "yes",
-        "turn:lanes": "left;merge_to_right|through;right"
+        "oneway": "yes"
       }
     },
     {
@@ -4727,32 +4668,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6273673,
-            -6.9096179
-          ],
-          [
-            107.6274553,
-            -6.9097114
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1079472293,
-        "avgspeed": "20",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Taman Pramuka",
-        "name:en": "Scouts Park Boulevard",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.594917,
             -6.8589109
           ],
@@ -4864,17 +4779,17 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6276819,
-            -6.9093369
-          ],
-          [
             107.6277893,
             -6.9093251
+          ],
+          [
+            107.6277593,
+            -6.9094173
           ]
         ]
       },
       "properties": {
-        "id": 1111809091,
+        "id": 1111809090,
         "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Cendana",

@@ -239,44 +239,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6071931,
-            -6.9145156
-          ],
-          [
-            107.6072105,
-            -6.9144549
-          ],
-          [
-            107.6072378,
-            -6.9143977
-          ],
-          [
-            107.6072741,
-            -6.9143458
-          ],
-          [
-            107.6073185,
-            -6.9143005
-          ]
-        ]
-      },
-      "properties": {
-        "id": 4623313,
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "1",
-        "name": "Jalan Perintis Kemerdekaan",
-        "oneway": "yes",
-        "surface": "asphalt",
-        "turn:lanes": "slight_right"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6045889,
             -6.9148224
           ],
@@ -351,46 +313,6 @@
         "name": "Jalan Otto Iskandardinata",
         "oneway": "yes",
         "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.606975,
-            -6.9145811
-          ],
-          [
-            107.6070234,
-            -6.9144595
-          ],
-          [
-            107.6070791,
-            -6.9143956
-          ],
-          [
-            107.6071398,
-            -6.9143537
-          ],
-          [
-            107.6073185,
-            -6.9143005
-          ]
-        ]
-      },
-      "properties": {
-        "id": 32388789,
-        "avgspeed": "25",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "advisory",
-        "cycleway:right": "no",
-        "highway": "secondary",
-        "lanes": "1",
-        "name": "Jalan Kebon Jukut",
-        "oneway": "yes",
         "surface": "asphalt"
       }
     },
@@ -1936,6 +1858,58 @@
         "short_name": "Jalan dr. Djundjunan",
         "surface": "asphalt",
         "turn:lanes": "through|through|through;right|right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6071931,
+            -6.9145156
+          ],
+          [
+            107.6071796,
+            -6.9144917
+          ],
+          [
+            107.6071622,
+            -6.9144726
+          ],
+          [
+            107.6071398,
+            -6.9144595
+          ],
+          [
+            107.6071185,
+            -6.9144541
+          ],
+          [
+            107.6070966,
+            -6.9144542
+          ],
+          [
+            107.6070754,
+            -6.9144598
+          ],
+          [
+            107.6070563,
+            -6.9144706
+          ],
+          [
+            107.606975,
+            -6.9145811
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1225339509,
+        "highway": "secondary",
+        "lanes": "1",
+        "name": "Jalan Kebon Jukut",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
