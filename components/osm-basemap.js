@@ -157,38 +157,36 @@ function addRouteContainerControl() {
             toggleButton.innerHTML = '<i class="bi bi-list"></i>';
             toggleButton.style.top = '-.1rem';
             toggleButton.style.right = '0';
-            toggleButton.style.zIndex = '1001'; // Tombol di atas kontrol
-            toggleButton.style.pointerEvents = 'all'; // Memastikan tombol bisa diklik
+            toggleButton.style.zIndex = '1001';
+            toggleButton.style.pointerEvents = 'all';
 
-            // Read all content from #sidebar-map, including certain classes (eg. .sidebar-content)
-            const sidebarContent = sourceElement.innerHTML; // Read HTML from #sidebar-map
-
-            // Create div for sidebar
+            // Create div for sidebar content
             const contentDiv = L.DomUtil.create('div', 'sidebar-content border bg-white shadow rounded overflow-auto position-absolute');
             contentDiv.style.zIndex = '1000';
             contentDiv.style.width = '400px';
-            contentDiv.style.right = '-500px'; //Hide sidebar to the right
+            contentDiv.style.right = '-500px';
             contentDiv.style.maxHeight = '700px';
             contentDiv.style.transition = 'right 0.3s ease';
-            contentDiv.innerHTML = sidebarContent;
-            container.appendChild(contentDiv);
+            contentDiv.innerHTML = sourceElement.innerHTML;
 
-            // Add toggle button to control (outside sidebar-content)
+            // Prevent scroll events on the sidebar from propagating to the map
+            L.DomEvent.disableScrollPropagation(contentDiv);
+
+            container.appendChild(contentDiv);
             container.appendChild(toggleButton);
 
-            // Set sidebar visibility
             let isSidebarVisible = false;
 
             toggleButton.addEventListener('pointerdown', function(e) {
                 e.preventDefault();
-                e.stopPropagation(); // Stop event propagation to the map
+                e.stopPropagation();
 
                 if (isSidebarVisible) {
-                    contentDiv.style.right = '-400px'; // Hide sidebar-content
-                    toggleButton.innerHTML = '<i class="bi bi-list"></i>'; // Back button
+                    contentDiv.style.right = '-400px';
+                    toggleButton.innerHTML = '<i class="bi bi-list"></i>';
                 } else {
-                    contentDiv.style.right = '0'; // Show sidebar-content
-                    toggleButton.innerHTML = '<i class="bi bi-x-lg"></i>'; //
+                    contentDiv.style.right = '0';
+                    toggleButton.innerHTML = '<i class="bi bi-x-lg"></i>';
                 }
 
                 isSidebarVisible = !isSidebarVisible;
