@@ -167,7 +167,7 @@ function addRouteContainerControl() {
             const contentDiv = L.DomUtil.create('div', 'sidebar-content border bg-white shadow rounded overflow-auto position-absolute');
             contentDiv.style.zIndex = '1000';
             contentDiv.style.width = '400px';
-            contentDiv.style.right = '-400px'; //Hide sidebar to the right
+            contentDiv.style.right = '-500px'; //Hide sidebar to the right
             contentDiv.style.maxHeight = '700px';
             contentDiv.style.transition = 'right 0.3s ease';
             contentDiv.innerHTML = sidebarContent;
