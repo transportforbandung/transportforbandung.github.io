@@ -165,8 +165,8 @@ function addRouteContainerControl() {
             contentDiv.style.zIndex = '1000';
             contentDiv.style.width = '400px';
             contentDiv.style.right = '-500px';
-            contentDiv.style.top = '15px';
-            contentDiv.style.maxHeight = '550px';
+            contentDiv.style.top = '65px';
+            contentDiv.style.maxHeight = '500px';
             contentDiv.style.transition = 'right 0.3s ease';
             contentDiv.innerHTML = sourceElement.innerHTML;
 
@@ -186,7 +186,7 @@ function addRouteContainerControl() {
                     contentDiv.style.right = '-400px';
                     toggleButton.innerHTML = '<i class="bi bi-list"></i>';
                 } else {
-                    contentDiv.style.right = '65px';
+                    contentDiv.style.right = '16px';
                     toggleButton.innerHTML = '<i class="bi bi-x-lg"></i>';
                 }
 
