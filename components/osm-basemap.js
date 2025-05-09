@@ -183,7 +183,7 @@ function addRouteContainerControl() {
                 e.stopPropagation();
 
                 if (isSidebarVisible) {
-                    contentDiv.style.right = '-400px';
+                    contentDiv.style.right = '-500px';
                     toggleButton.innerHTML = '<i class="bi bi-list"></i>';
                 } else {
                     contentDiv.style.right = '16px';
