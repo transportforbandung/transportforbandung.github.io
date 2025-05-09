@@ -1,4 +1,42 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6212119,
+          -6.8670778
+        ]
+      },
+      "properties": {
+        "id": 3373712056,
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "name": "Terminal Dago",
+        "operator": "Angkot Kota Bandung",
+        "public_transport": "stop_position",
+        "shelter": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6059095,
+          -6.9275213
+        ]
+      },
+      "properties": {
+        "id": 3374033509,
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Terminal Abdul Muis/Kebon Kalapa",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
 }

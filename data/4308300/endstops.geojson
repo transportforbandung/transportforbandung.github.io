@@ -1,4 +1,38 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6059095,
+          -6.9275213
+        ]
+      },
+      "properties": {
+        "id": 3374033509,
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Terminal Abdul Muis/Kebon Kalapa",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5951942,
+          -6.85933
+        ]
+      },
+      "properties": {
+        "id": 11711070002,
+        "bus": "yes",
+        "name": "Terminal Ledeng",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
 }

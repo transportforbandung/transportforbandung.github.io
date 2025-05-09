@@ -1,4 +1,37 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7732585,
+          -6.9323545
+        ]
+      },
+      "properties": {
+        "id": 12013198353,
+        "bus": "yes",
+        "name": "UNPAD Jatinangor",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5754978,
+          -6.9139327
+        ]
+      },
+      "properties": {
+        "id": 12013198354,
+        "bus": "yes",
+        "name": "Terminal Elang",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
 }
