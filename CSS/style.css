@@ -308,7 +308,7 @@ p {
     position: relative;
     height: calc(100vh - 110px); /* Full viewport minus navbar height */
     min-height: 500px; /* Prevent collapse */
-    background-image: url('assets/banner-image.webp');
+    background-image: url('../assets/banner-image.webp');
     background-size: cover;
     background-position: center;
     display: flex;
