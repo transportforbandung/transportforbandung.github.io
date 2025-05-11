@@ -164,25 +164,25 @@ function addRouteContainerControl() {
             contentDiv.innerHTML = sourceElement.innerHTML;
 
             // Function to update dimensions based on viewport
-            const updateWidth = () => {
+            const updateDimensions = () => {
                 if (mobileMediaQuery.matches) {
                     // Mobile styling
                     container.style.width = '250px';
                     contentDiv.style.width = '250px';
-                    contentDiv.style.maxWidth = '250px';
+                    contentDiv.style.maxHeight = '250px';
                 } else {
                     // Desktop styling
                     container.style.width = '400px';
                     contentDiv.style.width = '400px';
-                    contentDiv.style.maxWidth = '400px';
+                    contentDiv.style.maxHeight = '500px';
                 }
             };
 
             // Initial setup
-            updateWidth();
+            updateDimensions();
 
             // Add media query listener
-            mobileMediaQuery.addEventListener('change', updateWidth);
+            mobileMediaQuery.addEventListener('change', updateDimensions);
 
             // Sidebar toggle button
             const toggleButton = L.DomUtil.create('button', 'btn btn-primary m-3 border shadow rounded position-absolute');
@@ -217,7 +217,7 @@ function addRouteContainerControl() {
 
             // Cleanup media query listener when control is removed
             map.on('remove', () => {
-                mobileMediaQuery.removeEventListener('change', updateWidth);
+                mobileMediaQuery.removeEventListener('change', updateDimensions);
             });
 
             return container;
