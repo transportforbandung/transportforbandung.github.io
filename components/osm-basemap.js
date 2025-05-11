@@ -139,6 +139,9 @@ function addRouteContainerControl() {
         return;
     }
 
+    // Create media query tracker
+    const mobileMediaQuery = window.matchMedia('(max-width: 768px)');
+
     // New control for sidebar
     const RouteContainerControl = L.Control.extend({
         options: {
@@ -150,7 +153,36 @@ function addRouteContainerControl() {
             const container = L.DomUtil.create('div', 'route-container-control shadow rounded m-2 position-absolute');
             container.style.top = '0';
             container.style.right = '0';
-            container.style.width = '400px';
+
+            // Sidebar content div
+            const contentDiv = L.DomUtil.create('div', 'sidebar-content border bg-white shadow rounded overflow-auto position-absolute');
+            contentDiv.style.zIndex = '1000';
+            contentDiv.style.right = '-500px';
+            contentDiv.style.top = '65px';
+            contentDiv.style.maxHeight = '500px';
+            contentDiv.style.transition = 'right 0.3s ease, width 0.3s ease';
+            contentDiv.innerHTML = sourceElement.innerHTML;
+
+            // Function to update dimensions based on viewport
+            const updateWidth = () => {
+                if (mobileMediaQuery.matches) {
+                    // Mobile styling
+                    container.style.width = '250px';
+                    contentDiv.style.width = '250px';
+                    contentDiv.style.maxWidth = '250px';
+                } else {
+                    // Desktop styling
+                    container.style.width = '400px';
+                    contentDiv.style.width = '400px';
+                    contentDiv.style.maxWidth = '400px';
+                }
+            };
+
+            // Initial setup
+            updateWidth();
+
+            // Add media query listener
+            mobileMediaQuery.addEventListener('change', updateWidth);
 
             // Sidebar toggle button
             const toggleButton = L.DomUtil.create('button', 'btn btn-primary m-3 border shadow rounded position-absolute');
@@ -160,17 +192,7 @@ function addRouteContainerControl() {
             toggleButton.style.zIndex = '1001';
             toggleButton.style.pointerEvents = 'all';
 
-            // Create div for sidebar content
-            const contentDiv = L.DomUtil.create('div', 'sidebar-content border bg-white shadow rounded overflow-auto position-absolute');
-            contentDiv.style.zIndex = '1000';
-            contentDiv.style.width = '400px';
-            contentDiv.style.right = '-500px';
-            contentDiv.style.top = '65px';
-            contentDiv.style.maxHeight = '500px';
-            contentDiv.style.transition = 'right 0.3s ease';
-            contentDiv.innerHTML = sourceElement.innerHTML;
-
-            // Prevent scroll events on the sidebar from propagating to the map
+            // Prevent scroll propagation
             L.DomEvent.disableScrollPropagation(contentDiv);
 
             container.appendChild(contentDiv);
@@ -183,7 +205,7 @@ function addRouteContainerControl() {
                 e.stopPropagation();
 
                 if (isSidebarVisible) {
-                    contentDiv.style.right = '-500px';
+                    contentDiv.style.right = mobileMediaQuery.matches ? '-300px' : '-500px';
                     toggleButton.innerHTML = '<i class="bi bi-list"></i>';
                 } else {
                     contentDiv.style.right = '16px';
@@ -191,6 +213,11 @@ function addRouteContainerControl() {
                 }
 
                 isSidebarVisible = !isSidebarVisible;
+            });
+
+            // Cleanup media query listener when control is removed
+            map.on('remove', () => {
+                mobileMediaQuery.removeEventListener('change', updateWidth);
             });
 
             return container;
