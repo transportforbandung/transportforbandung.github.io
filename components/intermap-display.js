@@ -107,13 +107,25 @@ async function initializeRoutes() {
             </div>
             <div id="${collapseId}" class="accordion-collapse collapse" aria-labelledby="heading-${index}" data-bs-parent="#${accordionId}">
               <div class="accordion-body">
+                <!-- Add master checkbox here -->
+                <div class="form-check mb-3" style="margin-bottom: 1.5rem !important;">
+                  <input class="form-check-input master-checkbox" 
+                         type="checkbox" 
+                         id="master-${index}"
+                         data-category-index="${index}">
+                  <label class="form-check-label fw-bold" for="master-${index}">
+                    Pilih semua
+                  </label>
+                </div>
                 ${category.routes.map((route, routeIndex) => `
                   <div class="form-check mb-2" style="margin-bottom: 1.0rem !important;">
-                    <input class="form-check-input" type="checkbox"
+                    <input class="form-check-input route-checkbox" 
+                           type="checkbox"
                            id="route-${index}-${routeIndex}"
                            data-relation-id="${route.relationId}"
                            data-display-type="${route.type}"
-                           data-route-color="${route.color}">
+                           data-route-color="${route.color}"
+                           data-category-index="${index}">
                     <label class="form-check-label" for="route-${index}-${routeIndex}">
                       ${route.name}
                     </label>
@@ -137,30 +149,81 @@ async function initializeRoutes() {
   }
 }
 
+// Modified event delegation
 function setupEventDelegation() {
-  const handler = async (e) => {
-    const checkbox = e.target.closest('input[type="checkbox"]');
-    if (!checkbox) return;
+  const container = document.getElementById('route-container');
 
-    const { relationId, displayType, routeColor } = checkbox.dataset;
-    if (!relationId) return;
+  const handleMasterChange = async (masterCheckbox) => {
+    const categoryIndex = masterCheckbox.dataset.categoryIndex;
+    const checkboxes = container.querySelectorAll(
+      `.route-checkbox[data-category-index="${categoryIndex}"]`
+    );
 
-    try {
-      checkbox.disabled = true;
-      if (checkbox.checked) {
-        await loadRoute(relationId, displayType, routeColor);
-      } else {
-        unloadRoute(relationId);
+    const isChecked = masterCheckbox.checked;
+    let processing = 0;
+
+    masterCheckbox.disabled = true;
+    
+    // Process checkboxes in sequence to avoid overloading
+    for (const checkbox of checkboxes) {
+      if (checkbox.checked !== isChecked) {
+        processing++;
+        checkbox.checked = isChecked;
+        const event = new Event('change');
+        checkbox.dispatchEvent(event);
+        await new Promise(resolve => setTimeout(resolve, 50)); // Add slight delay
       }
-    } catch (error) {
-      console.error(`Route operation failed for ${relationId}:`, error);
-      checkbox.checked = false;
-    } finally {
-      checkbox.disabled = false;
+    }
+
+    if (processing === 0) {
+      masterCheckbox.disabled = false;
     }
   };
 
-  document.getElementById('route-container').addEventListener('change', handler);
+  const updateMasterCheckbox = (categoryIndex) => {
+    const checkboxes = container.querySelectorAll(
+      `.route-checkbox[data-category-index="${categoryIndex}"]`
+    );
+    const master = container.querySelector(
+      `.master-checkbox[data-category-index="${categoryIndex}"]`
+    );
+
+    const checkedCount = [...checkboxes].filter(c => c.checked).length;
+    master.checked = checkedCount === checkboxes.length;
+    master.indeterminate = checkedCount > 0 && checkedCount < checkboxes.length;
+  };
+
+  container.addEventListener('change', async (e) => {
+    const checkbox = e.target;
+    
+    // Handle master checkbox
+    if (checkbox.classList.contains('master-checkbox')) {
+      await handleMasterChange(checkbox);
+      return;
+    }
+
+    // Handle individual route checkbox
+    if (checkbox.classList.contains('route-checkbox')) {
+      const categoryIndex = checkbox.dataset.categoryIndex;
+      const { relationId, displayType, routeColor } = checkbox.dataset;
+      
+      try {
+        checkbox.disabled = true;
+        if (checkbox.checked) {
+          await loadRoute(relationId, displayType, routeColor);
+        } else {
+          unloadRoute(relationId);
+        }
+        updateMasterCheckbox(categoryIndex);
+      } catch (error) {
+        console.error(`Route operation failed for ${relationId}:`, error);
+        checkbox.checked = false;
+      } finally {
+        checkbox.disabled = false;
+        updateMasterCheckbox(categoryIndex);
+      }
+    }
+  });
 }
 
 async function loadRoute(relationId, displayType, routeColor) {
