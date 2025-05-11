@@ -107,7 +107,6 @@ async function initializeRoutes() {
             </div>
             <div id="${collapseId}" class="accordion-collapse collapse" aria-labelledby="heading-${index}" data-bs-parent="#${accordionId}">
               <div class="accordion-body">
-                <!-- Add master checkbox here -->
                 <div class="form-check mb-3" style="margin-bottom: 1.5rem !important;">
                   <input class="form-check-input master-checkbox" 
                          type="checkbox" 
@@ -149,36 +148,8 @@ async function initializeRoutes() {
   }
 }
 
-// Modified event delegation
 function setupEventDelegation() {
   const container = document.getElementById('route-container');
-
-  const handleMasterChange = async (masterCheckbox) => {
-    const categoryIndex = masterCheckbox.dataset.categoryIndex;
-    const checkboxes = container.querySelectorAll(
-      `.route-checkbox[data-category-index="${categoryIndex}"]`
-    );
-
-    const isChecked = masterCheckbox.checked;
-    let processing = 0;
-
-    masterCheckbox.disabled = true;
-    
-    // Process checkboxes in sequence to avoid overloading
-    for (const checkbox of checkboxes) {
-      if (checkbox.checked !== isChecked) {
-        processing++;
-        checkbox.checked = isChecked;
-        const event = new Event('change');
-        checkbox.dispatchEvent(event);
-        await new Promise(resolve => setTimeout(resolve, 50)); // Add slight delay
-      }
-    }
-
-    if (processing === 0) {
-      masterCheckbox.disabled = false;
-    }
-  };
 
   const updateMasterCheckbox = (categoryIndex) => {
     const checkboxes = container.querySelectorAll(
@@ -187,22 +158,53 @@ function setupEventDelegation() {
     const master = container.querySelector(
       `.master-checkbox[data-category-index="${categoryIndex}"]`
     );
-
     const checkedCount = [...checkboxes].filter(c => c.checked).length;
     master.checked = checkedCount === checkboxes.length;
-    master.indeterminate = checkedCount > 0 && checkedCount < checkboxes.length;
+  };
+
+  const handleMasterChange = async (masterCheckbox) => {
+    const categoryIndex = masterCheckbox.dataset.categoryIndex;
+    const checkboxes = container.querySelectorAll(
+      `.route-checkbox[data-category-index="${categoryIndex}"]`
+    );
+
+    masterCheckbox.disabled = true;
+    const isChecked = masterCheckbox.checked;
+
+    // Process checkboxes sequentially
+    for (const checkbox of checkboxes) {
+      if (checkbox.checked !== isChecked) {
+        checkbox.checked = isChecked;
+        const { relationId, displayType, routeColor } = checkbox.dataset;
+        
+        try {
+          checkbox.disabled = true;
+          if (isChecked) {
+            await loadRoute(relationId, displayType, routeColor);
+          } else {
+            unloadRoute(relationId);
+          }
+        } catch (error) {
+          console.error(`Route operation failed for ${relationId}:`, error);
+          checkbox.checked = false;
+        } finally {
+          checkbox.disabled = false;
+        }
+      }
+    }
+
+    masterCheckbox.disabled = false;
+    updateMasterCheckbox(categoryIndex);
   };
 
   container.addEventListener('change', async (e) => {
     const checkbox = e.target;
     
-    // Handle master checkbox
     if (checkbox.classList.contains('master-checkbox')) {
       await handleMasterChange(checkbox);
       return;
     }
 
-    // Handle individual route checkbox
     if (checkbox.classList.contains('route-checkbox')) {
       const categoryIndex = checkbox.dataset.categoryIndex;
       const { relationId, displayType, routeColor } = checkbox.dataset;
@@ -214,7 +216,6 @@ function setupEventDelegation() {
         } else {
           unloadRoute(relationId);
         }
-        updateMasterCheckbox(categoryIndex);
       } catch (error) {
         console.error(`Route operation failed for ${relationId}:`, error);
         checkbox.checked = false;
