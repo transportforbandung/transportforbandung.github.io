@@ -13,7 +13,7 @@ function initMap() {
     map = L.map('map').setView([-6.9104, 107.6183], 12);
 
     // Add OpenStreetMap base layer
-    var tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    var tileLayer = L.tileLayer('https://tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=82a34c1241504050b0eec9b660daf460', {
     attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap Contributors</a> | <a href="https://transportforbandung.org/tentang-kami">Transport for Bandung</a>'
     }).addTo(map);
 
