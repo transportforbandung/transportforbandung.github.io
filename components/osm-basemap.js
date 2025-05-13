@@ -14,7 +14,7 @@ function initMap() {
 
     // Add OpenStreetMap base layer
     var tileLayer = L.tileLayer('https://tile.thunderforest.com/atlas/{z}/{x}/{y}.png?apikey=82a34c1241504050b0eec9b660daf460', {
-    attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap Contributors</a> | <a href="https://transportforbandung.org/tentang-kami">Transport for Bandung</a>'
+    attribution: '<a href="https://www.thunderforest.com/">Thunderforest</a> | <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap Contributors</a> | <a href="https://transportforbandung.org/tentang-kami">Transport for Bandung</a>'
     }).addTo(map);
 
     // When tiles load, hide the loader
