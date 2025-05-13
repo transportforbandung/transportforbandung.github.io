@@ -22,7 +22,7 @@ function initMap() {
         document.getElementById('loader').style.display = 'none';
     });
 
-    tileLayer.getContainer().style.filter = 'grayscale(30%) brightness(90%) saturate(80%)';
+    tileLayer.getContainer().style.filter = 'grayscale(10%) brightness(90%) saturate(90%)';
 
     // Initialize routeLayer and add it to the map
     routeLayer = L.layerGroup().addTo(map);
