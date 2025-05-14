@@ -115,7 +115,7 @@ function processNodes(elements) {
 // Process a single route
 async function processRoute(route) {
   const { relationId, type } = route;
-  const dir = path.join(__dirname, '..', 'data', relationId);
+  const dir = path.join(__dirname, '..', 'data', 'geojson', relationId);
   
   try {
     await mkdirp(dir);
