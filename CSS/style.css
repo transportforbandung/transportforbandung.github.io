@@ -1064,7 +1064,6 @@ tr:hover {
 #map {
     flex: 1;
     width: calc(100% - 300px);
-    height: 600px;
     border-radius: 9px 0 0 9px;
 }
 
@@ -1175,7 +1174,7 @@ tr:hover {
     overflow-y: auto; /* Enable scrolling if the content overflows */
     padding: 10px 20px;
     border-left: 2px solid #ddd;
-    border-radius: 0 13px 13px 0;
+    berder-radius: 0 13px 13px 0;
 }
 
 .route-header {
