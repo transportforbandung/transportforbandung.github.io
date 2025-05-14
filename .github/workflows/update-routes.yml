@@ -27,14 +27,9 @@ jobs:
       - name: Run script
         run: node action-scripts/update-routes.js
 
-      - name: Check for changes
+      - name: Generate output
         id: check-changes
-        run: |
-          if git diff --quiet; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          fi
+        run: $GITHUB_OUTPUT
 
       - name: Commit and push changes
         if: steps.check-changes.outputs.has_changes == 'true'
