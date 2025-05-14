@@ -170,11 +170,13 @@ function addRouteContainerControl() {
                     container.style.width = '250px';
                     contentDiv.style.width = '250px';
                     contentDiv.style.maxHeight = '250px';
+                    contentDiv.style.top = '55px';
                 } else {
                     // Desktop styling
                     container.style.width = '400px';
                     contentDiv.style.width = '400px';
                     contentDiv.style.maxHeight = '500px';
+                    contentDiv.style.top = '65px';
                 }
             };
 
