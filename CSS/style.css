@@ -946,6 +946,7 @@ tr:hover {
 
 .blog-preview {
   width: 300px;
+  height: 515px;
   border: 1px solid #e0e0e0;
   border-radius: 4px;
   overflow: hidden;
@@ -958,7 +959,8 @@ tr:hover {
 /* Article image */
 .blog-preview-image {
   width: 100%;
-  height: auto;
+  height: 170px;
+  object-fit: cover;
   display: block;
 }
 
