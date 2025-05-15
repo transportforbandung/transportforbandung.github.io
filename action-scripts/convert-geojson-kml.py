@@ -16,7 +16,7 @@ def convert_hex_to_kml_color(hex_color):
 
 def main():
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    data_dir = os.path.join(base_dir, 'data')
+    data_dir = os.path.join(base_dir, '..', 'data')
     routes_json_path = os.path.join(data_dir, 'routes.json')
     output_dir = os.path.join(data_dir, 'kml-named')
     os.makedirs(output_dir, exist_ok=True)
