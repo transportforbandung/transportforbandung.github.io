@@ -2,8 +2,6 @@ name: Convert GeoJSON to KML
 
 on:
   push:
-    paths:
-      - 'data/**'
 
 jobs:
   convert:
@@ -21,7 +19,7 @@ jobs:
       run: pip install simplekml
 
     - name: Convert GeoJSON to KML
-      run: python convert-geojson-kml.py
+      run: python action-scripts/convert-geojson-kml.py
 
     - name: Commit KML files
       run: |
