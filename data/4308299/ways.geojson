@@ -111,7 +111,8 @@
         "lanes": "2",
         "name": "Jalan Kebon Kawung",
         "oneway": "yes",
-        "ref": "370"
+        "ref": "370",
+        "surface": "asphalt"
       }
     },
     {
@@ -122,6 +123,10 @@
           [
             107.5973197,
             -6.898017
+          ],
+          [
+            107.5973197,
+            -6.8979069
           ],
           [
             107.59732,
@@ -206,6 +211,10 @@
           [
             107.5961192,
             -6.8758667
+          ],
+          [
+            107.5960887,
+            -6.8756034
           ],
           [
             107.5960697,
@@ -1537,7 +1546,8 @@
         "name": "Jalan Dokter Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {
@@ -1561,7 +1571,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Suniaraja",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1721,6 +1732,7 @@
         "destination:lanes": "Gedung Pakuan;Kebon Kawung;Stasiun Bandung;Pasir Kaliki|Braga;Wastukencana;Aceh;Merdeka",
         "highway": "primary",
         "lanes": "2",
+        "maxheight": "3.2",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
         "sidewalk:left": "separate",
@@ -3026,7 +3038,8 @@
         "name": "Jalan Dokter Danudirja Setiabudhi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {
@@ -3169,7 +3182,8 @@
         "name": "Jalan Dokter Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {
@@ -3220,7 +3234,8 @@
         "name": "Jalan Dokter Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {
@@ -3248,7 +3263,8 @@
         "lanes": "2",
         "name": "Jalan Suniaraja",
         "oneway": "yes",
-        "sidewalk": "separate"
+        "sidewalk": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -3563,7 +3579,8 @@
         "lanes": "2",
         "name": "Jalan Kebon Kawung",
         "oneway": "yes",
-        "ref": "370"
+        "ref": "370",
+        "surface": "asphalt"
       }
     },
     {
@@ -3590,7 +3607,8 @@
         "layer": "1",
         "name": "Jalan Kebon Kawung",
         "oneway": "yes",
-        "ref": "370"
+        "ref": "370",
+        "surface": "asphalt"
       }
     },
     {

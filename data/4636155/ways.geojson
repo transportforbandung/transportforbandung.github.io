@@ -550,11 +550,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6173591,
-            -6.9249635
+            107.6173303,
+            -6.9250463
           ],
           [
-            107.6173742,
+            107.6173654,
             -6.9248193
           ],
           [
@@ -787,20 +787,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6058931,
-            -6.9273804
+            107.6059177,
+            -6.9273911
           ],
           [
-            107.6059977,
-            -6.9267023
+            107.6059915,
+            -6.926739
           ],
           [
-            107.6060229,
+            107.6060152,
             -6.9265391
           ],
           [
-            107.60604,
-            -6.9263853
+            107.6060307,
+            -6.9263876
           ],
           [
             107.6060915,
@@ -1803,7 +1803,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mochammad Ramdhan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1855,6 +1856,10 @@
             -6.9283294
           ],
           [
+            107.6165815,
+            -6.9282903
+          ],
+          [
             107.616683,
             -6.9279244
           ],
@@ -1867,6 +1872,10 @@
             -6.9272202
           ],
           [
+            107.6169043,
+            -6.9270918
+          ],
+          [
             107.6169286,
             -6.9269957
           ],
@@ -1875,28 +1884,28 @@
             -6.926403
           ],
           [
-            107.6171358,
-            -6.9261535
+            107.6171256,
+            -6.9261533
           ],
           [
-            107.617154,
-            -6.9260812
+            107.6171409,
+            -6.9260783
           ],
           [
-            107.6172038,
-            -6.925808
+            107.6171976,
+            -6.9258111
           ],
           [
-            107.6173207,
-            -6.9252138
+            107.6172986,
+            -6.9252112
           ],
           [
-            107.6173462,
+            107.61732,
+            -6.9250993
+          ],
+          [
+            107.6173303,
             -6.9250463
-          ],
-          [
-            107.6173591,
-            -6.9249635
           ]
         ]
       },
@@ -1976,7 +1985,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Karapitan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2068,8 +2078,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6178363,
-            -6.9204305
+            107.6178256,
+            -6.9204254
           ],
           [
             107.6179092,
@@ -2499,7 +2509,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6176578,
+            107.6176543,
             -6.9219485
           ],
           [
@@ -2542,6 +2552,7 @@
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "left|through|through"
       }
     },
@@ -2565,7 +2576,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sunda",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2625,6 +2637,7 @@
         "name": "Jalan Cendana",
         "name:en": "Cendana Avenue",
         "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "left;merge_to_right|through;right"
       }
     },
@@ -2742,7 +2755,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Karapitan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2779,8 +2793,8 @@
             -6.9211766
           ],
           [
-            107.6178363,
-            -6.9204305
+            107.6178256,
+            -6.9204254
           ]
         ]
       },
@@ -2810,6 +2824,10 @@
             -6.9304668
           ],
           [
+            107.6160678,
+            -6.9302053
+          ],
+          [
             107.6160965,
             -6.9300966
           ]
@@ -2824,7 +2842,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Karapitan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2882,6 +2901,77 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.605817,
+            -6.92756
+          ],
+          [
+            107.6058222,
+            -6.9274995
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1268179834,
+        "avgspeed": "25",
+        "covered": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6058222,
+            -6.9274995
+          ],
+          [
+            107.6058291,
+            -6.927479
+          ],
+          [
+            107.6058504,
+            -6.9274581
+          ],
+          [
+            107.6058814,
+            -6.9274381
+          ],
+          [
+            107.6059038,
+            -6.9274217
+          ],
+          [
+            107.6059122,
+            -6.927408
+          ],
+          [
+            107.6059177,
+            -6.9273911
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1268179835,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6571681,
             -6.9021368
           ],
@@ -2911,7 +3001,7 @@
             -6.9220702
           ],
           [
-            107.6176578,
+            107.6176543,
             -6.9219485
           ]
         ]
@@ -2921,7 +3011,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sunda",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2930,40 +3021,21 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6059095,
-            -6.9275213
+            107.6058121,
+            -6.9276265
           ],
           [
-            107.6059234,
-            -6.9273836
+            107.605817,
+            -6.92756
           ]
         ]
       },
       "properties": {
-        "id": 1383480614,
-        "highway": "service"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6059234,
-            -6.9273836
-          ],
-          [
-            107.6058931,
-            -6.9273804
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1383483031,
-        "highway": "primary",
+        "id": 1385362166,
+        "avgspeed": "25",
+        "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Pungkur",
+        "name": "Jalan Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }

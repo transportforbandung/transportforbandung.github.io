@@ -360,7 +360,8 @@
         "lanes": "2",
         "name": "Jalan Kebon Kawung",
         "oneway": "yes",
-        "ref": "370"
+        "ref": "370",
+        "surface": "asphalt"
       }
     },
     {
@@ -625,13 +626,15 @@
       "properties": {
         "id": 28410794,
         "avgspeed": "15",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sangkuriang",
         "oneway": "no",
         "sidewalk": "separate",
         "smoothness": "intermediate",
-        "smoothness:date": "2024-11-02"
+        "smoothness:date": "2024-11-02",
+        "surface": "asphalt"
       }
     },
     {
@@ -1321,20 +1324,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6075845,
-            -6.9054713
+            107.6075644,
+            -6.9054686
           ],
           [
-            107.6076232,
-            -6.9055849
+            107.607609,
+            -6.9055867
           ],
           [
-            107.6076653,
-            -6.9057056
+            107.6076511,
+            -6.9057161
           ],
           [
-            107.6077012,
-            -6.9058222
+            107.6076853,
+            -6.905845
           ]
         ]
       },
@@ -2232,7 +2235,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6077353,
+            107.6077246,
             -6.9060495
           ],
           [
@@ -2480,7 +2483,8 @@
         "id": 826455952,
         "highway": "primary",
         "name": "Jalan Sumur Bandung",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2655,12 +2659,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6075734,
-            -6.9054436
+            107.607556,
+            -6.9054463
           ],
           [
-            107.6075845,
-            -6.9054713
+            107.6075644,
+            -6.9054686
           ]
         ]
       },
@@ -2703,7 +2707,8 @@
         "lanes": "2",
         "name": "Jalan Sangkuriang",
         "oneway": "yes",
-        "sidewalk": "separate"
+        "sidewalk": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -2781,12 +2786,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6074694,
-            -6.9052123
+            107.6074587,
+            -6.9052269
           ],
           [
-            107.6075734,
-            -6.9054436
+            107.607556,
+            -6.9054463
           ]
         ]
       },
@@ -2859,7 +2864,8 @@
         "lanes": "2",
         "name": "Jalan Kebon Kawung",
         "oneway": "yes",
-        "ref": "370"
+        "ref": "370",
+        "surface": "asphalt"
       }
     },
     {
@@ -2886,7 +2892,8 @@
         "layer": "1",
         "name": "Jalan Kebon Kawung",
         "oneway": "yes",
-        "ref": "370"
+        "ref": "370",
+        "surface": "asphalt"
       }
     },
     {
@@ -2984,11 +2991,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6077012,
-            -6.9058222
+            107.6076853,
+            -6.905845
           ],
           [
-            107.6077353,
+            107.6077246,
             -6.9060495
           ]
         ]
@@ -3055,12 +3062,12 @@
             -6.9049195
           ],
           [
-            107.6074027,
-            -6.9050877
+            107.6074067,
+            -6.905129
           ],
           [
-            107.6074694,
-            -6.9052123
+            107.6074587,
+            -6.9052269
           ]
         ]
       },

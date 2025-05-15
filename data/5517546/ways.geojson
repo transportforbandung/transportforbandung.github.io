@@ -202,8 +202,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6058931,
-            -6.9273804
+            107.6059177,
+            -6.9273911
           ],
           [
             107.6050539,
@@ -1376,18 +1376,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6059095,
-            -6.9275213
+            107.605817,
+            -6.92756
           ],
           [
-            107.6059234,
-            -6.9273836
+            107.6058222,
+            -6.9274995
           ]
         ]
       },
       "properties": {
-        "id": 1383480614,
-        "highway": "service"
+        "id": 1268179834,
+        "avgspeed": "25",
+        "covered": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1396,20 +1402,66 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6059234,
-            -6.9273836
+            107.6058222,
+            -6.9274995
           ],
           [
-            107.6058931,
-            -6.9273804
+            107.6058291,
+            -6.927479
+          ],
+          [
+            107.6058504,
+            -6.9274581
+          ],
+          [
+            107.6058814,
+            -6.9274381
+          ],
+          [
+            107.6059038,
+            -6.9274217
+          ],
+          [
+            107.6059122,
+            -6.927408
+          ],
+          [
+            107.6059177,
+            -6.9273911
           ]
         ]
       },
       "properties": {
-        "id": 1383483031,
-        "highway": "primary",
+        "id": 1268179835,
+        "avgspeed": "25",
+        "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Pungkur",
+        "name": "Jalan Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6058121,
+            -6.9276265
+          ],
+          [
+            107.605817,
+            -6.92756
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385362166,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }

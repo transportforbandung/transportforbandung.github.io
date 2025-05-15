@@ -275,27 +275,29 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5883109,
-            -6.9143017
+            107.5889396,
+            -6.9145084
           ],
           [
-            107.5881204,
-            -6.9141642
+            107.588866,
+            -6.9144206
           ],
           [
-            107.5879365,
-            -6.9140667
+            107.5887699,
+            -6.9143283
           ],
           [
-            107.587744,
-            -6.9139983
+            107.5885486,
+            -6.9141236
           ]
         ]
       },
       "properties": {
-        "id": 4625285,
-        "avgspeed": "15",
-        "highway": "residential"
+        "id": 4625281,
+        "avgspeed": "20",
+        "highway": "unclassified",
+        "name": "Jalan Ciroyom",
+        "oneway": "yes"
       }
     },
     {
@@ -2399,6 +2401,41 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5890738,
+            -6.9140273
+          ],
+          [
+            107.5890486,
+            -6.9142462
+          ],
+          [
+            107.5890362,
+            -6.9143536
+          ],
+          [
+            107.5890141,
+            -6.9144209
+          ],
+          [
+            107.5889396,
+            -6.9145084
+          ]
+        ]
+      },
+      "properties": {
+        "id": 555629087,
+        "avgspeed": "15",
+        "highway": "unclassified",
+        "name": "Jalan Arjuna",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5959262,
             -6.9065893
           ],
@@ -2858,48 +2895,6 @@
         "name": "Jalan Makmur",
         "oneway": "yes",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.587744,
-            -6.9139983
-          ],
-          [
-            107.5876606,
-            -6.9139712
-          ]
-        ]
-      },
-      "properties": {
-        "id": 782272098,
-        "avgspeed": "15",
-        "highway": "residential"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5876606,
-            -6.9139712
-          ],
-          [
-            107.5871569,
-            -6.9138129
-          ]
-        ]
-      },
-      "properties": {
-        "id": 782272099,
-        "avgspeed": "15",
-        "highway": "residential"
       }
     },
     {
@@ -3615,6 +3610,44 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.586606,
+            -6.9130812
+          ],
+          [
+            107.5869544,
+            -6.9132359
+          ],
+          [
+            107.5872455,
+            -6.913351
+          ],
+          [
+            107.5877233,
+            -6.9135372
+          ],
+          [
+            107.5883833,
+            -6.9137779
+          ],
+          [
+            107.5890738,
+            -6.9140273
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1242500614,
+        "highway": "unclassified",
+        "oneway": "yes",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5791793,
             -6.9079365
           ],
@@ -3708,102 +3741,50 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5872252,
-            -6.9135056
-          ],
-          [
-            107.5867764,
-            -6.9132901
-          ],
-          [
-            107.5865542,
-            -6.9131693
-          ],
-          [
-            107.5863129,
-            -6.9130382
-          ],
-          [
-            107.58625,
-            -6.9129969
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1257121671,
-        "avgspeed": "20",
-        "highway": "unclassified",
-        "name": "Jalan Ciroyom",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5871569,
-            -6.9138129
-          ],
-          [
-            107.5872252,
-            -6.9135056
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1279170230,
-        "avgspeed": "15",
-        "highway": "unclassified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5883109,
-            -6.9143017
-          ],
-          [
-            107.5885486,
-            -6.9141236
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1279170231,
-        "avgspeed": "15",
-        "highway": "residential"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.58625,
-            -6.9129969
-          ],
-          [
-            107.5862133,
-            -6.9129734
-          ],
-          [
             107.5859346,
             -6.9127944
+          ],
+          [
+            107.5860118,
+            -6.9128138
+          ],
+          [
+            107.5860847,
+            -6.9128425
+          ],
+          [
+            107.5862826,
+            -6.9129264
           ]
         ]
       },
       "properties": {
-        "id": 1330455093,
-        "avgspeed": "20",
+        "id": 1330455094,
         "highway": "unclassified",
-        "name": "Jalan Ciroyom",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5862826,
+            -6.9129264
+          ],
+          [
+            107.586606,
+            -6.9130812
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1330455095,
+        "highway": "unclassified",
+        "oneway": "yes",
+        "surface": "concrete"
       }
     },
     {

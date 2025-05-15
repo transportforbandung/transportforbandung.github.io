@@ -7,20 +7,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6079439,
-            -6.9065051
+            107.6079412,
+            -6.9065104
           ],
           [
-            107.6083334,
-            -6.9066124
+            107.6081981,
+            -6.9065975
+          ],
+          [
+            107.6083321,
+            -6.9066257
           ],
           [
             107.6092299,
-            -6.9067639
+            -6.9067838
           ],
           [
-            107.6093526,
-            -6.9067846
+            107.6093359,
+            -6.9068089
           ]
         ]
       },
@@ -272,6 +276,7 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "oneway": "yes",
         "sidewalk": "separate",
@@ -295,40 +300,52 @@
             -6.907824
           ],
           [
-            107.6076381,
-            -6.9078018
+            107.6076363,
+            -6.9078044
           ],
           [
-            107.6076319,
-            -6.9076441
+            107.607628,
+            -6.9077457
           ],
           [
-            107.6076601,
-            -6.9074219
+            107.6076248,
+            -6.9076459
           ],
           [
-            107.6076826,
-            -6.9072535
+            107.6076283,
+            -6.9075371
           ],
           [
-            107.6077745,
-            -6.9066314
+            107.6076451,
+            -6.9074166
           ],
           [
-            107.6077913,
-            -6.9065682
+            107.6076711,
+            -6.9072113
           ],
           [
-            107.6078246,
-            -6.9065312
+            107.60775,
+            -6.9066685
+          ],
+          [
+            107.6077691,
+            -6.9065879
+          ],
+          [
+            107.6078013,
+            -6.9065451
+          ],
+          [
+            107.6078292,
+            -6.9065262
           ],
           [
             107.6078734,
             -6.9065166
           ],
           [
-            107.6079439,
-            -6.9065051
+            107.6079412,
+            -6.9065104
           ]
         ]
       },
@@ -360,12 +377,12 @@
             -6.9101077
           ],
           [
-            107.6084947,
-            -6.9095452
+            107.608484,
+            -6.9095465
           ],
           [
-            107.6083791,
-            -6.9093205
+            107.6083912,
+            -6.9093671
           ]
         ]
       },
@@ -390,8 +407,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6083791,
-            -6.9093205
+            107.6083912,
+            -6.9093671
           ],
           [
             107.6081746,
@@ -511,6 +528,7 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "oneway": "yes",
         "sidewalk": "separate",
@@ -575,32 +593,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6093526,
-            -6.9067846
+            107.6093359,
+            -6.9068089
           ],
           [
-            107.6094687,
-            -6.9068022
+            107.6094718,
+            -6.9068328
           ],
           [
             107.6096165,
-            -6.9068246
+            -6.9068537
           ],
           [
             107.6097643,
-            -6.906847
+            -6.906873
           ],
           [
-            107.6103867,
-            -6.9069399
+            107.6103621,
+            -6.9069583
           ],
           [
-            107.6104132,
-            -6.9069438
+            107.6104091,
+            -6.9069683
           ],
           [
-            107.6105564,
-            -6.9069652
+            107.6105477,
+            -6.9069871
           ]
         ]
       },
@@ -628,20 +646,20 @@
             -6.9090746
           ],
           [
-            107.6079947,
-            -6.9088695
+            107.6079826,
+            -6.9088722
           ],
           [
-            107.607937,
-            -6.9088037
+            107.6079276,
+            -6.9088024
           ],
           [
-            107.6078721,
-            -6.908683
+            107.6078627,
+            -6.9086803
           ],
           [
-            107.6078316,
-            -6.9085647
+            107.6078276,
+            -6.9085634
           ],
           [
             107.6077911,
@@ -778,6 +796,7 @@
         "destination:lanes": "Gedung Pakuan;Kebon Kawung;Stasiun Bandung;Pasir Kaliki|Braga;Wastukencana;Aceh;Merdeka",
         "highway": "primary",
         "lanes": "2",
+        "maxheight": "3.2",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
         "sidewalk:left": "separate",
@@ -847,6 +866,7 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "oneway": "yes",
         "sidewalk": "separate",
@@ -891,6 +911,7 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "oneway": "yes",
         "sidewalk": "separate",
@@ -1004,6 +1025,7 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "oneway": "yes",
         "sidewalk": "separate",
@@ -1054,6 +1076,7 @@
         "cycleway": "lane",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
@@ -1216,6 +1239,7 @@
         "cycleway": "lane",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
@@ -1330,6 +1354,7 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "1",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "oneway": "yes",
         "sidewalk": "separate",
@@ -1368,6 +1393,7 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "oneway": "yes",
         "sidewalk": "separate",
@@ -1562,6 +1588,7 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "oneway": "yes",
         "sidewalk": "separate",
@@ -1601,6 +1628,7 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "oneway": "yes",
         "sidewalk": "separate",
@@ -1688,38 +1716,6 @@
           [
             107.6205739,
             -6.8680595
-          ],
-          [
-            107.6206005,
-            -6.867828
-          ],
-          [
-            107.6206139,
-            -6.8677494
-          ],
-          [
-            107.6206394,
-            -6.8676482
-          ],
-          [
-            107.6208039,
-            -6.867019
-          ],
-          [
-            107.6208337,
-            -6.8669052
-          ],
-          [
-            107.6208647,
-            -6.8667867
-          ],
-          [
-            107.6209156,
-            -6.8667269
-          ],
-          [
-            107.6209442,
-            -6.866704
           ]
         ]
       },
@@ -1773,6 +1769,7 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "1",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "oneway": "yes",
         "sidewalk": "separate",
@@ -1788,8 +1785,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6105564,
-            -6.9069652
+            107.6105477,
+            -6.9069871
           ],
           [
             107.6105564,
@@ -1811,6 +1808,7 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "oneway": "yes",
         "sidewalk": "separate",
@@ -1887,6 +1885,7 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "oneway": "yes",
         "sidewalk": "separate",
@@ -1922,6 +1921,7 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "oneway": "yes",
         "sidewalk": "separate",
@@ -1962,6 +1962,7 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "oneway": "yes",
         "sidewalk": "separate",
@@ -2167,6 +2168,7 @@
         "cycleway": "lane",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
@@ -2244,6 +2246,7 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "oneway": "yes",
         "sidewalk": "separate",
@@ -2292,6 +2295,107 @@
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|left;right|right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6205739,
+            -6.8680595
+          ],
+          [
+            107.6206005,
+            -6.867828
+          ],
+          [
+            107.6206139,
+            -6.8677494
+          ],
+          [
+            107.6206394,
+            -6.8676482
+          ],
+          [
+            107.6208039,
+            -6.867019
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532574,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6208039,
+            -6.867019
+          ],
+          [
+            107.6208337,
+            -6.8669052
+          ],
+          [
+            107.6208647,
+            -6.8667867
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532575,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6208647,
+            -6.8667867
+          ],
+          [
+            107.6209156,
+            -6.8667269
+          ],
+          [
+            107.6209442,
+            -6.866704
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532576,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     }
   ]

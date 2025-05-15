@@ -5141,7 +5141,8 @@
         "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Mohammad Toha",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -5257,36 +5258,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6059234,
-            -6.9273836
-          ],
-          [
-            107.6058931,
-            -6.9273804
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1383483031,
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Pungkur",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6062469,
             -6.9274175
           ],
           [
-            107.6059234,
-            -6.9273836
+            107.6059177,
+            -6.9273911
           ]
         ]
       },
