@@ -82,7 +82,7 @@
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "concrete"
       }
     },
     {
@@ -4471,26 +4471,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6058765,
-            -6.9278481
-          ],
-          [
-            107.6059095,
-            -6.9275213
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1227257130,
-        "highway": "service"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.65075,
             -6.9018006
           ],
@@ -4544,26 +4524,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6057957,
-            -6.9278423
-          ],
-          [
-            107.6058765,
-            -6.9278481
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1383480514,
-        "highway": "service"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6055016,
             -6.9311384
           ],
@@ -4584,7 +4544,7 @@
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "concrete"
       }
     },
     {
@@ -4617,7 +4577,7 @@
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "concrete"
       }
     },
     {
@@ -4642,7 +4602,7 @@
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "concrete"
       }
     },
     {
@@ -4667,7 +4627,7 @@
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "concrete"
       }
     },
     {
@@ -4692,7 +4652,7 @@
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "concrete"
       }
     },
     {
@@ -4759,13 +4719,38 @@
             -6.9280104
           ],
           [
-            107.6057957,
+            107.6057934,
             -6.9278423
           ]
         ]
       },
       "properties": {
         "id": 1383482661,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6057934,
+            -6.9278423
+          ],
+          [
+            107.6058121,
+            -6.9276265
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482662,
         "avgspeed": "25",
         "highway": "tertiary",
         "lanes": "2",

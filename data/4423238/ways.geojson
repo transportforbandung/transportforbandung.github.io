@@ -125,8 +125,8 @@
             -6.9056942
           ],
           [
-            107.6077012,
-            -6.9058222
+            107.6076853,
+            -6.905845
           ]
         ]
       },
@@ -148,20 +148,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6079439,
-            -6.9065051
+            107.6079412,
+            -6.9065104
           ],
           [
-            107.6083334,
-            -6.9066124
+            107.6081981,
+            -6.9065975
+          ],
+          [
+            107.6083321,
+            -6.9066257
           ],
           [
             107.6092299,
-            -6.9067639
+            -6.9067838
           ],
           [
-            107.6093526,
-            -6.9067846
+            107.6093359,
+            -6.9068089
           ]
         ]
       },
@@ -185,32 +189,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6093805,
+            107.6093744,
             -6.9081456
           ],
           [
-            107.6093888,
-            -6.9083835
-          ],
-          [
-            107.6093897,
+            107.6093775,
             -6.9084083
           ],
           [
-            107.6093894,
+            107.6093813,
             -6.9085187
           ],
           [
-            107.6093923,
-            -6.9088803
+            107.6093842,
+            -6.9088763
           ],
           [
-            107.6093849,
-            -6.9089484
+            107.6093747,
+            -6.9089464
           ],
           [
-            107.6093629,
-            -6.9090377
+            107.6093527,
+            -6.9090316
           ],
           [
             107.6092981,
@@ -218,11 +218,11 @@
           ],
           [
             107.6092179,
-            -6.9091497
+            -6.9091598
           ],
           [
-            107.6091231,
-            -6.9091621
+            107.6091211,
+            -6.9091702
           ],
           [
             107.6085607,
@@ -238,7 +238,8 @@
         "highway": "secondary",
         "name": "Jalan Purnawarman",
         "oneway": "yes",
-        "sidewalk": "separate"
+        "sidewalk": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -423,7 +424,8 @@
         "lanes": "2",
         "name": "Jalan Kebon Kawung",
         "oneway": "yes",
-        "ref": "370"
+        "ref": "370",
+        "surface": "asphalt"
       }
     },
     {
@@ -1523,42 +1525,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6341816,
-            -6.8977908
-          ],
-          [
-            107.6349951,
-            -6.8944863
-          ],
-          [
-            107.6353361,
-            -6.8931244
-          ],
-          [
-            107.6354403,
-            -6.8927469
-          ]
-        ]
-      },
-      "properties": {
-        "id": 242633051,
-        "destination:backward": "Simpang Pahlawan",
-        "destination:forward": "Simpang Taman Makam Pahlawan",
-        "destination:lanes:backward": "Jalaprang;PUSDAI;Gedung Sate;Dago",
-        "highway": "secondary",
-        "lanes": "2",
-        "lanes:backward": "1",
-        "lanes:forward": "1",
-        "name": "Jalan Pahlawan",
-        "turn:lanes:backward": "through;right"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6354403,
             -6.8927469
           ],
@@ -1912,20 +1878,20 @@
             -6.9090746
           ],
           [
-            107.6079947,
-            -6.9088695
+            107.6079826,
+            -6.9088722
           ],
           [
-            107.607937,
-            -6.9088037
+            107.6079276,
+            -6.9088024
           ],
           [
-            107.6078721,
-            -6.908683
+            107.6078627,
+            -6.9086803
           ],
           [
-            107.6078316,
-            -6.9085647
+            107.6078276,
+            -6.9085634
           ],
           [
             107.6077911,
@@ -1958,12 +1924,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6077353,
+            107.6077246,
             -6.9060495
           ],
           [
-            107.6077776,
-            -6.9062548
+            107.6077494,
+            -6.9061802
+          ],
+          [
+            107.6077784,
+            -6.906285
           ],
           [
             107.6078246,
@@ -1974,8 +1944,8 @@
             -6.9064327
           ],
           [
-            107.6079439,
-            -6.9065051
+            107.6079412,
+            -6.9065104
           ]
         ]
       },
@@ -2860,6 +2830,30 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.584417,
+            -6.9431127
+          ],
+          [
+            107.584274,
+            -6.9430061
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318891935,
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Soekarno-Hatta",
+        "oneway": "yes",
+        "ref": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.624498,
             -6.8673221
           ],
@@ -3056,6 +3050,88 @@
         "name": "Jalan Cikapayang",
         "oneway": "yes",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6355463,
+            -6.8928327
+          ],
+          [
+            107.6354602,
+            -6.8931739
+          ],
+          [
+            107.6354254,
+            -6.8933178
+          ],
+          [
+            107.6353388,
+            -6.893703
+          ],
+          [
+            107.6353178,
+            -6.8937938
+          ],
+          [
+            107.6352099,
+            -6.8942649
+          ],
+          [
+            107.6351452,
+            -6.8945475
+          ],
+          [
+            107.6350337,
+            -6.8949709
+          ],
+          [
+            107.6349426,
+            -6.8953783
+          ],
+          [
+            107.6348789,
+            -6.8956164
+          ],
+          [
+            107.6347529,
+            -6.8961255
+          ],
+          [
+            107.6345969,
+            -6.8966637
+          ],
+          [
+            107.634576,
+            -6.8967506
+          ],
+          [
+            107.6344418,
+            -6.8973156
+          ],
+          [
+            107.6343816,
+            -6.8976003
+          ],
+          [
+            107.6341816,
+            -6.8977908
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320814055,
+        "destination": "Simpang Pahlawan",
+        "destination:lanes": "Cikutra;Cimuncang;Padasuka;Cicaheum|Pussenif;Supratman;Taman Pramuka;Diponegoro",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Pahlawan",
+        "oneway": "yes",
+        "turn:lanes": "left;through|through"
       }
     },
     {
@@ -3644,8 +3720,8 @@
             -6.9079117
           ],
           [
-            107.6075509,
-            -6.9078419
+            107.607563,
+            -6.9078579
           ],
           [
             107.607537,
@@ -3894,6 +3970,32 @@
         "id": 371554906,
         "highway": "service",
         "name": "Jalan Waringin",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6212119,
+            -6.8670778
+          ],
+          [
+            107.62112,
+            -6.8672823
+          ],
+          [
+            107.6208429,
+            -6.8672088
+          ]
+        ]
+      },
+      "properties": {
+        "id": 377397439,
+        "highway": "service",
+        "name": "Terminal Dago",
         "oneway": "yes"
       }
     },
@@ -4345,6 +4447,92 @@
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5831212,
+            -6.9419015
+          ],
+          [
+            107.5831836,
+            -6.9419591
+          ],
+          [
+            107.5834599,
+            -6.9422141
+          ],
+          [
+            107.5835578,
+            -6.942293
+          ],
+          [
+            107.583608,
+            -6.942339
+          ],
+          [
+            107.5838985,
+            -6.9425994
+          ],
+          [
+            107.5842331,
+            -6.9428621
+          ],
+          [
+            107.5842817,
+            -6.9429003
+          ],
+          [
+            107.5844282,
+            -6.9430135
+          ]
+        ]
+      },
+      "properties": {
+        "id": 704442767,
+        "destination:lanes": "Babakan Ciparay;Peta;Jamika|Kopo;Leuwipanjang|Mohammad Toha;Buahbatu",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Soekarno-Hatta",
+        "oneway": "yes",
+        "ref": "11",
+        "turn:lanes": "sharp_left|through|through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.584274,
+            -6.9430061
+          ],
+          [
+            107.5841772,
+            -6.942931
+          ],
+          [
+            107.5839709,
+            -6.9427711
+          ],
+          [
+            107.5834854,
+            -6.9423721
+          ]
+        ]
+      },
+      "properties": {
+        "id": 704442768,
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Soekarno-Hatta",
+        "oneway": "yes",
+        "ref": "11"
       }
     },
     {
@@ -5064,6 +5252,45 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6208429,
+            -6.8672088
+          ],
+          [
+            107.6207501,
+            -6.8675619
+          ],
+          [
+            107.6207137,
+            -6.8676929
+          ],
+          [
+            107.6206807,
+            -6.8678426
+          ],
+          [
+            107.6206511,
+            -6.8680596
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1109681932,
+        "alt_name": "Jalan Dago",
+        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5862144,
             -6.9209176
           ],
@@ -5453,7 +5680,8 @@
         "lanes": "2",
         "name": "Jalan Kebon Kawung",
         "oneway": "yes",
-        "ref": "370"
+        "ref": "370",
+        "surface": "asphalt"
       }
     },
     {
@@ -5480,7 +5708,8 @@
         "layer": "1",
         "name": "Jalan Kebon Kawung",
         "oneway": "yes",
-        "ref": "370"
+        "ref": "370",
+        "surface": "asphalt"
       }
     },
     {
@@ -5621,6 +5850,27 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6205739,
+            -6.8680595
+          ],
+          [
+            107.6206511,
+            -6.8680596
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1208961418,
+        "highway": "residential",
+        "name": "Jalan Dago Elos III"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5855099,
             -6.9268473
           ],
@@ -5641,6 +5891,28 @@
         "oneway": "yes",
         "ref": "373",
         "source": "Bing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6355463,
+            -6.8928327
+          ],
+          [
+            107.6354403,
+            -6.8927469
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1218952933,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Cikutra"
       }
     },
     {
@@ -5711,11 +5983,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6077012,
-            -6.9058222
+            107.6076853,
+            -6.905845
           ],
           [
-            107.6077353,
+            107.6077246,
             -6.9060495
           ]
         ]
@@ -6280,23 +6552,23 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6093526,
-            -6.9067846
+            107.6093359,
+            -6.9068089
           ],
           [
-            107.6093567,
-            -6.9069909
+            107.6093419,
+            -6.9069882
           ],
           [
-            107.6093681,
-            -6.9075588
+            107.6093579,
+            -6.9075608
           ],
           [
-            107.609379,
+            107.6093729,
             -6.9080757
           ],
           [
-            107.6093805,
+            107.6093744,
             -6.9081456
           ]
         ]
@@ -6309,7 +6581,37 @@
         "highway": "secondary",
         "name": "Jalan Purnawarman",
         "oneway": "yes",
-        "sidewalk": "separate"
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5834854,
+            -6.9423721
+          ],
+          [
+            107.5830509,
+            -6.941969
+          ],
+          [
+            107.5829792,
+            -6.9419021
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1364319044,
+        "destination": "Simpang Pasir Koja",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Soekarno-Hatta",
+        "oneway": "yes",
+        "ref": "11"
       }
     },
     {
@@ -6453,6 +6755,107 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6205739,
+            -6.8680595
+          ],
+          [
+            107.6206005,
+            -6.867828
+          ],
+          [
+            107.6206139,
+            -6.8677494
+          ],
+          [
+            107.6206394,
+            -6.8676482
+          ],
+          [
+            107.6208039,
+            -6.867019
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532574,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6208039,
+            -6.867019
+          ],
+          [
+            107.6208337,
+            -6.8669052
+          ],
+          [
+            107.6208647,
+            -6.8667867
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532575,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6208647,
+            -6.8667867
+          ],
+          [
+            107.6209156,
+            -6.8667269
+          ],
+          [
+            107.6209442,
+            -6.866704
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532576,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
         "surface": "asphalt"
       }
     }
