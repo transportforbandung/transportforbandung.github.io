@@ -26,8 +26,6 @@ def main():
 
     for category in routes_data['categories']:
         for route in category['routes']:
-            if route['type'] != 'ways_with_points':
-                continue
 
             relation_id = route['relationId']
             route_name = route['name']
