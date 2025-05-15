@@ -1,7 +1,7 @@
 name: Convert GeoJSON to KML
 
 on:
-  push:
+  workflow_dispatch:
 
 jobs:
   convert:
