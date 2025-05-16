@@ -16,9 +16,9 @@ def convert_hex_to_kml_color(hex_color):
 
 def main():
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    data_dir = os.path.join(base_dir, 'data')
-    routes_json_path = os.path.join(data_dir, '..', 'data', 'routes.json')
-    output_dir = os.path.join(data_dir, '..', 'data', 'kml-named')
+    data_dir = os.path.join(base_dir, '..', 'data')
+    routes_json_path = os.path.join(data_dir, 'routes.json')
+    output_dir = os.path.join(data_dir, 'kml-named')
     os.makedirs(output_dir, exist_ok=True)
 
     with open(routes_json_path, 'r') as f:
@@ -26,8 +26,6 @@ def main():
 
     for category in routes_data['categories']:
         for route in category['routes']:
-            if route['type'] != 'ways_with_points':
-                continue
 
             relation_id = route['relationId']
             route_name = route['name']
