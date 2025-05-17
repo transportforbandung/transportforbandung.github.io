@@ -720,8 +720,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6165838,
-            -6.905096
+            107.6165969,
+            -6.9051579
+          ],
+          [
+            107.6165924,
+            -6.9050355
+          ],
+          [
+            107.6165897,
+            -6.9049615
           ],
           [
             107.6165878,
@@ -748,8 +756,8 @@
             -6.9041285
           ],
           [
-            107.6167979,
-            -6.9039862
+            107.6167925,
+            -6.9040062
           ],
           [
             107.6168812,
@@ -768,8 +776,12 @@
             -6.9035832
           ],
           [
-            107.6171771,
-            -6.9034417
+            107.6171189,
+            -6.903519
+          ],
+          [
+            107.6171748,
+            -6.9034463
           ]
         ]
       },
@@ -779,6 +791,7 @@
         "lanes": "2",
         "name": "Jalan Banda",
         "oneway": "yes",
+        "sidewalk:left": "separate",
         "surface": "asphalt"
       }
     },
@@ -946,12 +959,12 @@
             -6.9063652
           ],
           [
-            107.6167816,
+            107.6167834,
             -6.9062973
           ],
           [
-            107.6167393,
-            -6.9061673
+            107.6167588,
+            -6.9062016
           ]
         ]
       },
@@ -2391,6 +2404,7 @@
         "cycleway": "lane",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
@@ -2553,6 +2567,7 @@
         "cycleway": "lane",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
@@ -3750,38 +3765,6 @@
           [
             107.6205739,
             -6.8680595
-          ],
-          [
-            107.6206005,
-            -6.867828
-          ],
-          [
-            107.6206139,
-            -6.8677494
-          ],
-          [
-            107.6206394,
-            -6.8676482
-          ],
-          [
-            107.6208039,
-            -6.867019
-          ],
-          [
-            107.6208337,
-            -6.8669052
-          ],
-          [
-            107.6208647,
-            -6.8667867
-          ],
-          [
-            107.6209156,
-            -6.8667269
-          ],
-          [
-            107.6209442,
-            -6.866704
           ]
         ]
       },
@@ -3880,8 +3863,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6171771,
-            -6.9034417
+            107.6171748,
+            -6.9034463
           ],
           [
             107.6170291,
@@ -4858,6 +4841,7 @@
         "cycleway": "lane",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
@@ -5083,16 +5067,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6167393,
-            -6.9061673
+            107.6167588,
+            -6.9062016
           ],
           [
             107.616684,
             -6.9060651
           ],
           [
-            107.6165838,
-            -6.905096
+            107.6165969,
+            -6.9051579
           ]
         ]
       },
@@ -5102,6 +5086,7 @@
         "lanes": "2",
         "name": "Jalan Banda",
         "oneway": "yes",
+        "sidewalk:left": "separate",
         "surface": "asphalt"
       }
     },
@@ -5976,6 +5961,107 @@
       "properties": {
         "id": 1385116124,
         "highway": "unclassified",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6205739,
+            -6.8680595
+          ],
+          [
+            107.6206005,
+            -6.867828
+          ],
+          [
+            107.6206139,
+            -6.8677494
+          ],
+          [
+            107.6206394,
+            -6.8676482
+          ],
+          [
+            107.6208039,
+            -6.867019
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532574,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6208039,
+            -6.867019
+          ],
+          [
+            107.6208337,
+            -6.8669052
+          ],
+          [
+            107.6208647,
+            -6.8667867
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532575,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6208647,
+            -6.8667867
+          ],
+          [
+            107.6209156,
+            -6.8667269
+          ],
+          [
+            107.6209442,
+            -6.866704
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532576,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
         "surface": "asphalt"
       }
     }

@@ -557,10 +557,6 @@
           [
             107.6178256,
             -6.9204254
-          ],
-          [
-            107.6178363,
-            -6.9204305
           ]
         ]
       },
@@ -1367,6 +1363,7 @@
         "destination:lanes": "Gedung Pakuan;Kebon Kawung;Stasiun Bandung;Pasir Kaliki|Braga;Wastukencana;Aceh;Merdeka",
         "highway": "primary",
         "lanes": "2",
+        "maxheight": "3.2",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
         "sidewalk:left": "separate",
@@ -1781,8 +1778,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6178363,
-            -6.9204305
+            107.6178256,
+            -6.9204254
           ],
           [
             107.6179092,

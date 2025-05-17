@@ -111,7 +111,8 @@
         "lanes": "2",
         "name": "Jalan Kebon Kawung",
         "oneway": "yes",
-        "ref": "370"
+        "ref": "370",
+        "surface": "asphalt"
       }
     },
     {
@@ -734,20 +735,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6058931,
-            -6.9273804
+            107.6059177,
+            -6.9273911
           ],
           [
-            107.6059977,
-            -6.9267023
+            107.6059915,
+            -6.926739
           ],
           [
-            107.6060229,
+            107.6060152,
             -6.9265391
           ],
           [
-            107.60604,
-            -6.9263853
+            107.6060307,
+            -6.9263876
           ],
           [
             107.6060915,
@@ -882,6 +883,7 @@
         "destination:lanes": "Gedung Pakuan;Kebon Kawung;Stasiun Bandung;Pasir Kaliki|Braga;Wastukencana;Aceh;Merdeka",
         "highway": "primary",
         "lanes": "2",
+        "maxheight": "3.2",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
         "sidewalk:left": "separate",
@@ -1911,7 +1913,8 @@
         "lanes": "2",
         "name": "Jalan Kebon Kawung",
         "oneway": "yes",
-        "ref": "370"
+        "ref": "370",
+        "surface": "asphalt"
       }
     },
     {
@@ -1938,7 +1941,8 @@
         "layer": "1",
         "name": "Jalan Kebon Kawung",
         "oneway": "yes",
-        "ref": "370"
+        "ref": "370",
+        "surface": "asphalt"
       }
     },
     {
@@ -2302,6 +2306,77 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.605817,
+            -6.92756
+          ],
+          [
+            107.6058222,
+            -6.9274995
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1268179834,
+        "avgspeed": "25",
+        "covered": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6058222,
+            -6.9274995
+          ],
+          [
+            107.6058291,
+            -6.927479
+          ],
+          [
+            107.6058504,
+            -6.9274581
+          ],
+          [
+            107.6058814,
+            -6.9274381
+          ],
+          [
+            107.6059038,
+            -6.9274217
+          ],
+          [
+            107.6059122,
+            -6.927408
+          ],
+          [
+            107.6059177,
+            -6.9273911
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1268179835,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6071455,
             -6.9211653
           ],
@@ -2430,40 +2505,21 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6059095,
-            -6.9275213
+            107.6058121,
+            -6.9276265
           ],
           [
-            107.6059234,
-            -6.9273836
+            107.605817,
+            -6.92756
           ]
         ]
       },
       "properties": {
-        "id": 1383480614,
-        "highway": "service"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6059234,
-            -6.9273836
-          ],
-          [
-            107.6058931,
-            -6.9273804
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1383483031,
-        "highway": "primary",
+        "id": 1385362166,
+        "avgspeed": "25",
+        "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Pungkur",
+        "name": "Jalan Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }

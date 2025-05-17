@@ -166,7 +166,8 @@
         "lanes": "2",
         "name": "Jalan Kebon Kawung",
         "oneway": "yes",
-        "ref": "370"
+        "ref": "370",
+        "surface": "asphalt"
       }
     },
     {
@@ -570,13 +571,15 @@
       "properties": {
         "id": 28410794,
         "avgspeed": "15",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sangkuriang",
         "oneway": "no",
         "sidewalk": "separate",
         "smoothness": "intermediate",
-        "smoothness:date": "2024-11-02"
+        "smoothness:date": "2024-11-02",
+        "surface": "asphalt"
       }
     },
     {
@@ -836,7 +839,8 @@
         "lanes": "2",
         "name": "Jalan Sangkuriang",
         "oneway": "yes",
-        "sidewalk": "separate"
+        "sidewalk": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -869,8 +873,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6075845,
-            -6.9054713
+            107.6075644,
+            -6.9054686
           ],
           [
             107.60768,
@@ -1007,7 +1011,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Suniaraja",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1229,7 +1234,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1477,6 +1483,7 @@
         "destination:lanes": "Gedung Pakuan;Kebon Kawung;Stasiun Bandung;Pasir Kaliki|Braga;Wastukencana;Aceh;Merdeka",
         "highway": "primary",
         "lanes": "2",
+        "maxheight": "3.2",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
         "sidewalk:left": "separate",
@@ -2384,12 +2391,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6075734,
-            -6.9054436
+            107.607556,
+            -6.9054463
           ],
           [
-            107.6075845,
-            -6.9054713
+            107.6075644,
+            -6.9054686
           ]
         ]
       },
@@ -2431,7 +2438,8 @@
         "lanes": "2",
         "name": "Jalan Suniaraja",
         "oneway": "yes",
-        "sidewalk": "separate"
+        "sidewalk": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -2832,12 +2840,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6074694,
-            -6.9052123
+            107.6074587,
+            -6.9052269
           ],
           [
-            107.6075734,
-            -6.9054436
+            107.607556,
+            -6.9054463
           ]
         ]
       },
@@ -2910,7 +2918,8 @@
         "lanes": "2",
         "name": "Jalan Kebon Kawung",
         "oneway": "yes",
-        "ref": "370"
+        "ref": "370",
+        "surface": "asphalt"
       }
     },
     {
@@ -2937,7 +2946,8 @@
         "layer": "1",
         "name": "Jalan Kebon Kawung",
         "oneway": "yes",
-        "ref": "370"
+        "ref": "370",
+        "surface": "asphalt"
       }
     },
     {
@@ -3120,12 +3130,12 @@
             -6.9049195
           ],
           [
-            107.6074027,
-            -6.9050877
+            107.6074067,
+            -6.905129
           ],
           [
-            107.6074694,
-            -6.9052123
+            107.6074587,
+            -6.9052269
           ]
         ]
       },

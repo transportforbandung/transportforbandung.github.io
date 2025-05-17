@@ -544,10 +544,6 @@
           [
             107.6178256,
             -6.9204254
-          ],
-          [
-            107.6178363,
-            -6.9204305
           ]
         ]
       },
@@ -854,7 +850,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Suniaraja",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1149,6 +1146,7 @@
         "destination:lanes": "Gedung Pakuan;Kebon Kawung;Stasiun Bandung;Pasir Kaliki|Braga;Wastukencana;Aceh;Merdeka",
         "highway": "primary",
         "lanes": "2",
+        "maxheight": "3.2",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
         "sidewalk:left": "separate",
@@ -1555,7 +1553,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2384,7 +2383,8 @@
         "lanes": "2",
         "name": "Jalan Suniaraja",
         "oneway": "yes",
-        "sidewalk": "separate"
+        "sidewalk": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -2847,8 +2847,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6178363,
-            -6.9204305
+            107.6178256,
+            -6.9204254
           ],
           [
             107.6189214,

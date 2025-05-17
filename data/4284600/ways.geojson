@@ -251,6 +251,7 @@
         "cycleway": "lane",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
@@ -1571,6 +1572,7 @@
         "cycleway": "lane",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
@@ -4435,10 +4437,6 @@
           [
             107.6206511,
             -6.8680596
-          ],
-          [
-            107.6206417,
-            -6.8684727
           ]
         ]
       },
@@ -4908,6 +4906,7 @@
         "alt_name": "Jalan Dago",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
@@ -6402,6 +6401,33 @@
       "properties": {
         "id": 1385116126,
         "highway": "unclassified",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6206511,
+            -6.8680596
+          ],
+          [
+            107.6206417,
+            -6.8684727
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1385532577,
+        "alt_name": "Jalan Dago",
+        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
         "surface": "asphalt"
       }
     }
