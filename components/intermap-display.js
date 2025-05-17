@@ -1,13 +1,21 @@
-// intermap-display.js for peta-interaktif
+// intermap-display.js
 const routeCache = new Map();
 const activeLayers = new Map();
-let activeRoutes = new Map(); // From route-map.js (unused in original code)
+let activeRoutes = new Map();
+
+// Configuration defaults
+const config = {
+  localRouteBasePath: 'data',
+  routesDataUrl: 'data/routes.json',
+  overpassEndpoint: 'https://overpass-api.de/api/interpreter',
+  ...(window.routeConfig || {}) // Merge with user-provided config
+};
 
 // route-map.js functions
 function fetchLocalRoute(relationId, displayType, routeColor) {
     return new Promise((resolve, reject) => {
         const layerGroup = L.layerGroup();
-        const basePath = `data/${relationId}`;
+        const basePath = `${config.localRouteBasePath}/${relationId}`;
 
         Promise.all([
             fetch(`${basePath}/ways.geojson`),
@@ -88,7 +96,7 @@ function fetchOverpassRoute(relationId, displayType, routeColor) {
 async function initializeRoutes() {
   try {
     const container = document.getElementById('route-container');
-    const response = await fetch('data/routes.json');
+    const response = await fetch(config.routesDataUrl);
     const { categories } = await response.json();
 
     const fragment = document.createDocumentFragment();
