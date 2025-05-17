@@ -103,6 +103,16 @@ p {
     font-weight: 400;
 }
 
+/* Webpage position */
+.page-map {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
 /* Button style */
 .button {
     background-color: #00A64F;
