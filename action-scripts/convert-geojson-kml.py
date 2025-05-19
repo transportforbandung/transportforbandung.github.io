@@ -16,7 +16,7 @@ def convert_hex_to_kml_color(hex_color):
 
 def main():
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    data_dir = os.path.join(base_dir, '..', 'data')
+    data_dir = os.path.join(base_dir, 'data')
     routes_json_path = os.path.join(data_dir, 'routes.json')
     output_dir = os.path.join(data_dir, 'kml-named')
     os.makedirs(output_dir, exist_ok=True)
@@ -26,6 +26,8 @@ def main():
 
     for category in routes_data['categories']:
         for route in category['routes']:
+            if route['type'] != 'ways_with_points':
+                continue
 
             relation_id = route['relationId']
             route_name = route['name']
@@ -52,6 +54,11 @@ def main():
 
             kml = simplekml.Kml()
             kml_color = convert_hex_to_kml_color(color)
+
+            # Add ExtendedData to the KML document
+            kml.document.extendeddata = simplekml.ExtendedData()
+            kml.document.extendeddata.newdata(name="route-name", value=route_name)
+            kml.document.extendeddata.newdata(name="source", value="Transport for Bandung")
 
             for feature in merged_features:
                 geom = feature.get('geometry', {})
@@ -83,3 +90,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
