@@ -5,8 +5,8 @@ let activeRoutes = new Map();
 
 // Configuration defaults
 const config = {
-  localRouteBasePath: 'data',
-  routesDataUrl: 'data/routes.json',
+  localRouteBasePath: 'route-data/geojson',
+  routesDataUrl: 'route-data/routes.json',
   overpassEndpoint: 'https://overpass-api.de/api/interpreter',
   ...(window.routeConfig || {}) // Merge with user-provided config
 };
