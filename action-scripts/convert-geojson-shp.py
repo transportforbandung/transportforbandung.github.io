@@ -8,7 +8,8 @@ def sanitize_filename(name):
 
 def main():
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    data_dir = os.path.join(base_dir, '..', 'data')
+    data_dir = os.path.join(base_dir, '..', 'route-data')
+    route_data_dir = os.path.join(data_dir, 'geojson')
     routes_json_path = os.path.join(data_dir, 'routes.json')
     output_dir = os.path.join(data_dir, 'shp-named')
     os.makedirs(output_dir, exist_ok=True)
@@ -21,7 +22,7 @@ def main():
             relation_id = route['relationId']
             route_name = route['name']
             color = route['color']
-            route_dir = os.path.join(data_dir, relation_id)
+            route_dir = os.path.join(route_data_dir, relation_id)
 
             if not os.path.exists(route_dir):
                 print(f"Skipping missing directory: {route_dir}")
