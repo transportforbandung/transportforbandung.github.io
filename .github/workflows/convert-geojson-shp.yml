@@ -28,7 +28,7 @@ jobs:
       run: pip install geopandas shapely
 
     - name: Convert GeoJSON to SHP
-      run: python action-scripts/convert.py
+      run: python action-scripts/convert-geojson-shp.py
 
     - name: Commit and push changes
       run: |
