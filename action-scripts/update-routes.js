@@ -5,7 +5,7 @@ const { mkdirp } = require('mkdirp');
 
 // Enhanced file loading with validation
 function loadRouteData() {
-  const routesPath = path.join(__dirname, '..', 'data', 'routes.json');
+  const routesPath = path.join(__dirname, '..', 'route-data', 'routes.json');
   
   try {
     const fileContent = fs.readFileSync(routesPath, 'utf-8');
@@ -115,7 +115,7 @@ function processNodes(elements) {
 // Process a single route
 async function processRoute(route) {
   const { relationId, type } = route;
-  const dir = path.join(__dirname, '..', 'data', relationId);
+  const dir = path.join(__dirname, '..', 'route-data', 'geojson', relationId);
   
   try {
     await mkdirp(dir);
