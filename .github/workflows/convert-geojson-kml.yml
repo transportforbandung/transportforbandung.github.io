@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'data/**'
+      - 'route-data/geojson/**'
 
 permissions:
   contents: write
