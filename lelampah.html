@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!--Meta-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transit Planner - Vanilla JS</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Lihat peta dan panduan kereta api, bus kota, dan angkot Bandung Raya di situs web Transport for Bandung.">
+    <meta name="author" content="Transport for Bandung">
+    <meta name="keywords" content="transportasi umum, bandung, peta transportasi, transport for bandung, peta, panduan, commuter line, bus kota, angkot, metro jabar trans, damri, panduan transportasi, panduan transportasi umum, panduan angkot">
+    <link rel="canonical" href="https://transportforbandung.org/peta">
+    <meta name="robots" content="index, follow">
+
+    <!--OpenGraph Meta-->
+    <meta property="og:title" content="Peta dan Panduan Transportasi Umum Bandung Raya">
+    <meta property="og:description" content="Lihat peta dan panduan kereta api, bus kota, dan angkot Bandung Raya di situs web Transport for Bandung.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Transport for Bandung">
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:image" content="https://transportforbandung.org/assets/peta-fdtb-snippet.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="A preview of Greater Bandung mass transit map">
+    <meta property="og:url" content="https://transportforbandung.org/peta">
+    
+    <link rel="icon" href="assets/TfB-logo-green-white-background.svg">
+    <meta name="theme-color" content="#00A64F">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/CSS/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --bs-body-font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        body {
+            background-color: #f9fafb;
+            color: #1f2937;
+            height: 100vh;
+        }
+        
+        .app-container {
+            display: flex;
+            height: 85vh;
+            width: 100vw;
+            overflow: hidden;
+            flex: 1;
+        }
+        
+        /* Sidebar styles */
+        .sidebar {
+            width: 30rem;
+            min-width: 30rem;
+            background-color: white;
+            padding: 0 1.5rem;
+            overflow-y: auto;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            z-index: 1000;
+        }
+        
+        .sidebar h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 1rem;
+            margin-top: 1.5rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        
+        label {
+            display: block;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: #4b5563;
+            margin-bottom: 0.25rem;
+        }
+        
+        input {
+            width: 100%;
+            border: 1px solid #d1d5db;
+            border-radius: 0.5rem;
+            padding: 0.5rem 0.75rem;
+            font-size: 0.875rem;
+            transition: all 0.2s;
+        }
+        
+        input:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+        }
+        
+        .search-container {
+            position: relative;
+            width: 100%;
+        }
+        
+        .suggestions-list {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background-color: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+            max-height: 15rem;
+            overflow-y: auto;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+        
+        .suggestions-list.visible {
+            display: block;
+        }
+        
+        .suggestion-item {
+            padding: 0.5rem 0.75rem;
+            font-size: 0.875rem;
+            cursor: pointer;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        
+        .suggestion-item:hover {
+            background-color: #f9fafb;
+        }
+        
+        .suggestion-item:last-child {
+            border-bottom: none;
+        }
+        
+        .suggestion-item p {
+            color: #6b7280;
+            font-size: 0.75rem;
+            margin-top: 0.25rem;
+            word-break: break-word;
+        }
+        
+        button {
+            background-color: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 0.5rem;
+            padding: 0.625rem 1rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0.5rem;
+        }
+        
+        button:hover {
+            background-color: #2563eb;
+            box-shadow: 0 4px 6px rgba(59, 130, 246, 0.2);
+        }
+        
+        button:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+        
+        .error-message {
+            background-color: #fef2f2;
+            border-left: 4px solid #ef4444;
+            color: #b91c1c;
+            padding: 0.75rem;
+            border-radius: 0.375rem;
+            margin-top: 1rem;
+            font-size: 0.875rem;
+        }
+        
+        /* Routes list */
+        .routes-list {
+            margin-top: 1.5rem;
+        }
+        
+        .route-item {
+            background-color: white;
+            border-radius: 0.5rem;
+            border: 1px solid #e5e7eb;
+            overflow: hidden;
+            margin-bottom: 0.75rem;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+        
+        .route-summary {
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 100%;
+            text-align: left;
+            background: none;
+            border: none;
+        }
+        
+        .route-summary.active {
+            background-color: #dbeafe;
+            border-left: 4px solid #3b82f6;
+        }
+        
+        .route-summary:hover:not(.active) {
+            background-color: #f9fafb;
+        }
+        
+        .route-info {
+            flex-grow: 1;
+        }
+        
+        .route-duration {
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 0.25rem;
+        }
+        
+        .route-stats {
+            font-size: 0.75rem;
+            color: #6b7280;
+        }
+        
+        .route-toggle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 9999px;
+            width: 1.5rem;
+            height: 1.5rem;
+            background-color: #e5e7eb;
+            color: #4b5563;
+            font-size: 0.75rem;
+        }
+        
+        .route-toggle.active {
+            background-color: #3b82f6;
+            color: white;
+        }
+        
+        .route-details {
+            padding: 1rem;
+            background-color: #f9fafb;
+            border-top: 1px solid #e5e7eb;
+        }
+        
+        .time-summary {
+            background-color: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.375rem;
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            font-size: 0.875rem;
+        }
+        
+        .time-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.25rem;
+        }
+        
+        .time-label {
+            font-weight: 500;
+            color: #4b5563;
+        }
+        
+        .time-value {
+            font-weight: 600;
+            color: #1f2937;
+        }
+        
+        .leg-item {
+            display: flex;
+            margin-bottom: 1.25rem;
+        }
+        
+        .leg-icon {
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 9999px;
+            background-color: #dbeafe;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 0.75rem;
+            flex-shrink: 0;
+            font-size: 0.875rem;
+        }
+        
+        .leg-icon.walk {
+            background-color: #e5e7eb;
+        }
+        
+        .leg-content {
+            flex-grow: 1;
+        }
+        
+        .leg-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.75rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            height: 1.75rem;
+            line-height: 1.25rem;
+        }
+        
+        .leg-route {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+        }
+        
+        .leg-time {
+            font-size: 0.75rem;
+            color: #6b7280;
+            margin-left: 0.25rem;
+        }
+        
+        .loading-message {
+            text-align: center;
+            padding: 2rem 0;
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+        
+        .placeholder-message {
+            text-align: center;
+            padding: 1.5rem 0;
+            color: #6b7280;
+            font-size: 0.75rem;
+            max-width: 20rem;
+            margin: 0 auto;
+        }
+        
+        /* Map container */
+        .map-container {
+            flex: 1;
+            position: relative;
+            height: 100vh;
+            margin: 0 auto;
+        }
+        
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+        
+        .map-controls {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            background-color: white;
+            padding: 0.75rem;
+            border-radius: 0.375rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            max-width: 250px;
+        }
+        
+        .map-controls h3 {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 0.25rem;
+        }
+        
+        .map-controls p {
+            font-size: 0.75rem;
+            color: #4b5563;
+        }
+
+
+        
+        /* Responsive adjustments */
+        @media (max-width: 1024px) {
+            .app-container {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+                max-width: 100%;
+                height: 40vh;
+            }
+            
+            .map-container {
+                height: 60vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="header"></div>
+
+    <!-- Body start -->
+    <div class="app-container">
+        <!-- Sidebar for controls and routes -->
+        <div class="sidebar">
+            <h2>Transit Planner</h2>
+            
+            <div class="form-group">
+                <label for="origin">Asal</label>
+                <div class="search-container">
+                    <input type="text" id="origin" placeholder="Masukkan titik awal">
+                    <div class="suggestions-list" id="origin-suggestions"></div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="destination">Tujuan</label>
+                <div class="search-container">
+                    <input type="text" id="destination" placeholder="Masukkan tujuan">
+                    <div class="suggestions-list" id="destination-suggestions"></div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="departure-time">Waktu keberangkatan</label>
+                <input type="time" id="departure-time" value="08:00">
+            </div>
+            
+            <button id="search-button">Cari Rute</button>
+            
+            <div id="error-message" class="error-message" style="display: none;"></div>
+            
+            <h2>Pilihan Rute</h2>
+            <div id="routes-container" class="routes-list">
+                <div class="placeholder-message">
+                    Pilih lokasi asal dan tujuan. Cari tempat di baris pencarian atau klik kanan di peta, lalu klik "Cari Rute" untuk melihat opsi transportasi umum yang tersedia.
+                </div>
+            </div>
+        </div>
+        
+        <!-- Map container -->
+        <div class="map-container">
+            <div id="map"></div>
+            <!--<div class="map-controls">
+                <h3>Kontrol Peta</h3>
+                <p>Klik kanan untuk memilih asal dan tujuan</p>
+            </div>-->
+        </div>
+    </div>
+
+    <div id="footer"></div>
+    
+    <script src="./components/fetch-script.js" defer></script>
+    <script src="./components/main.js" defer></script>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    
+    <!-- Axios for HTTP requests -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    <script>
+        // App state
+        const state = {
+            origin: null,
+            destination: null,
+            originText: '',
+            destinationText: '',
+            departureTime: "08:00",
+            routes: [],
+            selectedRouteIndex: 0,
+            isLoading: false,
+            error: null,
+            map: null,
+            originMarker: null,
+            destinationMarker: null,
+            routePolylines: []
+        };
+        
+        // Custom polyline decoder implementation
+        function decodePolyline(encoded) {
+            let index = 0;
+            let len = encoded.length;
+            let lat = 0, lng = 0;
+            let array = [];
+            
+            while (index < len) {
+                let b, shift = 0, result = 0;
+                
+                do {
+                    b = encoded.charCodeAt(index++) - 63;
+                    result |= (b & 0x1f) << shift;
+                    shift += 5;
+                } while (b >= 0x20);
+                
+                let dlat = (result & 1) ? ~(result >> 1) : (result >> 1);
+                lat += dlat;
+                shift = 0;
+                result = 0;
+                
+                do {
+                    b = encoded.charCodeAt(index++) - 63;
+                    result |= (b & 0x1f) << shift;
+                    shift += 5;
+                } while (b >= 0x20);
+                
+                let dlng = (result & 1) ? ~(result >> 1) : (result >> 1);
+                lng += dlng;
+                
+                array.push([lat * 1e-5, lng * 1e-5]);
+            }
+            
+            return array;
+        }
+        
+        // Initialize the map
+        function initMap() {
+            const center = [-6.914744, 107.60981];
+            state.map = L.map('map').setView(center, 13);
+            
+            // Add tile layer
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a>'
+            }).addTo(state.map);
+            
+            // Fix for default marker icons
+            delete L.Icon.Default.prototype._getIconUrl;
+            L.Icon.Default.mergeOptions({
+                iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon-2x.png',
+                iconUrl: 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon.png',
+                shadowUrl: 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png'
+            });
+            
+            // Setup right-click context menu
+            setupContextMenu();
+        }
+        
+        // Set up context menu for setting origin/destination
+        function setupContextMenu() {
+            state.map.on('contextmenu', function(e) {
+                // Remove any existing context menu
+                const existingPopup = document.querySelector('.leaflet-popup');
+                if (existingPopup) existingPopup.remove();
+                
+                // Create popup content
+                const popupContent = document.createElement('div');
+                popupContent.style.cssText = 'display:flex; flex-direction:column; gap:6px; font-family:sans-serif; padding:6px; font-size:14px;';
+                
+                // Set Origin button
+                const originBtn = document.createElement('button');
+                originBtn.id = 'setOriginBtn';
+                originBtn.style.cssText = 'padding:6px 12px; background:#3b82f6; color:white; border:none; border-radius:4px; cursor:pointer; display:flex; align-items:center; gap:4px;';
+                originBtn.innerHTML = `
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z"/>
+                    </svg>
+                    Pilih sebagai asal
+                `;
+                
+                // Set Destination button
+                const destBtn = document.createElement('button');
+                destBtn.id = 'setDestBtn';
+                destBtn.style.cssText = 'padding:6px 12px; background:#10b981; color:white; border:none; border-radius:4px; cursor:pointer; display:flex; align-items:center; gap:4px;';
+                destBtn.innerHTML = `
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    Pilih sebagai tujuan
+                `;
+                
+                popupContent.appendChild(originBtn);
+                popupContent.appendChild(destBtn);
+                
+                // Create popup
+                const popup = L.popup()
+                    .setLatLng(e.latlng)
+                    .setContent(popupContent)
+                    .openOn(state.map);
+                
+                // Add event listeners to buttons
+                setTimeout(() => {
+                    document.getElementById('setOriginBtn').addEventListener('click', () => {
+                        const coords = [e.latlng.lat, e.latlng.lng];
+                        setOrigin(coords, `${coords[0].toFixed(5)}, ${coords[1].toFixed(5)}`);
+                        state.map.closePopup();
+                    });
+                    
+                    document.getElementById('setDestBtn').addEventListener('click', () => {
+                        const coords = [e.latlng.lat, e.latlng.lng];
+                        setDestination(coords, `${coords[0].toFixed(5)}, ${coords[1].toFixed(5)}`);
+                        state.map.closePopup();
+                    });
+                }, 10);
+            });
+        }
+        
+        // Set origin location
+        function setOrigin(coords, text) {
+            state.origin = coords;
+            state.originText = text;
+            document.getElementById('origin').value = text;
+            
+            // Update marker
+            if (state.originMarker) {
+                state.map.removeLayer(state.originMarker);
+            }
+            
+            state.originMarker = L.marker(coords).addTo(state.map)
+                .bindPopup(`
+                    <div class="font-medium flex items-center">
+                        <div class="w-2 h-2 bg-blue-500 rounded-full mr-1"></div>
+                        Titik asal
+                    </div>
+                `);
+        }
+        
+        // Set destination location
+        function setDestination(coords, text) {
+            state.destination = coords;
+            state.destinationText = text;
+            document.getElementById('destination').value = text;
+            
+            // Update marker
+            if (state.destinationMarker) {
+                state.map.removeLayer(state.destinationMarker);
+            }
+            
+            state.destinationMarker = L.marker(coords).addTo(state.map)
+                .bindPopup(`
+                    <div class="font-medium flex items-center">
+                        <div class="w-2 h-2 bg-green-500 rounded-full mr-1"></div>
+                        Tujuan
+                    </div>
+                `);
+        }
+        
+        // Calculate contrast color for route badges
+        function getContrastYIQ(hexcolor) {
+            if (!hexcolor) return 'black';
+            hexcolor = hexcolor.replace("#", "");
+            const r = parseInt(hexcolor.substr(0, 2), 16);
+            const g = parseInt(hexcolor.substr(2, 2), 16);
+            const b = parseInt(hexcolor.substr(4, 2), 16);
+            const yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+            return yiq >= 128 ? 'black' : 'white';
+        }
+        
+        // Process routing
+        async function processRouting() {
+            if (!state.origin || !state.destination || !state.departureTime) {
+                showError("Harap masukkan asal, tujuan, dan waktu keberangkatan.");
+                return;
+            }
+            
+            clearError();
+            setLoading(true);
+            state.routes = [];
+            state.selectedRouteIndex = 0;
+            renderRoutes();
+            
+            // Clear existing polylines
+            clearPolylines();
+            
+            const dateStr = new Date().toISOString().slice(0, 10);
+            
+            const query = `
+                query Plan(
+                    $fromPlace: String!
+                    $toPlace: String!
+                    $date: String!
+                    $time: String!
+                    $arriveBy: Boolean!
+                    $transportModes: [TransportMode!]
+                ) {
+                    plan(
+                        fromPlace: $fromPlace
+                        toPlace: $toPlace
+                        date: $date
+                        time: $time
+                        arriveBy: $arriveBy
+                        transportModes: $transportModes
+                    ) {
+                        itineraries {
+                            duration
+                            legs {
+                                mode
+                                startTime
+                                endTime
+                                duration
+                                from {
+                                    name
+                                }
+                                to {
+                                    name
+                                }
+                                route {
+                                    shortName
+                                    longName
+                                    color
+                                }
+                                agency {
+                                    name
+                                }
+                                legGeometry {
+                                    length
+                                    points
+                                }
+                            }
+                        }
+                    }
+                }
+            `;
+            
+            const variables = {
+                fromPlace: `${state.origin[0]},${state.origin[1]}`,
+                toPlace: `${state.destination[0]},${state.destination[1]}`,
+                date: dateStr,
+                time: state.departureTime,
+                arriveBy: false,
+                transportModes: [
+                    { mode: "RAIL" },
+                    { mode: "BUS" },
+                    { mode: "WALK" },
+                ],
+            };
+            
+            try {
+                const response = await axios.post(
+                    "https://tegallega.onrender.com/otp/routers/default/index/graphql",
+                    { query, variables },
+                    { headers: { "Content-Type": "application/json" } }
+                );
+                
+                const result = response.data;
+                
+                if (result.errors) {
+                    console.error("GraphQL errors:", result.errors);
+                    showError("Terjadi kesalahan. Silakan coba lokasi atau waktu yang berbeda.");
+                    return;
+                }
+                
+                const itineraries = result.data?.plan?.itineraries || [];
+                state.routes = itineraries;
+                
+                if (itineraries.length === 0) {
+                    showError("Tidak ditemukan rute. Silakan coba lokasi atau waktu yang berbeda.");
+                } else {
+                    // Draw the first route
+                    drawRoute(0);
+                }
+            } catch (err) {
+                console.error("Fetch error:", err);
+                showError("Gagal mengambil data. Silakan periksa koneksi Anda dan coba lagi.");
+            } finally {
+                setLoading(false);
+                renderRoutes();
+            }
+        }
+        
+        // Format duration in minutes
+        function formatDuration(seconds) {
+            const mins = Math.round(seconds / 60);
+            return `${mins} menit`;
+        }
+        
+        // Format time from milliseconds
+        function formatTime(timestamp) {
+            const date = new Date(timestamp);
+            const hours = date.getHours().toString().padStart(2, '0');
+            const minutes = date.getMinutes().toString().padStart(2, '0');
+            return `${hours}:${minutes}`;
+        }
+        
+        // Draw route polylines on map
+        function drawRoute(index) {
+            // Clear existing polylines
+            clearPolylines();
+            
+            const itinerary = state.routes[index];
+            if (!itinerary) return;
+            
+            itinerary.legs.forEach((leg) => {
+                if (!leg.legGeometry?.points) return;
+                
+                // Use our custom polyline decoder
+                const latlngs = decodePolyline(leg.legGeometry.points);
+                
+                const color = leg.mode === "WALK"
+                    ? "#888"
+                    : leg.route?.color
+                        ? `#${leg.route.color}`
+                        : "#2563eb";
+                
+                const pl = L.polyline(latlngs, { color, weight: 5, opacity: 0.7 }).addTo(state.map);
+                state.routePolylines.push(pl);
+            });
+        }
+        
+        // Clear all route polylines
+        function clearPolylines() {
+            state.routePolylines.forEach(polyline => {
+                state.map.removeLayer(polyline);
+            });
+            state.routePolylines = [];
+        }
+        
+        // Set loading state
+        function setLoading(isLoading) {
+            state.isLoading = isLoading;
+            const button = document.getElementById('search-button');
+            if (isLoading) {
+                button.textContent = "Mencari Rute...";
+                button.disabled = true;
+            } else {
+                button.textContent = "Cari Rute";
+                button.disabled = false;
+            }
+        }
+        
+        // Show error message
+        function showError(message) {
+            state.error = message;
+            const errorEl = document.getElementById('error-message');
+            errorEl.textContent = message;
+            errorEl.style.display = 'block';
+        }
+        
+        // Clear error message
+        function clearError() {
+            state.error = null;
+            document.getElementById('error-message').style.display = 'none';
+        }
+        
+        // Render routes in sidebar
+        function renderRoutes() {
+            const container = document.getElementById('routes-container');
+            
+            if (state.isLoading && state.routes.length === 0) {
+                container.innerHTML = `
+                    <div class="loading-message">
+                        <p>Mencari rute terbaik...</p>
+                        <p>Proses ini membutuhkan waktu 2-60 detik</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            if (state.routes.length === 0) {
+                container.innerHTML = `
+                    <div class="placeholder-message">
+                        Pilih lokasi asal dan tujuan. Cari tempat di baris pencarian atau klik kanan di peta, lalu klik "Cari Rute" untuk melihat opsi transportasi umum yang tersedia.
+                    </div>
+                `;
+                return;
+            }
+            
+            let routesHTML = '';
+            
+            state.routes.forEach((itinerary, idx) => {
+                const isOpen = idx === state.selectedRouteIndex;
+                const transitLegs = itinerary.legs.filter(leg => leg.mode !== "WALK");
+                const walkLegs = itinerary.legs.filter(leg => leg.mode === "WALK");
+                const duration = formatDuration(itinerary.duration);
+                
+                routesHTML += `
+                    <div class="route-item">
+                        <button class="route-summary ${isOpen ? 'active' : ''}" data-index="${idx}">
+                            <div class="route-info">
+                                <div class="route-duration">${duration}</div>
+                                <div class="route-stats">${transitLegs.length} rute transportasi umum</div>
+                                <div class="route-stats">${walkLegs.length} kali berjalan kaki</div>
+                            </div>
+                            <div class="route-toggle ${isOpen ? 'active' : ''}">
+                                ${isOpen ? '▲' : '▼'}
+                            </div>
+                        </button>
+                        
+                        ${isOpen ? `
+                            <div class="route-details">
+                                <div class="time-summary">
+                                    <div class="time-row">
+                                        <span class="time-label">Berangkat</span>
+                                        <span class="time-label">Tiba</span>
+                                    </div>
+                                    <div class="time-row">
+                                        <span class="time-value">${formatTime(itinerary.legs[0].startTime)}</span>
+                                        <span class="time-value">${formatTime(itinerary.legs[itinerary.legs.length - 1].endTime)}</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="legs-container">
+                                    ${itinerary.legs.map((leg, i) => {
+                                        const isFirstLeg = i === 0;
+                                        const isLastLeg = i === itinerary.legs.length - 1;
+                                        const legDuration = Math.round(leg.duration / 60);
+                                        
+                                        let badgeStyle = '';
+                                        let badgeText = '';
+                                        
+                                        if (leg.mode === "WALK") {
+                                            badgeStyle = `background-color: #888; color: ${getContrastYIQ('#888')};`;
+                                            badgeText = 'Berjalan kaki';
+                                        } else if (leg.route) {
+                                            const color = leg.route.color ? `#${leg.route.color}` : '#3b82f6';
+                                            badgeStyle = `background-color: ${color}; color: ${getContrastYIQ(color)};`;
+                                            badgeText = `${leg.agency?.name || ''} ${leg.route.shortName || ''}`.trim();
+                                        }
+                                        
+                                        return `
+                                            <div class="leg-item">
+                                                <div class="leg-icon ${leg.mode === "WALK" ? 'walk' : ''}">
+                                                    ${leg.mode === "WALK"
+                                                        ? '🚶'
+                                                        : '🚌'
+                                                    }
+                                                </div>
+                                                <div class="leg-content">
+                                                    <div class="leg-badge" style="${badgeStyle}">
+                                                        ${badgeText}
+                                                    </div>
+                                                    <div class="leg-route">
+                                                        ${isFirstLeg ? "Asal" : leg.from.name} → ${isLastLeg ? "Tujuan" : leg.to.name}
+                                                    </div>
+                                                    <div class="leg-time">
+                                                        ${formatTime(leg.startTime)} - ${formatTime(leg.endTime)} (${legDuration} menit)
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        `;
+                                    }).join('')}
+                                </div>
+                            </div>
+                        ` : ''}
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = routesHTML;
+            
+            // Add event listeners to route buttons
+            document.querySelectorAll('.route-summary').forEach(button => {
+                button.addEventListener('click', function() {
+                    const index = parseInt(this.getAttribute('data-index'));
+                    if (state.selectedRouteIndex === index) {
+                        state.selectedRouteIndex = -1;
+                    } else {
+                        state.selectedRouteIndex = index;
+                        drawRoute(index);
+                    }
+                    renderRoutes();
+                });
+            });
+        }
+        
+        // Setup search input with autocomplete
+        function setupSearchInput(inputId, suggestionsId, setLocationFn, setTextFn) {
+            const input = document.getElementById(inputId);
+            const suggestions = document.getElementById(suggestionsId);
+            let timeout = null;
+            
+            input.addEventListener('input', function() {
+                setTextFn(this.value);
+                clearTimeout(timeout);
+                
+                if (!this.value.trim()) {
+                    suggestions.classList.remove('visible');
+                    return;
+                }
+                
+                timeout = setTimeout(async () => {
+                    try {
+                        const response = await axios.get(
+                            `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(this.value)}&format=json`
+                        );
+                        
+                        suggestions.innerHTML = response.data.map((place, index) => `
+                            <div class="suggestion-item" data-index="${index}">
+                                <p>${place.display_name}</p>
+                            </div>
+                        `).join('');
+                        
+                        suggestions.classList.add('visible');
+                        
+                        // Add event listeners to suggestions
+                        document.querySelectorAll(`#${suggestionsId} .suggestion-item`).forEach(item => {
+                            item.addEventListener('mousedown', function(e) {
+                                e.preventDefault();
+                                const place = response.data[parseInt(this.getAttribute('data-index'))];
+                                const display = place.display_name;
+                                const coords = [parseFloat(place.lat), parseFloat(place.lon)];
+                                input.value = display;
+                                setTextFn(display);
+                                setLocationFn(coords);
+                                suggestions.classList.remove('visible');
+                                
+                                // Update map view
+                                state.map.setView(coords, 15);
+                            });
+                        });
+                    } catch (error) {
+                        console.error('Search error:', error);
+                    }
+                }, 300);
+            });
+            
+            input.addEventListener('focus', function() {
+                if (this.value.trim()) {
+                    suggestions.classList.add('visible');
+                }
+            });
+            
+            input.addEventListener('blur', function() {
+                setTimeout(() => {
+                    suggestions.classList.remove('visible');
+                }, 200);
+            });
+        }
+        
+        // Initialize the app
+        function initApp() {
+            initMap();
+            
+            // Setup search inputs
+            setupSearchInput(
+                'origin', 
+                'origin-suggestions', 
+                (coords) => setOrigin(coords, document.getElementById('origin').value),
+                (text) => state.originText = text
+            );
+            
+            setupSearchInput(
+                'destination', 
+                'destination-suggestions', 
+                (coords) => setDestination(coords, document.getElementById('destination').value),
+                (text) => state.destinationText = text
+            );
+            
+            // Setup departure time input
+            const timeInput = document.getElementById('departure-time');
+            timeInput.addEventListener('change', function() {
+                state.departureTime = this.value;
+            });
+            
+            // Setup search button
+            document.getElementById('search-button').addEventListener('click', processRouting);
+        }
+        
+        // Start the app when DOM is loaded
+        document.addEventListener('DOMContentLoaded', initApp);
+    </script>
+</body>
+</html>
