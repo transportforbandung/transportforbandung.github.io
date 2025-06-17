@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6058121,
+          -6.9276265
+        ]
+      },
+      "properties": {
+        "id": 3374033509,
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Terminal Abdul Muis/Kebon Kalapa",
+        "public_transport": "stop_position",
+        "source": "TfB_UPIYM_2025"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6314578,
+          -7.0103989
+        ]
+      },
+      "properties": {
+        "id": 12919609040,
+        "bus": "yes",
+        "name": "Kompleks Wartawan",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
+}
