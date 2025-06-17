@@ -55,8 +55,8 @@
             -6.9001394
           ],
           [
-            107.612514,
-            -6.9002016
+            107.6125222,
+            -6.9002051
           ]
         ]
       },
@@ -79,8 +79,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.612608,
-            -6.9002447
+            107.6125952,
+            -6.9002401
           ],
           [
             107.6127382,
@@ -501,7 +501,9 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Cikapayang",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -935,12 +937,15 @@
         "id": 153340105,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "no",
+        "parking:both": "no",
         "sidewalk": "both",
+        "smoothness": "good",
         "surface": "asphalt"
       }
     },
@@ -998,6 +1003,7 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Siliwangi",
+        "parking:both": "no",
         "source": "S2City_POI_2022",
         "surface": "asphalt"
       }
@@ -1376,9 +1382,11 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
         "ref": "381",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -1451,12 +1459,16 @@
       },
       "properties": {
         "id": 244703790,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -1504,7 +1516,9 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Cikapayang",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -1652,10 +1666,6 @@
             -6.9012929
           ],
           [
-            107.6180975,
-            -6.9012895
-          ],
-          [
             107.618155,
             -6.9012865
           ],
@@ -1690,6 +1700,7 @@
         "lanes": "4",
         "name": "Jalan Diponegoro",
         "ref": "381",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -1786,9 +1797,14 @@
       "properties": {
         "id": 318054780,
         "avgspeed": "20",
+        "cycleway:both": "no",
         "highway": "primary",
+        "lanes": "2",
         "name": "Jalan Sumur Bandung",
         "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:both": "separate",
+        "smoothness": "intermediate",
         "surface": "asphalt"
       }
     },
@@ -2088,6 +2104,8 @@
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -2146,6 +2164,7 @@
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -2490,11 +2509,16 @@
       },
       "properties": {
         "id": 330592460,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2897,9 +2921,15 @@
       },
       "properties": {
         "id": 567658695,
+        "cycleway:both": "no",
         "highway": "secondary",
+        "lanes": "1",
         "name": "Jalan Sumur Bandung",
         "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -2909,12 +2939,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.612514,
-            -6.9002016
+            107.6125222,
+            -6.9002051
           ],
           [
-            107.612608,
-            -6.9002447
+            107.6125952,
+            -6.9002401
           ]
         ]
       },
@@ -2929,6 +2959,7 @@
         "name": "Jalan Sulanjana",
         "oneway": "no",
         "sidewalk": "separate",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -3312,6 +3343,7 @@
         "id": 970620695,
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
         "ref": "381",
@@ -3835,10 +3867,13 @@
       },
       "properties": {
         "id": 1218970842,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "381",
         "surface": "asphalt"
       }
@@ -3866,6 +3901,7 @@
         "id": 1219011435,
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
         "ref": "381",

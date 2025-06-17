@@ -970,7 +970,7 @@
         "id": 54851881,
         "avgspeed": "25",
         "highway": "primary",
-        "name": "Jl. Raya Majalaya - Rancekek",
+        "name": "Jalan Raya Majalaya - Rancekek",
         "source": "GPS"
       }
     },
@@ -1007,11 +1007,16 @@
       },
       "properties": {
         "id": 255641092,
+        "cycleway:both": "no",
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "motorcycle": "yes",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "sidewalk": "no",
+        "surface": "concrete"
       }
     },
     {
@@ -1106,9 +1111,11 @@
         "destination": "Cileunyi;Bandung",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "no",
         "name": "Jalan Raya Dangdeur",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "surface": "concrete"
       }
     },
     {
@@ -1412,7 +1419,7 @@
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "40",
-        "name": "Jl. Raya Majalaya - Rancekek",
+        "name": "Jalan Raya Majalaya - Rancekek",
         "source": "GPS"
       }
     },
@@ -1430,8 +1437,8 @@
             -7.0481921
           ],
           [
-            107.758357,
-            -7.0487816
+            107.7583463,
+            -7.0487829
           ],
           [
             107.758379,
@@ -1445,7 +1452,7 @@
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "40",
-        "name": "Jl. Raya Majalaya - Rancaekek",
+        "name": "Jalan Raya Majalaya - Rancekek",
         "source": "GPS"
       }
     },
@@ -1475,9 +1482,11 @@
         "highway": "trunk",
         "lanes": "3",
         "layer": "1",
+        "lit": "no",
         "name": "Jalan Raya Dangdeur",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "surface": "concrete"
       }
     },
     {
@@ -1502,7 +1511,8 @@
         "lanes": "3",
         "name": "Jalan Raya Dangdeur",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "surface": "concrete"
       }
     },
     {
@@ -1527,9 +1537,11 @@
         "highway": "trunk",
         "lanes": "3",
         "layer": "1",
+        "lit": "yes",
         "name": "Jalan Raya Cipacing",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "surface": "concrete"
       }
     },
     {
@@ -1628,9 +1640,12 @@
         "destination": "Cileunyi;Bandung",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Raya Cipacing",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "sidewalk": "left",
+        "surface": "concrete"
       }
     },
     {
@@ -1652,7 +1667,7 @@
         "id": 561407500,
         "avgspeed": "25",
         "highway": "primary",
-        "name": "Jalan Rancaekek Majalaya"
+        "name": "Jalan Raya Majalaya - Rancekek"
       }
     },
     {
@@ -1665,8 +1680,8 @@
             -6.9965273
           ],
           [
-            107.7477063,
-            -6.9966206
+            107.747689,
+            -6.9966176
           ],
           [
             107.7476902,
@@ -1758,7 +1773,7 @@
         "id": 561407501,
         "avgspeed": "25",
         "highway": "primary",
-        "name": "Jl. Raya Majalaya - Rancekek"
+        "name": "Jalan Raya Majalaya - Rancekek"
       }
     },
     {
@@ -1880,7 +1895,7 @@
         "bridge": "yes",
         "highway": "primary",
         "layer": "1",
-        "name": "Jalan Rancaekek Majalaya"
+        "name": "Jalan Raya Majalaya - Rancekek"
       }
     },
     {
@@ -1917,7 +1932,8 @@
         "lanes": "3",
         "name": "Jalan Raya Cipacing",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "surface": "concrete"
       }
     },
     {
@@ -2003,11 +2019,15 @@
       },
       "properties": {
         "id": 1079472297,
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "motorcycle": "yes",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "sidewalk": "no",
+        "surface": "concrete"
       }
     },
     {
@@ -2123,9 +2143,12 @@
         "destination:ref:lanes": "4||11",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Raya Cipacing",
         "oneway": "yes",
         "ref": "13",
+        "sidewalk": "left",
+        "surface": "concrete",
         "turn:lanes": "slight_left|slight_left;through|through"
       }
     },
@@ -2183,11 +2206,15 @@
       },
       "properties": {
         "id": 1301025630,
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "motorcycle": "yes",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "sidewalk": "no",
+        "surface": "concrete"
       }
     },
     {

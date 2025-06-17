@@ -358,9 +358,12 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
         "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -734,6 +737,8 @@
         "name": "Jalan Sentot Alibasyah",
         "oneway": "yes",
         "ref": "387",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -758,11 +763,13 @@
       },
       "properties": {
         "id": 318486202,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
         "surface": "asphalt"
       }
@@ -960,11 +967,16 @@
       "properties": {
         "id": 318896299,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1118,7 +1130,7 @@
           ],
           [
             107.6443899,
-            -6.9243229
+            -6.9243224
           ],
           [
             107.6443872,
@@ -1225,13 +1237,16 @@
       },
       "properties": {
         "id": 321085761,
+        "cycleway:both": "no",
         "destination:lanes": "Riau;Aceh;Gandapura|Cilaki;Katamso;Cisadea",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
+        "sidewalk": "both",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_right"
       }
@@ -1366,6 +1381,10 @@
             -6.9065566
           ],
           [
+            107.6296635,
+            -6.9062831
+          ],
+          [
             107.628346,
             -6.9042755
           ],
@@ -1417,12 +1436,17 @@
       },
       "properties": {
         "id": 330635688,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1510,6 +1534,8 @@
         "name": "Jalan Sentot Alibasyah",
         "oneway": "yes",
         "ref": "387",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1548,6 +1574,8 @@
         "name": "Jalan Sentot Alibasyah",
         "oneway": "yes",
         "ref": "387",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1859,12 +1887,14 @@
       },
       "properties": {
         "id": 618039504,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
         "oneway": "yes",
         "ref": "380",
+        "smoothness": "good",
         "surface": "asphalt"
       }
     },
@@ -2774,6 +2804,7 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
         "ref": "381",
@@ -2894,6 +2925,10 @@
           [
             107.6534527,
             -6.9556096
+          ],
+          [
+            107.6538045,
+            -6.9556537
           ],
           [
             107.6541837,
@@ -3201,6 +3236,8 @@
         "name": "Jalan Sentot Alibasyah",
         "oneway": "yes",
         "ref": "387",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -3274,6 +3311,7 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
         "ref": "381",
@@ -3543,10 +3581,13 @@
       },
       "properties": {
         "id": 1218970842,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "381",
         "surface": "asphalt"
       }

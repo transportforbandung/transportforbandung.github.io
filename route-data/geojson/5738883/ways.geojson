@@ -843,7 +843,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
-        "ref": "161"
+        "ref": "161",
+        "surface": "asphalt"
       }
     },
     {
@@ -939,13 +940,16 @@
       },
       "properties": {
         "id": 318899775,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
         "lanes:forward": "2",
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
-        "ref": "161"
+        "ref": "161",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -1051,6 +1055,7 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
@@ -1186,10 +1191,14 @@
       },
       "properties": {
         "id": 340405402,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "4",
+        "lit": "no",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt"
       }
     },
@@ -1302,140 +1311,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6265341,
-            -7.0083054
+            107.6314578,
+            -7.0103989
           ],
           [
-            107.6265732,
-            -7.0083131
-          ],
-          [
-            107.6266395,
-            -7.0083377
-          ],
-          [
-            107.6267629,
-            -7.0083834
-          ],
-          [
-            107.6267716,
-            -7.0083869
-          ],
-          [
-            107.6268159,
-            -7.0084045
-          ],
-          [
-            107.6269274,
-            -7.008449
-          ],
-          [
-            107.6269392,
-            -7.0084536
-          ],
-          [
-            107.6270662,
-            -7.0085079
-          ],
-          [
-            107.6271074,
-            -7.0085313
-          ],
-          [
-            107.6273132,
-            -7.0086343
-          ],
-          [
-            107.6275639,
-            -7.0087097
-          ],
-          [
-            107.6277083,
-            -7.0087696
-          ],
-          [
-            107.6278518,
-            -7.0088321
-          ],
-          [
-            107.6279899,
-            -7.0089
-          ],
-          [
-            107.6281189,
-            -7.0089812
-          ],
-          [
-            107.628281,
-            -7.0091183
-          ],
-          [
-            107.6284029,
-            -7.009267
-          ],
-          [
-            107.628449,
-            -7.0093428
-          ],
-          [
-            107.6285277,
-            -7.0094218
-          ],
-          [
-            107.6286132,
-            -7.0094829
-          ],
-          [
-            107.6286846,
-            -7.0095279
-          ],
-          [
-            107.6288724,
-            -7.0096241
-          ],
-          [
-            107.6291008,
-            -7.0097178
-          ],
-          [
-            107.6292778,
-            -7.009758
-          ],
-          [
-            107.6293216,
-            -7.0097747
-          ],
-          [
-            107.6293687,
-            -7.009789
-          ],
-          [
-            107.6296339,
-            -7.0098637
-          ],
-          [
-            107.6298013,
-            -7.0099124
-          ],
-          [
-            107.6300985,
-            -7.0099914
-          ],
-          [
-            107.6304517,
-            -7.0100766
-          ],
-          [
-            107.6309114,
-            -7.0101975
-          ],
-          [
-            107.6314032,
-            -7.0103569
-          ],
-          [
-            107.631542,
-            -7.0104049
+            107.6315366,
+            -7.0104262
           ],
           [
             107.6318464,
@@ -2003,12 +1884,16 @@
       "properties": {
         "id": 556619988,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "161",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2654,9 +2539,12 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
-        "ref": "161"
+        "ref": "161",
+        "sidewalk": "left",
+        "surface": "asphalt"
       }
     },
     {
@@ -2695,6 +2583,7 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161"
@@ -3126,6 +3015,7 @@
       },
       "properties": {
         "id": 859329415,
+        "cycleway:both": "no",
         "destination:backward": "Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot",
         "destination:lanes:forward": "Kurdi;Tegallega;Lingkar Selatan;Inggit Ganarsih|Batununggal;Buahbatu;Kiaracondong;Cibiru",
         "destination:ref:lanes:forward": "161|11",
@@ -3136,6 +3026,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "surface": "asphalt",
         "turn:lanes:forward": "through|right"
       }
     },
@@ -3172,13 +3063,16 @@
       },
       "properties": {
         "id": 859329416,
+        "cycleway:both": "no",
         "destination:lanes:forward": "Inhoftank;Cibaduyut;Leuwipanjang;Kopo|Batununggal;Buahbatu;Kiaracondong;Cibiru",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
         "lanes:forward": "2",
+        "lit": "no",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "sidewalk": "no",
         "surface": "asphalt",
         "turn:lanes:forward": "slight_left;through|through;right"
       }
@@ -3506,6 +3400,7 @@
       },
       "properties": {
         "id": 1079472294,
+        "cycleway:both": "no",
         "destination:backward": "Inhoftank;Cibaduyut;Leuwipanjang;Kopo|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot",
         "destination:forward": "Kurdi;Tegallega;Lingkar Selatan;Inggit Ganarsih",
         "destination:ref:lanes:backward": "11|161;4;;|161;4;;",
@@ -3516,6 +3411,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "surface": "asphalt",
         "turn:lanes:backward": "through|through|right"
       }
     },
@@ -3539,6 +3435,7 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
@@ -3905,12 +3802,19 @@
       "properties": {
         "id": 1212464431,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
         "lanes:forward": "2",
         "name": "Jalan Mohammad Toha",
-        "ref": "161"
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "ref": "161",
+        "sidewalk:both": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt"
       }
     },
     {
@@ -4030,6 +3934,7 @@
       },
       "properties": {
         "id": 1234195272,
+        "cycleway:both": "no",
         "destination:lanes:backward": "Batununggal;Buahbatu;Kiaracondong;Cibiru|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot|Inhoftank;Cibaduyut;Leuwipanjang;Kopo",
         "destination:ref:lanes:backward": "11|161;4;;|11",
         "highway": "primary",
@@ -4038,7 +3943,9 @@
         "lanes:forward": "2",
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
-        "ref": "161"
+        "ref": "161",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -4069,6 +3976,7 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
@@ -4220,6 +4128,154 @@
         "lanes": "2",
         "name": "Jalan Raya Laswi",
         "ref": "365"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6265341,
+            -7.0083054
+          ],
+          [
+            107.6265755,
+            -7.0083177
+          ],
+          [
+            107.6266395,
+            -7.0083377
+          ],
+          [
+            107.6267629,
+            -7.0083834
+          ],
+          [
+            107.6267716,
+            -7.0083869
+          ],
+          [
+            107.6268159,
+            -7.0084045
+          ],
+          [
+            107.6269274,
+            -7.008449
+          ],
+          [
+            107.6269392,
+            -7.0084536
+          ],
+          [
+            107.6270662,
+            -7.0085079
+          ],
+          [
+            107.6271074,
+            -7.0085313
+          ],
+          [
+            107.6273132,
+            -7.0086343
+          ],
+          [
+            107.6275639,
+            -7.0087097
+          ],
+          [
+            107.6277083,
+            -7.0087696
+          ],
+          [
+            107.6278518,
+            -7.0088321
+          ],
+          [
+            107.6279899,
+            -7.0089
+          ],
+          [
+            107.6281189,
+            -7.0089812
+          ],
+          [
+            107.628281,
+            -7.0091183
+          ],
+          [
+            107.6284029,
+            -7.009267
+          ],
+          [
+            107.628449,
+            -7.0093428
+          ],
+          [
+            107.6285277,
+            -7.0094218
+          ],
+          [
+            107.6286132,
+            -7.0094829
+          ],
+          [
+            107.6286846,
+            -7.0095279
+          ],
+          [
+            107.6288724,
+            -7.0096241
+          ],
+          [
+            107.6291008,
+            -7.0097178
+          ],
+          [
+            107.6292778,
+            -7.009758
+          ],
+          [
+            107.6293216,
+            -7.0097747
+          ],
+          [
+            107.6293687,
+            -7.009789
+          ],
+          [
+            107.6296339,
+            -7.0098637
+          ],
+          [
+            107.6298013,
+            -7.0099124
+          ],
+          [
+            107.6300985,
+            -7.0099914
+          ],
+          [
+            107.6304517,
+            -7.0100766
+          ],
+          [
+            107.6309094,
+            -7.0102136
+          ],
+          [
+            107.6313791,
+            -7.0103715
+          ],
+          [
+            107.6314578,
+            -7.0103989
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1395765437,
+        "highway": "secondary"
       }
     }
   ]

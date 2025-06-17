@@ -19,8 +19,8 @@
             -6.9058357
           ],
           [
-            107.5976257,
-            -6.9062191
+            107.5976349,
+            -6.9062206
           ],
           [
             107.5976387,
@@ -295,7 +295,7 @@
       "properties": {
         "id": 4625281,
         "avgspeed": "20",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "name": "Jalan Ciroyom",
         "oneway": "yes"
       }
@@ -1003,6 +1003,7 @@
         "alt_name": "Jalan Pasteur",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "official_name": "Jalan Pasteur",
@@ -1208,8 +1209,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5974091,
-            -6.8987152
+            107.5974,
+            -6.8987139
           ],
           [
             107.5974075,
@@ -1533,6 +1534,7 @@
         "alt_name": "Jalan Pasteur",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "official_name": "Jalan Pasteur",
@@ -1574,6 +1576,7 @@
         "alt_name": "Jalan Pasteur",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "official_name": "Jalan Pasteur",
@@ -1644,41 +1647,47 @@
             -6.9007808
           ],
           [
-            107.5974701,
+            107.5974649,
             -6.9013037
           ],
           [
-            107.5974838,
-            -6.901647
-          ],
-          [
-            107.5974965,
+            107.5974913,
             -6.9019914
           ],
           [
-            107.5975585,
-            -6.9033158
+            107.5975373,
+            -6.9033184
           ],
           [
-            107.5975527,
-            -6.9033547
+            107.5975385,
+            -6.9033942
           ],
           [
-            107.5975316,
-            -6.9034975
+            107.5975276,
+            -6.9034547
+          ],
+          [
+            107.5975116,
+            -6.9035067
           ]
         ]
       },
       "properties": {
         "id": 318478988,
         "alt_name": "Jalan HOS. Tjokroaminoto",
+        "cycleway:both": "no",
         "destination": "Padjadjaran;Husein Sastranegara;Cicendo",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "loc_name": "Jalan Pasir Kaliki",
         "maxspeed:type": "ID:urban",
         "name": "Jalan HOS. Cokroaminoto",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -1710,6 +1719,7 @@
         "alt_name": "Jalan Pasteur",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "official_name": "Jalan Pasteur",
@@ -1732,44 +1742,44 @@
             -6.900404
           ],
           [
-            107.5976542,
-            -6.9004105
+            107.5976493,
+            -6.9004086
           ],
           [
-            107.597631,
-            -6.9004212
+            107.5976271,
+            -6.9004144
           ],
           [
-            107.5976109,
-            -6.9004332
+            107.597606,
+            -6.9004235
           ],
           [
-            107.597595,
-            -6.9004475
+            107.5975891,
+            -6.9004348
           ],
           [
-            107.5975757,
-            -6.9004675
+            107.5975669,
+            -6.9004529
           ],
           [
-            107.5975596,
-            -6.9004868
+            107.5975478,
+            -6.9004761
           ],
           [
-            107.5975415,
-            -6.9005127
+            107.5975307,
+            -6.9005049
           ],
           [
-            107.5975187,
-            -6.9005453
+            107.5975109,
+            -6.9005434
           ],
           [
-            107.5975004,
-            -6.9005753
+            107.5974955,
+            -6.9005724
           ],
           [
-            107.5974798,
-            -6.9006126
+            107.5974759,
+            -6.9006116
           ],
           [
             107.5974523,
@@ -1893,7 +1903,7 @@
       "properties": {
         "id": 318891922,
         "avgspeed": "20",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "name": "Jalan Ciroyom"
       }
     },
@@ -2061,7 +2071,7 @@
           ],
           [
             107.5975537,
-            -6.9049318
+            -6.9049333
           ]
         ]
       },
@@ -2152,6 +2162,7 @@
         "alt_name": "Jalan Pasteur",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "note": "Oneway looks temporary, if this changes please change the oneway tag.",
@@ -2186,6 +2197,7 @@
         "foot": "yes",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "official_name": "Jalan Pasteur",
@@ -2425,7 +2437,7 @@
       "properties": {
         "id": 555629087,
         "avgspeed": "15",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "name": "Jalan Arjuna",
         "oneway": "yes"
       }
@@ -2732,19 +2744,19 @@
         "coordinates": [
           [
             107.5975537,
-            -6.9049318
+            -6.9049333
           ],
           [
-            107.597551,
+            107.5975448,
             -6.904529
           ],
           [
-            107.5975498,
+            107.5975406,
             -6.9043005
           ],
           [
-            107.5975482,
-            -6.9039909
+            107.5975343,
+            -6.9039924
           ]
         ]
       },
@@ -2762,6 +2774,7 @@
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt",
         "turn:lanes:forward": "through|through;right"
       }
@@ -2949,6 +2962,10 @@
             -6.8968394
           ],
           [
+            107.5973563,
+            -6.8969183
+          ],
+          [
             107.5973743,
             -6.8978579
           ],
@@ -2957,20 +2974,20 @@
             -6.8980113
           ],
           [
-            107.5973907,
-            -6.8982584
+            107.5973829,
+            -6.8982378
           ],
           [
-            107.5973964,
-            -6.898353
+            107.5973873,
+            -6.8983517
           ],
           [
-            107.5974078,
+            107.5973974,
             -6.8986245
           ],
           [
-            107.5974091,
-            -6.8987152
+            107.5974,
+            -6.8987139
           ]
         ]
       },
@@ -3266,12 +3283,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5975482,
-            -6.9039909
+            107.5975343,
+            -6.9039924
           ],
           [
-            107.5975316,
-            -6.9034975
+            107.5975116,
+            -6.9035067
           ]
         ]
       },
@@ -3280,16 +3297,21 @@
         "alt_name": "Jalan HOS. Tjokroaminoto",
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "destination:backward": "Padjadjaran;Husein Sastranegara;Cicendo",
         "destination:forward": "Pasteur;RSHS;Sukajadi;Djundjunan",
         "destination:lanes:backward": "Otten;Nijland;Curie;Abdul Rivai|Padjadjaran;Cicendo;Andir",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "loc_name": "Jalan Pasir Kaliki",
         "maxspeed:type": "ID:urban",
         "name": "Jalan HOS. Cokroaminoto",
         "oneway": "no",
+        "parking:both": "on_kerb",
+        "parking:both:orientation": "perpendicular",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -3313,6 +3335,7 @@
         "alt_name": "Jalan Pasteur",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "official_name": "Jalan Pasteur",
@@ -3343,6 +3366,7 @@
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "official_name": "Jalan Pasteur",
@@ -3371,6 +3395,7 @@
         "alt_name": "Jalan Pasteur",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "official_name": "Jalan Pasteur",
@@ -3401,6 +3426,7 @@
         "foot": "yes",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "official_name": "Jalan Pasteur",
@@ -3637,7 +3663,7 @@
       },
       "properties": {
         "id": 1242500614,
-        "highway": "unclassified",
+        "highway": "tertiary",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3760,7 +3786,7 @@
       },
       "properties": {
         "id": 1330455094,
-        "highway": "unclassified",
+        "highway": "tertiary",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3782,7 +3808,7 @@
       },
       "properties": {
         "id": 1330455095,
-        "highway": "unclassified",
+        "highway": "tertiary",
         "oneway": "yes",
         "surface": "concrete"
       }

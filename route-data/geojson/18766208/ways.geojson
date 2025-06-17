@@ -11,8 +11,16 @@
             -6.9072201
           ],
           [
-            107.6044529,
-            -6.9075468
+            107.6044521,
+            -6.9072879
+          ],
+          [
+            107.604458,
+            -6.9073889
+          ],
+          [
+            107.6044661,
+            -6.9077123
           ],
           [
             107.6044705,
@@ -40,47 +48,55 @@
           ],
           [
             107.6043042,
-            -6.9094556
+            -6.9094657
           ],
           [
-            107.60428,
+            107.6042851,
             -6.9095101
           ],
           [
-            107.6042537,
-            -6.9095705
+            107.6042598,
+            -6.9095715
           ],
           [
-            107.6042108,
-            -6.9096813
+            107.6042199,
+            -6.9096823
           ],
           [
             107.6041664,
             -6.9098645
           ],
           [
-            107.6041381,
+            107.60413,
             -6.9100304
           ],
           [
-            107.6041233,
+            107.6041131,
             -6.910177
           ],
           [
-            107.6041021,
-            -6.9104022
+            107.604095,
+            -6.9104032
           ],
           [
-            107.6040857,
-            -6.9106877
+            107.6040749,
+            -6.9106747
           ],
           [
-            107.6040756,
-            -6.9108629
+            107.6040736,
+            -6.9106984
           ],
           [
-            107.6040107,
-            -6.9119067
+            107.6040635,
+            -6.9108642
+          ],
+          [
+            107.6040608,
+            -6.9109088
+          ],
+          [
+            107.6039986,
+            -6.911908
           ],
           [
             107.6039615,
@@ -263,6 +279,7 @@
         "lanes": "3",
         "name": "Jalan Cihampelas",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "smoothness": "intermediate",
         "source": "S2City_POI_2022",
         "surface": "asphalt",
@@ -525,6 +542,8 @@
         "lanes": "3",
         "name": "Jalan Stasiun Timur",
         "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },
@@ -783,7 +802,8 @@
         "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Mohammad Toha",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -919,16 +939,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6088785,
-            -6.9103019
+            107.6088855,
+            -6.9102984
           ],
           [
             107.6088445,
             -6.9102299
           ],
           [
-            107.6087817,
-            -6.9101077
+            107.6087639,
+            -6.910086
           ],
           [
             107.608484,
@@ -952,6 +972,7 @@
         "name": "Jalan Wastukencana",
         "oneway": "no",
         "sidewalk": "separate",
+        "smoothness": "intermediate",
         "surface": "asphalt"
       }
     },
@@ -1211,6 +1232,8 @@
         "official_name": "Jalan Abdul Rivai",
         "oneway": "yes",
         "short_name": "Jalan Dr. Abdul Rivai",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1674,24 +1697,20 @@
             -6.9065641
           ],
           [
-            107.5979724,
-            -6.9065929
+            107.5979786,
+            -6.9065883
           ],
           [
-            107.5982086,
-            -6.9066577
+            107.5982101,
+            -6.9066424
           ],
           [
-            107.5983319,
-            -6.9066735
+            107.5983334,
+            -6.9066643
           ],
           [
-            107.5988139,
-            -6.9067333
-          ],
-          [
-            107.598834,
-            -6.9067352
+            107.5987941,
+            -6.906746
           ]
         ]
       },
@@ -1802,6 +1821,8 @@
         "official_name": "Jalan Abdul Rivai",
         "oneway": "yes",
         "short_name": "Jalan Dr. Abdul Rivai",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "smoothness": "intermediate",
         "source": "S2City_POI_2022",
         "surface": "asphalt",
@@ -2052,12 +2073,12 @@
             -6.9073749
           ],
           [
-            107.5976491,
-            -6.9072078
+            107.5976476,
+            -6.9072399
           ],
           [
-            107.5976499,
-            -6.9070355
+            107.5976545,
+            -6.9071624
           ],
           [
             107.5976396,
@@ -2155,6 +2176,8 @@
         "motor_vehicle": "yes",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2265,7 +2288,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
-        "ref": "161"
+        "ref": "161",
+        "surface": "asphalt"
       }
     },
     {
@@ -2361,13 +2385,16 @@
       },
       "properties": {
         "id": 318899775,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
         "lanes:forward": "2",
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
-        "ref": "161"
+        "ref": "161",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -2400,8 +2427,12 @@
             -6.9070909
           ],
           [
-            107.6042739,
-            -6.9071474
+            107.6042719,
+            -6.9071615
+          ],
+          [
+            107.6043341,
+            -6.9071602
           ],
           [
             107.6043882,
@@ -2420,6 +2451,7 @@
         "name": "Jalan Pajajaran",
         "oneway": "yes",
         "ref": "371",
+        "surface": "asphalt",
         "turn:lanes": "left|left;right|right"
       }
     },
@@ -2610,7 +2642,8 @@
         "lanes": "2",
         "name": "Jalan Banceuy",
         "oneway": "yes",
-        "sidewalk": "separate"
+        "sidewalk": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -2750,6 +2783,8 @@
         "lanes": "2",
         "name": "Jalan Cihampelas",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "left|"
       }
@@ -2768,32 +2803,32 @@
             -6.9114098
           ],
           [
-            107.5978317,
-            -6.9099424
+            107.5978086,
+            -6.909947
           ],
           [
-            107.5978292,
-            -6.9098535
+            107.5978015,
+            -6.9098566
           ],
           [
-            107.5978012,
-            -6.909452
+            107.5977774,
+            -6.9094546
           ],
           [
-            107.5977548,
-            -6.9089032
+            107.5977427,
+            -6.9089045
           ],
           [
-            107.5976971,
-            -6.9081996
+            107.5976909,
+            -6.9082042
           ],
           [
-            107.5976895,
-            -6.9081074
+            107.5976849,
+            -6.9081059
           ],
           [
-            107.5976818,
-            -6.9080152
+            107.5976772,
+            -6.9080121
           ],
           [
             107.5976288,
@@ -3256,8 +3291,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6336213,
-            -6.982891
+            107.633615,
+            -6.9828912
           ],
           [
             107.633572,
@@ -3453,12 +3488,16 @@
       "properties": {
         "id": 556619988,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "161",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -3520,8 +3559,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6336213,
-            -6.982891
+            107.633615,
+            -6.9828912
           ],
           [
             107.6335984,
@@ -3633,6 +3672,7 @@
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
+        "sidewalk:left": "separate",
         "surface": "asphalt"
       }
     },
@@ -3697,6 +3737,7 @@
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
+        "sidewalk:left": "separate",
         "surface": "asphalt"
       }
     },
@@ -3710,16 +3751,16 @@
             -6.9125447
           ],
           [
-            107.6039141,
-            -6.912591
+            107.6039118,
+            -6.9126003
           ],
           [
-            107.6038637,
-            -6.912628
+            107.6038567,
+            -6.9126442
           ],
           [
-            107.6038068,
-            -6.9126542
+            107.6037823,
+            -6.9126588
           ]
         ]
       },
@@ -3812,12 +3853,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.598834,
-            -6.9067352
+            107.5987941,
+            -6.906746
           ],
           [
-            107.5992128,
-            -6.9067863
+            107.5992067,
+            -6.9068065
           ],
           [
             107.599567,
@@ -4094,8 +4135,8 @@
             -6.9105515
           ],
           [
-            107.6088785,
-            -6.9103019
+            107.6088855,
+            -6.9102984
           ]
         ]
       },
@@ -4381,6 +4422,7 @@
       },
       "properties": {
         "id": 1079472294,
+        "cycleway:both": "no",
         "destination:backward": "Inhoftank;Cibaduyut;Leuwipanjang;Kopo|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot",
         "destination:forward": "Kurdi;Tegallega;Lingkar Selatan;Inggit Ganarsih",
         "destination:ref:lanes:backward": "11|161;4;;|161;4;;",
@@ -4391,6 +4433,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "surface": "asphalt",
         "turn:lanes:backward": "through|through|right"
       }
     },
@@ -4564,6 +4607,10 @@
           [
             107.6359274,
             -6.9737582
+          ],
+          [
+            107.6357541,
+            -6.9743918
           ],
           [
             107.6356773,
@@ -4746,8 +4793,8 @@
             -6.9820795
           ],
           [
-            107.6337877,
-            -6.9822572
+            107.6337834,
+            -6.9822627
           ]
         ]
       },
@@ -4967,16 +5014,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6038068,
-            -6.9126542
+            107.6037823,
+            -6.9126588
           ],
           [
             107.6036069,
-            -6.9126386
+            -6.9126444
           ],
           [
-            107.6032421,
-            -6.9126106
+            107.6032433,
+            -6.9126176
           ],
           [
             107.6029824,
@@ -5398,12 +5445,19 @@
       "properties": {
         "id": 1212464431,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
         "lanes:forward": "2",
         "name": "Jalan Mohammad Toha",
-        "ref": "161"
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "ref": "161",
+        "sidewalk:both": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt"
       }
     },
     {
@@ -5757,6 +5811,7 @@
       },
       "properties": {
         "id": 1234195272,
+        "cycleway:both": "no",
         "destination:lanes:backward": "Batununggal;Buahbatu;Kiaracondong;Cibiru|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot|Inhoftank;Cibaduyut;Leuwipanjang;Kopo",
         "destination:ref:lanes:backward": "11|161;4;;|11",
         "highway": "primary",
@@ -5765,7 +5820,9 @@
         "lanes:forward": "2",
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
-        "ref": "161"
+        "ref": "161",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -6077,8 +6134,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6337877,
-            -6.9822572
+            107.6337834,
+            -6.9822627
           ],
           [
             107.6336032,

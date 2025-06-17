@@ -302,6 +302,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -2515,6 +2516,7 @@
         "cycleway:right:lane": "advisory",
         "highway": "residential",
         "name": "Jalan Penata Yudha",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -3362,15 +3364,20 @@
           ],
           [
             107.6144033,
-            -6.8948278
+            -6.8948409
           ]
         ]
       },
       "properties": {
         "id": 1222381629,
         "avgspeed": "20",
+        "cycleway:both": "no",
         "highway": "tertiary",
+        "lane_markings": "no",
         "name": "Jalan Hasanudin",
+        "parking:left": "no",
+        "parking:right": "half_on_kerb",
+        "parking:right:orientation": "parallel",
         "surface": "asphalt"
       }
     },
@@ -3449,6 +3456,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -3473,6 +3481,7 @@
         "cycleway:right": "lane",
         "cycleway:right:lane": "advisory",
         "highway": "residential",
+        "lanes": "2",
         "name": "Jalan Penata Yudha",
         "surface": "asphalt"
       }
@@ -3768,6 +3777,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },

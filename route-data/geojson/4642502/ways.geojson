@@ -662,6 +662,14 @@
             -6.9092241
           ],
           [
+            107.628258,
+            -6.908846
+          ],
+          [
+            107.6282951,
+            -6.908808
+          ],
+          [
             107.6283467,
             -6.9087552
           ],
@@ -685,6 +693,7 @@
       },
       "properties": {
         "id": 174303684,
+        "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "2",
         "lanes:backward": "1",
@@ -1249,7 +1258,7 @@
             -6.9069963
           ],
           [
-            107.6106152,
+            107.6106132,
             -6.9069907
           ]
         ]
@@ -1488,16 +1497,16 @@
             -6.906873
           ],
           [
-            107.6103621,
-            -6.9069583
+            107.6103896,
+            -6.9069656
           ],
           [
             107.6104091,
             -6.9069683
           ],
           [
-            107.6105477,
-            -6.9069871
+            107.6105447,
+            -6.9069881
           ]
         ]
       },
@@ -2171,12 +2180,15 @@
       },
       "properties": {
         "id": 319178849,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -2500,6 +2512,7 @@
         "lanes": "4",
         "name": "Jalan Cihampelas",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "smoothness": "intermediate",
         "source": "S2City_POI_2022",
         "surface": "asphalt",
@@ -3448,12 +3461,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6106152,
+            107.6106132,
             -6.9069907
           ],
           [
-            107.6105477,
-            -6.9069871
+            107.6105447,
+            -6.9069881
           ]
         ]
       },
@@ -3465,6 +3478,7 @@
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
         "sidewalk": "separate",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },

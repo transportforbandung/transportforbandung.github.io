@@ -109,6 +109,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "3",
+        "lit": "no",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -117,6 +118,7 @@
         "ref": "4",
         "short_name": "Jalan Tol Padaleunyi",
         "source": "Yahoo hires",
+        "surface": "asphalt",
         "toll": "yes"
       }
     },
@@ -142,6 +144,7 @@
         "highway": "motorway",
         "lanes": "3",
         "layer": "1",
+        "lit": "no",
         "maxspeed": "80",
         "name": "Jalan Tol Padalarang–Cileunyi",
         "oneway": "yes",
@@ -174,6 +177,7 @@
         "highway": "motorway",
         "lanes": "2",
         "layer": "1",
+        "lit": "no",
         "maxspeed": "80",
         "name": "Jalan Tol Padalarang–Cileunyi",
         "oneway": "yes",
@@ -269,6 +273,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "2",
+        "lit": "no",
         "maxspeed": "80",
         "name": "Jalan Tol Padalarang–Cileunyi",
         "oneway": "yes",
@@ -357,6 +362,7 @@
         "avgspeed": "70",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "maxspeed": "80",
         "name": "Jalan Sindangsari",
         "oneway": "yes",
@@ -445,6 +451,8 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "2",
+        "lit": "no",
+        "maxheight": "4.2",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -453,6 +461,7 @@
         "ref": "4",
         "short_name": "Jalan Tol Padaleunyi",
         "source": "Yahoo hires",
+        "surface": "asphalt",
         "toll": "yes"
       }
     },
@@ -478,6 +487,7 @@
         "highway": "motorway",
         "lanes": "2",
         "layer": "1",
+        "lit": "no",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -486,6 +496,7 @@
         "ref": "4",
         "short_name": "Jalan Tol Padaleunyi",
         "source": "Yahoo hires",
+        "surface": "concrete",
         "toll": "yes"
       }
     },
@@ -577,6 +588,8 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "2",
+        "lit": "no",
+        "maxheight": "4.2",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -614,6 +627,7 @@
         "highway": "motorway",
         "lanes": "3",
         "layer": "1",
+        "lit": "no",
         "maxspeed": "80",
         "name": "Jalan Tol Padalarang–Cileunyi",
         "oneway": "yes",
@@ -621,6 +635,7 @@
         "ref": "4",
         "short_name": "Jalan Tol Padaleunyi",
         "source": "Yahoo hires",
+        "surface": "asphalt",
         "toll": "yes"
       }
     },
@@ -646,6 +661,7 @@
         "highway": "motorway",
         "lanes": "2",
         "layer": "1",
+        "lit": "no",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -654,6 +670,7 @@
         "ref": "4",
         "short_name": "Jalan Tol Padaleunyi",
         "source": "Yahoo hires",
+        "surface": "asphalt",
         "toll": "yes"
       }
     },
@@ -679,6 +696,7 @@
         "highway": "motorway",
         "lanes": "2",
         "layer": "1",
+        "lit": "no",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -687,6 +705,7 @@
         "ref": "4",
         "short_name": "Jalan Tol Padaleunyi",
         "source": "Yahoo hires",
+        "surface": "asphalt",
         "toll": "yes"
       }
     },
@@ -714,6 +733,8 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "2",
+        "lit": "no",
+        "maxheight": "4.2",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -748,6 +769,7 @@
         "highway": "motorway",
         "lanes": "2",
         "layer": "1",
+        "lit": "no",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -783,6 +805,7 @@
         "destination:ref:lanes": "136|4;1|4;1",
         "highway": "motorway",
         "lanes": "3",
+        "lit": "no",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -791,6 +814,7 @@
         "ref": "4",
         "short_name": "Jalan Tol Padaleunyi",
         "source": "Yahoo hires",
+        "surface": "asphalt",
         "toll": "yes"
       }
     },
@@ -846,6 +870,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "2",
+        "lit": "no",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -904,8 +929,10 @@
       "properties": {
         "id": 183178887,
         "highway": "trunk",
+        "lit": "no",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "sidewalk": "right"
       }
     },
     {
@@ -939,6 +966,7 @@
         "ref": "4",
         "short_name": "Jalan Tol Padaleunyi",
         "source": "Yahoo hires",
+        "surface": "asphalt",
         "toll": "yes"
       }
     },
@@ -972,6 +1000,8 @@
         "destination:ref:lanes": "136|4;1|4;1",
         "highway": "motorway",
         "lanes": "3",
+        "lit": "yes",
+        "maxheight": "4.2",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -980,6 +1010,7 @@
         "ref": "4",
         "short_name": "Jalan Tol Padaleunyi",
         "source": "Yahoo hires",
+        "surface": "asphalt",
         "toll": "yes"
       }
     },
@@ -1004,6 +1035,7 @@
         "destination": "Mohammad Toha;Banjaran",
         "highway": "motorway_link",
         "lanes": "2",
+        "lit": "yes",
         "motorcycle": "no",
         "oneway": "yes",
         "toll": "yes"
@@ -1032,6 +1064,7 @@
         "highway": "motorway_link",
         "lanes": "2",
         "layer": "1",
+        "lit": "yes",
         "motorcycle": "no",
         "oneway": "yes",
         "toll": "yes"
@@ -1398,6 +1431,7 @@
       },
       "properties": {
         "id": 320628500,
+        "cycleway:both": "no",
         "destination": "Inhoftank;Cibaduyut;Leuwipanjang;Kopo",
         "destination:ref": "11",
         "highway": "trunk_link",
@@ -1621,11 +1655,16 @@
       },
       "properties": {
         "id": 330757698,
+        "cycleway:both": "no",
         "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
-        "source": "Bing"
+        "sidewalk": "left",
+        "source": "Bing",
+        "surface": "asphalt"
       }
     },
     {
@@ -1704,9 +1743,11 @@
         "destination": "Rancaekek;Garut",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Raya Cipacing",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "surface": "concrete"
       }
     },
     {
@@ -1948,12 +1989,24 @@
             -6.9335701
           ],
           [
-            107.7722781,
-            -6.9336427
+            107.7723042,
+            -6.9336259
           ],
           [
-            107.7719941,
-            -6.9337276
+            107.7721709,
+            -6.9336712
+          ],
+          [
+            107.7720967,
+            -6.9336943
+          ],
+          [
+            107.7719763,
+            -6.9337339
+          ],
+          [
+            107.7719551,
+            -6.9337409
           ],
           [
             107.7717215,
@@ -2071,11 +2124,17 @@
       },
       "properties": {
         "id": 339351211,
+        "cycleway:both": "no",
+        "foot": "yes",
         "highway": "trunk",
+        "lanes": "2",
+        "lit": "no",
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
-        "source": "Bing"
+        "sidewalk": "no",
+        "source": "Bing",
+        "surface": "asphalt"
       }
     },
     {
@@ -2139,12 +2198,18 @@
       },
       "properties": {
         "id": 339351212,
+        "cycleway:both": "no",
+        "foot": "yes",
         "highway": "trunk",
+        "lanes": "2",
+        "lit": "no",
         "motorcycle": "yes",
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
-        "source": "Bing"
+        "sidewalk": "no",
+        "source": "Bing",
+        "surface": "asphalt"
       }
     },
     {
@@ -2193,9 +2258,11 @@
       "properties": {
         "id": 340403800,
         "highway": "trunk",
+        "lit": "no",
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
+        "sidewalk": "both",
         "source": "Bing"
       }
     },
@@ -2231,6 +2298,7 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
@@ -2366,10 +2434,14 @@
       },
       "properties": {
         "id": 340405402,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "4",
+        "lit": "no",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt"
       }
     },
@@ -2419,9 +2491,11 @@
         "highway": "trunk",
         "lanes": "3",
         "layer": "1",
+        "lit": "yes",
         "name": "Jalan Raya Cipacing",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "surface": "concrete"
       }
     },
     {
@@ -2449,9 +2523,11 @@
         "highway": "trunk",
         "lanes": "3",
         "layer": "1",
+        "lit": "yes",
         "name": "Jalan Raya Cipacing",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "surface": "concrete"
       }
     },
     {
@@ -2542,9 +2618,11 @@
         "destination": "Rancaekek;Garut",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Raya Cipacing",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "surface": "concrete"
       }
     },
     {
@@ -2643,9 +2721,12 @@
         "destination": "Cileunyi;Bandung",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Raya Cipacing",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "sidewalk": "left",
+        "surface": "concrete"
       }
     },
     {
@@ -2749,12 +2830,14 @@
       },
       "properties": {
         "id": 561398083,
+        "cycleway:both": "no",
         "destination": "Simpang Inhoftank",
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "surface": "asphalt"
       }
     },
     {
@@ -2780,6 +2863,7 @@
         "highway": "motorway",
         "lanes": "3",
         "layer": "1",
+        "lit": "no",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -2788,6 +2872,7 @@
         "ref": "4",
         "short_name": "Jalan Tol Padaleunyi",
         "source": "Yahoo hires",
+        "surface": "asphalt",
         "toll": "yes"
       }
     },
@@ -2828,6 +2913,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "3",
+        "lit": "no",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -2836,6 +2922,7 @@
         "ref": "4",
         "short_name": "Jalan Tol Padaleunyi",
         "source": "Yahoo hires",
+        "surface": "asphalt",
         "toll": "yes"
       }
     },
@@ -2909,11 +2996,13 @@
         "destination:ref": "AH2",
         "highway": "motorway_link",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Simpang Susun Cileunyi",
         "oneway": "yes",
         "source": "Yahoo hires",
+        "surface": "concrete",
         "toll": "yes"
       }
     },
@@ -2952,6 +3041,7 @@
         "id": 685849475,
         "highway": "motorway_link",
         "lanes": "2",
+        "lit": "yes",
         "motorcycle": "no",
         "oneway": "yes",
         "toll": "yes"
@@ -2981,9 +3071,12 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
-        "ref": "161"
+        "ref": "161",
+        "sidewalk": "left",
+        "surface": "asphalt"
       }
     },
     {
@@ -3026,6 +3119,8 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "2",
+        "lit": "no",
+        "maxheight": "4.2",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -3034,6 +3129,7 @@
         "ref": "4",
         "short_name": "Jalan Tol Padaleunyi",
         "source": "Yahoo hires",
+        "surface": "asphalt",
         "toll": "yes"
       }
     },
@@ -3059,6 +3155,7 @@
         "highway": "motorway",
         "lanes": "3",
         "layer": "1",
+        "lit": "no",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -3067,6 +3164,7 @@
         "ref": "4",
         "short_name": "Jalan Tol Padaleunyi",
         "source": "Yahoo hires",
+        "surface": "asphalt",
         "toll": "yes"
       }
     },
@@ -3114,6 +3212,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "3",
+        "lit": "no",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -3122,6 +3221,7 @@
         "ref": "4",
         "short_name": "Jalan Tol Padaleunyi",
         "source": "Yahoo hires",
+        "surface": "asphalt",
         "toll": "yes"
       }
     },
@@ -3147,6 +3247,7 @@
         "highway": "motorway",
         "lanes": "2",
         "layer": "1",
+        "lit": "no",
         "maxspeed": "80",
         "name": "Jalan Tol Padalarang–Cileunyi",
         "oneway": "yes",
@@ -3181,6 +3282,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "2",
+        "lit": "no",
         "maxspeed": "80",
         "name": "Jalan Tol Padalarang–Cileunyi",
         "oneway": "yes",
@@ -3201,8 +3303,8 @@
             -6.9377895
           ],
           [
-            107.7574065,
-            -6.9378095
+            107.7573797,
+            -6.9378122
           ]
         ]
       },
@@ -3211,10 +3313,12 @@
         "bridge": "yes",
         "highway": "trunk",
         "layer": "1",
+        "lit": "no",
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
-        "source": "Bing"
+        "source": "Bing",
+        "surface": "asphalt"
       }
     },
     {
@@ -3223,8 +3327,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7574065,
-            -6.9378095
+            107.7573797,
+            -6.9378122
           ],
           [
             107.7573571,
@@ -3283,6 +3387,8 @@
       "properties": {
         "id": 689946690,
         "highway": "trunk",
+        "lanes": "2",
+        "lit": "no",
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
@@ -3400,13 +3506,16 @@
       },
       "properties": {
         "id": 859329416,
+        "cycleway:both": "no",
         "destination:lanes:forward": "Inhoftank;Cibaduyut;Leuwipanjang;Kopo|Batununggal;Buahbatu;Kiaracondong;Cibiru",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
         "lanes:forward": "2",
+        "lit": "no",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "sidewalk": "no",
         "surface": "asphalt",
         "turn:lanes:forward": "slight_left;through|through;right"
       }
@@ -3515,10 +3624,13 @@
         "bridge": "yes",
         "destination:ref": "AH2",
         "highway": "motorway_link",
+        "lanes": "1",
         "layer": "1",
+        "lit": "yes",
         "motorcycle": "no",
         "name": "Simpang Susun Cileunyi",
         "oneway": "yes",
+        "surface": "asphalt",
         "toll": "yes"
       }
     },
@@ -3565,7 +3677,9 @@
         "id": 953611090,
         "bridge": "yes",
         "highway": "motorway_link",
+        "lanes": "1",
         "layer": "1",
+        "lit": "yes",
         "motorcycle": "no",
         "name": "Simpang Susun Cileunyi",
         "oneway": "yes",
@@ -3653,6 +3767,7 @@
         "motorcycle": "no",
         "name": "Simpang Susun Cileunyi",
         "oneway": "yes",
+        "surface": "concrete",
         "toll": "yes"
       }
     },
@@ -3842,9 +3957,12 @@
         "destination:ref:lanes": "4||11",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Raya Cipacing",
         "oneway": "yes",
         "ref": "13",
+        "sidewalk": "left",
+        "surface": "concrete",
         "turn:lanes": "slight_left|slight_left;through|through"
       }
     },
@@ -3991,6 +4109,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "3",
+        "lit": "no",
         "maxspeed": "80",
         "name": "Jalan Tol Padalarang–Cileunyi",
         "oneway": "yes",
@@ -4346,11 +4465,16 @@
       },
       "properties": {
         "id": 1158286009,
+        "cycleway:both": "no",
         "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
-        "source": "Bing"
+        "sidewalk": "both",
+        "source": "Bing",
+        "surface": "concrete"
       }
     },
     {
@@ -4386,9 +4510,11 @@
         "bus_bay": "yes",
         "covered": "no",
         "highway": "service",
+        "lit": "yes",
         "name": "Pangkalan DAMRI Jatinangor",
         "oneway": "yes",
-        "surface": "asphalt"
+        "smoothness": "good",
+        "surface": "concrete"
       }
     },
     {
@@ -4485,6 +4611,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "3",
+        "lit": "no",
         "maxspeed": "80",
         "motorcycle": "no",
         "name": "Jalan Tol Padalarang–Cileunyi",
@@ -4641,6 +4768,7 @@
         "destination:symbol:lanes": "||motorway|motorway",
         "highway": "trunk",
         "lanes": "4",
+        "lit": "no",
         "maxspeed": "80",
         "name": "Jalan Sindangsari",
         "oneway": "yes",
@@ -5096,8 +5224,10 @@
         "destination": "Mohammad Toha;Banjaran",
         "highway": "motorway_link",
         "lanes": "2",
+        "lit": "yes",
         "motorcycle": "no",
         "oneway": "yes",
+        "surface": "concrete",
         "toll": "yes"
       }
     },
@@ -5163,6 +5293,7 @@
         "destination:ref:forward": "AH2",
         "highway": "motorway_link",
         "lanes": "4",
+        "lit": "yes",
         "motorcycle": "no",
         "oneway": "no",
         "surface": "asphalt",
@@ -5246,8 +5377,10 @@
         "destination:forward": "Kopo;Pasir Koja;Padalarang",
         "highway": "motorway_link",
         "lanes": "2",
+        "lit": "yes",
         "motorcycle": "no",
         "oneway": "no",
+        "surface": "asphalt",
         "toll": "yes"
       }
     },
@@ -5275,6 +5408,7 @@
         "highway": "motorway_link",
         "lanes": "2",
         "layer": "1",
+        "lit": "yes",
         "oneway": "no",
         "surface": "asphalt",
         "toll": "yes"
@@ -5370,8 +5504,10 @@
         "destination": "Mohammad Toha;Banjaran",
         "highway": "motorway_link",
         "lanes": "1",
+        "lit": "yes",
         "motorcycle": "no",
         "oneway": "yes",
+        "surface": "asphalt",
         "toll": "yes"
       }
     },
@@ -5401,6 +5537,7 @@
         "destination:ref:forward": "AH2",
         "highway": "motorway_link",
         "lanes": "2",
+        "lit": "yes",
         "motorcycle": "no",
         "oneway": "no",
         "surface": "asphalt",
@@ -5428,8 +5565,10 @@
         "bus_bay": "yes",
         "covered": "no",
         "highway": "service",
+        "lit": "yes",
         "name": "Pangkalan DAMRI Jatinangor",
         "oneway": "yes",
+        "smoothness": "bad",
         "surface": "asphalt"
       }
     },
@@ -5481,7 +5620,9 @@
         "id": 1368021203,
         "bridge": "yes",
         "highway": "motorway_link",
+        "lanes": "7",
         "layer": "1",
+        "lit": "yes",
         "motorcycle": "no",
         "name": "Simpang Susun Cileunyi",
         "oneway": "yes",

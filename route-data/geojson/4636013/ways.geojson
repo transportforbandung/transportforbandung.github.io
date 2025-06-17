@@ -769,6 +769,10 @@
             -6.9147604
           ],
           [
+            107.6139894,
+            -6.9147065
+          ],
+          [
             107.6139967,
             -6.9146525
           ],
@@ -829,6 +833,7 @@
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -1070,16 +1075,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6088785,
-            -6.9103019
+            107.6088855,
+            -6.9102984
           ],
           [
             107.6088445,
             -6.9102299
           ],
           [
-            107.6087817,
-            -6.9101077
+            107.6087639,
+            -6.910086
           ],
           [
             107.608484,
@@ -1103,6 +1108,7 @@
         "name": "Jalan Wastukencana",
         "oneway": "no",
         "sidewalk": "separate",
+        "smoothness": "intermediate",
         "surface": "asphalt"
       }
     },
@@ -1866,8 +1872,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6092078,
-            -6.910294
+            107.6092148,
+            -6.9103044
           ],
           [
             107.6097021,
@@ -2198,6 +2204,7 @@
         "lanes": "4",
         "name": "Jalan Cihampelas",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "smoothness": "intermediate",
         "source": "S2City_POI_2022",
         "surface": "asphalt",
@@ -2760,12 +2767,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6088785,
-            -6.9103019
+            107.6088855,
+            -6.9102984
           ],
           [
-            107.6092078,
-            -6.910294
+            107.609,
+            -6.9103037
+          ],
+          [
+            107.6091291,
+            -6.9103088
+          ],
+          [
+            107.6092148,
+            -6.9103044
           ]
         ]
       },

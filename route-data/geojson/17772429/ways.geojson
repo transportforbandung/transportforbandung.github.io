@@ -1595,12 +1595,14 @@
       },
       "properties": {
         "id": 561398083,
+        "cycleway:both": "no",
         "destination": "Simpang Inhoftank",
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "surface": "asphalt"
       }
     },
     {
@@ -1684,12 +1686,12 @@
       },
       "properties": {
         "id": 681035708,
-        "destination:lanes": "Bulevar Timur|Flora;Dayana",
-        "highway": "tertiary",
+        "destination:lanes": "Bulevar Timur;Hillary|Flora;Dayana",
+        "highway": "secondary",
         "junction": "roundabout",
         "lanes": "2",
         "name": "Bunderan Grand Bulevar",
-        "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "slight_left|slight_right"
       }
     },
@@ -2717,12 +2719,14 @@
       },
       "properties": {
         "id": 1088664793,
+        "cycleway:both": "no",
         "destination": "Inhoftank;Cibaduyut;Leuwipanjang;Kopo",
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "surface": "asphalt"
       }
     },
     {
@@ -3006,8 +3010,8 @@
             -6.9493867
           ],
           [
-            107.693561,
-            -6.9490675
+            107.6936206,
+            -6.9489458
           ]
         ]
       },
@@ -3216,6 +3220,10 @@
             -6.9568466
           ],
           [
+            107.6956916,
+            -6.9567938
+          ],
+          [
             107.6955665,
             -6.9567705
           ],
@@ -3233,7 +3241,7 @@
         "id": 1183988162,
         "destination": "Bulevar Barat;Bulevar Utama",
         "destination:lanes": "Bulevar Selatan;Cynthia;Emily|Amanda;Btari;Gedebage Raya;Magna|Sentra Raya;Rancasagatan;Genova;Gedebage Utama",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Grand Bulevar",
         "oneway": "yes",
@@ -4682,7 +4690,7 @@
         "id": 1237712936,
         "destination": "Bulevar Raya",
         "destination:lanes": "Bulevar Teknopolis;Sinpasa|Flora;Bulevar Selatan;Dayana;Rancasagatan",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Grand Bulevar",
         "name:en": "Grand Boulevard",
@@ -4729,7 +4737,7 @@
       "properties": {
         "id": 1237712937,
         "destination:lanes": "Xandari|Bulevar Utama;Bulevar Barat;Amanda;Btari",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Grand Bulevar",
         "name:en": "Grand Boulevard",
@@ -4773,11 +4781,11 @@
       "properties": {
         "id": 1237712938,
         "destination:lanes": "Xandari;Mall;Bulevar Barat|Bulevar Teknopolis;Sinpasa;Sentra Niaga",
-        "highway": "tertiary",
+        "highway": "secondary",
         "junction": "roundabout",
         "lanes": "2",
         "name": "Bunderan Grand Bulevar",
-        "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "slight_left|slight_right"
       }
     },
@@ -4811,11 +4819,11 @@
       "properties": {
         "id": 1237712939,
         "destination:lanes": "Flora;Dayana|Xandari;Mall;Bulevar Barat",
-        "highway": "tertiary",
+        "highway": "secondary",
         "junction": "roundabout",
         "lanes": "2",
         "name": "Bunderan Grand Bulevar",
-        "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "slight_left|slight_right"
       }
     },
@@ -4825,56 +4833,56 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.693561,
-            -6.9490675
+            107.6936206,
+            -6.9489458
           ],
           [
-            107.6935773,
-            -6.9489527
+            107.6936369,
+            -6.948831
           ],
           [
-            107.6936046,
-            -6.9486737
+            107.6936642,
+            -6.948552
           ],
           [
-            107.6936102,
-            -6.9485095
+            107.6936698,
+            -6.9483878
           ],
           [
-            107.6935995,
-            -6.9483546
+            107.6936591,
+            -6.9482329
           ],
           [
-            107.6935637,
-            -6.9481249
+            107.6936233,
+            -6.9480032
           ],
           [
-            107.6935146,
-            -6.9479012
+            107.6935742,
+            -6.9477795
           ],
           [
-            107.6934892,
-            -6.9477307
+            107.6935488,
+            -6.947609
           ],
           [
-            107.693481,
-            -6.9475861
+            107.6935406,
+            -6.9474644
           ],
           [
-            107.6934946,
-            -6.9474191
+            107.6935542,
+            -6.9472974
           ],
           [
-            107.6935201,
-            -6.9472491
+            107.6935797,
+            -6.9471274
           ],
           [
-            107.6936626,
-            -6.946614
+            107.6937222,
+            -6.9464923
           ],
           [
-            107.6936907,
-            -6.9464621
+            107.6937503,
+            -6.9463404
           ]
         ]
       },
@@ -4997,12 +5005,12 @@
       },
       "properties": {
         "id": 1262530387,
-        "destination:lanes": "Bulevar Teknopolis;Sinpasa;Sentra Niaga|Bulevar Timur;Bulevar Raya;Flora",
-        "highway": "tertiary",
+        "destination:lanes": "Bulevar Teknopolis;Sinpasa;Sentra Niaga|Bulevar Timur;Flora;Dayana",
+        "highway": "secondary",
         "junction": "roundabout",
         "lanes": "2",
         "name": "Bunderan Grand Bulevar",
-        "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "slight_left|slight_right"
       }
     },
@@ -5365,8 +5373,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6936907,
-            -6.9464621
+            107.6937503,
+            -6.9463404
           ],
           [
             107.6938314,

@@ -304,12 +304,15 @@
       "properties": {
         "id": 223676221,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -354,6 +357,7 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
+        "sidewalk": "no",
         "surface": "asphalt",
         "turn:lanes": "reverse"
       }
@@ -1571,12 +1575,16 @@
       },
       "properties": {
         "id": 318899766,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1609,12 +1617,16 @@
       },
       "properties": {
         "id": 318899767,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1676,11 +1688,15 @@
       "properties": {
         "id": 319195726,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -1702,13 +1718,17 @@
       "properties": {
         "id": 320642744,
         "bridge": "yes",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1737,12 +1757,16 @@
       },
       "properties": {
         "id": 320642745,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1805,6 +1829,7 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "surface": "asphalt",
         "turn:lanes": "left"
       }
@@ -2157,12 +2182,15 @@
       "properties": {
         "id": 331562852,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2203,12 +2231,16 @@
       },
       "properties": {
         "id": 340405403,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2353,6 +2385,7 @@
       },
       "properties": {
         "id": 446104214,
+        "cycleway:both": "no",
         "destination": "Martanegara;Gatot Subroto;Seskoad;Laswi",
         "foot": "no",
         "highway": "primary",
@@ -3225,12 +3258,15 @@
       "properties": {
         "id": 704744284,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -3260,12 +3296,15 @@
       "properties": {
         "id": 704744286,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "left;through|through"
       }
@@ -3580,9 +3619,12 @@
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -3650,6 +3692,10 @@
           [
             107.6534527,
             -6.9556096
+          ],
+          [
+            107.6538045,
+            -6.9556537
           ],
           [
             107.6541837,
@@ -4201,7 +4247,8 @@
         "lit": "yes",
         "name": "Jalan Peta",
         "oneway": "yes",
-        "ref": "374"
+        "ref": "374",
+        "surface": "asphalt"
       }
     },
     {
@@ -4409,11 +4456,14 @@
       "properties": {
         "id": 1113383849,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "through|through|reverse"
       }
@@ -4439,12 +4489,16 @@
       },
       "properties": {
         "id": 1113396460,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -4733,12 +4787,16 @@
       },
       "properties": {
         "id": 1211277642,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_left|through|through"
       }
@@ -4768,12 +4826,16 @@
       },
       "properties": {
         "id": 1211277644,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "left;through|through|right"
       }

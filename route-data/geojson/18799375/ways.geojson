@@ -4262,9 +4262,11 @@
         "id": 269468423,
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -4289,7 +4291,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
-        "ref": "161"
+        "ref": "161",
+        "surface": "asphalt"
       }
     },
     {
@@ -4385,13 +4388,16 @@
       },
       "properties": {
         "id": 318899775,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
         "lanes:forward": "2",
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
-        "ref": "161"
+        "ref": "161",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -5216,10 +5222,14 @@
       },
       "properties": {
         "id": 340405402,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "4",
+        "lit": "no",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "sidewalk": "no",
+        "smoothness": "good",
         "surface": "asphalt"
       }
     },
@@ -5716,12 +5726,16 @@
       "properties": {
         "id": 556619982,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "161",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -9006,6 +9020,7 @@
       },
       "properties": {
         "id": 859329415,
+        "cycleway:both": "no",
         "destination:backward": "Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot",
         "destination:lanes:forward": "Kurdi;Tegallega;Lingkar Selatan;Inggit Ganarsih|Batununggal;Buahbatu;Kiaracondong;Cibiru",
         "destination:ref:lanes:forward": "161|11",
@@ -9016,6 +9031,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "surface": "asphalt",
         "turn:lanes:forward": "through|right"
       }
     },
@@ -9052,13 +9068,16 @@
       },
       "properties": {
         "id": 859329416,
+        "cycleway:both": "no",
         "destination:lanes:forward": "Inhoftank;Cibaduyut;Leuwipanjang;Kopo|Batununggal;Buahbatu;Kiaracondong;Cibiru",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
         "lanes:forward": "2",
+        "lit": "no",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "sidewalk": "no",
         "surface": "asphalt",
         "turn:lanes:forward": "slight_left;through|through;right"
       }
@@ -9106,6 +9125,7 @@
       },
       "properties": {
         "id": 1079472294,
+        "cycleway:both": "no",
         "destination:backward": "Inhoftank;Cibaduyut;Leuwipanjang;Kopo|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot",
         "destination:forward": "Kurdi;Tegallega;Lingkar Selatan;Inggit Ganarsih",
         "destination:ref:lanes:backward": "11|161;4;;|161;4;;",
@@ -9116,6 +9136,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "surface": "asphalt",
         "turn:lanes:backward": "through|through|right"
       }
     },
@@ -9154,6 +9175,7 @@
         "id": 1079472295,
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
@@ -9835,6 +9857,10 @@
             -7.0101685
           ],
           [
+            107.6118817,
+            -7.0088764
+          ],
+          [
             107.6119545,
             -7.0087692
           ],
@@ -10378,12 +10404,19 @@
       "properties": {
         "id": 1212464431,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
         "lanes:forward": "2",
         "name": "Jalan Mohammad Toha",
-        "ref": "161"
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "ref": "161",
+        "sidewalk:both": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt"
       }
     },
     {
@@ -10503,6 +10536,7 @@
       },
       "properties": {
         "id": 1234195272,
+        "cycleway:both": "no",
         "destination:lanes:backward": "Batununggal;Buahbatu;Kiaracondong;Cibiru|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot|Inhoftank;Cibaduyut;Leuwipanjang;Kopo",
         "destination:ref:lanes:backward": "11|161;4;;|11",
         "highway": "primary",
@@ -10511,7 +10545,9 @@
         "lanes:forward": "2",
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
-        "ref": "161"
+        "ref": "161",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -10537,6 +10573,7 @@
         "id": 1246218999,
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
@@ -10587,6 +10624,7 @@
         "id": 1246219001,
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",

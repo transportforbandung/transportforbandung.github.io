@@ -327,6 +327,8 @@
         "lanes": "3",
         "name": "Jalan Stasiun Timur",
         "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },
@@ -443,6 +445,7 @@
         "lanes": "3",
         "name": "Jalan Veteran",
         "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "left|through|through"
       }
     },
@@ -551,6 +554,7 @@
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt",
         "turn:lanes": "through|through|right"
       }
@@ -720,12 +724,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6027054,
-            -6.916124
+            107.6027081,
+            -6.91612
           ],
           [
-            107.6031066,
-            -6.9160901
+            107.6031079,
+            -6.9160834
           ]
         ]
       },
@@ -745,16 +749,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6024135,
-            -6.9161558
+            107.6024001,
+            -6.9161478
           ],
           [
-            107.6025153,
-            -6.9161423
+            107.6025166,
+            -6.916137
           ],
           [
-            107.6027054,
-            -6.916124
+            107.6027081,
+            -6.91612
           ]
         ]
       },
@@ -2037,6 +2041,8 @@
         "motor_vehicle": "yes",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },
@@ -2046,8 +2052,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6031066,
-            -6.9160901
+            107.6031079,
+            -6.9160834
+          ],
+          [
+            107.60326,
+            -6.9160638
           ],
           [
             107.6043695,
@@ -2145,6 +2155,7 @@
         "name": "Jalan Lembong",
         "oneway": "yes",
         "sidewalk": "separate",
+        "surface": "asphalt",
         "turn:lanes": "through|through|through"
       }
     },
@@ -2353,6 +2364,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "378",
         "surface": "asphalt"
       }
@@ -2528,7 +2540,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Veteran",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {

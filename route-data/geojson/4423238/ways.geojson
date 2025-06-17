@@ -11,8 +11,16 @@
             -6.9072201
           ],
           [
-            107.6044529,
-            -6.9075468
+            107.6044521,
+            -6.9072879
+          ],
+          [
+            107.604458,
+            -6.9073889
+          ],
+          [
+            107.6044661,
+            -6.9077123
           ],
           [
             107.6044705,
@@ -40,47 +48,55 @@
           ],
           [
             107.6043042,
-            -6.9094556
+            -6.9094657
           ],
           [
-            107.60428,
+            107.6042851,
             -6.9095101
           ],
           [
-            107.6042537,
-            -6.9095705
+            107.6042598,
+            -6.9095715
           ],
           [
-            107.6042108,
-            -6.9096813
+            107.6042199,
+            -6.9096823
           ],
           [
             107.6041664,
             -6.9098645
           ],
           [
-            107.6041381,
+            107.60413,
             -6.9100304
           ],
           [
-            107.6041233,
+            107.6041131,
             -6.910177
           ],
           [
-            107.6041021,
-            -6.9104022
+            107.604095,
+            -6.9104032
           ],
           [
-            107.6040857,
-            -6.9106877
+            107.6040749,
+            -6.9106747
           ],
           [
-            107.6040756,
-            -6.9108629
+            107.6040736,
+            -6.9106984
           ],
           [
-            107.6040107,
-            -6.9119067
+            107.6040635,
+            -6.9108642
+          ],
+          [
+            107.6040608,
+            -6.9109088
+          ],
+          [
+            107.6039986,
+            -6.911908
           ],
           [
             107.6039615,
@@ -664,6 +680,10 @@
             -6.9114573
           ],
           [
+            107.5831708,
+            -6.9115789
+          ],
+          [
             107.5828799,
             -6.9123206
           ],
@@ -716,7 +736,7 @@
       "properties": {
         "id": 4625292,
         "avgspeed": "15",
-        "highway": "residential",
+        "highway": "unclassified",
         "name": "Jalan Andir"
       }
     },
@@ -954,6 +974,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -980,6 +1001,7 @@
         "lanes": "2",
         "name": "Jalan Prabudimuntur",
         "oneway": "yes",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -1433,12 +1455,12 @@
             -6.9073749
           ],
           [
-            107.597594,
-            -6.9072079
+            107.5975909,
+            -6.9072507
           ],
           [
-            107.5975702,
-            -6.9070244
+            107.597581,
+            -6.9071682
           ],
           [
             107.5975322,
@@ -1531,22 +1553,6 @@
           [
             107.6353255,
             -6.8926636
-          ],
-          [
-            107.6350707,
-            -6.8925301
-          ],
-          [
-            107.6350048,
-            -6.892515
-          ],
-          [
-            107.6345702,
-            -6.8924443
-          ],
-          [
-            107.6345337,
-            -6.8924399
           ]
         ]
       },
@@ -1636,7 +1642,9 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Cikapayang",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -1771,6 +1779,9 @@
         "lanes": "2",
         "name": "Jalan Prabu Dimuntur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "smoothness": "good",
         "surface": "asphalt"
       }
     },
@@ -2557,7 +2568,7 @@
       "properties": {
         "id": 318891914,
         "avgspeed": "5",
-        "highway": "residential",
+        "highway": "unclassified",
         "name": "Jalan Andir"
       }
     },
@@ -3032,12 +3043,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6127772,
+            107.6127842,
             -6.8990757
           ],
           [
-            107.6126895,
-            -6.8990737
+            107.6126994,
+            -6.8990743
           ]
         ]
       },
@@ -3066,8 +3077,8 @@
             -6.8931739
           ],
           [
-            107.6354254,
-            -6.8933178
+            107.6354258,
+            -6.8933137
           ],
           [
             107.6353388,
@@ -3148,32 +3159,32 @@
             -6.9114098
           ],
           [
-            107.5978317,
-            -6.9099424
+            107.5978086,
+            -6.909947
           ],
           [
-            107.5978292,
-            -6.9098535
+            107.5978015,
+            -6.9098566
           ],
           [
-            107.5978012,
-            -6.909452
+            107.5977774,
+            -6.9094546
           ],
           [
-            107.5977548,
-            -6.9089032
+            107.5977427,
+            -6.9089045
           ],
           [
-            107.5976971,
-            -6.9081996
+            107.5976909,
+            -6.9082042
           ],
           [
-            107.5976895,
-            -6.9081074
+            107.5976849,
+            -6.9081059
           ],
           [
-            107.5976818,
-            -6.9080152
+            107.5976772,
+            -6.9080121
           ],
           [
             107.5976288,
@@ -3755,12 +3766,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6191325,
-            -6.8993561
-          ],
-          [
-            107.6190893,
-            -6.8993576
+            107.618078,
+            -6.8993781
           ],
           [
             107.6180305,
@@ -3789,6 +3796,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "yes",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -4769,16 +4777,16 @@
             -6.9125447
           ],
           [
-            107.6039141,
-            -6.912591
+            107.6039118,
+            -6.9126003
           ],
           [
-            107.6038637,
-            -6.912628
+            107.6038567,
+            -6.9126442
           ],
           [
-            107.6038068,
-            -6.9126542
+            107.6037823,
+            -6.9126588
           ]
         ]
       },
@@ -5173,7 +5181,7 @@
             -6.8990781
           ],
           [
-            107.6127772,
+            107.6127842,
             -6.8990757
           ]
         ]
@@ -5186,6 +5194,8 @@
         "lanes": "2",
         "name": "Jalan Prabu Dimuntur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
         "surface": "asphalt"
       }
     },
@@ -5470,8 +5480,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6126895,
-            -6.8990737
+            107.6126994,
+            -6.8990743
           ],
           [
             107.6125878,
@@ -5505,6 +5515,8 @@
         "lanes": "2",
         "name": "Jalan Cikapayang",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -5632,16 +5644,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6038068,
-            -6.9126542
+            107.6037823,
+            -6.9126588
           ],
           [
             107.6036069,
-            -6.9126386
+            -6.9126444
           ],
           [
-            107.6032421,
-            -6.9126106
+            107.6032433,
+            -6.9126176
           ],
           [
             107.6029824,
@@ -6080,6 +6092,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -6755,6 +6768,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -6856,6 +6870,159 @@
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6191325,
+            -6.8993561
+          ],
+          [
+            107.6190893,
+            -6.8993576
+          ],
+          [
+            107.618078,
+            -6.8993781
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1391905039,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6353255,
+            -6.8926636
+          ],
+          [
+            107.6350707,
+            -6.8925301
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1394904181,
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cikutra Barat",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6350707,
+            -6.8925301
+          ],
+          [
+            107.6350048,
+            -6.892515
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1394904182,
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cikutra Barat",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6350048,
+            -6.892515
+          ],
+          [
+            107.6345702,
+            -6.8924443
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1394904183,
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cikutra Barat",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6345702,
+            -6.8924443
+          ],
+          [
+            107.6345337,
+            -6.8924399
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1394904184,
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cikutra Barat",
+        "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     }

@@ -101,16 +101,16 @@
             -6.9162099
           ],
           [
-            107.6016247,
-            -6.9162094
+            107.6016262,
+            -6.916191
           ],
           [
-            107.6019524,
-            -6.9161976
+            107.6019595,
+            -6.9161867
           ],
           [
-            107.6022035,
-            -6.9161755
+            107.6022008,
+            -6.9161702
           ]
         ]
       },
@@ -476,6 +476,8 @@
         "lanes": "3",
         "name": "Jalan Stasiun Timur",
         "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },
@@ -546,6 +548,109 @@
         "name": "Jalan Raya Padalarang",
         "oneway": "yes",
         "ref": "10;11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4956075,
+            -6.8425396
+          ],
+          [
+            107.4951058,
+            -6.8424482
+          ],
+          [
+            107.4950543,
+            -6.8424626
+          ],
+          [
+            107.4950015,
+            -6.8424929
+          ],
+          [
+            107.4949577,
+            -6.8425409
+          ],
+          [
+            107.4949135,
+            -6.8426056
+          ],
+          [
+            107.4947485,
+            -6.8428782
+          ],
+          [
+            107.4943326,
+            -6.8435693
+          ],
+          [
+            107.4941809,
+            -6.8438134
+          ],
+          [
+            107.4940263,
+            -6.8440589
+          ],
+          [
+            107.4936454,
+            -6.844697
+          ],
+          [
+            107.4935176,
+            -6.844906
+          ],
+          [
+            107.493283,
+            -6.8453099
+          ],
+          [
+            107.4931573,
+            -6.8455161
+          ],
+          [
+            107.4929788,
+            -6.8458197
+          ],
+          [
+            107.4928741,
+            -6.8460007
+          ],
+          [
+            107.4927386,
+            -6.8462262
+          ],
+          [
+            107.492614,
+            -6.8464336
+          ],
+          [
+            107.4923438,
+            -6.8468831
+          ],
+          [
+            107.4919575,
+            -6.8475478
+          ],
+          [
+            107.4918702,
+            -6.8476904
+          ]
+        ]
+      },
+      "properties": {
+        "id": 42795581,
+        "highway": "tertiary",
+        "lanes": "2",
+        "motorcycle": "yes",
+        "name": "Jalan Gedong Lima",
+        "oneway": "no",
+        "sidewalk:both": "separate",
+        "source": "Yahoo hires",
+        "surface": "paved"
       }
     },
     {
@@ -794,11 +899,13 @@
         "highway": "tertiary",
         "junction": "roundabout",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Kota Baru Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "source": "GPS",
-        "surface": "paved"
+        "surface": "asphalt"
       }
     },
     {
@@ -971,6 +1078,7 @@
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "source": "GPS",
         "surface": "asphalt"
       }
@@ -996,11 +1104,14 @@
         "cycleway:left": "lane",
         "cycleway:right": "no",
         "highway": "tertiary",
+        "lanes": "3",
         "layer": "1",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
-        "source": "Bing"
+        "sidewalk:right": "no",
+        "source": "Bing",
+        "surface": "asphalt"
       }
     },
     {
@@ -1024,11 +1135,14 @@
         "cycleway:left": "lane",
         "cycleway:right": "no",
         "highway": "tertiary",
+        "lanes": "3",
         "layer": "1",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
-        "source": "Bing"
+        "sidewalk:right": "no",
+        "source": "Bing",
+        "surface": "asphalt"
       }
     },
     {
@@ -1220,9 +1334,11 @@
         "cycleway:right": "no",
         "highway": "tertiary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "source": "GPS",
         "surface": "asphalt"
       }
@@ -1629,6 +1745,7 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "right"
       }
     },
@@ -1638,12 +1755,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6027054,
-            -6.916124
+            107.6027081,
+            -6.91612
           ],
           [
-            107.6031066,
-            -6.9160901
+            107.6031079,
+            -6.9160834
           ]
         ]
       },
@@ -1663,16 +1780,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6024135,
-            -6.9161558
+            107.6024001,
+            -6.9161478
           ],
           [
-            107.6025153,
-            -6.9161423
+            107.6025166,
+            -6.916137
           ],
           [
-            107.6027054,
-            -6.916124
+            107.6027081,
+            -6.91612
           ]
         ]
       },
@@ -2065,12 +2182,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5981927,
+            107.5981805,
             -6.916324
           ],
           [
-            107.5982715,
-            -6.9163189
+            107.5982481,
+            -6.9163209
           ]
         ]
       },
@@ -2778,8 +2895,8 @@
             -6.8427291
           ],
           [
-            107.4967008,
-            -6.8428702
+            107.4966418,
+            -6.8428228
           ],
           [
             107.4969585,
@@ -3401,7 +3518,7 @@
             -6.9163279
           ],
           [
-            107.5981927,
+            107.5981805,
             -6.916324
           ]
         ]
@@ -4084,7 +4201,8 @@
         "highway": "tertiary",
         "junction": "roundabout",
         "oneway": "yes",
-        "sidewalk": "separate"
+        "sidewalk": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -4259,9 +4377,11 @@
         "highway": "tertiary",
         "lanes": "3",
         "layer": "1",
+        "lit": "yes",
         "name": "Jalan Panyawangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "source": "GPS",
         "surface": "asphalt"
       }
@@ -4323,9 +4443,11 @@
         "cycleway:right": "no",
         "highway": "tertiary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Panyawangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "source": "GPS",
         "surface": "asphalt"
       }
@@ -4730,45 +4852,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.4958472,
-            -6.84211
-          ],
-          [
-            107.4960455,
-            -6.8422967
-          ],
-          [
-            107.4961242,
-            -6.8423708
-          ],
-          [
-            107.4963927,
-            -6.8426237
-          ],
-          [
-            107.4964724,
-            -6.8426887
-          ]
-        ]
-      },
-      "properties": {
-        "id": 803298913,
-        "highway": "trunk",
-        "lanes": "2",
-        "motorcycle": "yes",
-        "name": "Jalan Cihaliwung",
-        "oneway": "yes",
-        "ref": "10",
-        "source": "Yahoo hires",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5587783,
             -6.8934551
           ],
@@ -4966,6 +5049,42 @@
         "motor_vehicle": "yes",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4940514,
+            -6.8492327
+          ],
+          [
+            107.4950851,
+            -6.8499905
+          ],
+          [
+            107.4951925,
+            -6.8500625
+          ],
+          [
+            107.4955273,
+            -6.8503217
+          ]
+        ]
+      },
+      "properties": {
+        "id": 876006966,
+        "alt_name": "Jalan Orion;Jalan Raya Padalarang - Cianjur",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Raya Padalarang",
+        "oneway": "yes",
+        "ref": "10;11",
         "surface": "asphalt"
       }
     },
@@ -5296,50 +5415,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.4971035,
-            -6.8512732
-          ],
-          [
-            107.4971168,
-            -6.8513136
-          ],
-          [
-            107.4971242,
-            -6.8513308
-          ],
-          [
-            107.4971315,
-            -6.8513524
-          ],
-          [
-            107.4971444,
-            -6.8513892
-          ],
-          [
-            107.49716,
-            -6.8514191
-          ],
-          [
-            107.4971959,
-            -6.8514713
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1042818641,
-        "highway": "trunk",
-        "lanes": "1",
-        "name": "Jalan Simpang",
-        "oneway": "yes",
-        "ref": "10"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.4633572,
             -6.8648075
           ],
@@ -5386,6 +5461,7 @@
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "source": "GPS",
         "surface": "asphalt"
       }
@@ -5600,10 +5676,13 @@
         "cycleway:left": "lane",
         "cycleway:right": "no",
         "highway": "tertiary",
+        "lanes": "3",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
-        "source": "GPS"
+        "sidewalk:right": "no",
+        "source": "GPS",
+        "surface": "asphalt"
       }
     },
     {
@@ -5779,11 +5858,13 @@
         "cycleway:right": "no",
         "highway": "tertiary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Panyawangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "source": "GPS",
-        "surface": "asphalt"
+        "surface": "concrete"
       }
     },
     {
@@ -5792,8 +5873,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6031066,
-            -6.9160901
+            107.6031079,
+            -6.9160834
+          ],
+          [
+            107.60326,
+            -6.9160638
           ],
           [
             107.6043695,
@@ -5847,106 +5932,6 @@
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.496525,
-            -6.8427291
-          ],
-          [
-            107.4965636,
-            -6.8426821
-          ],
-          [
-            107.4965685,
-            -6.8426769
-          ],
-          [
-            107.4965774,
-            -6.8426618
-          ],
-          [
-            107.4965807,
-            -6.8426422
-          ],
-          [
-            107.4965757,
-            -6.8426232
-          ],
-          [
-            107.4965652,
-            -6.8426098
-          ],
-          [
-            107.4962927,
-            -6.8423604
-          ],
-          [
-            107.4962072,
-            -6.8422795
-          ],
-          [
-            107.4957946,
-            -6.8418937
-          ],
-          [
-            107.4957779,
-            -6.8418735
-          ],
-          [
-            107.4957634,
-            -6.8418494
-          ],
-          [
-            107.4957563,
-            -6.8418161
-          ],
-          [
-            107.4957564,
-            -6.8417592
-          ],
-          [
-            107.4957594,
-            -6.8417245
-          ],
-          [
-            107.4957571,
-            -6.8416926
-          ],
-          [
-            107.4957408,
-            -6.8416622
-          ],
-          [
-            107.4957229,
-            -6.8416426
-          ],
-          [
-            107.4957007,
-            -6.8416273
-          ],
-          [
-            107.4956645,
-            -6.8416227
-          ],
-          [
-            107.4956229,
-            -6.8416289
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1074095926,
-        "access": "private",
-        "bus": "yes",
-        "highway": "service",
-        "motorcar": "yes",
-        "oneway": "yes"
       }
     },
     {
@@ -6019,7 +6004,8 @@
       "properties": {
         "id": 1074723655,
         "highway": "service",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "concrete"
       }
     },
     {
@@ -6157,6 +6143,7 @@
         "name": "Jalan Lembong",
         "oneway": "yes",
         "sidewalk": "separate",
+        "surface": "asphalt",
         "turn:lanes": "through|through|through"
       }
     },
@@ -6415,16 +6402,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6022035,
-            -6.9161755
+            107.6022008,
+            -6.9161702
           ],
           [
-            107.6023281,
-            -6.9161607
+            107.6023308,
+            -6.916154
           ],
           [
-            107.6024135,
-            -6.9161558
+            107.6024001,
+            -6.9161478
           ]
         ]
       },
@@ -6649,6 +6636,72 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.4918702,
+            -6.8476904
+          ],
+          [
+            107.4921087,
+            -6.8478535
+          ],
+          [
+            107.492362,
+            -6.8480443
+          ],
+          [
+            107.4928498,
+            -6.848382
+          ],
+          [
+            107.4937107,
+            -6.8489854
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1236488004,
+        "alt_name": "Jalan Orion;Jalan Raya Padalarang - Cianjur",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Raya Padalarang",
+        "oneway": "yes",
+        "ref": "10;11",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4937107,
+            -6.8489854
+          ],
+          [
+            107.4940514,
+            -6.8492327
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1236488005,
+        "alt_name": "Jalan Orion;Jalan Raya Padalarang - Cianjur",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Raya Padalarang",
+        "oneway": "yes",
+        "ref": "10;11",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.4652055,
             -6.8656256
           ],
@@ -6779,6 +6832,7 @@
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "source": "GPS",
         "surface": "asphalt"
       }
@@ -6789,24 +6843,23 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.4964724,
-            -6.8426887
+            107.4969413,
+            -6.8513159
           ],
           [
-            107.496525,
-            -6.8427291
+            107.4971959,
+            -6.8514713
           ]
         ]
       },
       "properties": {
-        "id": 1241648358,
+        "id": 1241648357,
+        "alt_name": "Jalan Orion;Jalan Raya Padalarang - Cianjur",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Cihaliwung",
-        "oneway": "no",
-        "ref": "10",
-        "source": "Yahoo hires",
-        "surface": "asphalt"
+        "name": "Jalan Raya Padalarang",
+        "oneway": "yes",
+        "ref": "11"
       }
     },
     {
@@ -6827,10 +6880,12 @@
       "properties": {
         "id": 1244835424,
         "highway": "tertiary",
+        "lane_markings": "no",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk": "separate",
-        "source": "GPS"
+        "source": "GPS",
+        "surface": "asphalt"
       }
     },
     {
@@ -6948,6 +7003,7 @@
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -6957,8 +7013,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5982715,
-            -6.9163189
+            107.5982481,
+            -6.9163209
           ],
           [
             107.5983921,
@@ -7016,45 +7072,66 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.4956229,
-            -6.8416289
+            107.496525,
+            -6.8427291
           ],
           [
-            107.4956303,
-            -6.8416556
+            107.4964138,
+            -6.8427137
           ],
           [
-            107.4956578,
-            -6.8418091
+            107.4963207,
+            -6.8427015
           ],
           [
-            107.4956786,
-            -6.8418973
+            107.4961611,
+            -6.8426708
           ],
           [
-            107.4957088,
-            -6.8419587
-          ],
-          [
-            107.4957351,
-            -6.8419976
-          ],
-          [
-            107.4958472,
-            -6.84211
+            107.4961019,
+            -6.8426579
           ]
         ]
       },
       "properties": {
-        "id": 1365324080,
-        "highway": "trunk",
-        "lanes": "2",
+        "id": 1365074980,
+        "highway": "tertiary",
         "motorcycle": "yes",
-        "name": "Jalan Cihaliwung",
-        "oneway": "no",
-        "ref": "10",
+        "name": "Jalan Gedong Lima",
+        "oneway": "yes",
+        "sidewalk:both": "separate",
         "source": "Yahoo hires",
-        "surface": "asphalt"
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4961019,
+            -6.8426579
+          ],
+          [
+            107.4956719,
+            -6.8425538
+          ],
+          [
+            107.4956075,
+            -6.8425396
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1365324081,
+        "highway": "tertiary",
+        "motorcycle": "yes",
+        "name": "Jalan Gedong Lima",
+        "oneway": "yes",
+        "sidewalk:both": "separate",
+        "source": "Yahoo hires",
+        "surface": "paved"
       }
     },
     {
@@ -7093,8 +7170,12 @@
             -6.8685111
           ],
           [
-            107.5240567,
-            -6.8685213
+            107.5238605,
+            -6.8685121
+          ],
+          [
+            107.524111,
+            -6.8685186
           ],
           [
             107.5242475,
@@ -7201,11 +7282,13 @@
         "highway": "tertiary",
         "junction": "roundabout",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Kota Baru Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "source": "GPS",
-        "surface": "paved"
+        "surface": "asphalt"
       }
     }
   ]

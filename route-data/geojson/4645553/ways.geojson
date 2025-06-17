@@ -7,8 +7,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5963527,
-            -6.9038385
+            107.5963629,
+            -6.9038698
           ],
           [
             107.5967047,
@@ -16,10 +16,10 @@
           ],
           [
             107.5967891,
-            -6.9039517
+            -6.9039548
           ],
           [
-            107.5968642,
+            107.596855,
             -6.9039658
           ],
           [
@@ -27,8 +27,8 @@
             -6.9039896
           ],
           [
-            107.5975482,
-            -6.9039909
+            107.5975343,
+            -6.9039924
           ]
         ]
       },
@@ -148,7 +148,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5973197,
+            107.597321,
             -6.898017
           ],
           [
@@ -156,8 +156,8 @@
             -6.8979069
           ],
           [
-            107.59732,
-            -6.897309
+            107.5973006,
+            -6.8973077
           ],
           [
             107.5972936,
@@ -277,48 +277,52 @@
             -6.9057391
           ],
           [
-            107.596191,
+            107.5961828,
             -6.9055899
           ],
           [
-            107.5961877,
-            -6.9054901
+            107.596176,
+            -6.9054878
           ],
           [
-            107.596185,
+            107.596171,
             -6.9053889
           ],
           [
-            107.596183,
+            107.596169,
             -6.9052811
           ],
           [
-            107.5961857,
-            -6.9051919
+            107.5961694,
+            -6.9051897
           ],
           [
-            107.5962054,
-            -6.9049472
+            107.5961761,
+            -6.9050714
           ],
           [
-            107.5962286,
-            -6.9046966
+            107.5961881,
+            -6.9049442
           ],
           [
-            107.5962514,
+            107.5962164,
+            -6.9046946
+          ],
+          [
+            107.5962473,
             -6.9044716
           ],
           [
-            107.5962742,
+            107.5962701,
             -6.9043338
           ],
           [
-            107.5963002,
-            -6.9042046
+            107.596291,
+            -6.9042031
           ],
           [
-            107.5963527,
-            -6.9038385
+            107.5963629,
+            -6.9038698
           ]
         ]
       },
@@ -331,7 +335,9 @@
         "motorcycle": "yes",
         "name": "Jalan Astina",
         "oneway": "yes",
+        "parking:both": "no",
         "smoothness": "good",
+        "surface": "asphalt",
         "width": "4"
       }
     },
@@ -341,7 +347,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5974024,
+            107.5974073,
             -6.9013528
           ],
           [
@@ -361,13 +367,17 @@
       "properties": {
         "id": 223676540,
         "alt_name": "Jalan HOS. Tjokroaminoto",
+        "cycleway:both": "no",
         "destination": "Pasteur;RSHS;Sukajadi;Djundjunan",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "loc_name": "Jalan Pasir Kaliki",
         "maxspeed:type": "ID:urban",
         "name": "Jalan HOS. Cokroaminoto",
         "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk": "left",
         "surface": "asphalt",
         "turn:lanes": "left;through|through;right"
       }
@@ -442,11 +452,11 @@
             -6.898195
           ],
           [
-            107.597321,
+            107.5973223,
             -6.8980478
           ],
           [
-            107.5973197,
+            107.597321,
             -6.898017
           ]
         ]
@@ -1053,15 +1063,15 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5973501,
+            107.5973566,
             -6.9002078
           ],
           [
-            107.5973456,
-            -6.9001096
+            107.5973521,
+            -6.9001109
           ],
           [
-            107.5973387,
+            107.5973452,
             -6.8999212
           ]
         ]
@@ -1141,43 +1151,39 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5975316,
-            -6.9034975
+            107.5975116,
+            -6.9035067
           ],
           [
-            107.5975108,
-            -6.9033873
+            107.5974908,
+            -6.9034505
           ],
           [
-            107.5974975,
-            -6.9033164
+            107.5974789,
+            -6.9033926
           ],
           [
-            107.5974754,
-            -6.9026854
+            107.5974727,
+            -6.9033217
+          ],
+          [
+            107.5974521,
+            -6.9026867
           ],
           [
             107.5974311,
             -6.9019145
           ],
           [
-            107.5974203,
-            -6.9017217
+            107.5974213,
+            -6.9017168
           ],
           [
-            107.5974176,
-            -6.9016482
-          ],
-          [
-            107.597413,
+            107.597414,
             -6.9015643
           ],
           [
             107.5974073,
-            -6.901439
-          ],
-          [
-            107.5974024,
             -6.9013528
           ]
         ]
@@ -1187,14 +1193,18 @@
         "alt_name": "Jalan HOS. Tjokroaminoto",
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "destination": "Pasteur;RSHS;Sukajadi;Djundjunan",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "loc_name": "Jalan Pasir Kaliki",
         "maxspeed:type": "ID:urban",
         "name": "Jalan HOS. Cokroaminoto",
         "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -1715,6 +1725,7 @@
         "destination:lanes": "Sukajadi;RSHS|Cihampelas;Cipaganti;Pasupati;Cikapayang",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
         "oneway": "yes",
@@ -2002,7 +2013,7 @@
             -6.9003949
           ],
           [
-            107.5973501,
+            107.5973566,
             -6.9002078
           ]
         ]
@@ -2049,12 +2060,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5975482,
-            -6.9039909
+            107.5975343,
+            -6.9039924
           ],
           [
-            107.5975316,
-            -6.9034975
+            107.5975116,
+            -6.9035067
           ]
         ]
       },
@@ -2063,16 +2074,21 @@
         "alt_name": "Jalan HOS. Tjokroaminoto",
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "destination:backward": "Padjadjaran;Husein Sastranegara;Cicendo",
         "destination:forward": "Pasteur;RSHS;Sukajadi;Djundjunan",
         "destination:lanes:backward": "Otten;Nijland;Curie;Abdul Rivai|Padjadjaran;Cicendo;Andir",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "loc_name": "Jalan Pasir Kaliki",
         "maxspeed:type": "ID:urban",
         "name": "Jalan HOS. Cokroaminoto",
         "oneway": "no",
+        "parking:both": "on_kerb",
+        "parking:both:orientation": "perpendicular",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -2459,11 +2475,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5973387,
+            107.5973452,
             -6.8999212
           ],
           [
-            107.5973369,
+            107.5973408,
             -6.8998291
           ]
         ]
@@ -2485,7 +2501,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5973369,
+            107.5973408,
             -6.8998291
           ],
           [
@@ -2493,8 +2509,12 @@
             -6.8994991
           ],
           [
-            107.5973436,
-            -6.899237
+            107.5973312,
+            -6.8994022
+          ],
+          [
+            107.5973423,
+            -6.8991445
           ],
           [
             107.5973572,

@@ -404,7 +404,7 @@
         "avgspeed": "20",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "residential",
+        "highway": "unclassified",
         "lanes": "2",
         "name": "Jalan Gajah",
         "oneway": "yes",
@@ -958,12 +958,15 @@
       },
       "properties": {
         "id": 318100674,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -1478,12 +1481,16 @@
       },
       "properties": {
         "id": 318482268,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1729,12 +1736,15 @@
       },
       "properties": {
         "id": 319178849,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -2044,8 +2054,8 @@
             -6.8931739
           ],
           [
-            107.6354254,
-            -6.8933178
+            107.6354258,
+            -6.8933137
           ],
           [
             107.6353388,
@@ -2968,6 +2978,7 @@
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
+        "sidewalk:left": "separate",
         "surface": "asphalt"
       }
     },
@@ -3033,6 +3044,7 @@
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
+        "sidewalk:left": "separate",
         "surface": "asphalt"
       }
     },
@@ -3248,8 +3260,8 @@
             -6.9243167
           ],
           [
-            107.6444993,
-            -6.9243645
+            107.6444992,
+            -6.9243614
           ],
           [
             107.6445077,
@@ -4390,9 +4402,11 @@
       },
       "properties": {
         "id": 1222524019,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",

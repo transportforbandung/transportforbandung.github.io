@@ -7,7 +7,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6106152,
+            107.6106132,
             -6.9069907
           ],
           [
@@ -663,11 +663,13 @@
         "highway": "tertiary",
         "junction": "roundabout",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Kota Baru Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "source": "GPS",
-        "surface": "paved"
+        "surface": "asphalt"
       }
     },
     {
@@ -840,6 +842,7 @@
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "source": "GPS",
         "surface": "asphalt"
       }
@@ -865,11 +868,14 @@
         "cycleway:left": "lane",
         "cycleway:right": "no",
         "highway": "tertiary",
+        "lanes": "3",
         "layer": "1",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
-        "source": "Bing"
+        "sidewalk:right": "no",
+        "source": "Bing",
+        "surface": "asphalt"
       }
     },
     {
@@ -893,11 +899,14 @@
         "cycleway:left": "lane",
         "cycleway:right": "no",
         "highway": "tertiary",
+        "lanes": "3",
         "layer": "1",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
-        "source": "Bing"
+        "sidewalk:right": "no",
+        "source": "Bing",
+        "surface": "asphalt"
       }
     },
     {
@@ -1089,9 +1098,11 @@
         "cycleway:right": "no",
         "highway": "tertiary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "source": "GPS",
         "surface": "asphalt"
       }
@@ -1421,6 +1432,7 @@
         "alt_name": "Jalan Pasteur",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "official_name": "Jalan Pasteur",
@@ -1655,6 +1667,7 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "right"
       }
     },
@@ -1680,16 +1693,16 @@
             -6.906873
           ],
           [
-            107.6103621,
-            -6.9069583
+            107.6103896,
+            -6.9069656
           ],
           [
             107.6104091,
             -6.9069683
           ],
           [
-            107.6105477,
-            -6.9069871
+            107.6105447,
+            -6.9069881
           ]
         ]
       },
@@ -1966,6 +1979,7 @@
         "alt_name": "Jalan Pasteur",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "official_name": "Jalan Pasteur",
@@ -2147,6 +2161,7 @@
         "lanes": "4",
         "name": "Jalan Cihampelas",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "smoothness": "intermediate",
         "source": "S2City_POI_2022",
         "surface": "asphalt",
@@ -2208,6 +2223,7 @@
         "alt_name": "Jalan Pasteur",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "note": "Oneway looks temporary, if this changes please change the oneway tag.",
@@ -3075,12 +3091,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6106152,
+            107.6106132,
             -6.9069907
           ],
           [
-            107.6105477,
-            -6.9069871
+            107.6105447,
+            -6.9069881
           ]
         ]
       },
@@ -3092,6 +3108,7 @@
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
         "sidewalk": "separate",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -3588,9 +3605,11 @@
         "highway": "tertiary",
         "lanes": "3",
         "layer": "1",
+        "lit": "yes",
         "name": "Jalan Panyawangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "source": "GPS",
         "surface": "asphalt"
       }
@@ -3652,9 +3671,11 @@
         "cycleway:right": "no",
         "highway": "tertiary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Panyawangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "source": "GPS",
         "surface": "asphalt"
       }
@@ -4070,6 +4091,8 @@
         "motor_vehicle": "yes",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -4305,6 +4328,10 @@
             -6.8679702
           ],
           [
+            107.4687013,
+            -6.8673805
+          ],
+          [
             107.468677,
             -6.8667471
           ],
@@ -4325,7 +4352,9 @@
         "highway": "tertiary",
         "name": "Jalan Gelap Nyawang",
         "oneway": "yes",
-        "sidewalk:left": "separate"
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -4352,10 +4381,13 @@
         "cycleway:left": "lane",
         "cycleway:right": "no",
         "highway": "tertiary",
+        "lanes": "3",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
-        "source": "GPS"
+        "sidewalk:right": "no",
+        "source": "GPS",
+        "surface": "asphalt"
       }
     },
     {
@@ -4531,11 +4563,13 @@
         "cycleway:right": "no",
         "highway": "tertiary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Panyawangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "source": "GPS",
-        "surface": "asphalt"
+        "surface": "concrete"
       }
     },
     {
@@ -4544,7 +4578,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5973501,
+            107.5973566,
             -6.9002078
           ],
           [
@@ -4740,6 +4774,7 @@
         "name": "Jalan Lembong",
         "oneway": "yes",
         "sidewalk": "separate",
+        "surface": "asphalt",
         "turn:lanes": "through|through|through"
       }
     },
@@ -5427,6 +5462,7 @@
         "alt_name": "Jalan Pasteur",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "note": "Oneway looks temporary, if this changes please change the oneway tag.",
@@ -5486,6 +5522,7 @@
         "alt_name": "Jalan Pasteur",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "official_name": "Jalan Pasteur",
@@ -5668,7 +5705,7 @@
             -6.9002074
           ],
           [
-            107.5973501,
+            107.5973566,
             -6.9002078
           ]
         ]
@@ -5711,6 +5748,7 @@
         "alt_name": "Jalan Pasteur",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "official_name": "Jalan Pasteur",
@@ -6030,10 +6068,12 @@
       "properties": {
         "id": 1244835424,
         "highway": "tertiary",
+        "lane_markings": "no",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk": "separate",
-        "source": "GPS"
+        "source": "GPS",
+        "surface": "asphalt"
       }
     },
     {
@@ -6054,10 +6094,12 @@
       "properties": {
         "id": 1244835425,
         "highway": "tertiary",
+        "lane_markings": "no",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk": "separate",
-        "source": "GPS"
+        "source": "GPS",
+        "surface": "asphalt"
       }
     },
     {
@@ -6092,6 +6134,7 @@
         "alt_name": "Jalan Pasteur",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "official_name": "Jalan Pasteur",
@@ -6200,11 +6243,13 @@
         "highway": "tertiary",
         "junction": "roundabout",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Kota Baru Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "source": "GPS",
-        "surface": "paved"
+        "surface": "asphalt"
       }
     },
     {

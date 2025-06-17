@@ -317,6 +317,10 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -452,6 +456,7 @@
         "old_name": "Jalan Layang Pasupati",
         "oneway": "yes",
         "short_name": "Flyover Pasupati",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -482,6 +487,7 @@
         "old_name": "Jalan Layang Pasupati",
         "oneway": "yes",
         "short_name": "Flyover Pasupati",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -540,7 +546,9 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Cikapayang",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -799,6 +807,7 @@
         "layer": "1",
         "oneway": "yes",
         "ramp": "yes",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -952,6 +961,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -1085,8 +1095,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6127027,
-            -6.8988485
+            107.6127107,
+            -6.8988505
           ],
           [
             107.6127945,
@@ -1103,6 +1113,8 @@
         "lanes": "2",
         "name": "Jalan Cikapayang",
         "oneway": "yes",
+        "sidewalk": "no",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -1754,6 +1766,7 @@
         "old_name": "Jalan Layang Pasupati",
         "oneway": "yes",
         "short_name": "Flyover Pasupati",
+        "sidewalk": "no",
         "surface": "asphalt",
         "turn:lanes": "through|slight_right|slight_right"
       }
@@ -2288,8 +2301,8 @@
             -6.8988514
           ],
           [
-            107.6127027,
-            -6.8988485
+            107.6127107,
+            -6.8988505
           ]
         ]
       },
@@ -2302,6 +2315,9 @@
         "lanes": "2",
         "name": "Jalan Cikapayang",
         "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2393,6 +2409,7 @@
         "layer": "1",
         "oneway": "yes",
         "ramp": "yes",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -2504,6 +2521,8 @@
         "lanes": "2",
         "name": "Jalan Cikapayang",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2804,6 +2823,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -3069,6 +3089,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     }

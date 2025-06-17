@@ -88,30 +88,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.4962927,
-          -6.8423604
+          107.4966418,
+          -6.8428228
         ]
       },
       "properties": {
         "id": 11536873492,
         "bus": "yes",
         "name": "Stasiun Kereta Cepat Padalarang",
-        "public_transport": "stop_position"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.6071455,
-          -6.9211653
-        ]
-      },
-      "properties": {
-        "id": 11711275743,
-        "bus": "yes",
-        "name": "Alun-Alun Bandung",
         "public_transport": "stop_position"
       }
     },
@@ -392,22 +376,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.4668097,
-          -6.8663512
-        ]
-      },
-      "properties": {
-        "id": 11955383183,
-        "bus": "yes",
-        "name": "IKEA Kota Baru Parahyangan",
-        "public_transport": "stop_position"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           107.4712124,
           -6.8663744
         ]
@@ -496,6 +464,38 @@
         "id": 12143596539,
         "bus": "yes",
         "name": "Wahoo Waterworld",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4668097,
+          -6.8663512
+        ]
+      },
+      "properties": {
+        "id": 11955383183,
+        "bus": "yes",
+        "name": "IKEA Kota Baru Parahyangan",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6071455,
+          -6.9211653
+        ]
+      },
+      "properties": {
+        "id": 11711275743,
+        "bus": "yes",
+        "name": "Alun-Alun Bandung",
         "public_transport": "stop_position"
       }
     }

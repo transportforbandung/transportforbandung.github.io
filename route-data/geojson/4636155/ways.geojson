@@ -87,7 +87,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Karapitan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -254,7 +255,8 @@
         "avgspeed": "20",
         "highway": "residential",
         "name": "Jalan Lombok",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -277,6 +279,14 @@
           [
             107.6278883,
             -6.9092241
+          ],
+          [
+            107.628258,
+            -6.908846
+          ],
+          [
+            107.6282951,
+            -6.908808
           ],
           [
             107.6283467,
@@ -302,6 +312,7 @@
       },
       "properties": {
         "id": 174303684,
+        "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "2",
         "lanes:backward": "1",
@@ -471,6 +482,10 @@
             -6.8944863
           ],
           [
+            107.6352949,
+            -6.8932799
+          ],
+          [
             107.6353361,
             -6.8931244
           ],
@@ -593,6 +608,7 @@
         "lanes": "2",
         "name": "Jalan Karapitan",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -712,8 +728,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6211665,
-            -6.9092155
+            107.6211747,
+            -6.9092178
           ],
           [
             107.6213352,
@@ -889,7 +905,8 @@
         "id": 318052004,
         "highway": "residential",
         "name": "Jalan Banda",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1281,11 +1298,13 @@
       },
       "properties": {
         "id": 318486202,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
         "surface": "asphalt"
       }
@@ -1336,8 +1355,8 @@
             -6.9092725
           ],
           [
-            107.6211296,
-            -6.9093533
+            107.6211354,
+            -6.9093568
           ]
         ]
       },
@@ -1357,6 +1376,10 @@
           [
             107.6183415,
             -6.911498
+          ],
+          [
+            107.6184317,
+            -6.9111664
           ],
           [
             107.6184728,
@@ -1914,11 +1937,21 @@
         "access": "yes",
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:oneway": "-1",
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Karapitan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:left": "lane",
+        "parking:left:orientation": "diagonal",
+        "parking:right": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -1950,6 +1983,7 @@
         "lanes": "2",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -2188,7 +2222,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Karapitan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2485,12 +2520,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6211296,
-            -6.9093533
+            107.6211354,
+            -6.9093568
           ],
           [
-            107.6211665,
-            -6.9092155
+            107.6211747,
+            -6.9092178
           ]
         ]
       },
@@ -2552,6 +2587,7 @@
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt",
         "turn:lanes": "left|through|through"
       }

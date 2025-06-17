@@ -292,6 +292,7 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
+        "sidewalk": "no",
         "surface": "asphalt",
         "turn:lanes": "reverse"
       }
@@ -328,7 +329,8 @@
         "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Cikawao",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -834,11 +836,15 @@
       "properties": {
         "id": 319195726,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -954,6 +960,7 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "surface": "asphalt",
         "turn:lanes": "left"
       }
@@ -1220,12 +1227,15 @@
       "properties": {
         "id": 331562852,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1469,12 +1479,15 @@
       "properties": {
         "id": 704744284,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1740,11 +1753,14 @@
       "properties": {
         "id": 1113383849,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "through|through|reverse"
       }

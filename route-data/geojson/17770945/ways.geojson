@@ -90,12 +90,15 @@
       "properties": {
         "id": 223676221,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -244,11 +247,14 @@
       "properties": {
         "id": 318053628,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Laswi",
         "oneway": "yes",
         "ref": "377",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -559,12 +565,16 @@
       },
       "properties": {
         "id": 318899766,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -597,12 +607,16 @@
       },
       "properties": {
         "id": 318899767,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -640,6 +654,7 @@
       "properties": {
         "id": 319195734,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
@@ -691,6 +706,7 @@
       "properties": {
         "id": 319195735,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "destination": "Simpang Talaga Bodas",
         "destination:lanes": "Talaga Bodas;Palasari|Gatot Subroto;Simpang Lima;Binong|Laswi;Sukabumi;Riau",
         "highway": "primary",
@@ -698,6 +714,8 @@
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "left|through|through"
       }
@@ -720,13 +738,17 @@
       "properties": {
         "id": 320642744,
         "bridge": "yes",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -755,12 +777,16 @@
       },
       "properties": {
         "id": 320642745,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1084,6 +1110,7 @@
         "lanes": "3",
         "name": "Jalan Laswi",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "377",
         "surface": "asphalt",
         "turn:lanes": "through|through|right"
@@ -1219,12 +1246,16 @@
       },
       "properties": {
         "id": 340405403,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1288,6 +1319,7 @@
       "properties": {
         "id": 446104213,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "destination": "Simpang Martanegara",
         "destination:lanes": "Palasari;Sadakeling;Burangrang|Talaga Bodas;Gatot Subroto;Laswi|Talaga Bodas;Gatot Subroto;Laswi|Maskumambang;Reog;Turangga",
         "highway": "primary",
@@ -1295,6 +1327,8 @@
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_left|through|through|right"
       }
@@ -1324,6 +1358,7 @@
       },
       "properties": {
         "id": 446104214,
+        "cycleway:both": "no",
         "destination": "Martanegara;Gatot Subroto;Seskoad;Laswi",
         "foot": "no",
         "highway": "primary",
@@ -1492,6 +1527,7 @@
       "properties": {
         "id": 559358429,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Laswi",
@@ -1519,12 +1555,14 @@
         "id": 559358430,
         "avgspeed": "30",
         "bridge": "yes",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Laswi",
         "oneway": "yes",
         "ref": "377",
+        "smoothness": "good",
         "surface": "asphalt"
       }
     },
@@ -1687,12 +1725,15 @@
       "properties": {
         "id": 704744286,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "left;through|through"
       }
@@ -1840,13 +1881,16 @@
       "properties": {
         "id": 868603519,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "destination:lanes": "Cikudapateuh;Kosambi;Simpang Lima;Asia Afrika|Riau;Aceh;Taman Pramuka;Ciliwung|Supratman;Cicadas;Cicaheum",
         "destination:ref:lanes": "||378",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Laswi",
         "oneway": "yes",
         "ref": "377",
+        "sidewalk": "left",
         "surface": "asphalt",
         "turn:lanes": "slight_left;through|through|right"
       }
@@ -1903,9 +1947,12 @@
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1996,12 +2043,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6272531,
-            -6.9263701
+            107.6272761,
+            -6.9262788
           ],
           [
-            107.6272658,
-            -6.9263152
+            107.6272923,
+            -6.9262116
           ]
         ]
       },
@@ -2028,8 +2075,8 @@
             -6.9265942
           ],
           [
-            107.6272531,
-            -6.9263701
+            107.6272761,
+            -6.9262788
           ]
         ]
       },
@@ -2280,7 +2327,8 @@
         "lit": "yes",
         "name": "Jalan Peta",
         "oneway": "yes",
-        "ref": "374"
+        "ref": "374",
+        "surface": "asphalt"
       }
     },
     {
@@ -2319,12 +2367,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.628628,
-            -6.9230919
+            107.6286213,
+            -6.9230879
           ],
           [
-            107.6286681,
-            -6.9230526
+            107.6286654,
+            -6.9230633
           ]
         ]
       },
@@ -2347,8 +2395,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6286681,
-            -6.9230526
+            107.6286654,
+            -6.9230633
           ],
           [
             107.6287879,
@@ -2391,6 +2439,7 @@
       "properties": {
         "id": 1111809097,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Laswi",
@@ -2437,11 +2486,13 @@
       "properties": {
         "id": 1111809098,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Laswi",
         "oneway": "yes",
         "ref": "377",
+        "smoothness": "good",
         "surface": "asphalt"
       }
     },
@@ -2463,6 +2514,7 @@
       "properties": {
         "id": 1113135847,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "destination:lanes": "Gatot Subroto;Simpang Lima|Gatot Subroto;Sesko AD;Kiaracondong|Laswi;Ahmad Yani;Riau",
         "highway": "primary",
         "lanes": "3",
@@ -2511,11 +2563,14 @@
       "properties": {
         "id": 1113383849,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "through|through|reverse"
       }
@@ -2541,12 +2596,16 @@
       },
       "properties": {
         "id": 1113396460,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2576,6 +2635,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "378",
         "surface": "asphalt"
       }
@@ -2639,36 +2699,48 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6272658,
-            -6.9263152
+            107.6272923,
+            -6.9262116
           ],
           [
             107.6276211,
             -6.9249504
           ],
           [
-            107.6278169,
-            -6.9242262
+            107.6277982,
+            -6.9242181
           ],
           [
-            107.6279175,
-            -6.923876
+            107.6278758,
+            -6.9239774
           ],
           [
-            107.6280744,
-            -6.9236071
+            107.6279698,
+            -6.9237575
           ],
           [
-            107.628234,
-            -6.9234154
+            107.628065,
+            -6.9236058
           ],
           [
-            107.6285505,
-            -6.9231465
+            107.628179,
+            -6.9234647
           ],
           [
-            107.628628,
-            -6.9230919
+            107.6283029,
+            -6.9233416
+          ],
+          [
+            107.6284403,
+            -6.9232203
+          ],
+          [
+            107.6285451,
+            -6.9231425
+          ],
+          [
+            107.6286213,
+            -6.9230879
           ]
         ]
       },
@@ -2677,13 +2749,17 @@
         "alt_name": "Flyover Laswi - Pelajar Pejuang 45",
         "bicycle": "no",
         "bridge": "yes",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
+        "lit": "yes",
         "name": "Jalan Layang Laswi - Pelajar Pejuang 45",
         "name:en": "Laswi - Pelajar Pejuang 45 Flyover",
+        "parking:both": "no",
         "ref": "376;377",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -2738,6 +2814,7 @@
       "properties": {
         "id": 1211273262,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "destination:lanes": "Ahmad Yani;Riau;Kosambi|Ahmad Yani;Riau;Kosambi|Ahmad Yani;Cicadas;Kiaracondong",
         "highway": "primary",
         "lanes": "3",
@@ -2781,12 +2858,16 @@
       },
       "properties": {
         "id": 1211277642,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_left|through|through"
       }
@@ -2816,12 +2897,16 @@
       },
       "properties": {
         "id": 1211277644,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "left;through|through|right"
       }
@@ -2882,6 +2967,7 @@
       "properties": {
         "id": 1225789973,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "destination:lanes": "Ahmad Yani;Riau;Kosambi|Ahmad Yani;Riau;Kosambi|Ahmad Yani;Cicadas;Kiaracondong",
         "highway": "primary",
         "lanes": "3",

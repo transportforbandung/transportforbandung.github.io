@@ -127,7 +127,8 @@
         "old_name": "Jalan Arab Bumiputera Cina",
         "old_name:nl": "Arabieren Boemipoetra und Chinezen Straat",
         "oneway": "yes",
-        "sidewalk": "separate"
+        "sidewalk": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -313,11 +314,14 @@
       "properties": {
         "id": 19377661,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Raya Cileunyi",
         "oneway": "yes",
         "ref": "11",
+        "surface": "asphalt",
         "turn:lanes": "slight_left|slight_left;slight_right|slight_right"
       }
     },
@@ -403,56 +407,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7197006,
-            -6.9348205
-          ],
-          [
-            107.7198341,
-            -6.9347993
-          ],
-          [
-            107.7199175,
-            -6.934786
-          ],
-          [
-            107.7202866,
-            -6.9347224
-          ],
-          [
-            107.7203229,
-            -6.9347131
-          ],
-          [
-            107.7203848,
-            -6.9347037
-          ],
-          [
-            107.7207772,
-            -6.9346359
-          ],
-          [
-            107.7209059,
-            -6.9345961
-          ],
-          [
-            107.7211706,
-            -6.9344846
-          ],
-          [
-            107.7211896,
-            -6.9344756
-          ],
-          [
-            107.7214743,
-            -6.9343315
-          ],
-          [
-            107.7215528,
-            -6.9342906
-          ],
-          [
-            107.7217658,
-            -6.9341795
+            107.7220243,
+            -6.9340522
           ],
           [
             107.722282,
@@ -467,8 +423,8 @@
             -6.9337043
           ],
           [
-            107.7230116,
-            -6.933531
+            107.723025,
+            -6.933527
           ],
           [
             107.7236581,
@@ -698,7 +654,8 @@
         "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Mohammad Toha",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -776,7 +733,8 @@
         "name:nl": "ABC Straat",
         "old_name": "Jalan Arab Bumiputera Cina",
         "old_name:nl": "Arabieren Boemipoetra und Chinezen Straat",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -910,8 +868,10 @@
       "properties": {
         "id": 183178893,
         "highway": "trunk",
+        "lit": "no",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "sidewalk": "left"
       }
     },
     {
@@ -1000,6 +960,7 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
+        "sidewalk": "no",
         "surface": "asphalt",
         "turn:lanes": "reverse"
       }
@@ -1036,7 +997,8 @@
         "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Cikawao",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1313,6 +1275,7 @@
       "properties": {
         "id": 255641086,
         "highway": "trunk",
+        "lanes": "2",
         "ref": "11"
       }
     },
@@ -2711,7 +2674,9 @@
       "properties": {
         "id": 316907701,
         "highway": "trunk",
-        "ref": "11"
+        "lanes": "2",
+        "ref": "11",
+        "surface": "asphalt"
       }
     },
     {
@@ -3055,11 +3020,15 @@
       "properties": {
         "id": 319195726,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -3175,6 +3144,7 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "surface": "asphalt",
         "turn:lanes": "left"
       }
@@ -3724,6 +3694,7 @@
       },
       "properties": {
         "id": 330757701,
+        "cycleway:both": "no",
         "destination": "Sumedang;Majalengka;Cirebon",
         "highway": "trunk",
         "lanes": "2",
@@ -3731,6 +3702,7 @@
         "oneway": "yes",
         "ref": "11",
         "source": "Bing",
+        "surface": "asphalt",
         "turn:lanes": "through|through"
       }
     },
@@ -3923,11 +3895,16 @@
       },
       "properties": {
         "id": 330757702,
+        "cycleway:both": "no",
         "highway": "trunk",
+        "lit": "yes",
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "11",
-        "source": "Bing"
+        "sidewalk": "left",
+        "source": "Bing",
+        "surface": "asphalt"
       }
     },
     {
@@ -4316,12 +4293,15 @@
       "properties": {
         "id": 331562852,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -4371,9 +4351,11 @@
       "properties": {
         "id": 340403800,
         "highway": "trunk",
+        "lit": "no",
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
+        "sidewalk": "both",
         "source": "Bing"
       }
     },
@@ -4705,8 +4687,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7573864,
-            -6.937727
+            107.7573448,
+            -6.9377337
           ],
           [
             107.757483,
@@ -4718,11 +4700,13 @@
         "id": 689946682,
         "bridge": "yes",
         "highway": "trunk",
+        "lanes": "2",
         "layer": "1",
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
-        "source": "Bing"
+        "source": "Bing",
+        "surface": "asphalt"
       }
     },
     {
@@ -4739,18 +4723,21 @@
             -6.9377907
           ],
           [
-            107.7573864,
-            -6.937727
+            107.7573448,
+            -6.9377337
           ]
         ]
       },
       "properties": {
         "id": 689946685,
+        "cycleway:both": "no",
         "highway": "trunk",
+        "lanes": "2",
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
-        "source": "Bing"
+        "source": "Bing",
+        "surface": "asphalt"
       }
     },
     {
@@ -4897,12 +4884,15 @@
       "properties": {
         "id": 704744284,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -5030,12 +5020,12 @@
             -6.9330746
           ],
           [
-            107.7718032,
-            -6.9330569
+            107.7718028,
+            -6.9330593
           ],
           [
-            107.7719379,
-            -6.9329884
+            107.7718574,
+            -6.9330345
           ],
           [
             107.7721153,
@@ -5053,11 +5043,17 @@
       },
       "properties": {
         "id": 734029153,
+        "cycleway:both": "no",
         "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "11",
-        "source": "Bing"
+        "sidewalk": "both",
+        "source": "Bing",
+        "surface": "concrete"
       }
     },
     {
@@ -5572,11 +5568,14 @@
       "properties": {
         "id": 1113383849,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "through|through|reverse"
       }
@@ -5728,11 +5727,16 @@
       },
       "properties": {
         "id": 1158286009,
+        "cycleway:both": "no",
         "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
-        "source": "Bing"
+        "sidewalk": "both",
+        "source": "Bing",
+        "surface": "concrete"
       }
     },
     {
@@ -5784,11 +5788,16 @@
       },
       "properties": {
         "id": 1158286010,
+        "cycleway:both": "no",
         "highway": "trunk",
+        "lane_markings": "no",
+        "lit": "yes",
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
-        "source": "Bing"
+        "sidewalk": "right",
+        "source": "Bing",
+        "surface": "concrete"
       }
     },
     {
@@ -7374,7 +7383,9 @@
       "properties": {
         "id": 1280201532,
         "highway": "trunk",
-        "ref": "11"
+        "lanes": "2",
+        "ref": "11",
+        "surface": "asphalt"
       }
     },
     {
@@ -7791,6 +7802,104 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.7197006,
+            -6.9348205
+          ],
+          [
+            107.7198341,
+            -6.9347993
+          ],
+          [
+            107.7199175,
+            -6.934786
+          ],
+          [
+            107.7202866,
+            -6.9347224
+          ],
+          [
+            107.7203229,
+            -6.9347131
+          ],
+          [
+            107.7203848,
+            -6.9347037
+          ],
+          [
+            107.7207772,
+            -6.9346359
+          ],
+          [
+            107.7209059,
+            -6.9345961
+          ],
+          [
+            107.7211706,
+            -6.9344846
+          ],
+          [
+            107.7211896,
+            -6.9344756
+          ],
+          [
+            107.7214743,
+            -6.9343315
+          ],
+          [
+            107.7215528,
+            -6.9342906
+          ],
+          [
+            107.7217658,
+            -6.9341795
+          ],
+          [
+            107.7219508,
+            -6.9340884
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1389473794,
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Jalan Raya Cibiru",
+        "ref": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.7219508,
+            -6.9340884
+          ],
+          [
+            107.7220243,
+            -6.9340522
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1389473795,
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "1",
+        "name": "Jalan Raya Cibiru",
+        "ref": "11"
       }
     }
   ]

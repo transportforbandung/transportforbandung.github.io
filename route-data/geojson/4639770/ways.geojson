@@ -239,6 +239,7 @@
         "lanes": "3",
         "name": "Jalan Cihampelas",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "smoothness": "intermediate",
         "source": "S2City_POI_2022",
         "surface": "asphalt",
@@ -602,16 +603,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6088785,
-            -6.9103019
+            107.6088855,
+            -6.9102984
           ],
           [
             107.6088445,
             -6.9102299
           ],
           [
-            107.6087817,
-            -6.9101077
+            107.6087639,
+            -6.910086
           ],
           [
             107.608484,
@@ -635,6 +636,7 @@
         "name": "Jalan Wastukencana",
         "oneway": "no",
         "sidewalk": "separate",
+        "smoothness": "intermediate",
         "surface": "asphalt"
       }
     },
@@ -721,6 +723,7 @@
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt",
         "turn:lanes": "through|through|right"
       }
@@ -781,6 +784,8 @@
         "lanes": "2",
         "name": "Jalan Cihampelas",
         "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
         "surface": "asphalt",
         "turn:lanes": "right|"
       }
@@ -1166,24 +1171,20 @@
             -6.9065641
           ],
           [
-            107.5979724,
-            -6.9065929
+            107.5979786,
+            -6.9065883
           ],
           [
-            107.5982086,
-            -6.9066577
+            107.5982101,
+            -6.9066424
           ],
           [
-            107.5983319,
-            -6.9066735
+            107.5983334,
+            -6.9066643
           ],
           [
-            107.5988139,
-            -6.9067333
-          ],
-          [
-            107.598834,
-            -6.9067352
+            107.5987941,
+            -6.906746
           ]
         ]
       },
@@ -1250,8 +1251,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6092078,
-            -6.910294
+            107.6092148,
+            -6.9103044
           ],
           [
             107.6097021,
@@ -1537,8 +1538,12 @@
             -6.9070909
           ],
           [
-            107.6042739,
-            -6.9071474
+            107.6042719,
+            -6.9071615
+          ],
+          [
+            107.6043341,
+            -6.9071602
           ],
           [
             107.6043882,
@@ -1557,6 +1562,7 @@
         "name": "Jalan Pajajaran",
         "oneway": "yes",
         "ref": "371",
+        "surface": "asphalt",
         "turn:lanes": "left|left;right|right"
       }
     },
@@ -2913,12 +2919,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.598834,
-            -6.9067352
+            107.5987941,
+            -6.906746
           ],
           [
-            107.5992128,
-            -6.9067863
+            107.5992067,
+            -6.9068065
           ],
           [
             107.599567,
@@ -2977,12 +2983,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6088785,
-            -6.9103019
+            107.6088855,
+            -6.9102984
           ],
           [
-            107.6092078,
-            -6.910294
+            107.609,
+            -6.9103037
+          ],
+          [
+            107.6091291,
+            -6.9103088
+          ],
+          [
+            107.6092148,
+            -6.9103044
           ]
         ]
       },
@@ -3418,6 +3432,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "378",
         "surface": "asphalt"
       }

@@ -494,6 +494,7 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -1503,6 +1504,7 @@
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
+        "sidewalk:left": "separate",
         "surface": "asphalt"
       }
     },
@@ -1905,7 +1907,8 @@
         "lit": "yes",
         "name": "Jalan Peta",
         "oneway": "yes",
-        "ref": "374"
+        "ref": "374",
+        "surface": "asphalt"
       }
     },
     {

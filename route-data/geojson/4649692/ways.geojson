@@ -344,7 +344,8 @@
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "surface": "asphalt"
       }
     },
     {
@@ -407,7 +408,7 @@
           ],
           [
             107.6443899,
-            -6.9243229
+            -6.9243224
           ],
           [
             107.6443872,
@@ -698,13 +699,15 @@
       },
       "properties": {
         "id": 561398080,
+        "cycleway:both": "no",
         "destination:lanes": "Kurdi;Tegallega;Lingkar Selatan;Inggit Ganarsih|Batununggal;Buahbatu;Kiaracondong;Cibiru|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot",
         "destination:ref:lanes": "161|11|161;4;;",
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "surface": "asphalt"
       }
     },
     {
@@ -1239,7 +1242,8 @@
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "surface": "asphalt"
       }
     },
     {
@@ -1502,6 +1506,7 @@
       },
       "properties": {
         "id": 1088664796,
+        "cycleway:both": "no",
         "destination:lanes": "Batununggal;Buahbatu;Kiaracondong;Cibiru|Batununggal;Buahbatu;Kiaracondong;Cibiru|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot",
         "destination:ref:lanes": "11|11|161;4;;",
         "highway": "trunk",
@@ -1509,6 +1514,7 @@
         "name": "Jalan Soekarno-Hatta",
         "oneway": "yes",
         "ref": "11",
+        "surface": "asphalt",
         "turn:lanes": "through|through|right"
       }
     },

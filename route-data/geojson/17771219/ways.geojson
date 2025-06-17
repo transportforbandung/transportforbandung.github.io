@@ -127,7 +127,8 @@
         "old_name": "Jalan Arab Bumiputera Cina",
         "old_name:nl": "Arabieren Boemipoetra und Chinezen Straat",
         "oneway": "yes",
-        "sidewalk": "separate"
+        "sidewalk": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -408,7 +409,8 @@
         "name:nl": "ABC Straat",
         "old_name": "Jalan Arab Bumiputera Cina",
         "old_name:nl": "Arabieren Boemipoetra und Chinezen Straat",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -646,6 +648,7 @@
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt",
         "turn:lanes": "through|through|right"
       }
@@ -4640,6 +4643,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "378",
         "surface": "asphalt"
       }

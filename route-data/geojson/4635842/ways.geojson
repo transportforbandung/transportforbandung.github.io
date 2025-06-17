@@ -663,6 +663,14 @@
             -6.9092241
           ],
           [
+            107.628258,
+            -6.908846
+          ],
+          [
+            107.6282951,
+            -6.908808
+          ],
+          [
             107.6283467,
             -6.9087552
           ],
@@ -686,6 +694,7 @@
       },
       "properties": {
         "id": 174303684,
+        "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "2",
         "lanes:backward": "1",
@@ -708,6 +717,10 @@
           [
             107.6139821,
             -6.9147604
+          ],
+          [
+            107.6139894,
+            -6.9147065
           ],
           [
             107.6139967,
@@ -770,6 +783,7 @@
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -1075,8 +1089,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6211665,
-            -6.9092155
+            107.6211747,
+            -6.9092178
           ],
           [
             107.6213352,
@@ -1317,12 +1331,15 @@
       },
       "properties": {
         "id": 318100674,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -1405,8 +1422,8 @@
             -6.9092725
           ],
           [
-            107.6211296,
-            -6.9093533
+            107.6211354,
+            -6.9093568
           ]
         ]
       },
@@ -1426,6 +1443,10 @@
           [
             107.6183415,
             -6.911498
+          ],
+          [
+            107.6184317,
+            -6.9111664
           ],
           [
             107.6184728,
@@ -1528,12 +1549,15 @@
       },
       "properties": {
         "id": 319178849,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -1810,13 +1834,16 @@
       },
       "properties": {
         "id": 321085761,
+        "cycleway:both": "no",
         "destination:lanes": "Riau;Aceh;Gandapura|Cilaki;Katamso;Cisadea",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
+        "sidewalk": "both",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_right"
       }
@@ -1883,11 +1910,14 @@
       "properties": {
         "id": 330648969,
         "avgspeed": "20",
+        "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Taman Pramuka",
         "name:en": "Scouts Park Boulevard",
         "oneway": "yes",
+        "sidewalk": "right",
         "surface": "asphalt"
       }
     },
@@ -2324,12 +2354,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6211296,
-            -6.9093533
+            107.6211354,
+            -6.9093568
           ],
           [
-            107.6211665,
-            -6.9092155
+            107.6211747,
+            -6.9092178
           ]
         ]
       },
@@ -2367,6 +2397,7 @@
       },
       "properties": {
         "id": 778206501,
+        "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Cendana",
@@ -2455,6 +2486,7 @@
       },
       "properties": {
         "id": 1072146131,
+        "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Cendana",

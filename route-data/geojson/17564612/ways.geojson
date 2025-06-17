@@ -577,6 +577,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -603,6 +604,7 @@
         "lanes": "2",
         "name": "Jalan Prabudimuntur",
         "oneway": "yes",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -710,7 +712,9 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Cikapayang",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -739,6 +743,7 @@
         "old_name": "Jalan Layang Pasupati",
         "oneway": "yes",
         "short_name": "Flyover Pasupati",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -777,6 +782,9 @@
         "lanes": "2",
         "name": "Jalan Prabu Dimuntur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "smoothness": "good",
         "surface": "asphalt"
       }
     },
@@ -1027,12 +1035,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6127772,
+            107.6127842,
             -6.8990757
           ],
           [
-            107.6126895,
-            -6.8990737
+            107.6126994,
+            -6.8990743
           ]
         ]
       },
@@ -1421,12 +1429,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6191325,
-            -6.8993561
-          ],
-          [
-            107.6190893,
-            -6.8993576
+            107.618078,
+            -6.8993781
           ],
           [
             107.6180305,
@@ -1455,6 +1459,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "yes",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -1650,11 +1655,13 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
+        "lit": "yes",
         "name": "Jalan Layang Professor Mochtar Kusumaatmadja",
         "official_name": "Jalan Layang Professor Mochtar Kusumaatmadja",
         "old_name": "Jalan Layang Pasupati",
         "oneway": "yes",
         "short_name": "Flyover Pasupati",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -1693,6 +1700,7 @@
         "old_name": "Jalan Layang Pasupati",
         "oneway": "yes",
         "short_name": "Flyover Pasupati",
+        "sidewalk": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_right|slight_right"
       }
@@ -1746,6 +1754,7 @@
         "layer": "1",
         "oneway": "yes",
         "ramp": "yes",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -2140,7 +2149,7 @@
             -6.8990781
           ],
           [
-            107.6127772,
+            107.6127842,
             -6.8990757
           ]
         ]
@@ -2153,6 +2162,8 @@
         "lanes": "2",
         "name": "Jalan Prabu Dimuntur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
         "surface": "asphalt"
       }
     },
@@ -2189,8 +2200,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6126895,
-            -6.8990737
+            107.6126994,
+            -6.8990743
           ],
           [
             107.6125878,
@@ -2224,6 +2235,8 @@
         "lanes": "2",
         "name": "Jalan Cikapayang",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2555,6 +2568,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -2962,6 +2976,40 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6191325,
+            -6.8993561
+          ],
+          [
+            107.6190893,
+            -6.8993576
+          ],
+          [
+            107.618078,
+            -6.8993781
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1391905039,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     }

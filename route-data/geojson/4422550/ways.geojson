@@ -219,6 +219,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -335,8 +336,8 @@
             -6.8951878
           ],
           [
-            107.6139978,
-            -6.8948556
+            107.6139998,
+            -6.8949464
           ]
         ]
       },
@@ -345,6 +346,7 @@
         "access": "yes",
         "highway": "residential",
         "name": "Jalan Kyai Gede Utama",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -1166,8 +1168,8 @@
             -6.8931739
           ],
           [
-            107.6354254,
-            -6.8933178
+            107.6354258,
+            -6.8933137
           ],
           [
             107.6353388,
@@ -2749,6 +2751,7 @@
         "cycleway:right:lane": "advisory",
         "highway": "residential",
         "name": "Jalan Penata Yudha",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -3623,23 +3626,26 @@
         "coordinates": [
           [
             107.6144033,
-            -6.8948278
+            -6.8948409
           ],
           [
             107.6143207,
-            -6.8948258
+            -6.8948409
           ],
           [
             107.613998,
-            -6.8948183
+            -6.8948395
           ]
         ]
       },
       "properties": {
         "id": 1222381635,
         "avgspeed": "20",
+        "cycleway:both": "no",
         "highway": "tertiary",
+        "lane_markings": "no",
         "name": "Jalan Hasanudin",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -3703,12 +3709,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6139978,
-            -6.8948556
+            107.6139998,
+            -6.8949464
           ],
           [
             107.613998,
-            -6.8948183
+            -6.8948395
           ]
         ]
       },
@@ -3968,6 +3974,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },

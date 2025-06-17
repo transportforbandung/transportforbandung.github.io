@@ -176,11 +176,14 @@
       "properties": {
         "id": 19377661,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Raya Cileunyi",
         "oneway": "yes",
         "ref": "11",
+        "surface": "asphalt",
         "turn:lanes": "slight_left|slight_left;slight_right|slight_right"
       }
     },
@@ -292,56 +295,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7197006,
-            -6.9348205
-          ],
-          [
-            107.7198341,
-            -6.9347993
-          ],
-          [
-            107.7199175,
-            -6.934786
-          ],
-          [
-            107.7202866,
-            -6.9347224
-          ],
-          [
-            107.7203229,
-            -6.9347131
-          ],
-          [
-            107.7203848,
-            -6.9347037
-          ],
-          [
-            107.7207772,
-            -6.9346359
-          ],
-          [
-            107.7209059,
-            -6.9345961
-          ],
-          [
-            107.7211706,
-            -6.9344846
-          ],
-          [
-            107.7211896,
-            -6.9344756
-          ],
-          [
-            107.7214743,
-            -6.9343315
-          ],
-          [
-            107.7215528,
-            -6.9342906
-          ],
-          [
-            107.7217658,
-            -6.9341795
+            107.7220243,
+            -6.9340522
           ],
           [
             107.722282,
@@ -356,8 +311,8 @@
             -6.9337043
           ],
           [
-            107.7230116,
-            -6.933531
+            107.723025,
+            -6.933527
           ],
           [
             107.7236581,
@@ -571,6 +526,7 @@
         "avgspeed": "70",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "maxspeed": "80",
         "name": "Jalan Sindangsari",
         "oneway": "yes",
@@ -680,11 +636,16 @@
       },
       "properties": {
         "id": 255641092,
+        "cycleway:both": "no",
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "motorcycle": "yes",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "sidewalk": "no",
+        "surface": "concrete"
       }
     },
     {
@@ -934,6 +895,7 @@
       },
       "properties": {
         "id": 330757700,
+        "cycleway:both": "no",
         "destination": "Sumedang;Purbaleunyi;Garut;Tasikmalaya",
         "destination:ref": "4;13",
         "destination:symbol": "motorway;motorway;;",
@@ -2046,11 +2008,15 @@
       },
       "properties": {
         "id": 1079472297,
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "motorcycle": "yes",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "sidewalk": "no",
+        "surface": "concrete"
       }
     },
     {
@@ -3743,6 +3709,7 @@
         "destination:symbol:lanes": "||motorway|motorway",
         "highway": "trunk",
         "lanes": "4",
+        "lit": "no",
         "maxspeed": "80",
         "name": "Jalan Sindangsari",
         "oneway": "yes",
@@ -4130,11 +4097,15 @@
       },
       "properties": {
         "id": 1301025630,
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "motorcycle": "yes",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "sidewalk": "no",
+        "surface": "concrete"
       }
     },
     {
@@ -4231,6 +4202,104 @@
         "name": "Jalan Abdul Haris Nasution",
         "oneway": "no",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.7197006,
+            -6.9348205
+          ],
+          [
+            107.7198341,
+            -6.9347993
+          ],
+          [
+            107.7199175,
+            -6.934786
+          ],
+          [
+            107.7202866,
+            -6.9347224
+          ],
+          [
+            107.7203229,
+            -6.9347131
+          ],
+          [
+            107.7203848,
+            -6.9347037
+          ],
+          [
+            107.7207772,
+            -6.9346359
+          ],
+          [
+            107.7209059,
+            -6.9345961
+          ],
+          [
+            107.7211706,
+            -6.9344846
+          ],
+          [
+            107.7211896,
+            -6.9344756
+          ],
+          [
+            107.7214743,
+            -6.9343315
+          ],
+          [
+            107.7215528,
+            -6.9342906
+          ],
+          [
+            107.7217658,
+            -6.9341795
+          ],
+          [
+            107.7219508,
+            -6.9340884
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1389473794,
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "4",
+        "name": "Jalan Raya Cibiru",
+        "ref": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.7219508,
+            -6.9340884
+          ],
+          [
+            107.7220243,
+            -6.9340522
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1389473795,
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "4",
+        "layer": "1",
+        "name": "Jalan Raya Cibiru",
+        "ref": "11"
       }
     }
   ]

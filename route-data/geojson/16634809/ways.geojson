@@ -39,6 +39,7 @@
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
         "oneway": "yes",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -101,8 +102,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6031066,
-            -6.9160901
+            107.6031079,
+            -6.9160834
           ],
           [
             107.6031124,
@@ -252,7 +253,8 @@
         "old_name": "Jalan Arab Bumiputera Cina",
         "old_name:nl": "Arabieren Boemipoetra und Chinezen Straat",
         "oneway": "yes",
-        "sidewalk": "separate"
+        "sidewalk": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -590,7 +592,8 @@
         "name:nl": "ABC Straat",
         "old_name": "Jalan Arab Bumiputera Cina",
         "old_name:nl": "Arabieren Boemipoetra und Chinezen Straat",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1139,12 +1142,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6027054,
-            -6.916124
+            107.6027081,
+            -6.91612
           ],
           [
-            107.6031066,
-            -6.9160901
+            107.6031079,
+            -6.9160834
           ]
         ]
       },
@@ -1164,16 +1167,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6024135,
-            -6.9161558
+            107.6024001,
+            -6.9161478
           ],
           [
-            107.6025153,
-            -6.9161423
+            107.6025166,
+            -6.916137
           ],
           [
-            107.6027054,
-            -6.916124
+            107.6027081,
+            -6.91612
           ]
         ]
       },
@@ -1433,13 +1436,18 @@
       "properties": {
         "id": 319195725,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "destination": "Simpang Martanegara",
         "destination:lanes": "Martanegara;Turangga|Buahbatu;BKR;Tegallega|Lodaya;Palasari;Burangrang",
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "turn:lanes": "slight_left|through|through;right"
       }
@@ -3334,12 +3342,15 @@
       "properties": {
         "id": 1211273255,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "destination": "Simpang Martanegara",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },

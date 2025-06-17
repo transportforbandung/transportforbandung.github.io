@@ -87,14 +87,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6174318,
-            -6.8947388
-          ],
-          [
-            107.6166325,
-            -6.894853
-          ],
-          [
             107.6160516,
             -6.8948686
           ],
@@ -119,8 +111,12 @@
       "properties": {
         "id": 4623282,
         "avgspeed": "20",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "name": "Jalan Hasanudin",
+        "parking:both": "on_kerb",
+        "parking:both:orientation": "perpendicular",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -179,7 +175,9 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Cikapayang",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -292,8 +290,8 @@
             -6.8937515
           ],
           [
-            107.6129531,
-            -6.8937553
+            107.6129903,
+            -6.8937658
           ]
         ]
       },
@@ -557,6 +555,10 @@
             -6.9147604
           ],
           [
+            107.6139894,
+            -6.9147065
+          ],
+          [
             107.6139967,
             -6.9146525
           ],
@@ -617,6 +619,7 @@
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -749,6 +752,7 @@
         "motor_vehicle": "yes",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -953,6 +957,7 @@
         "lanes": "3",
         "name": "Jalan Veteran",
         "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "left|through|through"
       }
     },
@@ -1092,6 +1097,7 @@
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt",
         "turn:lanes": "through|through|right"
       }
@@ -1221,7 +1227,9 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Cikapayang",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -1392,7 +1400,7 @@
             -6.9069963
           ],
           [
-            107.6106152,
+            107.6106132,
             -6.9069907
           ]
         ]
@@ -1476,16 +1484,16 @@
             -6.906873
           ],
           [
-            107.6103621,
-            -6.9069583
+            107.6103896,
+            -6.9069656
           ],
           [
             107.6104091,
             -6.9069683
           ],
           [
-            107.6105477,
-            -6.9069871
+            107.6105447,
+            -6.9069881
           ]
         ]
       },
@@ -1789,20 +1797,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6128867,
-            -6.8947892
+            107.6129119,
+            -6.8948019
           ],
           [
-            107.6129072,
-            -6.8944564
+            107.6129302,
+            -6.8944643
           ],
           [
-            107.6129213,
-            -6.8942282
+            107.6129461,
+            -6.8942291
           ],
           [
-            107.6129531,
-            -6.8937553
+            107.6129903,
+            -6.8937658
           ]
         ]
       },
@@ -1820,6 +1828,7 @@
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
@@ -2232,36 +2241,38 @@
         "coordinates": [
           [
             107.613998,
-            -6.8948183
+            -6.8948395
           ],
           [
-            107.6134866,
-            -6.8948063
+            107.6134856,
+            -6.8948285
           ],
           [
             107.6134343,
-            -6.8948051
+            -6.8948263
           ],
           [
             107.6133011,
-            -6.8948011
+            -6.8948223
           ],
           [
-            107.6130505,
-            -6.8947991
+            107.6130485,
+            -6.8948092
           ],
           [
-            107.6129884,
-            -6.894795
+            107.6129665,
+            -6.8948049
           ]
         ]
       },
       "properties": {
         "id": 318732962,
         "avgspeed": "20",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Jalan Hasanudin",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -2271,12 +2282,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6129884,
-            -6.894795
+            107.6129665,
+            -6.8948049
           ],
           [
-            107.6128867,
-            -6.8947892
+            107.6129119,
+            -6.8948019
           ]
         ]
       },
@@ -2590,6 +2601,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -3113,12 +3126,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6106152,
+            107.6106132,
             -6.9069907
           ],
           [
-            107.6105477,
-            -6.9069871
+            107.6105447,
+            -6.9069881
           ]
         ]
       },
@@ -3130,6 +3143,7 @@
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
         "sidewalk": "separate",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -4226,6 +4240,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "378",
         "surface": "asphalt"
       }
@@ -4773,15 +4788,20 @@
           ],
           [
             107.6144033,
-            -6.8948278
+            -6.8948409
           ]
         ]
       },
       "properties": {
         "id": 1222381629,
         "avgspeed": "20",
+        "cycleway:both": "no",
         "highway": "tertiary",
+        "lane_markings": "no",
         "name": "Jalan Hasanudin",
+        "parking:left": "no",
+        "parking:right": "half_on_kerb",
+        "parking:right:orientation": "parallel",
         "surface": "asphalt"
       }
     },
@@ -4792,23 +4812,26 @@
         "coordinates": [
           [
             107.6144033,
-            -6.8948278
+            -6.8948409
           ],
           [
             107.6143207,
-            -6.8948258
+            -6.8948409
           ],
           [
             107.613998,
-            -6.8948183
+            -6.8948395
           ]
         ]
       },
       "properties": {
         "id": 1222381635,
         "avgspeed": "20",
+        "cycleway:both": "no",
         "highway": "tertiary",
+        "lane_markings": "no",
         "name": "Jalan Hasanudin",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -4921,7 +4944,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Veteran",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -5143,6 +5167,39 @@
         "id": 1384237418,
         "highway": "residential",
         "name": "Jalan Anthorium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6174318,
+            -6.8947388
+          ],
+          [
+            107.6166325,
+            -6.894853
+          ],
+          [
+            107.6160516,
+            -6.8948686
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1390136500,
+        "avgspeed": "20",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "name": "Jalan Hasanudin",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "sidewalk": "no",
+        "surface": "asphalt"
       }
     }
   ]

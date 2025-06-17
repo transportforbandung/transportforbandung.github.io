@@ -101,16 +101,16 @@
             -6.9162099
           ],
           [
-            107.6016247,
-            -6.9162094
+            107.6016262,
+            -6.916191
           ],
           [
-            107.6019524,
-            -6.9161976
+            107.6019595,
+            -6.9161867
           ],
           [
-            107.6022035,
-            -6.9161755
+            107.6022008,
+            -6.9161702
           ]
         ]
       },
@@ -435,6 +435,8 @@
         "lanes": "3",
         "name": "Jalan Stasiun Timur",
         "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },
@@ -557,6 +559,7 @@
         "lanes": "3",
         "name": "Jalan Veteran",
         "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "left|through|through"
       }
     },
@@ -740,6 +743,7 @@
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt",
         "turn:lanes": "through|through|right"
       }
@@ -835,12 +839,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6027054,
-            -6.916124
+            107.6027081,
+            -6.91612
           ],
           [
-            107.6031066,
-            -6.9160901
+            107.6031079,
+            -6.9160834
           ]
         ]
       },
@@ -860,16 +864,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6024135,
-            -6.9161558
+            107.6024001,
+            -6.9161478
           ],
           [
-            107.6025153,
-            -6.9161423
+            107.6025166,
+            -6.916137
           ],
           [
-            107.6027054,
-            -6.916124
+            107.6027081,
+            -6.91612
           ]
         ]
       },
@@ -1563,12 +1567,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5981927,
+            107.5981805,
             -6.916324
           ],
           [
-            107.5982715,
-            -6.9163189
+            107.5982481,
+            -6.9163209
           ]
         ]
       },
@@ -1793,7 +1797,7 @@
             -6.9163279
           ],
           [
-            107.5981927,
+            107.5981805,
             -6.916324
           ]
         ]
@@ -2355,6 +2359,8 @@
         "motor_vehicle": "yes",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },
@@ -2364,8 +2370,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6031066,
-            -6.9160901
+            107.6031079,
+            -6.9160834
+          ],
+          [
+            107.60326,
+            -6.9160638
           ],
           [
             107.6043695,
@@ -2463,6 +2473,7 @@
         "name": "Jalan Lembong",
         "oneway": "yes",
         "sidewalk": "separate",
+        "surface": "asphalt",
         "turn:lanes": "through|through|through"
       }
     },
@@ -2721,6 +2732,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "378",
         "surface": "asphalt"
       }
@@ -2819,16 +2831,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6022035,
-            -6.9161755
+            107.6022008,
+            -6.9161702
           ],
           [
-            107.6023281,
-            -6.9161607
+            107.6023308,
+            -6.916154
           ],
           [
-            107.6024135,
-            -6.9161558
+            107.6024001,
+            -6.9161478
           ]
         ]
       },
@@ -3025,7 +3037,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Veteran",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -3143,8 +3156,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5982715,
-            -6.9163189
+            107.5982481,
+            -6.9163209
           ],
           [
             107.5983921,

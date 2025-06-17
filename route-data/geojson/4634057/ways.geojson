@@ -33,8 +33,10 @@
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -90,6 +92,10 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -643,28 +649,8 @@
             -6.8874631
           ],
           [
-            107.6158021,
-            -6.8889815
-          ],
-          [
-            107.6158888,
-            -6.8891749
-          ],
-          [
-            107.6160343,
-            -6.8894728
-          ],
-          [
-            107.6165653,
-            -6.8902412
-          ],
-          [
-            107.616618,
-            -6.8903175
-          ],
-          [
-            107.6166228,
-            -6.8903248
+            107.6156977,
+            -6.8886991
           ]
         ]
       },
@@ -677,6 +663,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },
@@ -792,6 +780,7 @@
         "name": "Jalan Banda",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -891,6 +880,7 @@
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -919,8 +909,10 @@
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1279,11 +1271,14 @@
       "properties": {
         "id": 318053628,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Laswi",
         "oneway": "yes",
         "ref": "377",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -1322,6 +1317,9 @@
         "lanes": "2",
         "name": "Jalan Prabu Dimuntur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "smoothness": "good",
         "surface": "asphalt"
       }
     },
@@ -1703,7 +1701,7 @@
           ],
           [
             107.6443899,
-            -6.9243229
+            -6.9243224
           ],
           [
             107.6443872,
@@ -1966,6 +1964,7 @@
         "lanes": "3",
         "name": "Jalan Laswi",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "377",
         "surface": "asphalt",
         "turn:lanes": "through|through|right"
@@ -2198,6 +2197,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2408,6 +2409,7 @@
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "smoothness": "good",
         "surface": "asphalt",
@@ -2657,6 +2659,8 @@
         "lanes": "1",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2967,12 +2971,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6137831,
-            -6.8852912
+            107.6137627,
+            -6.8852895
           ],
           [
-            107.6136854,
-            -6.8852776
+            107.613679,
+            -6.885277
           ]
         ]
       },
@@ -2982,6 +2986,8 @@
         "lanes": "1",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "parking:both": "no",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -3131,13 +3137,16 @@
       "properties": {
         "id": 868603519,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "destination:lanes": "Cikudapateuh;Kosambi;Simpang Lima;Asia Afrika|Riau;Aceh;Taman Pramuka;Ciliwung|Supratman;Cicadas;Cicaheum",
         "destination:ref:lanes": "||378",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Laswi",
         "oneway": "yes",
         "ref": "377",
+        "sidewalk": "left",
         "surface": "asphalt",
         "turn:lanes": "slight_left;through|through|right"
       }
@@ -3603,8 +3612,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6136854,
-            -6.8852776
+            107.613679,
+            -6.885277
           ],
           [
             107.6136907,
@@ -3703,6 +3712,7 @@
         "cycleway:right:lane": "advisory",
         "highway": "residential",
         "name": "Jalan Penata Yudha",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -3746,6 +3756,8 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
         "surface": "asphalt"
       }
     },
@@ -3962,8 +3974,8 @@
             -6.88531
           ],
           [
-            107.6137831,
-            -6.8852912
+            107.6137627,
+            -6.8852895
           ]
         ]
       },
@@ -3973,6 +3985,10 @@
         "lanes": "1",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "smoothness": "good",
         "surface": "asphalt"
       }
     },
@@ -4756,6 +4772,7 @@
         "cycleway:right": "lane",
         "cycleway:right:lane": "advisory",
         "highway": "residential",
+        "lanes": "2",
         "name": "Jalan Penata Yudha",
         "surface": "asphalt"
       }
@@ -4951,6 +4968,7 @@
       "properties": {
         "id": 1225789973,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "destination:lanes": "Ahmad Yani;Riau;Kosambi|Ahmad Yani;Riau;Kosambi|Ahmad Yani;Cicadas;Kiaracondong",
         "highway": "primary",
         "lanes": "3",
@@ -5087,6 +5105,7 @@
         "name": "Jalan Banda",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -6062,6 +6081,79 @@
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6156977,
+            -6.8886991
+          ],
+          [
+            107.6158021,
+            -6.8889815
+          ],
+          [
+            107.6158888,
+            -6.8891749
+          ],
+          [
+            107.6160343,
+            -6.8894728
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1388852430,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
+        "oneway": "no",
+        "sidewalk:left": "yes",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6160343,
+            -6.8894728
+          ],
+          [
+            107.6165653,
+            -6.8902412
+          ],
+          [
+            107.616618,
+            -6.8903175
+          ],
+          [
+            107.6166228,
+            -6.8903248
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1388852431,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Dipatiukur",
+        "oneway": "no",
+        "sidewalk": "right",
         "surface": "asphalt"
       }
     }

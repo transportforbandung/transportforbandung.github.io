@@ -607,12 +607,16 @@
       },
       "properties": {
         "id": 318482268,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -784,12 +788,16 @@
       },
       "properties": {
         "id": 318899765,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1693,37 +1701,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6138085,
-            -6.9429911
-          ],
-          [
-            107.6155897,
-            -6.9429954
-          ],
-          [
-            107.6159869,
-            -6.9430035
-          ]
-        ]
-      },
-      "properties": {
-        "id": 554785927,
-        "highway": "residential",
-        "motorcar": "yes",
-        "motorcycle": "yes",
-        "name": "Jalan Kembar Timur II",
-        "sidewalk": "no",
-        "smoothness": "good",
-        "surface": "asphalt",
-        "width": "3"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6847875,
             -6.9377223
           ],
@@ -1807,23 +1784,59 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6128194,
-            -6.9431725
+            107.6160946,
+            -6.9380178
           ],
           [
-            107.6133411,
-            -6.9431426
+            107.6160922,
+            -6.9380609
+          ],
+          [
+            107.6160662,
+            -6.9385192
+          ],
+          [
+            107.6160662,
+            -6.9385676
+          ],
+          [
+            107.6160568,
+            -6.9390126
+          ],
+          [
+            107.6160487,
+            -6.9392991
+          ],
+          [
+            107.6160478,
+            -6.9393324
+          ],
+          [
+            107.6160438,
+            -6.9394735
+          ],
+          [
+            107.616039,
+            -6.9396466
+          ],
+          [
+            107.6160256,
+            -6.9401671
+          ],
+          [
+            107.616011,
+            -6.9410846
           ]
         ]
       },
       "properties": {
-        "id": 555041539,
-        "highway": "residential",
+        "id": 555607422,
+        "highway": "tertiary",
         "motorcar": "yes",
-        "motorcycle": "yes",
+        "name": "Jalan Pasirluyu Barat",
         "sidewalk": "no",
         "smoothness": "good",
-        "surface": "concrete",
+        "surface": "asphalt",
         "width": "4"
       }
     },
@@ -2173,6 +2186,46 @@
         "lanes": "2",
         "name": "Jalan Pasir Koja",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.616011,
+            -6.9410846
+          ],
+          [
+            107.6160054,
+            -6.9414844
+          ],
+          [
+            107.6160002,
+            -6.9418508
+          ],
+          [
+            107.6159928,
+            -6.9423798
+          ],
+          [
+            107.6159869,
+            -6.9430035
+          ]
+        ]
+      },
+      "properties": {
+        "id": 793788102,
+        "highway": "tertiary",
+        "maxspeed": "20",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Pasirluyu Barat",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
+        "surface": "concrete",
+        "width": "4"
       }
     },
     {
@@ -2772,46 +2825,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6128167,
-            -6.9385146
-          ],
-          [
-            107.6128126,
-            -6.9381902
-          ],
-          [
-            107.612771,
-            -6.9378872
-          ],
-          [
-            107.612765,
-            -6.9378378
-          ]
-        ]
-      },
-      "properties": {
-        "id": 955511351,
-        "avgspeed": "20",
-        "highway": "tertiary",
-        "lane_markings": "yes",
-        "lanes": "2",
-        "lanes:backward": "1",
-        "lanes:forward": "1",
-        "motorcar": "yes",
-        "motorcycle": "yes",
-        "name": "Jalan Sriwijaya",
-        "smoothness": "good",
-        "surface": "concrete",
-        "turn:lanes:forward": "left;through;right",
-        "width": "6"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6758204,
             -6.9383501
           ],
@@ -3272,9 +3285,11 @@
       },
       "properties": {
         "id": 1112119562,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
@@ -3617,6 +3632,48 @@
         "name": "Jalan Rumah Sakit",
         "oneway": "yes",
         "turn:lanes": "through|right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6138239,
+            -6.9378694
+          ],
+          [
+            107.6132552,
+            -6.9378454
+          ],
+          [
+            107.6128951,
+            -6.9378373
+          ],
+          [
+            107.6128117,
+            -6.9378367
+          ],
+          [
+            107.612765,
+            -6.9378378
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1211277645,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Jalan BKR",
+        "oneway": "yes",
+        "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through|through;right"
       }
     },
     {
@@ -4117,143 +4174,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.613818,
-            -6.9425506
-          ],
-          [
-            107.6138085,
-            -6.9429911
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1221036884,
-        "highway": "residential",
-        "motorcar": "yes",
-        "motorcycle": "yes",
-        "name": "Jalan Kembar Timur Raya",
-        "sidewalk": "no",
-        "surface": "concrete",
-        "width": "4"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6133458,
-            -6.9425478
-          ],
-          [
-            107.613818,
-            -6.9425506
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1221036885,
-        "highway": "residential",
-        "motorcar": "yes",
-        "motorcycle": "yes",
-        "name": "Jalan Kembar Timur I",
-        "sidewalk": "no",
-        "smoothness": "good",
-        "surface": "asphalt",
-        "width": "3"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6133411,
-            -6.9431426
-          ],
-          [
-            107.6133436,
-            -6.9429331
-          ],
-          [
-            107.6133458,
-            -6.9425478
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1221036886,
-        "highway": "residential",
-        "motorcar": "yes",
-        "motorcycle": "yes",
-        "name": "Jalan Kembar VIII",
-        "sidewalk": "no",
-        "smoothness": "good",
-        "surface": "concrete",
-        "width": "4"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6128194,
-            -6.9431725
-          ],
-          [
-            107.6128304,
-            -6.9416064
-          ],
-          [
-            107.6128271,
-            -6.9407769
-          ],
-          [
-            107.6128168,
-            -6.9401736
-          ],
-          [
-            107.6128043,
-            -6.9397452
-          ],
-          [
-            107.6128011,
-            -6.9390617
-          ],
-          [
-            107.612817,
-            -6.9385745
-          ],
-          [
-            107.6128167,
-            -6.9385146
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1221036887,
-        "avgspeed": "20",
-        "highway": "tertiary",
-        "lane_markings": "yes",
-        "lanes": "2",
-        "motorcar": "yes",
-        "motorcycle": "yes",
-        "name": "Jalan Sriwijaya",
-        "smoothness": "good",
-        "surface": "concrete",
-        "width": "6"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6934348,
             -6.9311338
           ],
@@ -4381,9 +4301,11 @@
       },
       "properties": {
         "id": 1222524019,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
@@ -4807,6 +4729,35 @@
         "lanes": "1",
         "name": "Jalan Astana Anyar",
         "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6160946,
+            -6.9380178
+          ],
+          [
+            107.6138239,
+            -6.9378694
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1395659507,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan BKR",
+        "oneway": "yes",
+        "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
       }
     }
   ]

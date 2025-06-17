@@ -27,32 +27,36 @@
             -6.9026263
           ],
           [
-            107.6235196,
-            -6.9033779
+            107.6235062,
+            -6.9033792
           ],
           [
-            107.6232819,
-            -6.9036854
+            107.6232631,
+            -6.9036761
           ],
           [
-            107.623217,
-            -6.903766
+            107.6231915,
+            -6.9037673
           ],
           [
-            107.6229127,
-            -6.9040995
+            107.6229107,
+            -6.9041092
           ],
           [
-            107.6227363,
-            -6.904293
+            107.6227441,
+            -6.9043069
           ],
           [
-            107.62256,
-            -6.90451
+            107.622561,
+            -6.9045292
           ],
           [
-            107.6225163,
-            -6.9045752
+            107.6225204,
+            -6.9045792
+          ],
+          [
+            107.6224603,
+            -6.904657
           ],
           [
             107.6224003,
@@ -111,7 +115,7 @@
         "avgspeed": "20",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Ciliwung",
+        "name": "Jalan Citarum",
         "oneway": "yes",
         "sidewalk:both": "separate",
         "surface": "asphalt"
@@ -283,9 +287,12 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
         "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -311,16 +318,16 @@
             -6.9052879
           ],
           [
-            107.621591,
+            107.6215951,
             -6.9053402
           ],
           [
-            107.6215743,
-            -6.9054002
+            107.621584,
+            -6.9053727
           ],
           [
-            107.6214789,
-            -6.905741
+            107.621483,
+            -6.905745
           ]
         ]
       },
@@ -519,64 +526,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6341816,
-            -6.8977908
-          ],
-          [
-            107.6349951,
-            -6.8944863
-          ],
-          [
-            107.6353361,
-            -6.8931244
-          ],
-          [
-            107.6354403,
-            -6.8927469
-          ]
-        ]
-      },
-      "properties": {
-        "id": 242633051,
-        "destination:backward": "Simpang Pahlawan",
-        "destination:forward": "Simpang Taman Makam Pahlawan",
-        "destination:lanes:backward": "Jalaprang;PUSDAI;Gedung Sate;Dago",
-        "highway": "secondary",
-        "lanes": "2",
-        "lanes:backward": "1",
-        "lanes:forward": "1",
-        "name": "Jalan Pahlawan",
-        "turn:lanes:backward": "through;right"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6354403,
             -6.8927469
           ],
           [
             107.6353255,
             -6.8926636
-          ],
-          [
-            107.6350707,
-            -6.8925301
-          ],
-          [
-            107.6350048,
-            -6.892515
-          ],
-          [
-            107.6345702,
-            -6.8924443
-          ],
-          [
-            107.6345337,
-            -6.8924399
           ]
         ]
       },
@@ -1198,6 +1153,10 @@
             -6.911498
           ],
           [
+            107.6184317,
+            -6.9111664
+          ],
+          [
             107.6184728,
             -6.9110152
           ],
@@ -1423,6 +1382,88 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6355463,
+            -6.8928327
+          ],
+          [
+            107.6354602,
+            -6.8931739
+          ],
+          [
+            107.6354258,
+            -6.8933137
+          ],
+          [
+            107.6353388,
+            -6.893703
+          ],
+          [
+            107.6353178,
+            -6.8937938
+          ],
+          [
+            107.6352099,
+            -6.8942649
+          ],
+          [
+            107.6351452,
+            -6.8945475
+          ],
+          [
+            107.6350337,
+            -6.8949709
+          ],
+          [
+            107.6349426,
+            -6.8953783
+          ],
+          [
+            107.6348789,
+            -6.8956164
+          ],
+          [
+            107.6347529,
+            -6.8961255
+          ],
+          [
+            107.6345969,
+            -6.8966637
+          ],
+          [
+            107.634576,
+            -6.8967506
+          ],
+          [
+            107.6344418,
+            -6.8973156
+          ],
+          [
+            107.6343816,
+            -6.8976003
+          ],
+          [
+            107.6341816,
+            -6.8977908
+          ]
+        ]
+      },
+      "properties": {
+        "id": 320814055,
+        "destination": "Simpang Pahlawan",
+        "destination:lanes": "Cikutra;Cimuncang;Padasuka;Cicaheum|Pussenif;Supratman;Taman Pramuka;Diponegoro",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Pahlawan",
+        "oneway": "yes",
+        "turn:lanes": "left;through|through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.629843,
             -6.9065566
           ],
@@ -1448,6 +1489,10 @@
           [
             107.629843,
             -6.9065566
+          ],
+          [
+            107.6296635,
+            -6.9062831
           ],
           [
             107.628346,
@@ -1501,12 +1546,17 @@
       },
       "properties": {
         "id": 330635688,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1758,7 +1808,7 @@
         "avgspeed": "20",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Ciliwung",
+        "name": "Jalan Citarum",
         "oneway": "yes",
         "sidewalk:both": "separate",
         "surface": "asphalt"
@@ -1899,12 +1949,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6214789,
-            -6.905741
+            107.621483,
+            -6.905745
           ],
           [
-            107.6214395,
-            -6.9058908
+            107.6214436,
+            -6.9058938
           ],
           [
             107.6213811,
@@ -2024,6 +2074,8 @@
         "motor_vehicle": "yes",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2401,6 +2453,28 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6355463,
+            -6.8928327
+          ],
+          [
+            107.6354403,
+            -6.8927469
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1218952933,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Cikutra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6224003,
             -6.9047685
           ],
@@ -2441,6 +2515,126 @@
         "junction": "roundabout",
         "lanes": "1",
         "sidewalk:both": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6353255,
+            -6.8926636
+          ],
+          [
+            107.6350707,
+            -6.8925301
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1394904181,
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cikutra Barat",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6350707,
+            -6.8925301
+          ],
+          [
+            107.6350048,
+            -6.892515
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1394904182,
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cikutra Barat",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6350048,
+            -6.892515
+          ],
+          [
+            107.6345702,
+            -6.8924443
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1394904183,
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cikutra Barat",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6345702,
+            -6.8924443
+          ],
+          [
+            107.6345337,
+            -6.8924399
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1394904184,
+        "access": "yes",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "horse": "yes",
+        "lanes": "2",
+        "name": "Jalan Cikutra Barat",
+        "oneway": "no",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     }

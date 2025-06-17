@@ -355,12 +355,16 @@
       },
       "properties": {
         "id": 223676377,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1258,12 +1262,16 @@
       },
       "properties": {
         "id": 318482268,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1397,12 +1405,16 @@
       },
       "properties": {
         "id": 318899765,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1474,10 +1486,12 @@
       "properties": {
         "id": 320642746,
         "bridge": "yes",
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
@@ -1520,40 +1534,20 @@
           [
             107.6180007,
             -6.938125
-          ],
-          [
-            107.6171204,
-            -6.9380799
-          ],
-          [
-            107.6167712,
-            -6.9380574
-          ],
-          [
-            107.6166344,
-            -6.9380533
-          ],
-          [
-            107.6162382,
-            -6.9380256
-          ],
-          [
-            107.6160946,
-            -6.9380178
-          ],
-          [
-            107.6138239,
-            -6.9378694
           ]
         ]
       },
       "properties": {
         "id": 320642747,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1600,6 +1594,7 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "surface": "asphalt",
         "turn:lanes": "left"
       }
@@ -3563,6 +3558,10 @@
             -6.9556096
           ],
           [
+            107.6538045,
+            -6.9556537
+          ],
+          [
             107.6541837,
             -6.9557004
           ],
@@ -3964,9 +3963,11 @@
       },
       "properties": {
         "id": 1112119562,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
@@ -4164,11 +4165,15 @@
       },
       "properties": {
         "id": 1211277645,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "left;through|through|through;right"
       }
@@ -4369,9 +4374,11 @@
       },
       "properties": {
         "id": 1222524019,
+        "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan BKR",
         "oneway": "yes",
         "ref": "375",
@@ -4663,6 +4670,180 @@
         "lanes": "1",
         "name": "Jalan Marga Cinta",
         "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6160946,
+            -6.9380178
+          ],
+          [
+            107.6138239,
+            -6.9378694
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1395659507,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan BKR",
+        "oneway": "yes",
+        "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6180007,
+            -6.938125
+          ],
+          [
+            107.6171204,
+            -6.9380799
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1395659508,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan BKR",
+        "oneway": "yes",
+        "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6171204,
+            -6.9380799
+          ],
+          [
+            107.6167712,
+            -6.9380574
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1395659509,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan BKR",
+        "oneway": "yes",
+        "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6167712,
+            -6.9380574
+          ],
+          [
+            107.6166344,
+            -6.9380533
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1395659510,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan BKR",
+        "oneway": "yes",
+        "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6166344,
+            -6.9380533
+          ],
+          [
+            107.6162382,
+            -6.9380256
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1395659511,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan BKR",
+        "oneway": "yes",
+        "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6162382,
+            -6.9380256
+          ],
+          [
+            107.6160946,
+            -6.9380178
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1395659512,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan BKR",
+        "oneway": "yes",
+        "ref": "375",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
       }
     }
   ]

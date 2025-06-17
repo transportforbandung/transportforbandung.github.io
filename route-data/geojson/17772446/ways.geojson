@@ -120,6 +120,7 @@
         "lanes": "3",
         "name": "Jalan Cihampelas",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "smoothness": "intermediate",
         "source": "S2City_POI_2022",
         "surface": "asphalt",
@@ -296,6 +297,8 @@
         "lanes": "3",
         "name": "Jalan Stasiun Timur",
         "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },
@@ -664,6 +667,7 @@
         "alt_name": "Jalan Pasteur",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "official_name": "Jalan Pasteur",
@@ -809,16 +813,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6088785,
-            -6.9103019
+            107.6088855,
+            -6.9102984
           ],
           [
             107.6088445,
             -6.9102299
           ],
           [
-            107.6087817,
-            -6.9101077
+            107.6087639,
+            -6.910086
           ],
           [
             107.608484,
@@ -842,6 +846,7 @@
         "name": "Jalan Wastukencana",
         "oneway": "no",
         "sidewalk": "separate",
+        "smoothness": "intermediate",
         "surface": "asphalt"
       }
     },
@@ -987,6 +992,8 @@
         "official_name": "Jalan Abdul Rivai",
         "oneway": "yes",
         "short_name": "Jalan Dr. Abdul Rivai",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1106,12 +1113,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6027054,
-            -6.916124
+            107.6027081,
+            -6.91612
           ],
           [
-            107.6031066,
-            -6.9160901
+            107.6031079,
+            -6.9160834
           ]
         ]
       },
@@ -1131,16 +1138,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6024135,
-            -6.9161558
+            107.6024001,
+            -6.9161478
           ],
           [
-            107.6025153,
-            -6.9161423
+            107.6025166,
+            -6.916137
           ],
           [
-            107.6027054,
-            -6.916124
+            107.6027081,
+            -6.91612
           ]
         ]
       },
@@ -1654,6 +1661,8 @@
         "motor_vehicle": "yes",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1713,6 +1722,8 @@
         "lanes": "2",
         "name": "Jalan Cihampelas",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "left|"
       }
@@ -2177,6 +2188,7 @@
         "destination:lanes": "Gunung Batu;Surya Sumantri;Husein Sastranegara;Purbaleunyi|Sukajadi;Karang Gunung Batu;Surya Sumantri;Husein Sastranegara;Purbaleunyi|Sukajadi;Karang Setra;Setiabudhi;Gegerkalong",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Pasteur",
         "name:en": "Pasteur Avenue",
         "official_name": "Jalan Pasteur",
@@ -2196,8 +2208,8 @@
             -6.9105515
           ],
           [
-            107.6088785,
-            -6.9103019
+            107.6088855,
+            -6.9102984
           ]
         ]
       },
@@ -2220,8 +2232,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6031066,
-            -6.9160901
+            107.6031079,
+            -6.9160834
+          ],
+          [
+            107.60326,
+            -6.9160638
           ],
           [
             107.6043695,

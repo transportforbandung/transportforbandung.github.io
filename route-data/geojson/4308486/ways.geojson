@@ -806,12 +806,14 @@
       },
       "properties": {
         "id": 561398083,
+        "cycleway:both": "no",
         "destination": "Simpang Inhoftank",
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "surface": "asphalt"
       }
     },
     {
@@ -880,8 +882,8 @@
             -6.9243167
           ],
           [
-            107.6444993,
-            -6.9243645
+            107.6444992,
+            -6.9243614
           ],
           [
             107.6445077,
@@ -1562,12 +1564,14 @@
       },
       "properties": {
         "id": 1088664793,
+        "cycleway:both": "no",
         "destination": "Inhoftank;Cibaduyut;Leuwipanjang;Kopo",
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "surface": "asphalt"
       }
     },
     {

@@ -455,9 +455,11 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
         "ref": "381",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -530,12 +532,16 @@
       },
       "properties": {
         "id": 244703790,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -819,12 +825,15 @@
       },
       "properties": {
         "id": 318100674,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -1198,12 +1207,15 @@
       },
       "properties": {
         "id": 319178849,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -1475,11 +1487,16 @@
       },
       "properties": {
         "id": 330592460,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1559,11 +1576,13 @@
       },
       "properties": {
         "id": 330716201,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
         "surface": "asphalt"
       }
@@ -2385,8 +2404,8 @@
             -6.9243167
           ],
           [
-            107.6444993,
-            -6.9243645
+            107.6444992,
+            -6.9243614
           ],
           [
             107.6445077,
@@ -2644,6 +2663,7 @@
         "id": 970620695,
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
         "ref": "381",
@@ -2747,6 +2767,10 @@
           [
             107.6534527,
             -6.9556096
+          ],
+          [
+            107.6538045,
+            -6.9556537
           ],
           [
             107.6541837,
@@ -3268,6 +3292,7 @@
         "id": 1219011435,
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
         "ref": "381",

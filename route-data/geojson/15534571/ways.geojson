@@ -37,8 +37,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.4287966,
-            -6.7782871
+            107.4288202,
+            -6.7782698
           ],
           [
             107.4295143,
@@ -1410,133 +1410,6 @@
         "usage": "main",
         "wikidata": "Q12487113",
         "wikipedia": "id:Jalur kereta api Cikampek–Padalarang"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5824886,
-            -6.9102084
-          ],
-          [
-            107.5862492,
-            -6.9126863
-          ],
-          [
-            107.5866203,
-            -6.9129018
-          ],
-          [
-            107.5869039,
-            -6.9130522
-          ],
-          [
-            107.5872126,
-            -6.9131997
-          ],
-          [
-            107.5874477,
-            -6.9132986
-          ],
-          [
-            107.5877293,
-            -6.9134077
-          ],
-          [
-            107.5880405,
-            -6.9135143
-          ],
-          [
-            107.5883503,
-            -6.9136048
-          ],
-          [
-            107.5886185,
-            -6.913674
-          ],
-          [
-            107.5888693,
-            -6.9137313
-          ],
-          [
-            107.5891022,
-            -6.9137766
-          ],
-          [
-            107.5893145,
-            -6.9138058
-          ],
-          [
-            107.5895532,
-            -6.9138364
-          ],
-          [
-            107.589918,
-            -6.9138671
-          ],
-          [
-            107.5903028,
-            -6.9138883
-          ],
-          [
-            107.5905765,
-            -6.913891
-          ],
-          [
-            107.5913903,
-            -6.9138702
-          ],
-          [
-            107.5918546,
-            -6.9138671
-          ],
-          [
-            107.5922203,
-            -6.9138742
-          ],
-          [
-            107.5926029,
-            -6.913887
-          ],
-          [
-            107.5929667,
-            -6.9139183
-          ],
-          [
-            107.5933003,
-            -6.9139566
-          ],
-          [
-            107.5948043,
-            -6.9141961
-          ],
-          [
-            107.5951904,
-            -6.9142388
-          ],
-          [
-            107.5957566,
-            -6.9142752
-          ],
-          [
-            107.5965604,
-            -6.9142771
-          ]
-        ]
-      },
-      "properties": {
-        "id": 257229250,
-        "electrified": "no",
-        "gauge": "1067",
-        "maxspeed": "110",
-        "name": "Jalur Kereta Api Padalarang–Kasugihan",
-        "railway": "rail",
-        "usage": "main",
-        "wikidata": "Q25630218",
-        "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
       }
     },
     {
@@ -3029,12 +2902,8 @@
             -6.9200365
           ],
           [
-            107.6332173,
-            -6.920558
-          ],
-          [
-            107.6335034,
-            -6.9206278
+            107.6327925,
+            -6.9204531
           ]
         ]
       },
@@ -6252,6 +6121,64 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5924353,
+            -6.9140653
+          ],
+          [
+            107.5931386,
+            -6.9140621
+          ],
+          [
+            107.5933948,
+            -6.9140688
+          ],
+          [
+            107.5936288,
+            -6.9140907
+          ],
+          [
+            107.5946863,
+            -6.9142585
+          ],
+          [
+            107.5949062,
+            -6.9142871
+          ],
+          [
+            107.5951128,
+            -6.9143098
+          ],
+          [
+            107.5953462,
+            -6.9143361
+          ],
+          [
+            107.5957197,
+            -6.9143534
+          ],
+          [
+            107.5965235,
+            -6.9143446
+          ]
+        ]
+      },
+      "properties": {
+        "id": 902837107,
+        "electrified": "no",
+        "gauge": "1067",
+        "maxspeed": "30",
+        "name": "Jalur Kereta Api Bandung–Ciroyom–Andir",
+        "railway": "rail",
+        "usage": "branch",
+        "wikidata": "Q25630218"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6013653,
             -6.9144562
           ],
@@ -9223,29 +9150,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7516173,
-            -6.9632786
-          ],
-          [
-            107.7523046,
-            -6.9635592
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1128232621,
-        "electrified": "no",
-        "gauge": "1067",
-        "railway": "rail",
-        "service": "crossover"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.7732177,
             -6.9711763
           ],
@@ -10256,6 +10160,76 @@
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5824886,
+            -6.9102084
+          ],
+          [
+            107.5826379,
+            -6.9103312
+          ],
+          [
+            107.5827389,
+            -6.9104045
+          ],
+          [
+            107.583106,
+            -6.9106555
+          ],
+          [
+            107.5862233,
+            -6.9127135
+          ],
+          [
+            107.5865994,
+            -6.9129285
+          ],
+          [
+            107.5869116,
+            -6.9130922
+          ],
+          [
+            107.5869837,
+            -6.9131275
+          ],
+          [
+            107.5874383,
+            -6.9133305
+          ],
+          [
+            107.5876911,
+            -6.9134297
+          ],
+          [
+            107.587915,
+            -6.9135116
+          ],
+          [
+            107.5881147,
+            -6.9135766
+          ],
+          [
+            107.5884948,
+            -6.9136792
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1149566322,
+        "electrified": "no",
+        "gauge": "1067",
+        "maxspeed": "30",
+        "name": "Jalur Kereta Api Bandung–Ciroyom–Andir",
+        "railway": "rail",
+        "usage": "branch",
+        "wikidata": "Q25630218"
       }
     },
     {
@@ -12402,10 +12376,6 @@
           [
             107.4274689,
             -6.7785259
-          ],
-          [
-            107.4278005,
-            -6.7784884
           ]
         ]
       },
@@ -12508,25 +12478,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5965604,
-            -6.9142771
+            107.5978932,
+            -6.9143662
           ],
           [
-            107.5974678,
-            -6.9143039
+            107.5974531,
+            -6.9143734
+          ],
+          [
+            107.5969985,
+            -6.914363
+          ],
+          [
+            107.5965235,
+            -6.9143446
           ]
         ]
       },
       "properties": {
-        "id": 1187069946,
+        "id": 1187069948,
         "electrified": "no",
         "gauge": "1067",
         "maxspeed": "20",
-        "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "name": "Jalur Kereta Api Bandung–Ciroyom–Andir",
         "railway": "rail",
-        "usage": "main",
-        "wikidata": "Q25630218",
-        "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
+        "usage": "branch",
+        "wikidata": "Q25630218"
       }
     },
     {
@@ -13188,33 +13165,6 @@
         "railway": "rail",
         "railway:track_ref": "3",
         "tunnel": "building_passage",
-        "usage": "main",
-        "wikidata": "Q25630218",
-        "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.4968587,
-            -6.8423431
-          ],
-          [
-            107.4969052,
-            -6.8423863
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1216061741,
-        "electrified": "no",
-        "gauge": "1067",
-        "name": "Jalur Kereta Api Padalarang–Kasugihan",
-        "railway": "rail",
-        "railway:track_ref": "4",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -14132,34 +14082,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5353214,
-            -6.8851103
-          ],
-          [
-            107.5365474,
-            -6.8865274
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1242516120,
-        "electrified": "no",
-        "gauge": "1067",
-        "maxspeed": "105",
-        "name": "Jalur KA Padalarang-Kasugihan",
-        "railway": "rail",
-        "railway:track_ref": "3",
-        "service": "siding",
-        "usage": "main",
-        "wikidata": "Q25630218"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5003001,
             -6.8455546
           ],
@@ -14222,76 +14144,40 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5988216,
-            -6.9143703
-          ],
-          [
-            107.5995301,
-            -6.9144061
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1242723286,
-        "electrified": "no",
-        "gauge": "1067",
-        "maxspeed": "20",
-        "name": "Jalur Kereta Api Padalarang–Kasugihan",
-        "railway": "rail",
-        "usage": "main",
-        "wikidata": "Q25630218",
-        "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5979038,
-            -6.9143239
-          ],
-          [
-            107.5983433,
-            -6.9143435
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1242723288,
-        "electrified": "no",
-        "gauge": "1067",
-        "maxspeed": "20",
-        "name": "Jalur Kereta Api Padalarang–Kasugihan",
-        "railway": "rail",
-        "usage": "main",
-        "wikidata": "Q25630218",
-        "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5995301,
-            -6.9144061
-          ],
-          [
             107.5999538,
             -6.9144308
+          ],
+          [
+            107.5997099,
+            -6.9144381
+          ],
+          [
+            107.5995491,
+            -6.9144367
+          ],
+          [
+            107.598459,
+            -6.9143923
+          ],
+          [
+            107.5984004,
+            -6.9143899
+          ],
+          [
+            107.5978932,
+            -6.9143662
           ]
         ]
       },
       "properties": {
-        "id": 1242723291,
+        "id": 1242723290,
         "electrified": "no",
         "gauge": "1067",
         "maxspeed": "20",
+        "name": "Jalur Kereta Api Bandung–Ciroyom–Andir",
         "railway": "rail",
-        "service": "siding"
+        "usage": "branch",
+        "wikidata": "Q25630218"
       }
     },
     {
@@ -14637,39 +14523,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6041473,
-            -6.914565
-          ],
-          [
-            107.6038626,
-            -6.9145371
-          ],
-          [
-            107.6034619,
-            -6.9145003
-          ],
-          [
-            107.6031515,
-            -6.9144753
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1265002083,
-        "electrified": "no",
-        "gauge": "1067",
-        "maxspeed": "20",
-        "railway": "rail",
-        "service": "siding",
-        "wikidata": "Q25630218"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6031495,
             -6.9145291
           ],
@@ -14734,88 +14587,6 @@
         "maxspeed": "20",
         "railway": "rail",
         "service": "siding"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5344097,
-            -6.8838866
-          ],
-          [
-            107.5346897,
-            -6.8842911
-          ],
-          [
-            107.5348211,
-            -6.8844645
-          ],
-          [
-            107.5350232,
-            -6.8847409
-          ],
-          [
-            107.5351537,
-            -6.884908
-          ],
-          [
-            107.53529,
-            -6.8850709
-          ],
-          [
-            107.5353214,
-            -6.8851103
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1265007924,
-        "electrified": "no",
-        "gauge": "1067",
-        "maxspeed": "105",
-        "name": "Jalur KA Padalarang-Kasugihan",
-        "railway": "rail",
-        "service": "siding",
-        "usage": "main",
-        "wikidata": "Q25630218"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5365474,
-            -6.8865274
-          ],
-          [
-            107.5366143,
-            -6.8865992
-          ],
-          [
-            107.5368193,
-            -6.8868191
-          ],
-          [
-            107.5370024,
-            -6.8870238
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1265007927,
-        "electrified": "no",
-        "gauge": "1067",
-        "maxspeed": "105",
-        "name": "Jalur KA Padalarang-Kasugihan",
-        "railway": "rail",
-        "service": "siding",
-        "usage": "main",
-        "wikidata": "Q25630218"
       }
     },
     {
@@ -15519,6 +15290,34 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.833605,
+            -6.9825888
+          ],
+          [
+            107.8338419,
+            -6.9828559
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1279107533,
+        "electrified": "no",
+        "gauge": "1067",
+        "maxspeed": "110",
+        "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "railway": "rail",
+        "source": "Yahoo hires",
+        "usage": "main",
+        "wikidata": "Q25630218",
+        "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.831722,
             -6.9804715
           ],
@@ -15632,60 +15431,6 @@
         "railway": "rail",
         "railway:track_ref": "1",
         "service": "siding"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5974678,
-            -6.9143039
-          ],
-          [
-            107.5979038,
-            -6.9143239
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1279978976,
-        "electrified": "no",
-        "gauge": "1067",
-        "maxspeed": "20",
-        "name": "Jalur Kereta Api Padalarang–Kasugihan",
-        "railway": "rail",
-        "usage": "main",
-        "wikidata": "Q25630218",
-        "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5983433,
-            -6.9143435
-          ],
-          [
-            107.5988216,
-            -6.9143703
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1279978977,
-        "electrified": "no",
-        "gauge": "1067",
-        "maxspeed": "20",
-        "name": "Jalur Kereta Api Padalarang–Kasugihan",
-        "railway": "rail",
-        "usage": "main",
-        "wikidata": "Q25630218",
-        "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
       }
     },
     {
@@ -15850,12 +15595,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.4278005,
-            -6.7784884
+            107.4274689,
+            -6.7785259
           ],
           [
-            107.4287966,
-            -6.7782871
+            107.4288202,
+            -6.7782698
           ]
         ]
       },
@@ -15870,6 +15615,91 @@
         "usage": "main",
         "wikidata": "Q12487113",
         "wikipedia": "id:Jalur kereta api Cikampek–Padalarang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5884948,
+            -6.9136792
+          ],
+          [
+            107.5887988,
+            -6.9137872
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1301926807,
+        "electrified": "no",
+        "gauge": "1067",
+        "maxspeed": "30",
+        "name": "Jalur Kereta Api Bandung–Ciroyom–Andir",
+        "railway": "rail",
+        "usage": "branch",
+        "wikidata": "Q25630218"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5887988,
+            -6.9137872
+          ],
+          [
+            107.5890893,
+            -6.9139001
+          ],
+          [
+            107.5892213,
+            -6.913945
+          ],
+          [
+            107.5893437,
+            -6.9139775
+          ],
+          [
+            107.5893614,
+            -6.9139822
+          ],
+          [
+            107.5894761,
+            -6.9140022
+          ],
+          [
+            107.5896793,
+            -6.9140301
+          ],
+          [
+            107.5913716,
+            -6.9140765
+          ],
+          [
+            107.5919625,
+            -6.9140703
+          ],
+          [
+            107.5924353,
+            -6.9140653
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1301926808,
+        "electrified": "no",
+        "gauge": "1067",
+        "maxspeed": "30",
+        "name": "Jalur Kereta Api Bandung–Ciroyom–Andir",
+        "railway": "rail",
+        "railway:track_ref": "1",
+        "usage": "branch",
+        "wikidata": "Q25630218"
       }
     },
     {
@@ -16994,8 +16824,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6335034,
-            -6.9206278
+            107.6327925,
+            -6.9204531
+          ],
+          [
+            107.6332198,
+            -6.9205555
           ],
           [
             107.6347429,

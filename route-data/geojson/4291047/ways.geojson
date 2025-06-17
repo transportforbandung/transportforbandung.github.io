@@ -55,8 +55,8 @@
             -6.9001394
           ],
           [
-            107.612514,
-            -6.9002016
+            107.6125222,
+            -6.9002051
           ]
         ]
       },
@@ -143,8 +143,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.612608,
-            -6.9002447
+            107.6125952,
+            -6.9002401
           ],
           [
             107.6127382,
@@ -207,12 +207,12 @@
             -6.8872476
           ],
           [
-            107.5967179,
-            -6.8868081
+            107.5967027,
+            -6.8868139
           ],
           [
-            107.5967163,
-            -6.886755
+            107.5967016,
+            -6.8867916
           ]
         ]
       },
@@ -851,11 +851,14 @@
       "properties": {
         "id": 4910295,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Taman Sari",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
+        "smoothness": "good",
         "surface": "asphalt"
       }
     },
@@ -958,24 +961,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5965376,
-            -6.8840228
+            107.5965234,
+            -6.8840238
           ],
           [
-            107.5965236,
-            -6.8836426
+            107.5965088,
+            -6.8836453
           ],
           [
-            107.5965196,
-            -6.8835611
+            107.5965062,
+            -6.8835624
           ],
           [
-            107.5964799,
-            -6.8826319
+            107.5964741,
+            -6.8826331
           ],
           [
-            107.5964757,
-            -6.8825286
+            107.5964702,
+            -6.8825274
           ],
           [
             107.5964601,
@@ -1194,12 +1197,15 @@
         "id": 153340105,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "no",
+        "parking:both": "no",
         "sidewalk": "both",
+        "smoothness": "good",
         "surface": "asphalt"
       }
     },
@@ -1239,9 +1245,12 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
         "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1346,6 +1355,7 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Siliwangi",
+        "parking:both": "no",
         "source": "S2City_POI_2022",
         "surface": "asphalt"
       }
@@ -1601,10 +1611,6 @@
             -6.9012929
           ],
           [
-            107.6180975,
-            -6.9012895
-          ],
-          [
             107.618155,
             -6.9012865
           ],
@@ -1639,6 +1645,7 @@
         "lanes": "4",
         "name": "Jalan Diponegoro",
         "ref": "381",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -1843,8 +1850,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5967163,
-            -6.886755
+            107.5967016,
+            -6.8867916
           ],
           [
             107.5964324,
@@ -1860,11 +1867,15 @@
           ],
           [
             107.5964138,
-            -6.8856839
+            -6.8856254
           ],
           [
-            107.5966003,
-            -6.8848888
+            107.5964457,
+            -6.8854301
+          ],
+          [
+            107.5965693,
+            -6.8848932
           ]
         ]
       },
@@ -1919,12 +1930,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5965454,
-            -6.8842075
+            107.5965291,
+            -6.8842065
           ],
           [
-            107.5965376,
-            -6.8840228
+            107.5965234,
+            -6.8840238
           ]
         ]
       },
@@ -2066,11 +2077,16 @@
       "properties": {
         "id": 318896299,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2358,6 +2374,10 @@
             -6.9065566
           ],
           [
+            107.6296635,
+            -6.9062831
+          ],
+          [
             107.628346,
             -6.9042755
           ],
@@ -2409,12 +2429,17 @@
       },
       "properties": {
         "id": 330635688,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "380",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2424,12 +2449,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5966003,
-            -6.8848888
+            107.5965693,
+            -6.8848932
           ],
           [
-            107.5965454,
-            -6.8842075
+            107.5965291,
+            -6.8842065
           ]
         ]
       },
@@ -2681,12 +2706,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.612514,
-            -6.9002016
+            107.6125222,
+            -6.9002051
           ],
           [
-            107.612608,
-            -6.9002447
+            107.6125952,
+            -6.9002401
           ]
         ]
       },
@@ -2701,6 +2726,7 @@
         "name": "Jalan Sulanjana",
         "oneway": "no",
         "sidewalk": "separate",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -3121,6 +3147,7 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
         "ref": "381",
@@ -3355,6 +3382,7 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "no",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
         "ref": "381",
@@ -3380,11 +3408,16 @@
         "id": 1112146446,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Taman Sari",
         "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "smoothness": "good",
         "surface": "asphalt"
       }
     },
@@ -3896,6 +3929,7 @@
         "lanes": "2",
         "name": "Jalan Taman Sari",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },

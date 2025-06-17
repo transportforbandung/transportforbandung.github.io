@@ -365,11 +365,16 @@
       },
       "properties": {
         "id": 255641092,
+        "cycleway:both": "no",
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "motorcycle": "yes",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "sidewalk": "no",
+        "surface": "concrete"
       }
     },
     {
@@ -840,9 +845,11 @@
         "destination": "Cileunyi;Bandung",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "no",
         "name": "Jalan Raya Dangdeur",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "surface": "concrete"
       }
     },
     {
@@ -1270,7 +1277,8 @@
         "lanes": "3",
         "name": "Jalan Raya Dangdeur",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "surface": "concrete"
       }
     },
     {
@@ -1299,9 +1307,11 @@
         "highway": "trunk",
         "lanes": "3",
         "layer": "1",
+        "lit": "no",
         "name": "Jalan Raya Dangdeur",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "surface": "concrete"
       }
     },
     {
@@ -1326,7 +1336,8 @@
         "lanes": "3",
         "name": "Jalan Raya Dangdeur",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "surface": "concrete"
       }
     },
     {
@@ -1745,9 +1756,11 @@
         "highway": "trunk",
         "lanes": "3",
         "layer": "1",
+        "lit": "yes",
         "name": "Jalan Raya Cipacing",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "surface": "concrete"
       }
     },
     {
@@ -1846,9 +1859,12 @@
         "destination": "Cileunyi;Bandung",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Raya Cipacing",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "sidewalk": "left",
+        "surface": "concrete"
       }
     },
     {
@@ -2488,7 +2504,8 @@
         "lanes": "3",
         "name": "Jalan Raya Cipacing",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "surface": "concrete"
       }
     },
     {
@@ -2524,11 +2541,15 @@
       },
       "properties": {
         "id": 1079472297,
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
+        "lit": "yes",
         "motorcycle": "yes",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "sidewalk": "no",
+        "surface": "concrete"
       }
     },
     {
@@ -2644,9 +2665,12 @@
         "destination:ref:lanes": "4||11",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "name": "Jalan Raya Cipacing",
         "oneway": "yes",
         "ref": "13",
+        "sidewalk": "left",
+        "surface": "concrete",
         "turn:lanes": "slight_left|slight_left;through|through"
       }
     },
@@ -2862,11 +2886,15 @@
       },
       "properties": {
         "id": 1301025630,
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "3",
+        "lit": "yes",
         "motorcycle": "yes",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "sidewalk": "no",
+        "surface": "concrete"
       }
     },
     {
