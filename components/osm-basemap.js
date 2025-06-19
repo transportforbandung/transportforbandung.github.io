@@ -7,7 +7,7 @@ let userMarker = null;
 let gpsButton;
 
 function initMap() {
-    const key = 'cajvPScYRyeaWL7RvReS'; // Your MapTiler API key
+    const key = 'cajvPScYRyeaWL7RvReS'; // MapTiler API key
 
     // Create map centered on Bandung
     map = L.map('map').setView([-6.9104, 107.6183], 12);
