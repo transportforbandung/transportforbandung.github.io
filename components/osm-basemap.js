@@ -1,5 +1,4 @@
 // osm-basemap.js
-// Declare map and routeLayer globally
 let map;
 let routeLayer;
 let isGPSActive = false;
@@ -7,35 +6,39 @@ let watchId = null;
 let userMarker = null;
 let gpsButton;
 
-// Initialize the map
 function initMap() {
-    // Create map
+    const key = 'SYLu9i8cbX63FU8tAJg9'; // Your MapTiler API key
+
+    // Create map centered on Bandung
     map = L.map('map').setView([-6.9104, 107.6183], 12);
 
-    // Add OpenStreetMap base layer
-    var tileLayer = L.tileLayer('https://tile.thunderforest.com/atlas/{z}/{x}/{y}.png?apikey=82a34c1241504050b0eec9b660daf460', {
-    attribution: '<a href="https://www.thunderforest.com/">Thunderforest</a> | <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap Contributors</a> | <a href="https://transportforbandung.org/tentang-kami">Transport for Bandung</a>'
+    // Use custom MapTiler vector map
+    const mtLayer = L.maptiler.maptilerLayer({
+        apiKey: key,
+        style: 'https://api.maptiler.com/maps/7cd7cac8-4971-44d1-952b-c04bc40da410/style.json',
     }).addTo(map);
 
-    // When tiles load, hide the loader
+    // When vector tiles load, hide the loader
     map.on('load', () => {
-        document.getElementById('loader').style.display = 'none';
+        const loader = document.getElementById('loader');
+        if (loader) loader.style.display = 'none';
     });
 
-    tileLayer.getContainer().style.filter = 'grayscale(10%) brightness(90%) saturate(90%)';
+    // Apply visual filters to the base map (grayscale, brightness, saturation)
+    mtLayer.getContainer().style.filter = 'grayscale(10%) brightness(90%) saturate(90%)';
 
-    // Initialize routeLayer and add it to the map
+    // Create empty layer group for routes
     routeLayer = L.layerGroup().addTo(map);
 
     // Add full-screen control
     const fullscreenControl = L.control.fullscreen({
         position: 'topleft',
-        title: false, // disable default title
+        title: false,
         forceSeparateButton: true,
         fullscreenElement: false
     }).addTo(map);
 
-    // Fullscreen button customization
+    // Customize fullscreen button icons
     setTimeout(() => {
         const fullscreenButton = document.querySelector('a.leaflet-control-zoom-fullscreen.fullscreen-icon');
         if (fullscreenButton) {
@@ -53,15 +56,14 @@ function initMap() {
             });
         }
     }, 100);
-    
+
     addRouteContainerControl();
-    // Create the GPS button
     createGPSButton();
 }
 
 document.addEventListener('DOMContentLoaded', initMap);
 
-// GPS Tracking Functions
+// GPS tracking functions
 function initGPSTracking() {
     if (isGPSActive) return;
 
@@ -139,22 +141,16 @@ function addRouteContainerControl() {
         return;
     }
 
-    // Create media query tracker
     const mobileMediaQuery = window.matchMedia('(max-width: 768px)');
 
-    // New control for sidebar
     const RouteContainerControl = L.Control.extend({
-        options: {
-            position: 'topright'
-        },
+        options: { position: 'topright' },
 
         onAdd: function(map) {
-            // Div container for the control
             const container = L.DomUtil.create('div', 'route-container-control shadow rounded m-2 position-absolute');
             container.style.top = '0';
             container.style.right = '0';
 
-            // Sidebar content div
             const contentDiv = L.DomUtil.create('div', 'sidebar-content border bg-white shadow rounded overflow-auto position-absolute');
             contentDiv.style.zIndex = '1000';
             contentDiv.style.right = '-500px';
@@ -163,16 +159,13 @@ function addRouteContainerControl() {
             contentDiv.style.transition = 'right 0.3s ease, width 0.3s ease';
             contentDiv.innerHTML = sourceElement.innerHTML;
 
-            // Function to update dimensions based on viewport
             const updateDimensions = () => {
                 if (mobileMediaQuery.matches) {
-                    // Mobile styling
                     container.style.width = '250px';
                     contentDiv.style.width = '250px';
                     contentDiv.style.maxHeight = '250px';
                     contentDiv.style.top = '55px';
                 } else {
-                    // Desktop styling
                     container.style.width = '400px';
                     contentDiv.style.width = '400px';
                     contentDiv.style.maxHeight = '500px';
@@ -180,13 +173,9 @@ function addRouteContainerControl() {
                 }
             };
 
-            // Initial setup
             updateDimensions();
-
-            // Add media query listener
             mobileMediaQuery.addEventListener('change', updateDimensions);
 
-            // Sidebar toggle button
             const toggleButton = L.DomUtil.create('button', 'btn btn-primary m-3 border shadow rounded position-absolute');
             toggleButton.innerHTML = '<i class="bi bi-list"></i>';
             toggleButton.style.top = '-.1rem';
@@ -194,7 +183,6 @@ function addRouteContainerControl() {
             toggleButton.style.zIndex = '1001';
             toggleButton.style.pointerEvents = 'all';
 
-            // Prevent scroll propagation
             L.DomEvent.disableScrollPropagation(contentDiv);
 
             container.appendChild(contentDiv);
@@ -217,7 +205,6 @@ function addRouteContainerControl() {
                 isSidebarVisible = !isSidebarVisible;
             });
 
-            // Cleanup media query listener when control is removed
             map.on('remove', () => {
                 mobileMediaQuery.removeEventListener('change', updateDimensions);
             });
@@ -226,6 +213,5 @@ function addRouteContainerControl() {
         }
     });
 
-    // Added map control
     map.addControl(new RouteContainerControl());
 }
