@@ -46,7 +46,7 @@ function fetchLocalRoute(relationId, displayType, routeColor) {
             ]);
 
             // Ensure routeNameLookup is loaded
-            const routeName = routeNameLookup[relationId] || `Route ${relationId}`;
+            const routeName = routeNameLookup[relationId] || `${name}`;
 
             // Load ways data
             waysData.features.forEach(feature => {
