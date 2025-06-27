@@ -29,7 +29,7 @@ async function loadRouteNameLookup() {
 }
 
 // route-map.js functions
-function fetchLocalRoute(relationId, displayType, routeColor) {
+async function fetchLocalRoute(relationId, displayType, routeColor) {
     return new Promise((resolve, reject) => {
         const layerGroup = L.layerGroup();
         const basePath = `${config.localRouteBasePath}/${relationId}`;
@@ -45,8 +45,8 @@ function fetchLocalRoute(relationId, displayType, routeColor) {
                 stopsResponse.json()
             ]);
 
-            // Ensure routeNameLookup is loaded
-            const routeName = routeNameLookup[relationId] || `${name}`;
+            // Ensure routeNameLookup is loaded or load its Id
+            const routeName = routeNameLookup[relationId] || `ID ${relationId}`;
 
             // Load ways data
             waysData.features.forEach(feature => {
