@@ -11,6 +11,23 @@ const config = {
   ...(window.routeConfig || {}) // Merge with user-provided config
 };
 
+// Route name lookup
+let routeNameLookup = {};
+
+async function loadRouteNameLookup() {
+  if (Object.keys(routeNameLookup).length === 0) {
+    const response = await fetch(config.routesDataUrl);
+    const { categories } = await response.json();
+    
+    // Populate routeNameLookup from categories > routes
+    for (const category of categories) {
+      for (const route of category.routes) {
+        routeNameLookup[route.relationId] = route.name;
+      }
+    }
+  }
+}
+
 // route-map.js functions
 function fetchLocalRoute(relationId, displayType, routeColor) {
     return new Promise((resolve, reject) => {
@@ -28,15 +45,20 @@ function fetchLocalRoute(relationId, displayType, routeColor) {
                 stopsResponse.json()
             ]);
 
+            // Ensure routeNameLookup is loaded
+            const routeName = routeNameLookup[relationId] || `Route ${relationId}`;
+
+            // Load ways data
             waysData.features.forEach(feature => {
                 if (feature.geometry.type === "LineString") {
                     L.polyline(feature.geometry.coordinates.map(coord => [coord[1], coord[0]]), {
                         color: routeColor,
                         weight: 4
-                    }).addTo(layerGroup);
+                    }).bindPopup(routeName).addTo(layerGroup);
                 }
             });
 
+            // Load stops data
             stopsData.features.forEach(feature => {
                 if (feature.geometry.type === "Point") {
                     const coords = feature.geometry.coordinates;
@@ -55,6 +77,7 @@ function fetchLocalRoute(relationId, displayType, routeColor) {
     });
 }
 
+// Overpass API functions if local data is not available
 function fetchOverpassRoute(relationId, displayType, routeColor) {
     return new Promise((resolve, reject) => {
         const layerGroup = L.layerGroup();
@@ -105,6 +128,7 @@ async function initializeRoutes() {
       const accordionId = `accordion-category-${index}`;
       const collapseId = `collapse-category-${index}`;
       
+      // Create accordion HTML for each category on the sidebar
       const categoryHTML = `
         <div class="accordion mb-3" id="${accordionId}">
           <div class="accordion-item">
