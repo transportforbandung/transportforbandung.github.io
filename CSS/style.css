@@ -2,12 +2,14 @@
 /*body*/
 body {
     font-family: 'Plus Jakarta Sans', sans-serif !important;
-    margin: 0; /* Ensure no default body margin */
-    padding-top: 110px; /* Offset body content for fixed navbar */
+    margin: 0;
+    /* Ensure no default body margin */
+    padding-top: 110px;
+    /* Offset body content for fixed navbar */
 }
 
 body.menu-open {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 /* Text styling */
@@ -16,15 +18,18 @@ html {
     font-size: 16px;
     scroll-behavior: smooth;
 }
+
 :root {
     --swiper-theme-color: #ffffff !important;
 }
+
 a {
     text-decoration: none !important;
     color: unset;
 }
-a:visited { 
-    text-decoration: none !important; 
+
+a:visited {
+    text-decoration: none !important;
 }
 
 fn {
@@ -51,7 +56,7 @@ fn:hover::after {
     background: #fff;
     padding: 1em;
     border: 1px solid #ccc;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     min-width: 200px;
     z-index: 1000;
     font-size: 0.9em;
@@ -62,39 +67,48 @@ fn:hover::after {
 .light {
     font-weight: 300;
 }
+
 .regular {
     font-weight: 400;
 }
+
 .medium {
     font-weight: 500;
 }
+
 .semibold {
     font-weight: 600;
 }
+
 .bold {
     font-weight: 700;
 }
+
 .extrabold {
     font-weight: 800;
 }
+
 h1 {
     font-size: 2rem;
     color: #00152B;
     margin-bottom: 0.8rem;
     line-height: 1.6;
 }
+
 h2 {
     font-size: 1.6rem;
     color: #00152B;
     margin-bottom: 0.8rem;
     line-height: 1.6;
 }
+
 h3 {
     font-size: 1.2rem;
     color: #00152B;
     margin-bottom: 0.6rem;
     line-height: 1.6;
 }
+
 p {
     font-size: 1.2rem;
     color: #00152B;
@@ -116,7 +130,8 @@ p {
 /* Button style */
 .button {
     background-color: #00A64F;
-    color: #ffffff; /* White text */
+    color: #ffffff;
+    /* White text */
     width: 240px;
     height: 50px;
     border-radius: 25px;
@@ -124,7 +139,7 @@ p {
     font-weight: bold;
     transition: background-color 0.3s ease;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex !important ;
+    display: flex !important;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -133,12 +148,14 @@ p {
 }
 
 .button:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color: #218838;
+    /* Darker green on hover */
 }
 
 .button-white {
     background-color: #FFFFFF;
-    color: #00A64F; /* White text */
+    color: #00A64F;
+    /* White text */
     width: 240px;
     height: 50px;
     border-radius: 25px;
@@ -146,7 +163,7 @@ p {
     font-weight: bold;
     transition: background-color 0.3s ease;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex !important ;
+    display: flex !important;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -155,46 +172,46 @@ p {
 }
 
 .dropbutton {
-  background-color: transparent;
-  color: blue;
-  padding: 0;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+    background-color: transparent;
+    color: blue;
+    padding: 0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
 /* Dropdown container */
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none !important;
-  display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none !important;
+    display: block;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+    background-color: #f1f1f1;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
 .count-container {
@@ -214,7 +231,8 @@ p {
 
 /* Navbar Styles */
 .navbar {
-    position: fixed; /* Keeps the navbar fixed at the top */
+    position: fixed;
+    /* Keeps the navbar fixed at the top */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -232,16 +250,21 @@ p {
 
 /* Navigation Links Styles */
 .nav-links {
-    min-width: 0; /* Allows shrinking past content width */
+    min-width: 0;
+    /* Allows shrinking past content width */
 }
+
 .nav-links ul {
     list-style-type: none;
     display: flex;
-    gap: 20px; /* Space between links */
+    gap: 20px;
+    /* Space between links */
     align-items: center;
     margin: 0;
-    min-width: 0; /* Critical for overflow control */
+    min-width: 0;
+    /* Critical for overflow control */
 }
+
 .nav-links ul li a {
     color: #000000;
     text-decoration: none;
@@ -249,15 +272,19 @@ p {
     transition: color 0.3s ease;
     white-space: nowrap;
     display: block;
-    padding: 5px 10px; /* Add clickable area padding */
+    padding: 5px 10px;
+    /* Add clickable area padding */
 }
+
 .nav-links ul li a:hover {
-    color: #ff6347; /* Change to your preferred hover color */
+    color: #ff6347;
+    /* Change to your preferred hover color */
 }
 
 /* Hamburger Menu Styles */
 .hamburger {
-    display: none; /* Hidden by default */
+    display: none;
+    /* Hidden by default */
     cursor: pointer;
     background: transparent;
     border: none;
@@ -304,20 +331,25 @@ p {
 
 /* Logo styles */
 .logo {
-  display: flex;
-  align-items: center; /* Vertically center the logo */
+    display: flex;
+    align-items: center;
+    /* Vertically center the logo */
 }
 
 .logo img {
-  width: 150px; /* Adjust SVG width */
-  height: auto; /* Maintain aspect ratio */
+    width: 150px;
+    /* Adjust SVG width */
+    height: auto;
+    /* Maintain aspect ratio */
 }
 
 /* Hero Section */
 .hero {
     position: relative;
-    height: calc(100vh - 110px); /* Full viewport minus navbar height */
-    min-height: 500px; /* Prevent collapse */
+    height: calc(100vh - 110px);
+    /* Full viewport minus navbar height */
+    min-height: 500px;
+    /* Prevent collapse */
     background-image: url('../assets/banner-image.webp');
     background-size: cover;
     background-position: center;
@@ -325,6 +357,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 .hero-overlay {
     position: relative;
     z-index: 2;
@@ -399,55 +432,55 @@ p {
 }
 
 .mini-hero-content .button-white {
-  background-color: #FFFFFF;
-  color: #00A64F;
-  width: 240px;
-  height: 50px;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-color: #FFFFFF;
+    color: #00A64F;
+    width: 240px;
+    height: 50px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mini-hero-content .dropdown {
-  display: inline-block;
+    display: inline-block;
 }
 
 .mini-hero-content .dropbutton {
-  background-color: transparent;
-  color: #FFFFFF;
-  padding: 0;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
 .mini-hero-content .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 .mini-hero-content .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 .mini-hero-content .dropdown-content a:hover {
-  background-color: #f1f1f1;
+    background-color: #f1f1f1;
 }
 
 .mini-hero-content .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
 /* Collapsible bar */
@@ -496,17 +529,17 @@ p {
 
 /* Icon */
 .icon-section {
-  padding: 4rem 5%;
-  text-align: center;
+    padding: 4rem 5%;
+    text-align: center;
 }
 
 .icon-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .icon-item {
@@ -564,14 +597,14 @@ p {
 
 /* Scroll */
 .scroll-indicator {
-  position: absolute;
-  bottom: 40px;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-  animation: slideUp 1s ease-out 0.5s forwards;
-  cursor: pointer;
-  z-index: 3;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    animation: slideUp 1s ease-out 0.5s forwards;
+    cursor: pointer;
+    z-index: 3;
 }
 
 .arrow-line {
@@ -585,30 +618,32 @@ p {
 
 /* Animations */
 @keyframes slideUp {
-  from {
-    opacity: 0;
-    transform: translate(-50%, 20px);
-  }
-  to {
-    opacity: 1;
-    transform: translate(-50%, 0);
-  }
+    from {
+        opacity: 0;
+        transform: translate(-50%, 20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
 }
 
 @keyframes slideDown {
-  from {
-    opacity: 1;
-    transform: translate(-50%, 0);
-  }
-  to {
-    opacity: 0;
-    transform: translate(-50%, 20px);
-  }
+    from {
+        opacity: 1;
+        transform: translate(-50%, 0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translate(-50%, 20px);
+    }
 }
 
 /* Hide when scrolled past hero */
 .hide-arrow {
-  animation: slideDown 0.5s ease-out forwards !important;
+    animation: slideDown 0.5s ease-out forwards !important;
 }
 
 
@@ -710,11 +745,12 @@ section {
 /* Slideshow */
 .slideshow-container {
     position: relative;
-    width: 100%; 
-    height: 400px; 
-    margin: 0 auto; 
-    overflow: hidden; 
-    border: 2px solid #ccc; /* Optional: Add a border */
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    /* Optional: Add a border */
 }
 
 .slides {
@@ -734,8 +770,10 @@ section {
 .slide-image {
     width: 100%;
     height: 100%;
-    background-size: cover; /* Ensure the image covers the area without stretching */
-    background-position: center; /* Center the image */
+    background-size: cover;
+    /* Ensure the image covers the area without stretching */
+    background-position: center;
+    /* Center the image */
 }
 
 .caption {
@@ -744,36 +782,49 @@ section {
     left: 0;
     width: 100%;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    color: white; /* Text color */
-    text-align: center; /* Center the text */
-    font-family: Arial, sans-serif; /* Font style */
-    font-size: 18px; /* Font size */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent background */
+    color: white;
+    /* Text color */
+    text-align: center;
+    /* Center the text */
+    font-family: Arial, sans-serif;
+    /* Font style */
+    font-size: 18px;
+    /* Font size */
 }
 
 .arrow {
     position: absolute;
-    top: 50%; /* Center vertically */
-    transform: translateY(-50%); /* Adjust for exact vertical centering */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    color: white; /* Arrow color */
+    top: 50%;
+    /* Center vertically */
+    transform: translateY(-50%);
+    /* Adjust for exact vertical centering */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    color: white;
+    /* Arrow color */
     border: none;
     padding: 10px;
     cursor: pointer;
     font-size: 24px;
-    z-index: 1; /* Ensure arrows are above the slides */
+    z-index: 1;
+    /* Ensure arrows are above the slides */
 }
 
 .arrow.prev {
-    left: 10px; /* Position left arrow */
+    left: 10px;
+    /* Position left arrow */
 }
 
 .arrow.next {
-    right: 10px; /* Position right arrow */
+    right: 10px;
+    /* Position right arrow */
 }
 
 .arrow:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Darker background on hover */
 }
 
 /* Table */
@@ -782,13 +833,15 @@ section {
     overflow-x: auto;
     border: 1px solid #ddd;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
 
-th, td {
+th,
+td {
     padding: 12px;
     text-align: left;
     border-bottom: 1px solid #ddd;
@@ -884,12 +937,12 @@ tr:hover {
 
 /* Blog */
 .blog-1 {
-	margin: 3rem auto !important;
+    margin: 3rem auto !important;
     max-width: 65%;
 }
 
 .img-blog {
-	width: 100%;
+    width: 100%;
     margin-top: 15px;
 }
 
@@ -934,15 +987,15 @@ tr:hover {
 }
 
 .share-buttons {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
 }
 
 .share-text {
-  font-size: 1rem;
-  color: #333;
-  margin: 0;
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
 }
 
 .social-icons {
@@ -952,69 +1005,78 @@ tr:hover {
 }
 
 .social-icons a {
-  display: inline-block;
-  transition: transform 0.2s ease;
+    display: inline-block;
+    transition: transform 0.2s ease;
 }
 
 .social-icons a:hover {
-  transform: translateY(-2px);
+    transform: translateY(-2px);
 }
 
 .social-icons img {
-  width: 24px;
-  height: 24px;
+    width: 24px;
+    height: 24px;
+}
+
+.blog-preview-container {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+    gap: 15px;
+    padding: 20px;
+    justify-content: center;
 }
 
 .blog-preview {
-  width: 300px;
-  height: 515px;
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background: #fff;
-  font-family: Arial, sans-serif;
-  text-align: left;
+    width: 100%;
+    height: 515px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    font-family: Arial, sans-serif;
+    text-align: left;
 }
 
 /* Article image */
 .blog-preview-image {
-  width: 100%;
-  height: 170px;
-  object-fit: cover;
-  display: block;
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    display: block;
 }
 
 /* Publish date */
 .blog-preview-publish-date {
-  font-size: 12px;
-  color: #666;
-  margin: 15px;
+    font-size: 12px;
+    color: #666;
+    margin: 15px;
 }
 
 /* Content preview */
 .blog-content-preview {
-  padding: 0 15px;
+    padding: 0 15px;
 }
 
 /* Article title */
 .blog-title-preview {
-  font-size: 18px;
-  margin: 0 0 10px;
-  color: #333;
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #333;
 }
 
 /* Article excerpt */
 .blog-article-excerpt {
-  font-size: 14px;
-  color: #555;
-  margin: 0 0 15px;
-  line-height: 1.5;
+    font-size: 14px;
+    color: #555;
+    margin: 0 0 15px;
+    line-height: 1.5;
 }
 
 /* Hover effect for the button */
 .blog-preview:hover {
-  background-color: #e6f6ed;
+    background-color: #e6f6ed;
 }
 
 /* Guide */
@@ -1038,14 +1100,14 @@ tr:hover {
 
 /* Preview Image */
 .guide-preview-image {
-  width: 100px;
-  height: 100px;
-  margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
 }
 
 /* Preview Text */
 .guide-preview-text {
-  flex: 1;
+    flex: 1;
 }
 
 /* Link */
@@ -1062,7 +1124,7 @@ tr:hover {
 }
 
 .swiper-pagination {
-  display: none;
+    display: none;
 }
 
 /*Map*/
@@ -1176,12 +1238,14 @@ tr:hover {
 }
 
 .leaflet-control-gps.active {
-    background-color: #3388ff; /* Change color when active */
+    background-color: #3388ff;
+    /* Change color when active */
     color: white;
 }
 
 .leaflet-control-gps.active i {
-    color: white; /* Change icon color when active */
+    color: white;
+    /* Change icon color when active */
 }
 
 .map-checkbox-menu {
@@ -1189,10 +1253,13 @@ tr:hover {
     right: 0;
     top: 0;
     height: 100%;
-    width: 380px; /* Fixed width for the checkbox menu */
+    width: 380px;
+    /* Fixed width for the checkbox menu */
     background: white;
-    z-index: 10000; /* Higher than the map's z-index */
-    overflow-y: auto; /* Enable scrolling if the content overflows */
+    z-index: 10000;
+    /* Higher than the map's z-index */
+    overflow-y: auto;
+    /* Enable scrolling if the content overflows */
     padding: 10px 20px;
     border-left: 2px solid #ddd;
     border-radius: 0 13px 13px 0;
@@ -1365,24 +1432,38 @@ tr:hover {
     color: #FFFFFF;
 }
 
-html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
+html,
+body,
+button,
+input,
+select,
+textarea,
+.btn,
+.nav-link,
+.breadcrumb {
     font-family: 'Plus Jakarta Sans', sans-serif !important;
 }
 
 /* 404 page */
 .page-404 {
     position: relative;
-    height: calc(100vh - 110px); /* Full viewport minus navbar height */
-    min-height: 500px; /* Prevent collapse */
-    padding-top: 110px; /* Offset for navbar */
-    box-sizing: border-box; /* Include padding in height calculation */
-    background-image: url('assets/nyasar-di-Majalaya.jpg'); /* Replace with your image path */
+    height: calc(100vh - 110px);
+    /* Full viewport minus navbar height */
+    min-height: 500px;
+    /* Prevent collapse */
+    padding-top: 110px;
+    /* Offset for navbar */
+    box-sizing: border-box;
+    /* Include padding in height calculation */
+    background-image: url('assets/nyasar-di-Majalaya.jpg');
+    /* Replace with your image path */
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .page-404::before {
     content: '';
     position: absolute;
@@ -1406,16 +1487,17 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
 /* Responsive design */
 @media (max-width: 768px) {
     body {
-        padding-top: 90px; /* Adjust if navbar height changes on mobile */
+        padding-top: 90px;
+        /* Adjust if navbar height changes on mobile */
     }
-    
+
     html {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 12px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 12px;
     }
 }
 
-@media (max-width: 972px) {	
+@media (max-width: 972px) {
     .hamburger {
         display: block;
     }
@@ -1461,7 +1543,8 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
         gap: 30px;
         padding: 30px 0;
         align-items: stretch;
-        width: 100%; /* Ensure full width */
+        width: 100%;
+        /* Ensure full width */
     }
 
     .nav-links ul li {
@@ -1475,13 +1558,16 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
         display: flex;
         justify-content: center;
         width: 100%;
-        padding: 0 20px; /* Add horizontal padding */
+        padding: 0 20px;
+        /* Add horizontal padding */
     }
 
     .nav-links ul li a {
         font-size: 24px;
-        text-align: center; /* Center text inside links */
-        display: block; /* Ensure links take full width */
+        text-align: center;
+        /* Center text inside links */
+        display: block;
+        /* Ensure links take full width */
         width: 100%;
     }
 
@@ -1496,7 +1582,8 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
         align-items: center;
         justify-content: center;
         width: 150%;
-        max-width: 250px; /* Adjust as needed */
+        max-width: 250px;
+        /* Adjust as needed */
         margin: 0 auto;
     }
 
@@ -1514,7 +1601,8 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
     }
 
     .mini-hero {
-        flex-direction: column; /* Stack elements vertically */
+        flex-direction: column;
+        /* Stack elements vertically */
         align-items: center;
         text-align: center;
         padding: 20px 5%;
@@ -1522,8 +1610,8 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
     }
 
     .mini-hero-img {
-        flex: 0 0 auto; 
-        width: 100%; 
+        flex: 0 0 auto;
+        width: 100%;
         max-width: 400px;
         border: 5px solid #FFFFFF;
         height: 200px;
@@ -1539,20 +1627,25 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
     }
 
     .mini-hero-content {
-        max-width: 100%; /* Full width for text and buttons */
+        max-width: 100%;
+        /* Full width for text and buttons */
     }
 
     .mini-hero-content h1 {
-        font-size: 28px; /* Adjust font size for mobile */
+        font-size: 28px;
+        /* Adjust font size for mobile */
     }
 
     .mini-hero-content p {
-        font-size: 16px; /* Adjust font size for mobile */
+        font-size: 16px;
+        /* Adjust font size for mobile */
     }
 
     .mini-hero-content .button-container {
-        flex-direction: column; /* Stack buttons vertically */
-        gap: 10px; /* Reduce gap between buttons */
+        flex-direction: column;
+        /* Stack buttons vertically */
+        gap: 10px;
+        /* Reduce gap between buttons */
     }
 
     .mini-hero-btn-flex {
@@ -1565,39 +1658,44 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
 
     .dropdown {
         display: flex;
-        justify-content: center; /* Center the dropdown button */
-        width: 100%; /* Ensure the dropdown takes full width */
+        justify-content: center;
+        /* Center the dropdown button */
+        width: 100%;
+        /* Ensure the dropdown takes full width */
     }
 
     .dropdown-content {
-        left: 50%; /* Center the dropdown content */
-        transform: translateX(-50%); /* Adjust for exact centering */
-        top: 100%; /* Position below the button */
+        left: 50%;
+        /* Center the dropdown content */
+        transform: translateX(-50%);
+        /* Adjust for exact centering */
+        top: 100%;
+        /* Position below the button */
     }
 }
 
 @media (max-width: 768px) {
-	main {
-		padding: 30px 10px 0 10px;
-	}
+    main {
+        padding: 30px 10px 0 10px;
+    }
 
-	.navbar {
+    .navbar {
         height: 90px;
-	}
-    
+    }
+
     .hero {
         height: 60vh;
         min-height: 200px;
     }
-	
+
     .hero-overlay {
         top: -25px;
     }
-        
+
     .hero-content {
         width: 100%;
     }
-    
+
     .overlay-image {
         max-width: 200px;
     }
@@ -1609,10 +1707,11 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
     .wide-content {
         padding: 20px;
     }
-    
+
     .hero-content h1,
     .hero-content p {
-        font-size: 24px; /* Better mobile readability */
+        font-size: 24px;
+        /* Better mobile readability */
     }
 
     .scroll-indicator {
@@ -1664,7 +1763,7 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
     .flex-collaborator img {
         max-width: 40px !important;
     }
-        
+
     .card-container {
         width: 100%;
         max-width: 90vp;
@@ -1676,7 +1775,7 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
         max-width: 90vp;
         margin: 25px auto;
     }
-    
+
     .clickable-card {
         flex-direction: column;
     }
@@ -1719,10 +1818,10 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
         color: #333;
     }
 
-	.blog-1 {
-    max-width: 90%;
-	}
-        
+    .blog-1 {
+        max-width: 90%;
+    }
+
     .swiper {
         width: 100%;
         padding-bottom: 30px;
@@ -1747,10 +1846,10 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
     }
 
     .guide-preview-item {
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-     }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .slide-indicators {
         display: flex;
@@ -1780,8 +1879,10 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
     }
 
     .map-container {
-        flex-direction: column; /* Stack map and menu vertically */
-        overflow: hidden; /* Allow container to grow in height */
+        flex-direction: column;
+        /* Stack map and menu vertically */
+        overflow: hidden;
+        /* Allow container to grow in height */
     }
 
     #map {
@@ -1791,10 +1892,14 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
     }
 
     .map-checkbox-menu {
-        position: static; /* Reset absolute positioning */
-        width: 100%; /* Full width for the menu */
-        height: 200px; /* Allow menu to grow in height */
-        border-left: none; /* Remove left border */
+        position: static;
+        /* Reset absolute positioning */
+        width: 100%;
+        /* Full width for the menu */
+        height: 200px;
+        /* Allow menu to grow in height */
+        border-left: none;
+        /* Remove left border */
     }
 
     .route-header {
@@ -1808,7 +1913,8 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
     .leaflet-container:-webkit-full-screen .map-checkbox-menu,
     .leaflet-container:-moz-full-screen .map-checkbox-menu,
     .leaflet-container:fullscreen .map-checkbox-menu {
-        position: fixed; /* Keep fixed positioning in fullscreen mode */
+        position: fixed;
+        /* Keep fixed positioning in fullscreen mode */
         right: 0;
         top: 0;
         height: 100vh;
@@ -1830,15 +1936,15 @@ html, body, button, input, select, textarea, .btn, .nav-link, .breadcrumb {
     .footer-socials img {
         width: 40px;
     }
-        
+
     .page-404 {
         padding-top: 90px;
     }
-    
+
     .page-404 .container {
         padding: 20px;
     }
-    
+
     .page-404 h1 {
         font-size: 2.5rem !important;
     }
