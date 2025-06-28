@@ -18,7 +18,7 @@ async function loadRouteNameLookup() {
   if (Object.keys(routeNameLookup).length === 0) {
     const response = await fetch(config.routesDataUrl);
     const { categories } = await response.json();
-    
+
     // Populate routeNameLookup from categories > routes
     for (const category of categories) {
       for (const route of category.routes) {
@@ -30,89 +30,91 @@ async function loadRouteNameLookup() {
 
 // route-map.js functions
 async function fetchLocalRoute(relationId, displayType, routeColor) {
-    return new Promise((resolve, reject) => {
-        const layerGroup = L.layerGroup();
-        const basePath = `${config.localRouteBasePath}/${relationId}`;
+  await loadRouteNameLookup();
 
-        Promise.all([
-            fetch(`${basePath}/ways.geojson`),
-            fetch(`${basePath}/${displayType === "ways_with_points" ? "stops" : "endstops"}.geojson`)
-        ]).then(async ([waysResponse, stopsResponse]) => {
-            if (!waysResponse.ok || !stopsResponse.ok) throw new Error('Local files not found');
-            
-            const [waysData, stopsData] = await Promise.all([
-                waysResponse.json(),
-                stopsResponse.json()
-            ]);
+  return new Promise((resolve, reject) => {
+    const layerGroup = L.layerGroup();
+    const basePath = `${config.localRouteBasePath}/${relationId}`;
 
-            // Ensure routeNameLookup is loaded or load its Id
-            const routeName = routeNameLookup[relationId] || `ID ${relationId}`;
+    Promise.all([
+      fetch(`${basePath}/ways.geojson`),
+      fetch(`${basePath}/${displayType === "ways_with_points" ? "stops" : "endstops"}.geojson`)
+    ]).then(async ([waysResponse, stopsResponse]) => {
+      if (!waysResponse.ok || !stopsResponse.ok) throw new Error('Local files not found');
 
-            // Load ways data
-            waysData.features.forEach(feature => {
-                if (feature.geometry.type === "LineString") {
-                    L.polyline(feature.geometry.coordinates.map(coord => [coord[1], coord[0]]), {
-                        color: routeColor,
-                        weight: 4
-                    }).bindPopup(routeName).addTo(layerGroup);
-                }
-            });
+      const [waysData, stopsData] = await Promise.all([
+        waysResponse.json(),
+        stopsResponse.json()
+      ]);
 
-            // Load stops data
-            stopsData.features.forEach(feature => {
-                if (feature.geometry.type === "Point") {
-                    const coords = feature.geometry.coordinates;
-                    L.circleMarker([coords[1], coords[0]], {
-                        radius: 5,
-                        color: routeColor,
-                        fillColor: "#ffffff",
-                        fillOpacity: 1
-                    }).bindPopup(feature.properties?.name || "Unnamed Stop")
-                     .addTo(layerGroup);
-                }
-            });
+      // Ensure routeNameLookup is loaded or load its Id
+      const routeName = routeNameLookup[relationId.toString()]
 
-            resolve(layerGroup);
-        }).catch(reject);
-    });
+      // Load ways data
+      waysData.features.forEach(feature => {
+        if (feature.geometry.type === "LineString") {
+          L.polyline(feature.geometry.coordinates.map(coord => [coord[1], coord[0]]), {
+            color: routeColor,
+            weight: 4
+          }).bindPopup(routeName).addTo(layerGroup);
+        }
+      });
+
+      // Load stops data
+      stopsData.features.forEach(feature => {
+        if (feature.geometry.type === "Point") {
+          const coords = feature.geometry.coordinates;
+          L.circleMarker([coords[1], coords[0]], {
+            radius: 5,
+            color: routeColor,
+            fillColor: "#ffffff",
+            fillOpacity: 1
+          }).bindPopup(feature.properties?.name || "Unnamed Stop")
+            .addTo(layerGroup);
+        }
+      });
+
+      resolve(layerGroup);
+    }).catch(reject);
+  });
 }
 
 // Overpass API functions if local data is not available
 function fetchOverpassRoute(relationId, displayType, routeColor) {
-    return new Promise((resolve, reject) => {
-        const layerGroup = L.layerGroup();
-        const stopQuery = displayType === "ways_with_points" ? 
-            `node(r:"stop"),node(r:"stop_entry_only"),node(r:"stop_exit_only")` : 
-            `node(r:"stop_entry_only"),node(r:"stop_exit_only")`;
+  return new Promise((resolve, reject) => {
+    const layerGroup = L.layerGroup();
+    const stopQuery = displayType === "ways_with_points" ?
+      `node(r:"stop"),node(r:"stop_entry_only"),node(r:"stop_exit_only")` :
+      `node(r:"stop_entry_only"),node(r:"stop_exit_only")`;
 
-        const query = `[out:json];
+    const query = `[out:json];
             relation(${relationId});
             way(r);>;out geom;
             ${stopQuery};out geom;`;
 
-        fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(query)}`)
-            .then(response => response.json())
-            .then(data => {
-                data.elements.forEach(element => {
-                    if (element.type === "way" && element.geometry) {
-                        L.polyline(element.geometry.map(p => [p.lat, p.lon]), {
-                            color: routeColor,
-                            weight: 4
-                        }).addTo(layerGroup);
-                    }
-                    else if (element.type === "node") {
-                        L.circleMarker([element.lat, element.lon], {
-                            radius: 5,
-                            color: routeColor,
-                            fillColor: "#ffffff",
-                            fillOpacity: 1
-                        }).bindPopup(element.tags?.name || "Unnamed Stop")
-                          .addTo(layerGroup);
-                    }
-                });
-                resolve(layerGroup);
-            }).catch(reject);
-    });
+    fetch(`https://overpass-api.de/api/interpreter?data=${encodeURIComponent(query)}`)
+      .then(response => response.json())
+      .then(data => {
+        data.elements.forEach(element => {
+          if (element.type === "way" && element.geometry) {
+            L.polyline(element.geometry.map(p => [p.lat, p.lon]), {
+              color: routeColor,
+              weight: 4
+            }).addTo(layerGroup);
+          }
+          else if (element.type === "node") {
+            L.circleMarker([element.lat, element.lon], {
+              radius: 5,
+              color: routeColor,
+              fillColor: "#ffffff",
+              fillOpacity: 1
+            }).bindPopup(element.tags?.name || "Unnamed Stop")
+              .addTo(layerGroup);
+          }
+        });
+        resolve(layerGroup);
+      }).catch(reject);
+  });
 }
 
 // route-loader.js functions
@@ -127,7 +129,7 @@ async function initializeRoutes() {
     categories.forEach((category, index) => {
       const accordionId = `accordion-category-${index}`;
       const collapseId = `collapse-category-${index}`;
-      
+
       // Create accordion HTML for each category on the sidebar
       const categoryHTML = `
         <div class="accordion mb-3" id="${accordionId}">
@@ -208,7 +210,7 @@ function setupEventDelegation() {
       if (checkbox.checked !== isChecked) {
         checkbox.checked = isChecked;
         const { relationId, displayType, routeColor } = checkbox.dataset;
-        
+
         try {
           checkbox.disabled = true;
           if (isChecked) {
@@ -231,7 +233,7 @@ function setupEventDelegation() {
 
   container.addEventListener('change', async (e) => {
     const checkbox = e.target;
-    
+
     if (checkbox.classList.contains('master-checkbox')) {
       await handleMasterChange(checkbox);
       return;
@@ -240,7 +242,7 @@ function setupEventDelegation() {
     if (checkbox.classList.contains('route-checkbox')) {
       const categoryIndex = checkbox.dataset.categoryIndex;
       const { relationId, displayType, routeColor } = checkbox.dataset;
-      
+
       try {
         checkbox.disabled = true;
         if (checkbox.checked) {
@@ -266,7 +268,7 @@ async function loadRoute(relationId, displayType, routeColor) {
   }
 
   try {
-    const layerGroup = routeCache.has(relationId) 
+    const layerGroup = routeCache.has(relationId)
       ? routeCache.get(relationId)
       : await fetchRouteData(relationId, displayType, routeColor);
 
