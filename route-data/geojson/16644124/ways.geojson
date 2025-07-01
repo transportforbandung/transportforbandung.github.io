@@ -574,8 +574,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5764933,
-            -6.8822343
+            107.576498,
+            -6.8822436
           ],
           [
             107.5762649,
@@ -1803,12 +1803,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5764933,
-            -6.8822343
+            107.576498,
+            -6.8822436
           ],
           [
-            107.5755803,
-            -6.8825133
+            107.5755756,
+            -6.88252
           ],
           [
             107.5749699,
@@ -1820,7 +1820,9 @@
         "id": 318670709,
         "avgspeed": "15",
         "highway": "residential",
-        "name": "Jalan Sariwangi"
+        "lanes": "2",
+        "name": "Jalan Sariwangi",
+        "width": "3"
       }
     },
     {
@@ -3664,6 +3666,7 @@
       "properties": {
         "id": 1242500614,
         "highway": "tertiary",
+        "name": "Jalan Ciroyom",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3787,6 +3790,7 @@
       "properties": {
         "id": 1330455094,
         "highway": "tertiary",
+        "name": "Jalan Ciroyom",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3809,6 +3813,7 @@
       "properties": {
         "id": 1330455095,
         "highway": "tertiary",
+        "name": "Jalan Ciroyom",
         "oneway": "yes",
         "surface": "concrete"
       }

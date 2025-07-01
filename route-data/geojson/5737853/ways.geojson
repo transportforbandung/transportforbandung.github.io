@@ -7,37 +7,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5345668,
-            -6.903759
-          ],
-          [
-            107.534537,
-            -6.9037805
-          ],
-          [
-            107.5342138,
-            -6.9039965
-          ]
-        ]
-      },
-      "properties": {
-        "id": 42796831,
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Nanjung",
-        "oneway": "yes",
-        "ref": "171"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5350594,
-            -6.9033966
+            107.535052,
+            -6.9034019
           ],
           [
             107.5345668,
@@ -305,10 +276,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            107.5339056,
-            -6.9038052
-          ],
           [
             107.5338492,
             -6.9037866
@@ -1166,98 +1133,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5356551,
-            -6.9027794
-          ],
-          [
-            107.5358516,
-            -6.9027795
-          ],
-          [
-            107.5360665,
-            -6.9027752
-          ]
-        ]
-      },
-      "properties": {
-        "id": 390344973,
-        "avgspeed": "20",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Mahar Martanegara",
-        "oneway": "yes",
-        "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5355935,
-            -6.9030515
-          ],
-          [
-            107.5354973,
-            -6.9031145
-          ],
-          [
-            107.5350808,
-            -6.9033831
-          ],
-          [
-            107.5350594,
-            -6.9033966
-          ]
-        ]
-      },
-      "properties": {
-        "id": 390344975,
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Nanjung",
-        "oneway": "yes",
-        "ref": "171"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5360665,
-            -6.9027752
-          ],
-          [
-            107.535981,
-            -6.9028334
-          ],
-          [
-            107.5358464,
-            -6.902901
-          ],
-          [
-            107.5357201,
-            -6.902957
-          ]
-        ]
-      },
-      "properties": {
-        "id": 390344976,
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Mahar Martanegara",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.534337,
             -6.8888509
           ],
@@ -1314,84 +1189,6 @@
         "id": 546539870,
         "highway": "residential",
         "lanes": "1",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5350645,
-            -6.9027288
-          ],
-          [
-            107.5351976,
-            -6.9027588
-          ],
-          [
-            107.5353156,
-            -6.9027674
-          ],
-          [
-            107.535529,
-            -6.9027704
-          ]
-        ]
-      },
-      "properties": {
-        "id": 569885047,
-        "avgspeed": "20",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Baros",
-        "oneway": "yes",
-        "ref": "170",
-        "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5340495,
-            -6.9038565
-          ],
-          [
-            107.5340394,
-            -6.9038531
-          ]
-        ]
-      },
-      "properties": {
-        "id": 575445681,
-        "highway": "secondary",
-        "lanes": "2"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5342138,
-            -6.9039965
-          ],
-          [
-            107.5341394,
-            -6.9039424
-          ]
-        ]
-      },
-      "properties": {
-        "id": 575445682,
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Kerkof",
         "oneway": "yes"
       }
     },
@@ -1502,31 +1299,34 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.535529,
-            -6.9027704
+            107.5351648,
+            -6.9031848
           ],
           [
-            107.5355713,
-            -6.9027608
+            107.5352036,
+            -6.9030924
           ],
           [
-            107.5356146,
-            -6.9027639
+            107.5352137,
+            -6.903047
           ],
           [
-            107.5356551,
-            -6.9027794
+            107.5352197,
+            -6.9029804
+          ],
+          [
+            107.5352103,
+            -6.9028826
           ]
         ]
       },
       "properties": {
-        "id": 1059257079,
-        "avgspeed": "20",
-        "highway": "primary",
-        "junction": "roundabout",
-        "lanes": "2",
-        "oneway": "yes",
-        "ref": "170"
+        "id": 1059257072,
+        "destination:ref": "170",
+        "foot": "yes",
+        "highway": "primary_link",
+        "lanes": "1",
+        "oneway": "yes"
       }
     },
     {
@@ -1535,35 +1335,53 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5357201,
-            -6.902957
+            107.5350084,
+            -6.903314
           ],
           [
-            107.5357002,
-            -6.9029933
+            107.5350316,
+            -6.9032969
           ],
           [
-            107.5356707,
-            -6.9030227
-          ],
-          [
-            107.5356342,
-            -6.9030426
-          ],
-          [
-            107.5355935,
-            -6.9030515
+            107.5351648,
+            -6.9031848
           ]
         ]
       },
       "properties": {
-        "id": 1059257080,
-        "avgspeed": "20",
+        "id": 1059257075,
         "highway": "primary",
-        "junction": "roundabout",
         "lanes": "2",
+        "name": "Jalan Nanjung",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "171"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5345002,
+            -6.9036795
+          ],
+          [
+            107.5350084,
+            -6.903314
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1059257076,
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Nanjung",
+        "oneway": "yes",
+        "ref": "171"
       }
     },
     {
@@ -1701,45 +1519,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5341394,
-            -6.9039424
+            107.5340776,
+            -6.903827
           ],
           [
-            107.5340495,
-            -6.9038565
+            107.5341258,
+            -6.9038306
+          ],
+          [
+            107.534185,
+            -6.9038225
+          ],
+          [
+            107.5342426,
+            -6.9038102
+          ],
+          [
+            107.5342901,
+            -6.9037943
+          ],
+          [
+            107.5343427,
+            -6.9037776
           ]
         ]
       },
       "properties": {
-        "id": 1111568227,
+        "id": 1171906242,
         "highway": "secondary",
-        "lanes": "2",
         "name": "Jalan Kerkof",
         "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5340394,
-            -6.9038531
-          ],
-          [
-            107.5339056,
-            -6.9038052
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1172312806,
-        "bridge": "yes",
-        "highway": "secondary",
-        "lanes": "2",
-        "layer": "1",
-        "name": "Jalan Kerkof"
       }
     },
     {
@@ -2042,6 +1851,117 @@
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Jenderal Sudirman",
+        "oneway": "yes",
+        "ref": "170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5339145,
+            -6.9037837
+          ],
+          [
+            107.5340776,
+            -6.903827
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1408925349,
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "name": "Jalan Kerkof",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5338492,
+            -6.9037866
+          ],
+          [
+            107.5338796,
+            -6.9037829
+          ],
+          [
+            107.5339145,
+            -6.9037837
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1408925350,
+        "highway": "secondary",
+        "name": "Jalan Kerkof",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5343427,
+            -6.9037776
+          ],
+          [
+            107.5344036,
+            -6.9037453
+          ],
+          [
+            107.5345002,
+            -6.9036795
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1408925351,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Nanjung",
+        "oneway": "yes",
+        "ref": "171"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5352103,
+            -6.9028826
+          ],
+          [
+            107.5351848,
+            -6.9028606
+          ],
+          [
+            107.5351442,
+            -6.9028179
+          ],
+          [
+            107.5350645,
+            -6.9027288
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1408925352,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Baros",
         "oneway": "yes",
         "ref": "170"
       }
