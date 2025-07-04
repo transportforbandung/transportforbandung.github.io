@@ -46,12 +46,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/CSS/style.css">
 
-    <!-- Bootstrap JS -->
+    <!-- Head JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://cdn.maptiler.com/leaflet-maptilersdk/v4.0.2/leaflet-maptilersdk.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/2.4.0/Control.FullScreen.min.js"></script>
     <script src="https://cdn.maptiler.com/maptiler-sdk-js/v3.2.0/maptiler-sdk.umd.min.js"></script>
-    <script src="https://cdn.maptiler.com/leaflet-maptilersdk/v4.0.2/leaflet-maptilersdk.umd.min.js"></script>
 
     <!-- Independent styles -->
     <style>
@@ -380,7 +381,7 @@
         .map-container {
             flex: 1;
             position: relative;
-            height: 100vh;
+            height: 100%;
             margin: 0 auto;
         }
 
@@ -493,11 +494,6 @@
     <script src="./components/fetch-script.js" defer></script>
     <script src="./components/main.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
-
-    <!-- Axios for HTTP requests -->
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
     <script>
         // App state
@@ -560,11 +556,19 @@
             const center = [-6.914744, 107.60981];
             state.map = L.map('map').setView(center, 13);
 
-            // Add tile layer
-            const mtLayer = L.maptiler.maptilerLayer({
+            // Add tile layer with error handling
+            const mtLayer = L.maptilerLayer({
                 apiKey: key,
                 style: 'https://api.maptiler.com/maps/7cd7cac8-4971-44d1-952b-c04bc40da410/style.json',
-            }).addTo(map);
+            }).addTo(state.map);
+
+            mtLayer.on('error', function (e) {
+                console.error('MapTiler error:', e.error);
+                // Fallback to OSM
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(state.map);
+            });
 
             // Fix for default marker icons
             delete L.Icon.Default.prototype._getIconUrl;
