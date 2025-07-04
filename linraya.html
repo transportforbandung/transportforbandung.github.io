@@ -5,10 +5,10 @@
     <!--Meta-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transit Planner - Vanilla JS</title>
+    <title>Linraya - Navigasi Transportasi Umum Bandung</title>
     <meta charset="UTF-8">
     <meta name="description"
-        content="Lihat peta dan panduan kereta api, bus kota, dan angkot Bandung Raya di situs web Transport for Bandung.">
+        content="Bingung rute transportasi umum di Bandung Raya? Gunakan Linraya untuk mengetahui rute transportasi umum menuju tujuanmu!">
     <meta name="author" content="Transport for Bandung">
     <meta name="keywords"
         content="transportasi umum, bandung, peta transportasi, transport for bandung, peta, panduan, commuter line, bus kota, angkot, metro jabar trans, damri, panduan transportasi, panduan transportasi umum, panduan angkot">
@@ -541,13 +541,16 @@
 
         // Initialize the map
         function initMap() {
+            const key = 'cajvPScYRyeaWL7RvReS'; // MapTiler API key
+
             const center = [-6.914744, 107.60981];
             state.map = L.map('map').setView(center, 13);
 
             // Add tile layer
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a>'
-            }).addTo(state.map);
+            const mtLayer = L.maptiler.maptilerLayer({
+                apiKey: key,
+                style: 'https://api.maptiler.com/maps/7cd7cac8-4971-44d1-952b-c04bc40da410/style.json',
+            }).addTo(map);
 
             // Fix for default marker icons
             delete L.Icon.Default.prototype._getIconUrl;
@@ -752,7 +755,7 @@
 
             try {
                 const response = await axios.post(
-                    "https://api.transportforbandung.org/otp",
+                    "https://api.transportforbandung.org/linraya",
                     { query, variables },
                     { headers: { "Content-Type": "application/json" } }
                 );
