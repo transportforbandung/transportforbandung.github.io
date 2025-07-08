@@ -903,6 +903,50 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.4709059,
+            -6.8510066
+          ],
+          [
+            107.4707837,
+            -6.8510297
+          ],
+          [
+            107.4707228,
+            -6.8510374
+          ]
+        ]
+      },
+      "properties": {
+        "id": 683921632,
+        "highway": "unclassified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4706346,
+            -6.8510292
+          ],
+          [
+            107.4706762,
+            -6.8510372
+          ]
+        ]
+      },
+      "properties": {
+        "id": 683921633,
+        "highway": "unclassified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.4706346,
             -6.8510292
           ],
@@ -1095,6 +1139,7 @@
         "motorcycle": "yes",
         "name": "Jalan Cihaliwung",
         "oneway": "no",
+        "public_transport:version": "2",
         "ref": "10",
         "source": "Yahoo hires",
         "surface": "asphalt"

@@ -863,7 +863,9 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sumbawa",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -2442,6 +2444,10 @@
           [
             107.5970982,
             -6.8939774
+          ],
+          [
+            107.5970769,
+            -6.893622
           ],
           [
             107.5970644,

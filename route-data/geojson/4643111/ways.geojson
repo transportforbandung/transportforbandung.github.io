@@ -93,7 +93,9 @@
         "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Seram",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -342,7 +344,9 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sumbawa",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -977,6 +981,7 @@
         "lanes": "2",
         "name": "Jalan Sumbawa",
         "oneway": "yes",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },

@@ -1428,12 +1428,28 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6084828,
+            -6.903297
+          ],
+          [
+            107.60825,
+            -6.9039031
+          ],
+          [
+            107.608236,
+            -6.9039395
+          ],
+          [
             107.6082182,
             -6.903986
           ],
           [
             107.6081616,
             -6.9041718
+          ],
+          [
+            107.6081315,
+            -6.9043332
           ],
           [
             107.6081018,
@@ -1457,7 +1473,6 @@
         "id": 318222726,
         "avgspeed": "30",
         "bicycle": "yes",
-        "foot": "yes",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Taman Sari",
@@ -1843,38 +1858,6 @@
         "surface": "asphalt",
         "wheelchair": "no",
         "width": "5 m"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6084828,
-            -6.903297
-          ],
-          [
-            107.60825,
-            -6.9039031
-          ],
-          [
-            107.608236,
-            -6.9039395
-          ],
-          [
-            107.6082182,
-            -6.903986
-          ]
-        ]
-      },
-      "properties": {
-        "id": 318729562,
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Taman Sari",
-        "oneway": "no",
-        "surface": "asphalt"
       }
     },
     {
