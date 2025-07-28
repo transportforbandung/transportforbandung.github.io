@@ -12,7 +12,7 @@ def main():
     data_dir = os.path.join(base_dir, '..', 'route-data')
     route_data_dir = os.path.join(data_dir, 'geojson')
     routes_json_path = os.path.join(data_dir, 'routes.json')
-    output_dir = os.path.join(data_dir, 'shp-named')
+    output_dir = os.path.join(data_dir, 'shp-named-ungrouped')
     os.makedirs(output_dir, exist_ok=True)
 
     with open(routes_json_path, 'r') as f:
