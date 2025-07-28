@@ -1936,6 +1936,10 @@
             -6.8852088
           ],
           [
+            107.5363587,
+            -6.8852969
+          ],
+          [
             107.5364702,
             -6.8854248
           ],
@@ -2204,35 +2208,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5356551,
-            -6.9027794
-          ],
-          [
-            107.5358516,
-            -6.9027795
-          ],
-          [
-            107.5360665,
-            -6.9027752
-          ]
-        ]
-      },
-      "properties": {
-        "id": 390344973,
-        "avgspeed": "20",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Mahar Martanegara",
-        "oneway": "yes",
-        "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5355935,
             -6.9030515
           ],
@@ -2257,37 +2232,6 @@
         "name": "Jalan Nanjung",
         "oneway": "yes",
         "ref": "171"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5360665,
-            -6.9027752
-          ],
-          [
-            107.535981,
-            -6.9028334
-          ],
-          [
-            107.5358464,
-            -6.902901
-          ],
-          [
-            107.5357201,
-            -6.902957
-          ]
-        ]
-      },
-      "properties": {
-        "id": 390344976,
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Mahar Martanegara",
-        "oneway": "yes"
       }
     },
     {
@@ -4676,6 +4620,44 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5356551,
+            -6.9027794
+          ],
+          [
+            107.5356947,
+            -6.9028121
+          ],
+          [
+            107.5357205,
+            -6.9028563
+          ],
+          [
+            107.5357293,
+            -6.9029067
+          ],
+          [
+            107.5357201,
+            -6.902957
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1059257078,
+        "avgspeed": "20",
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "oneway": "yes",
+        "ref": "170",
+        "roundabout": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.535529,
             -6.9027704
           ],
@@ -4700,7 +4682,8 @@
         "junction": "roundabout",
         "lanes": "2",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "roundabout": "yes"
       }
     },
     {
@@ -4737,7 +4720,8 @@
         "junction": "roundabout",
         "lanes": "2",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "roundabout": "yes"
       }
     },
     {

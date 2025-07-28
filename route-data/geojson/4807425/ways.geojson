@@ -11,10 +11,6 @@
             -6.9456911
           ],
           [
-            107.5896459,
-            -6.9456037
-          ],
-          [
             107.5897088,
             -6.945521
           ]
@@ -164,6 +160,89 @@
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
         "ref": "106"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.581801,
+            -6.9568531
+          ],
+          [
+            107.5815287,
+            -6.9566761
+          ],
+          [
+            107.5813898,
+            -6.9565794
+          ],
+          [
+            107.5812167,
+            -6.9564589
+          ]
+        ]
+      },
+      "properties": {
+        "id": 46141361,
+        "avgspeed": "40",
+        "destination": "Soroja;Pasteur;Padalarang;Moh. Toha;Buah Batu;Cileunyi",
+        "highway": "motorway_link",
+        "lanes": "3",
+        "motorcycle": "yes",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5812167,
+            -6.9564589
+          ],
+          [
+            107.5811398,
+            -6.9563672
+          ],
+          [
+            107.5811161,
+            -6.9563329
+          ],
+          [
+            107.5811149,
+            -6.9562851
+          ],
+          [
+            107.5811294,
+            -6.9562555
+          ],
+          [
+            107.5811511,
+            -6.9562314
+          ],
+          [
+            107.5811985,
+            -6.9562232
+          ],
+          [
+            107.5812756,
+            -6.9562561
+          ]
+        ]
+      },
+      "properties": {
+        "id": 166752488,
+        "avgspeed": "40",
+        "highway": "motorway_link",
+        "lanes": "1",
+        "motorcycle": "yes",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1009,16 +1088,16 @@
             -6.9482681
           ],
           [
-            107.5876533,
-            -6.9486889
+            107.5876372,
+            -6.9486822
           ],
           [
             107.5873753,
             -6.9490662
           ],
           [
-            107.5873267,
-            -6.9491381
+            107.5873389,
+            -6.9491201
           ],
           [
             107.5870424,
@@ -1275,6 +1354,10 @@
             -7.0279735
           ],
           [
+            107.5198533,
+            -7.0279676
+          ],
+          [
             107.5192178,
             -7.0278154
           ]
@@ -1465,8 +1548,8 @@
             -6.9761762
           ],
           [
-            107.5688399,
-            -6.9762119
+            107.56894,
+            -6.9761997
           ],
           [
             107.5686702,
@@ -1495,6 +1578,10 @@
           [
             107.5673303,
             -6.9763486
+          ],
+          [
+            107.5670857,
+            -6.9763112
           ],
           [
             107.5669659,
@@ -1708,6 +1795,81 @@
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
         "ref": "106"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5819029,
+            -6.9567719
+          ],
+          [
+            107.582037,
+            -6.9567879
+          ],
+          [
+            107.582119,
+            -6.9567941
+          ],
+          [
+            107.5821725,
+            -6.9567891
+          ],
+          [
+            107.5822904,
+            -6.9567101
+          ]
+        ]
+      },
+      "properties": {
+        "id": 570831181,
+        "destination": "Kopo;Bandung",
+        "highway": "primary_link",
+        "lanes": "1",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5818302,
+            -6.9573086
+          ],
+          [
+            107.5818789,
+            -6.9572361
+          ],
+          [
+            107.5819042,
+            -6.9571207
+          ],
+          [
+            107.5818975,
+            -6.9570634
+          ],
+          [
+            107.5818859,
+            -6.9570246
+          ],
+          [
+            107.581801,
+            -6.9568531
+          ]
+        ]
+      },
+      "properties": {
+        "id": 570831182,
+        "destination": "Soroja;Pasteur;Padalarang;Moh. Toha;Buah Batu;Cileunyi",
+        "highway": "primary_link",
+        "lanes": "2",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1935,37 +2097,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5818302,
-            -6.9573086
-          ],
-          [
-            107.582033,
-            -6.9570693
-          ],
-          [
-            107.5820558,
-            -6.9570355
-          ]
-        ]
-      },
-      "properties": {
-        "id": 618711493,
-        "access": "no",
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Kopo Sayati",
-        "oneway": "yes",
-        "ref": "106",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5784989,
             -6.9620754
           ],
@@ -1976,6 +2107,10 @@
           [
             107.578718,
             -6.9617637
+          ],
+          [
+            107.5787869,
+            -6.9616727
           ],
           [
             107.5788557,
@@ -2355,6 +2490,31 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5812756,
+            -6.9562561
+          ],
+          [
+            107.5819029,
+            -6.9567719
+          ]
+        ]
+      },
+      "properties": {
+        "id": 852252736,
+        "avgspeed": "40",
+        "destination": "Kopo;Soreang",
+        "highway": "motorway_link",
+        "lanes": "3",
+        "motorcycle": "yes",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5733336,
             -6.972132
           ],
@@ -2606,45 +2766,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5402532,
-            -7.0202552
-          ],
-          [
-            107.5401124,
-            -7.0202991
-          ],
-          [
-            107.5400658,
-            -7.0203159
-          ],
-          [
-            107.5397526,
-            -7.0204415
-          ],
-          [
-            107.5392893,
-            -7.0206094
-          ],
-          [
-            107.539178,
-            -7.0206196
-          ]
-        ]
-      },
-      "properties": {
-        "id": 892129305,
-        "highway": "primary",
-        "lanes": "1",
-        "name": "Jalan Raya Bandung - Soreang",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5887787,
             -6.9469287
           ],
@@ -2692,55 +2813,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5403361,
-            -7.0202172
-          ],
-          [
-            107.5402532,
-            -7.0202552
-          ]
-        ]
-      },
-      "properties": {
-        "id": 912665878,
-        "highway": "primary",
-        "lanes": "1",
-        "name": "Jalan Raya Bandung - Soreang",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5403813,
-            -7.02017
-          ],
-          [
-            107.5403361,
-            -7.0202172
-          ]
-        ]
-      },
-      "properties": {
-        "id": 912665879,
-        "highway": "primary",
-        "lanes": "1",
-        "name": "Jalan Raya Bandung - Soreang",
-        "oneway": "yes",
-        "ref": "106"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5619677,
-            -6.9760627
+            107.5619496,
+            -6.9760936
           ],
           [
             107.5618831,
@@ -2838,8 +2912,12 @@
             -6.9759845
           ],
           [
-            107.5619677,
-            -6.9760627
+            107.5619697,
+            -6.9760673
+          ],
+          [
+            107.5619496,
+            -6.9760936
           ]
         ]
       },
@@ -2865,8 +2943,8 @@
             -6.9455853
           ],
           [
-            107.5899816,
-            -6.945652
+            107.5899638,
+            -6.9456485
           ]
         ]
       },
@@ -3026,6 +3104,10 @@
             -6.981334
           ],
           [
+            107.562568,
+            -6.981495
+          ],
+          [
             107.5629677,
             -6.982044
           ],
@@ -3111,8 +3193,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5899816,
-            -6.945652
+            107.5899638,
+            -6.9456485
           ],
           [
             107.5902641,
@@ -3233,60 +3315,6 @@
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
         "ref": "106"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5821362,
-            -6.9569157
-          ],
-          [
-            107.5822904,
-            -6.9567101
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1300561205,
-        "access": "no",
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Kopo Sayati",
-        "oneway": "yes",
-        "ref": "106",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5820558,
-            -6.9570355
-          ],
-          [
-            107.5821362,
-            -6.9569157
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1300561211,
-        "access": "no",
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Kopo Sayati",
-        "oneway": "yes",
-        "ref": "106",
-        "surface": "asphalt"
       }
     },
     {

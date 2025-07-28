@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6028846,
+          -6.934073
+        ]
+      },
+      "properties": {
+        "id": 3110064979,
+        "bus": "yes",
+        "name": "Terminal Tegallega",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5409382,
+          -6.9707276
+        ]
+      },
+      "properties": {
+        "id": 5475075599,
+        "bus": "yes",
+        "name": "Terminal Mahmud",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
+}

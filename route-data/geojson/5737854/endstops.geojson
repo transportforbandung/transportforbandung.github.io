@@ -13,8 +13,23 @@
       "properties": {
         "id": 1783124932,
         "bus": "yes",
-        "highway": "bus_stop",
         "name": "Cibeber",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5379919,
+          -6.8807505
+        ]
+      },
+      "properties": {
+        "id": 9668839346,
+        "bus": "yes",
+        "name": "Pasar Antri",
         "public_transport": "stop_position"
       }
     }

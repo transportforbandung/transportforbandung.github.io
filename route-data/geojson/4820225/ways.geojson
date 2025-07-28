@@ -486,8 +486,16 @@
             -6.9026954
           ],
           [
+            107.5386368,
+            -6.9026525
+          ],
+          [
             107.5387627,
             -6.9026459
+          ],
+          [
+            107.5388155,
+            -6.9026432
           ],
           [
             107.5390587,
@@ -612,27 +620,29 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5356551,
-            -6.9027794
-          ],
-          [
-            107.5358516,
-            -6.9027795
-          ],
-          [
             107.5360665,
             -6.9027752
+          ],
+          [
+            107.535981,
+            -6.9028334
+          ],
+          [
+            107.5358464,
+            -6.902901
+          ],
+          [
+            107.5357201,
+            -6.902957
           ]
         ]
       },
       "properties": {
-        "id": 390344973,
-        "avgspeed": "20",
+        "id": 390344976,
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
-        "oneway": "yes",
-        "source": "Yahoo hires"
+        "oneway": "yes"
       }
     },
     {
@@ -944,6 +954,46 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5354332,
+            -6.90293
+          ],
+          [
+            107.5353521,
+            -6.9029414
+          ],
+          [
+            107.5352965,
+            -6.9029303
+          ],
+          [
+            107.5352716,
+            -6.9029202
+          ],
+          [
+            107.5352506,
+            -6.9029105
+          ],
+          [
+            107.5352103,
+            -6.9028826
+          ]
+        ]
+      },
+      "properties": {
+        "id": 555334369,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Baros",
+        "oneway": "yes",
+        "ref": "170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5423445,
             -6.90205
           ],
@@ -1017,40 +1067,6 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
-        "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5350645,
-            -6.9027288
-          ],
-          [
-            107.5351976,
-            -6.9027588
-          ],
-          [
-            107.5353156,
-            -6.9027674
-          ],
-          [
-            107.535529,
-            -6.9027704
-          ]
-        ]
-      },
-      "properties": {
-        "id": 569885047,
-        "avgspeed": "20",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Baros",
-        "oneway": "yes",
-        "ref": "170",
         "source": "Yahoo hires"
       }
     },
@@ -1189,31 +1205,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.535529,
-            -6.9027704
+            107.5357201,
+            -6.902957
           ],
           [
-            107.5355713,
-            -6.9027608
+            107.5357002,
+            -6.9029933
           ],
           [
-            107.5356146,
-            -6.9027639
+            107.5356707,
+            -6.9030227
           ],
           [
-            107.5356551,
-            -6.9027794
+            107.5356342,
+            -6.9030426
+          ],
+          [
+            107.5355935,
+            -6.9030515
           ]
         ]
       },
       "properties": {
-        "id": 1059257079,
+        "id": 1059257080,
         "avgspeed": "20",
         "highway": "primary",
         "junction": "roundabout",
         "lanes": "2",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "roundabout": "yes"
       }
     },
     {
@@ -1535,6 +1556,77 @@
         "name": "Jalan Jenderal Sudirman",
         "oneway": "yes",
         "ref": "170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5352103,
+            -6.9028826
+          ],
+          [
+            107.5351848,
+            -6.9028606
+          ],
+          [
+            107.5351442,
+            -6.9028179
+          ],
+          [
+            107.5350645,
+            -6.9027288
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1408925352,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Baros",
+        "oneway": "yes",
+        "ref": "170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5355935,
+            -6.9030515
+          ],
+          [
+            107.5355297,
+            -6.9030422
+          ],
+          [
+            107.5354762,
+            -6.9030067
+          ],
+          [
+            107.5354506,
+            -6.9029784
+          ],
+          [
+            107.5354332,
+            -6.90293
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1415737377,
+        "avgspeed": "20",
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "oneway": "yes",
+        "ref": "170",
+        "roundabout": "yes",
+        "source": "Yahoo hires"
       }
     }
   ]

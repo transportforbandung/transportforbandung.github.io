@@ -148,90 +148,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6263963,
-            -6.9913061
-          ],
-          [
-            107.6261676,
-            -6.9916895
-          ],
-          [
-            107.6260666,
-            -6.9918174
-          ]
-        ]
-      },
-      "properties": {
-        "id": 42488590,
-        "avgspeed": "25",
-        "highway": "primary",
-        "lanes": "1",
-        "name": "Jalan Raya Bandung - Banjaran",
-        "oneway": "yes",
-        "ref": "161"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6267195,
-            -6.9907202
-          ],
-          [
-            107.6263963,
-            -6.9913061
-          ]
-        ]
-      },
-      "properties": {
-        "id": 43542176,
-        "avgspeed": "25",
-        "bridge": "yes",
-        "highway": "primary",
-        "lanes": "2",
-        "layer": "1",
-        "oneway": "yes",
-        "ref": "161"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6270175,
-            -6.9900706
-          ],
-          [
-            107.6270051,
-            -6.9901696
-          ],
-          [
-            107.6267195,
-            -6.9907202
-          ]
-        ]
-      },
-      "properties": {
-        "id": 43542177,
-        "avgspeed": "25",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Raya Dayeuhkolot",
-        "oneway": "yes",
-        "ref": "161"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6265321,
             -6.9862119
           ],
@@ -1120,8 +1036,8 @@
             -6.9536897
           ],
           [
-            107.6111523,
-            -6.9535196
+            107.6111456,
+            -6.953493
           ],
           [
             107.6111025,
@@ -1841,6 +1757,14 @@
             -7.0218955
           ],
           [
+            107.6798253,
+            -7.0219228
+          ],
+          [
+            107.6801806,
+            -7.02196
+          ],
+          [
             107.6808929,
             -7.0220346
           ],
@@ -1895,6 +1819,65 @@
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6266256,
+            -6.9906859
+          ],
+          [
+            107.6267313,
+            -6.9904912
+          ],
+          [
+            107.6269294,
+            -6.9901204
+          ],
+          [
+            107.6270175,
+            -6.9900706
+          ]
+        ]
+      },
+      "properties": {
+        "id": 570115113,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Raya Dayeuhkolot",
+        "oneway": "yes",
+        "ref": "161"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6263103,
+            -6.9912481
+          ],
+          [
+            107.6266256,
+            -6.9906859
+          ]
+        ]
+      },
+      "properties": {
+        "id": 570115118,
+        "avgspeed": "25",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "oneway": "yes",
+        "ref": "161"
       }
     },
     {
@@ -2218,29 +2201,29 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6262606,
-            -7.0081311
+            107.6265341,
+            -7.0083054
+          ],
+          [
+            107.6264577,
+            -7.0083016
           ],
           [
             107.6264044,
-            -7.0082022
+            -7.0082851
           ],
           [
-            107.6264534,
-            -7.0082302
+            107.6263089,
+            -7.0082458
           ],
           [
-            107.6264986,
-            -7.0082598
-          ],
-          [
-            107.6265341,
-            -7.0083054
+            107.6262126,
+            -7.0082003
           ]
         ]
       },
       "properties": {
-        "id": 571218726,
+        "id": 571219060,
         "highway": "secondary",
         "oneway": "yes"
       }
@@ -2840,6 +2823,14 @@
             -7.0287567
           ],
           [
+            107.6970981,
+            -7.0288952
+          ],
+          [
+            107.6972805,
+            -7.029012
+          ],
+          [
             107.6974082,
             -7.0290934
           ],
@@ -3389,6 +3380,56 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6262126,
+            -7.0082003
+          ],
+          [
+            107.626195,
+            -7.0082039
+          ],
+          [
+            107.6261771,
+            -7.0082029
+          ],
+          [
+            107.62616,
+            -7.0081976
+          ],
+          [
+            107.6261398,
+            -7.0081837
+          ],
+          [
+            107.6261256,
+            -7.0081639
+          ],
+          [
+            107.6261191,
+            -7.0081404
+          ],
+          [
+            107.6261193,
+            -7.0081247
+          ],
+          [
+            107.6261231,
+            -7.0081095
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1079416051,
+        "highway": "secondary",
+        "junction": "roundabout",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6094101,
             -6.9482727
           ],
@@ -3511,6 +3552,28 @@
         "name": "Jalan Otto Iskandardinata",
         "oneway": "yes",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6260666,
+            -6.9918174
+          ],
+          [
+            107.6260563,
+            -6.9916946
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1112143765,
+        "highway": "secondary",
+        "lanes": "1",
+        "name": "Jalan Anggadireja"
       }
     },
     {
@@ -3720,6 +3783,10 @@
           [
             107.6071736,
             -6.9417393
+          ],
+          [
+            107.6070094,
+            -6.9412381
           ],
           [
             107.606932,
@@ -4276,6 +4343,35 @@
       "properties": {
         "id": 1395765437,
         "highway": "secondary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6260563,
+            -6.9916946
+          ],
+          [
+            107.6261843,
+            -6.9914723
+          ],
+          [
+            107.6263103,
+            -6.9912481
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1415825123,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Raya Bandung - Banjaran",
+        "oneway": "yes",
+        "ref": "161"
       }
     }
   ]

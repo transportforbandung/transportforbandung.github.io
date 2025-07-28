@@ -7,41 +7,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5749738,
-            -6.9155723
-          ],
-          [
-            107.5750195,
-            -6.915401
-          ],
-          [
-            107.5751229,
-            -6.9150685
-          ],
-          [
-            107.5753136,
-            -6.9144895
-          ]
-        ]
-      },
-      "properties": {
-        "id": 4567682,
-        "avgspeed": "25",
-        "driving_side": "right",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Elang",
-        "oneway": "yes",
-        "ref": "11",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5690911,
             -6.9104213
           ],
@@ -175,6 +140,10 @@
           [
             107.54109,
             -6.8796691
+          ],
+          [
+            107.5406962,
+            -6.8794988
           ],
           [
             107.540645,
@@ -356,6 +325,47 @@
         "lanes": "1",
         "name": "Jalan Gandawijaya",
         "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5755571,
+            -6.9135373
+          ],
+          [
+            107.5754392,
+            -6.9138457
+          ],
+          [
+            107.5752572,
+            -6.9143562
+          ],
+          [
+            107.5749328,
+            -6.9153687
+          ],
+          [
+            107.5748897,
+            -6.9155407
+          ]
+        ]
+      },
+      "properties": {
+        "id": 254609694,
+        "access": "yes",
+        "bicycle": "yes",
+        "bus": "yes",
+        "driving_side": "right",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Elang",
+        "oneway": "yes",
+        "ref": "11"
       }
     },
     {
@@ -944,117 +954,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.575721,
-            -6.9131092
+            107.5745791,
+            -6.9171828
           ],
           [
-            107.5758021,
-            -6.913142
+            107.5745698,
+            -6.9171316
+          ],
+          [
+            107.5745476,
+            -6.9170844
+          ],
+          [
+            107.5745269,
+            -6.9170574
+          ],
+          [
+            107.5744965,
+            -6.917027
+          ],
+          [
+            107.5744512,
+            -6.9169972
           ]
         ]
       },
       "properties": {
-        "id": 331452014,
+        "id": 331452013,
+        "avgspeed": "15",
         "highway": "trunk",
-        "lanes": "3",
-        "name": "Jalan Rajawali Barat",
-        "oneway": "yes",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5584996,
-            -6.89319
-          ],
-          [
-            107.5583845,
-            -6.8929942
-          ],
-          [
-            107.5582968,
-            -6.8928484
-          ],
-          [
-            107.5582471,
-            -6.892759
-          ],
-          [
-            107.558126,
-            -6.8925411
-          ],
-          [
-            107.5580399,
-            -6.8924036
-          ],
-          [
-            107.5580255,
-            -6.8923792
-          ],
-          [
-            107.5579997,
-            -6.8923353
-          ],
-          [
-            107.5578961,
-            -6.8921589
-          ],
-          [
-            107.557751,
-            -6.8919043
-          ],
-          [
-            107.5575682,
-            -6.8915839
-          ],
-          [
-            107.557194,
-            -6.8909422
-          ],
-          [
-            107.5571049,
-            -6.8907999
-          ],
-          [
-            107.5566781,
-            -6.8901125
-          ],
-          [
-            107.5566284,
-            -6.8900246
-          ],
-          [
-            107.556216,
-            -6.8893169
-          ],
-          [
-            107.5561597,
-            -6.8892257
-          ],
-          [
-            107.5556811,
-            -6.8884444
-          ],
-          [
-            107.555643,
-            -6.8883823
-          ]
-        ]
-      },
-      "properties": {
-        "id": 339618935,
-        "avgspeed": "30",
-        "highway": "trunk",
-        "lanes": "2",
-        "motorcycle": "yes",
-        "name": "Jalan Jend. H. Amir Machmud",
-        "oneway": "yes",
+        "junction": "circular",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "name": "Bunderan Cibeureum",
+        "oneway": "no",
         "ref": "11",
-        "source": "Yahoo hires"
+        "turn:lanes:backward": "slight_right|slight_right",
+        "turn:lanes:forward": "slight_left|slight_right"
       }
     },
     {
@@ -1250,6 +1187,10 @@
             -6.8852088
           ],
           [
+            107.5363587,
+            -6.8852969
+          ],
+          [
             107.5364702,
             -6.8854248
           ],
@@ -1441,8 +1382,8 @@
             -6.9044437
           ],
           [
-            107.5657296,
-            -6.9048651
+            107.5657545,
+            -6.9049096
           ]
         ]
       },
@@ -1964,6 +1905,83 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5554797,
+            -6.8879517
+          ],
+          [
+            107.5557192,
+            -6.888343
+          ],
+          [
+            107.5559388,
+            -6.8886859
+          ],
+          [
+            107.5559992,
+            -6.8887802
+          ],
+          [
+            107.5562442,
+            -6.8891982
+          ],
+          [
+            107.5566931,
+            -6.889986
+          ],
+          [
+            107.5568497,
+            -6.8902446
+          ],
+          [
+            107.5572088,
+            -6.8908164
+          ],
+          [
+            107.5572447,
+            -6.8908741
+          ],
+          [
+            107.5575829,
+            -6.8914103
+          ],
+          [
+            107.5576545,
+            -6.8915256
+          ],
+          [
+            107.5580359,
+            -6.8921818
+          ],
+          [
+            107.5580847,
+            -6.8922657
+          ],
+          [
+            107.5581322,
+            -6.8923483
+          ],
+          [
+            107.558593,
+            -6.8931439
+          ]
+        ]
+      },
+      "properties": {
+        "id": 572985692,
+        "highway": "trunk",
+        "lanes": "2",
+        "motorcycle": "yes",
+        "name": "Jalan Jend. H. Amir Machmud",
+        "oneway": "yes",
+        "ref": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5368837,
             -6.8859294
           ],
@@ -2164,60 +2182,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.561879,
-            -6.8986119
-          ],
-          [
-            107.5620012,
-            -6.8987045
-          ]
-        ]
-      },
-      "properties": {
-        "id": 704594292,
-        "avgspeed": "30",
-        "foot": "no",
-        "highway": "trunk",
-        "lanes": "1",
-        "name": "Jalan Layang Cimindi",
-        "name:en": "Fly Over Cimindi",
-        "oneway": "yes",
-        "ref": "11",
-        "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5657296,
-            -6.9048651
-          ],
-          [
-            107.5657545,
-            -6.9049096
-          ]
-        ]
-      },
-      "properties": {
-        "id": 708412211,
-        "avgspeed": "30",
-        "highway": "trunk",
-        "lanes": "2",
-        "name": "Jalan Jend. H. Amir Machmud",
-        "oneway": "yes",
-        "ref": "11",
-        "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5587783,
             -6.8934551
           ],
@@ -2298,57 +2262,39 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.555643,
-            -6.8883823
+            107.5541694,
+            -6.8858165
           ],
           [
-            107.5554234,
-            -6.8880103
+            107.5542851,
+            -6.8859958
           ],
           [
-            107.5552322,
-            -6.8876864
+            107.5543889,
+            -6.8861567
           ],
           [
-            107.5550315,
-            -6.8873463
+            107.5546545,
+            -6.8865907
           ],
           [
-            107.5548919,
-            -6.8871098
+            107.5548379,
+            -6.8868775
           ],
           [
-            107.5546245,
-            -6.8866774
-          ],
-          [
-            107.5543949,
-            -6.8863155
-          ],
-          [
-            107.5541879,
-            -6.8860004
-          ],
-          [
-            107.5541319,
-            -6.8859141
-          ],
-          [
-            107.5540996,
-            -6.8858644
+            107.5554797,
+            -6.8879517
           ]
         ]
       },
       "properties": {
-        "id": 1001395919,
-        "avgspeed": "30",
+        "id": 1001395918,
         "highway": "trunk",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11",
-        "source": "Yahoo hires"
+        "ref": "11"
       }
     },
     {
@@ -2389,53 +2335,48 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5540996,
-            -6.8858644
-          ],
-          [
-            107.5539786,
-            -6.8856737
-          ],
-          [
-            107.5538495,
-            -6.8854676
-          ],
-          [
-            107.5537567,
-            -6.8853142
-          ],
-          [
-            107.5536309,
-            -6.8850994
-          ],
-          [
-            107.5532727,
-            -6.8845289
-          ],
-          [
-            107.5532466,
-            -6.8844891
-          ],
-          [
-            107.5532098,
-            -6.8844243
-          ],
-          [
             107.5531885,
             -6.8843128
+          ],
+          [
+            107.5532749,
+            -6.8843897
+          ],
+          [
+            107.5533095,
+            -6.8844555
+          ],
+          [
+            107.5536834,
+            -6.8850678
+          ],
+          [
+            107.5538169,
+            -6.8852824
+          ],
+          [
+            107.5539243,
+            -6.885443
+          ],
+          [
+            107.5540488,
+            -6.8856295
+          ],
+          [
+            107.5541694,
+            -6.8858165
           ]
         ]
       },
       "properties": {
-        "id": 1032883128,
+        "id": 1032883127,
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11",
-        "source": "Yahoo hires"
+        "ref": "11"
       }
     },
     {
@@ -2514,6 +2455,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5745601,
+            -6.9172787
+          ],
+          [
+            107.5745248,
+            -6.9173306
+          ],
+          [
+            107.5744751,
+            -6.9173693
+          ],
+          [
+            107.5744159,
+            -6.9173911
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1071187430,
+        "avgspeed": "15",
+        "highway": "trunk",
+        "junction": "circular",
+        "lanes": "2",
+        "name": "Bunderan Cibeureum",
+        "ref": "11",
+        "turn:lanes": "slight_left|slight_left;slight_right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5897693,
             -6.9455492
           ],
@@ -2522,8 +2497,8 @@
             -6.9455853
           ],
           [
-            107.5899816,
-            -6.945652
+            107.5899638,
+            -6.9456485
           ]
         ]
       },
@@ -2567,8 +2542,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5894259,
-            -6.945408
+            107.5894219,
+            -6.9454078
           ],
           [
             107.5896531,
@@ -2827,41 +2802,133 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5744512,
-            -6.9169972
+            107.5748897,
+            -6.9155407
           ],
           [
-            107.5745135,
-            -6.9168299
+            107.5748405,
+            -6.9157106
           ],
           [
-            107.5747072,
-            -6.9163324
+            107.5747136,
+            -6.9160776
           ],
           [
-            107.5747945,
-            -6.9161059
+            107.5746349,
+            -6.9162861
           ],
           [
-            107.5749278,
-            -6.9157275
+            107.5745343,
+            -6.9165393
           ],
           [
-            107.5749738,
-            -6.9155723
+            107.5744542,
+            -6.9167428
+          ],
+          [
+            107.5744284,
+            -6.9168081
+          ],
+          [
+            107.574422,
+            -6.9168274
+          ],
+          [
+            107.5743886,
+            -6.9169098
+          ],
+          [
+            107.5743593,
+            -6.9169831
           ]
         ]
       },
       "properties": {
-        "id": 1151221550,
-        "avgspeed": "25",
+        "id": 1151221549,
+        "bicycle": "yes",
+        "bus": "yes",
+        "destination:lanes": "Holis;Pasir Koja;Caringin;Kopo|Cijerah;Cigondewah;Cimindi;Cimahi",
         "driving_side": "right",
+        "foot": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Elang",
         "oneway": "yes",
         "ref": "11",
-        "surface": "paved"
+        "turn:lanes": "slight_left|slight_right;right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5745791,
+            -6.9171828
+          ],
+          [
+            107.5745756,
+            -6.9172319
+          ],
+          [
+            107.5745601,
+            -6.9172787
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1151221557,
+        "avgspeed": "15",
+        "highway": "trunk",
+        "junction": "circular",
+        "lanes": "2",
+        "name": "Bunderan Cibeureum",
+        "ref": "11",
+        "turn:lanes": "slight_right|slight_right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5888658,
+            -6.9451811
+          ],
+          [
+            107.5890571,
+            -6.9452671
+          ],
+          [
+            107.5891029,
+            -6.9452877
+          ],
+          [
+            107.5891731,
+            -6.9453141
+          ],
+          [
+            107.5893173,
+            -6.9453679
+          ],
+          [
+            107.5894219,
+            -6.9454078
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1197261991,
+        "destination:lanes": "Peta;Panjunan;Astana Anyar|Leuwipanjang;Cibaduyut;Mohammad Toha;Cibiru|Purbaleunyi;Kopo Sayati;Lapangan Udara Sulaiman;Rancamanyar",
+        "destination:ref:lanes": "106|11|4;106;;",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Soekarno-Hatta",
+        "oneway": "yes",
+        "ref": "11",
+        "turn:lanes": "slight_left;through|through|right"
       }
     },
     {
@@ -2916,8 +2983,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5899816,
-            -6.945652
+            107.5899638,
+            -6.9456485
           ],
           [
             107.5902641,
@@ -2971,6 +3038,44 @@
         "oneway": "yes",
         "ref": "11",
         "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5744512,
+            -6.9169972
+          ],
+          [
+            107.574422,
+            -6.9169899
+          ],
+          [
+            107.5743913,
+            -6.9169845
+          ],
+          [
+            107.5743593,
+            -6.9169831
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1221036888,
+        "avgspeed": "15",
+        "highway": "trunk",
+        "junction": "circular",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "name": "Bunderan Cibeureum",
+        "oneway": "no",
+        "ref": "11",
+        "turn:lanes:backward": "slight_right|slight_right",
+        "turn:lanes:forward": "slight_right|slight_right"
       }
     },
     {
@@ -3074,6 +3179,73 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5844282,
+            -6.9430135
+          ],
+          [
+            107.584573,
+            -6.9431186
+          ],
+          [
+            107.584642,
+            -6.9431671
+          ],
+          [
+            107.5847245,
+            -6.9432291
+          ],
+          [
+            107.5848895,
+            -6.9433396
+          ],
+          [
+            107.5849105,
+            -6.9433545
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1231740041,
+        "destination:lanes": "Kopo;Leuwipanjang;Cibaduyut||Mohammad Toha;Batununggal;Buahbatu;Cibiru",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Soekarno-Hatta",
+        "oneway": "yes",
+        "ref": "11",
+        "turn:lanes": "slight_left|slight_left;through|through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5755137,
+            -6.9269292
+          ],
+          [
+            107.5756277,
+            -6.9276758
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1234371427,
+        "destination": "Simpang Pasir Koja",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Soekarno-Hatta",
+        "oneway": "yes",
+        "ref": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5759894,
             -6.9300668
           ],
@@ -3105,56 +3277,27 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.575723,
-            -6.9133498
+            107.575721,
+            -6.9131092
           ],
           [
-            107.5758021,
-            -6.913142
+            107.5755571,
+            -6.9135373
           ]
         ]
       },
       "properties": {
-        "id": 1259705833,
-        "avgspeed": "25",
+        "id": 1363794525,
+        "access": "yes",
+        "bicycle": "yes",
+        "bus": "yes",
         "driving_side": "right",
+        "foot": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Elang",
         "oneway": "yes",
-        "ref": "11",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5753136,
-            -6.9144895
-          ],
-          [
-            107.5755245,
-            -6.9138801
-          ],
-          [
-            107.575723,
-            -6.9133498
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1296460355,
-        "avgspeed": "25",
-        "driving_side": "right",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Elang",
-        "oneway": "yes",
-        "ref": "11",
-        "surface": "paved"
+        "ref": "11"
       }
     },
     {

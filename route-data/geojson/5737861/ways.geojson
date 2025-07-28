@@ -1372,8 +1372,7 @@
         "id": 318896521,
         "avgspeed": "15",
         "highway": "tertiary",
-        "lanes": "2",
-        "name": "Melong Asih"
+        "lanes": "2"
       }
     },
     {
@@ -1780,8 +1779,8 @@
             -6.9044437
           ],
           [
-            107.5657296,
-            -6.9048651
+            107.5657545,
+            -6.9049096
           ]
         ]
       },
@@ -2052,24 +2051,18 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5657296,
-            -6.9048651
+            107.5437829,
+            -6.9320624
           ],
           [
-            107.5657545,
-            -6.9049096
+            107.5438009,
+            -6.9320191
           ]
         ]
       },
       "properties": {
-        "id": 708412211,
-        "avgspeed": "30",
-        "highway": "trunk",
-        "lanes": "2",
-        "name": "Jalan Jend. H. Amir Machmud",
-        "oneway": "yes",
-        "ref": "11",
-        "source": "Yahoo hires"
+        "id": 682827057,
+        "highway": "residential"
       }
     },
     {
@@ -2227,12 +2220,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5604057,
-            -6.8963483
-          ],
-          [
-            107.56037,
-            -6.8962911
+            107.5603175,
+            -6.8962042
           ],
           [
             107.5602833,
@@ -2296,6 +2285,30 @@
         "id": 1365625451,
         "highway": "trunk",
         "lanes": "1",
+        "name": "Jalan Jend. H. Amir Machmud",
+        "oneway": "yes",
+        "ref": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5604095,
+            -6.8963547
+          ],
+          [
+            107.5603175,
+            -6.8962042
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1415738484,
+        "highway": "trunk",
+        "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
         "ref": "11"

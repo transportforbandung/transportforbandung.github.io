@@ -1856,6 +1856,55 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.8269193,
+            -6.970892
+          ],
+          [
+            107.82692,
+            -6.9708664
+          ]
+        ]
+      },
+      "properties": {
+        "id": 386052270,
+        "highway": "primary",
+        "name": "Majalaya - Cicalengka",
+        "oneway": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.7709283,
+            -6.9546803
+          ],
+          [
+            107.7709732,
+            -6.954694
+          ]
+        ]
+      },
+      "properties": {
+        "id": 550545305,
+        "bridge": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "layer": "1",
+        "name": "Jalan Raya Dangdeur",
+        "oneway": "yes",
+        "ref": "13",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.7699498,
             -6.954389
           ],

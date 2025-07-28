@@ -639,7 +639,7 @@
       },
       "properties": {
         "id": 124147452,
-        "highway": "tertiary",
+        "highway": "residential",
         "lanes": "2",
         "motorcar": "yes",
         "motorcycle": "yes",
@@ -2284,6 +2284,10 @@
             -6.9299831
           ],
           [
+            107.577385,
+            -6.9298665
+          ],
+          [
             107.57743,
             -6.9298491
           ],
@@ -3099,6 +3103,10 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6344448,
+            -6.8929252
+          ],
+          [
             107.6342036,
             -6.8928823
           ],
@@ -3797,40 +3805,6 @@
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "no"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6342036,
-            -6.8928823
-          ],
-          [
-            107.6344448,
-            -6.8929252
-          ]
-        ]
-      },
-      "properties": {
-        "id": 569202162,
-        "access": "yes",
-        "bicycle": "yes",
-        "cycleway": "no",
-        "foot": "yes",
-        "highway": "tertiary",
-        "horse": "yes",
-        "lanes": "2",
-        "motorcar": "yes",
-        "motorcycle": "yes",
-        "name": "Jalan Sido Mukti",
-        "oneway": "no",
-        "sidewalk": "both",
-        "smoothness": "good",
-        "surface": "asphalt",
-        "width": "6"
       }
     },
     {

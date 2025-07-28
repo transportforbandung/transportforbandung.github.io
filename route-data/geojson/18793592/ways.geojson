@@ -940,6 +940,212 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5903016,
+            -7.0480981
+          ],
+          [
+            107.5904137,
+            -7.0481037
+          ]
+        ]
+      },
+      "properties": {
+        "id": 573894496,
+        "avgspeed": "25",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Raya Bandung - Banjaran",
+        "ref": "161",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5867226,
+            -7.0478629
+          ],
+          [
+            107.5868264,
+            -7.0478697
+          ],
+          [
+            107.586941,
+            -7.0478779
+          ],
+          [
+            107.5882878,
+            -7.0479746
+          ],
+          [
+            107.5885378,
+            -7.0479884
+          ],
+          [
+            107.5886659,
+            -7.0480035
+          ],
+          [
+            107.5891975,
+            -7.04804
+          ],
+          [
+            107.5893915,
+            -7.0480442
+          ],
+          [
+            107.590278,
+            -7.0480963
+          ],
+          [
+            107.5903016,
+            -7.0480981
+          ]
+        ]
+      },
+      "properties": {
+        "id": 573894500,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "motorcycle": "yes",
+        "name": "Jalan Raya Bandung - Banjaran",
+        "ref": "161",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5927169,
+            -7.0466786
+          ],
+          [
+            107.5927082,
+            -7.0465987
+          ],
+          [
+            107.5927099,
+            -7.0465194
+          ]
+        ]
+      },
+      "properties": {
+        "id": 574384760,
+        "avgspeed": "25",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Raya Bandung - Banjaran",
+        "ref": "161"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5904137,
+            -7.0481037
+          ],
+          [
+            107.5904479,
+            -7.0481057
+          ],
+          [
+            107.5906372,
+            -7.0481186
+          ],
+          [
+            107.5910403,
+            -7.0481466
+          ],
+          [
+            107.5913173,
+            -7.0481708
+          ],
+          [
+            107.5917732,
+            -7.0481938
+          ],
+          [
+            107.5922911,
+            -7.0482345
+          ],
+          [
+            107.5924091,
+            -7.0482372
+          ],
+          [
+            107.5924721,
+            -7.0482199
+          ],
+          [
+            107.5925838,
+            -7.0482051
+          ],
+          [
+            107.5926035,
+            -7.0481786
+          ],
+          [
+            107.5926263,
+            -7.0481054
+          ],
+          [
+            107.5926304,
+            -7.0480761
+          ],
+          [
+            107.5926653,
+            -7.0477114
+          ],
+          [
+            107.5926706,
+            -7.047589
+          ],
+          [
+            107.5926666,
+            -7.0474359
+          ],
+          [
+            107.5927201,
+            -7.046768
+          ],
+          [
+            107.5927169,
+            -7.0466786
+          ]
+        ]
+      },
+      "properties": {
+        "id": 574384762,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "name": "Jalan Raya Bandung - Banjaran",
+        "ref": "161",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6233419,
             -7.0608998
           ],
@@ -1776,6 +1982,53 @@
       "properties": {
         "id": 1365365143,
         "highway": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5927251,
+            -7.046217
+          ],
+          [
+            107.5929891,
+            -7.0463081
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1365365145,
+        "highway": "tertiary",
+        "lanes": "2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5927099,
+            -7.0465194
+          ],
+          [
+            107.5927251,
+            -7.046217
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1415823945,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "60",
+        "name": "Jalan Raya Bandung - Banjaran",
+        "ref": "161",
+        "surface": "asphalt"
       }
     }
   ]

@@ -6,6 +6,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          107.5663258,
+          -6.905851
+        ]
+      },
+      "properties": {
+        "id": 1666364135,
+        "bus": "yes",
+        "name": "Paledang",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           107.609811,
           -6.916445
         ]
@@ -352,22 +368,6 @@
         "id": 11954552722,
         "bus": "yes",
         "name": "SMAN 13 Bandung A",
-        "public_transport": "stop_position"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5663258,
-          -6.905851
-        ]
-      },
-      "properties": {
-        "id": 11954552728,
-        "bus": "yes",
-        "name": "Paledang",
         "public_transport": "stop_position"
       }
     },

@@ -23,8 +23,8 @@
             -6.9201687
           ],
           [
-            107.5690442,
-            -6.9201038
+            107.5690239,
+            -6.9200977
           ],
           [
             107.568966,
@@ -93,7 +93,7 @@
         "avgspeed": "15",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Melong Asih"
+        "name": "Jalan Melong Asih"
       }
     },
     {
@@ -681,7 +681,7 @@
         "highway": "secondary",
         "lanes": "2",
         "layer": "1",
-        "name": "Melong Asih"
+        "name": "Jalan Melong Asih"
       }
     },
     {
@@ -764,7 +764,7 @@
         "avgspeed": "15",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Melong Asih"
+        "name": "Jalan Melong Asih"
       }
     },
     {
@@ -786,59 +786,6 @@
         "id": 553661325,
         "highway": "unclassified",
         "source": "Bing"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5698951,
-            -6.9119365
-          ],
-          [
-            107.5697893,
-            -6.9117669
-          ],
-          [
-            107.569777,
-            -6.9117459
-          ],
-          [
-            107.5696479,
-            -6.9115248
-          ],
-          [
-            107.5696333,
-            -6.9115004
-          ],
-          [
-            107.569579,
-            -6.9114097
-          ],
-          [
-            107.5692741,
-            -6.9108999
-          ],
-          [
-            107.5691136,
-            -6.9106315
-          ],
-          [
-            107.5689674,
-            -6.9104053
-          ]
-        ]
-      },
-      "properties": {
-        "id": 559497471,
-        "destination": "Kebon Kopi;Cimindi;Cimahi",
-        "highway": "trunk",
-        "lanes": "2",
-        "name": "Jalan Jendral Sudirman",
-        "oneway": "yes",
-        "ref": "11"
       }
     },
     {
@@ -964,6 +911,29 @@
         "id": 778167064,
         "highway": "tertiary",
         "lanes": "2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5698951,
+            -6.9119365
+          ],
+          [
+            107.5699632,
+            -6.911882
+          ]
+        ]
+      },
+      "properties": {
+        "id": 992205786,
+        "destination": "Elang;Garuda;Rajawali;Pajajaran",
+        "highway": "trunk_link",
+        "lanes": "2",
+        "oneway": "yes"
       }
     },
     {

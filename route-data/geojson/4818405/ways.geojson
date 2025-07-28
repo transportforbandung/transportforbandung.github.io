@@ -843,54 +843,6 @@
           [
             107.5715829,
             -6.8647541
-          ],
-          [
-            107.5714411,
-            -6.8650677
-          ],
-          [
-            107.5713913,
-            -6.865135
-          ],
-          [
-            107.5712389,
-            -6.8652674
-          ],
-          [
-            107.5710961,
-            -6.8653644
-          ],
-          [
-            107.5710285,
-            -6.8654326
-          ],
-          [
-            107.5709815,
-            -6.8654991
-          ],
-          [
-            107.5705482,
-            -6.8663418
-          ],
-          [
-            107.5703577,
-            -6.8669106
-          ],
-          [
-            107.5702729,
-            -6.8671666
-          ],
-          [
-            107.5700313,
-            -6.867883
-          ],
-          [
-            107.5698304,
-            -6.8685288
-          ],
-          [
-            107.5697717,
-            -6.8687273
           ]
         ]
       },
@@ -1137,106 +1089,6 @@
         "name": "Jalan Kampus Polban",
         "surface": "paved",
         "width": "3.5"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5745374,
-            -6.8722326
-          ],
-          [
-            107.574509,
-            -6.8722192
-          ],
-          [
-            107.5744856,
-            -6.8721982
-          ],
-          [
-            107.5744697,
-            -6.872172
-          ],
-          [
-            107.5744619,
-            -6.8721424
-          ],
-          [
-            107.5744629,
-            -6.8721118
-          ],
-          [
-            107.5744726,
-            -6.8720827
-          ],
-          [
-            107.5744817,
-            -6.8720678
-          ],
-          [
-            107.5745021,
-            -6.8720468
-          ],
-          [
-            107.5745274,
-            -6.872032
-          ],
-          [
-            107.5745558,
-            -6.8720246
-          ],
-          [
-            107.5746045,
-            -6.8720299
-          ],
-          [
-            107.5746457,
-            -6.8720561
-          ],
-          [
-            107.5746674,
-            -6.8720883
-          ],
-          [
-            107.5746761,
-            -6.8721261
-          ],
-          [
-            107.5746706,
-            -6.8721645
-          ],
-          [
-            107.5746516,
-            -6.8721984
-          ],
-          [
-            107.5746283,
-            -6.8722194
-          ],
-          [
-            107.5745998,
-            -6.8722327
-          ],
-          [
-            107.5745686,
-            -6.8722372
-          ],
-          [
-            107.5745374,
-            -6.8722326
-          ]
-        ]
-      },
-      "properties": {
-        "id": 494049751,
-        "highway": "tertiary",
-        "junction": "roundabout",
-        "lanes": "1",
-        "oneway": "yes",
-        "surface": "asphalt"
       }
     },
     {
@@ -1736,6 +1588,247 @@
         "name": "Jalan Sariwangi",
         "surface": "asphalt",
         "width": "4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5700313,
+            -6.867883
+          ],
+          [
+            107.5698304,
+            -6.8685288
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1415847722,
+        "highway": "tertiary",
+        "lanes": "2",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Sariwangi",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5703577,
+            -6.8669106
+          ],
+          [
+            107.5702729,
+            -6.8671666
+          ],
+          [
+            107.5700313,
+            -6.867883
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1415847723,
+        "highway": "tertiary",
+        "lanes": "2",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Sariwangi",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5705482,
+            -6.8663418
+          ],
+          [
+            107.5703577,
+            -6.8669106
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1415847724,
+        "highway": "tertiary",
+        "lanes": "2",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Sariwangi",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5710961,
+            -6.8653644
+          ],
+          [
+            107.5710285,
+            -6.8654326
+          ],
+          [
+            107.5709815,
+            -6.8654991
+          ],
+          [
+            107.5705482,
+            -6.8663418
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1415847725,
+        "highway": "tertiary",
+        "lanes": "2",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Sariwangi",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5712389,
+            -6.8652674
+          ],
+          [
+            107.5710961,
+            -6.8653644
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1415847726,
+        "highway": "tertiary",
+        "lanes": "2",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Sariwangi",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5715829,
+            -6.8647541
+          ],
+          [
+            107.5714411,
+            -6.8650677
+          ],
+          [
+            107.5713913,
+            -6.865135
+          ],
+          [
+            107.5712389,
+            -6.8652674
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1415847727,
+        "highway": "tertiary",
+        "lanes": "2",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Sariwangi",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5698304,
+            -6.8685288
+          ],
+          [
+            107.5697717,
+            -6.8687273
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1415847728,
+        "highway": "tertiary",
+        "lanes": "2",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Sariwangi",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5745558,
+            -6.8720246
+          ],
+          [
+            107.5746045,
+            -6.8720299
+          ],
+          [
+            107.5746457,
+            -6.8720561
+          ],
+          [
+            107.5746674,
+            -6.8720883
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1415848050,
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     }
   ]

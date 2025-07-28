@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5927985,
+          -7.1033714
+        ]
+      },
+      "properties": {
+        "id": 3475612183,
+        "bus": "yes",
+        "name": "SD Negeri Bungalawang",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5867226,
+          -7.0478629
+        ]
+      },
+      "properties": {
+        "id": 2477245043,
+        "bus": "yes",
+        "name": "Terminal Banjaran",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
+}

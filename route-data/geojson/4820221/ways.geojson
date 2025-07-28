@@ -306,6 +306,10 @@
             -6.8852088
           ],
           [
+            107.5363587,
+            -6.8852969
+          ],
+          [
             107.5364702,
             -6.8854248
           ],
@@ -411,8 +415,16 @@
             -6.9026954
           ],
           [
+            107.5386368,
+            -6.9026525
+          ],
+          [
             107.5387627,
             -6.9026459
+          ],
+          [
+            107.5388155,
+            -6.9026432
           ],
           [
             107.5390587,
@@ -509,43 +521,6 @@
         "avgspeed": "20",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Mahar Martanegara",
-        "oneway": "yes",
-        "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5451835,
-            -6.9011817
-          ],
-          [
-            107.545109,
-            -6.9012298
-          ],
-          [
-            107.5448473,
-            -6.9013188
-          ],
-          [
-            107.5446459,
-            -6.9013826
-          ],
-          [
-            107.5445778,
-            -6.9014054
-          ]
-        ]
-      },
-      "properties": {
-        "id": 553702493,
-        "avgspeed": "30",
-        "highway": "secondary",
-        "lanes": "1",
         "name": "Jalan Mahar Martanegara",
         "oneway": "yes",
         "source": "Yahoo hires"
@@ -750,6 +725,45 @@
         "name": "Jalan Mahar Martanegara",
         "oneway": "no",
         "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5445549,
+            -6.9013504
+          ],
+          [
+            107.5446219,
+            -6.901329
+          ],
+          [
+            107.5448339,
+            -6.9012654
+          ],
+          [
+            107.544997,
+            -6.9012155
+          ],
+          [
+            107.5450906,
+            -6.9011833
+          ],
+          [
+            107.5451835,
+            -6.9011817
+          ]
+        ]
+      },
+      "properties": {
+        "id": 553702495,
+        "highway": "secondary",
+        "lanes": "1",
+        "name": "Jalan Mahar Martanegara",
+        "oneway": "yes"
       }
     },
     {
@@ -1382,7 +1396,8 @@
         "junction": "roundabout",
         "lanes": "2",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "roundabout": "yes"
       }
     },
     {
@@ -1391,31 +1406,29 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5445778,
-            -6.9014054
-          ],
-          [
-            107.5444403,
-            -6.9014506
-          ],
-          [
-            107.5442165,
-            -6.9015242
-          ],
-          [
             107.5441177,
             -6.9015233
+          ],
+          [
+            107.5442012,
+            -6.901461
+          ],
+          [
+            107.5443738,
+            -6.901407
+          ],
+          [
+            107.5445549,
+            -6.9013504
           ]
         ]
       },
       "properties": {
-        "id": 1085542568,
-        "avgspeed": "30",
+        "id": 1085542567,
         "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Mahar Martanegara",
-        "oneway": "yes",
-        "source": "Yahoo hires"
+        "oneway": "yes"
       }
     },
     {
