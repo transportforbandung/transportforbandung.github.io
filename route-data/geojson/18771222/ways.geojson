@@ -191,6 +191,8 @@
         "lanes": "1",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_right"
       }
@@ -2329,6 +2331,7 @@
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "sharp_left|slight_right"
       }
@@ -5058,6 +5061,8 @@
         "lanes": "2",
         "name": "Jalan Stasiun Timur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -5725,6 +5730,8 @@
         "lanes": "3",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "left|left;right|right"
       }

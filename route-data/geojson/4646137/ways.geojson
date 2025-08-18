@@ -1090,6 +1090,7 @@
       "properties": {
         "id": 190605657,
         "avgspeed": "15",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "1",
         "motorcar": "yes",
@@ -1135,6 +1136,8 @@
         "lanes": "1",
         "name": "Jalan Taman Sari",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2784,6 +2787,10 @@
             -6.9454222
           ],
           [
+            107.5831273,
+            -6.9454328
+          ],
+          [
             107.5832827,
             -6.9454884
           ],
@@ -3241,7 +3248,8 @@
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "parking:both": "no",
-        "sidewalk": "separate",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "smoothness": "good",
         "surface": "asphalt",
         "wheelchair": "no"
@@ -4880,30 +4888,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.613882,
-            -6.8844449
-          ],
-          [
-            107.6138984,
-            -6.8843845
-          ],
-          [
-            107.6139865,
-            -6.884078
-          ],
-          [
-            107.6140439,
-            -6.8838946
-          ],
-          [
-            107.6140576,
-            -6.8838685
-          ],
-          [
-            107.614076,
-            -6.8838333
-          ],
-          [
             107.6141003,
             -6.8837869
           ],
@@ -4959,6 +4943,7 @@
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
+        "sidewalk": "no",
         "smoothness": "good",
         "surface": "asphalt",
         "wheelchair": "no"
@@ -6084,6 +6069,58 @@
         "oneway": "no",
         "sidewalk": "both",
         "width": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.613882,
+            -6.8844449
+          ],
+          [
+            107.6138984,
+            -6.8843845
+          ],
+          [
+            107.6139865,
+            -6.884078
+          ],
+          [
+            107.6140439,
+            -6.8838946
+          ],
+          [
+            107.6140576,
+            -6.8838685
+          ],
+          [
+            107.614076,
+            -6.8838333
+          ],
+          [
+            107.6141003,
+            -6.8837869
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1421456574,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "wheelchair": "no"
       }
     }
   ]

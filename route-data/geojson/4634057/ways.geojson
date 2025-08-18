@@ -657,6 +657,10 @@
             -6.8870641
           ],
           [
+            107.6152037,
+            -6.8873511
+          ],
+          [
             107.6152406,
             -6.8874631
           ],
@@ -673,10 +677,13 @@
       "properties": {
         "id": 192917041,
         "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
         "foot": "yes",
         "highway": "secondary",
         "horse": "yes",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
         "sidewalk:left": "no",
@@ -1093,16 +1100,8 @@
             -6.9391553
           ],
           [
-            107.6773072,
-            -6.9389357
-          ],
-          [
-            107.677312,
-            -6.9387582
-          ],
-          [
-            107.6773321,
-            -6.938247
+            107.6773057,
+            -6.9389794
           ]
         ]
       },
@@ -2433,7 +2432,8 @@
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "parking:both": "no",
-        "sidewalk": "separate",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "smoothness": "good",
         "surface": "asphalt",
         "wheelchair": "no"
@@ -4810,30 +4810,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.613882,
-            -6.8844449
-          ],
-          [
-            107.6138984,
-            -6.8843845
-          ],
-          [
-            107.6139865,
-            -6.884078
-          ],
-          [
-            107.6140439,
-            -6.8838946
-          ],
-          [
-            107.6140576,
-            -6.8838685
-          ],
-          [
-            107.614076,
-            -6.8838333
-          ],
-          [
             107.6141003,
             -6.8837869
           ],
@@ -4889,6 +4865,7 @@
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
+        "sidewalk": "no",
         "smoothness": "good",
         "surface": "asphalt",
         "wheelchair": "no"
@@ -6129,6 +6106,10 @@
             -6.8889815
           ],
           [
+            107.6158539,
+            -6.889097
+          ],
+          [
             107.6158888,
             -6.8891749
           ],
@@ -6141,10 +6122,13 @@
       "properties": {
         "id": 1388852430,
         "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
         "foot": "yes",
         "highway": "secondary",
         "horse": "yes",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
         "sidewalk:left": "yes",
@@ -6178,13 +6162,100 @@
       "properties": {
         "id": 1388852431,
         "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
         "foot": "yes",
         "highway": "secondary",
         "horse": "yes",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
-        "sidewalk": "right",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.613882,
+            -6.8844449
+          ],
+          [
+            107.6138984,
+            -6.8843845
+          ],
+          [
+            107.6139865,
+            -6.884078
+          ],
+          [
+            107.6140439,
+            -6.8838946
+          ],
+          [
+            107.6140576,
+            -6.8838685
+          ],
+          [
+            107.614076,
+            -6.8838333
+          ],
+          [
+            107.6141003,
+            -6.8837869
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1421456574,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6773057,
+            -6.9389794
+          ],
+          [
+            107.6773072,
+            -6.9389357
+          ],
+          [
+            107.677312,
+            -6.9387582
+          ],
+          [
+            107.6773321,
+            -6.938247
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1421703094,
+        "highway": "tertiary",
+        "lanes": "2",
+        "motor_vehicle": "yes",
+        "name": "Jalan Cipamokolan",
         "surface": "asphalt"
       }
     }

@@ -210,7 +210,8 @@
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "parking:both": "no",
-        "sidewalk": "separate",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -283,6 +284,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1062,6 +1065,10 @@
             -6.8870641
           ],
           [
+            107.6152037,
+            -6.8873511
+          ],
+          [
             107.6152406,
             -6.8874631
           ],
@@ -1078,10 +1085,13 @@
       "properties": {
         "id": 192917041,
         "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
         "foot": "yes",
         "highway": "secondary",
         "horse": "yes",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
         "sidewalk:left": "no",
@@ -3209,6 +3219,10 @@
             -6.8889815
           ],
           [
+            107.6158539,
+            -6.889097
+          ],
+          [
             107.6158888,
             -6.8891749
           ],
@@ -3221,10 +3235,13 @@
       "properties": {
         "id": 1388852430,
         "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
         "foot": "yes",
         "highway": "secondary",
         "horse": "yes",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
         "sidewalk:left": "yes",
@@ -3258,13 +3275,16 @@
       "properties": {
         "id": 1388852431,
         "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
         "foot": "yes",
         "highway": "secondary",
         "horse": "yes",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
-        "sidewalk": "right",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },

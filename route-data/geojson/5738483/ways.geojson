@@ -1641,6 +1641,8 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
+        "name": "Jalan Raya Gadobangkong",
+        "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "11"
       }
@@ -1768,6 +1770,8 @@
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
+        "name": "Jalan Raya Gadobangkong",
+        "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "11"
       }
@@ -2171,11 +2175,11 @@
       },
       "properties": {
         "id": 385643846,
-        "alt_name": "Jalan Mocharif",
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Nasional III",
+        "name": "Jalan Raya Cimareme",
+        "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "11"
       }
@@ -3122,11 +3126,11 @@
       },
       "properties": {
         "id": 568905236,
-        "alt_name": "Jalan Mocharif",
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Nasional III",
+        "name": "Jalan Raya Cimareme",
+        "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "11"
       }
@@ -3136,18 +3140,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            107.5055404,
-            -6.864229
-          ],
-          [
-            107.5056235,
-            -6.864215
-          ],
-          [
-            107.505703,
-            -6.8641943
-          ],
           [
             107.5063671,
             -6.864027
@@ -3300,11 +3292,11 @@
       },
       "properties": {
         "id": 568905238,
-        "alt_name": "Jalan Mocharif",
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Nasional III",
+        "name": "Jalan Raya Gadobangkong",
+        "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "11"
       }
@@ -3341,6 +3333,8 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
+        "name": "Jalan Raya Gadobangkong",
+        "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "11"
       }
@@ -3991,7 +3985,7 @@
       },
       "properties": {
         "id": 633684499,
-        "highway": "tertiary",
+        "highway": "secondary",
         "name": "Cililin-Cihampelas",
         "source": "Yahoo hires"
       }
@@ -4438,6 +4432,8 @@
         "foot": "yes",
         "highway": "trunk",
         "lanes": "1",
+        "name": "Jalan Raya Gadobangkong",
+        "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "yes",
         "ref": "11"
       }
@@ -4470,6 +4466,8 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "1",
+        "name": "Jalan Raya Gadobangkong",
+        "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "yes",
         "ref": "11"
       }
@@ -5582,7 +5580,7 @@
       },
       "properties": {
         "id": 1365080702,
-        "highway": "tertiary",
+        "highway": "secondary",
         "source": "Yahoo hires"
       }
     },
@@ -5850,6 +5848,42 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
+        "name": "Jalan Raya Gadobangkong",
+        "official_name": "Jalan KH. Abdurrahman Wahid",
+        "oneway": "no",
+        "ref": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5055404,
+            -6.864229
+          ],
+          [
+            107.5056235,
+            -6.864215
+          ],
+          [
+            107.505703,
+            -6.8641943
+          ],
+          [
+            107.5063671,
+            -6.864027
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1421300134,
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Raya Cimareme",
+        "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "11"
       }

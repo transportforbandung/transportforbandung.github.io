@@ -268,7 +268,8 @@
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "parking:both": "no",
-        "sidewalk": "separate",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -302,6 +303,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -340,6 +343,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "yes",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -890,6 +894,10 @@
             -6.8870641
           ],
           [
+            107.6152037,
+            -6.8873511
+          ],
+          [
             107.6152406,
             -6.8874631
           ],
@@ -906,10 +914,13 @@
       "properties": {
         "id": 192917041,
         "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
         "foot": "yes",
         "highway": "secondary",
         "horse": "yes",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
         "sidewalk:left": "no",
@@ -1179,6 +1190,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "yes",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -1301,16 +1313,8 @@
             -6.9391553
           ],
           [
-            107.6773072,
-            -6.9389357
-          ],
-          [
-            107.677312,
-            -6.9387582
-          ],
-          [
-            107.6773321,
-            -6.938247
+            107.6773057,
+            -6.9389794
           ]
         ]
       },
@@ -1536,6 +1540,8 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -5247,6 +5253,8 @@
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -6496,6 +6504,10 @@
             -6.8889815
           ],
           [
+            107.6158539,
+            -6.889097
+          ],
+          [
             107.6158888,
             -6.8891749
           ],
@@ -6508,10 +6520,13 @@
       "properties": {
         "id": 1388852430,
         "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
         "foot": "yes",
         "highway": "secondary",
         "horse": "yes",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
         "sidewalk:left": "yes",
@@ -6545,13 +6560,48 @@
       "properties": {
         "id": 1388852431,
         "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
         "foot": "yes",
         "highway": "secondary",
         "horse": "yes",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
-        "sidewalk": "right",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6773057,
+            -6.9389794
+          ],
+          [
+            107.6773072,
+            -6.9389357
+          ],
+          [
+            107.677312,
+            -6.9387582
+          ],
+          [
+            107.6773321,
+            -6.938247
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1421703094,
+        "highway": "tertiary",
+        "lanes": "2",
+        "motor_vehicle": "yes",
+        "name": "Jalan Cipamokolan",
         "surface": "asphalt"
       }
     }

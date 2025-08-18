@@ -631,6 +631,8 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },
@@ -894,6 +896,8 @@
         "lanes": "1",
         "name": "Jalan Taman Sari",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1231,6 +1235,7 @@
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -1495,6 +1500,7 @@
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "sharp_left|slight_right"
       }
@@ -2592,6 +2598,8 @@
         "lanes": "2",
         "name": "Jalan Stasiun Timur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -3069,6 +3077,8 @@
         "lanes": "1",
         "name": "Jalan Kebon Jukut",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },

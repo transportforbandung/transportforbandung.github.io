@@ -436,6 +436,8 @@
         "lanes": "1",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_right"
       }
@@ -1275,6 +1277,10 @@
             -6.9490915
           ],
           [
+            107.629949,
+            -6.9491129
+          ],
+          [
             107.6296209,
             -6.9491718
           ],
@@ -1292,7 +1298,7 @@
           ],
           [
             107.6287343,
-            -6.9493471
+            -6.94934
           ]
         ]
       },
@@ -2059,6 +2065,7 @@
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "sharp_left|slight_right"
       }
@@ -2241,6 +2248,10 @@
           [
             107.6138203,
             -6.9487131
+          ],
+          [
+            107.6137002,
+            -6.9487044
           ],
           [
             107.6135696,
@@ -4847,6 +4858,8 @@
         "lanes": "2",
         "name": "Jalan Stasiun Timur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -4860,8 +4873,8 @@
             -6.9492594
           ],
           [
-            107.6214461,
-            -6.9492577
+            107.6213965,
+            -6.949255
           ]
         ]
       },
@@ -5167,16 +5180,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6273502,
-            -6.9495149
+            107.6273421,
+            -6.9495018
           ],
           [
-            107.6270123,
-            -6.9495312
+            107.6270133,
+            -6.9495231
           ],
           [
             107.6269664,
-            -6.9495328
+            -6.9495257
           ],
           [
             107.6267032,
@@ -5531,8 +5544,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6214461,
-            -6.9492577
+            107.6213965,
+            -6.949255
           ],
           [
             107.6203693,
@@ -5594,35 +5607,35 @@
         "coordinates": [
           [
             107.6287343,
-            -6.9493471
+            -6.94934
           ],
           [
-            107.6284965,
-            -6.9493933
+            107.6284935,
+            -6.9493772
           ],
           [
-            107.6282574,
-            -6.9494324
+            107.6282584,
+            -6.9494072
           ],
           [
-            107.6281496,
-            -6.9494451
+            107.6281405,
+            -6.9494199
           ],
           [
-            107.6277791,
-            -6.9494888
+            107.6277781,
+            -6.9494666
           ],
           [
-            107.6276835,
-            -6.9494966
+            107.6276794,
+            -6.9494754
           ],
           [
-            107.6274103,
-            -6.9495126
+            107.6274093,
+            -6.9494954
           ],
           [
-            107.6273502,
-            -6.9495149
+            107.6273421,
+            -6.9495018
           ]
         ]
       },
@@ -5754,6 +5767,8 @@
         "lanes": "3",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "left|left;right|right"
       }
@@ -6127,6 +6142,7 @@
         "id": 1361597385,
         "highway": "tertiary",
         "lanes": "2",
+        "name": "Jalan Asia Afrika",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"

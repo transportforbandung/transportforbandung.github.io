@@ -536,6 +536,8 @@
         "lanes": "1",
         "name": "Jalan Kebon Jukut",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2835,6 +2837,10 @@
             -6.9001871
           ],
           [
+            107.6040633,
+            -6.9001819
+          ],
+          [
             107.6041064,
             -6.9001685
           ],
@@ -3314,6 +3320,8 @@
         "lanes": "3",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "left|left;right|right"
       }

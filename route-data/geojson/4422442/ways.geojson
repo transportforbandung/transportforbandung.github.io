@@ -192,6 +192,7 @@
         "id": 4623285,
         "avgspeed": "20",
         "highway": "tertiary",
+        "lanes": "2",
         "name": "Teuku Umar",
         "surface": "asphalt"
       }
@@ -226,6 +227,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -3079,6 +3082,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Teuku Umar",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },

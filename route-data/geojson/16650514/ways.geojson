@@ -7,6 +7,31 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6054273,
+            -6.9316877
+          ],
+          [
+            107.6055016,
+            -6.9311384
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4627151,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6197453,
             -6.9254171
           ],
@@ -132,6 +157,10 @@
             -6.92873
           ],
           [
+            107.638179,
+            -6.9288618
+          ],
+          [
             107.6382687,
             -6.9289281
           ],
@@ -235,6 +264,79 @@
         "lanes": "3",
         "name": "Jalan Lengkong Besar",
         "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6066275,
+            -6.9318519
+          ],
+          [
+            107.6067023,
+            -6.9318619
+          ],
+          [
+            107.6071921,
+            -6.9319271
+          ],
+          [
+            107.6072028,
+            -6.9319286
+          ],
+          [
+            107.6074894,
+            -6.9319668
+          ],
+          [
+            107.607795,
+            -6.9320075
+          ],
+          [
+            107.6084036,
+            -6.9320886
+          ],
+          [
+            107.6094967,
+            -6.9322343
+          ],
+          [
+            107.6095721,
+            -6.9322443
+          ],
+          [
+            107.6100523,
+            -6.9323083
+          ],
+          [
+            107.6106978,
+            -6.9323912
+          ],
+          [
+            107.6112601,
+            -6.93245
+          ],
+          [
+            107.6113455,
+            -6.9324444
+          ],
+          [
+            107.6114263,
+            -6.9324291
+          ]
+        ]
+      },
+      "properties": {
+        "id": 166336046,
+        "avgspeed": "25",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ibu Inggit Ganarsih",
+        "oneway": "no",
         "surface": "asphalt"
       }
     },
@@ -485,6 +587,43 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6054273,
+            -6.9316877
+          ],
+          [
+            107.6059933,
+            -6.9317677
+          ],
+          [
+            107.6060299,
+            -6.931773
+          ],
+          [
+            107.6064553,
+            -6.931835
+          ],
+          [
+            107.6066275,
+            -6.9318519
+          ]
+        ]
+      },
+      "properties": {
+        "id": 317742826,
+        "avgspeed": "25",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ibu Inggit Ganarsih",
+        "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6434825,
             -6.911388
           ],
@@ -528,88 +667,38 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6114263,
+            -6.9324291
+          ],
+          [
+            107.6115743,
+            -6.9323207
+          ],
+          [
+            107.6119021,
+            -6.9320223
+          ],
+          [
+            107.6121586,
+            -6.9316762
+          ],
+          [
+            107.6122593,
+            -6.9315442
+          ],
+          [
             107.6124017,
             -6.9313355
-          ],
-          [
-            107.61187,
-            -6.9308162
-          ],
-          [
-            107.6116302,
-            -6.9305815
-          ],
-          [
-            107.6116186,
-            -6.9305702
-          ],
-          [
-            107.6106762,
-            -6.929646
-          ],
-          [
-            107.6105504,
-            -6.9295269
-          ],
-          [
-            107.6104487,
-            -6.929424
-          ],
-          [
-            107.6100312,
-            -6.9290167
-          ],
-          [
-            107.6094207,
-            -6.928383
-          ],
-          [
-            107.6093404,
-            -6.9283054
-          ],
-          [
-            107.608899,
-            -6.9278672
-          ],
-          [
-            107.6088347,
-            -6.9278033
-          ],
-          [
-            107.6087019,
-            -6.927694
-          ],
-          [
-            107.6085694,
-            -6.9276437
-          ],
-          [
-            107.608453,
-            -6.9276268
-          ],
-          [
-            107.6079082,
-            -6.9275733
-          ],
-          [
-            107.6078124,
-            -6.9275639
-          ],
-          [
-            107.6075592,
-            -6.927539
-          ],
-          [
-            107.607029,
-            -6.9274996
           ]
         ]
       },
       "properties": {
-        "id": 318899761,
-        "highway": "primary",
+        "id": 318899762,
+        "avgspeed": "25",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Pungkur",
+        "name": "Jalan Ibu Inggit Ganarsih",
+        "oneway": "no",
         "surface": "asphalt"
       }
     },
@@ -881,30 +970,6 @@
         "name": "Jalan H. Ibrahim Adjie",
         "old_name": "Jalan Kiaracondong",
         "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.607029,
-            -6.9274996
-          ],
-          [
-            107.6062469,
-            -6.9274175
-          ]
-        ]
-      },
-      "properties": {
-        "id": 330544300,
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Pungkur",
-        "oneway": "yes",
-        "surface": "asphalt"
       }
     },
     {
@@ -1655,6 +1720,10 @@
           [
             107.6399577,
             -6.9304643
+          ],
+          [
+            107.6399986,
+            -6.9304871
           ],
           [
             107.6402197,
@@ -2582,20 +2651,237 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6062469,
-            -6.9274175
+            107.6055016,
+            -6.9311384
           ],
           [
-            107.6059177,
-            -6.9273911
+            107.6055192,
+            -6.9309578
+          ],
+          [
+            107.6055259,
+            -6.9309078
           ]
         ]
       },
       "properties": {
-        "id": 1383483032,
-        "highway": "primary",
+        "id": 1383482654,
+        "avgspeed": "25",
+        "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Pungkur",
+        "name": "Jalan Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055259,
+            -6.9309078
+          ],
+          [
+            107.605557,
+            -6.9305299
+          ],
+          [
+            107.6055585,
+            -6.9305004
+          ],
+          [
+            107.6055781,
+            -6.930239
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482655,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055781,
+            -6.930239
+          ],
+          [
+            107.6055888,
+            -6.9300028
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482656,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055888,
+            -6.9300028
+          ],
+          [
+            107.6055993,
+            -6.9298025
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482657,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6055993,
+            -6.9298025
+          ],
+          [
+            107.605655,
+            -6.9290349
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482658,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "oneway": "yes",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.605655,
+            -6.9290349
+          ],
+          [
+            107.6056868,
+            -6.9286757
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482659,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6056868,
+            -6.9286757
+          ],
+          [
+            107.6057712,
+            -6.9281145
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482660,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6057712,
+            -6.9281145
+          ],
+          [
+            107.6057772,
+            -6.9280104
+          ],
+          [
+            107.6057934,
+            -6.9278423
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482661,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6057934,
+            -6.9278423
+          ],
+          [
+            107.6058121,
+            -6.9276265
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383482662,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }

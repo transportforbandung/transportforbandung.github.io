@@ -1297,6 +1297,7 @@
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "sharp_left|slight_right"
       }
@@ -2439,6 +2440,8 @@
         "lanes": "2",
         "name": "Jalan Stasiun Timur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2871,6 +2874,8 @@
         "lanes": "1",
         "name": "Jalan Kebon Jukut",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -3068,6 +3073,7 @@
         "id": 1361597385,
         "highway": "tertiary",
         "lanes": "2",
+        "name": "Jalan Asia Afrika",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"

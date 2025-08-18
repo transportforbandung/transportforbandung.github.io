@@ -76,6 +76,8 @@
         "lanes": "1",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_right"
       }
@@ -814,6 +816,7 @@
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "sharp_left|slight_right"
       }
@@ -1107,7 +1110,8 @@
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "parking:both": "no",
-        "sidewalk": "separate",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "smoothness": "good",
         "surface": "asphalt",
         "wheelchair": "no"
@@ -1933,6 +1937,8 @@
         "lanes": "2",
         "name": "Jalan Stasiun Timur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2179,30 +2185,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.613882,
-            -6.8844449
-          ],
-          [
-            107.6138984,
-            -6.8843845
-          ],
-          [
-            107.6139865,
-            -6.884078
-          ],
-          [
-            107.6140439,
-            -6.8838946
-          ],
-          [
-            107.6140576,
-            -6.8838685
-          ],
-          [
-            107.614076,
-            -6.8838333
-          ],
-          [
             107.6141003,
             -6.8837869
           ],
@@ -2258,6 +2240,7 @@
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
+        "sidewalk": "no",
         "smoothness": "good",
         "surface": "asphalt",
         "wheelchair": "no"
@@ -2382,6 +2365,8 @@
         "lanes": "3",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "left|left;right|right"
       }
@@ -2519,6 +2504,58 @@
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.613882,
+            -6.8844449
+          ],
+          [
+            107.6138984,
+            -6.8843845
+          ],
+          [
+            107.6139865,
+            -6.884078
+          ],
+          [
+            107.6140439,
+            -6.8838946
+          ],
+          [
+            107.6140576,
+            -6.8838685
+          ],
+          [
+            107.614076,
+            -6.8838333
+          ],
+          [
+            107.6141003,
+            -6.8837869
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1421456574,
+        "alt_name": "Jalan Dago",
+        "cycleway": "lane",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "wheelchair": "no"
       }
     }
   ]

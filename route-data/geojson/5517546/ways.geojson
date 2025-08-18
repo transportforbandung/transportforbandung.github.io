@@ -1004,16 +1004,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6029953,
-            -6.9373294
-          ],
-          [
-            107.6028855,
-            -6.9373188
-          ],
-          [
-            107.6028524,
-            -6.937315
+            107.6021772,
+            -6.9372552
           ],
           [
             107.602016,
@@ -1459,6 +1451,40 @@
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
         "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6029953,
+            -6.9373294
+          ],
+          [
+            107.6028855,
+            -6.9373188
+          ],
+          [
+            107.6028524,
+            -6.937315
+          ],
+          [
+            107.6021772,
+            -6.9372552
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1421744513,
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Jalan Peta",
+        "oneway": "yes",
+        "ref": "374",
         "surface": "asphalt"
       }
     }

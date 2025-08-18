@@ -506,6 +506,8 @@
         "lanes": "1",
         "name": "Jalan Kebon Jukut",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1028,7 +1030,8 @@
         "name": "Jalan Dokter Danudirja Setiabudhi",
         "oneway": "yes",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {
@@ -2636,16 +2639,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6029953,
-            -6.9373294
-          ],
-          [
-            107.6028855,
-            -6.9373188
-          ],
-          [
-            107.6028524,
-            -6.937315
+            107.6021772,
+            -6.9372552
           ],
           [
             107.602016,
@@ -4210,6 +4205,10 @@
             -6.9001871
           ],
           [
+            107.6040633,
+            -6.9001819
+          ],
+          [
             107.6041064,
             -6.9001685
           ],
@@ -5098,6 +5097,8 @@
         "lanes": "3",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "left|left;right|right"
       }
@@ -5485,7 +5486,8 @@
         "name": "Jalan Dokter Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {
@@ -5520,7 +5522,8 @@
         "name": "Jalan Dokter Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {
@@ -5548,7 +5551,8 @@
         "name": "Jalan Dokter Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {
@@ -5773,6 +5777,40 @@
         "lanes": "2",
         "name": "Jalan Otto Iskandardinata",
         "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6029953,
+            -6.9373294
+          ],
+          [
+            107.6028855,
+            -6.9373188
+          ],
+          [
+            107.6028524,
+            -6.937315
+          ],
+          [
+            107.6021772,
+            -6.9372552
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1421744513,
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "name": "Jalan Peta",
+        "oneway": "yes",
+        "ref": "374",
         "surface": "asphalt"
       }
     }

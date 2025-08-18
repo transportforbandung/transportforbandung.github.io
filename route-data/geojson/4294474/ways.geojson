@@ -1114,8 +1114,10 @@
       "properties": {
         "id": 192917040,
         "highway": "primary",
+        "lanes": "2",
         "name": "Jalan Sumur Bandung",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -3010,6 +3012,8 @@
         "name": "Jalan Taman Sari",
         "oneway": "yes",
         "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },

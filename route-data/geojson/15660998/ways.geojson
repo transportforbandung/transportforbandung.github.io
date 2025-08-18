@@ -528,6 +528,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "yes",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -1637,6 +1638,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "yes",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -1808,6 +1810,8 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -5684,6 +5688,8 @@
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },

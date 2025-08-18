@@ -1672,6 +1672,7 @@
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "sharp_left|slight_right"
       }
@@ -3287,7 +3288,8 @@
         "loc_name": "Jalan Dr. Setiabudhi",
         "name": "Jalan Dokter Danudirja Setiabudhi",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {
@@ -3318,7 +3320,8 @@
         "name": "Jalan Dokter Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {
@@ -3539,6 +3542,8 @@
         "lanes": "2",
         "name": "Jalan Stasiun Timur",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -3897,6 +3902,8 @@
         "lanes": "1",
         "name": "Jalan Kebon Jukut",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -3983,7 +3990,8 @@
         "name": "Jalan Dokter Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {
@@ -4018,7 +4026,8 @@
         "name": "Jalan Dokter Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {
@@ -4046,7 +4055,8 @@
         "name": "Jalan Dokter Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {
@@ -4073,7 +4083,8 @@
         "name": "Jalan Dokter Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {

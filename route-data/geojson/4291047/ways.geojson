@@ -2315,6 +2315,10 @@
             -6.9059132
           ],
           [
+            107.6306329,
+            -6.9058904
+          ],
+          [
             107.6312587,
             -6.905028
           ],
@@ -2512,6 +2516,8 @@
         "name": "Jalan Diponegoro",
         "oneway": "yes",
         "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -3104,6 +3110,8 @@
         "name": "Jalan Diponegoro",
         "oneway": "yes",
         "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -3199,7 +3207,8 @@
         "name": "Jalan Dokter Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {
@@ -3948,6 +3957,8 @@
         "name": "Jalan Taman Sari",
         "oneway": "yes",
         "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -4374,7 +4385,8 @@
         "name": "Jalan Dokter Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {
@@ -4409,7 +4421,8 @@
         "name": "Jalan Dokter Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {
@@ -4437,7 +4450,8 @@
         "name": "Jalan Dokter Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "short_name": "Jalan Dr. Setiabudhi",
+        "surface": "asphalt"
       }
     },
     {

@@ -778,6 +778,10 @@
             -7.0193116
           ],
           [
+            107.8866019,
+            -7.0194401
+          ],
+          [
             107.8866492,
             -7.0194661
           ],
@@ -894,7 +898,8 @@
         "lanes": "2",
         "name": "Jalan Raya Nagreg",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "sidewalk": "left"
       }
     },
     {
@@ -1528,7 +1533,8 @@
         "lanes": "3",
         "motorcycle": "yes",
         "name": "Jalan Raya Nagreg",
-        "oneway": "yes",
+        "note": "Two way road according to a sign on the west portion of the road",
+        "oneway": "no",
         "ref": "13",
         "source": "GPS"
       }
@@ -2757,6 +2763,10 @@
             -7.0103895
           ],
           [
+            107.8713352,
+            -7.0104799
+          ],
+          [
             107.8716182,
             -7.0106932
           ]
@@ -2769,7 +2779,8 @@
         "lanes": "2",
         "name": "Jalan Raya Nagreg",
         "oneway": "yes",
-        "ref": "13"
+        "ref": "13",
+        "sidewalk": "left"
       }
     },
     {
@@ -2801,6 +2812,38 @@
         "oneway": "yes",
         "ref": "13",
         "turn:lanes": "through|through|reverse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.8580655,
+            -7.0015481
+          ],
+          [
+            107.8581911,
+            -7.0016479
+          ],
+          [
+            107.8582831,
+            -7.0017161
+          ],
+          [
+            107.8585122,
+            -7.0018417
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1227101838,
+        "destination": "Nagreg;Garut",
+        "highway": "trunk",
+        "name": "Jalan Raya Nagreg",
+        "oneway": "yes",
+        "ref": "13"
       }
     },
     {
@@ -2956,7 +2999,8 @@
         "lanes": "3",
         "motorcycle": "yes",
         "name": "Jalan Raya Nagreg",
-        "oneway": "yes",
+        "note": "Two way road according to a sign on the west portion of the road",
+        "oneway": "no",
         "ref": "13",
         "source": "GPS",
         "turn:lanes": "slight_left|slight_left;slight_right|slight_right"

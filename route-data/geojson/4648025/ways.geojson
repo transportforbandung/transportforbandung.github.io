@@ -178,6 +178,10 @@
             -6.9165018
           ],
           [
+            107.5934208,
+            -6.9164973
+          ],
+          [
             107.5942457,
             -6.9164499
           ],
@@ -803,6 +807,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "yes",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -1399,6 +1404,7 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "yes",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -1526,6 +1532,8 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },

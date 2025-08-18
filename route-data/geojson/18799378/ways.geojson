@@ -966,6 +966,43 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6067877,
+            -6.9301452
+          ],
+          [
+            107.6067936,
+            -6.9300552
+          ],
+          [
+            107.6068275,
+            -6.9296881
+          ],
+          [
+            107.6068882,
+            -6.9290306
+          ],
+          [
+            107.607029,
+            -6.9274996
+          ]
+        ]
+      },
+      "properties": {
+        "id": 87265514,
+        "avgspeed": "15",
+        "highway": "secondary",
+        "lanes": "3",
+        "name": "Jalan Mohammad Toha",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.7565232,
             -7.0508383
           ],
@@ -1607,6 +1644,30 @@
         "name": "Jalan Mohammad Toha",
         "ref": "161",
         "sidewalk:both": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.607029,
+            -6.9274996
+          ],
+          [
+            107.6062469,
+            -6.9274175
+          ]
+        ]
+      },
+      "properties": {
+        "id": 330544300,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pungkur",
+        "oneway": "yes",
         "surface": "asphalt"
       }
     },
@@ -5333,6 +5394,30 @@
         "maxspeed": "60",
         "name": "Jalan Raya Laswi",
         "ref": "365"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6062469,
+            -6.9274175
+          ],
+          [
+            107.6059177,
+            -6.9273911
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1383483032,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pungkur",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     }
   ]
