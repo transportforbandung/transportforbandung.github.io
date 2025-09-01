@@ -216,6 +216,10 @@
             -6.9162099
           ],
           [
+            107.6010558,
+            -6.9162013
+          ],
+          [
             107.6016262,
             -6.916191
           ],
@@ -790,8 +794,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6030209,
-            -6.9353706
+            107.602994,
+            -6.9353532
           ],
           [
             107.6029555,
@@ -1081,7 +1085,7 @@
             -6.8954747
           ],
           [
-            107.6129119,
+            107.6129084,
             -6.8948019
           ]
         ]
@@ -1332,8 +1336,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6024001,
-            -6.9161478
+            107.6024325,
+            -6.9161432
           ],
           [
             107.6025166,
@@ -1846,7 +1850,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6129119,
+            107.6129084,
             -6.8948019
           ],
           [
@@ -1962,6 +1966,63 @@
         "oneway": "yes",
         "ref": "374",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5930468,
+            -6.9458246
+          ],
+          [
+            107.593035,
+            -6.9458155
+          ],
+          [
+            107.5929973,
+            -6.9457608
+          ],
+          [
+            107.5929755,
+            -6.9457199
+          ],
+          [
+            107.5929507,
+            -6.9456673
+          ],
+          [
+            107.5929085,
+            -6.9455455
+          ],
+          [
+            107.5928332,
+            -6.9452993
+          ],
+          [
+            107.5928224,
+            -6.9452146
+          ],
+          [
+            107.5928394,
+            -6.9450646
+          ]
+        ]
+      },
+      "properties": {
+        "id": 321073717,
+        "access": "no",
+        "bicycle": "no",
+        "bus": "designated",
+        "highway": "service",
+        "horse": "no",
+        "motorcar": "no",
+        "motorcycle": "no",
+        "name": "Jalur Bus Kota",
+        "oneway": "yes",
+        "surface": "concrete"
       }
     },
     {
@@ -2359,8 +2420,8 @@
             -6.9071438
           ],
           [
-            107.6047535,
-            -6.9071527
+            107.6051387,
+            -6.9071446
           ],
           [
             107.6045501,
@@ -3589,12 +3650,12 @@
             -6.9354478
           ],
           [
-            107.6030557,
-            -6.9353938
+            107.6030464,
+            -6.935388
           ],
           [
-            107.6030209,
-            -6.9353706
+            107.602994,
+            -6.9353532
           ]
         ]
       },
@@ -3807,39 +3868,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5932469,
-            -6.9458124
-          ],
-          [
-            107.593099,
-            -6.9457887
-          ],
-          [
-            107.5930399,
-            -6.9457531
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1158471281,
-        "access": "no",
-        "bicycle": "no",
-        "bus": "designated",
-        "highway": "service",
-        "horse": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
-        "name": "Jalur Bus Kota",
-        "oneway": "yes",
-        "surface": "concrete"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.61351,
             -6.888222
           ],
@@ -3928,8 +3956,8 @@
             -6.916154
           ],
           [
-            107.6024001,
-            -6.9161478
+            107.6024325,
+            -6.9161432
           ]
         ]
       },
@@ -3988,59 +4016,6 @@
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5930399,
-            -6.9457531
-          ],
-          [
-            107.592993,
-            -6.9456782
-          ],
-          [
-            107.5929837,
-            -6.9456634
-          ],
-          [
-            107.5929519,
-            -6.9455681
-          ],
-          [
-            107.5929354,
-            -6.9455213
-          ],
-          [
-            107.592865,
-            -6.9452968
-          ],
-          [
-            107.5928485,
-            -6.9452341
-          ],
-          [
-            107.5928394,
-            -6.9450646
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1222515149,
-        "access": "no",
-        "bicycle": "no",
-        "bus": "designated",
-        "highway": "service",
-        "horse": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
-        "name": "Jalur Bus Kota",
-        "oneway": "yes",
-        "surface": "concrete"
       }
     },
     {
@@ -4238,33 +4213,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6177764,
-            -6.8923055
-          ],
-          [
-            107.6178188,
-            -6.8923923
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1263496577,
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "secondary",
-        "horse": "yes",
-        "lanes": "2",
-        "name": "Jalan Dipatiukur",
-        "oneway": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5983386,
             -6.9201181
           ],
@@ -4306,6 +4254,39 @@
         "name": "Jalan Astana Anyar",
         "sidewalk": "separate",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5932396,
+            -6.9458755
+          ],
+          [
+            107.5931227,
+            -6.9458554
+          ],
+          [
+            107.5930468,
+            -6.9458246
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1296465484,
+        "access": "no",
+        "bicycle": "no",
+        "bus": "designated",
+        "highway": "service",
+        "horse": "no",
+        "motorcar": "no",
+        "motorcycle": "no",
+        "name": "Jalur Bus Kota",
+        "oneway": "yes",
+        "surface": "concrete"
       }
     },
     {

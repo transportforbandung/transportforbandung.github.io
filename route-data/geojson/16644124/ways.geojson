@@ -389,14 +389,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5987172,
-            -6.8940629
-          ],
-          [
-            107.5988837,
-            -6.8941348
-          ],
-          [
             107.5989838,
             -6.8941794
           ],
@@ -459,20 +451,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5963984,
-            -6.8809341
-          ],
-          [
-            107.5966959,
-            -6.8809129
-          ],
-          [
-            107.5969398,
-            -6.8808891
-          ],
-          [
             107.5973545,
             -6.8808747
+          ],
+          [
+            107.5974508,
+            -6.8808819
           ],
           [
             107.5975471,
@@ -481,18 +465,6 @@
           [
             107.5986782,
             -6.8811214
-          ],
-          [
-            107.5990939,
-            -6.8811971
-          ],
-          [
-            107.5992232,
-            -6.8812425
-          ],
-          [
-            107.5993479,
-            -6.8813024
           ]
         ]
       },
@@ -500,8 +472,8 @@
         "id": 4625840,
         "avgspeed": "20",
         "highway": "tertiary",
-        "name": "Jalan Karang Sari",
-        "oneway": "yes"
+        "name": "Jalan Karangsari",
+        "oneway": "no"
       }
     },
     {
@@ -1811,8 +1783,8 @@
             -6.88252
           ],
           [
-            107.5749699,
-            -6.8827073
+            107.5751448,
+            -6.8826498
           ]
         ]
       },
@@ -2133,8 +2105,8 @@
             -6.8765342
           ],
           [
-            107.5783526,
-            -6.8760725
+            107.578232,
+            -6.8763392
           ]
         ]
       },
@@ -3165,7 +3137,8 @@
         "avgspeed": "25",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Geger Kalong Hilir"
+        "name": "Jalan Geger Kalong Hilir",
+        "surface": "asphalt"
       }
     },
     {
@@ -3867,6 +3840,122 @@
         "highway": "residential",
         "name": "Jalan Sirna Galih",
         "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5986782,
+            -6.8811214
+          ],
+          [
+            107.5987277,
+            -6.881131
+          ],
+          [
+            107.5990939,
+            -6.8811971
+          ],
+          [
+            107.5992232,
+            -6.8812425
+          ],
+          [
+            107.5993479,
+            -6.8813024
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1424917479,
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "name": "Jalan Karangsari",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5963984,
+            -6.8809341
+          ],
+          [
+            107.5966959,
+            -6.8809129
+          ],
+          [
+            107.5969398,
+            -6.8808891
+          ],
+          [
+            107.5973545,
+            -6.8808747
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1424917480,
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "name": "Jalan Karangsari",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.578232,
+            -6.8763392
+          ],
+          [
+            107.5783526,
+            -6.8760725
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1424957988,
+        "highway": "residential",
+        "name": "Jalan Sarimanah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5987172,
+            -6.8940629
+          ],
+          [
+            107.5988837,
+            -6.8941348
+          ],
+          [
+            107.5989838,
+            -6.8941794
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1424996920,
+        "avgspeed": "15",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Makmur",
+        "oneway": "yes",
         "surface": "asphalt"
       }
     }

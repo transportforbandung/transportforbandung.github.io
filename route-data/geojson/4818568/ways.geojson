@@ -583,8 +583,8 @@
             -6.8729289
           ],
           [
-            107.5548136,
-            -6.8730377
+            107.5547726,
+            -6.8730243
           ]
         ]
       },
@@ -726,6 +726,10 @@
           [
             107.5420171,
             -6.8821655
+          ],
+          [
+            107.541128,
+            -6.8829322
           ],
           [
             107.540583,
@@ -2418,56 +2422,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5550224,
-            -6.8730848
+            107.5552484,
+            -6.8728516
           ],
           [
-            107.5551075,
-            -6.8730676
+            107.5553244,
+            -6.8729558
           ],
           [
-            107.5551681,
-            -6.8730776
+            107.5553764,
+            -6.8730083
           ],
           [
-            107.55524,
-            -6.8730772
+            107.5554198,
+            -6.8730241
           ],
           [
-            107.5553243,
-            -6.8730615
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1111631326,
-        "highway": "tertiary",
-        "lanes": "1",
-        "name": "Jalan Cihanjuang",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5553243,
-            -6.8730615
-          ],
-          [
-            107.5554097,
-            -6.8730253
-          ],
-          [
-            107.5554244,
-            -6.873018
-          ],
-          [
-            107.5555136,
-            -6.8729736
+            107.5554967,
+            -6.8730027
           ],
           [
             107.5555973,
@@ -2894,29 +2866,125 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5548136,
-            -6.8730377
+            107.5547726,
+            -6.8730243
           ],
           [
-            107.5548644,
-            -6.8730516
+            107.5548171,
+            -6.8729736
           ],
           [
-            107.5549257,
-            -6.8730684
+            107.5548569,
+            -6.8729239
           ],
           [
-            107.5550224,
-            -6.8730848
+            107.5549235,
+            -6.8728201
           ]
         ]
       },
       "properties": {
-        "id": 1365625450,
+        "id": 1426370637,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Cihanjuang",
-        "oneway": "no",
+        "name": "Jalan Raden Demang Hardjakusumah",
+        "oneway": "yes",
+        "source": "Local knowledge",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5549235,
+            -6.8728201
+          ],
+          [
+            107.5549557,
+            -6.8727772
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1426375727,
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "motorcycle": "yes",
+        "name": "Bundaran Jati",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5549557,
+            -6.8727772
+          ],
+          [
+            107.5549961,
+            -6.8727477
+          ],
+          [
+            107.5550432,
+            -6.8727306
+          ],
+          [
+            107.5550933,
+            -6.8727274
+          ],
+          [
+            107.5551446,
+            -6.8727379
+          ],
+          [
+            107.5551888,
+            -6.8727646
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1426375728,
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "motorcycle": "yes",
+        "name": "Bundaran Jati",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5551888,
+            -6.8727646
+          ],
+          [
+            107.5552253,
+            -6.8728036
+          ],
+          [
+            107.5552484,
+            -6.8728516
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1426375729,
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "motorcycle": "yes",
+        "name": "Bundaran Jati",
+        "oneway": "yes",
         "surface": "asphalt"
       }
     }

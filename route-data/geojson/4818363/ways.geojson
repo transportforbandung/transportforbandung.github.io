@@ -382,6 +382,46 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5749019,
+            -6.8723534
+          ],
+          [
+            107.5748654,
+            -6.8723303
+          ],
+          [
+            107.5748245,
+            -6.8722931
+          ],
+          [
+            107.5748031,
+            -6.8722698
+          ],
+          [
+            107.5747836,
+            -6.8722531
+          ],
+          [
+            107.5747337,
+            -6.8722288
+          ]
+        ]
+      },
+      "properties": {
+        "id": 494049748,
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Kampus Polban",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5743985,
             -6.8718688
           ],
@@ -491,6 +531,143 @@
         "name": "Jalan Kampus Polban",
         "surface": "paved",
         "width": "3.5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5747337,
+            -6.8722288
+          ],
+          [
+            107.5746516,
+            -6.8721984
+          ]
+        ]
+      },
+      "properties": {
+        "id": 494049750,
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Kampus Polban",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5745374,
+            -6.8722326
+          ],
+          [
+            107.574509,
+            -6.8722192
+          ],
+          [
+            107.5744856,
+            -6.8721982
+          ],
+          [
+            107.5744697,
+            -6.872172
+          ],
+          [
+            107.5744619,
+            -6.8721424
+          ],
+          [
+            107.5744629,
+            -6.8721118
+          ],
+          [
+            107.5744726,
+            -6.8720827
+          ],
+          [
+            107.5744817,
+            -6.8720678
+          ]
+        ]
+      },
+      "properties": {
+        "id": 494049751,
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5744817,
+            -6.8720678
+          ],
+          [
+            107.5744501,
+            -6.8720229
+          ],
+          [
+            107.5744068,
+            -6.8719422
+          ],
+          [
+            107.5743985,
+            -6.8718688
+          ]
+        ]
+      },
+      "properties": {
+        "id": 494049753,
+        "alt_name": "Politeknik Bandung",
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Kampus Polban",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5747629,
+            -6.8721027
+          ],
+          [
+            107.5748111,
+            -6.8721533
+          ],
+          [
+            107.5748956,
+            -6.8723031
+          ],
+          [
+            107.5749019,
+            -6.8723534
+          ]
+        ]
+      },
+      "properties": {
+        "id": 494049755,
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Kampus Polban",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -764,7 +941,8 @@
         "avgspeed": "25",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Geger Kalong Hilir"
+        "name": "Jalan Geger Kalong Hilir",
+        "surface": "asphalt"
       }
     },
     {
@@ -820,6 +998,42 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Geger Kalong Hilir"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5746516,
+            -6.8721984
+          ],
+          [
+            107.5746283,
+            -6.8722194
+          ],
+          [
+            107.5745998,
+            -6.8722327
+          ],
+          [
+            107.5745686,
+            -6.8722372
+          ],
+          [
+            107.5745374,
+            -6.8722326
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1415848048,
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     }
   ]

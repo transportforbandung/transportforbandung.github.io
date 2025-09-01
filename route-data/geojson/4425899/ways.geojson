@@ -160,14 +160,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5987172,
-            -6.8940629
-          ],
-          [
-            107.5988837,
-            -6.8941348
-          ],
-          [
             107.5989838,
             -6.8941794
           ],
@@ -1084,6 +1076,10 @@
           [
             107.571053,
             -6.9159991
+          ],
+          [
+            107.5711184,
+            -6.9157735
           ],
           [
             107.5711273,
@@ -3231,6 +3227,35 @@
         "ref": "11",
         "surface": "asphalt",
         "turn:lanes": "left|through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5987172,
+            -6.8940629
+          ],
+          [
+            107.5988837,
+            -6.8941348
+          ],
+          [
+            107.5989838,
+            -6.8941794
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1424996920,
+        "avgspeed": "15",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Makmur",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     }
   ]

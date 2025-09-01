@@ -6,14 +6,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.5951942,
-          -6.85933
+          107.5936817,
+          -6.8682279
         ]
       },
       "properties": {
-        "id": 11711070002,
+        "id": 12809046289,
         "bus": "yes",
-        "name": "Terminal Ledeng",
+        "name": "Poltekpar NHI",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5939201,
+          -6.8664168
+        ]
+      },
+      "properties": {
+        "id": 12809046291,
+        "bus": "yes",
+        "name": "Seberang Unpas Setiabudi",
         "public_transport": "stop_position"
       }
     },

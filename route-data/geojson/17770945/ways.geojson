@@ -268,8 +268,8 @@
             -6.9133508
           ],
           [
-            107.6345966,
-            -6.9133253
+            107.6348123,
+            -6.9131999
           ],
           [
             107.6350723,
@@ -352,8 +352,8 @@
             -6.9107108
           ],
           [
-            107.6396001,
-            -6.9106533
+            107.639527,
+            -6.9106903
           ],
           [
             107.6397101,
@@ -407,8 +407,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6434825,
-            -6.911388
+            107.643479,
+            -6.9113625
           ],
           [
             107.6435013,
@@ -669,10 +669,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            107.6256947,
-            -6.9324168
-          ],
           [
             107.6257279,
             -6.9322848
@@ -1122,8 +1118,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6433337,
-            -6.9099246
+            107.6433384,
+            -6.9099756
           ],
           [
             107.6433851,
@@ -1142,8 +1138,8 @@
             -6.9112119
           ],
           [
-            107.6434825,
-            -6.911388
+            107.643479,
+            -6.9113625
           ]
         ]
       },
@@ -1309,10 +1305,6 @@
           [
             107.6256334,
             -6.9326601
-          ],
-          [
-            107.6256715,
-            -6.9325087
           ]
         ]
       },
@@ -2242,8 +2234,8 @@
             -6.9372649
           ],
           [
-            107.6037009,
-            -6.9373001
+            107.6039363,
+            -6.9373127
           ],
           [
             107.6043789,
@@ -2341,12 +2333,12 @@
             -6.9094522
           ],
           [
-            107.6432973,
-            -6.9096213
+            107.6433008,
+            -6.9096195
           ],
           [
-            107.6433337,
-            -6.9099246
+            107.6433384,
+            -6.9099756
           ]
         ]
       },
@@ -2685,6 +2677,7 @@
       "properties": {
         "id": 1194479627,
         "avgspeed": "30",
+        "foot": "no",
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Pelajar Pejuang 45",
@@ -3071,21 +3064,21 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5932351,
-            -6.9459075
+            107.5932396,
+            -6.9458755
           ],
           [
-            107.593165,
-            -6.945896
+            107.5931227,
+            -6.9458554
           ],
           [
-            107.5931453,
-            -6.9458871
+            107.5930468,
+            -6.9458246
           ]
         ]
       },
       "properties": {
-        "id": 1296465485,
+        "id": 1296465484,
         "access": "no",
         "bicycle": "no",
         "bus": "designated",
@@ -3104,31 +3097,64 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5931453,
-            -6.9458871
+            107.6256334,
+            -6.9326601
           ],
           [
-            107.5931033,
-            -6.945868
-          ],
-          [
-            107.5930468,
-            -6.9458246
+            107.6256715,
+            -6.9325087
           ]
         ]
       },
       "properties": {
-        "id": 1383554058,
-        "access": "no",
-        "bicycle": "no",
-        "bus": "designated",
-        "highway": "service",
-        "horse": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
-        "name": "Jalur Bus Kota",
+        "id": 1423903701,
+        "avgspeed": "30",
+        "cycleway:both": "no",
+        "destination": "Simpang Martanegara",
+        "destination:lanes": "Palasari;Sadakeling;Burangrang|Talaga Bodas;Gatot Subroto;Laswi|Talaga Bodas;Gatot Subroto;Laswi|Maskumambang;Reog;Turangga",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
-        "surface": "concrete"
+        "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|through|through|right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6256947,
+            -6.9324168
+          ],
+          [
+            107.6257279,
+            -6.9322848
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1423903704,
+        "avgspeed": "30",
+        "cycleway:both": "no",
+        "destination": "Simpang Talaga Bodas",
+        "destination:lanes": "Talaga Bodas;Palasari|Gatot Subroto;Simpang Lima;Binong|Laswi;Sukabumi;Riau",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Pelajar Pejuang 45",
+        "oneway": "yes",
+        "ref": "376",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through"
       }
     }
   ]

@@ -476,6 +476,39 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5743985,
+            -6.8718688
+          ],
+          [
+            107.5744641,
+            -6.8719106
+          ],
+          [
+            107.5745105,
+            -6.8719596
+          ],
+          [
+            107.5745558,
+            -6.8720246
+          ]
+        ]
+      },
+      "properties": {
+        "id": 494049754,
+        "alt_name": "Politeknik Bandung",
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Kampus Polban",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5728545,
             -6.8665842
           ],
@@ -741,7 +774,8 @@
         "avgspeed": "25",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Geger Kalong Hilir"
+        "name": "Jalan Geger Kalong Hilir",
+        "surface": "asphalt"
       }
     },
     {
@@ -797,6 +831,66 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Geger Kalong Hilir"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5745558,
+            -6.8720246
+          ],
+          [
+            107.5746045,
+            -6.8720299
+          ],
+          [
+            107.5746457,
+            -6.8720561
+          ],
+          [
+            107.5746674,
+            -6.8720883
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1415848050,
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5746674,
+            -6.8720883
+          ],
+          [
+            107.5747117,
+            -6.8720885
+          ],
+          [
+            107.5747629,
+            -6.8721027
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1424970719,
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Kampus Polban",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     }
   ]

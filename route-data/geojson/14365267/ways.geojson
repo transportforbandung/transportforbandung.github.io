@@ -499,6 +499,63 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5930468,
+            -6.9458246
+          ],
+          [
+            107.593035,
+            -6.9458155
+          ],
+          [
+            107.5929973,
+            -6.9457608
+          ],
+          [
+            107.5929755,
+            -6.9457199
+          ],
+          [
+            107.5929507,
+            -6.9456673
+          ],
+          [
+            107.5929085,
+            -6.9455455
+          ],
+          [
+            107.5928332,
+            -6.9452993
+          ],
+          [
+            107.5928224,
+            -6.9452146
+          ],
+          [
+            107.5928394,
+            -6.9450646
+          ]
+        ]
+      },
+      "properties": {
+        "id": 321073717,
+        "access": "no",
+        "bicycle": "no",
+        "bus": "designated",
+        "highway": "service",
+        "horse": "no",
+        "motorcar": "no",
+        "motorcycle": "no",
+        "name": "Jalur Bus Kota",
+        "oneway": "yes",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5910269,
             -6.9435481
           ],
@@ -2888,59 +2945,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5930399,
-            -6.9457531
-          ],
-          [
-            107.592993,
-            -6.9456782
-          ],
-          [
-            107.5929837,
-            -6.9456634
-          ],
-          [
-            107.5929519,
-            -6.9455681
-          ],
-          [
-            107.5929354,
-            -6.9455213
-          ],
-          [
-            107.592865,
-            -6.9452968
-          ],
-          [
-            107.5928485,
-            -6.9452341
-          ],
-          [
-            107.5928394,
-            -6.9450646
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1222515149,
-        "access": "no",
-        "bicycle": "no",
-        "bus": "designated",
-        "highway": "service",
-        "horse": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
-        "name": "Jalur Bus Kota",
-        "oneway": "yes",
-        "surface": "concrete"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.58773,
             -6.9298868
           ],
@@ -3050,47 +3054,6 @@
         "short_name": "Jalan Tol Soroja",
         "source": "Bing",
         "toll": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5932425,
-            -6.9458452
-          ],
-          [
-            107.5932007,
-            -6.9458395
-          ],
-          [
-            107.5931256,
-            -6.9458263
-          ],
-          [
-            107.5930758,
-            -6.9458011
-          ],
-          [
-            107.5930399,
-            -6.9457531
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1245234214,
-        "access": "no",
-        "bicycle": "no",
-        "bus": "designated",
-        "highway": "service",
-        "horse": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
-        "name": "Jalur Bus Kota",
-        "oneway": "yes",
-        "surface": "concrete"
       }
     },
     {
@@ -3236,6 +3199,39 @@
         "lanes": "3",
         "name": "Jalan Tol Soreang–Pasir Koja",
         "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5932396,
+            -6.9458755
+          ],
+          [
+            107.5931227,
+            -6.9458554
+          ],
+          [
+            107.5930468,
+            -6.9458246
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1296465484,
+        "access": "no",
+        "bicycle": "no",
+        "bus": "designated",
+        "highway": "service",
+        "horse": "no",
+        "motorcar": "no",
+        "motorcycle": "no",
+        "name": "Jalur Bus Kota",
+        "oneway": "yes",
+        "surface": "concrete"
       }
     },
     {

@@ -551,6 +551,10 @@
             -7.0082741
           ],
           [
+            107.6364034,
+            -7.008406
+          ],
+          [
             107.636604,
             -7.0085035
           ],
@@ -1898,12 +1902,16 @@
             -6.9548395
           ],
           [
-            107.6115567,
-            -6.9547392
+            107.6115496,
+            -6.9547181
           ],
           [
             107.6115404,
             -6.9546891
+          ],
+          [
+            107.6115309,
+            -6.9546605
           ],
           [
             107.6115168,
@@ -2514,11 +2522,11 @@
           ],
           [
             107.6000125,
-            -6.9374518
+            -6.9374564
           ],
           [
-            107.5999005,
-            -6.9374746
+            107.5998296,
+            -6.9374914
           ],
           [
             107.5994727,
@@ -5309,17 +5317,17 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5937098,
-            -6.9458851
+            107.5936738,
+            -6.9459456
           ],
           [
-            107.5932469,
-            -6.9458124
+            107.5932396,
+            -6.9458755
           ]
         ]
       },
       "properties": {
-        "id": 1149410160,
+        "id": 1149410151,
         "access": "no",
         "bicycle": "no",
         "bus": "designated",
@@ -5999,6 +6007,64 @@
       },
       "properties": {
         "id": 1245234204,
+        "access": "no",
+        "bicycle": "no",
+        "bus": "designated",
+        "highway": "service",
+        "horse": "no",
+        "motorcar": "no",
+        "motorcycle": "no",
+        "name": "Jalur Bus Kota",
+        "oneway": "yes",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5937098,
+            -6.9458851
+          ],
+          [
+            107.5936967,
+            -6.9459132
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1245234205,
+        "access": "no",
+        "bicycle": "no",
+        "bus": "designated",
+        "highway": "service",
+        "horse": "no",
+        "motorcar": "no",
+        "motorcycle": "no",
+        "name": "Jalur Bus Kota",
+        "oneway": "yes",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5936967,
+            -6.9459132
+          ],
+          [
+            107.5936738,
+            -6.9459456
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1245234206,
         "access": "no",
         "bicycle": "no",
         "bus": "designated",

@@ -6,6 +6,39 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          107.5363587,
+          -6.8852969
+        ]
+      },
+      "properties": {
+        "id": 3470022239,
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Stasiun Cimahi",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5379919,
+          -6.8807505
+        ]
+      },
+      "properties": {
+        "id": 9668839346,
+        "bus": "yes",
+        "name": "Pasar Antri",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           107.5820477,
           -6.8029839
         ]
@@ -17,6 +50,24 @@
         "name": "Terminal Parongpong",
         "public_transport": "stop_position",
         "ref": "Terminal Parongpong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5797493,
+          -6.8028047
+        ]
+      },
+      "properties": {
+        "id": 3470310970,
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Universitas Advent Indonesia",
+        "public_transport": "stop_position",
+        "ref": "Universitas Advent Indonesia"
       }
     }
   ]

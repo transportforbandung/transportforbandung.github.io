@@ -31,24 +31,16 @@
             -6.8723341
           ],
           [
-            107.5551116,
-            -6.8724216
+            107.5551086,
+            -6.8724206
           ],
           [
-            107.5550919,
-            -6.8724884
+            107.5550848,
+            -6.8724854
           ],
           [
             107.5550586,
             -6.8725552
-          ],
-          [
-            107.5550102,
-            -6.8726505
-          ],
-          [
-            107.5548136,
-            -6.8730377
           ]
         ]
       },
@@ -1209,12 +1201,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5553452,
-            -6.8731199
-          ],
-          [
-            107.555372,
-            -6.8731565
+            107.5554174,
+            -6.8731989
           ],
           [
             107.5557454,
@@ -1587,24 +1575,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5553452,
-            -6.8731199
+            107.5552863,
+            -6.8731239
           ],
           [
-            107.5552448,
-            -6.8731395
+            107.5552368,
+            -6.8731162
           ],
           [
-            107.555162,
-            -6.87314
+            107.5551684,
+            -6.8731013
           ],
           [
-            107.5550956,
-            -6.8731295
+            107.5551256,
+            -6.8730899
           ],
           [
-            107.5550224,
-            -6.8730848
+            107.5550629,
+            -6.8730764
           ]
         ]
       },
@@ -1884,7 +1872,7 @@
           ],
           [
             107.5446953,
-            -6.861265
+            -6.8612534
           ],
           [
             107.5447866,
@@ -1987,38 +1975,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5548136,
-            -6.8730377
-          ],
-          [
-            107.5548644,
-            -6.8730516
-          ],
-          [
-            107.5549257,
-            -6.8730684
-          ],
-          [
-            107.5550224,
-            -6.8730848
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1365625450,
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Cihanjuang",
-        "oneway": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5516726,
             -6.8688863
           ],
@@ -2063,6 +2019,188 @@
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
         "ref": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5549063,
+            -6.8728688
+          ],
+          [
+            107.5549235,
+            -6.8728201
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1426370636,
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "motorcycle": "yes",
+        "name": "Bundaran Jati",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5549557,
+            -6.8727772
+          ],
+          [
+            107.5549926,
+            -6.8727157
+          ],
+          [
+            107.5550158,
+            -6.8726691
+          ],
+          [
+            107.5550321,
+            -6.8726287
+          ],
+          [
+            107.5550586,
+            -6.8725552
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1426370638,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Raden Demang Hardjakusumah",
+        "oneway": "yes",
+        "source": "Local knowledge",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5554174,
+            -6.8731989
+          ],
+          [
+            107.5553669,
+            -6.8731636
+          ],
+          [
+            107.5552863,
+            -6.8731239
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1426370641,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Jati Serut",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5550629,
+            -6.8730764
+          ],
+          [
+            107.5550299,
+            -6.8730701
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1426375725,
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "motorcycle": "yes",
+        "name": "Bundaran Jati",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5550299,
+            -6.8730701
+          ],
+          [
+            107.5549828,
+            -6.8730485
+          ],
+          [
+            107.554944,
+            -6.8730142
+          ],
+          [
+            107.554917,
+            -6.8729702
+          ],
+          [
+            107.554904,
+            -6.8729203
+          ],
+          [
+            107.5549063,
+            -6.8728688
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1426375726,
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "motorcycle": "yes",
+        "name": "Bundaran Jati",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5549235,
+            -6.8728201
+          ],
+          [
+            107.5549557,
+            -6.8727772
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1426375727,
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "motorcycle": "yes",
+        "name": "Bundaran Jati",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     }
   ]

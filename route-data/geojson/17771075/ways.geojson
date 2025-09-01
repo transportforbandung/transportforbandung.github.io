@@ -207,8 +207,8 @@
             -6.946461
           ],
           [
-            107.638444,
-            -6.9464022
+            107.638452,
+            -6.9463942
           ],
           [
             107.6385798,
@@ -2140,9 +2140,11 @@
         "destination:lanes": "Bulevar Timur;Bulevar Teknopolis;Sinpasa;Flora|Xandari",
         "highway": "secondary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Grand Bulevar",
         "oneway": "yes",
         "sidewalk": "separate",
+        "surface": "asphalt",
         "turn:lanes": "through|through;reverse"
       }
     },
@@ -2180,12 +2182,12 @@
             -6.9493974
           ],
           [
-            107.6278786,
-            -6.9493609
+            107.6278794,
+            -6.9493563
           ],
           [
-            107.6279379,
-            -6.9493512
+            107.627934,
+            -6.9493489
           ],
           [
             107.6280918,
@@ -3000,6 +3002,10 @@
           [
             107.602694,
             -6.9478287
+          ],
+          [
+            107.6028213,
+            -6.947833
           ],
           [
             107.6033305,
@@ -4648,6 +4654,7 @@
         "destination:lanes": "Bulevar Teknopolis;Sinpasa|Flora;Bulevar Selatan;Dayana;Rancasagatan",
         "highway": "secondary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Grand Bulevar",
         "name:en": "Grand Boulevard",
         "oneway": "yes",

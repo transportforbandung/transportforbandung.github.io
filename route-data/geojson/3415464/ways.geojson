@@ -7,12 +7,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6370787,
-            -6.8984458
+            107.6370818,
+            -6.8984481
           ],
           [
-            107.6371799,
-            -6.8984698
+            107.637183,
+            -6.8984713
           ],
           [
             107.63734,
@@ -593,8 +593,8 @@
             -6.9081948
           ],
           [
-            107.6306426,
-            -6.9078314
+            107.6307389,
+            -6.9079767
           ],
           [
             107.6305913,
@@ -751,10 +751,6 @@
           [
             107.6252034,
             -6.9321877
-          ],
-          [
-            107.6252506,
-            -6.9322109
           ]
         ]
       },
@@ -840,8 +836,12 @@
             -6.9005363
           ],
           [
-            107.634244,
-            -6.9003045
+            107.6342539,
+            -6.9003269
+          ],
+          [
+            107.6342453,
+            -6.9003068
           ],
           [
             107.634226,
@@ -1765,8 +1765,8 @@
             -6.9257695
           ],
           [
-            107.6066649,
-            -6.9257801
+            107.6067208,
+            -6.9257892
           ],
           [
             107.6071391,
@@ -1795,6 +1795,10 @@
           [
             107.641697,
             -6.9139738
+          ],
+          [
+            107.6414919,
+            -6.9139998
           ],
           [
             107.641333,
@@ -1944,6 +1948,10 @@
             -6.9145755
           ],
           [
+            107.6368147,
+            -6.9145887
+          ],
+          [
             107.636513,
             -6.914633
           ],
@@ -2024,8 +2032,8 @@
             -6.932323
           ],
           [
-            107.6256558,
-            -6.9323691
+            107.6256263,
+            -6.9323445
           ],
           [
             107.6256947,
@@ -2039,6 +2047,7 @@
         "destination": "Simpang Martanegara",
         "destination:lanes": "Maskumambang;Reog;Turangga|Buahbatu;BKR;Tegallega",
         "destination:ref": "|376",
+        "foot": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Lodaya",
@@ -2806,6 +2815,10 @@
             -6.9158898
           ],
           [
+            107.6437252,
+            -6.9148646
+          ],
+          [
             107.6437224,
             -6.9148349
           ],
@@ -3138,6 +3151,7 @@
       "properties": {
         "id": 962141848,
         "avgspeed": "30",
+        "foot": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
@@ -3214,6 +3228,7 @@
         "id": 991848811,
         "alt_name": "Jalan Lodaya",
         "destination": "Sesko TNI;Turangga;Gumuruh",
+        "foot": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
@@ -3688,8 +3703,8 @@
             -6.8984148
           ],
           [
-            107.6370787,
-            -6.8984458
+            107.6370818,
+            -6.8984481
           ]
         ]
       },
@@ -3806,6 +3821,7 @@
         "avgspeed": "20",
         "destination": "Simpang Martanegara",
         "destination:lanes": "Talaga Bodas;Gatot Subroto;Laswi|Maskumambang;Reog;Turangga|Buahbatu;BKR;Tegallega",
+        "foot": "no",
         "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Lodaya",
@@ -3923,7 +3939,11 @@
             -6.9342645
           ],
           [
-            107.6326798,
+            107.6326614,
+            -6.9342515
+          ],
+          [
+            107.6327072,
             -6.9342443
           ],
           [
@@ -3931,8 +3951,8 @@
             -6.934244
           ],
           [
-            107.6337591,
-            -6.93438
+            107.6336699,
+            -6.93437
           ],
           [
             107.6337971,
@@ -4315,6 +4335,33 @@
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
         "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6252034,
+            -6.9321877
+          ],
+          [
+            107.6252506,
+            -6.9322109
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1424097017,
+        "avgspeed": "20",
+        "destination:forward": "Simpang Martanegara",
+        "destination:ref:lanes": "Palasari",
+        "foot": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Lodaya",
         "surface": "asphalt"
       }
     }

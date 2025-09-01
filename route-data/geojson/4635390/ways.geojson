@@ -178,8 +178,8 @@
             -6.93268
           ],
           [
-            107.6257777,
-            -6.9326505
+            107.6257918,
+            -6.9326592
           ],
           [
             107.625745,
@@ -192,6 +192,7 @@
         "avgspeed": "30",
         "destination:lanes": "Palasari;Sadakeling;Burangrang|Talaga Bodas;Gatot Subroto;Laswi",
         "destination:ref:lanes": "|376",
+        "foot": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
@@ -764,10 +765,6 @@
           [
             107.6252034,
             -6.9321877
-          ],
-          [
-            107.6252506,
-            -6.9322109
           ]
         ]
       },
@@ -808,8 +805,12 @@
             -6.9005363
           ],
           [
-            107.634244,
-            -6.9003045
+            107.6342539,
+            -6.9003269
+          ],
+          [
+            107.6342453,
+            -6.9003068
           ],
           [
             107.634226,
@@ -968,8 +969,8 @@
             -6.9133508
           ],
           [
-            107.6345966,
-            -6.9133253
+            107.6348123,
+            -6.9131999
           ],
           [
             107.6350723,
@@ -1052,8 +1053,8 @@
             -6.9107108
           ],
           [
-            107.6396001,
-            -6.9106533
+            107.639527,
+            -6.9106903
           ],
           [
             107.6397101,
@@ -1581,8 +1582,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6434825,
-            -6.911388
+            107.643479,
+            -6.9113625
           ],
           [
             107.6435013,
@@ -2530,8 +2531,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6433337,
-            -6.9099246
+            107.6433384,
+            -6.9099756
           ],
           [
             107.6433851,
@@ -2550,8 +2551,8 @@
             -6.9112119
           ],
           [
-            107.6434825,
-            -6.911388
+            107.643479,
+            -6.9113625
           ]
         ]
       },
@@ -3573,6 +3574,7 @@
         "id": 962137062,
         "avgspeed": "20",
         "destination": "Palasari",
+        "foot": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Lodaya",
@@ -3599,6 +3601,7 @@
         "id": 991848812,
         "alt_name": "Jalan Lodaya",
         "destination": "Palasari;Burangrang;Karapitan",
+        "foot": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
@@ -3675,12 +3678,12 @@
             -6.9094522
           ],
           [
-            107.6432973,
-            -6.9096213
+            107.6433008,
+            -6.9096195
           ],
           [
-            107.6433337,
-            -6.9099246
+            107.6433384,
+            -6.9099756
           ]
         ]
       },
@@ -4150,6 +4153,7 @@
         "destination": "Simpang Martanegara",
         "destination:lanes": "Buahbatu;BKR;Tegallega|Palasari;Sadakeling;Burangrang|Talaga Bodas;Gatot Subroto;Laswi",
         "destination:ref:lanes": "376||376",
+        "foot": "no",
         "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Raden Adipati Aria Martanegara",
@@ -4219,36 +4223,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6437793,
-            -6.9142126
-          ],
-          [
-            107.6437952,
-            -6.9143982
-          ],
-          [
-            107.6438226,
-            -6.9146708
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1218949665,
-        "destination": "Kiaracondong;Babakan Sari;Binong",
-        "foot": "no",
-        "highway": "primary",
-        "lanes": "1",
-        "name": "Jalan H. Ibrahim Adjie",
-        "old_name": "Jalan Kiaracondong",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6445578,
             -6.9269546
           ],
@@ -4291,7 +4265,11 @@
             -6.9342645
           ],
           [
-            107.6326798,
+            107.6326614,
+            -6.9342515
+          ],
+          [
+            107.6327072,
             -6.9342443
           ],
           [
@@ -4299,8 +4277,8 @@
             -6.934244
           ],
           [
-            107.6337591,
-            -6.93438
+            107.6336699,
+            -6.93437
           ],
           [
             107.6337971,
@@ -4524,8 +4502,8 @@
             -6.9141195
           ],
           [
-            107.6437793,
-            -6.9142126
+            107.6438226,
+            -6.9146708
           ]
         ]
       },
@@ -5145,6 +5123,10 @@
             -6.9367591
           ],
           [
+            107.6425052,
+            -6.9370363
+          ],
+          [
             107.6425031,
             -6.937068
           ],
@@ -5218,6 +5200,33 @@
         "name": "Jalan H. Ibrahim Adjie",
         "old_name": "Jalan Kiaracondong",
         "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6252034,
+            -6.9321877
+          ],
+          [
+            107.6252506,
+            -6.9322109
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1424097017,
+        "avgspeed": "20",
+        "destination:forward": "Simpang Martanegara",
+        "destination:ref:lanes": "Palasari",
+        "foot": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Lodaya",
         "surface": "asphalt"
       }
     }

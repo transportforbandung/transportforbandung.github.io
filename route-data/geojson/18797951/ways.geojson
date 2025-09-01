@@ -31,24 +31,16 @@
             -6.8723341
           ],
           [
-            107.5551116,
-            -6.8724216
+            107.5551086,
+            -6.8724206
           ],
           [
-            107.5550919,
-            -6.8724884
+            107.5550848,
+            -6.8724854
           ],
           [
             107.5550586,
             -6.8725552
-          ],
-          [
-            107.5550102,
-            -6.8726505
-          ],
-          [
-            107.5548136,
-            -6.8730377
           ]
         ]
       },
@@ -1210,12 +1202,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5553452,
-            -6.8731199
-          ],
-          [
-            107.555372,
-            -6.8731565
+            107.5554174,
+            -6.8731989
           ],
           [
             107.5557454,
@@ -1474,65 +1462,6 @@
         "name": "Jalan Margaluyu",
         "oneway": "no",
         "source": "Local knowledge"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5553243,
-            -6.8730615
-          ],
-          [
-            107.5553452,
-            -6.8731199
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1111631323,
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Jati Serut",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5550224,
-            -6.8730848
-          ],
-          [
-            107.5551075,
-            -6.8730676
-          ],
-          [
-            107.5551681,
-            -6.8730776
-          ],
-          [
-            107.55524,
-            -6.8730772
-          ],
-          [
-            107.5553243,
-            -6.8730615
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1111631326,
-        "highway": "tertiary",
-        "lanes": "1",
-        "name": "Jalan Cihanjuang",
-        "oneway": "yes",
-        "surface": "asphalt"
       }
     },
     {
@@ -1844,7 +1773,7 @@
           ],
           [
             107.5446953,
-            -6.861265
+            -6.8612534
           ],
           [
             107.5447866,
@@ -1947,38 +1876,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5548136,
-            -6.8730377
-          ],
-          [
-            107.5548644,
-            -6.8730516
-          ],
-          [
-            107.5549257,
-            -6.8730684
-          ],
-          [
-            107.5550224,
-            -6.8730848
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1365625450,
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Cihanjuang",
-        "oneway": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5601508,
             -6.8956698
           ],
@@ -2051,6 +1948,126 @@
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
         "ref": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5550586,
+            -6.8725552
+          ],
+          [
+            107.5550824,
+            -6.8726198
+          ],
+          [
+            107.5551173,
+            -6.8726724
+          ],
+          [
+            107.5551888,
+            -6.8727646
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1426370639,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Raden Demang Hardjakusumah",
+        "oneway": "yes",
+        "source": "Local knowledge",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5552558,
+            -6.872908
+          ],
+          [
+            107.5552833,
+            -6.8729635
+          ],
+          [
+            107.5553649,
+            -6.8731092
+          ],
+          [
+            107.5554174,
+            -6.8731989
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1426370640,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Jati Serut",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5551888,
+            -6.8727646
+          ],
+          [
+            107.5552253,
+            -6.8728036
+          ],
+          [
+            107.5552484,
+            -6.8728516
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1426375729,
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "motorcycle": "yes",
+        "name": "Bundaran Jati",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5552484,
+            -6.8728516
+          ],
+          [
+            107.5552558,
+            -6.872908
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1426375730,
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "motorcycle": "yes",
+        "name": "Bundaran Jati",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     }
   ]

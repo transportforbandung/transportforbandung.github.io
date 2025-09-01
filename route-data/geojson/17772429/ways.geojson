@@ -1004,20 +1004,20 @@
             -6.939893
           ],
           [
-            107.6596679,
-            -6.9399223
+            107.6596714,
+            -6.9399267
           ],
           [
-            107.6594799,
-            -6.9399611
+            107.659479,
+            -6.9399734
           ],
           [
-            107.6593885,
-            -6.9399838
+            107.6593929,
+            -6.9399935
           ],
           [
-            107.6591944,
-            -6.9400401
+            107.6591964,
+            -6.9400441
           ],
           [
             107.6590642,
@@ -2550,8 +2550,8 @@
             -6.9494267
           ],
           [
-            107.6227995,
-            -6.9493807
+            107.6228429,
+            -6.9493842
           ],
           [
             107.6224799,
@@ -3251,9 +3251,11 @@
         "destination:lanes": "Bulevar Selatan;Cynthia;Emily|Amanda;Btari;Gedebage Raya;Magna|Sentra Raya;Rancasagatan;Genova;Gedebage Utama",
         "highway": "secondary",
         "lanes": "3",
+        "lit": "yes",
         "name": "Grand Bulevar",
         "oneway": "yes",
         "sidewalk": "separate",
+        "surface": "asphalt",
         "turn:lanes": "left|through|right"
       }
     },
@@ -4272,7 +4274,7 @@
           ],
           [
             107.6281405,
-            -6.9494199
+            -6.9494245
           ],
           [
             107.6277781,
@@ -4700,6 +4702,7 @@
         "destination:lanes": "Bulevar Teknopolis;Sinpasa|Flora;Bulevar Selatan;Dayana;Rancasagatan",
         "highway": "secondary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Grand Bulevar",
         "name:en": "Grand Boulevard",
         "oneway": "yes",
@@ -4747,6 +4750,7 @@
         "destination:lanes": "Xandari|Bulevar Utama;Bulevar Barat;Amanda;Btari",
         "highway": "secondary",
         "lanes": "2",
+        "lit": "yes",
         "name": "Grand Bulevar",
         "name:en": "Grand Boulevard",
         "oneway": "yes",

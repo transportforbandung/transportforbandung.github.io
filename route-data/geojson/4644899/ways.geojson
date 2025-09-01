@@ -150,22 +150,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7220243,
-            -6.9340522
-          ],
-          [
-            107.722282,
-            -6.9339252
-          ],
-          [
-            107.7225917,
-            -6.9337598
-          ],
-          [
-            107.7226921,
-            -6.9337043
-          ],
-          [
             107.723025,
             -6.933527
           ],
@@ -3891,7 +3875,7 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "4",
-        "name": "Jalan Raya Cibiru",
+        "name": "Jalan Abdul Haris Nasution",
         "ref": "11"
       }
     },
@@ -3917,6 +3901,42 @@
         "highway": "trunk",
         "lanes": "4",
         "layer": "1",
+        "name": "Jalan Raya Cibiru",
+        "ref": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.7220243,
+            -6.9340522
+          ],
+          [
+            107.722282,
+            -6.9339252
+          ],
+          [
+            107.7225917,
+            -6.9337598
+          ],
+          [
+            107.7226921,
+            -6.9337043
+          ],
+          [
+            107.723025,
+            -6.933527
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1423263378,
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "4",
         "name": "Jalan Raya Cibiru",
         "ref": "11"
       }

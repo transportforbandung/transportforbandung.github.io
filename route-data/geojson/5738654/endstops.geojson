@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5434855,
+          -6.8698358
+        ]
+      },
+      "properties": {
+        "id": 3468354469,
+        "bus": "yes",
+        "name": "Terminal Pasar Atas Cimahi",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5200253,
+          -6.8614179
+        ]
+      },
+      "properties": {
+        "id": 3890114118,
+        "bus": "yes",
+        "name": "Borma Pemata Cimahi",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
+}
