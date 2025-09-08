@@ -1449,6 +1449,10 @@
             -6.9119301
           ],
           [
+            107.6435633,
+            -6.9122449
+          ],
+          [
             107.6435953,
             -6.9125849
           ],
@@ -1471,6 +1475,7 @@
         "name": "Jalan H. Ibrahim Adjie",
         "old_name": "Jalan Kiaracondong",
         "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "slight_left|slight_left;slight_right|slight_right"
       }
     },
@@ -2388,6 +2393,36 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5876614,
+            -6.906814
+          ],
+          [
+            107.5877282,
+            -6.9067939
+          ],
+          [
+            107.5877685,
+            -6.9067842
+          ]
+        ]
+      },
+      "properties": {
+        "id": 553888012,
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "248",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6137687,
             -6.9103802
           ],
@@ -2441,8 +2476,12 @@
             -6.9068309
           ],
           [
-            107.5939013,
-            -6.9068851
+            107.594084,
+            -6.9068527
+          ],
+          [
+            107.5937537,
+            -6.9069123
           ],
           [
             107.5936226,
@@ -2497,6 +2536,57 @@
         "lanes": "4",
         "name": "Jalan Pajajaran",
         "ref": "248",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5876926,
+            -6.9068803
+          ],
+          [
+            107.5876614,
+            -6.906814
+          ]
+        ]
+      },
+      "properties": {
+        "id": 557541299,
+        "avgspeed": "30",
+        "foot": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5877524,
+            -6.9068648
+          ],
+          [
+            107.5876926,
+            -6.9068803
+          ]
+        ]
+      },
+      "properties": {
+        "id": 557541302,
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
         "surface": "asphalt"
       }
     },
@@ -3048,6 +3138,32 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5877897,
+            -6.9068561
+          ],
+          [
+            107.5877524,
+            -6.9068648
+          ]
+        ]
+      },
+      "properties": {
+        "id": 900166176,
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "248",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5906651,
             -6.9070158
           ],
@@ -3546,6 +3662,114 @@
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5877685,
+            -6.9067842
+          ],
+          [
+            107.5878368,
+            -6.9067717
+          ],
+          [
+            107.5878467,
+            -6.9067699
+          ],
+          [
+            107.5879251,
+            -6.9067629
+          ],
+          [
+            107.5879557,
+            -6.9067619
+          ],
+          [
+            107.5880056,
+            -6.9067602
+          ],
+          [
+            107.5881625,
+            -6.9067702
+          ],
+          [
+            107.588219,
+            -6.9067739
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1221116579,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "248",
+        "surface": "asphalt",
+        "width": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.588209,
+            -6.9068423
+          ],
+          [
+            107.5881464,
+            -6.9068364
+          ],
+          [
+            107.5880555,
+            -6.9068315
+          ],
+          [
+            107.5879978,
+            -6.9068303
+          ],
+          [
+            107.5879768,
+            -6.9068298
+          ],
+          [
+            107.5879555,
+            -6.9068304
+          ],
+          [
+            107.5879312,
+            -6.9068311
+          ],
+          [
+            107.5878886,
+            -6.9068344
+          ],
+          [
+            107.5878356,
+            -6.9068448
+          ],
+          [
+            107.5877897,
+            -6.9068561
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1221116580,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "248",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {

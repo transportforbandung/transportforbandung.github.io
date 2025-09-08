@@ -397,6 +397,10 @@
             -6.914736
           ],
           [
+            107.6051298,
+            -6.9147855
+          ],
+          [
             107.6064066,
             -6.9149399
           ]
@@ -1681,32 +1685,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.601339,
-            -6.9048875
-          ],
-          [
-            107.6014033,
-            -6.9046523
-          ]
-        ]
-      },
-      "properties": {
-        "id": 320417107,
-        "alt_name": "Jalan Dr. Gunawan",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Dokter Gunawan Mangunkusumo",
-        "official_name": "Jalan Dokter Gunawan",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6043867,
             -6.9048271
           ],
@@ -2631,6 +2609,42 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6015193,
+            -6.9048777
+          ],
+          [
+            107.601477,
+            -6.9048314
+          ],
+          [
+            107.6014447,
+            -6.9047821
+          ],
+          [
+            107.6014325,
+            -6.9047281
+          ],
+          [
+            107.6014033,
+            -6.9046523
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1201403861,
+        "alt_name": "Jalan Dr. Gunawan",
+        "highway": "secondary_link",
+        "name": "Jalan Dokter Gunawan Mangunkusumo",
+        "official_name": "Jalan Dokter Gunawan",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6009997,
             -6.9036058
           ],
@@ -3103,34 +3117,6 @@
         "lanes": "1",
         "name": "Jalan Cemara",
         "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6015193,
-            -6.9048777
-          ],
-          [
-            107.601339,
-            -6.9048875
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1383511970,
-        "alt_name": "Jalan Dokter Tjipto Mangoenkoesoemo",
-        "avgspeed": "30",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Dokter Cipto Mangunkusumo",
-        "official_name": "Jalan Dokter Cipto",
-        "oneway": "yes",
-        "short_name": "Jalan Dr. Cipto",
         "surface": "asphalt"
       }
     },
