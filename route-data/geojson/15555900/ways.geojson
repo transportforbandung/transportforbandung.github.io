@@ -421,6 +421,7 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -476,22 +477,6 @@
           [
             107.6113378,
             -6.917202
-          ],
-          [
-            107.6114765,
-            -6.9172727
-          ],
-          [
-            107.6115788,
-            -6.9173248
-          ],
-          [
-            107.6118099,
-            -6.9174381
-          ],
-          [
-            107.611899,
-            -6.9174826
           ]
         ]
       },
@@ -700,62 +685,6 @@
           [
             107.6126957,
             -6.9070364
-          ],
-          [
-            107.6124781,
-            -6.907055
-          ],
-          [
-            107.6124238,
-            -6.9070587
-          ],
-          [
-            107.6120609,
-            -6.907071
-          ],
-          [
-            107.6119393,
-            -6.9070669
-          ],
-          [
-            107.6117292,
-            -6.9070622
-          ],
-          [
-            107.6116695,
-            -6.9070609
-          ],
-          [
-            107.6116341,
-            -6.9070599
-          ],
-          [
-            107.6114489,
-            -6.9070444
-          ],
-          [
-            107.6113975,
-            -6.9070401
-          ],
-          [
-            107.6113747,
-            -6.9070385
-          ],
-          [
-            107.6111706,
-            -6.9070246
-          ],
-          [
-            107.6109647,
-            -6.9070064
-          ],
-          [
-            107.6107468,
-            -6.9069963
-          ],
-          [
-            107.6106132,
-            -6.9069907
           ]
         ]
       },
@@ -802,6 +731,10 @@
             -6.9118039
           ],
           [
+            107.6278298,
+            -6.9117777
+          ],
+          [
             107.6278029,
             -6.9117514
           ],
@@ -810,12 +743,12 @@
             -6.9116065
           ],
           [
-            107.6271643,
-            -6.9111479
+            107.6271705,
+            -6.9111433
           ],
           [
-            107.6270678,
-            -6.9110574
+            107.627074,
+            -6.9110498
           ]
         ]
       },
@@ -830,6 +763,7 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -866,6 +800,7 @@
         "lit": "yes",
         "name": "Jalan Laswi",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "377",
         "sidewalk": "left",
         "surface": "asphalt"
@@ -1149,12 +1084,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6270678,
-            -6.9110574
+            107.627074,
+            -6.9110498
           ],
           [
-            107.6269724,
-            -6.9109607
+            107.6269793,
+            -6.9109538
           ],
           [
             107.6266345,
@@ -1200,6 +1135,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1285,12 +1221,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6454361,
-            -6.913513
+            107.6453416,
+            -6.9135173
           ],
           [
-            107.6453224,
-            -6.9135342
+            107.6453033,
+            -6.9135399
           ]
         ]
       },
@@ -1316,16 +1252,16 @@
             -6.9132465
           ],
           [
-            107.6471346,
-            -6.9132838
+            107.6471064,
+            -6.9132911
           ],
           [
             107.6457897,
             -6.9134653
           ],
           [
-            107.6454361,
-            -6.913513
+            107.6453416,
+            -6.9135173
           ]
         ]
       },
@@ -1452,8 +1388,8 @@
             -6.9124879
           ],
           [
-            107.6535078,
-            -6.9124906
+            107.6535199,
+            -6.9124899
           ],
           [
             107.6529787,
@@ -2662,8 +2598,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6453224,
-            -6.9135342
+            107.6453033,
+            -6.9135399
           ],
           [
             107.6451943,
@@ -2840,6 +2776,7 @@
         "lit": "yes",
         "name": "Jalan Laswi",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "377",
         "sidewalk": "left",
         "surface": "asphalt",
@@ -3344,6 +3281,7 @@
         "lanes": "3",
         "name": "Jalan Laswi",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "377",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_left|slight_right"
@@ -3370,6 +3308,7 @@
         "lanes": "2",
         "name": "Jalan Sukabumi",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt",
         "turn:lanes": "through|through"
       }
@@ -3543,10 +3482,6 @@
           [
             107.6102409,
             -6.914604
-          ],
-          [
-            107.6101827,
-            -6.9152463
           ]
         ]
       },
@@ -3836,6 +3771,285 @@
         "name": "Jalan Merdeka",
         "oneway": "yes",
         "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes": "left|left|left"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6126957,
+            -6.9070364
+          ],
+          [
+            107.6124781,
+            -6.907055
+          ],
+          [
+            107.6124238,
+            -6.9070587
+          ],
+          [
+            107.6120609,
+            -6.907071
+          ],
+          [
+            107.6119393,
+            -6.9070669
+          ],
+          [
+            107.6117292,
+            -6.9070622
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389929,
+        "alt_name": "Jalan Riau",
+        "avgspeed": "30",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan L.L. RE. Martadinata",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6117292,
+            -6.9070622
+          ],
+          [
+            107.6116695,
+            -6.9070609
+          ],
+          [
+            107.6116341,
+            -6.9070599
+          ],
+          [
+            107.6114489,
+            -6.9070444
+          ],
+          [
+            107.6113975,
+            -6.9070401
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389930,
+        "alt_name": "Jalan Riau",
+        "avgspeed": "30",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan L.L. RE. Martadinata",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6113975,
+            -6.9070401
+          ],
+          [
+            107.6113747,
+            -6.9070385
+          ],
+          [
+            107.6111706,
+            -6.9070246
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389931,
+        "alt_name": "Jalan Riau",
+        "avgspeed": "30",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan L.L. RE. Martadinata",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6111706,
+            -6.9070246
+          ],
+          [
+            107.6109647,
+            -6.9070064
+          ],
+          [
+            107.6107468,
+            -6.9069963
+          ],
+          [
+            107.6106132,
+            -6.9069907
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389932,
+        "alt_name": "Jalan Riau",
+        "avgspeed": "30",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan L.L. RE. Martadinata",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6113378,
+            -6.917202
+          ],
+          [
+            107.6114765,
+            -6.9172727
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434393606,
+        "avgspeed": "10",
+        "cycleway": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Lembong",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6114765,
+            -6.9172727
+          ],
+          [
+            107.6115788,
+            -6.9173248
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434393607,
+        "avgspeed": "10",
+        "cycleway": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Lembong",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6115788,
+            -6.9173248
+          ],
+          [
+            107.6118099,
+            -6.9174381
+          ],
+          [
+            107.611899,
+            -6.9174826
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434393608,
+        "avgspeed": "10",
+        "cycleway": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Lembong",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6102409,
+            -6.914604
+          ],
+          [
+            107.6101827,
+            -6.9152463
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434393610,
+        "access": "yes",
+        "avgspeed": "30",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "highway": "primary",
+        "lanes": "3",
+        "motor_vehicle": "yes",
+        "name": "Jalan Merdeka",
+        "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|left|left"
       }

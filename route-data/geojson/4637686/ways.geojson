@@ -197,6 +197,7 @@
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -1918,6 +1919,7 @@
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -1950,6 +1952,7 @@
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk:both": "separate",
         "smoothness": "excellent",
         "surface": "asphalt"
@@ -2741,12 +2744,12 @@
             -6.9018387
           ],
           [
-            107.6521986,
-            -6.9018733
+            107.6521919,
+            -6.901873
           ],
           [
-            107.6522919,
-            -6.9018742
+            107.6522785,
+            -6.9018762
           ],
           [
             107.6525276,
@@ -3261,7 +3264,7 @@
         "alt_name": "Jalan Suci",
         "avgspeed": "30",
         "highway": "trunk",
-        "lanes": "4",
+        "lanes": "2",
         "name": "Jalan PH. H. Mustofa",
         "oneway": "yes"
       }
@@ -3494,14 +3497,6 @@
           [
             107.6553398,
             -6.9020357
-          ],
-          [
-            107.6555577,
-            -6.9020453
-          ],
-          [
-            107.6557405,
-            -6.9020533
           ]
         ]
       },
@@ -4683,6 +4678,10 @@
             -6.9131693
           ],
           [
+            107.5863797,
+            -6.9130741
+          ],
+          [
             107.5863129,
             -6.9130382
           ],
@@ -5270,6 +5269,35 @@
         "avgspeed": "20",
         "highway": "tertiary",
         "name": "Jalan Karangsari",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6553398,
+            -6.9020357
+          ],
+          [
+            107.6555577,
+            -6.9020453
+          ],
+          [
+            107.6557405,
+            -6.9020533
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1430454716,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan PH. H. Mustofa",
         "oneway": "yes"
       }
     }

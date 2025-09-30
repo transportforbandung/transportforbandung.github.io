@@ -1484,6 +1484,7 @@
         "layer": "1",
         "name": "Jalan Laswi",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "377",
         "smoothness": "good",
         "surface": "asphalt"
@@ -1536,6 +1537,7 @@
         "lanes": "2",
         "name": "Jalan Laswi",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "377",
         "sidewalk": "left",
         "surface": "asphalt"
@@ -1955,7 +1957,9 @@
         "name": "Jalan Layang Laswi - Pelajar Pejuang 45",
         "name:en": "Laswi - Pelajar Pejuang 45 Flyover",
         "oneway": "yes",
-        "ref": "377"
+        "parking:both": "no",
+        "ref": "377",
+        "surface": "asphalt"
       }
     },
     {
@@ -2045,6 +2049,7 @@
         "lanes": "3",
         "name": "Jalan Laswi",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "377",
         "surface": "asphalt"
       }
@@ -2096,6 +2101,7 @@
         "lanes": "2",
         "name": "Jalan Laswi",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "377",
         "smoothness": "good",
         "surface": "asphalt"

@@ -468,86 +468,6 @@
           [
             107.6191903,
             -6.9151802
-          ],
-          [
-            107.6193043,
-            -6.9152077
-          ],
-          [
-            107.6194468,
-            -6.9152422
-          ],
-          [
-            107.6196923,
-            -6.9153016
-          ],
-          [
-            107.6210127,
-            -6.9156209
-          ],
-          [
-            107.6212044,
-            -6.9156673
-          ],
-          [
-            107.621498,
-            -6.9157384
-          ],
-          [
-            107.6221708,
-            -6.9159011
-          ],
-          [
-            107.6222472,
-            -6.9159196
-          ],
-          [
-            107.6225707,
-            -6.9159978
-          ],
-          [
-            107.6226711,
-            -6.9160221
-          ],
-          [
-            107.6229727,
-            -6.916095
-          ],
-          [
-            107.6234972,
-            -6.9162219
-          ],
-          [
-            107.6238525,
-            -6.9163079
-          ],
-          [
-            107.6244453,
-            -6.9164512
-          ],
-          [
-            107.6255424,
-            -6.9167166
-          ],
-          [
-            107.6259467,
-            -6.9168185
-          ],
-          [
-            107.6262609,
-            -6.9168904
-          ],
-          [
-            107.6266404,
-            -6.9169823
-          ],
-          [
-            107.6270406,
-            -6.917079
-          ],
-          [
-            107.627332,
-            -6.9171495
           ]
         ]
       },
@@ -1082,6 +1002,10 @@
             -6.9113906
           ],
           [
+            107.6125692,
+            -6.9113098
+          ],
+          [
             107.6125469,
             -6.9111891
           ],
@@ -1125,6 +1049,10 @@
           [
             107.6168804,
             -6.9115735
+          ],
+          [
+            107.6170875,
+            -6.9115498
           ],
           [
             107.6172179,
@@ -1219,6 +1147,7 @@
         "lit": "yes",
         "name": "Jalan Laswi",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "377",
         "sidewalk": "left",
         "surface": "asphalt"
@@ -1361,12 +1290,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6454361,
-            -6.913513
+            107.6453416,
+            -6.9135173
           ],
           [
-            107.6453224,
-            -6.9135342
+            107.6453033,
+            -6.9135399
           ]
         ]
       },
@@ -1392,16 +1321,16 @@
             -6.9132465
           ],
           [
-            107.6471346,
-            -6.9132838
+            107.6471064,
+            -6.9132911
           ],
           [
             107.6457897,
             -6.9134653
           ],
           [
-            107.6454361,
-            -6.913513
+            107.6453416,
+            -6.9135173
           ]
         ]
       },
@@ -1528,8 +1457,8 @@
             -6.9124879
           ],
           [
-            107.6535078,
-            -6.9124906
+            107.6535199,
+            -6.9124899
           ],
           [
             107.6529787,
@@ -1598,8 +1527,8 @@
             -6.9174516
           ],
           [
-            107.6603943,
-            -6.9174517
+            107.6603956,
+            -6.917453
           ],
           [
             107.6604897,
@@ -1642,7 +1571,7 @@
             -6.9173068
           ],
           [
-            107.6616731,
+            107.6616718,
             -6.9171787
           ],
           [
@@ -1655,7 +1584,10 @@
         "id": 320513354,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Purwakarta"
+        "name": "Jalan Purwakarta",
+        "smoothness": "intermediate",
+        "surface": "concrete",
+        "width": "4"
       }
     },
     {
@@ -2211,8 +2143,8 @@
             -6.916927
           ],
           [
-            107.6623631,
-            -6.9174251
+            107.6623671,
+            -6.9174298
           ],
           [
             107.6624718,
@@ -3009,8 +2941,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6453224,
-            -6.9135342
+            107.6453033,
+            -6.9135399
           ],
           [
             107.6451943,
@@ -3148,6 +3080,7 @@
         "lit": "yes",
         "name": "Jalan Laswi",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "377",
         "sidewalk": "left",
         "surface": "asphalt",
@@ -3814,6 +3747,7 @@
         "lanes": "3",
         "name": "Jalan Laswi",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "377",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_left|slight_right"
@@ -3840,6 +3774,7 @@
         "lanes": "2",
         "name": "Jalan Sukabumi",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt",
         "turn:lanes": "through|through"
       }
@@ -4049,6 +3984,432 @@
         "lanes": "2",
         "name": "Jalan Jakarta",
         "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6191903,
+            -6.9151802
+          ],
+          [
+            107.6193043,
+            -6.9152077
+          ],
+          [
+            107.6193915,
+            -6.9152288
+          ],
+          [
+            107.6194468,
+            -6.9152422
+          ],
+          [
+            107.6196923,
+            -6.9153016
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389907,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6196923,
+            -6.9153016
+          ],
+          [
+            107.6210127,
+            -6.9156209
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389908,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6210127,
+            -6.9156209
+          ],
+          [
+            107.6212044,
+            -6.9156673
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389909,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6212044,
+            -6.9156673
+          ],
+          [
+            107.621498,
+            -6.9157384
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389910,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.621498,
+            -6.9157384
+          ],
+          [
+            107.6221708,
+            -6.9159011
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389911,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6221708,
+            -6.9159011
+          ],
+          [
+            107.6222472,
+            -6.9159196
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389912,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6222472,
+            -6.9159196
+          ],
+          [
+            107.6225707,
+            -6.9159978
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389913,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6225707,
+            -6.9159978
+          ],
+          [
+            107.6226711,
+            -6.9160221
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389914,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6226711,
+            -6.9160221
+          ],
+          [
+            107.6229727,
+            -6.916095
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389915,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6229727,
+            -6.916095
+          ],
+          [
+            107.6234972,
+            -6.9162219
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389916,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6234972,
+            -6.9162219
+          ],
+          [
+            107.6238525,
+            -6.9163079
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389917,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6238525,
+            -6.9163079
+          ],
+          [
+            107.6244453,
+            -6.9164512
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389918,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6244453,
+            -6.9164512
+          ],
+          [
+            107.6255424,
+            -6.9167166
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389919,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6255424,
+            -6.9167166
+          ],
+          [
+            107.6259467,
+            -6.9168185
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389920,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6259467,
+            -6.9168185
+          ],
+          [
+            107.6262609,
+            -6.9168904
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389921,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6262609,
+            -6.9168904
+          ],
+          [
+            107.6266404,
+            -6.9169823
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389922,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6266404,
+            -6.9169823
+          ],
+          [
+            107.6270406,
+            -6.917079
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389923,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6270406,
+            -6.917079
+          ],
+          [
+            107.627332,
+            -6.9171495
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389924,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
       }
     }
   ]

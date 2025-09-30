@@ -603,6 +603,10 @@
             -6.9113906
           ],
           [
+            107.6125692,
+            -6.9113098
+          ],
+          [
             107.6125469,
             -6.9111891
           ],
@@ -725,62 +729,6 @@
           [
             107.6126957,
             -6.9070364
-          ],
-          [
-            107.6124781,
-            -6.907055
-          ],
-          [
-            107.6124238,
-            -6.9070587
-          ],
-          [
-            107.6120609,
-            -6.907071
-          ],
-          [
-            107.6119393,
-            -6.9070669
-          ],
-          [
-            107.6117292,
-            -6.9070622
-          ],
-          [
-            107.6116695,
-            -6.9070609
-          ],
-          [
-            107.6116341,
-            -6.9070599
-          ],
-          [
-            107.6114489,
-            -6.9070444
-          ],
-          [
-            107.6113975,
-            -6.9070401
-          ],
-          [
-            107.6113747,
-            -6.9070385
-          ],
-          [
-            107.6111706,
-            -6.9070246
-          ],
-          [
-            107.6109647,
-            -6.9070064
-          ],
-          [
-            107.6107468,
-            -6.9069963
-          ],
-          [
-            107.6106132,
-            -6.9069907
           ]
         ]
       },
@@ -1464,6 +1412,10 @@
             -6.9088093
           ],
           [
+            107.6134793,
+            -6.9083985
+          ],
+          [
             107.6133982,
             -6.9082301
           ],
@@ -1695,6 +1647,10 @@
           [
             107.6182266,
             -6.9165856
+          ],
+          [
+            107.6182441,
+            -6.9165066
           ],
           [
             107.6182615,
@@ -2207,6 +2163,10 @@
           [
             107.6176543,
             -6.9219485
+          ],
+          [
+            107.6176748,
+            -6.9217511
           ],
           [
             107.6177343,
@@ -3508,6 +3468,158 @@
         "smoothness": "good",
         "surface": "asphalt",
         "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6126957,
+            -6.9070364
+          ],
+          [
+            107.6124781,
+            -6.907055
+          ],
+          [
+            107.6124238,
+            -6.9070587
+          ],
+          [
+            107.6120609,
+            -6.907071
+          ],
+          [
+            107.6119393,
+            -6.9070669
+          ],
+          [
+            107.6117292,
+            -6.9070622
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389929,
+        "alt_name": "Jalan Riau",
+        "avgspeed": "30",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan L.L. RE. Martadinata",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6117292,
+            -6.9070622
+          ],
+          [
+            107.6116695,
+            -6.9070609
+          ],
+          [
+            107.6116341,
+            -6.9070599
+          ],
+          [
+            107.6114489,
+            -6.9070444
+          ],
+          [
+            107.6113975,
+            -6.9070401
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389930,
+        "alt_name": "Jalan Riau",
+        "avgspeed": "30",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan L.L. RE. Martadinata",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6113975,
+            -6.9070401
+          ],
+          [
+            107.6113747,
+            -6.9070385
+          ],
+          [
+            107.6111706,
+            -6.9070246
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389931,
+        "alt_name": "Jalan Riau",
+        "avgspeed": "30",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan L.L. RE. Martadinata",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6111706,
+            -6.9070246
+          ],
+          [
+            107.6109647,
+            -6.9070064
+          ],
+          [
+            107.6107468,
+            -6.9069963
+          ],
+          [
+            107.6106132,
+            -6.9069907
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389932,
+        "alt_name": "Jalan Riau",
+        "avgspeed": "30",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan L.L. RE. Martadinata",
+        "sidewalk": "separate",
+        "surface": "asphalt"
       }
     }
   ]

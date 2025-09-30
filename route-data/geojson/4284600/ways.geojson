@@ -1137,6 +1137,7 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1439,6 +1440,10 @@
             -6.9118039
           ],
           [
+            107.6278298,
+            -6.9117777
+          ],
+          [
             107.6278029,
             -6.9117514
           ],
@@ -1447,12 +1452,12 @@
             -6.9116065
           ],
           [
-            107.6271643,
-            -6.9111479
+            107.6271705,
+            -6.9111433
           ],
           [
-            107.6270678,
-            -6.9110574
+            107.627074,
+            -6.9110498
           ]
         ]
       },
@@ -1467,6 +1472,7 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1934,12 +1940,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6270678,
-            -6.9110574
+            107.627074,
+            -6.9110498
           ],
           [
-            107.6269724,
-            -6.9109607
+            107.6269793,
+            -6.9109538
           ],
           [
             107.6266345,
@@ -1985,6 +1991,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -2646,46 +2653,6 @@
           [
             107.6208401,
             -6.9011493
-          ],
-          [
-            107.6213033,
-            -6.9011378
-          ],
-          [
-            107.6216766,
-            -6.9011285
-          ],
-          [
-            107.6221254,
-            -6.9011174
-          ],
-          [
-            107.6224081,
-            -6.9011103
-          ],
-          [
-            107.6234934,
-            -6.9010834
-          ],
-          [
-            107.6236693,
-            -6.901079
-          ],
-          [
-            107.6238119,
-            -6.9010754
-          ],
-          [
-            107.6241876,
-            -6.9010661
-          ],
-          [
-            107.6246942,
-            -6.9010535
-          ],
-          [
-            107.6249276,
-            -6.9010477
           ]
         ]
       },
@@ -6585,6 +6552,280 @@
         "lanes": "2",
         "motor_vehicle": "yes",
         "name": "Jalan Cipamokolan",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6208401,
+            -6.9011493
+          ],
+          [
+            107.6213033,
+            -6.9011378
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389956,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6213033,
+            -6.9011378
+          ],
+          [
+            107.6216766,
+            -6.9011285
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389957,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6216766,
+            -6.9011285
+          ],
+          [
+            107.6221254,
+            -6.9011174
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389958,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6221254,
+            -6.9011174
+          ],
+          [
+            107.6224081,
+            -6.9011103
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389959,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6224081,
+            -6.9011103
+          ],
+          [
+            107.6234934,
+            -6.9010834
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389960,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6234934,
+            -6.9010834
+          ],
+          [
+            107.6236693,
+            -6.901079
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389961,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6236693,
+            -6.901079
+          ],
+          [
+            107.6238119,
+            -6.9010754
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389962,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6238119,
+            -6.9010754
+          ],
+          [
+            107.6241876,
+            -6.9010661
+          ],
+          [
+            107.6246942,
+            -6.9010535
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389963,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6246942,
+            -6.9010535
+          ],
+          [
+            107.6249276,
+            -6.9010477
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434389964,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Jalan Diponegoro",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     }

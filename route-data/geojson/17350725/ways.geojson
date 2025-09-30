@@ -585,22 +585,6 @@
           [
             107.6113378,
             -6.917202
-          ],
-          [
-            107.6114765,
-            -6.9172727
-          ],
-          [
-            107.6115788,
-            -6.9173248
-          ],
-          [
-            107.6118099,
-            -6.9174381
-          ],
-          [
-            107.611899,
-            -6.9174826
           ]
         ]
       },
@@ -660,8 +644,8 @@
             -6.9134376
           ],
           [
-            107.6452895,
-            -6.913425
+            107.6452794,
+            -6.913432
           ]
         ]
       },
@@ -682,8 +666,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6454024,
-            -6.9134198
+            107.6453263,
+            -6.9134331
+          ],
+          [
+            107.6453419,
+            -6.9134297
           ],
           [
             107.6454463,
@@ -702,8 +690,16 @@
             -6.9133788
           ],
           [
-            107.6471247,
-            -6.913202
+            107.6464113,
+            -6.9132922
+          ],
+          [
+            107.6470918,
+            -6.913204
+          ],
+          [
+            107.6471658,
+            -6.9131951
           ],
           [
             107.64746,
@@ -1100,6 +1096,10 @@
           [
             107.619848,
             -6.921143
+          ],
+          [
+            107.619832,
+            -6.9211515
           ],
           [
             107.6194592,
@@ -1685,8 +1685,8 @@
             -6.9124272
           ],
           [
-            107.6535025,
-            -6.9124051
+            107.6535159,
+            -6.9124038
           ],
           [
             107.6538136,
@@ -2182,12 +2182,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6452895,
-            -6.913425
+            107.6452794,
+            -6.913432
           ],
           [
-            107.6454024,
-            -6.9134198
+            107.6453263,
+            -6.9134331
           ]
         ]
       },
@@ -2436,6 +2436,10 @@
             -6.9204254
           ],
           [
+            107.6185363,
+            -6.9207327
+          ],
+          [
             107.6189214,
             -6.9208992
           ],
@@ -2638,6 +2642,103 @@
         "lanes": "2",
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6113378,
+            -6.917202
+          ],
+          [
+            107.6114765,
+            -6.9172727
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434393606,
+        "avgspeed": "10",
+        "cycleway": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Lembong",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6114765,
+            -6.9172727
+          ],
+          [
+            107.6115788,
+            -6.9173248
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434393607,
+        "avgspeed": "10",
+        "cycleway": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Lembong",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6115788,
+            -6.9173248
+          ],
+          [
+            107.6118099,
+            -6.9174381
+          ],
+          [
+            107.611899,
+            -6.9174826
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434393608,
+        "avgspeed": "10",
+        "cycleway": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Lembong",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right"
       }
     }
   ]

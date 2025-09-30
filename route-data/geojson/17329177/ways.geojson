@@ -786,22 +786,6 @@
           [
             107.6113378,
             -6.917202
-          ],
-          [
-            107.6114765,
-            -6.9172727
-          ],
-          [
-            107.6115788,
-            -6.9173248
-          ],
-          [
-            107.6118099,
-            -6.9174381
-          ],
-          [
-            107.611899,
-            -6.9174826
           ]
         ]
       },
@@ -1365,6 +1349,10 @@
           [
             107.619848,
             -6.921143
+          ],
+          [
+            107.619832,
+            -6.9211515
           ],
           [
             107.6194592,
@@ -2091,8 +2079,8 @@
             -6.9053377
           ],
           [
-            107.6498514,
-            -6.9052307
+            107.6498165,
+            -6.9052493
           ],
           [
             107.6498843,
@@ -2101,6 +2089,10 @@
           [
             107.650154,
             -6.9050722
+          ],
+          [
+            107.650173,
+            -6.9050622
           ],
           [
             107.6504237,
@@ -2301,14 +2293,6 @@
           [
             107.6553398,
             -6.9020357
-          ],
-          [
-            107.6555577,
-            -6.9020453
-          ],
-          [
-            107.6557405,
-            -6.9020533
           ]
         ]
       },
@@ -2897,6 +2881,10 @@
             -6.9204254
           ],
           [
+            107.6185363,
+            -6.9207327
+          ],
+          [
             107.6189214,
             -6.9208992
           ],
@@ -3208,6 +3196,132 @@
         "name": "Jalan Kebon Jati",
         "oneway": "yes",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6553398,
+            -6.9020357
+          ],
+          [
+            107.6555577,
+            -6.9020453
+          ],
+          [
+            107.6557405,
+            -6.9020533
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1430454716,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan PH. H. Mustofa",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6113378,
+            -6.917202
+          ],
+          [
+            107.6114765,
+            -6.9172727
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434393606,
+        "avgspeed": "10",
+        "cycleway": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Lembong",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6114765,
+            -6.9172727
+          ],
+          [
+            107.6115788,
+            -6.9173248
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434393607,
+        "avgspeed": "10",
+        "cycleway": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Lembong",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6115788,
+            -6.9173248
+          ],
+          [
+            107.6118099,
+            -6.9174381
+          ],
+          [
+            107.611899,
+            -6.9174826
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434393608,
+        "avgspeed": "10",
+        "cycleway": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Lembong",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right"
       }
     }
   ]

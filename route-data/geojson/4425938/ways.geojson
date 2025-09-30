@@ -775,22 +775,6 @@
           [
             107.6113378,
             -6.917202
-          ],
-          [
-            107.6114765,
-            -6.9172727
-          ],
-          [
-            107.6115788,
-            -6.9173248
-          ],
-          [
-            107.6118099,
-            -6.9174381
-          ],
-          [
-            107.611899,
-            -6.9174826
           ]
         ]
       },
@@ -1921,6 +1905,10 @@
             -6.9165856
           ],
           [
+            107.6182441,
+            -6.9165066
+          ],
+          [
             107.6182615,
             -6.9164276
           ],
@@ -2664,6 +2652,103 @@
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6113378,
+            -6.917202
+          ],
+          [
+            107.6114765,
+            -6.9172727
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434393606,
+        "avgspeed": "10",
+        "cycleway": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Lembong",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6114765,
+            -6.9172727
+          ],
+          [
+            107.6115788,
+            -6.9173248
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434393607,
+        "avgspeed": "10",
+        "cycleway": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Lembong",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6115788,
+            -6.9173248
+          ],
+          [
+            107.6118099,
+            -6.9174381
+          ],
+          [
+            107.611899,
+            -6.9174826
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434393608,
+        "avgspeed": "10",
+        "cycleway": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right:lane": "advisory",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Lembong",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right"
       }
     }
   ]

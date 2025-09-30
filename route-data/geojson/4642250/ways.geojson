@@ -450,6 +450,10 @@
             -6.9161743
           ],
           [
+            107.6080047,
+            -6.9161294
+          ],
+          [
             107.6079612,
             -6.9161053
           ]
@@ -793,6 +797,10 @@
           [
             107.6061274,
             -6.9154985
+          ],
+          [
+            107.6057907,
+            -6.9155809
           ],
           [
             107.6055816,
@@ -1189,14 +1197,6 @@
           [
             107.6106127,
             -6.9058802
-          ],
-          [
-            107.6106208,
-            -6.9065902
-          ],
-          [
-            107.6106201,
-            -6.9067936
           ]
         ]
       },
@@ -2249,6 +2249,42 @@
         "name": "Jalan Ir. H. Djuanda",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6106127,
+            -6.9058802
+          ],
+          [
+            107.6106208,
+            -6.9065902
+          ],
+          [
+            107.6106201,
+            -6.9067936
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434393609,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     }

@@ -4847,198 +4847,6 @@
           [
             107.6309877,
             -6.9937096
-          ],
-          [
-            107.6309524,
-            -6.9938605
-          ],
-          [
-            107.6309343,
-            -6.9939642
-          ],
-          [
-            107.6308714,
-            -6.9943251
-          ],
-          [
-            107.6308112,
-            -6.9946948
-          ],
-          [
-            107.6307767,
-            -6.9949068
-          ],
-          [
-            107.6307642,
-            -6.9949973
-          ],
-          [
-            107.6307513,
-            -6.9951191
-          ],
-          [
-            107.6307466,
-            -6.995583
-          ],
-          [
-            107.6307627,
-            -6.9957461
-          ],
-          [
-            107.6308707,
-            -6.9965927
-          ],
-          [
-            107.6309236,
-            -6.9968209
-          ],
-          [
-            107.6309996,
-            -6.9971489
-          ],
-          [
-            107.6310282,
-            -6.9973015
-          ],
-          [
-            107.6310792,
-            -6.997611
-          ],
-          [
-            107.6311094,
-            -6.9977754
-          ],
-          [
-            107.6311198,
-            -6.9978516
-          ],
-          [
-            107.6311368,
-            -6.9979105
-          ],
-          [
-            107.6312073,
-            -6.9980755
-          ],
-          [
-            107.631235,
-            -6.9981448
-          ],
-          [
-            107.6312562,
-            -6.998198
-          ],
-          [
-            107.6313266,
-            -6.9983338
-          ],
-          [
-            107.6314265,
-            -6.9985454
-          ],
-          [
-            107.6316025,
-            -6.9989284
-          ],
-          [
-            107.6316216,
-            -6.9989678
-          ],
-          [
-            107.6316458,
-            -6.9990175
-          ],
-          [
-            107.6316699,
-            -6.9990672
-          ],
-          [
-            107.6318386,
-            -6.9995318
-          ],
-          [
-            107.6318678,
-            -6.9996123
-          ],
-          [
-            107.6318943,
-            -6.9996808
-          ],
-          [
-            107.6319395,
-            -6.999798
-          ],
-          [
-            107.6319033,
-            -7.0000422
-          ],
-          [
-            107.6318805,
-            -7.0001847
-          ],
-          [
-            107.6318753,
-            -7.0002118
-          ],
-          [
-            107.6318593,
-            -7.0002949
-          ],
-          [
-            107.6316539,
-            -7.001362
-          ],
-          [
-            107.6316364,
-            -7.0014605
-          ],
-          [
-            107.6313964,
-            -7.0027517
-          ],
-          [
-            107.6313132,
-            -7.0032895
-          ],
-          [
-            107.6312931,
-            -7.0035251
-          ],
-          [
-            107.6312636,
-            -7.0039683
-          ],
-          [
-            107.6312603,
-            -7.0040341
-          ],
-          [
-            107.6312535,
-            -7.004168
-          ],
-          [
-            107.6312522,
-            -7.0043111
-          ],
-          [
-            107.6312529,
-            -7.0043683
-          ],
-          [
-            107.6312562,
-            -7.0044362
-          ],
-          [
-            107.6312529,
-            -7.0045307
-          ],
-          [
-            107.6312482,
-            -7.0046066
-          ],
-          [
-            107.6312405,
-            -7.0048462
           ]
         ]
       },
@@ -6347,6 +6155,880 @@
         "oneway": "yes",
         "ref": "374",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6309877,
+            -6.9937096
+          ],
+          [
+            107.6309524,
+            -6.9938605
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019089,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6309524,
+            -6.9938605
+          ],
+          [
+            107.6309343,
+            -6.9939642
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019090,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6309343,
+            -6.9939642
+          ],
+          [
+            107.6308714,
+            -6.9943251
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019091,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6308714,
+            -6.9943251
+          ],
+          [
+            107.6308112,
+            -6.9946948
+          ],
+          [
+            107.6307767,
+            -6.9949068
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019092,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6307767,
+            -6.9949068
+          ],
+          [
+            107.6307642,
+            -6.9949973
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019093,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6307642,
+            -6.9949973
+          ],
+          [
+            107.6307513,
+            -6.9951191
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019094,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6307513,
+            -6.9951191
+          ],
+          [
+            107.6307466,
+            -6.995583
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019095,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6307466,
+            -6.995583
+          ],
+          [
+            107.6307627,
+            -6.9957461
+          ],
+          [
+            107.6308707,
+            -6.9965927
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019096,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6308707,
+            -6.9965927
+          ],
+          [
+            107.6309236,
+            -6.9968209
+          ],
+          [
+            107.6309996,
+            -6.9971489
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019097,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6309996,
+            -6.9971489
+          ],
+          [
+            107.6310282,
+            -6.9973015
+          ],
+          [
+            107.6310792,
+            -6.997611
+          ],
+          [
+            107.6311094,
+            -6.9977754
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019098,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6311094,
+            -6.9977754
+          ],
+          [
+            107.6311198,
+            -6.9978516
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019099,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6311198,
+            -6.9978516
+          ],
+          [
+            107.6311368,
+            -6.9979105
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019100,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6311368,
+            -6.9979105
+          ],
+          [
+            107.6312073,
+            -6.9980755
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019101,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6312073,
+            -6.9980755
+          ],
+          [
+            107.631235,
+            -6.9981448
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019102,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.631235,
+            -6.9981448
+          ],
+          [
+            107.6312562,
+            -6.998198
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019103,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6312562,
+            -6.998198
+          ],
+          [
+            107.6313266,
+            -6.9983338
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019104,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6313266,
+            -6.9983338
+          ],
+          [
+            107.6314265,
+            -6.9985454
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019105,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6314265,
+            -6.9985454
+          ],
+          [
+            107.6316025,
+            -6.9989284
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019106,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6316025,
+            -6.9989284
+          ],
+          [
+            107.6316216,
+            -6.9989678
+          ],
+          [
+            107.6316458,
+            -6.9990175
+          ],
+          [
+            107.6316699,
+            -6.9990672
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019107,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6316699,
+            -6.9990672
+          ],
+          [
+            107.6318386,
+            -6.9995318
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019108,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6318386,
+            -6.9995318
+          ],
+          [
+            107.6318678,
+            -6.9996123
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019109,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6318678,
+            -6.9996123
+          ],
+          [
+            107.6318943,
+            -6.9996808
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019110,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6318943,
+            -6.9996808
+          ],
+          [
+            107.6319395,
+            -6.999798
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019111,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6319395,
+            -6.999798
+          ],
+          [
+            107.6319033,
+            -7.0000422
+          ],
+          [
+            107.6318805,
+            -7.0001847
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019112,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6318805,
+            -7.0001847
+          ],
+          [
+            107.6318753,
+            -7.0002118
+          ],
+          [
+            107.6318593,
+            -7.0002949
+          ],
+          [
+            107.6316539,
+            -7.001362
+          ],
+          [
+            107.6316364,
+            -7.0014605
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019113,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6316364,
+            -7.0014605
+          ],
+          [
+            107.6313964,
+            -7.0027517
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019114,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6313964,
+            -7.0027517
+          ],
+          [
+            107.6313132,
+            -7.0032895
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019115,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6313132,
+            -7.0032895
+          ],
+          [
+            107.6312931,
+            -7.0035251
+          ],
+          [
+            107.6312636,
+            -7.0039683
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019116,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6312636,
+            -7.0039683
+          ],
+          [
+            107.6312603,
+            -7.0040341
+          ],
+          [
+            107.6312535,
+            -7.004168
+          ],
+          [
+            107.6312522,
+            -7.0043111
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019117,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6312522,
+            -7.0043111
+          ],
+          [
+            107.6312529,
+            -7.0043683
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019118,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6312529,
+            -7.0043683
+          ],
+          [
+            107.6312562,
+            -7.0044362
+          ],
+          [
+            107.6312529,
+            -7.0045307
+          ],
+          [
+            107.6312482,
+            -7.0046066
+          ],
+          [
+            107.6312405,
+            -7.0048462
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019119,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "oneway": "no",
+        "ref": "365",
+        "source": "Yahoo hires"
       }
     }
   ]

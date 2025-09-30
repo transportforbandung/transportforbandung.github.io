@@ -805,6 +805,7 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -917,6 +918,10 @@
             -6.9118039
           ],
           [
+            107.6278298,
+            -6.9117777
+          ],
+          [
             107.6278029,
             -6.9117514
           ],
@@ -925,12 +930,12 @@
             -6.9116065
           ],
           [
-            107.6271643,
-            -6.9111479
+            107.6271705,
+            -6.9111433
           ],
           [
-            107.6270678,
-            -6.9110574
+            107.627074,
+            -6.9110498
           ]
         ]
       },
@@ -945,6 +950,7 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1017,6 +1023,7 @@
         "lit": "yes",
         "name": "Jalan Laswi",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "377",
         "sidewalk": "left",
         "surface": "asphalt"
@@ -1542,12 +1549,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6270678,
-            -6.9110574
+            107.627074,
+            -6.9110498
           ],
           [
-            107.6269724,
-            -6.9109607
+            107.6269793,
+            -6.9109538
           ],
           [
             107.6266345,
@@ -1593,6 +1600,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -2556,8 +2564,8 @@
             -6.9038599
           ],
           [
-            107.6638304,
-            -6.9038526
+            107.6637771,
+            -6.9038469
           ],
           [
             107.6629487,
@@ -2615,7 +2623,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
-        "oneway": "no"
+        "oneway": "no",
+        "width": "8"
       }
     },
     {
@@ -3061,8 +3070,8 @@
             -6.9053377
           ],
           [
-            107.6498514,
-            -6.9052307
+            107.6498165,
+            -6.9052493
           ],
           [
             107.6498843,
@@ -3071,6 +3080,10 @@
           [
             107.650154,
             -6.9050722
+          ],
+          [
+            107.650173,
+            -6.9050622
           ],
           [
             107.6504237,
@@ -3501,6 +3514,7 @@
         "lit": "yes",
         "name": "Jalan Laswi",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "377",
         "sidewalk": "left",
         "surface": "asphalt",
@@ -4937,6 +4951,7 @@
         "lanes": "3",
         "name": "Jalan Laswi",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "377",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_left|slight_right"
@@ -4963,6 +4978,7 @@
         "lanes": "2",
         "name": "Jalan Sukabumi",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt",
         "turn:lanes": "through|through"
       }

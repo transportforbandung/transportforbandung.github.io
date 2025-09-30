@@ -1377,58 +1377,6 @@
           [
             107.6232547,
             -7.0055572
-          ],
-          [
-            107.62327,
-            -7.0050452
-          ],
-          [
-            107.6232727,
-            -7.0048802
-          ],
-          [
-            107.6232745,
-            -7.004775
-          ],
-          [
-            107.6232846,
-            -7.0041627
-          ],
-          [
-            107.6232938,
-            -7.0036099
-          ],
-          [
-            107.6232953,
-            -7.0033454
-          ],
-          [
-            107.6232965,
-            -7.0031233
-          ],
-          [
-            107.6232969,
-            -7.0030565
-          ],
-          [
-            107.6232974,
-            -7.0029712
-          ],
-          [
-            107.6233002,
-            -7.0024658
-          ],
-          [
-            107.6233017,
-            -7.0021969
-          ],
-          [
-            107.6233023,
-            -7.0020848
-          ],
-          [
-            107.6233014,
-            -7.001516
           ]
         ]
       },
@@ -4376,6 +4324,220 @@
         "name": "Jalan Raya Bandung - Banjaran",
         "oneway": "yes",
         "ref": "161"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6232846,
+            -7.0041627
+          ],
+          [
+            107.6232938,
+            -7.0036099
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019080,
+        "avgspeed": "15",
+        "highway": "unclassified",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6232745,
+            -7.004775
+          ],
+          [
+            107.6232846,
+            -7.0041627
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019081,
+        "avgspeed": "15",
+        "highway": "unclassified",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6232727,
+            -7.0048802
+          ],
+          [
+            107.6232745,
+            -7.004775
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019082,
+        "avgspeed": "15",
+        "highway": "unclassified",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6232547,
+            -7.0055572
+          ],
+          [
+            107.62327,
+            -7.0050452
+          ],
+          [
+            107.6232727,
+            -7.0048802
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019083,
+        "avgspeed": "15",
+        "highway": "unclassified",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6232938,
+            -7.0036099
+          ],
+          [
+            107.6232953,
+            -7.0033454
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019084,
+        "avgspeed": "15",
+        "highway": "unclassified",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6232953,
+            -7.0033454
+          ],
+          [
+            107.6232965,
+            -7.0031233
+          ],
+          [
+            107.6232969,
+            -7.0030565
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019085,
+        "avgspeed": "15",
+        "highway": "unclassified",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6232969,
+            -7.0030565
+          ],
+          [
+            107.6232974,
+            -7.0029712
+          ],
+          [
+            107.6233002,
+            -7.0024658
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019086,
+        "avgspeed": "15",
+        "highway": "unclassified",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6233002,
+            -7.0024658
+          ],
+          [
+            107.6233017,
+            -7.0021969
+          ],
+          [
+            107.6233023,
+            -7.0020848
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019087,
+        "avgspeed": "15",
+        "highway": "unclassified",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6233023,
+            -7.0020848
+          ],
+          [
+            107.6233014,
+            -7.001516
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1429019088,
+        "avgspeed": "15",
+        "highway": "unclassified",
+        "source": "Yahoo hires"
       }
     }
   ]

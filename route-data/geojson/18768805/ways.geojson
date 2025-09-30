@@ -1982,22 +1982,6 @@
           [
             107.6408496,
             -6.9458361
-          ],
-          [
-            107.6407514,
-            -6.9458551
-          ],
-          [
-            107.6405106,
-            -6.9459017
-          ],
-          [
-            107.6404589,
-            -6.9459124
-          ],
-          [
-            107.6404414,
-            -6.9459162
           ]
         ]
       },
@@ -5111,6 +5095,46 @@
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through|right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6408496,
+            -6.9458361
+          ],
+          [
+            107.6407514,
+            -6.9458551
+          ],
+          [
+            107.6405106,
+            -6.9459017
+          ],
+          [
+            107.6404589,
+            -6.9459124
+          ],
+          [
+            107.6404414,
+            -6.9459162
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434381575,
+        "destination": "Simpang Buahbatu",
+        "destination:lanes": "Sekelimus;||",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Soekarno-Hatta",
+        "oneway": "yes",
+        "ref": "11",
+        "surface": "asphalt",
+        "turn:lanes": "left;through||"
       }
     }
   ]

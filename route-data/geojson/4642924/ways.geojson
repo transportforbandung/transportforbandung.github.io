@@ -1471,12 +1471,12 @@
             -6.9018387
           ],
           [
-            107.6521986,
-            -6.9018733
+            107.6521919,
+            -6.901873
           ],
           [
-            107.6522919,
-            -6.9018742
+            107.6522785,
+            -6.9018762
           ],
           [
             107.6525276,
@@ -1610,8 +1610,8 @@
             -6.9038599
           ],
           [
-            107.6638304,
-            -6.9038526
+            107.6637771,
+            -6.9038469
           ],
           [
             107.6629487,
@@ -1669,7 +1669,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
-        "oneway": "no"
+        "oneway": "no",
+        "width": "8"
       }
     },
     {
@@ -2224,7 +2225,7 @@
         "alt_name": "Jalan Suci",
         "avgspeed": "30",
         "highway": "trunk",
-        "lanes": "4",
+        "lanes": "2",
         "name": "Jalan PH. H. Mustofa",
         "oneway": "yes"
       }
@@ -2330,14 +2331,6 @@
           [
             107.6553398,
             -6.9020357
-          ],
-          [
-            107.6555577,
-            -6.9020453
-          ],
-          [
-            107.6557405,
-            -6.9020533
           ]
         ]
       },
@@ -3833,6 +3826,35 @@
         "access": "permissive",
         "highway": "service",
         "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6553398,
+            -6.9020357
+          ],
+          [
+            107.6555577,
+            -6.9020453
+          ],
+          [
+            107.6557405,
+            -6.9020533
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1430454716,
+        "alt_name": "Jalan Suci",
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan PH. H. Mustofa",
+        "oneway": "yes"
       }
     }
   ]

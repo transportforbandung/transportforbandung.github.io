@@ -800,6 +800,10 @@
             -6.9145008
           ],
           [
+            107.6139915,
+            -6.9144408
+          ],
+          [
             107.6139902,
             -6.9144289
           ],
@@ -830,6 +834,10 @@
           [
             107.6135325,
             -6.913618
+          ],
+          [
+            107.6135126,
+            -6.9135895
           ],
           [
             107.6134268,
@@ -2115,14 +2123,6 @@
           [
             107.6106127,
             -6.9058802
-          ],
-          [
-            107.6106208,
-            -6.9065902
-          ],
-          [
-            107.6106201,
-            -6.9067936
           ]
         ]
       },
@@ -2463,6 +2463,10 @@
           [
             107.6137272,
             -6.9162973
+          ],
+          [
+            107.6137087,
+            -6.9163993
           ],
           [
             107.6135654,
@@ -3326,6 +3330,42 @@
         "parking:left:orientation": "parallel",
         "parking:right": "no",
         "sidewalk": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6106127,
+            -6.9058802
+          ],
+          [
+            107.6106208,
+            -6.9065902
+          ],
+          [
+            107.6106201,
+            -6.9067936
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1434393609,
+        "alt_name": "Jalan Dago",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     }
