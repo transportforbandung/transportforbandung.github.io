@@ -33,10 +33,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "1",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "yes",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -75,10 +77,12 @@
         "avgspeed": "30",
         "cycleway": "lane",
         "cycleway:lane": "exclusive",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
         "oneway": "yes",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -353,8 +357,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -477,9 +483,11 @@
       },
       "properties": {
         "id": 174270181,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -822,6 +830,9 @@
         "highway": "secondary",
         "junction": "roundabout",
         "lanes": "2",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -1381,9 +1392,11 @@
         "avgspeed": "30",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1443,10 +1456,12 @@
         "id": 318222726,
         "avgspeed": "30",
         "bicycle": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1492,10 +1507,12 @@
         "avgspeed": "30",
         "cycleway": "lane",
         "cycleway:lane": "exclusive",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan L.L. RE. Martadinata",
         "oneway": "yes",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1634,9 +1651,11 @@
         "destination:backward": "Simpang Banda",
         "destination:forward": "Simpang Trunojoyo",
         "destination:lanes": "Merdeka;Dago;Aceh;Balaikota|Bahureksa;Sultan Agung;Sultan Tirtayasa;Maulana Yusup",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
@@ -1785,7 +1804,8 @@
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
         "surface": "asphalt",
-        "turn:lanes": "slight_left|slight_left|slight_right|slight_right"
+        "turn:lanes": "slight_left|slight_left|slight_right|slight_right",
+        "width": "8"
       }
     },
     {
@@ -3126,9 +3146,11 @@
         "id": 555330682,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "smoothness": "excellent",
         "surface": "asphalt"
@@ -3680,7 +3702,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -3881,7 +3905,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -4063,7 +4089,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari"
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380"
       }
     },
     {
@@ -4106,6 +4134,9 @@
         "highway": "secondary",
         "junction": "roundabout",
         "lanes": "2",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -4172,7 +4203,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari"
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380"
       }
     },
     {
@@ -4205,7 +4238,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -4977,7 +5012,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -5021,6 +5058,10 @@
           [
             107.6095485,
             -6.896363
+          ],
+          [
+            107.6095093,
+            -6.8962232
           ],
           [
             107.6094951,
@@ -5095,8 +5136,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -5275,9 +5318,11 @@
         "avgspeed": "30",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -5300,10 +5345,6 @@
             -6.9070599
           ],
           [
-            107.6114489,
-            -6.9070444
-          ],
-          [
             107.6113975,
             -6.9070401
           ]
@@ -5315,9 +5356,11 @@
         "avgspeed": "30",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -5347,9 +5390,11 @@
         "avgspeed": "30",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -5383,9 +5428,11 @@
         "avgspeed": "30",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }

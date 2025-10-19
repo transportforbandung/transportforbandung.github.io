@@ -140,15 +140,19 @@
           ],
           [
             107.6030171,
-            -6.9042139
+            -6.9042324
           ],
           [
-            107.603042,
-            -6.9041844
+            107.603063,
+            -6.9042006
           ],
           [
-            107.6030555,
-            -6.9041309
+            107.6030788,
+            -6.9041402
+          ],
+          [
+            107.603069,
+            -6.9040264
           ],
           [
             107.6030337,
@@ -242,6 +246,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -278,6 +283,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -519,26 +525,25 @@
             -6.8827404
           ],
           [
-            107.6013396,
-            -6.8827423
+            107.6013166,
+            -6.8827564
           ],
           [
-            107.6014504,
-            -6.8827476
+            107.601438,
+            -6.882774
           ]
         ]
       },
       "properties": {
         "id": 4698221,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "3",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
-        "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "ref": "2340",
+        "reg_ref": "22-10-2340"
       }
     },
     {
@@ -610,6 +615,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -921,7 +927,8 @@
         "id": 222733919,
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Ciumbuleuit"
+        "name": "Jalan Ciumbuleuit",
+        "ref": "2125"
       }
     },
     {
@@ -991,7 +998,8 @@
         "id": 222733920,
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Ciumbuleuit"
+        "name": "Jalan Ciumbuleuit",
+        "ref": "2125"
       }
     },
     {
@@ -1099,9 +1107,10 @@
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dokter Abdul Rivai",
-        "official_name": "Jalan Abdul Rivai",
+        "name": "Jalan Abdul Rivai",
         "oneway": "yes",
+        "ref": "11111",
+        "reg_ref": "22-10-11111",
         "short_name": "Jalan Dr. Abdul Rivai",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
@@ -1149,6 +1158,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -1318,16 +1328,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6014504,
-            -6.8827476
+            107.601438,
+            -6.882774
           ],
           [
-            107.6015675,
-            -6.8827616
+            107.6015569,
+            -6.8827985
           ],
           [
-            107.6017325,
-            -6.8827949
+            107.6017237,
+            -6.8828213
           ],
           [
             107.6021029,
@@ -1397,15 +1407,14 @@
       },
       "properties": {
         "id": 318102560,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
-        "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "ref": "2340",
+        "reg_ref": "22-10-2340"
       }
     },
     {
@@ -1555,6 +1564,7 @@
         "name": "Jalan Sukajadi",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -1662,7 +1672,7 @@
         "lanes": "2",
         "name": "Jalan Sukajadi",
         "oneway": "yes",
-        "ref": "249",
+        "ref": "249-12K",
         "surface": "asphalt"
       }
     },
@@ -1693,6 +1703,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -1824,9 +1835,10 @@
         "cycleway:right:lane": "advisory",
         "highway": "primary_link",
         "lanes": "1",
-        "name": "Jalan Dokter Abdul Rivai",
-        "official_name": "Jalan Abdul Rivai",
+        "name": "Jalan Abdul Rivai",
         "oneway": "yes",
+        "ref": "11111",
+        "reg_ref": "22-10-11111",
         "short_name": "Jalan Dr. Abdul Rivai",
         "surface": "asphalt",
         "width": "6"
@@ -1953,6 +1965,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -2033,6 +2046,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -2060,6 +2074,7 @@
         "name": "Jalan Sukajadi",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -2132,6 +2147,7 @@
         "lanes": "1",
         "name": "Jalan Ciumbuleuit",
         "oneway": "yes",
+        "ref": "2125",
         "surface": "asphalt"
       }
     },
@@ -2159,9 +2175,10 @@
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dokter Abdul Rivai",
-        "official_name": "Jalan Abdul Rivai",
+        "name": "Jalan Abdul Rivai",
         "oneway": "yes",
+        "ref": "11111",
+        "reg_ref": "22-10-11111",
         "short_name": "Jalan Dr. Abdul Rivai",
         "smoothness": "intermediate",
         "source": "S2City_POI_2022",
@@ -2296,7 +2313,9 @@
         "id": 567232043,
         "highway": "secondary",
         "junction": "roundabout",
-        "lanes": "1"
+        "lanes": "1",
+        "name": "Jalan Ciumbuleuit",
+        "ref": "2125"
       }
     },
     {
@@ -2397,6 +2416,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -2458,6 +2478,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -2651,7 +2672,8 @@
         "id": 1075268432,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Ciumbuleuit"
+        "name": "Jalan Ciumbuleuit",
+        "ref": "2125"
       }
     },
     {
@@ -2809,15 +2831,14 @@
       },
       "properties": {
         "id": 1218966651,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
-        "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "ref": "2340",
+        "reg_ref": "22-10-2340",
         "surface": "asphalt"
       }
     },
@@ -2846,6 +2867,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -3056,6 +3078,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -3082,6 +3105,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -3108,6 +3132,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -3146,6 +3171,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -3244,7 +3270,8 @@
         "id": 1387129924,
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Ciumbuleuit"
+        "name": "Jalan Ciumbuleuit",
+        "ref": "2125"
       }
     },
     {

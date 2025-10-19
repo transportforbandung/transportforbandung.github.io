@@ -19,6 +19,10 @@
             -6.899475
           ],
           [
+            107.6099669,
+            -6.899504
+          ],
+          [
             107.6099959,
             -6.899509
           ],
@@ -69,10 +73,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sulanjana",
         "oneway": "no",
+        "ref": "2354",
+        "reg_ref": "22-10-2354",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -107,12 +113,14 @@
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -381,8 +389,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -410,7 +420,9 @@
         "avgspeed": "30",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "truck": "no"
       }
     },
@@ -528,25 +540,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6211322,
-            -6.9044277
+            107.6210834,
+            -6.9045959
           ],
           [
-            107.621107,
-            -6.9044026
+            107.6210484,
+            -6.904432
           ],
           [
-            107.6210809,
-            -6.9043766
+            107.6210131,
+            -6.90433
           ]
         ]
       },
       "properties": {
         "id": 193191482,
+        "alt_name": "Jalan Depan LAN",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cisanggarung",
         "oneway": "yes",
+        "ref": "384",
+        "reg_ref": "22-00-384K",
         "surface": "asphalt"
       }
     },
@@ -801,11 +816,13 @@
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
         "parking:both": "no",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -831,12 +848,14 @@
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -946,11 +965,13 @@
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
         "parking:both": "no",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1597,10 +1618,12 @@
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
         "parking:both": "no",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -2006,28 +2029,28 @@
             -6.9049837
           ],
           [
-            107.6211772,
-            -6.9049194
+            107.621166,
+            -6.9049214
           ],
           [
-            107.6211355,
-            -6.9048267
+            107.6211203,
+            -6.9048539
           ],
           [
-            107.6211097,
+            107.6211018,
+            -6.9047922
+          ],
+          [
+            107.6210894,
             -6.9047285
           ],
           [
-            107.6211004,
-            -6.9046275
+            107.621084,
+            -6.9046493
           ],
           [
-            107.621108,
-            -6.9045263
-          ],
-          [
-            107.6211322,
-            -6.9044277
+            107.6210834,
+            -6.9045959
           ]
         ]
       },
@@ -2062,9 +2085,11 @@
         "id": 330960872,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate"
       }
     },
@@ -2315,9 +2340,11 @@
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
@@ -2365,7 +2392,8 @@
         "name": "Jalan H. Ibrahim Adjie",
         "note": "Cicadas",
         "old_name": "Jalan Kiaracondong",
-        "oneway": "yes"
+        "oneway": "yes",
+        "width": "8"
       }
     },
     {
@@ -3274,7 +3302,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -3355,7 +3385,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -3622,6 +3654,7 @@
         "name": "Jalan Cilamaya",
         "oneway": "yes",
         "ref": "382",
+        "reg_ref": "22-00-382K",
         "surface": "asphalt"
       }
     },
@@ -3886,7 +3919,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari"
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380"
       }
     },
     {
@@ -3911,6 +3946,7 @@
         "name": "Jalan Cilamaya",
         "oneway": "yes",
         "ref": "382",
+        "reg_ref": "22-00-382K",
         "surface": "asphalt"
       }
     },
@@ -3936,6 +3972,7 @@
         "name": "Jalan Cilamaya",
         "oneway": "yes",
         "ref": "382",
+        "reg_ref": "22-00-382K",
         "surface": "asphalt"
       }
     },
@@ -3961,6 +3998,7 @@
         "name": "Jalan Cilamaya",
         "oneway": "yes",
         "ref": "382",
+        "reg_ref": "22-00-382K",
         "surface": "asphalt"
       }
     },
@@ -3998,6 +4036,7 @@
         "name": "Jalan Cilamaya",
         "oneway": "yes",
         "ref": "382",
+        "reg_ref": "22-00-382K",
         "surface": "asphalt"
       }
     },
@@ -4006,6 +4045,46 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
+          [
+            107.620193,
+            -6.9034615
+          ],
+          [
+            107.619986,
+            -6.9036148
+          ],
+          [
+            107.6198855,
+            -6.9036737
+          ],
+          [
+            107.6197851,
+            -6.9037114
+          ],
+          [
+            107.6197247,
+            -6.9037254
+          ],
+          [
+            107.6196201,
+            -6.9037367
+          ],
+          [
+            107.619374,
+            -6.9037412
+          ],
+          [
+            107.6192567,
+            -6.9037433
+          ],
+          [
+            107.6192178,
+            -6.9037445
+          ],
+          [
+            107.6191238,
+            -6.9037474
+          ],
           [
             107.6189201,
             -6.9037537
@@ -4020,9 +4099,11 @@
         "id": 1112046730,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Cilamaya",
+        "name": "Jalan Hayam Wuruk",
+        "old_name": "Jalan Cimandiri",
         "oneway": "yes",
-        "ref": "382",
+        "ref": "383",
+        "reg_ref": "22-00-383K",
         "surface": "asphalt"
       }
     },
@@ -4045,9 +4126,11 @@
         "id": 1112046732,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Cilamaya",
+        "name": "Jalan Hayam Wuruk",
+        "old_name": "Jalan Cimandiri",
         "oneway": "yes",
-        "ref": "382",
+        "ref": "383",
+        "reg_ref": "22-00-383K",
         "surface": "asphalt"
       }
     },
@@ -4061,41 +4144,20 @@
             -6.9037939
           ],
           [
-            107.6177761,
-            -6.9037859
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1112046733,
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Cilamaya",
-        "oneway": "yes",
-        "ref": "382",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6177761,
-            -6.9037859
+            107.6177807,
+            -6.9037981
           ],
           [
-            107.6176876,
-            -6.9037753
+            107.6176891,
+            -6.9037875
           ],
           [
-            107.6176386,
-            -6.9037626
+            107.6176401,
+            -6.9037687
           ],
           [
-            107.6175722,
-            -6.9037327
+            107.617566,
+            -6.9037358
           ],
           [
             107.6174743,
@@ -4108,12 +4170,14 @@
         ]
       },
       "properties": {
-        "id": 1112046734,
+        "id": 1112046733,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Cilamaya",
+        "name": "Jalan Hayam Wuruk",
+        "old_name": "Jalan Cimandiri",
         "oneway": "yes",
-        "ref": "382",
+        "ref": "383",
+        "reg_ref": "22-00-383K",
         "surface": "asphalt"
       }
     },
@@ -4161,6 +4225,9 @@
         "highway": "secondary",
         "junction": "roundabout",
         "lanes": "2",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -4204,6 +4271,9 @@
         "highway": "secondary",
         "junction": "roundabout",
         "lanes": "2",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -4275,7 +4345,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari"
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380"
       }
     },
     {
@@ -4308,7 +4380,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -4824,8 +4898,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "yes",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -5126,7 +5202,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -5170,6 +5248,10 @@
           [
             107.6095485,
             -6.896363
+          ],
+          [
+            107.6095093,
+            -6.8962232
           ],
           [
             107.6094951,
@@ -5244,8 +5326,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -5368,8 +5452,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6210809,
-            -6.9043766
+            107.6210131,
+            -6.90433
           ],
           [
             107.6209757,
@@ -5379,10 +5463,13 @@
       },
       "properties": {
         "id": 1384127079,
+        "alt_name": "Jalan Depan LAN",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cisanggarung",
         "oneway": "yes",
+        "ref": "384",
+        "reg_ref": "22-00-384K",
         "surface": "asphalt"
       }
     },
@@ -5403,10 +5490,13 @@
       },
       "properties": {
         "id": 1384127080,
+        "alt_name": "Jalan Depan LAN",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cisanggarung",
         "oneway": "yes",
+        "ref": "384",
+        "reg_ref": "22-00-384K",
         "surface": "asphalt"
       }
     },
@@ -5427,10 +5517,13 @@
       },
       "properties": {
         "id": 1384127081,
+        "alt_name": "Jalan Depan LAN",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cisanggarung",
         "oneway": "yes",
+        "ref": "384",
+        "reg_ref": "22-00-384K",
         "surface": "asphalt"
       }
     },
@@ -5493,130 +5586,6 @@
         "ref": "381",
         "sidewalk:left": "yes",
         "sidewalk:right": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.620193,
-            -6.9034615
-          ],
-          [
-            107.6199675,
-            -6.9036102
-          ],
-          [
-            107.6198763,
-            -6.9036661
-          ],
-          [
-            107.6197851,
-            -6.9037114
-          ],
-          [
-            107.6197247,
-            -6.9037254
-          ],
-          [
-            107.6196201,
-            -6.9037367
-          ],
-          [
-            107.619374,
-            -6.9037412
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1384127086,
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Cilamaya",
-        "oneway": "yes",
-        "ref": "382",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.619374,
-            -6.9037412
-          ],
-          [
-            107.6192567,
-            -6.9037433
-          ],
-          [
-            107.6192178,
-            -6.9037445
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1384127087,
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Cilamaya",
-        "oneway": "yes",
-        "ref": "382",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6192178,
-            -6.9037445
-          ],
-          [
-            107.6191238,
-            -6.9037474
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1384127088,
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Cilamaya",
-        "oneway": "yes",
-        "ref": "382",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6191238,
-            -6.9037474
-          ],
-          [
-            107.6189201,
-            -6.9037537
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1384127089,
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Cilamaya",
-        "oneway": "yes",
-        "ref": "382",
         "surface": "asphalt"
       }
     }

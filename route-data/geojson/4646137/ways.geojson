@@ -49,11 +49,13 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dokter Radjiman Wedyodiningrat",
-        "official_name": "Jalan Dokter Radjiman",
+        "name": "Jalan dr. Rajiman",
+        "official_name": "Jalan Dokter Rajiman",
         "oneway": "no",
+        "ref": "1256",
+        "reg_ref": "22-10-1256",
         "short_name": "Jalan dr. Radjiman",
         "surface": "asphalt",
         "wikipedia": "id:Radjiman Wedyodiningrat"
@@ -69,8 +71,8 @@
             -6.9038851
           ],
           [
-            107.6017533,
-            -6.9038399
+            107.6017487,
+            -6.9038567
           ]
         ]
       },
@@ -79,11 +81,13 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Doktor Rajiman",
+        "name": "Jalan dr. Rajiman",
+        "official_name": "Jalan Dokter Rajiman",
         "oneway": "yes",
-        "short_name": "Jalan dr. Radjiman",
+        "ref": "1256",
+        "reg_ref": "22-10-1256",
         "surface": "asphalt"
       }
     },
@@ -810,8 +814,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -839,7 +845,9 @@
         "avgspeed": "30",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "truck": "no"
       }
     },
@@ -1006,9 +1014,11 @@
       },
       "properties": {
         "id": 174270181,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -1136,10 +1146,12 @@
       },
       "properties": {
         "id": 235830734,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "1",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "yes",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -1217,9 +1229,10 @@
         "avgspeed": "25",
         "highway": "primary",
         "lanes": "1",
-        "name": "Jalan Dokter Abdul Rivai",
-        "official_name": "Jalan Abdul Rivai",
+        "name": "Jalan Abdul Rivai",
         "oneway": "yes",
+        "ref": "11111",
+        "reg_ref": "22-10-11111",
         "short_name": "Jalan Dr. Abdul Rivai",
         "surface": "asphalt",
         "width": "6"
@@ -1383,6 +1396,8 @@
         "lanes": "2",
         "name": "Jalan Abdul Rivai",
         "oneway": "yes",
+        "ref": "11111",
+        "reg_ref": "22-10-11111",
         "surface": "asphalt"
       }
     },
@@ -2103,10 +2118,12 @@
         "id": 318222726,
         "avgspeed": "30",
         "bicycle": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -2402,9 +2419,10 @@
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dokter Abdul Rivai",
-        "official_name": "Jalan Abdul Rivai",
+        "name": "Jalan Abdul Rivai",
         "oneway": "yes",
+        "ref": "11111",
+        "reg_ref": "22-10-11111",
         "short_name": "Jalan Dr. Abdul Rivai",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
@@ -2505,10 +2523,12 @@
       },
       "properties": {
         "id": 318729561,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "1",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "yes",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -2879,6 +2899,32 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6248228,
+            -6.8911896
+          ],
+          [
+            107.6248282,
+            -6.8915188
+          ]
+        ]
+      },
+      "properties": {
+        "id": 337214659,
+        "highway": "residential",
+        "motorcar": "destination",
+        "motorcycle": "yes",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6026381,
             -6.9042582
           ],
@@ -2897,9 +2943,10 @@
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dokter Abdul Rivai",
-        "official_name": "Jalan Abdul Rivai",
+        "name": "Jalan Abdul Rivai",
         "oneway": "yes",
+        "ref": "11111",
+        "reg_ref": "22-10-11111",
         "short_name": "Jalan Dr. Abdul Rivai",
         "smoothness": "intermediate",
         "source": "S2City_POI_2022",
@@ -3135,8 +3182,8 @@
             -6.9070897
           ],
           [
-            107.5911055,
-            -6.9071009
+            107.5911224,
+            -6.9070825
           ]
         ]
       },
@@ -3264,7 +3311,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -3693,7 +3742,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -3750,10 +3801,12 @@
       },
       "properties": {
         "id": 842282843,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "1",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "yes",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -3767,16 +3820,16 @@
             -6.9070158
           ],
           [
-            107.5909003,
-            -6.9070554
+            107.5909034,
+            -6.907037
           ],
           [
-            107.5909325,
-            -6.9070608
+            107.5909941,
+            -6.907047
           ],
           [
-            107.5911055,
-            -6.9071009
+            107.5911224,
+            -6.9070825
           ]
         ]
       },
@@ -4083,7 +4136,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari"
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380"
       }
     },
     {
@@ -4230,6 +4285,9 @@
         "highway": "secondary",
         "junction": "roundabout",
         "lanes": "2",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -4271,7 +4329,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari"
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380"
       }
     },
     {
@@ -4304,7 +4364,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -4482,11 +4544,13 @@
         "avgspeed": "20",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "primary",
         "junction": "roundabout",
         "lanes": "1",
-        "name": "Bunderan Radjiman",
+        "name": "Bundaran Rajiman",
         "oneway": "yes",
+        "ref": "1256",
+        "reg_ref": "22-10-1256",
         "surface": "asphalt"
       }
     },
@@ -4512,8 +4576,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "yes",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -4593,11 +4659,13 @@
         "avgspeed": "20",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "primary",
         "junction": "roundabout",
         "lanes": "1",
-        "name": "Bunderan Radjiman",
+        "name": "Bundaran Rajiman",
         "oneway": "yes",
+        "ref": "1256",
+        "reg_ref": "22-10-1256",
         "surface": "asphalt"
       }
     },
@@ -4813,11 +4881,13 @@
         "avgspeed": "20",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "primary",
         "junction": "roundabout",
         "lanes": "1",
-        "name": "Bunderan Radjiman",
+        "name": "Bundaran Rajiman",
         "oneway": "yes",
+        "ref": "1256",
+        "reg_ref": "22-10-1256",
         "surface": "asphalt"
       }
     },
@@ -4861,11 +4931,13 @@
         "avgspeed": "20",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "primary",
         "junction": "roundabout",
         "lanes": "1",
-        "name": "Bunderan Radjiman",
+        "name": "Bundaran Rajiman",
         "oneway": "yes",
+        "ref": "1256",
+        "reg_ref": "22-10-1256",
         "surface": "asphalt"
       }
     },
@@ -4994,11 +5066,13 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dokter Radjiman Wedyodiningrat",
-        "official_name": "Jalan Dokter Radjiman",
+        "name": "Jalan dr. Rajiman",
+        "official_name": "Jalan Dokter Rajiman",
         "oneway": "yes",
+        "ref": "1256",
+        "reg_ref": "22-10-1256",
         "short_name": "Jalan dr. Radjiman",
         "surface": "asphalt"
       }
@@ -5216,7 +5290,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -5260,6 +5336,10 @@
           [
             107.6095485,
             -6.896363
+          ],
+          [
+            107.6095093,
+            -6.8962232
           ],
           [
             107.6094951,
@@ -5334,8 +5414,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -5497,16 +5579,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6017533,
-            -6.9038399
+            107.6017487,
+            -6.9038567
           ],
           [
             107.6019828,
             -6.9038744
           ],
           [
-            107.6021004,
-            -6.9039046
+            107.6020792,
+            -6.9038905
           ],
           [
             107.6021603,
@@ -5555,11 +5637,13 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Doktor Rajiman",
+        "name": "Jalan dr. Rajiman",
+        "official_name": "Jalan Dokter Rajiman",
         "oneway": "yes",
-        "short_name": "Jalan dr. Radjiman",
+        "ref": "1256",
+        "reg_ref": "22-10-1256",
         "surface": "asphalt"
       }
     },
@@ -6200,6 +6284,95 @@
         "name": "Jalan Abdul Rahman Saleh",
         "oneway": "no",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6248282,
+            -6.8915188
+          ],
+          [
+            107.624968,
+            -6.89152
+          ],
+          [
+            107.6249949,
+            -6.8915108
+          ],
+          [
+            107.6249984,
+            -6.8914853
+          ],
+          [
+            107.6249966,
+            -6.8912645
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1443177300,
+        "highway": "service",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.624996,
+            -6.8911849
+          ],
+          [
+            107.6252674,
+            -6.8911775
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1443178220,
+        "alt_name": "Jalan Terminal Sadangserang",
+        "highway": "residential",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Intan Raya",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6248228,
+            -6.8911896
+          ],
+          [
+            107.624996,
+            -6.8911849
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1443178221,
+        "alt_name": "Jalan Terminal Sadangserang",
+        "highway": "residential",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Intan Raya",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "4"
       }
     }
   ]

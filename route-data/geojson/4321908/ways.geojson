@@ -433,6 +433,8 @@
       },
       "properties": {
         "id": 125813777,
+        "destination:backward": "Babakan Radio;Cimindi;Cibabat;Cimahi",
+        "destination:forward": "Mentor;Husein Sastranegara;Surya Sumantri;Djundjunan",
         "highway": "secondary",
         "lanes": "2",
         "maxspeed": "40",
@@ -517,6 +519,10 @@
           [
             107.5721625,
             -6.8905452
+          ],
+          [
+            107.5721993,
+            -6.8907689
           ],
           [
             107.572217,
@@ -1405,6 +1411,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -2242,6 +2249,8 @@
       },
       "properties": {
         "id": 1112372204,
+        "destination:backward": "Babakan Radio;Cimindi;Cibabat;Cimahi",
+        "destination:forward": "Mentor;Husein Sastranegara;Surya Sumantri;Djundjunan",
         "highway": "secondary",
         "lanes": "2",
         "maxspeed": "40",

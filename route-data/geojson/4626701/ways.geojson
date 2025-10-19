@@ -338,51 +338,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7537453,
-            -6.9404081
-          ],
-          [
-            107.7536983,
-            -6.94024
-          ],
-          [
-            107.7536254,
-            -6.9400197
-          ],
-          [
-            107.7535816,
-            -6.9399509
-          ],
-          [
-            107.7535341,
-            -6.9398922
-          ],
-          [
-            107.7534452,
-            -6.9398116
-          ]
-        ]
-      },
-      "properties": {
-        "id": 255641092,
-        "cycleway:both": "no",
-        "foot": "yes",
-        "highway": "trunk",
-        "lanes": "3",
-        "lit": "yes",
-        "motorcycle": "yes",
-        "oneway": "yes",
-        "ref": "11",
-        "sidewalk": "no",
-        "surface": "concrete"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.8580027,
             -7.001658
           ],
@@ -709,8 +664,9 @@
       "properties": {
         "id": 330121613,
         "highway": "primary",
-        "name": "Majalaya - Cicalengka",
-        "oneway": "no"
+        "name": "Jalan Raya Majalaya - Cicalengka",
+        "oneway": "no",
+        "ref": "402"
       }
     },
     {
@@ -1245,7 +1201,9 @@
       "properties": {
         "id": 386052274,
         "highway": "primary",
-        "oneway": "yes"
+        "name": "Jalan Raya Majalaya - Cicalengka",
+        "oneway": "yes",
+        "ref": "402"
       }
     },
     {
@@ -1701,8 +1659,9 @@
         "bridge": "yes",
         "highway": "primary",
         "layer": "1",
-        "name": "Majalaya - Cicalengka",
-        "oneway": "no"
+        "name": "Jalan Raya Majalaya - Cicalengka",
+        "oneway": "no",
+        "ref": "402"
       }
     },
     {
@@ -1731,8 +1690,9 @@
       "properties": {
         "id": 551818921,
         "highway": "primary",
-        "name": "Majalaya - Cicalengka",
-        "oneway": "no"
+        "name": "Jalan Raya Majalaya - Cicalengka",
+        "oneway": "no",
+        "ref": "402"
       }
     },
     {
@@ -1830,12 +1790,16 @@
             -6.9478402
           ],
           [
-            107.7596439,
-            -6.94767
+            107.7596554,
+            -6.9476639
           ],
           [
-            107.7592759,
-            -6.9473471
+            107.7595832,
+            -6.9475989
+          ],
+          [
+            107.7592865,
+            -6.9473383
           ],
           [
             107.7589074,
@@ -1973,8 +1937,9 @@
       "properties": {
         "id": 655852434,
         "highway": "primary",
-        "name": "Majalaya - Cicalengka",
-        "oneway": "no"
+        "name": "Jalan Raya Majalaya - Cicalengka",
+        "oneway": "no",
+        "ref": "402"
       }
     },
     {
@@ -2195,8 +2160,9 @@
       "properties": {
         "id": 655852436,
         "highway": "primary",
-        "name": "Majalaya - Cicalengka",
-        "oneway": "no"
+        "name": "Jalan Raya Majalaya - Cicalengka",
+        "oneway": "no",
+        "ref": "402"
       }
     },
     {
@@ -2471,8 +2437,9 @@
         "bridge": "yes",
         "highway": "primary",
         "layer": "1",
-        "name": "Majalaya - Cicalengka",
-        "oneway": "no"
+        "name": "Jalan Raya Majalaya - Cicalengka",
+        "oneway": "no",
+        "ref": "402"
       }
     },
     {

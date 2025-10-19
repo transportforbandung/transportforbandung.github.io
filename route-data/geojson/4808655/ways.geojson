@@ -761,8 +761,10 @@
       "properties": {
         "id": 39946196,
         "avgspeed": "25",
-        "highway": "primary",
-        "name": "Jalan Raya Majalaya - Rancekek"
+        "highway": "secondary",
+        "name": "Jalan Raya Majalaya - Rancekek",
+        "ref": "498",
+        "reg_ref": "22-09-498"
       }
     },
     {
@@ -2050,7 +2052,8 @@
         "oneway": "yes",
         "ref": "11",
         "sidewalk": "both",
-        "source": "Bing"
+        "source": "Bing",
+        "surface": "concrete"
       }
     },
     {
@@ -2253,10 +2256,12 @@
       },
       "properties": {
         "id": 554784835,
+        "destination": "Kawasan Industri Mekar Mulya",
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -2527,8 +2532,10 @@
       "properties": {
         "id": 1033828709,
         "avgspeed": "25",
-        "highway": "primary",
-        "name": "Jalan Raya Majalaya - Rancekek"
+        "highway": "secondary",
+        "name": "Jalan Raya Majalaya - Rancekek",
+        "ref": "498",
+        "reg_ref": "22-09-498"
       }
     },
     {
@@ -2722,32 +2729,28 @@
             -6.9322015
           ],
           [
-            107.7740267,
-            -6.9321698
+            107.7740307,
+            -6.9321738
           ],
           [
-            107.7740604,
-            -6.9321535
+            107.7740901,
+            -6.9321472
           ],
           [
-            107.7740841,
-            -6.9321439
+            107.77421,
+            -6.9321017
           ],
           [
-            107.7742053,
-            -6.932095
+            107.7743127,
+            -6.9320573
           ],
           [
-            107.7743045,
-            -6.932055
+            107.7744245,
+            -6.9320121
           ],
           [
-            107.7744198,
-            -6.9320098
-          ],
-          [
-            107.7745137,
-            -6.9319725
+            107.7745207,
+            -6.9319748
           ],
           [
             107.7746782,
@@ -2784,7 +2787,8 @@
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
-        "sidewalk": "both",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
         "source": "Bing",
         "surface": "concrete"
       }
@@ -2815,8 +2819,8 @@
             -6.9325583
           ],
           [
-            107.7732673,
-            -6.9324551
+            107.7732969,
+            -6.9324415
           ],
           [
             107.7734465,
@@ -2845,7 +2849,8 @@
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
-        "sidewalk": "right",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
         "source": "Bing",
         "surface": "concrete"
       }
@@ -2992,6 +2997,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -3015,24 +3021,17 @@
           [
             107.7103429,
             -6.9355981
-          ],
-          [
-            107.7105349,
-            -6.935584
-          ],
-          [
-            107.7108932,
-            -6.935568
           ]
         ]
       },
       "properties": {
         "id": 1196988807,
-        "destination": "Bunderan Cibiru",
+        "destination": "Tritan Point",
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "turn:lanes": "through|through;slight_right"
       }
@@ -3128,6 +3127,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "turn:lanes": "slight_left|through;slight_right"
       }
@@ -3181,10 +3181,12 @@
       },
       "properties": {
         "id": 1196988815,
+        "destination": "Bunderan Cibiru",
         "destination:lanes": "Ujungberung;Cicaheum|Cinunuk;Cileunyi|Cinunuk;Cileunyi",
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left|slight_left;slight_right|slight_right"
@@ -3449,6 +3451,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "turn:lanes": "through|through;slight_right"
       }
@@ -3526,12 +3529,13 @@
       },
       "properties": {
         "id": 1288954212,
-        "destination": "Bunderan Cibiru",
+        "destination": "Gempol;Pangaritan",
         "destination:lanes": "Gempol;Pangaritan|Tritan Point;Pertamina",
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "turn:lanes": "left|through"
       }
@@ -3626,6 +3630,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -3655,6 +3660,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -4191,6 +4197,10 @@
             -6.9340581
           ],
           [
+            107.7688726,
+            -6.9340481
+          ],
+          [
             107.7696761,
             -6.9338458
           ],
@@ -4290,6 +4300,37 @@
         "lanes": "4",
         "name": "Jalan Raya Cibiru",
         "ref": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.7103429,
+            -6.9355981
+          ],
+          [
+            107.7105349,
+            -6.935584
+          ],
+          [
+            107.7108932,
+            -6.935568
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1442289395,
+        "destination": "Bunderan Cibiru",
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "designated",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "oneway": "yes",
+        "turn:lanes": "through|through;slight_right"
       }
     }
   ]

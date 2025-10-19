@@ -34,10 +34,12 @@
         "avgspeed": "30",
         "cycleway": "lane",
         "cycleway:lane": "exclusive",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
         "oneway": "yes",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -155,11 +157,13 @@
       "properties": {
         "id": 4279723,
         "avgspeed": "20",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Taman Pramuka",
         "name:en": "Scouts Park Boulevard",
         "oneway": "yes",
+        "ref": "2624",
+        "reg_ref": "22-10-2624",
         "surface": "asphalt"
       }
     },
@@ -620,15 +624,14 @@
       },
       "properties": {
         "id": 153284261,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
-        "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "ref": "2340",
+        "reg_ref": "22-10-2340",
         "surface": "asphalt"
       }
     },
@@ -686,12 +689,14 @@
       "properties": {
         "id": 174303684,
         "cycleway:both": "no",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
         "name": "Jalan Cendana",
         "name:en": "Cendana Avenue",
+        "ref": "2072",
+        "reg_ref": "22-10-2072",
         "surface": "asphalt",
         "turn:lanes:backward": "left;through;right"
       }
@@ -729,11 +734,13 @@
       },
       "properties": {
         "id": 174303689,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Cendana",
         "name:en": "Cendana Avenue",
         "oneway": "yes",
+        "ref": "2072",
+        "reg_ref": "22-10-2072",
         "surface": "asphalt"
       }
     },
@@ -920,14 +927,13 @@
       },
       "properties": {
         "id": 223676585,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "surface": "asphalt"
       }
     },
@@ -986,9 +992,12 @@
       },
       "properties": {
         "id": 244792405,
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
+        "name:en": "Supratmans Park Boulevard",
+        "ref": "2228",
+        "reg_ref": "22-10-2228",
         "surface": "asphalt"
       }
     },
@@ -1210,9 +1219,11 @@
         "avgspeed": "30",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1366,14 +1377,13 @@
       },
       "properties": {
         "id": 318054785,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -1458,10 +1468,12 @@
         "avgspeed": "30",
         "cycleway": "lane",
         "cycleway:lane": "exclusive",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan L.L. RE. Martadinata",
         "oneway": "yes",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1600,9 +1612,11 @@
         "destination:backward": "Simpang Banda",
         "destination:forward": "Simpang Trunojoyo",
         "destination:lanes": "Merdeka;Dago;Aceh;Balaikota|Bahureksa;Sultan Agung;Sultan Tirtayasa;Maulana Yusup",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
@@ -1751,7 +1765,8 @@
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
         "surface": "asphalt",
-        "turn:lanes": "slight_left|slight_left|slight_right|slight_right"
+        "turn:lanes": "slight_left|slight_left|slight_right|slight_right",
+        "width": "8"
       }
     },
     {
@@ -2009,9 +2024,11 @@
         "cycleway": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
@@ -2223,6 +2240,7 @@
         "layer": "1",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -2342,6 +2360,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2654,9 +2673,11 @@
         "id": 330960872,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate"
       }
     },
@@ -2937,9 +2958,11 @@
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
@@ -2970,6 +2993,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|through"
@@ -3014,7 +3038,8 @@
         "name": "Jalan H. Ibrahim Adjie",
         "note": "Cicadas",
         "old_name": "Jalan Kiaracondong",
-        "oneway": "yes"
+        "oneway": "yes",
+        "width": "8"
       }
     },
     {
@@ -3348,6 +3373,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -3368,8 +3394,8 @@
             -6.9387856
           ],
           [
-            107.6696172,
-            -6.9387926
+            107.6695917,
+            -6.9387913
           ]
         ]
       },
@@ -3381,6 +3407,7 @@
         "layer": "1",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -3429,6 +3456,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left;through|through"
@@ -3453,9 +3481,11 @@
         "id": 555330682,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "smoothness": "excellent",
         "surface": "asphalt"
@@ -3524,7 +3554,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.669612,
+            107.6696214,
             -6.938614
           ],
           [
@@ -3540,6 +3570,7 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11"
       }
@@ -3598,6 +3629,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -3654,6 +3686,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3666,6 +3699,10 @@
           [
             107.5940961,
             -6.8651081
+          ],
+          [
+            107.5940723,
+            -6.8653071
           ],
           [
             107.5940489,
@@ -3779,15 +3816,14 @@
       },
       "properties": {
         "id": 708711416,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "40",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "surface": "asphalt"
       }
     },
@@ -3933,11 +3969,13 @@
       },
       "properties": {
         "id": 778206502,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cendana",
         "name:en": "Cendana Avenue",
         "oneway": "yes",
+        "ref": "2072",
+        "reg_ref": "22-10-2072",
         "surface": "asphalt",
         "turn:lanes": "left;merge_to_right|through;right"
       }
@@ -4157,6 +4195,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|through;slight_right"
@@ -4248,14 +4287,13 @@
       },
       "properties": {
         "id": 1030698156,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -4313,12 +4351,13 @@
       },
       "properties": {
         "id": 1072146130,
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
         "oneway": "yes",
-        "ref": "380",
+        "ref": "2228",
+        "reg_ref": "22-10-2228",
         "surface": "asphalt"
       }
     },
@@ -4483,11 +4522,13 @@
       },
       "properties": {
         "id": 1111809091,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Cendana",
         "name:en": "Cendana Avenue",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "2072",
+        "reg_ref": "22-10-2072"
       }
     },
     {
@@ -4515,14 +4556,13 @@
       },
       "properties": {
         "id": 1112114707,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "surface": "asphalt"
       }
     },
@@ -4728,6 +4768,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|through;slight_right"
@@ -4766,6 +4807,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|through;slight_right"
@@ -4777,8 +4819,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6696172,
-            -6.9387926
+            107.6695917,
+            -6.9387913
           ],
           [
             107.6695635,
@@ -4808,6 +4850,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left;through|through"
@@ -4854,7 +4897,7 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left;through|through"
@@ -4880,7 +4923,7 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "reverse;through|none"
@@ -4907,6 +4950,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -4958,15 +5002,14 @@
       },
       "properties": {
         "id": 1218966651,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
-        "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "ref": "2340",
+        "reg_ref": "22-10-2340",
         "surface": "asphalt"
       }
     },
@@ -4984,7 +5027,7 @@
             -6.9386366
           ],
           [
-            107.669612,
+            107.6696214,
             -6.938614
           ]
         ]
@@ -4994,6 +5037,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -5024,6 +5068,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -5135,14 +5180,13 @@
       },
       "properties": {
         "id": 1223297639,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "surface": "asphalt"
       }
     },
@@ -5237,6 +5281,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|through;slight_right"
@@ -5280,6 +5325,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|through;slight_right"
@@ -5342,6 +5388,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -5472,14 +5519,13 @@
       },
       "properties": {
         "id": 1228093028,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "reg_ref": "22-00-249-13K"
       }
     },
     {
@@ -5523,6 +5569,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|through;slight_right"
@@ -5572,6 +5619,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -5596,6 +5644,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -5649,6 +5698,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|through;slight_right"
@@ -5675,6 +5725,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -5778,9 +5829,11 @@
         "cycleway": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
@@ -5823,9 +5876,11 @@
         "cycleway": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
@@ -5854,14 +5909,13 @@
       },
       "properties": {
         "id": 1258718409,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -5891,14 +5945,13 @@
       },
       "properties": {
         "id": 1258718410,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -6372,14 +6425,13 @@
       },
       "properties": {
         "id": 1429001950,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -6429,14 +6481,13 @@
       },
       "properties": {
         "id": 1429001952,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -6479,9 +6530,11 @@
         "avgspeed": "30",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -6504,10 +6557,6 @@
             -6.9070599
           ],
           [
-            107.6114489,
-            -6.9070444
-          ],
-          [
             107.6113975,
             -6.9070401
           ]
@@ -6519,9 +6568,11 @@
         "avgspeed": "30",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -6551,9 +6602,11 @@
         "avgspeed": "30",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -6587,9 +6640,11 @@
         "avgspeed": "30",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }

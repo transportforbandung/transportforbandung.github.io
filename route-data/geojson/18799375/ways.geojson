@@ -139,6 +139,7 @@
         "lanes": "4",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -514,7 +515,8 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dayeuhkolot"
+        "name": "Jalan Dayeuhkolot",
+        "ref": "161-12K"
       }
     },
     {
@@ -4036,7 +4038,7 @@
         "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
-        "name": "Jalan Raya Bandung - Banjaran",
+        "name": "Jalan Raya Banjaran",
         "ref": "161"
       }
     },
@@ -4270,6 +4272,7 @@
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk": "left",
         "surface": "asphalt"
       }
@@ -4296,6 +4299,7 @@
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -4400,6 +4404,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -5232,6 +5237,7 @@
         "lit": "no",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk": "no",
         "smoothness": "good",
         "surface": "asphalt"
@@ -5701,6 +5707,7 @@
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -5738,6 +5745,7 @@
         "oneway": "yes",
         "parking:both": "no",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -5933,7 +5941,7 @@
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Bandung - Banjaran",
+        "name": "Jalan Raya Banjaran",
         "ref": "161",
         "surface": "asphalt"
       }
@@ -5991,7 +5999,7 @@
         "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
-        "name": "Jalan Raya Bandung - Banjaran",
+        "name": "Jalan Raya Banjaran",
         "ref": "161",
         "surface": "asphalt"
       }
@@ -6064,44 +6072,12 @@
             -7.0482372
           ],
           [
-            107.5924721,
-            -7.0482199
+            107.5924739,
+            -7.0482339
           ],
           [
-            107.5925838,
-            -7.0482051
-          ],
-          [
-            107.5926035,
-            -7.0481786
-          ],
-          [
-            107.5926263,
-            -7.0481054
-          ],
-          [
-            107.5926304,
-            -7.0480761
-          ],
-          [
-            107.5926653,
-            -7.0477114
-          ],
-          [
-            107.5926706,
-            -7.047589
-          ],
-          [
-            107.5926666,
-            -7.0474359
-          ],
-          [
-            107.5927201,
-            -7.046768
-          ],
-          [
-            107.5927169,
-            -7.0466786
+            107.5925183,
+            -7.0482156
           ]
         ]
       },
@@ -6112,7 +6088,7 @@
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
-        "name": "Jalan Raya Bandung - Banjaran",
+        "name": "Jalan Raya Banjaran",
         "ref": "161",
         "surface": "asphalt"
       }
@@ -6746,7 +6722,7 @@
         "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
-        "name": "Jalan Raya Bandung - Banjaran",
+        "name": "Jalan Raya Banjaran",
         "ref": "161"
       }
     },
@@ -6773,7 +6749,7 @@
         "lanes": "2",
         "layer": "1",
         "motorcycle": "yes",
-        "name": "Jalan Raya Bandung - Banjaran",
+        "name": "Jalan Raya Banjaran",
         "ref": "161"
       }
     },
@@ -8953,6 +8929,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt",
         "turn:lanes:forward": "through|right"
       }
@@ -8999,6 +8976,7 @@
         "lit": "no",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk": "no",
         "surface": "asphalt",
         "turn:lanes:forward": "slight_left;through|through;right"
@@ -9058,6 +9036,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt",
         "turn:lanes:backward": "through|through|right"
       }
@@ -9101,6 +9080,7 @@
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -10163,7 +10143,8 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dayeuhkolot"
+        "name": "Jalan Dayeuhkolot",
+        "ref": "161-12K"
       }
     },
     {
@@ -10348,6 +10329,7 @@
         "parking:left:orientation": "parallel",
         "parking:right": "no",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk:both": "separate",
         "smoothness": "excellent",
         "surface": "asphalt"
@@ -10397,10 +10379,6 @@
           [
             107.613571,
             -6.9607329
-          ],
-          [
-            107.6135242,
-            -6.9605935
           ]
         ]
       },
@@ -10409,7 +10387,8 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "4",
-        "name": "Jalan Mohammad Toha",
+        "name": "Jalan Dayeuhkolot",
+        "ref": "161-12K",
         "surface": "asphalt"
       }
     },
@@ -10480,6 +10459,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -10511,6 +10491,7 @@
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -10536,6 +10517,7 @@
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -10562,6 +10544,7 @@
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -10884,6 +10867,87 @@
         "id": 1421743339,
         "highway": "primary",
         "junction": "roundabout",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.613571,
+            -6.9607329
+          ],
+          [
+            107.6135242,
+            -6.9605935
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1436608601,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Mohammad Toha",
+        "ref": "161",
+        "reg_ref": "22-00-161-11K",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5925183,
+            -7.0482156
+          ],
+          [
+            107.5926035,
+            -7.0481786
+          ],
+          [
+            107.5926263,
+            -7.0481054
+          ],
+          [
+            107.5926304,
+            -7.0480761
+          ],
+          [
+            107.5926653,
+            -7.0477114
+          ],
+          [
+            107.5926706,
+            -7.047589
+          ],
+          [
+            107.5926666,
+            -7.0474359
+          ],
+          [
+            107.5927201,
+            -7.046768
+          ],
+          [
+            107.5927169,
+            -7.0466786
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1436669798,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "name": "Jalan Raya Bandung - Banjaran",
+        "ref": "161",
         "surface": "asphalt"
       }
     }

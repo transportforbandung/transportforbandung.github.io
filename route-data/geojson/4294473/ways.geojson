@@ -151,10 +151,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "1",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "yes",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -193,10 +195,12 @@
         "avgspeed": "30",
         "cycleway": "lane",
         "cycleway:lane": "exclusive",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
         "oneway": "yes",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -751,8 +755,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1329,8 +1335,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -1625,9 +1633,11 @@
       },
       "properties": {
         "id": 174270181,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -1743,6 +1753,9 @@
         "highway": "secondary",
         "junction": "roundabout",
         "lanes": "2",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -1871,11 +1884,13 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "smoothness": "good",
@@ -2525,11 +2540,13 @@
         "id": 318054780,
         "avgspeed": "20",
         "cycleway:both": "no",
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumur Bandung",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2361",
+        "reg_ref": "22-10-2361",
         "sidewalk:both": "separate",
         "smoothness": "intermediate",
         "surface": "asphalt"
@@ -2994,10 +3011,12 @@
         "id": 318222726,
         "avgspeed": "30",
         "bicycle": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -3674,6 +3693,7 @@
         "lanes": "4",
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "ref": "106",
+        "reg_ref": "22-00-106-11K",
         "turn:lanes:forward": "slight_left;through|through;right"
       }
     },
@@ -3895,8 +3915,8 @@
             -6.9070897
           ],
           [
-            107.5911055,
-            -6.9071009
+            107.5911224,
+            -6.9070825
           ]
         ]
       },
@@ -4030,11 +4050,13 @@
       "properties": {
         "id": 567658695,
         "cycleway:both": "no",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Sumur Bandung",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2361",
+        "reg_ref": "22-10-2361",
         "sidewalk:left": "separate",
         "sidewalk:right": "yes",
         "smoothness": "excellent",
@@ -4063,7 +4085,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -4097,7 +4121,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -4355,7 +4381,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -4513,8 +4541,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5911055,
-            -6.9071009
+            107.5911224,
+            -6.9070825
           ],
           [
             107.5910022,
@@ -4623,8 +4651,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "parking:both": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -4690,7 +4720,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari"
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380"
       }
     },
     {
@@ -4836,6 +4868,9 @@
         "highway": "secondary",
         "junction": "roundabout",
         "lanes": "2",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -4937,7 +4972,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari"
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380"
       }
     },
     {
@@ -4970,7 +5007,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -5423,7 +5462,8 @@
         "lanes": "3",
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "oneway": "yes",
-        "ref": "106"
+        "ref": "106",
+        "reg_ref": "22-00-106-11K"
       }
     },
     {
@@ -5449,6 +5489,7 @@
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "oneway": "yes",
         "ref": "106",
+        "reg_ref": "22-00-106-11K",
         "turn:lanes": "through|through|right"
       }
     },
@@ -5608,7 +5649,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -5652,6 +5695,10 @@
           [
             107.6095485,
             -6.896363
+          ],
+          [
+            107.6095093,
+            -6.8962232
           ],
           [
             107.6094951,
@@ -5726,8 +5773,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -5849,7 +5898,8 @@
         "lanes": "3",
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "oneway": "yes",
-        "ref": "106"
+        "ref": "106",
+        "reg_ref": "22-00-106-11K"
       }
     },
     {
@@ -6238,6 +6288,55 @@
         "lanes": "1",
         "name": "Jalan Abdul Rahman Saleh",
         "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6249966,
+            -6.8912645
+          ],
+          [
+            107.624996,
+            -6.8911849
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1443177301,
+        "highway": "service",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.624996,
+            -6.8911849
+          ],
+          [
+            107.6252674,
+            -6.8911775
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1443178220,
+        "alt_name": "Jalan Terminal Sadangserang",
+        "highway": "residential",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Intan Raya",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "4"
       }
     }
   ]

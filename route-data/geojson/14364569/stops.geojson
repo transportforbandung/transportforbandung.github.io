@@ -6,6 +6,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          107.6109077,
+          -6.8932466
+        ]
+      },
+      "properties": {
+        "id": 2035856554,
+        "bus": "yes",
+        "name": "ITB Ganesha A",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           107.7650857,
           -6.9357667
         ]
@@ -16,22 +32,6 @@
         "name": "IPDN B",
         "public_transport": "stop_position",
         "ref": "IPDN B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.6161572,
-          -6.8979434
-        ]
-      },
-      "properties": {
-        "id": 11707030825,
-        "bus": "yes",
-        "name": "Panatayudha B",
-        "public_transport": "stop_position"
       }
     },
     {
@@ -207,6 +207,70 @@
         "id": 11955476811,
         "bus": "yes",
         "name": "SPBU Ahmad Yani",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6099669,
+          -6.899504
+        ]
+      },
+      "properties": {
+        "id": 13243220021,
+        "bus": "yes",
+        "name": "Baltos",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6095093,
+          -6.8962232
+        ]
+      },
+      "properties": {
+        "id": 13243220023,
+        "bus": "yes",
+        "name": "Diskominfo Jawa Barat",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7627468,
+          -6.9501747
+        ]
+      },
+      "properties": {
+        "id": 13243247553,
+        "bus": "yes",
+        "name": "Rumah Sakit Umum Harapan Keluarga",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7595832,
+          -6.9475989
+        ]
+      },
+      "properties": {
+        "id": 13243247555,
+        "bus": "yes",
+        "name": "Al Ma'soem",
         "public_transport": "stop_position"
       }
     },

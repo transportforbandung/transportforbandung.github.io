@@ -1396,10 +1396,12 @@
       "properties": {
         "id": 385546260,
         "avgspeed": "25",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "40",
         "name": "Jalan Raya Majalaya - Rancekek",
+        "ref": "482",
+        "reg_ref": "22-09-482",
         "source": "GPS"
       }
     },
@@ -2789,8 +2791,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6936566,
-            -6.9431523
+            107.6936569,
+            -6.9431563
           ],
           [
             107.6936775,
@@ -2803,6 +2805,8 @@
         "highway": "secondary",
         "name": "Bulevar Utama",
         "oneway": "yes",
+        "ref": "11113",
+        "reg_ref": "22-10-11113",
         "surface": "asphalt"
       }
     },
@@ -2930,7 +2934,6 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Gedebage Utama",
-        "name:en": "Main Gedebage Street",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -2959,7 +2962,6 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Gedebage Utama",
-        "name:en": "Main Gedebage Street",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3136,7 +3138,6 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Gedebage Utama",
-        "name:en": "Main Gedebage Street",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3151,8 +3152,8 @@
             -6.9431345
           ],
           [
-            107.6936566,
-            -6.9431523
+            107.6936569,
+            -6.9431563
           ]
         ]
       },
@@ -3161,7 +3162,6 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Gedebage Utama",
-        "name:en": "Main Gedebage Street",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3188,6 +3188,10 @@
             -6.9428438
           ],
           [
+            107.6920158,
+            -6.9429
+          ],
+          [
             107.6922591,
             -6.9429349
           ]
@@ -3198,7 +3202,6 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Gedebage Utama",
-        "name:en": "Main Gedebage Street",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3239,7 +3242,6 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Gedebage Utama",
-        "name:en": "Main Gedebage Street",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3350,6 +3352,8 @@
         "name": "Bulevar Utama",
         "name:en": "Main Boulevard",
         "oneway": "yes",
+        "ref": "11113",
+        "reg_ref": "22-10-11113",
         "surface": "asphalt"
       }
     },
@@ -3374,6 +3378,8 @@
         "name": "Bulevar Utama",
         "name:en": "Main Boulevard",
         "oneway": "yes",
+        "ref": "11113",
+        "reg_ref": "22-10-11113",
         "surface": "asphalt"
       }
     },

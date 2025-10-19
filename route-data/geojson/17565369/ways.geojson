@@ -609,51 +609,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7537453,
-            -6.9404081
-          ],
-          [
-            107.7536983,
-            -6.94024
-          ],
-          [
-            107.7536254,
-            -6.9400197
-          ],
-          [
-            107.7535816,
-            -6.9399509
-          ],
-          [
-            107.7535341,
-            -6.9398922
-          ],
-          [
-            107.7534452,
-            -6.9398116
-          ]
-        ]
-      },
-      "properties": {
-        "id": 255641092,
-        "cycleway:both": "no",
-        "foot": "yes",
-        "highway": "trunk",
-        "lanes": "3",
-        "lit": "yes",
-        "motorcycle": "yes",
-        "oneway": "yes",
-        "ref": "11",
-        "sidewalk": "no",
-        "surface": "concrete"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6330945,
             -6.9481961
           ],
@@ -2093,6 +2048,7 @@
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -2197,6 +2153,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -2245,7 +2202,7 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2273,6 +2230,7 @@
         "layer": "1",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -2316,7 +2274,7 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2344,7 +2302,7 @@
         "layer": "1",
         "maxweight:signed": "no",
         "motorcycle": "designated",
-        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2381,7 +2339,7 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -2405,6 +2363,10 @@
           [
             107.6916533,
             -6.9372216
+          ],
+          [
+            107.6915611,
+            -6.9372281
           ],
           [
             107.6914408,
@@ -2446,12 +2408,11 @@
       },
       "properties": {
         "id": 320653995,
-        "destination:backward": "Margahayu Raya;Cijawura;Samsat",
-        "destination:forward": "Cipamokolan;Riung Bandung;Margahayu Raya",
+        "destination": "Cipamokolan;Riung Bandung;Margahayu Raya",
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -2528,11 +2489,12 @@
       },
       "properties": {
         "id": 320654928,
-        "destination": "Cimincrang",
+        "destination": "Cimincrang;Polda Jabar",
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -2542,8 +2504,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7534452,
-            -6.9398116
+            107.7537453,
+            -6.9404081
+          ],
+          [
+            107.7537018,
+            -6.9402543
+          ],
+          [
+            107.7536586,
+            -6.9401195
+          ],
+          [
+            107.7536284,
+            -6.9400362
+          ],
+          [
+            107.7536203,
+            -6.9400138
+          ],
+          [
+            107.7535735,
+            -6.93994
+          ],
+          [
+            107.7535061,
+            -6.9398592
+          ],
+          [
+            107.7534342,
+            -6.9398036
           ],
           [
             107.7529385,
@@ -2823,6 +2813,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2849,6 +2840,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|through"
@@ -3233,6 +3225,7 @@
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -3259,7 +3252,7 @@
         "layer": "1",
         "maxweight:signed": "no",
         "motorcycle": "designated",
-        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3278,8 +3271,8 @@
             -6.9387856
           ],
           [
-            107.6696172,
-            -6.9387926
+            107.6695917,
+            -6.9387913
           ]
         ]
       },
@@ -3291,6 +3284,7 @@
         "layer": "1",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -3339,6 +3333,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left;through|through"
@@ -3392,7 +3387,7 @@
         "lanes": "2",
         "layer": "1",
         "motorcycle": "designated",
-        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -3420,7 +3415,7 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3484,6 +3479,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "turn:lanes": "slight_left;through|through;slight_right"
       }
@@ -3522,6 +3518,7 @@
         "oneway": "yes",
         "parking:both": "no",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -3839,6 +3836,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left|slight_left;through|through"
@@ -4218,40 +4216,36 @@
             -6.9420765
           ],
           [
-            107.6517792,
-            -6.9423685
+            107.6517577,
+            -6.9423758
           ],
           [
-            107.6517048,
-            -6.9423915
-          ],
-          [
-            107.6515858,
-            -6.9424284
+            107.6516814,
+            -6.9423995
           ],
           [
             107.6512581,
-            -6.9425288
+            -6.9425328
           ],
           [
             107.6511346,
             -6.9425676
           ],
           [
-            107.650958,
-            -6.942623
+            107.6509225,
+            -6.942639
           ],
           [
-            107.6507479,
-            -6.9426923
+            107.6507484,
+            -6.9426922
           ],
           [
             107.6506763,
             -6.9427159
           ],
           [
-            107.650482,
-            -6.94278
+            107.6504686,
+            -6.942788
           ],
           [
             107.6503749,
@@ -4297,6 +4291,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -4331,6 +4326,7 @@
         "highway": "trunk",
         "lanes": "5",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -4383,10 +4379,12 @@
       },
       "properties": {
         "id": 955513358,
-        "destination:lanes": "Bumi Panyileukan;Cimincrang|Jalur Cepat;Gedebage;Kiaracondong",
+        "destination": "Simpang Gedebage",
+        "destination:lanes": "Bumi Panyileukan;Cimincrang||Jalur Cepat;Gedebage;Kiaracondong",
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left|slight_left;slight_right|slight_right"
@@ -4424,7 +4422,7 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -4463,6 +4461,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -4552,6 +4551,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt",
         "turn:lanes:backward": "through|through|right"
       }
@@ -4942,6 +4942,7 @@
         "highway": "trunk",
         "lanes": "5",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -5124,10 +5125,12 @@
       },
       "properties": {
         "id": 1196988784,
-        "destination:lanes": "Riung Bandung;Cipamokolan|Kiaracondong;Buahbatu|Kiaracondong;Buahbatu|Cinambo;Ujungberung|Cinambo;Ujungberung",
+        "destination": "Simpang Gedebage",
+        "destination:lanes": "Riung Bandung;Cipamokolan|Riung Bandung;Cipamokolan;Kiaracondong;Buahbatu|Kiaracondong;Buahbatu|Cinambo;Ujungberung|Cinambo;Ujungberung",
         "highway": "trunk",
         "lanes": "5",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through|through|right|right;reverse"
@@ -5174,6 +5177,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -5214,6 +5218,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "turn:lanes": "through|through;slight_right"
       }
@@ -5247,6 +5252,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -5291,6 +5297,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -5323,6 +5330,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "turn:lanes": "through|through;slight_right"
       }
@@ -5349,6 +5357,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -5445,6 +5454,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|through;slight_right"
@@ -5483,6 +5493,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|through;slight_right"
@@ -5494,8 +5505,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6696172,
-            -6.9387926
+            107.6695917,
+            -6.9387913
           ],
           [
             107.6695635,
@@ -5525,6 +5536,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left;through|through"
@@ -5571,7 +5583,7 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left;through|through"
@@ -5597,7 +5609,7 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "reverse;through|none"
@@ -5627,7 +5639,7 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|through;slight_right"
@@ -5653,7 +5665,7 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|through"
@@ -5688,6 +5700,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "sharp_left;through|through"
@@ -5743,8 +5756,8 @@
             -6.9452621
           ],
           [
-            107.642667,
-            -6.9453158
+            107.6427636,
+            -6.9452838
           ],
           [
             107.6425818,
@@ -5758,6 +5771,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -5898,6 +5912,7 @@
         "parking:left:orientation": "parallel",
         "parking:right": "no",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk:both": "separate",
         "smoothness": "excellent",
         "surface": "asphalt"
@@ -5923,7 +5938,7 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -6014,11 +6029,13 @@
       },
       "properties": {
         "id": 1221118986,
+        "destination": "Bumi Panyileukan;Cimincrang",
         "destination:lanes": "Bumi Panyileukan|Cimincrang;Polda Jabar;Masjid Al-Jabbar;Stasiun Tegalluar",
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "turn:lanes": "left|through"
       }
@@ -6040,6 +6057,7 @@
       },
       "properties": {
         "id": 1221118987,
+        "destination": "Cimincrang;Polda Jabar",
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
@@ -6193,6 +6211,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|through;slight_right"
@@ -6267,6 +6286,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -6338,6 +6358,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -6788,6 +6809,7 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes"
       }
     },
@@ -6808,12 +6830,13 @@
       },
       "properties": {
         "id": 1315137974,
-        "destination": "Cimincrang",
+        "destination": "Cimincrang;Polda Jabar",
         "destination:lanes": "Masjid Al-Jabbar;Stasiun Tegalluar|Polda Jabar;Pasar Gedebage",
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "turn:lanes": "left|through"
       }
@@ -6880,10 +6903,12 @@
       },
       "properties": {
         "id": 1383299394,
-        "destination:lanes": "Bumi Panyileukan;Cimincrang|Jalur Cepat;Gedebage;Kiaracondong",
+        "destination": "Simpang Gedebage",
+        "destination:lanes": "Bumi Panyileukan;Cimincrang||Jalur Cepat;Gedebage;Kiaracondong",
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left|slight_left;slight_right|slight_right"
@@ -7399,6 +7424,10 @@
           [
             107.7697367,
             -6.9344344
+          ],
+          [
+            107.7696624,
+            -6.9344554
           ],
           [
             107.7694684,

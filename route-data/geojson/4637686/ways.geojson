@@ -134,6 +134,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -170,6 +171,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -193,11 +195,13 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -537,26 +541,25 @@
             -6.8827404
           ],
           [
-            107.6013396,
-            -6.8827423
+            107.6013166,
+            -6.8827564
           ],
           [
-            107.6014504,
-            -6.8827476
+            107.601438,
+            -6.882774
           ]
         ]
       },
       "properties": {
         "id": 4698221,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "3",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
-        "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "ref": "2340",
+        "reg_ref": "22-10-2340"
       }
     },
     {
@@ -571,6 +574,10 @@
           [
             107.5984316,
             -6.8951102
+          ],
+          [
+            107.5985705,
+            -6.894601
           ],
           [
             107.5987172,
@@ -749,6 +756,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -831,10 +839,12 @@
       "properties": {
         "id": 153305906,
         "avgspeed": "30",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "surface": "asphalt"
       }
     },
@@ -935,11 +945,13 @@
         "bicycle": "yes",
         "cycleway:both": "no",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "no",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "sidewalk": "both",
         "smoothness": "good",
         "surface": "asphalt"
@@ -1057,11 +1069,13 @@
         "bicycle": "yes",
         "bridge": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Siliwangi",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "source": "S2City_POI_2022",
         "surface": "asphalt"
       }
@@ -1092,24 +1106,24 @@
             -6.8846722
           ],
           [
-            107.6068233,
-            -6.8846722
+            107.6068454,
+            -6.8846748
           ],
           [
-            107.6067555,
-            -6.8846502
+            107.6067435,
+            -6.8846483
           ],
           [
-            107.6065449,
-            -6.8845256
+            107.6065328,
+            -6.8845462
           ],
           [
             107.6062473,
             -6.8843143
           ],
           [
-            107.6060982,
-            -6.8841856
+            107.6061478,
+            -6.8842309
           ],
           [
             107.6058912,
@@ -1134,9 +1148,11 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "surface": "asphalt"
       }
     },
@@ -1577,6 +1593,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -1642,11 +1659,13 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "sidewalk:left": "separate",
         "sidewalk:right": "yes",
         "surface": "asphalt"
@@ -1760,16 +1779,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6014504,
-            -6.8827476
+            107.601438,
+            -6.882774
           ],
           [
-            107.6015675,
-            -6.8827616
+            107.6015569,
+            -6.8827985
           ],
           [
-            107.6017325,
-            -6.8827949
+            107.6017237,
+            -6.8828213
           ],
           [
             107.6021029,
@@ -1839,15 +1858,14 @@
       },
       "properties": {
         "id": 318102560,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
-        "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "ref": "2340",
+        "reg_ref": "22-10-2340"
       }
     },
     {
@@ -1886,11 +1904,13 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -1915,11 +1935,13 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -1948,11 +1970,13 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "sidewalk:both": "separate",
         "smoothness": "excellent",
         "surface": "asphalt"
@@ -2002,6 +2026,7 @@
         "name": "Jalan Sukajadi",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -2061,7 +2086,7 @@
         "lanes": "2",
         "name": "Jalan Sukajadi",
         "oneway": "yes",
-        "ref": "249",
+        "ref": "249-12K",
         "surface": "asphalt"
       }
     },
@@ -2092,6 +2117,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -2353,12 +2379,12 @@
             -6.9017541
           ],
           [
-            107.6503187,
-            -6.90177
+            107.650317,
+            -6.9017942
           ],
           [
-            107.6506002,
-            -6.9017916
+            107.6505985,
+            -6.9018158
           ],
           [
             107.65075,
@@ -2412,10 +2438,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Siliwangi",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "2344",
+        "reg_ref": "22-10-2344"
       }
     },
     {
@@ -2668,6 +2696,7 @@
         "name": "Jalan Sukajadi",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -2688,10 +2717,12 @@
       },
       "properties": {
         "id": 339026889,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Cihampelas",
+        "name": "Jalan Siliwangi",
         "oneway": "yes",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "surface": "asphalt"
       }
     },
@@ -3029,8 +3060,8 @@
             -6.9070897
           ],
           [
-            107.5911055,
-            -6.9071009
+            107.5911224,
+            -6.9070825
           ]
         ]
       },
@@ -3301,11 +3332,13 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "smoothness": "good",
@@ -3474,6 +3507,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -3762,16 +3796,16 @@
             -6.9070158
           ],
           [
-            107.5909003,
-            -6.9070554
+            107.5909034,
+            -6.907037
           ],
           [
-            107.5909325,
-            -6.9070608
+            107.5909941,
+            -6.907047
           ],
           [
-            107.5911055,
-            -6.9071009
+            107.5911224,
+            -6.9070825
           ]
         ]
       },
@@ -3861,11 +3895,13 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "smoothness": "good",
         "surface": "asphalt"
       }
@@ -3935,6 +3971,7 @@
       "properties": {
         "id": 1115293260,
         "highway": "primary",
+        "name": "Jalan Sederhana",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -4186,15 +4223,14 @@
       },
       "properties": {
         "id": 1218966651,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
-        "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "ref": "2340",
+        "reg_ref": "22-10-2340",
         "surface": "asphalt"
       }
     },
@@ -4915,6 +4951,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -4941,6 +4978,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -4967,6 +5005,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -5005,6 +5044,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },

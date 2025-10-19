@@ -532,8 +532,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6203639,
-            -6.9344713
+            107.6203546,
+            -6.9344794
+          ],
+          [
+            107.6196129,
+            -6.9336813
           ],
           [
             107.6194953,
@@ -699,6 +703,10 @@
           [
             107.638933,
             -6.9541863
+          ],
+          [
+            107.6388667,
+            -6.9540248
           ]
         ]
       },
@@ -706,10 +714,11 @@
         "id": 331562845,
         "avgspeed": "30",
         "highway": "primary",
-        "lanes": "2",
+        "lanes": "3",
         "name": "Jalan Buah Batu",
         "oneway": "yes",
-        "ref": "364"
+        "ref": "364",
+        "surface": "asphalt"
       }
     },
     {
@@ -899,46 +908,6 @@
           [
             107.6387208,
             -6.9537047
-          ],
-          [
-            107.6385338,
-            -6.9533572
-          ],
-          [
-            107.6384235,
-            -6.9531971
-          ],
-          [
-            107.6380692,
-            -6.9528378
-          ],
-          [
-            107.6377919,
-            -6.9525527
-          ],
-          [
-            107.6373856,
-            -6.9521134
-          ],
-          [
-            107.6369653,
-            -6.9517047
-          ],
-          [
-            107.6368024,
-            -6.9515373
-          ],
-          [
-            107.6364761,
-            -6.9512022
-          ],
-          [
-            107.6364115,
-            -6.9511359
-          ],
-          [
-            107.6360573,
-            -6.9507711
           ]
         ]
       },
@@ -971,6 +940,10 @@
             -6.9361748
           ],
           [
+            107.621935,
+            -6.9361425
+          ],
+          [
             107.6218775,
             -6.9360848
           ],
@@ -987,8 +960,8 @@
             -6.9350405
           ],
           [
-            107.6203639,
-            -6.9344713
+            107.6203546,
+            -6.9344794
           ]
         ]
       },
@@ -1030,32 +1003,8 @@
         "layer": "1",
         "name": "Jalan Buah Batu",
         "oneway": "yes",
-        "ref": "364"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.638933,
-            -6.9541863
-          ],
-          [
-            107.6388667,
-            -6.9540248
-          ]
-        ]
-      },
-      "properties": {
-        "id": 561411661,
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "3",
-        "name": "Jalan Buah Batu",
-        "oneway": "yes",
-        "ref": "364"
+        "ref": "364",
+        "surface": "asphalt"
       }
     },
     {
@@ -1191,8 +1140,8 @@
             -6.942597
           ],
           [
-            107.6278874,
-            -6.9424164
+            107.6279626,
+            -6.9424961
           ]
         ]
       },
@@ -1236,6 +1185,7 @@
       },
       "properties": {
         "id": 872159815,
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Buah Batu",
@@ -1616,8 +1566,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6278874,
-            -6.9424164
+            107.6279626,
+            -6.9424961
           ],
           [
             107.6275728,
@@ -2001,6 +1951,178 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "name": "Jalan Buah Batu",
+        "oneway": "yes",
+        "ref": "364",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6387208,
+            -6.9537047
+          ],
+          [
+            107.6385338,
+            -6.9533572
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1442951325,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Buah Batu",
+        "oneway": "yes",
+        "ref": "364",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6385338,
+            -6.9533572
+          ],
+          [
+            107.6384235,
+            -6.9531971
+          ],
+          [
+            107.6380692,
+            -6.9528378
+          ],
+          [
+            107.6377919,
+            -6.9525527
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1442951326,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Buah Batu",
+        "oneway": "yes",
+        "ref": "364",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6377919,
+            -6.9525527
+          ],
+          [
+            107.6373856,
+            -6.9521134
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1442951327,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Buah Batu",
+        "oneway": "yes",
+        "ref": "364",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6373856,
+            -6.9521134
+          ],
+          [
+            107.6369653,
+            -6.9517047
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1442951328,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Buah Batu",
+        "oneway": "yes",
+        "ref": "364",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6369653,
+            -6.9517047
+          ],
+          [
+            107.6368024,
+            -6.9515373
+          ],
+          [
+            107.6364761,
+            -6.9512022
+          ],
+          [
+            107.6364115,
+            -6.9511359
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1442951329,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Buah Batu",
+        "oneway": "yes",
+        "ref": "364",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6364115,
+            -6.9511359
+          ],
+          [
+            107.6360573,
+            -6.9507711
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1442951330,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
         "name": "Jalan Buah Batu",
         "oneway": "yes",
         "ref": "364",

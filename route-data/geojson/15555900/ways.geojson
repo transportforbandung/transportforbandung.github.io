@@ -100,12 +100,14 @@
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -417,11 +419,13 @@
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
         "parking:both": "no",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -447,12 +451,14 @@
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -694,9 +700,11 @@
         "avgspeed": "30",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -759,11 +767,13 @@
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
         "parking:both": "no",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -950,9 +960,11 @@
         "destination:backward": "Simpang Banda",
         "destination:forward": "Simpang Trunojoyo",
         "destination:lanes": "Merdeka;Dago;Aceh;Balaikota|Bahureksa;Sultan Agung;Sultan Tirtayasa;Maulana Yusup",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
@@ -1068,9 +1080,11 @@
         "cycleway": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
@@ -1132,10 +1146,12 @@
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
         "parking:both": "no",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1235,7 +1251,9 @@
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -1256,8 +1274,8 @@
             -6.9132911
           ],
           [
-            107.6457897,
-            -6.9134653
+            107.6458038,
+            -6.9134826
           ],
           [
             107.6453416,
@@ -1270,7 +1288,9 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -1333,7 +1353,9 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -1359,6 +1381,8 @@
         "lanes": "2",
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
         "turn:lanes": "through|through;reverse"
       }
     },
@@ -1410,7 +1434,9 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -1419,12 +1445,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6656968,
-            -6.9149346
+            107.6656787,
+            -6.9149413
           ],
           [
-            107.6649648,
-            -6.9147773
+            107.6649608,
+            -6.914776
           ],
           [
             107.6642603,
@@ -1469,7 +1495,10 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "width": "5"
       }
     },
     {
@@ -1494,7 +1523,9 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -1585,7 +1616,9 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -1880,9 +1913,11 @@
         "id": 330960872,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate"
       }
     },
@@ -2133,9 +2168,11 @@
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
@@ -2216,7 +2253,9 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -2431,6 +2470,8 @@
         "lanes": "1",
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
         "turn:lanes": "slight_left;through|through;reverse"
       }
     },
@@ -2589,7 +2630,9 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -2615,7 +2658,9 @@
         "lanes": "1",
         "layer": "1",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -2739,6 +2784,8 @@
         "lanes": "2",
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
         "turn": "through"
       }
     },
@@ -3415,9 +3462,11 @@
         "cycleway": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
@@ -3460,9 +3509,11 @@
         "cycleway": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
@@ -3538,16 +3589,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6658807,
-            -6.9149741
+            107.6658787,
+            -6.9149864
           ],
           [
-            107.6658496,
-            -6.9149674
-          ],
-          [
-            107.6656968,
-            -6.9149346
+            107.6656787,
+            -6.9149413
           ]
         ]
       },
@@ -3556,7 +3603,10 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "width": "5"
       }
     },
     {
@@ -3812,9 +3862,11 @@
         "avgspeed": "30",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -3837,10 +3889,6 @@
             -6.9070599
           ],
           [
-            107.6114489,
-            -6.9070444
-          ],
-          [
             107.6113975,
             -6.9070401
           ]
@@ -3852,9 +3900,11 @@
         "avgspeed": "30",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -3884,9 +3934,11 @@
         "avgspeed": "30",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -3920,9 +3972,11 @@
         "avgspeed": "30",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }

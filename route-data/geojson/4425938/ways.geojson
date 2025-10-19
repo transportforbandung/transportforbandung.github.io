@@ -1609,20 +1609,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6211322,
-            -6.9044277
+            107.6210834,
+            -6.9045959
+          ],
+          [
+            107.6210955,
+            -6.9045144
+          ],
+          [
+            107.6211236,
+            -6.9044562
           ],
           [
             107.6211706,
             -6.9043899
           ],
           [
-            107.6212053,
-            -6.904355
+            107.6212305,
+            -6.9043306
           ],
           [
-            107.6212804,
-            -6.9043044
+            107.6212866,
+            -6.9042922
           ],
           [
             107.6214132,
@@ -1676,28 +1684,28 @@
             -6.9049837
           ],
           [
-            107.6211772,
-            -6.9049194
+            107.621166,
+            -6.9049214
           ],
           [
-            107.6211355,
-            -6.9048267
+            107.6211203,
+            -6.9048539
           ],
           [
-            107.6211097,
+            107.6211018,
+            -6.9047922
+          ],
+          [
+            107.6210894,
             -6.9047285
           ],
           [
-            107.6211004,
-            -6.9046275
+            107.621084,
+            -6.9046493
           ],
           [
-            107.621108,
-            -6.9045263
-          ],
-          [
-            107.6211322,
-            -6.9044277
+            107.6210834,
+            -6.9045959
           ]
         ]
       },
@@ -1785,6 +1793,32 @@
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6248228,
+            -6.8911896
+          ],
+          [
+            107.6248282,
+            -6.8915188
+          ]
+        ]
+      },
+      "properties": {
+        "id": 337214659,
+        "highway": "residential",
+        "motorcar": "destination",
+        "motorcycle": "yes",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "4"
       }
     },
     {
@@ -1924,7 +1958,8 @@
         "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Sunda",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2749,6 +2784,95 @@
         "sidewalk": "separate",
         "surface": "asphalt",
         "turn:lanes": "through|through|slight_right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6248282,
+            -6.8915188
+          ],
+          [
+            107.624968,
+            -6.89152
+          ],
+          [
+            107.6249949,
+            -6.8915108
+          ],
+          [
+            107.6249984,
+            -6.8914853
+          ],
+          [
+            107.6249966,
+            -6.8912645
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1443177300,
+        "highway": "service",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.624996,
+            -6.8911849
+          ],
+          [
+            107.6252674,
+            -6.8911775
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1443178220,
+        "alt_name": "Jalan Terminal Sadangserang",
+        "highway": "residential",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Intan Raya",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6248228,
+            -6.8911896
+          ],
+          [
+            107.624996,
+            -6.8911849
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1443178221,
+        "alt_name": "Jalan Terminal Sadangserang",
+        "highway": "residential",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Intan Raya",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "4"
       }
     }
   ]

@@ -1429,14 +1429,6 @@
           [
             107.6130523,
             -6.8937737
-          ],
-          [
-            107.613007,
-            -6.8942671
-          ],
-          [
-            107.6129665,
-            -6.8948049
           ]
         ]
       },
@@ -2286,6 +2278,47 @@
         "sidewalk": "separate",
         "smoothness": "excellent",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6130523,
+            -6.8937737
+          ],
+          [
+            107.613007,
+            -6.8942671
+          ],
+          [
+            107.6129665,
+            -6.8948049
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1443220372,
+        "alt_name": "Jalan Dago",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Ir. H. Djuanda",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk": "separate",
+        "smoothness": "good",
+        "source": "S2City_POI_2022",
+        "surface": "asphalt",
+        "wheelchair": "no",
+        "width": "5 m"
       }
     }
   ]

@@ -55,11 +55,13 @@
       "properties": {
         "id": 4279723,
         "avgspeed": "20",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Taman Pramuka",
         "name:en": "Scouts Park Boulevard",
         "oneway": "yes",
+        "ref": "2624",
+        "reg_ref": "22-10-2624",
         "surface": "asphalt"
       }
     },
@@ -313,12 +315,14 @@
       "properties": {
         "id": 174303684,
         "cycleway:both": "no",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
         "name": "Jalan Cendana",
         "name:en": "Cendana Avenue",
+        "ref": "2072",
+        "reg_ref": "22-10-2072",
         "surface": "asphalt",
         "turn:lanes:backward": "left;through;right"
       }
@@ -356,11 +360,13 @@
       },
       "properties": {
         "id": 174303689,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Cendana",
         "name:en": "Cendana Avenue",
         "oneway": "yes",
+        "ref": "2072",
+        "reg_ref": "22-10-2072",
         "surface": "asphalt"
       }
     },
@@ -1675,12 +1681,12 @@
             -6.9017541
           ],
           [
-            107.6503187,
-            -6.90177
+            107.650317,
+            -6.9017942
           ],
           [
-            107.6506002,
-            -6.9017916
+            107.6505985,
+            -6.9018158
           ],
           [
             107.65075,
@@ -2225,7 +2231,8 @@
         "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Sunda",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2694,11 +2701,13 @@
       },
       "properties": {
         "id": 778206502,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cendana",
         "name:en": "Cendana Avenue",
         "oneway": "yes",
+        "ref": "2072",
+        "reg_ref": "22-10-2072",
         "surface": "asphalt",
         "turn:lanes": "left;merge_to_right|through;right"
       }
@@ -2756,12 +2765,13 @@
       },
       "properties": {
         "id": 1072146130,
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
         "oneway": "yes",
-        "ref": "380",
+        "ref": "2228",
+        "reg_ref": "22-10-2228",
         "surface": "asphalt"
       }
     },
@@ -2782,11 +2792,13 @@
       },
       "properties": {
         "id": 1111809091,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Cendana",
         "name:en": "Cendana Avenue",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "2072",
+        "reg_ref": "22-10-2072"
       }
     },
     {

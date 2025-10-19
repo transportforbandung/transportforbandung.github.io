@@ -389,7 +389,9 @@
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -657,7 +659,9 @@
         "lanes": "1",
         "layer": "1",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -717,7 +721,9 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -913,7 +919,8 @@
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
         "surface": "asphalt",
-        "turn:lanes": "slight_left|slight_left|slight_right|slight_right"
+        "turn:lanes": "slight_left|slight_left|slight_right|slight_right",
+        "width": "8"
       }
     },
     {
@@ -1177,7 +1184,9 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -1218,32 +1227,32 @@
             -6.9143036
           ],
           [
-            107.6634055,
-            -6.9143641
+            107.6634142,
+            -6.9143654
           ],
           [
-            107.6643095,
-            -6.9145594
+            107.6642844,
+            -6.9145554
           ],
           [
-            107.6649796,
-            -6.9147042
+            107.6649776,
+            -6.9147095
           ],
           [
-            107.6652736,
-            -6.9147678
+            107.6652877,
+            -6.9147798
           ],
           [
-            107.665708,
-            -6.9148616
+            107.6656939,
+            -6.9148769
           ],
           [
-            107.6659517,
-            -6.9149143
+            107.6658934,
+            -6.914921
           ],
           [
-            107.6660796,
-            -6.9149419
+            107.6660541,
+            -6.9149565
           ]
         ]
       },
@@ -1253,7 +1262,10 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "width": "5"
       }
     },
     {
@@ -1283,7 +1295,9 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -1512,7 +1526,9 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -1600,7 +1616,9 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -1642,7 +1660,8 @@
         "name": "Jalan H. Ibrahim Adjie",
         "note": "Cicadas",
         "old_name": "Jalan Kiaracondong",
-        "oneway": "yes"
+        "oneway": "yes",
+        "width": "8"
       }
     },
     {
@@ -1668,7 +1687,9 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -1708,7 +1729,9 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -1961,7 +1984,9 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -1970,12 +1995,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6662193,
-            -6.9150155
+            107.6662159,
+            -6.9150301
           ],
           [
-            107.6660565,
-            -6.9150119
+            107.6660397,
+            -6.9150232
           ]
         ]
       },
@@ -1984,7 +2009,10 @@
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "width": "5"
       }
     },
     {
@@ -1993,12 +2021,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6660796,
-            -6.9149419
+            107.6660541,
+            -6.9149565
           ],
           [
-            107.6662193,
-            -6.9150155
+            107.6662159,
+            -6.9150301
           ]
         ]
       },
@@ -2008,7 +2036,10 @@
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "width": "5"
       }
     },
     {
@@ -2197,7 +2228,9 @@
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836"
       }
     },
     {
@@ -2619,20 +2652,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6660565,
-            -6.9150119
+            107.6660397,
+            -6.9150232
           ],
           [
-            107.6659741,
-            -6.9149942
-          ],
-          [
-            107.6659119,
-            -6.9149808
-          ],
-          [
-            107.6658807,
-            -6.9149741
+            107.6658787,
+            -6.9149864
           ]
         ]
       },
@@ -2641,7 +2666,10 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Jakarta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
+        "width": "5"
       }
     },
     {

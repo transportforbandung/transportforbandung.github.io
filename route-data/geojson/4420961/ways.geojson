@@ -415,6 +415,8 @@
       },
       "properties": {
         "id": 125813777,
+        "destination:backward": "Babakan Radio;Cimindi;Cibabat;Cimahi",
+        "destination:forward": "Mentor;Husein Sastranegara;Surya Sumantri;Djundjunan",
         "highway": "secondary",
         "lanes": "2",
         "maxspeed": "40",
@@ -499,6 +501,10 @@
           [
             107.5721625,
             -6.8905452
+          ],
+          [
+            107.5721993,
+            -6.8907689
           ],
           [
             107.572217,
@@ -591,13 +597,17 @@
       },
       "properties": {
         "id": 125813784,
+        "destination:backward": "Mentor;Husein Sastranegara;Surya Sumantri;Cimindi",
+        "destination:forward": "Rancabali;Babakan Loa;Cidamar;Budi",
         "highway": "tertiary",
         "lanes": "2",
         "motorcar": "yes",
         "motorcycle": "yes",
-        "name": "Gunung Batu",
+        "name": "Overpass Gunung Batu",
         "smoothness": "good",
         "surface": "asphalt",
+        "turn:lanes:backward": "left;right",
+        "turn:lanes:forward": "left;right",
         "width": "6"
       }
     },
@@ -935,12 +945,13 @@
         "id": 247058985,
         "alt_name": "Jalan Dokter Tjipto Mangoenkoesoemo",
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dokter Cipto Mangunkusumo",
+        "name": "Jalan dr. Cipto",
         "official_name": "Jalan Dokter Cipto",
         "oneway": "yes",
-        "short_name": "Jalan Dr. Cipto",
+        "ref": "1066",
+        "reg_ref": "22-10-1066",
         "surface": "asphalt"
       }
     },
@@ -1006,9 +1017,10 @@
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dokter Abdul Rivai",
-        "official_name": "Jalan Abdul Rivai",
+        "name": "Jalan Abdul Rivai",
         "oneway": "yes",
+        "ref": "11111",
+        "reg_ref": "22-10-11111",
         "short_name": "Jalan Dr. Abdul Rivai",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
@@ -1513,14 +1525,18 @@
       "properties": {
         "id": 318670693,
         "bridge": "yes",
+        "destination:backward": "Rancabali;Babakan Loa;Cidamar;Budi",
+        "destination:forward": "Mentor;Husein Sastranegara;Surya Sumantri;Cimindi",
         "highway": "tertiary",
         "lanes": "2",
         "layer": "1",
         "motorcar": "yes",
         "motorcycle": "yes",
-        "name": "Gunung Batu",
+        "name": "Overpass Gunung Batu",
         "smoothness": "good",
         "surface": "asphalt",
+        "turn:lanes:backward": "left;right",
+        "turn:lanes:forward": "left;right",
         "width": "6"
       }
     },
@@ -1817,6 +1833,8 @@
         "lanes": "1",
         "name": "Jalan Abdul Rivai",
         "oneway": "yes",
+        "ref": "11111",
+        "reg_ref": "22-10-11111",
         "surface": "asphalt",
         "width": "6"
       }
@@ -2114,13 +2132,17 @@
       },
       "properties": {
         "id": 571897522,
+        "destination:backward": "Rancabali;Babakan Loa;Cidamar;Budi",
+        "destination:forward": "Mentor;Husein Sastranegara;Surya Sumantri;Cimindi",
         "highway": "tertiary",
         "lanes": "2",
         "motorcar": "yes",
         "motorcycle": "yes",
-        "name": "Gunung Batu",
+        "name": "Overpass Gunung Batu",
         "smoothness": "good",
         "surface": "asphalt",
+        "turn:lanes:backward": "left;right",
+        "turn:lanes:forward": "left;right",
         "width": "6"
       }
     },
@@ -2639,11 +2661,13 @@
         "avgspeed": "20",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "primary",
         "junction": "roundabout",
         "lanes": "1",
-        "name": "Bunderan Radjiman",
+        "name": "Bundaran Rajiman",
         "oneway": "yes",
+        "ref": "1256",
+        "reg_ref": "22-10-1256",
         "surface": "asphalt"
       }
     },
@@ -2687,11 +2711,13 @@
         "avgspeed": "20",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "primary",
         "junction": "roundabout",
         "lanes": "1",
-        "name": "Bunderan Radjiman",
+        "name": "Bundaran Rajiman",
         "oneway": "yes",
+        "ref": "1256",
+        "reg_ref": "22-10-1256",
         "surface": "asphalt"
       }
     },
@@ -2840,12 +2866,13 @@
         "id": 1383511970,
         "alt_name": "Jalan Dokter Tjipto Mangoenkoesoemo",
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dokter Cipto Mangunkusumo",
+        "name": "Jalan dr. Cipto",
         "official_name": "Jalan Dokter Cipto",
         "oneway": "yes",
-        "short_name": "Jalan Dr. Cipto",
+        "ref": "1066",
+        "reg_ref": "22-10-1066",
         "surface": "asphalt"
       }
     },

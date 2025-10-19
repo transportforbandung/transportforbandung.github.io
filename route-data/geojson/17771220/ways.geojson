@@ -78,7 +78,7 @@
         "avgspeed": "15",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Dokter Cipto Mangunkusumo",
+        "name": "Jalan dr. Cipto",
         "official_name": "Jalan Dokter Cipto",
         "oneway": "yes",
         "short_name": "Jalan Dr. Cipto",
@@ -192,6 +192,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -228,6 +229,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -273,8 +275,8 @@
             -6.8747745
           ],
           [
-            107.5958548,
-            -6.8743285
+            107.5958725,
+            -6.8743267
           ],
           [
             107.5958215,
@@ -293,7 +295,8 @@
         "name": "Jalan Sukajadi",
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
-        "ref": "249"
+        "ref": "249",
+        "reg_ref": "22-00-249-12K"
       }
     },
     {
@@ -390,6 +393,7 @@
         "name": "Jalan Sukajadi",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -462,6 +466,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -665,6 +670,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -808,8 +814,8 @@
             -6.9349871
           ],
           [
-            107.5957871,
-            -6.9351264
+            107.5957332,
+            -6.9353237
           ],
           [
             107.5956715,
@@ -1011,14 +1017,13 @@
       },
       "properties": {
         "id": 318054785,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -1236,6 +1241,7 @@
         "name": "Jalan Sukajadi",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -1262,7 +1268,7 @@
         "lanes": "2",
         "name": "Jalan Sukajadi",
         "oneway": "yes",
-        "ref": "249",
+        "ref": "249-12K",
         "surface": "asphalt"
       }
     },
@@ -1577,6 +1583,7 @@
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "ref": "106",
+        "reg_ref": "22-00-106-11K",
         "surface": "asphalt"
       }
     },
@@ -1835,6 +1842,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -1915,6 +1923,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -1971,6 +1980,7 @@
         "name": "Jalan Sukajadi",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -2013,6 +2023,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -2269,6 +2280,7 @@
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "oneway": "yes",
         "ref": "106",
+        "reg_ref": "22-00-106-11K",
         "surface": "asphalt"
       }
     },
@@ -2333,6 +2345,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -2344,6 +2357,10 @@
           [
             107.5940961,
             -6.8651081
+          ],
+          [
+            107.5940723,
+            -6.8653071
           ],
           [
             107.5940489,
@@ -2457,15 +2474,14 @@
       },
       "properties": {
         "id": 708711416,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "40",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "surface": "asphalt"
       }
     },
@@ -2528,6 +2544,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -2679,14 +2696,13 @@
       },
       "properties": {
         "id": 1030698154,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -2708,14 +2724,13 @@
       },
       "properties": {
         "id": 1030698156,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -2757,14 +2772,13 @@
       },
       "properties": {
         "id": 1030698160,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "sidewalk:left": "no",
         "sidewalk:right": "separate",
         "smoothness": "excellent",
@@ -3076,6 +3090,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -3110,6 +3125,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -3173,11 +3189,13 @@
         "avgspeed": "20",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "primary",
         "junction": "roundabout",
         "lanes": "1",
-        "name": "Bunderan Radjiman",
+        "name": "Bundaran Rajiman",
         "oneway": "yes",
+        "ref": "1256",
+        "reg_ref": "22-10-1256",
         "surface": "asphalt"
       }
     },
@@ -3221,11 +3239,13 @@
         "avgspeed": "20",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "primary",
         "junction": "roundabout",
         "lanes": "1",
-        "name": "Bunderan Radjiman",
+        "name": "Bundaran Rajiman",
         "oneway": "yes",
+        "ref": "1256",
+        "reg_ref": "22-10-1256",
         "surface": "asphalt"
       }
     },
@@ -3306,14 +3326,13 @@
       },
       "properties": {
         "id": 1223297639,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "surface": "asphalt"
       }
     },
@@ -3371,6 +3390,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -3391,14 +3411,13 @@
       },
       "properties": {
         "id": 1228093028,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "reg_ref": "22-00-249-13K"
       }
     },
     {
@@ -3486,14 +3505,13 @@
       },
       "properties": {
         "id": 1258718409,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -3523,14 +3541,13 @@
       },
       "properties": {
         "id": 1258718410,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -3752,6 +3769,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -3778,6 +3796,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -3810,14 +3829,13 @@
       },
       "properties": {
         "id": 1429001950,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -3847,15 +3865,14 @@
       },
       "properties": {
         "id": 1429001951,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "40",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "surface": "asphalt"
       }
     }

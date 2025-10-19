@@ -130,7 +130,8 @@
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "oneway": "no",
-        "ref": "106"
+        "ref": "106",
+        "reg_ref": "22-00-106-11K"
       }
     },
     {
@@ -4269,7 +4270,7 @@
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "oneway": "yes",
-        "ref": "106",
+        "ref": "106-11K",
         "turn:lanes": "through|through;right"
       }
     },
@@ -4296,6 +4297,7 @@
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "oneway": "yes",
         "ref": "106",
+        "reg_ref": "22-00-106-11K",
         "turn:lanes": "through|through|right"
       }
     },
@@ -4326,6 +4328,7 @@
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "oneway": "yes",
         "ref": "106",
+        "reg_ref": "22-00-106-11K",
         "turn:lanes:forward": "through|through;right"
       }
     },
@@ -4650,7 +4653,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Raya Bandung - Soreang",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "106-1"
       }
     }
   ]

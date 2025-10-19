@@ -91,6 +91,10 @@
             -6.9507744
           ],
           [
+            107.6411086,
+            -6.9509235
+          ],
+          [
             107.6411061,
             -6.9509404
           ],
@@ -121,6 +125,14 @@
           [
             107.6405149,
             -6.9530277
+          ],
+          [
+            107.6403008,
+            -6.9537889
+          ],
+          [
+            107.640295,
+            -6.9538094
           ],
           [
             107.640232,
@@ -159,6 +171,10 @@
           [
             107.6785249,
             -6.9643262
+          ],
+          [
+            107.6787251,
+            -6.9643632
           ],
           [
             107.6789253,
@@ -746,6 +762,7 @@
         "name": "Jalan Sentot Alibasyah",
         "oneway": "yes",
         "ref": "387",
+        "reg_ref": "22-00-387-12K",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -904,6 +921,7 @@
         "name": "Jalan Sentot Alibasyah",
         "oneway": "yes",
         "ref": "387",
+        "reg_ref": "22-00-387-12K",
         "surface": "asphalt"
       }
     },
@@ -1141,13 +1159,14 @@
         "id": 321085761,
         "cycleway:both": "no",
         "destination:lanes": "Riau;Aceh;Gandapura|Cilaki;Katamso;Cisadea",
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
         "oneway": "yes",
         "parking:both": "no",
-        "ref": "380",
+        "ref": "2228",
+        "reg_ref": "22-10-2228",
         "sidewalk": "both",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_right"
@@ -1448,6 +1467,7 @@
         "name": "Jalan Sentot Alibasyah",
         "oneway": "yes",
         "ref": "387",
+        "reg_ref": "22-00-387-12K",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -1487,7 +1507,9 @@
         "lanes": "2",
         "name": "Jalan Sentot Alibasyah",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "387",
+        "reg_ref": "22-00-387-12K",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -1803,12 +1825,13 @@
       "properties": {
         "id": 618039504,
         "cycleway:both": "no",
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
         "oneway": "yes",
-        "ref": "380",
+        "ref": "2228",
+        "reg_ref": "22-10-2228",
         "smoothness": "good",
         "surface": "asphalt"
       }
@@ -2480,6 +2503,7 @@
         "lanes": "2",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
@@ -3106,12 +3130,13 @@
       },
       "properties": {
         "id": 1072146130,
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
         "oneway": "yes",
-        "ref": "380",
+        "ref": "2228",
+        "reg_ref": "22-10-2228",
         "surface": "asphalt"
       }
     },
@@ -3165,7 +3190,9 @@
         "lanes": "2",
         "name": "Jalan Sentot Alibasyah",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "387",
+        "reg_ref": "22-00-387-12K",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -4441,6 +4468,7 @@
         "name": "Jalan Sentot Alibasyah",
         "oneway": "yes",
         "ref": "387",
+        "reg_ref": "22-00-387-12K",
         "surface": "asphalt"
       }
     },

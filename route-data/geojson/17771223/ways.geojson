@@ -222,7 +222,8 @@
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "oneway": "no",
-        "ref": "106"
+        "ref": "106",
+        "reg_ref": "22-00-106-11K"
       }
     },
     {
@@ -936,6 +937,10 @@
             -6.9131835
           ],
           [
+            107.6940118,
+            -6.9131572
+          ],
+          [
             107.6939237,
             -6.9131308
           ],
@@ -1443,6 +1448,7 @@
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "ref": "106",
+        "reg_ref": "22-00-106-11K",
         "surface": "asphalt"
       }
     },
@@ -1844,7 +1850,8 @@
         "name": "Jalan H. Ibrahim Adjie",
         "note": "Cicadas",
         "old_name": "Jalan Kiaracondong",
-        "oneway": "yes"
+        "oneway": "yes",
+        "width": "8"
       }
     },
     {
@@ -6207,7 +6214,7 @@
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "oneway": "yes",
-        "ref": "106",
+        "ref": "106-11K",
         "turn:lanes": "through|through;right"
       }
     },

@@ -139,6 +139,7 @@
         "lanes": "4",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -430,7 +431,8 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dayeuhkolot"
+        "name": "Jalan Dayeuhkolot",
+        "ref": "161-12K"
       }
     },
     {
@@ -1169,6 +1171,7 @@
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk": "left",
         "surface": "asphalt"
       }
@@ -1349,6 +1352,7 @@
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -1453,6 +1457,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -1672,6 +1677,7 @@
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "ref": "106",
+        "reg_ref": "22-00-106-11K",
         "surface": "asphalt"
       }
     },
@@ -1865,6 +1871,7 @@
         "lit": "no",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk": "no",
         "smoothness": "good",
         "surface": "asphalt"
@@ -2873,6 +2880,7 @@
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -2910,6 +2918,7 @@
         "oneway": "yes",
         "parking:both": "no",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -3546,6 +3555,7 @@
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "oneway": "yes",
         "ref": "106",
+        "reg_ref": "22-00-106-11K",
         "surface": "asphalt"
       }
     },
@@ -3945,6 +3955,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt",
         "turn:lanes:forward": "through|right"
       }
@@ -3991,6 +4002,7 @@
         "lit": "no",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk": "no",
         "surface": "asphalt",
         "turn:lanes:forward": "slight_left;through|through;right"
@@ -4492,6 +4504,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt",
         "turn:lanes:backward": "through|through|right"
       }
@@ -4535,6 +4548,7 @@
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -4832,7 +4846,8 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dayeuhkolot"
+        "name": "Jalan Dayeuhkolot",
+        "ref": "161-12K"
       }
     },
     {
@@ -5074,6 +5089,7 @@
         "parking:left:orientation": "parallel",
         "parking:right": "no",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk:both": "separate",
         "smoothness": "excellent",
         "surface": "asphalt"
@@ -5123,10 +5139,6 @@
           [
             107.613571,
             -6.9607329
-          ],
-          [
-            107.6135242,
-            -6.9605935
           ]
         ]
       },
@@ -5135,7 +5147,8 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "4",
-        "name": "Jalan Mohammad Toha",
+        "name": "Jalan Dayeuhkolot",
+        "ref": "161-12K",
         "surface": "asphalt"
       }
     },
@@ -5206,6 +5219,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -5301,6 +5315,7 @@
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -5326,6 +5341,7 @@
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -5352,6 +5368,7 @@
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -6461,6 +6478,32 @@
         "oneway": "no",
         "ref": "365",
         "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.613571,
+            -6.9607329
+          ],
+          [
+            107.6135242,
+            -6.9605935
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1436608601,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Mohammad Toha",
+        "ref": "161",
+        "reg_ref": "22-00-161-11K",
+        "surface": "asphalt"
       }
     }
   ]

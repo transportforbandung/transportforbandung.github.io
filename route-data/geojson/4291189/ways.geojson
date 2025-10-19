@@ -11,12 +11,20 @@
             -6.8850612
           ],
           [
+            107.6044348,
+            -6.8853378
+          ],
+          [
             107.6043521,
             -6.8856962
           ],
           [
-            107.6042445,
-            -6.8861428
+            107.6043346,
+            -6.8857678
+          ],
+          [
+            107.6042485,
+            -6.8861202
           ],
           [
             107.6042203,
@@ -447,10 +455,12 @@
       "properties": {
         "id": 4698220,
         "avgspeed": "30",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "surface": "asphalt"
       }
     },
@@ -531,11 +541,13 @@
         "id": 4910295,
         "avgspeed": "30",
         "cycleway:both": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "smoothness": "good",
         "surface": "asphalt"
@@ -669,6 +681,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt",
         "turn:lanes": "slight_left"
       }
@@ -724,10 +737,12 @@
       },
       "properties": {
         "id": 153306178,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Cihampelas",
+        "name": "Jalan Siliwangi",
         "oneway": "yes",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "surface": "asphalt"
       }
     },
@@ -737,20 +752,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6167242,
-            -6.8991759
+            107.6167125,
+            -6.8991863
           ],
           [
-            107.6166693,
-            -6.899167
+            107.6166576,
+            -6.8991786
           ],
           [
-            107.6163732,
-            -6.8991191
+            107.616386,
+            -6.8991446
           ],
           [
-            107.6161732,
-            -6.8991101
+            107.6161849,
+            -6.8991228
           ]
         ]
       },
@@ -890,11 +905,13 @@
         "bicycle": "yes",
         "cycleway:both": "no",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "no",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "sidewalk": "both",
         "smoothness": "good",
         "surface": "asphalt"
@@ -997,8 +1014,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6161732,
-            -6.8991101
+            107.6161849,
+            -6.8991228
           ],
           [
             107.6158534,
@@ -1048,6 +1065,10 @@
             -6.884589
           ],
           [
+            107.6045738,
+            -6.8847525
+          ],
+          [
             107.6045446,
             -6.8848576
           ],
@@ -1088,11 +1109,13 @@
         "bicycle": "yes",
         "bridge": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Siliwangi",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "source": "S2City_POI_2022",
         "surface": "asphalt"
       }
@@ -1123,24 +1146,24 @@
             -6.8846722
           ],
           [
-            107.6068233,
-            -6.8846722
+            107.6068454,
+            -6.8846748
           ],
           [
-            107.6067555,
-            -6.8846502
+            107.6067435,
+            -6.8846483
           ],
           [
-            107.6065449,
-            -6.8845256
+            107.6065328,
+            -6.8845462
           ],
           [
             107.6062473,
             -6.8843143
           ],
           [
-            107.6060982,
-            -6.8841856
+            107.6061478,
+            -6.8842309
           ],
           [
             107.6058912,
@@ -1165,9 +1188,11 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "surface": "asphalt"
       }
     },
@@ -1385,11 +1410,13 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "smoothness": "good",
@@ -1511,6 +1538,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -1871,11 +1899,13 @@
         "id": 318054780,
         "avgspeed": "20",
         "cycleway:both": "no",
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumur Bandung",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2361",
+        "reg_ref": "22-10-2361",
         "sidewalk:both": "separate",
         "smoothness": "intermediate",
         "surface": "asphalt"
@@ -2582,12 +2612,12 @@
             -6.9017541
           ],
           [
-            107.6503187,
-            -6.90177
+            107.650317,
+            -6.9017942
           ],
           [
-            107.6506002,
-            -6.9017916
+            107.6505985,
+            -6.9018158
           ],
           [
             107.65075,
@@ -3083,12 +3113,12 @@
             -6.8993298
           ],
           [
-            107.6168185,
-            -6.899178
+            107.6168232,
+            -6.8991861
           ],
           [
-            107.6167242,
-            -6.8991759
+            107.6167125,
+            -6.8991863
           ]
         ]
       },
@@ -3433,8 +3463,8 @@
             -6.9070897
           ],
           [
-            107.5911055,
-            -6.9071009
+            107.5911224,
+            -6.9070825
           ]
         ]
       },
@@ -3558,10 +3588,6 @@
           [
             107.6539164,
             -6.9020071
-          ],
-          [
-            107.6536878,
-            -6.9019865
           ],
           [
             107.6536574,
@@ -4028,11 +4054,13 @@
       "properties": {
         "id": 826455952,
         "cycleway:both": "no",
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Sumur Bandung",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2361",
+        "reg_ref": "22-10-2361",
         "sidewalk:left": "yes",
         "sidewalk:right": "separate",
         "surface": "asphalt"
@@ -4156,6 +4184,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -4252,8 +4281,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5911055,
-            -6.9071009
+            107.5911224,
+            -6.9070825
           ],
           [
             107.5910022,
@@ -4459,6 +4488,7 @@
         "name": "Jalan Pasir Kaliki",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-11K",
         "surface": "asphalt"
       }
     },
@@ -4848,11 +4878,13 @@
       "properties": {
         "id": 1220953660,
         "avgspeed": "30",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"

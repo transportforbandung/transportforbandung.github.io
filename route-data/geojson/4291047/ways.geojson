@@ -19,6 +19,10 @@
             -6.899475
           ],
           [
+            107.6099669,
+            -6.899504
+          ],
+          [
             107.6099959,
             -6.899509
           ],
@@ -69,10 +73,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sulanjana",
         "oneway": "no",
+        "ref": "2354",
+        "reg_ref": "22-10-2354",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -87,12 +93,20 @@
             -6.8850612
           ],
           [
+            107.6044348,
+            -6.8853378
+          ],
+          [
             107.6043521,
             -6.8856962
           ],
           [
-            107.6042445,
-            -6.8861428
+            107.6043346,
+            -6.8857678
+          ],
+          [
+            107.6042485,
+            -6.8861202
           ],
           [
             107.6042203,
@@ -230,6 +244,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -275,8 +290,8 @@
             -6.8747745
           ],
           [
-            107.5958548,
-            -6.8743285
+            107.5958725,
+            -6.8743267
           ],
           [
             107.5958215,
@@ -295,7 +310,8 @@
         "name": "Jalan Sukajadi",
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
-        "ref": "249"
+        "ref": "249",
+        "reg_ref": "22-00-249-12K"
       }
     },
     {
@@ -436,8 +452,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -822,10 +840,12 @@
       "properties": {
         "id": 4698220,
         "avgspeed": "30",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "surface": "asphalt"
       }
     },
@@ -872,11 +892,13 @@
         "id": 4910295,
         "avgspeed": "30",
         "cycleway:both": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "smoothness": "good",
         "surface": "asphalt"
@@ -972,6 +994,7 @@
         "name": "Jalan Sukajadi",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -1044,6 +1067,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -1064,10 +1088,12 @@
       },
       "properties": {
         "id": 153306178,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Cihampelas",
+        "name": "Jalan Siliwangi",
         "oneway": "yes",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "surface": "asphalt"
       }
     },
@@ -1093,8 +1119,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -1122,7 +1150,9 @@
         "avgspeed": "30",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "truck": "no"
       }
     },
@@ -1223,11 +1253,13 @@
         "bicycle": "yes",
         "cycleway:both": "no",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "no",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "sidewalk": "both",
         "smoothness": "good",
         "surface": "asphalt"
@@ -1335,6 +1367,10 @@
             -6.884589
           ],
           [
+            107.6045738,
+            -6.8847525
+          ],
+          [
             107.6045446,
             -6.8848576
           ],
@@ -1375,11 +1411,13 @@
         "bicycle": "yes",
         "bridge": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Siliwangi",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "source": "S2City_POI_2022",
         "surface": "asphalt"
       }
@@ -1410,24 +1448,24 @@
             -6.8846722
           ],
           [
-            107.6068233,
-            -6.8846722
+            107.6068454,
+            -6.8846748
           ],
           [
-            107.6067555,
-            -6.8846502
+            107.6067435,
+            -6.8846483
           ],
           [
-            107.6065449,
-            -6.8845256
+            107.6065328,
+            -6.8845462
           ],
           [
             107.6062473,
             -6.8843143
           ],
           [
-            107.6060982,
-            -6.8841856
+            107.6061478,
+            -6.8842309
           ],
           [
             107.6058912,
@@ -1452,9 +1490,11 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "surface": "asphalt"
       }
     },
@@ -1672,6 +1712,7 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "parking:both": "no",
         "ref": "381",
         "sidewalk:both": "separate",
         "surface": "asphalt"
@@ -1862,14 +1903,13 @@
       },
       "properties": {
         "id": 318054785,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -1918,6 +1958,7 @@
         "name": "Jalan Sukajadi",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -1977,7 +2018,7 @@
         "lanes": "2",
         "name": "Jalan Sukajadi",
         "oneway": "yes",
-        "ref": "249",
+        "ref": "249-12K",
         "surface": "asphalt"
       }
     },
@@ -2150,12 +2191,12 @@
             -6.9017541
           ],
           [
-            107.6503187,
-            -6.90177
+            107.650317,
+            -6.9017942
           ],
           [
-            107.6506002,
-            -6.9017916
+            107.6505985,
+            -6.9018158
           ],
           [
             107.65075,
@@ -2395,6 +2436,7 @@
         "name": "Jalan Sukajadi",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -2424,6 +2466,7 @@
         "lanes": "2",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
@@ -2507,10 +2550,6 @@
           [
             107.6539164,
             -6.9020071
-          ],
-          [
-            107.6536878,
-            -6.9019865
           ],
           [
             107.6536574,
@@ -2682,7 +2721,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -2716,7 +2757,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -2729,6 +2772,10 @@
           [
             107.5940961,
             -6.8651081
+          ],
+          [
+            107.5940723,
+            -6.8653071
           ],
           [
             107.5940489,
@@ -2842,15 +2889,14 @@
       },
       "properties": {
         "id": 708711416,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "40",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "surface": "asphalt"
       }
     },
@@ -2914,6 +2960,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -2976,7 +3023,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -3002,6 +3051,7 @@
         "lanes": "2",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
@@ -3047,6 +3097,7 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "yes",
         "sidewalk:right": "separate",
@@ -3101,14 +3152,13 @@
       },
       "properties": {
         "id": 1030698154,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -3130,14 +3180,13 @@
       },
       "properties": {
         "id": 1030698156,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -3179,14 +3228,13 @@
       },
       "properties": {
         "id": 1030698160,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "sidewalk:left": "no",
         "sidewalk:right": "separate",
         "smoothness": "excellent",
@@ -3215,8 +3263,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "parking:both": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -3289,7 +3339,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari"
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380"
       }
     },
     {
@@ -3342,9 +3394,11 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk:left": "separate",
         "sidewalk:right": "yes",
         "smoothness": "good",
@@ -3395,6 +3449,9 @@
         "highway": "secondary",
         "junction": "roundabout",
         "lanes": "2",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -3438,6 +3495,9 @@
         "highway": "secondary",
         "junction": "roundabout",
         "lanes": "2",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -3479,7 +3539,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari"
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380"
       }
     },
     {
@@ -3512,7 +3574,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -3709,8 +3773,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "yes",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -3793,6 +3859,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -3827,6 +3894,7 @@
         "note": "trial for bi-direction will last until 23 Nov 2023",
         "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-12K",
         "surface": "asphalt"
       }
     },
@@ -3856,11 +3924,13 @@
       "properties": {
         "id": 1220953660,
         "avgspeed": "30",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -3970,14 +4040,13 @@
       },
       "properties": {
         "id": 1223297639,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "surface": "asphalt"
       }
     },
@@ -4025,14 +4094,13 @@
       },
       "properties": {
         "id": 1228093028,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "reg_ref": "22-00-249-13K"
       }
     },
     {
@@ -4137,7 +4205,9 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "surface": "asphalt"
       }
     },
@@ -4181,6 +4251,10 @@
           [
             107.6095485,
             -6.896363
+          ],
+          [
+            107.6095093,
+            -6.8962232
           ],
           [
             107.6094951,
@@ -4255,8 +4329,10 @@
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -4282,14 +4358,13 @@
       },
       "properties": {
         "id": 1258718409,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -4319,14 +4394,13 @@
       },
       "properties": {
         "id": 1258718410,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -4479,14 +4553,13 @@
       },
       "properties": {
         "id": 1429001950,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -4516,15 +4589,14 @@
       },
       "properties": {
         "id": 1429001951,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "40",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "surface": "asphalt"
       }
     },

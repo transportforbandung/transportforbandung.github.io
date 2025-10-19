@@ -498,6 +498,8 @@
       },
       "properties": {
         "id": 125813777,
+        "destination:backward": "Babakan Radio;Cimindi;Cibabat;Cimahi",
+        "destination:forward": "Mentor;Husein Sastranegara;Surya Sumantri;Djundjunan",
         "highway": "secondary",
         "lanes": "2",
         "maxspeed": "40",
@@ -582,6 +584,10 @@
           [
             107.5721625,
             -6.8905452
+          ],
+          [
+            107.5721993,
+            -6.8907689
           ],
           [
             107.572217,
@@ -674,13 +680,17 @@
       },
       "properties": {
         "id": 125813784,
+        "destination:backward": "Mentor;Husein Sastranegara;Surya Sumantri;Cimindi",
+        "destination:forward": "Rancabali;Babakan Loa;Cidamar;Budi",
         "highway": "tertiary",
         "lanes": "2",
         "motorcar": "yes",
         "motorcycle": "yes",
-        "name": "Gunung Batu",
+        "name": "Overpass Gunung Batu",
         "smoothness": "good",
         "surface": "asphalt",
+        "turn:lanes:backward": "left;right",
+        "turn:lanes:forward": "left;right",
         "width": "6"
       }
     },
@@ -1190,14 +1200,18 @@
       "properties": {
         "id": 318670693,
         "bridge": "yes",
+        "destination:backward": "Rancabali;Babakan Loa;Cidamar;Budi",
+        "destination:forward": "Mentor;Husein Sastranegara;Surya Sumantri;Cimindi",
         "highway": "tertiary",
         "lanes": "2",
         "layer": "1",
         "motorcar": "yes",
         "motorcycle": "yes",
-        "name": "Gunung Batu",
+        "name": "Overpass Gunung Batu",
         "smoothness": "good",
         "surface": "asphalt",
+        "turn:lanes:backward": "left;right",
+        "turn:lanes:forward": "left;right",
         "width": "6"
       }
     },
@@ -1893,13 +1907,17 @@
       },
       "properties": {
         "id": 571897522,
+        "destination:backward": "Rancabali;Babakan Loa;Cidamar;Budi",
+        "destination:forward": "Mentor;Husein Sastranegara;Surya Sumantri;Cimindi",
         "highway": "tertiary",
         "lanes": "2",
         "motorcar": "yes",
         "motorcycle": "yes",
-        "name": "Gunung Batu",
+        "name": "Overpass Gunung Batu",
         "smoothness": "good",
         "surface": "asphalt",
+        "turn:lanes:backward": "left;right",
+        "turn:lanes:forward": "left;right",
         "width": "6"
       }
     },
@@ -2668,9 +2686,13 @@
       },
       "properties": {
         "id": 1200669553,
-        "highway": "secondary_link",
-        "name": "Jalan Surya Sumantri",
-        "oneway": "yes"
+        "alt_name": "Jalan Surya Sumantri",
+        "highway": "primary",
+        "name": "Jalan Prof. Dr. Surya Soemantri",
+        "oneway": "yes",
+        "ref": "1367",
+        "reg_ref": "22-10-1367",
+        "short_name": "Jalan Surya Soemantri"
       }
     },
     {

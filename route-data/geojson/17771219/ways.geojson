@@ -831,8 +831,8 @@
             -6.9349871
           ],
           [
-            107.5957871,
-            -6.9351264
+            107.5957332,
+            -6.9353237
           ],
           [
             107.5956715,
@@ -1167,7 +1167,8 @@
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
         "surface": "asphalt",
-        "turn:lanes": "slight_left|slight_left|slight_right|slight_right"
+        "turn:lanes": "slight_left|slight_left|slight_right|slight_right",
+        "width": "8"
       }
     },
     {
@@ -1316,6 +1317,10 @@
           [
             107.6940999,
             -6.9131835
+          ],
+          [
+            107.6940118,
+            -6.9131572
           ],
           [
             107.6939237,
@@ -1820,6 +1825,7 @@
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "ref": "106",
+        "reg_ref": "22-00-106-11K",
         "surface": "asphalt"
       }
     },
@@ -3595,6 +3601,7 @@
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "oneway": "yes",
         "ref": "106",
+        "reg_ref": "22-00-106-11K",
         "surface": "asphalt"
       }
     },
@@ -3729,6 +3736,10 @@
             -6.9204361
           ],
           [
+            107.6128066,
+            -6.9202245
+          ],
+          [
             107.6127241,
             -6.9202078
           ],
@@ -3818,7 +3829,8 @@
         "id": 955507617,
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Naripan"
+        "name": "Jalan Naripan",
+        "surface": "asphalt"
       }
     },
     {

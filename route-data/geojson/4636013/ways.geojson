@@ -34,10 +34,12 @@
         "avgspeed": "30",
         "cycleway": "lane",
         "cycleway:lane": "exclusive",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
         "oneway": "yes",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -111,12 +113,20 @@
             -6.8850612
           ],
           [
+            107.6044348,
+            -6.8853378
+          ],
+          [
             107.6043521,
             -6.8856962
           ],
           [
-            107.6042445,
-            -6.8861428
+            107.6043346,
+            -6.8857678
+          ],
+          [
+            107.6042485,
+            -6.8861202
           ],
           [
             107.6042203,
@@ -261,26 +271,25 @@
             -6.8827404
           ],
           [
-            107.6013396,
-            -6.8827423
+            107.6013166,
+            -6.8827564
           ],
           [
-            107.6014504,
-            -6.8827476
+            107.601438,
+            -6.882774
           ]
         ]
       },
       "properties": {
         "id": 4698221,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "3",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
-        "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "ref": "2340",
+        "reg_ref": "22-10-2340"
       }
     },
     {
@@ -486,15 +495,14 @@
       },
       "properties": {
         "id": 153284261,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
-        "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "ref": "2340",
+        "reg_ref": "22-10-2340",
         "surface": "asphalt"
       }
     },
@@ -1075,14 +1083,13 @@
       },
       "properties": {
         "id": 223676585,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "surface": "asphalt"
       }
     },
@@ -1571,15 +1578,14 @@
       },
       "properties": {
         "id": 318054784,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
-        "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "ref": "2340",
+        "reg_ref": "22-10-2340",
         "surface": "asphalt"
       }
     },
@@ -1732,14 +1738,13 @@
       },
       "properties": {
         "id": 318054785,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -1750,16 +1755,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6014504,
-            -6.8827476
+            107.601438,
+            -6.882774
           ],
           [
-            107.6015675,
-            -6.8827616
+            107.6015569,
+            -6.8827985
           ],
           [
-            107.6017325,
-            -6.8827949
+            107.6017237,
+            -6.8828213
           ],
           [
             107.6021029,
@@ -1829,15 +1834,14 @@
       },
       "properties": {
         "id": 318102560,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
-        "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "ref": "2340",
+        "reg_ref": "22-10-2340"
       }
     },
     {
@@ -2525,6 +2529,10 @@
             -6.8651081
           ],
           [
+            107.5940723,
+            -6.8653071
+          ],
+          [
             107.5940489,
             -6.8655021
           ],
@@ -2636,15 +2644,14 @@
       },
       "properties": {
         "id": 708711416,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "40",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "surface": "asphalt"
       }
     },
@@ -2903,14 +2910,13 @@
       },
       "properties": {
         "id": 1030698156,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -3037,14 +3043,13 @@
       },
       "properties": {
         "id": 1112114707,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "surface": "asphalt"
       }
     },
@@ -3226,15 +3231,14 @@
       },
       "properties": {
         "id": 1218966651,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
-        "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "ref": "2340",
+        "reg_ref": "22-10-2340",
         "surface": "asphalt"
       }
     },
@@ -3368,14 +3372,13 @@
       },
       "properties": {
         "id": 1223297639,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "surface": "asphalt"
       }
     },
@@ -3471,14 +3474,13 @@
       },
       "properties": {
         "id": 1228093028,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Danudirja Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi"
+        "reg_ref": "22-00-249-13K"
       }
     },
     {
@@ -3572,14 +3574,13 @@
       },
       "properties": {
         "id": 1258718409,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -3609,14 +3610,13 @@
       },
       "properties": {
         "id": 1258718410,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -3996,14 +3996,13 @@
       },
       "properties": {
         "id": 1429001950,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -4053,14 +4052,13 @@
       },
       "properties": {
         "id": 1429001952,
-        "alt_name": "Jalan Dokter Setiabudhi",
+        "alt_name": "Jalan Dokter Setiabudi",
         "highway": "primary",
         "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "yes",
         "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
+        "reg_ref": "22-00-249-13K",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"

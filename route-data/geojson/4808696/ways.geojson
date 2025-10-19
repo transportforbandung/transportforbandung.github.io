@@ -659,8 +659,10 @@
       "properties": {
         "id": 39946196,
         "avgspeed": "25",
-        "highway": "primary",
-        "name": "Jalan Raya Majalaya - Rancekek"
+        "highway": "secondary",
+        "name": "Jalan Raya Majalaya - Rancekek",
+        "ref": "498",
+        "reg_ref": "22-09-498"
       }
     },
     {
@@ -907,120 +909,17 @@
           [
             107.7504536,
             -7.0275188
-          ],
-          [
-            107.7506018,
-            -7.0279288
-          ],
-          [
-            107.75065,
-            -7.0280558
-          ],
-          [
-            107.7507332,
-            -7.0282748
-          ],
-          [
-            107.750937,
-            -7.0289723
-          ],
-          [
-            107.7510191,
-            -7.0292432
-          ],
-          [
-            107.7510685,
-            -7.0294062
-          ],
-          [
-            107.7512178,
-            -7.0298529
-          ],
-          [
-            107.7514053,
-            -7.0303844
-          ],
-          [
-            107.7514815,
-            -7.0306333
-          ],
-          [
-            107.7515717,
-            -7.0309323
-          ],
-          [
-            107.7517185,
-            -7.0314587
-          ],
-          [
-            107.7518084,
-            -7.0317119
-          ],
-          [
-            107.7519657,
-            -7.0321648
-          ],
-          [
-            107.752026,
-            -7.0323198
-          ],
-          [
-            107.7521107,
-            -7.03248
           ]
         ]
       },
       "properties": {
         "id": 54851881,
         "avgspeed": "25",
-        "highway": "primary",
+        "highway": "secondary",
         "name": "Jalan Raya Majalaya - Rancekek",
+        "ref": "498",
+        "reg_ref": "22-09-498",
         "source": "GPS"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.7537453,
-            -6.9404081
-          ],
-          [
-            107.7536983,
-            -6.94024
-          ],
-          [
-            107.7536254,
-            -6.9400197
-          ],
-          [
-            107.7535816,
-            -6.9399509
-          ],
-          [
-            107.7535341,
-            -6.9398922
-          ],
-          [
-            107.7534452,
-            -6.9398116
-          ]
-        ]
-      },
-      "properties": {
-        "id": 255641092,
-        "cycleway:both": "no",
-        "foot": "yes",
-        "highway": "trunk",
-        "lanes": "3",
-        "lit": "yes",
-        "motorcycle": "yes",
-        "oneway": "yes",
-        "ref": "11",
-        "sidewalk": "no",
-        "surface": "concrete"
       }
     },
     {
@@ -1420,10 +1319,12 @@
       "properties": {
         "id": 385546260,
         "avgspeed": "25",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "40",
         "name": "Jalan Raya Majalaya - Rancekek",
+        "ref": "482",
+        "reg_ref": "22-09-482",
         "source": "GPS"
       }
     },
@@ -1453,10 +1354,12 @@
       "properties": {
         "id": 385546264,
         "avgspeed": "25",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "40",
         "name": "Jalan Raya Majalaya - Rancekek",
+        "ref": "482",
+        "reg_ref": "22-09-482",
         "source": "GPS"
       }
     },
@@ -1614,12 +1517,16 @@
             -6.9478402
           ],
           [
-            107.7596439,
-            -6.94767
+            107.7596554,
+            -6.9476639
           ],
           [
-            107.7592759,
-            -6.9473471
+            107.7595832,
+            -6.9475989
+          ],
+          [
+            107.7592865,
+            -6.9473383
           ],
           [
             107.7589074,
@@ -1670,8 +1577,10 @@
       "properties": {
         "id": 561407500,
         "avgspeed": "25",
-        "highway": "primary",
-        "name": "Jalan Raya Majalaya - Rancekek"
+        "highway": "secondary",
+        "name": "Jalan Raya Majalaya - Rancekek",
+        "ref": "498",
+        "reg_ref": "22-09-498"
       }
     },
     {
@@ -1776,8 +1685,10 @@
       "properties": {
         "id": 561407501,
         "avgspeed": "25",
-        "highway": "primary",
-        "name": "Jalan Raya Majalaya - Rancekek"
+        "highway": "secondary",
+        "name": "Jalan Raya Majalaya - Rancekek",
+        "ref": "498",
+        "reg_ref": "22-09-498"
       }
     },
     {
@@ -1850,8 +1761,10 @@
       "properties": {
         "id": 681010201,
         "avgspeed": "25",
-        "highway": "primary",
-        "name": "Jalan Raya Majalaya - Rancekek"
+        "highway": "secondary",
+        "name": "Jalan Raya Majalaya - Rancekek",
+        "ref": "498",
+        "reg_ref": "22-09-498"
       }
     },
     {
@@ -1873,9 +1786,11 @@
         "id": 681010202,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "layer": "1",
-        "name": "Jalan Raya Majalaya - Rancekek"
+        "name": "Jalan Raya Majalaya - Rancekek",
+        "ref": "498",
+        "reg_ref": "22-09-498"
       }
     },
     {
@@ -1897,9 +1812,11 @@
         "id": 688108454,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "layer": "1",
-        "name": "Jalan Raya Majalaya - Rancekek"
+        "name": "Jalan Raya Majalaya - Rancekek",
+        "ref": "498",
+        "reg_ref": "22-09-498"
       }
     },
     {
@@ -1986,8 +1903,10 @@
       "properties": {
         "id": 1033828709,
         "avgspeed": "25",
-        "highway": "primary",
-        "name": "Jalan Raya Majalaya - Rancekek"
+        "highway": "secondary",
+        "name": "Jalan Raya Majalaya - Rancekek",
+        "ref": "498",
+        "reg_ref": "22-09-498"
       }
     },
     {
@@ -2307,8 +2226,91 @@
       "properties": {
         "id": 1364721899,
         "avgspeed": "25",
-        "highway": "primary",
-        "name": "Jalan Raya Majalaya - Rancekek"
+        "highway": "secondary",
+        "name": "Jalan Raya Majalaya - Rancekek",
+        "ref": "498",
+        "reg_ref": "22-09-498"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.7504536,
+            -7.0275188
+          ],
+          [
+            107.7506018,
+            -7.0279288
+          ],
+          [
+            107.75065,
+            -7.0280558
+          ],
+          [
+            107.7507332,
+            -7.0282748
+          ],
+          [
+            107.750937,
+            -7.0289723
+          ],
+          [
+            107.7510191,
+            -7.0292432
+          ],
+          [
+            107.7510685,
+            -7.0294062
+          ],
+          [
+            107.7512178,
+            -7.0298529
+          ],
+          [
+            107.7514053,
+            -7.0303844
+          ],
+          [
+            107.7514815,
+            -7.0306333
+          ],
+          [
+            107.7515717,
+            -7.0309323
+          ],
+          [
+            107.7517185,
+            -7.0314587
+          ],
+          [
+            107.7518084,
+            -7.0317119
+          ],
+          [
+            107.7519657,
+            -7.0321648
+          ],
+          [
+            107.752026,
+            -7.0323198
+          ],
+          [
+            107.7521107,
+            -7.03248
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1437076358,
+        "avgspeed": "25",
+        "highway": "secondary",
+        "name": "Jalan Raya Majalaya - Rancekek",
+        "ref": "482",
+        "reg_ref": "22-09-482",
+        "source": "GPS"
       }
     }
   ]

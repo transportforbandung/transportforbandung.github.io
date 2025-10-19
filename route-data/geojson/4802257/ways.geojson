@@ -161,12 +161,20 @@
             -6.8850612
           ],
           [
+            107.6044348,
+            -6.8853378
+          ],
+          [
             107.6043521,
             -6.8856962
           ],
           [
-            107.6042445,
-            -6.8861428
+            107.6043346,
+            -6.8857678
+          ],
+          [
+            107.6042485,
+            -6.8861202
           ],
           [
             107.6042203,
@@ -594,10 +602,12 @@
       },
       "properties": {
         "id": 153306178,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Cihampelas",
+        "name": "Jalan Siliwangi",
         "oneway": "yes",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "surface": "asphalt"
       }
     },
@@ -629,6 +639,10 @@
           [
             107.6046192,
             -6.884589
+          ],
+          [
+            107.6045738,
+            -6.8847525
           ],
           [
             107.6045446,
@@ -886,7 +900,8 @@
         "id": 222733919,
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Ciumbuleuit"
+        "name": "Jalan Ciumbuleuit",
+        "ref": "2125"
       }
     },
     {
@@ -956,7 +971,8 @@
         "id": 222733920,
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Ciumbuleuit"
+        "name": "Jalan Ciumbuleuit",
+        "ref": "2125"
       }
     },
     {
@@ -1488,6 +1504,7 @@
         "lanes": "1",
         "name": "Jalan Ciumbuleuit",
         "oneway": "yes",
+        "ref": "2125",
         "surface": "asphalt"
       }
     },
@@ -1609,6 +1626,7 @@
         "lanes": "2",
         "name": "Jalan Ciumbuleuit",
         "oneway": "yes",
+        "ref": "2125",
         "surface": "asphalt"
       }
     },
@@ -2096,7 +2114,8 @@
         "id": 1075268432,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Ciumbuleuit"
+        "name": "Jalan Ciumbuleuit",
+        "ref": "2125"
       }
     },
     {
@@ -2454,7 +2473,9 @@
         "id": 1219017459,
         "highway": "secondary",
         "junction": "roundabout",
-        "lanes": "1"
+        "lanes": "1",
+        "name": "Jalan Ciumbuleuit",
+        "ref": "2125"
       }
     },
     {
@@ -2685,7 +2706,8 @@
         "id": 1387129924,
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Ciumbuleuit"
+        "name": "Jalan Ciumbuleuit",
+        "ref": "2125"
       }
     }
   ]

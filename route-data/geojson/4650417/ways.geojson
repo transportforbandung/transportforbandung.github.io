@@ -465,43 +465,18 @@
           [
             107.5812538,
             -6.8809245
-          ],
-          [
-            107.58139,
-            -6.8813815
-          ],
-          [
-            107.5814902,
-            -6.8817497
-          ],
-          [
-            107.5814989,
-            -6.88186
-          ],
-          [
-            107.5814977,
-            -6.8819468
-          ],
-          [
-            107.5814944,
-            -6.8821984
-          ],
-          [
-            107.5814936,
-            -6.8822618
-          ],
-          [
-            107.5814902,
-            -6.8824034
           ]
         ]
       },
       "properties": {
         "id": 4623276,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Terusan Profesor Dokter Sutami",
-        "oneway": "yes"
+        "name": "Jalan Terusan Prof. Dr. Ir. Sutami",
+        "oneway": "yes",
+        "ref": "1608",
+        "reg_ref": "22-10-1608",
+        "short_name": "Jalan Terusan Sutami"
       }
     },
     {
@@ -775,11 +750,15 @@
       },
       "properties": {
         "id": 153106229,
+        "alt_name": "Jalan Surya Sumantri",
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Surya Sumantri",
+        "name": "Jalan Prof. Dr. Surya Soemantri",
         "oneway": "yes",
+        "ref": "1367",
+        "reg_ref": "22-10-1367",
+        "short_name": "Jalan Surya Soemantri",
         "turn:lanes": "slight_left;through|through"
       }
     },
@@ -820,10 +799,13 @@
       },
       "properties": {
         "id": 153106230,
+        "alt_name": "Jalan Surya Sumantri",
         "destination": "Bandung",
         "highway": "trunk_link",
         "lanes": "2",
+        "name": "Jalan Prof. Dr. Surya Soemantri",
         "oneway": "yes",
+        "short_name": "Jalan Surya Soemantri",
         "surface": "asphalt"
       }
     },
@@ -1368,10 +1350,12 @@
       "properties": {
         "id": 331425544,
         "avgspeed": "20",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Lemah Neundeut",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "1419",
+        "reg_ref": "22-10-1419"
       }
     },
     {
@@ -2052,11 +2036,15 @@
       },
       "properties": {
         "id": 1111201237,
+        "alt_name": "Jalan Surya Sumantri",
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Terusan Profesor Dokter Sutami",
-        "oneway": "yes"
+        "name": "Jalan Prof. Dr. Surya Soemantri",
+        "oneway": "yes",
+        "ref": "1367",
+        "reg_ref": "22-10-1367",
+        "short_name": "Jalan Surya Soemantri"
       }
     },
     {
@@ -2467,6 +2455,57 @@
         "lanes": "2",
         "name": "Jalan Sariwangi",
         "width": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5812538,
+            -6.8809245
+          ],
+          [
+            107.58139,
+            -6.8813815
+          ],
+          [
+            107.5814902,
+            -6.8817497
+          ],
+          [
+            107.5814989,
+            -6.88186
+          ],
+          [
+            107.5814977,
+            -6.8819468
+          ],
+          [
+            107.5814944,
+            -6.8821984
+          ],
+          [
+            107.5814936,
+            -6.8822618
+          ],
+          [
+            107.5814902,
+            -6.8824034
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1437011794,
+        "alt_name": "Jalan Surya Sumantri",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Prof. Dr. Surya Soemantri",
+        "oneway": "yes",
+        "ref": "1367",
+        "reg_ref": "22-10-1367",
+        "short_name": "Jalan Surya Soemantri"
       }
     }
   ]

@@ -201,12 +201,20 @@
             -6.8850612
           ],
           [
+            107.6044348,
+            -6.8853378
+          ],
+          [
             107.6043521,
             -6.8856962
           ],
           [
-            107.6042445,
-            -6.8861428
+            107.6043346,
+            -6.8857678
+          ],
+          [
+            107.6042485,
+            -6.8861202
           ],
           [
             107.6042203,
@@ -559,10 +567,12 @@
       "properties": {
         "id": 4698220,
         "avgspeed": "30",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "surface": "asphalt"
       }
     },
@@ -609,11 +619,13 @@
         "id": 4910295,
         "avgspeed": "30",
         "cycleway:both": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk": "separate",
         "smoothness": "good",
         "surface": "asphalt"
@@ -768,6 +780,7 @@
         "name": "Jalan Cisitu Lama",
         "oneway": "no",
         "parking:both": "no",
+        "ref": "2121",
         "sidewalk": "no",
         "smoothness": "intermediate",
         "smoothness:date": "2024-11-02",
@@ -791,10 +804,12 @@
       },
       "properties": {
         "id": 153306178,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Cihampelas",
+        "name": "Jalan Siliwangi",
         "oneway": "yes",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "surface": "asphalt"
       }
     },
@@ -895,11 +910,13 @@
         "bicycle": "yes",
         "cycleway:both": "no",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "no",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "sidewalk": "both",
         "smoothness": "good",
         "surface": "asphalt"
@@ -933,6 +950,10 @@
           [
             107.6046192,
             -6.884589
+          ],
+          [
+            107.6045738,
+            -6.8847525
           ],
           [
             107.6045446,
@@ -975,11 +996,13 @@
         "bicycle": "yes",
         "bridge": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Siliwangi",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "source": "S2City_POI_2022",
         "surface": "asphalt"
       }
@@ -1010,24 +1033,24 @@
             -6.8846722
           ],
           [
-            107.6068233,
-            -6.8846722
+            107.6068454,
+            -6.8846748
           ],
           [
-            107.6067555,
-            -6.8846502
+            107.6067435,
+            -6.8846483
           ],
           [
-            107.6065449,
-            -6.8845256
+            107.6065328,
+            -6.8845462
           ],
           [
             107.6062473,
             -6.8843143
           ],
           [
-            107.6060982,
-            -6.8841856
+            107.6061478,
+            -6.8842309
           ],
           [
             107.6058912,
@@ -1052,9 +1075,11 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "surface": "asphalt"
       }
     },
@@ -1117,11 +1142,13 @@
       },
       "properties": {
         "id": 192917040,
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumur Bandung",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2361",
+        "reg_ref": "22-10-2361",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -1448,11 +1475,13 @@
         "id": 318054780,
         "avgspeed": "20",
         "cycleway:both": "no",
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumur Bandung",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2361",
+        "reg_ref": "22-10-2361",
         "sidewalk:both": "separate",
         "smoothness": "intermediate",
         "surface": "asphalt"
@@ -1666,11 +1695,13 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2344",
+        "reg_ref": "22-10-2344",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -2506,11 +2537,13 @@
       "properties": {
         "id": 826455952,
         "cycleway:both": "no",
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Sumur Bandung",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2361",
+        "reg_ref": "22-10-2361",
         "sidewalk:left": "yes",
         "sidewalk:right": "separate",
         "surface": "asphalt"
@@ -3017,11 +3050,13 @@
       "properties": {
         "id": 1220953660,
         "avgspeed": "30",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Taman Sari",
+        "name": "Jalan Tamansari",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -3422,6 +3457,7 @@
         "name": "Jalan Cisitu Lama",
         "oneway": "no",
         "parking:both": "no",
+        "ref": "2121",
         "sidewalk:both": "separate",
         "smoothness": "intermediate",
         "smoothness:date": "2024-11-02",

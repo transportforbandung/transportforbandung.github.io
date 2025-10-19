@@ -152,10 +152,12 @@
         "avgspeed": "30",
         "cycleway": "lane",
         "cycleway:lane": "exclusive",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
         "oneway": "yes",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1135,12 +1137,13 @@
         "id": 247058985,
         "alt_name": "Jalan Dokter Tjipto Mangoenkoesoemo",
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dokter Cipto Mangunkusumo",
+        "name": "Jalan dr. Cipto",
         "official_name": "Jalan Dokter Cipto",
         "oneway": "yes",
-        "short_name": "Jalan Dr. Cipto",
+        "ref": "1066",
+        "reg_ref": "22-10-1066",
         "surface": "asphalt"
       }
     },
@@ -1168,9 +1171,10 @@
         "avgspeed": "25",
         "highway": "primary",
         "lanes": "1",
-        "name": "Jalan Dokter Abdul Rivai",
-        "official_name": "Jalan Abdul Rivai",
+        "name": "Jalan Abdul Rivai",
         "oneway": "yes",
+        "ref": "11111",
+        "reg_ref": "22-10-11111",
         "short_name": "Jalan Dr. Abdul Rivai",
         "surface": "asphalt",
         "width": "6"
@@ -1238,9 +1242,10 @@
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dokter Abdul Rivai",
-        "official_name": "Jalan Abdul Rivai",
+        "name": "Jalan Abdul Rivai",
         "oneway": "yes",
+        "ref": "11111",
+        "reg_ref": "22-10-11111",
         "short_name": "Jalan Dr. Abdul Rivai",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
@@ -1597,6 +1602,8 @@
         "lanes": "2",
         "name": "Jalan Abdul Rivai",
         "oneway": "yes",
+        "ref": "11111",
+        "reg_ref": "22-10-11111",
         "surface": "asphalt"
       }
     },
@@ -1831,9 +1838,10 @@
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dokter Abdul Rivai",
-        "official_name": "Jalan Abdul Rivai",
+        "name": "Jalan Abdul Rivai",
         "oneway": "yes",
+        "ref": "11111",
+        "reg_ref": "22-10-11111",
         "short_name": "Jalan Dr. Abdul Rivai",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
@@ -2308,6 +2316,7 @@
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -2412,6 +2421,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -3041,6 +3051,10 @@
           [
             107.638933,
             -6.9541863
+          ],
+          [
+            107.6388667,
+            -6.9540248
           ]
         ]
       },
@@ -3048,10 +3062,11 @@
         "id": 331562845,
         "avgspeed": "30",
         "highway": "primary",
-        "lanes": "2",
+        "lanes": "3",
         "name": "Jalan Buah Batu",
         "oneway": "yes",
-        "ref": "364"
+        "ref": "364",
+        "surface": "asphalt"
       }
     },
     {
@@ -3075,6 +3090,8 @@
         "lanes": "1",
         "name": "Jalan Abdul Rivai",
         "oneway": "yes",
+        "ref": "11111",
+        "reg_ref": "22-10-11111",
         "surface": "asphalt",
         "width": "6"
       }
@@ -3103,9 +3120,10 @@
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Dokter Abdul Rivai",
-        "official_name": "Jalan Abdul Rivai",
+        "name": "Jalan Abdul Rivai",
         "oneway": "yes",
+        "ref": "11111",
+        "reg_ref": "22-10-11111",
         "short_name": "Jalan Dr. Abdul Rivai",
         "smoothness": "intermediate",
         "source": "S2City_POI_2022",
@@ -3189,6 +3207,7 @@
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
       }
     },
@@ -3250,46 +3269,6 @@
           [
             107.6387208,
             -6.9537047
-          ],
-          [
-            107.6385338,
-            -6.9533572
-          ],
-          [
-            107.6384235,
-            -6.9531971
-          ],
-          [
-            107.6380692,
-            -6.9528378
-          ],
-          [
-            107.6377919,
-            -6.9525527
-          ],
-          [
-            107.6373856,
-            -6.9521134
-          ],
-          [
-            107.6369653,
-            -6.9517047
-          ],
-          [
-            107.6368024,
-            -6.9515373
-          ],
-          [
-            107.6364761,
-            -6.9512022
-          ],
-          [
-            107.6364115,
-            -6.9511359
-          ],
-          [
-            107.6360573,
-            -6.9507711
           ]
         ]
       },
@@ -3515,6 +3494,7 @@
         "oneway": "yes",
         "parking:both": "no",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -3544,32 +3524,8 @@
         "layer": "1",
         "name": "Jalan Buah Batu",
         "oneway": "yes",
-        "ref": "364"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.638933,
-            -6.9541863
-          ],
-          [
-            107.6388667,
-            -6.9540248
-          ]
-        ]
-      },
-      "properties": {
-        "id": 561411661,
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "3",
-        "name": "Jalan Buah Batu",
-        "oneway": "yes",
-        "ref": "364"
+        "ref": "364",
+        "surface": "asphalt"
       }
     },
     {
@@ -4260,6 +4216,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "surface": "asphalt",
         "turn:lanes:backward": "through|through|right"
       }
@@ -4384,6 +4341,10 @@
           [
             107.636329,
             -6.9722306
+          ],
+          [
+            107.6363081,
+            -6.9723012
           ],
           [
             107.6362682,
@@ -4606,6 +4567,10 @@
           [
             107.6340129,
             -6.9816639
+          ],
+          [
+            107.6340009,
+            -6.9816991
           ],
           [
             107.6339781,
@@ -5140,8 +5105,8 @@
             -6.9038742
           ],
           [
-            107.6017533,
-            -6.9038399
+            107.6017487,
+            -6.9038567
           ]
         ]
       },
@@ -5292,6 +5257,7 @@
         "parking:left:orientation": "parallel",
         "parking:right": "no",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk:both": "separate",
         "smoothness": "excellent",
         "surface": "asphalt"
@@ -5660,6 +5626,7 @@
         "maxspeed": "30",
         "name": "Jalan Mohammad Toha",
         "ref": "161",
+        "reg_ref": "22-00-161-11K",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -6120,16 +6087,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6017533,
-            -6.9038399
+            107.6017487,
+            -6.9038567
           ],
           [
             107.6019828,
             -6.9038744
           ],
           [
-            107.6021004,
-            -6.9039046
+            107.6020792,
+            -6.9038905
           ],
           [
             107.6021603,
@@ -6178,11 +6145,13 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Doktor Rajiman",
+        "name": "Jalan dr. Rajiman",
+        "official_name": "Jalan Dokter Rajiman",
         "oneway": "yes",
-        "short_name": "Jalan dr. Radjiman",
+        "ref": "1256",
+        "reg_ref": "22-10-1256",
         "surface": "asphalt"
       }
     },
@@ -7084,6 +7053,178 @@
         "oneway": "no",
         "ref": "365",
         "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6387208,
+            -6.9537047
+          ],
+          [
+            107.6385338,
+            -6.9533572
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1442951325,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Buah Batu",
+        "oneway": "yes",
+        "ref": "364",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6385338,
+            -6.9533572
+          ],
+          [
+            107.6384235,
+            -6.9531971
+          ],
+          [
+            107.6380692,
+            -6.9528378
+          ],
+          [
+            107.6377919,
+            -6.9525527
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1442951326,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Buah Batu",
+        "oneway": "yes",
+        "ref": "364",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6377919,
+            -6.9525527
+          ],
+          [
+            107.6373856,
+            -6.9521134
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1442951327,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Buah Batu",
+        "oneway": "yes",
+        "ref": "364",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6373856,
+            -6.9521134
+          ],
+          [
+            107.6369653,
+            -6.9517047
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1442951328,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Buah Batu",
+        "oneway": "yes",
+        "ref": "364",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6369653,
+            -6.9517047
+          ],
+          [
+            107.6368024,
+            -6.9515373
+          ],
+          [
+            107.6364761,
+            -6.9512022
+          ],
+          [
+            107.6364115,
+            -6.9511359
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1442951329,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Buah Batu",
+        "oneway": "yes",
+        "ref": "364",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6364115,
+            -6.9511359
+          ],
+          [
+            107.6360573,
+            -6.9507711
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1442951330,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Buah Batu",
+        "oneway": "yes",
+        "ref": "364",
+        "surface": "asphalt"
       }
     }
   ]

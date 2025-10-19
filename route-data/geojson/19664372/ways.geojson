@@ -64,8 +64,12 @@
         "id": 4256290,
         "avgspeed": "25",
         "highway": "unclassified",
+        "lanes": "2",
         "name": "Jalan Trunojoyo",
         "oneway": "no",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "surface": "asphalt"
       }
     },
@@ -379,7 +383,8 @@
         "foot": "no",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Talaga Bodas"
+        "name": "Jalan Talaga Bodas",
+        "sidewalk:both": "separate"
       }
     },
     {
@@ -456,7 +461,12 @@
         "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Malabar",
-        "oneway": "yes"
+        "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -484,6 +494,7 @@
         "lanes": "2",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
@@ -514,7 +525,8 @@
         "avgspeed": "20",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Malabar"
+        "name": "Jalan Malabar",
+        "surface": "asphalt"
       }
     },
     {
@@ -629,8 +641,10 @@
       },
       "properties": {
         "id": 174269781,
-        "highway": "residential",
-        "name": "Jalan Menado"
+        "highway": "tertiary",
+        "name": "Jalan Menado",
+        "ref": "2243",
+        "reg_ref": "22-10-2243"
       }
     },
     {
@@ -664,7 +678,8 @@
         "id": 174269785,
         "highway": "residential",
         "name": "Jalan Embong",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -739,8 +754,11 @@
       },
       "properties": {
         "id": 174269806,
-        "highway": "residential",
+        "highway": "tertiary",
+        "lanes": "2",
         "name": "Jalan Menado",
+        "ref": "2243",
+        "reg_ref": "22-10-2243",
         "surface": "asphalt"
       }
     },
@@ -844,8 +862,11 @@
       },
       "properties": {
         "id": 174269822,
-        "highway": "residential",
+        "highway": "tertiary",
+        "lanes": "2",
         "name": "Jalan Menado",
+        "ref": "2243",
+        "reg_ref": "22-10-2243",
         "surface": "asphalt"
       }
     },
@@ -961,36 +982,44 @@
             -6.9035902
           ],
           [
-            107.6246477,
-            -6.9036497
+            107.6243337,
+            -6.903621
           ],
           [
-            107.6250885,
-            -6.9037207
+            107.6246081,
+            -6.9036537
           ],
           [
-            107.6255491,
-            -6.9038458
+            107.6248236,
+            -6.9036843
           ],
           [
-            107.625694,
-            -6.9038898
+            107.6250113,
+            -6.9037217
           ],
           [
-            107.6259159,
-            -6.903967
+            107.625417,
+            -6.9038236
           ],
           [
-            107.6261493,
-            -6.9040728
+            107.6257265,
+            -6.903917
           ],
           [
-            107.6263652,
-            -6.9041967
+            107.6259342,
+            -6.9039953
           ],
           [
-            107.6265731,
-            -6.9043651
+            107.6261391,
+            -6.9040869
+          ],
+          [
+            107.6263571,
+            -6.9042058
+          ],
+          [
+            107.6265589,
+            -6.9043823
           ],
           [
             107.6266857,
@@ -1233,7 +1262,10 @@
         "id": 215588646,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Palasari"
+        "name": "Jalan Palasari",
+        "parking:both": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -1713,8 +1745,8 @@
             -6.9085962
           ],
           [
-            107.6214419,
-            -6.9084639
+            107.6214307,
+            -6.9084922
           ],
           [
             107.6214489,
@@ -1727,6 +1759,10 @@
           [
             107.6215234,
             -6.9083284
+          ],
+          [
+            107.6215431,
+            -6.9083128
           ],
           [
             107.6215802,
@@ -1915,7 +1951,9 @@
       "properties": {
         "id": 302584621,
         "highway": "tertiary",
-        "name": "Jalan Karawitan"
+        "lanes": "2",
+        "name": "Jalan Karawitan",
+        "surface": "asphalt"
       }
     },
     {
@@ -2153,9 +2191,11 @@
         "avgspeed": "30",
         "cycleway:left:lane": "exclusive",
         "cycleway:right:lane": "advisory",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -2181,6 +2221,7 @@
         "lanes": "2",
         "name": "Jalan Diponegoro",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
@@ -2230,6 +2271,7 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "parking:both": "no",
         "ref": "381",
         "sidewalk:both": "separate",
         "surface": "asphalt"
@@ -2559,6 +2601,10 @@
           [
             107.6277229,
             -6.9331834
+          ],
+          [
+            107.6277833,
+            -6.9331991
           ],
           [
             107.6278437,
@@ -2914,8 +2960,10 @@
       },
       "properties": {
         "id": 330594999,
-        "highway": "residential",
+        "highway": "tertiary",
         "name": "Jalan Menado",
+        "ref": "2243",
+        "reg_ref": "22-10-2243",
         "surface": "asphalt"
       }
     },
@@ -3006,6 +3054,7 @@
       "properties": {
         "id": 331562846,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "destination:lanes": "Kiaracondong;Gedebage;Cibiru;Cileunyi|Margacinta;Purbaleunyi;Dayeuhkolot;Bojongsoang|Batununggal;Mohammad Toha;Cibaduyut;Leuwipanjang",
         "destination:ref:lanes": "11;;;|364;4;;|11;;;",
         "destination:symbol:lanes": ";;|;motorway;;|;;;",
@@ -3417,7 +3466,8 @@
         "id": 556906862,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Cihapit"
+        "name": "Jalan Cihapit",
+        "surface": "asphalt"
       }
     },
     {
@@ -3470,7 +3520,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Malabar",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -3501,7 +3552,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -3807,6 +3859,7 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "yes",
         "sidewalk:right": "separate",
@@ -4052,7 +4105,8 @@
         "id": 955507617,
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Naripan"
+        "name": "Jalan Naripan",
+        "surface": "asphalt"
       }
     },
     {
@@ -4744,7 +4798,8 @@
         "highway": "tertiary",
         "junction": "roundabout",
         "lanes": "3",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {

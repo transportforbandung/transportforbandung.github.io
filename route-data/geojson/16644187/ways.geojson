@@ -275,7 +275,8 @@
         "avgspeed": "20",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Malabar"
+        "name": "Jalan Malabar",
+        "surface": "asphalt"
       }
     },
     {
@@ -435,7 +436,10 @@
         "id": 215588646,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Palasari"
+        "name": "Jalan Palasari",
+        "parking:both": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -741,8 +745,8 @@
             -6.9349871
           ],
           [
-            107.5957871,
-            -6.9351264
+            107.5957332,
+            -6.9353237
           ],
           [
             107.5956715,
@@ -2441,7 +2445,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Malabar",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -3370,7 +3375,8 @@
         "highway": "tertiary",
         "junction": "roundabout",
         "lanes": "3",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {

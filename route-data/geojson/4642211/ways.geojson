@@ -2681,6 +2681,55 @@
         "sidewalk": "both",
         "surface": "asphalt"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6249966,
+            -6.8912645
+          ],
+          [
+            107.624996,
+            -6.8911849
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1443177301,
+        "highway": "service",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.624996,
+            -6.8911849
+          ],
+          [
+            107.6252674,
+            -6.8911775
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1443178220,
+        "alt_name": "Jalan Terminal Sadangserang",
+        "highway": "residential",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "name": "Jalan Intan Raya",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "4"
+      }
     }
   ]
 }
