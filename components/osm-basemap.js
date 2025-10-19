@@ -25,7 +25,7 @@ function initMap() {
     });
 
     // Apply visual filters to the base map (grayscale, brightness, saturation)
-    mtLayer.getContainer().style.filter = 'grayscale(10%) brightness(90%) saturate(90%)';
+    //mtLayer.getContainer().style.filter = 'grayscale(10%) brightness(90%) saturate(90%)';
 
     // Create empty layer group for routes
     routeLayer = L.layerGroup().addTo(map);
