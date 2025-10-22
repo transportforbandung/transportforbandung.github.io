@@ -1331,6 +1331,22 @@ tr:hover {
     margin: 5px 0;
 }
 
+/* Bus stop icons */
+.bus-stop-icon {
+    background: transparent !important;
+    border: none !important;
+}
+
+.bus-stop-popup {
+    font-size: 14px;
+    min-width: 200px;
+}
+
+/* Ensure bus stops don't interfere with other layers */
+.leaflet-marker-icon.bus-stop-icon {
+    z-index: 600;
+}
+
 /* Style for regular options */
 #routeSelector option:not(.map-dropdown-header) {
     padding: 8px 12px;
