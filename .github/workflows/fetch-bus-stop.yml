@@ -29,4 +29,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add route-data/bus-stop/*.geojson
           git commit -m "Update bus stop GeoJSONs" || echo "No changes"
+          git pull --rebase origin main
           git push
