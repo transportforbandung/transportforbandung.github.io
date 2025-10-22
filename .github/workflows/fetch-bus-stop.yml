@@ -21,7 +21,7 @@ jobs:
         run: pip install requests
 
       - name: Run Overpass fetcher
-        run: python action-scripts/fetch_bus-stop.py
+        run: python action-scripts/fetch-bus-stop.py
 
       - name: Commit and push updates
         run: |
