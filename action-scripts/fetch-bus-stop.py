@@ -65,25 +65,40 @@ def check_pole_value(pole, values):
             return True
     return False
 
+# Function to determine category based on shelter and pole
+def get_stop_category(shelter, pole):
+    shelter_str = str(shelter).lower() if shelter is not None else "no"
+    
+    if shelter_str == "yes":
+        if pole is None or pole == "":
+            return "1_shelter_yes_pole_none"
+        elif check_pole_value(pole, ["yes", "traffic_sign"]):
+            return "5_shelter_yes_pole_sign"
+        elif check_pole_value(pole, ["totem"]):
+            return "6_shelter_yes_pole_totem"
+        elif check_pole_value(pole, ["flag"]):
+            return "7_shelter_yes_pole_flag"
+        else:
+            return "1_shelter_yes_pole_none"
+    else:  # shelter is no, or not present
+        if check_pole_value(pole, ["yes", "traffic_sign"]):
+            return "2_shelter_none_pole_sign"
+        elif check_pole_value(pole, ["totem"]):
+            return "3_shelter_none_pole_totem"
+        elif check_pole_value(pole, ["flag"]):
+            return "4_shelter_none_pole_flag"
+        else:
+            return "8_shelter_none_pole_none"
+
 # Main processing
 def main():
     # Fetch all bus stops first
     all_stops = fetch_all_bus_stops()
     print(f"Found {len(all_stops)} total bus stops")
     
-    # Categorize stops by shelter and pole combinations
-    categorized = {
-        "1_shelter_yes_pole_none": [],
-        "2_shelter_none_pole_sign": [],
-        "3_shelter_none_pole_totem": [],
-        "4_shelter_none_pole_flag": [],
-        "5_shelter_yes_pole_sign": [],
-        "6_shelter_yes_pole_totem": [],
-        "7_shelter_yes_pole_flag": [],
-        "8_shelter_none_pole_none": []
-    }
+    features = []
     
-    # Process each stop and categorize
+    # Process each stop
     for i, stop in enumerate(all_stops):
         if stop["type"] != "node":
             continue
@@ -92,76 +107,55 @@ def main():
         shelter = tags.get("shelter")
         pole = tags.get("pole")
         
-        # Convert shelter to string for safe comparison
-        shelter_str = str(shelter).lower() if shelter is not None else "no"
+        # Determine category
+        category = get_stop_category(shelter, pole)
         
-        # Categorize based on shelter and pole values
-        if shelter_str == "yes":
-            if pole is None or pole == "":
-                categorized["1_shelter_yes_pole_none"].append(stop)
-            elif check_pole_value(pole, ["yes", "traffic_sign"]):
-                categorized["5_shelter_yes_pole_sign"].append(stop)
-            elif check_pole_value(pole, ["totem"]):
-                categorized["6_shelter_yes_pole_totem"].append(stop)
-            elif check_pole_value(pole, ["flag"]):
-                categorized["7_shelter_yes_pole_flag"].append(stop)
-            else:
-                # If shelter=yes but pole doesn't match any known patterns, put in category 1
-                categorized["1_shelter_yes_pole_none"].append(stop)
-        else:  # shelter is no, or not present
-            if check_pole_value(pole, ["yes", "traffic_sign"]):
-                categorized["2_shelter_none_pole_sign"].append(stop)
-            elif check_pole_value(pole, ["totem"]):
-                categorized["3_shelter_none_pole_totem"].append(stop)
-            elif check_pole_value(pole, ["flag"]):
-                categorized["4_shelter_none_pole_flag"].append(stop)
-            else:
-                categorized["8_shelter_none_pole_none"].append(stop)
-    
-    # Generate GeoJSON files for each category
-    for category_name, stops in categorized.items():
-        print(f"Processing {category_name} with {len(stops)} stops...")
+        # Fetch related bus route IDs
+        route_ids = fetch_relations_for_node(stop["id"])
         
-        features = []
+        # Small delay to be respectful to the API
+        if i % 10 == 0 and i > 0:
+            time.sleep(0.5)
         
-        for i, stop in enumerate(stops):
-            node_id = stop["id"]
-            lat, lon = stop["lat"], stop["lon"]
-            tags = stop.get("tags", {})
-            
-            # Fetch related bus route IDs
-            route_ids = fetch_relations_for_node(node_id)
-            
-            # Small delay to be respectful to the API
-            if i % 10 == 0 and i > 0:
-                time.sleep(0.5)
-            
-            feature = {
-                "type": "Feature",
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [lon, lat]
-                },
-                "properties": {
-                    "id": node_id,
-                    "name": tags.get("name"),
-                    "shelter": tags.get("shelter"),
-                    "pole": tags.get("pole"),
-                    "routes": route_ids
-                }
+        feature = {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [stop["lon"], stop["lat"]]
+            },
+            "properties": {
+                "id": stop["id"],
+                "name": tags.get("name"),
+                "shelter": shelter,
+                "pole": pole,
+                "routes": route_ids,
+                "category": category  # This is the key addition!
             }
-            features.append(feature)
-        
-        geojson = {
-            "type": "FeatureCollection",
-            "features": features
         }
-        
-        output_path = f"{OUTPUT_DIR}/{category_name}.geojson"
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(geojson, f, ensure_ascii=False, indent=2)
-        
-        print(f"Saved {len(features)} stops to {output_path}\n")
+        features.append(feature)
+    
+    # Create single combined GeoJSON
+    geojson = {
+        "type": "FeatureCollection",
+        "features": features
+    }
+    
+    # Write single combined file
+    output_path = f"{OUTPUT_DIR}/all_bus_stops.geojson"
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(geojson, f, ensure_ascii=False, indent=2)
+    
+    print(f"Saved {len(features)} stops to {output_path}")
+    
+    # Optional: Also write summary by category
+    category_counts = {}
+    for feature in features:
+        cat = feature["properties"]["category"]
+        category_counts[cat] = category_counts.get(cat, 0) + 1
+    
+    print("\nCategory breakdown:")
+    for cat, count in category_counts.items():
+        print(f"  {cat}: {count} stops")
 
 if __name__ == "__main__":
     main()
