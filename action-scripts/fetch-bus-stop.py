@@ -21,14 +21,22 @@ COMBINATIONS = {
 }
 
 # Function to query Overpass API
-def fetch_overpass(query):
+def fetch_overpass(query, retries=3, delay=5):
     import urllib.parse
     base_url = "https://overpass-api.de/api/interpreter"
     encoded = urllib.parse.quote(query)
     url = f"{base_url}?data={encoded}"
-    response = requests.get(url, timeout=120)
-    response.raise_for_status()
-    return response.json()
+
+    for attempt in range(1, retries + 1):
+        try:
+            response = requests.get(url, timeout=15)
+            response.raise_for_status()
+            return response.json()
+        except requests.RequestException as e:
+            if attempt == retries:
+                raise
+            print(f"Overpass error (attempt {attempt}/{retries}): {e}")
+            time.sleep(delay * attempt)
 
 # Function to fetch route relation IDs for a bus stop node
 def fetch_relations_for_node(node_id):
@@ -87,7 +95,7 @@ for name, node_filter in COMBINATIONS.items():
         "features": features
     }
 
-    output_path = f"{OUTPUT_DIR}{name}.geojson"
+    output_path = f"{OUTPUT_DIR}/{name}.geojson"
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(geojson, f, ensure_ascii=False, indent=2)
 
