@@ -55,6 +55,16 @@ def fetch_relations_for_node(node_id):
         print(f"Failed to fetch relations for node {node_id}: {e}")
         return []
 
+# Safe function to check pole values
+def check_pole_value(pole, values):
+    if pole is None:
+        return False
+    pole_str = str(pole).lower()
+    for value in values:
+        if value in pole_str:
+            return True
+    return False
+
 # Main processing
 def main():
     # Fetch all bus stops first
@@ -82,22 +92,28 @@ def main():
         shelter = tags.get("shelter")
         pole = tags.get("pole")
         
+        # Convert shelter to string for safe comparison
+        shelter_str = str(shelter).lower() if shelter is not None else "no"
+        
         # Categorize based on shelter and pole values
-        if shelter == "yes":
+        if shelter_str == "yes":
             if pole is None or pole == "":
                 categorized["1_shelter_yes_pole_none"].append(stop)
-            elif pole in ["yes", "traffic_sign"]:
+            elif check_pole_value(pole, ["yes", "traffic_sign"]):
                 categorized["5_shelter_yes_pole_sign"].append(stop)
-            elif "totem" in pole:
+            elif check_pole_value(pole, ["totem"]):
                 categorized["6_shelter_yes_pole_totem"].append(stop)
-            elif "flag" in pole:
+            elif check_pole_value(pole, ["flag"]):
                 categorized["7_shelter_yes_pole_flag"].append(stop)
+            else:
+                # If shelter=yes but pole doesn't match any known patterns, put in category 1
+                categorized["1_shelter_yes_pole_none"].append(stop)
         else:  # shelter is no, or not present
-            if pole in ["yes", "traffic_sign"]:
+            if check_pole_value(pole, ["yes", "traffic_sign"]):
                 categorized["2_shelter_none_pole_sign"].append(stop)
-            elif "totem" in pole:
+            elif check_pole_value(pole, ["totem"]):
                 categorized["3_shelter_none_pole_totem"].append(stop)
-            elif "flag" in pole:
+            elif check_pole_value(pole, ["flag"]):
                 categorized["4_shelter_none_pole_flag"].append(stop)
             else:
                 categorized["8_shelter_none_pole_none"].append(stop)
