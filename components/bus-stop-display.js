@@ -2,55 +2,55 @@
 let busStopLayer = null;
 let busStopCheckbox = null;
 
-// Icon configurations for each category
+// Updated icon configurations with your custom icons
 const busStopIcons = {
-    "1_shelter_yes_pole_none": L.divIcon({
-        html: '<div style="background-color: #2ecc71; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
-        className: 'bus-stop-icon',
-        iconSize: [12, 12],
-        iconAnchor: [6, 6]
+    "1_shelter_yes_pole_none": L.icon({
+        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte-Icon.svg',
+        iconSize: [20, 20],
+        iconAnchor: [10, 10],
+        className: 'bus-stop-custom-icon'
     }),
-    "2_shelter_none_pole_sign": L.divIcon({
-        html: '<div style="background-color: #3498db; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
-        className: 'bus-stop-icon',
-        iconSize: [12, 12],
-        iconAnchor: [6, 6]
+    "2_shelter_none_pole_sign": L.icon({
+        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Rambu-Icon.svg',
+        iconSize: [20, 20],
+        iconAnchor: [10, 10],
+        className: 'bus-stop-custom-icon'
     }),
-    "3_shelter_none_pole_totem": L.divIcon({
-        html: '<div style="background-color: #e74c3c; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
-        className: 'bus-stop-icon',
-        iconSize: [12, 12],
-        iconAnchor: [6, 6]
+    "3_shelter_none_pole_totem": L.icon({
+        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Totem-Icon.svg',
+        iconSize: [20, 20],
+        iconAnchor: [10, 10],
+        className: 'bus-stop-custom-icon'
     }),
-    "4_shelter_none_pole_flag": L.divIcon({
-        html: '<div style="background-color: #f39c12; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
-        className: 'bus-stop-icon',
-        iconSize: [12, 12],
-        iconAnchor: [6, 6]
+    "4_shelter_none_pole_flag": L.icon({
+        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Flag-Icon.svg',
+        iconSize: [20, 20],
+        iconAnchor: [10, 10],
+        className: 'bus-stop-custom-icon'
     }),
-    "5_shelter_yes_pole_sign": L.divIcon({
-        html: '<div style="background-color: #9b59b6; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
-        className: 'bus-stop-icon',
-        iconSize: [12, 12],
-        iconAnchor: [6, 6]
+    "5_shelter_yes_pole_sign": L.icon({
+        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte+Rambu-Icon.svg',
+        iconSize: [20, 20],
+        iconAnchor: [10, 10],
+        className: 'bus-stop-custom-icon'
     }),
-    "6_shelter_yes_pole_totem": L.divIcon({
-        html: '<div style="background-color: #1abc9c; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
-        className: 'bus-stop-icon',
-        iconSize: [12, 12],
-        iconAnchor: [6, 6]
+    "6_shelter_yes_pole_totem": L.icon({
+        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte+Totem-Icon.svg',
+        iconSize: [20, 20],
+        iconAnchor: [10, 10],
+        className: 'bus-stop-custom-icon'
     }),
-    "7_shelter_yes_pole_flag": L.divIcon({
-        html: '<div style="background-color: #d35400; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
-        className: 'bus-stop-icon',
-        iconSize: [12, 12],
-        iconAnchor: [6, 6]
+    "7_shelter_yes_pole_flag": L.icon({
+        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte+Flag-Icon.svg',
+        iconSize: [20, 20],
+        iconAnchor: [10, 10],
+        className: 'bus-stop-custom-icon'
     }),
-    "8_shelter_none_pole_none": L.divIcon({
-        html: '<div style="background-color: #95a5a6; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
-        className: 'bus-stop-icon',
-        iconSize: [12, 12],
-        iconAnchor: [6, 6]
+    "8_shelter_none_pole_none": L.icon({
+        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Virtual-Icon.svg',
+        iconSize: [20, 20],
+        iconAnchor: [10, 10],
+        className: 'bus-stop-custom-icon'
     })
 };
 
@@ -120,29 +120,29 @@ function initializeBusStopControls() {
                 <i class="bi bi-geo-alt-fill me-2"></i>Tampilkan Halte Bus
             </label>
         </div>
-        <small class="text-muted d-block mt-1">Halte akan muncul saat zoom level 15+</small>
+        <small class="text-muted d-block mt-1">Legenda</small>
         
         <!-- Legend -->
         <div class="bus-stop-legend mt-2" style="font-size: 0.7rem;">
             <div class="legend-item mb-1">
                 <span class="legend-color" style="background-color: #2ecc71;"></span>
-                Shelter tanpa tiang
+                Halte dengan bangunan
             </div>
             <div class="legend-item mb-1">
                 <span class="legend-color" style="background-color: #3498db;"></span>
-                Tiang rambu
+                Perhentian dengan rambu tempat pemberhentian bus
             </div>
             <div class="legend-item mb-1">
                 <span class="legend-color" style="background-color: #e74c3c;"></span>
-                Tiang totem
+                Perhentian dengan signage tipe totem
             </div>
             <div class="legend-item mb-1">
                 <span class="legend-color" style="background-color: #f39c12;"></span>
-                Tiang bendera
+                Perhentian dengan signage tipe flag
             </div>
             <div class="legend-item mb-1">
                 <span class="legend-color" style="background-color: #95a5a6;"></span>
-                Tanpa shelter & tiang
+                Perhentian virtual, tanpa bangunan halte atau rambu, atau tidak memiliki data
             </div>
         </div>
     `;
