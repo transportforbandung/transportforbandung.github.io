@@ -1,53 +1,53 @@
-// bus-stop-display.js
+// components/bus-stop-display.js
 let busStopLayer = null;
 let busStopCheckbox = null;
 
 // Icon configurations for each category
 const busStopIcons = {
     "1_shelter_yes_pole_none": L.divIcon({
-        html: '<div style="background-color: #2ecc71; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white;"></div>',
+        html: '<div style="background-color: #2ecc71; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
         className: 'bus-stop-icon',
         iconSize: [12, 12],
         iconAnchor: [6, 6]
     }),
     "2_shelter_none_pole_sign": L.divIcon({
-        html: '<div style="background-color: #3498db; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white;"></div>',
+        html: '<div style="background-color: #3498db; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
         className: 'bus-stop-icon',
         iconSize: [12, 12],
         iconAnchor: [6, 6]
     }),
     "3_shelter_none_pole_totem": L.divIcon({
-        html: '<div style="background-color: #e74c3c; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white;"></div>',
+        html: '<div style="background-color: #e74c3c; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
         className: 'bus-stop-icon',
         iconSize: [12, 12],
         iconAnchor: [6, 6]
     }),
     "4_shelter_none_pole_flag": L.divIcon({
-        html: '<div style="background-color: #f39c12; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white;"></div>',
+        html: '<div style="background-color: #f39c12; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
         className: 'bus-stop-icon',
         iconSize: [12, 12],
         iconAnchor: [6, 6]
     }),
     "5_shelter_yes_pole_sign": L.divIcon({
-        html: '<div style="background-color: #9b59b6; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white;"></div>',
+        html: '<div style="background-color: #9b59b6; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
         className: 'bus-stop-icon',
         iconSize: [12, 12],
         iconAnchor: [6, 6]
     }),
     "6_shelter_yes_pole_totem": L.divIcon({
-        html: '<div style="background-color: #1abc9c; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white;"></div>',
+        html: '<div style="background-color: #1abc9c; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
         className: 'bus-stop-icon',
         iconSize: [12, 12],
         iconAnchor: [6, 6]
     }),
     "7_shelter_yes_pole_flag": L.divIcon({
-        html: '<div style="background-color: #d35400; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white;"></div>',
+        html: '<div style="background-color: #d35400; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
         className: 'bus-stop-icon',
         iconSize: [12, 12],
         iconAnchor: [6, 6]
     }),
     "8_shelter_none_pole_none": L.divIcon({
-        html: '<div style="background-color: #95a5a6; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white;"></div>',
+        html: '<div style="background-color: #95a5a6; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
         className: 'bus-stop-icon',
         iconSize: [12, 12],
         iconAnchor: [6, 6]
@@ -78,13 +78,12 @@ async function loadBusStops() {
             
             // Create popup content
             const popupContent = `
-                <div class="bus-stop-popup">
-                    <strong>${props.name || 'Unnamed Stop'}</strong><br>
+                <div class="bus-stop-popup" style="min-width: 200px;">
+                    <strong>${props.name || 'Halte Tanpa Nama'}</strong><br>
                     ${props.shelter ? `Shelter: ${props.shelter}<br>` : ''}
-                    ${props.pole ? `Pole: ${props.pole}<br>` : ''}
+                    ${props.pole ? `Tiang: ${props.pole}<br>` : ''}
                     ${props.routes && props.routes.length > 0 ? 
-                        `Routes: ${props.routes.length}` : 'No route data'}
-                    <br><small>Category: ${category}</small>
+                        `Melayani ${props.routes.length} rute` : 'Data rute belum tersedia'}
                 </div>
             `;
             
@@ -106,16 +105,45 @@ async function loadBusStops() {
 function initializeBusStopControls() {
     // Add checkbox to the route container
     const routeContainer = document.getElementById('route-container');
-    if (!routeContainer) return;
+    if (!routeContainer) {
+        console.error('Route container not found');
+        return;
+    }
 
+    // Create bus stop control section
     const busStopControl = document.createElement('div');
-    busStopControl.className = 'bus-stop-control mb-3 p-3 border-bottom';
+    busStopControl.className = 'bus-stop-control mb-3 p-3 border-bottom bg-light rounded';
     busStopControl.innerHTML = `
-        <div class="form-check">
+        <div class="form-check form-switch">
             <input class="form-check-input" type="checkbox" id="bus-stop-toggle" checked>
             <label class="form-check-label fw-bold" for="bus-stop-toggle">
-                <i class="bi bi-geo-alt-fill"></i> Tampilkan Halte Bus
+                <i class="bi bi-geo-alt-fill me-2"></i>Tampilkan Halte Bus
             </label>
+        </div>
+        <small class="text-muted d-block mt-1">Halte akan muncul saat zoom level 15+</small>
+        
+        <!-- Legend -->
+        <div class="bus-stop-legend mt-2" style="font-size: 0.7rem;">
+            <div class="legend-item mb-1">
+                <span class="legend-color" style="background-color: #2ecc71;"></span>
+                Shelter tanpa tiang
+            </div>
+            <div class="legend-item mb-1">
+                <span class="legend-color" style="background-color: #3498db;"></span>
+                Tiang rambu
+            </div>
+            <div class="legend-item mb-1">
+                <span class="legend-color" style="background-color: #e74c3c;"></span>
+                Tiang totem
+            </div>
+            <div class="legend-item mb-1">
+                <span class="legend-color" style="background-color: #f39c12;"></span>
+                Tiang bendera
+            </div>
+            <div class="legend-item mb-1">
+                <span class="legend-color" style="background-color: #95a5a6;"></span>
+                Tanpa shelter & tiang
+            </div>
         </div>
     `;
     
@@ -126,7 +154,6 @@ function initializeBusStopControls() {
     
     // Load bus stops and set up event handlers
     loadBusStops().then(layer => {
-        // Start with layer hidden (will show at zoom 15 if checked)
         let isLayerVisible = false;
         
         // Set up checkbox event
@@ -161,15 +188,14 @@ function initializeBusStopControls() {
 
 // Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', function() {
-    if (typeof map !== 'undefined') {
-        initializeBusStopControls();
-    } else {
-        // Wait for map to be initialized
-        const checkMap = setInterval(() => {
-            if (typeof map !== 'undefined') {
-                clearInterval(checkMap);
+    // Wait for map to be initialized
+    const checkMap = setInterval(() => {
+        if (typeof map !== 'undefined') {
+            clearInterval(checkMap);
+            // Wait a bit more for route initialization
+            setTimeout(() => {
                 initializeBusStopControls();
-            }
-        }, 100);
-    }
+            }, 1000);
+        }
+    }, 100);
 });
