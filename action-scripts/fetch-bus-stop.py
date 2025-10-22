@@ -22,8 +22,11 @@ COMBINATIONS = {
 
 # Function to query Overpass API
 def fetch_overpass(query):
-    url = "https://overpass-api.de/api/interpreter"
-    response = requests.post(url, data={"data": query})
+    import urllib.parse
+    base_url = "https://overpass-api.de/api/interpreter"
+    encoded = urllib.parse.quote(query)
+    url = f"{base_url}?data={encoded}"
+    response = requests.get(url, timeout=120)
     response.raise_for_status()
     return response.json()
 
