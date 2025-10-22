@@ -47,11 +47,11 @@ def fetch_relations_for_node(node_id):
 for name, node_filter in COMBINATIONS.items():
     print(f"Fetching {name}...")
 
-    overpass_query = f"""
-    [out:json][timeout:90];
-    {node_filter.replace("{bbox}", BBOX)}
-    out body geom;
-    """
+    overpass_query = (
+        f"[out:json][timeout:90];\n"
+        f"{node_filter.replace('{bbox}', BBOX)}\n"
+        "out body geom;"
+    )
 
     data = fetch_overpass(overpass_query)
     elements = data.get("elements", [])
