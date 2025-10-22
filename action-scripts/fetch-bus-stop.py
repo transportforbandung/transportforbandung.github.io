@@ -2,7 +2,6 @@ import requests
 import json
 import time
 import os
-from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Bounding box for Greater Bandung
 BBOX = "-7.119970883040842,107.29935103886602,-6.7164372353137045,108.00522056337834"
@@ -40,8 +39,8 @@ def fetch_all_bus_stops():
     print(f"Found {len(data.get('elements', []))} total bus stops")
     return data.get("elements", [])
 
-# Batch fetch routes for multiple nodes at once
-def fetch_routes_for_nodes_batch(node_ids, batch_size=50):
+# CORRECTED: Batch fetch routes for multiple nodes at once
+def fetch_routes_for_nodes_batch(node_ids, batch_size=30):  # Reduced batch size for reliability
     """Fetch routes for multiple nodes in a single Overpass query"""
     if not node_ids:
         return {}
@@ -53,40 +52,95 @@ def fetch_routes_for_nodes_batch(node_ids, batch_size=50):
     for i, batch in enumerate(batches):
         print(f"Processing batch {i+1}/{len(batches)} with {len(batch)} nodes...")
         
-        # Create query for this batch
+        # Create query for this batch - FIXED SYNTAX
         node_list = ",".join(map(str, batch))
         query = f"""
-        [out:json][timeout:90];
-        (
-          node(id:{node_list});
-        );
-        foreach ->.stop {{
-          rel(bn.stop)["type"="route"]["route"="bus"];
-          out ids;
-        }};
+        [out:json][timeout:120];
+        node(id:{node_list});
+        map_to_stop;
+        rel(bn)["type"="route"]["route"="bus"];
+        out ids;
         """
         
         try:
             data = fetch_overpass(query)
             
-            # Parse response - Overpass returns results in order
-            current_node = None
+            # CORRECTED PARSING LOGIC
+            # Initialize all nodes with empty routes
+            for node_id in batch:
+                node_routes[node_id] = []
+            
+            # Parse relations and map them to nodes
             for element in data.get("elements", []):
-                if element["type"] == "node":
-                    current_node = element["id"]
-                    node_routes[current_node] = []
-                elif element["type"] == "relation" and current_node:
-                    node_routes[current_node].append(element["id"])
+                if element["type"] == "relation":
+                    # For relations, we need to find which nodes they're connected to
+                    # We'll use a separate query to get the member nodes for each relation
+                    relation_id = element["id"]
+                    connected_nodes = get_nodes_for_relation(relation_id)
+                    
+                    # Add this relation to all connected nodes in our batch
+                    for node_id in connected_nodes:
+                        if node_id in node_routes:
+                            node_routes[node_id].append(relation_id)
             
             # Small delay between batches
             if i < len(batches) - 1:
-                time.sleep(2)
+                time.sleep(3)  # Increased delay for API courtesy
                 
         except Exception as e:
             print(f"Error processing batch {i+1}: {e}")
             # Mark all nodes in this batch as failed
             for node_id in batch:
                 node_routes[node_id] = []
+    
+    return node_routes
+
+# NEW FUNCTION: Get nodes for a specific relation
+def get_nodes_for_relation(relation_id):
+    """Get all node members of a relation"""
+    query = f"""
+    [out:json][timeout:30];
+    relation({relation_id});
+    node(r);
+    out ids;
+    """
+    
+    try:
+        data = fetch_overpass(query)
+        return [element["id"] for element in data.get("elements", []) if element["type"] == "node"]
+    except Exception as e:
+        print(f"Error getting nodes for relation {relation_id}: {e}")
+        return []
+
+# ALTERNATIVE SIMPLER APPROACH - Use this if the above is still too complex
+def fetch_routes_simple_approach(node_ids):
+    """Simpler approach: fetch routes for each node individually but with threading"""
+    import concurrent.futures
+    
+    node_routes = {}
+    
+    def fetch_single_node(node_id):
+        try:
+            query = f"""
+            [out:json][timeout:25];
+            node({node_id});
+            rel(bn)["type"="route"]["route"="bus"];
+            out ids;
+            """
+            data = fetch_overpass(query)
+            routes = [el["id"] for el in data.get("elements", []) if el["type"] == "relation"]
+            return (node_id, routes)
+        except Exception as e:
+            print(f"Error fetching routes for node {node_id}: {e}")
+            return (node_id, [])
+    
+    # Use threading to speed up individual requests
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        futures = [executor.submit(fetch_single_node, node_id) for node_id in node_ids]
+        
+        for future in concurrent.futures.as_completed(futures):
+            node_id, routes = future.result()
+            node_routes[node_id] = routes
     
     return node_routes
 
@@ -123,9 +177,15 @@ def main():
     node_ids = [stop["id"] for stop in all_stops if stop["type"] == "node"]
     print(f"Processing {len(node_ids)} bus stop nodes...")
     
-    # Fetch routes for all nodes in batches
-    print("Fetching route relations in batches...")
-    node_routes = fetch_routes_for_nodes_batch(node_ids)
+    # CHOOSE ONE APPROACH:
+    
+    # Option A: Use simpler threaded approach (recommended)
+    print("Fetching route relations using threaded approach...")
+    node_routes = fetch_routes_simple_approach(node_ids)
+    
+    # Option B: Use batch approach (more complex but fewer API calls)
+    # print("Fetching route relations in batches...")
+    # node_routes = fetch_routes_for_nodes_batch(node_ids)
     
     # Process stops and create features
     features = []
@@ -139,7 +199,7 @@ def main():
         shelter = tags.get("shelter")
         pole = tags.get("pole")
         
-        # Get routes from batch results
+        # Get routes from results
         route_ids = node_routes.get(stop["id"], [])
         
         # Determine category
@@ -179,15 +239,29 @@ def main():
     
     print(f"✅ Saved {len(features)} stops to {output_path}")
     
-    # Print summary
+    # Print summary with route statistics
     category_counts = {}
+    stops_with_routes = 0
+    total_routes = 0
+    
     for feature in features:
         cat = feature["properties"]["category"]
         category_counts[cat] = category_counts.get(cat, 0) + 1
+        
+        route_count = len(feature["properties"]["routes"])
+        if route_count > 0:
+            stops_with_routes += 1
+            total_routes += route_count
     
     print("\n📊 Category breakdown:")
     for cat, count in sorted(category_counts.items()):
         print(f"  {cat}: {count} stops")
+    
+    print(f"\n🛣️  Route statistics:")
+    print(f"  Stops with route data: {stops_with_routes}/{len(features)}")
+    print(f"  Total route associations: {total_routes}")
+    if stops_with_routes > 0:
+        print(f"  Average routes per stop: {total_routes/stops_with_routes:.1f}")
 
 if __name__ == "__main__":
     start_time = time.time()
