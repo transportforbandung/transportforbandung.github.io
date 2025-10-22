@@ -6,7 +6,7 @@ on:
     - cron: "0 0 * * 0"  # every Sunday at midnight UTC
 
 jobs:
-  fetch-busstops:
+  fetch-bus-stops:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
