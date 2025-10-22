@@ -32,16 +32,10 @@ def fetch_overpass(query):
 
 # Function to fetch route relation IDs for a bus stop node
 def fetch_relations_for_node(node_id):
-    query = f"""
-    [out:json][timeout:20];
-    node({node_id})->.stop;
-    relation(bn.stop)["type"="route"]["route"="bus"];
-    out ids;
-    """
+    query = f'[out:json][timeout:20];node({node_id})->.stop;relation(bn.stop)["type"="route"]["route"="bus"];out ids;'
     try:
         data = fetch_overpass(query)
-        relation_ids = [rel["id"] for rel in data.get("elements", []) if rel["type"] == "relation"]
-        return relation_ids
+        return [el["id"] for el in data.get("elements", []) if el["type"] == "relation"]
     except Exception as e:
         print(f"Failed to fetch relations for node {node_id}: {e}")
         return []
