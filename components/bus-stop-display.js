@@ -5,51 +5,51 @@ let busStopCheckbox = null;
 // Updated icon configurations with your custom icons
 const busStopIcons = {
     "1_shelter_yes_pole_none": L.icon({
-        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte-Icon.svg',
+        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte-Button.svg',
         iconSize: [30, 30],
-        iconAnchor: [10, 10],
+        iconAnchor: [15, 15],
         className: 'bus-stop-custom-icon'
     }),
     "2_shelter_none_pole_sign": L.icon({
-        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Rambu-Icon.svg',
+        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Rambu-Button.svg',
         iconSize: [30, 30],
-        iconAnchor: [10, 10],
+        iconAnchor: [15, 15],
         className: 'bus-stop-custom-icon'
     }),
     "3_shelter_none_pole_totem": L.icon({
-        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Totem-Icon.svg',
+        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Totem-Button.svg',
         iconSize: [30, 30],
-        iconAnchor: [10, 10],
+        iconAnchor: [15, 15],
         className: 'bus-stop-custom-icon'
     }),
     "4_shelter_none_pole_flag": L.icon({
-        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Flag-Icon.svg',
+        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Flag-Button.svg',
         iconSize: [30, 30],
-        iconAnchor: [10, 10],
+        iconAnchor: [15, 15],
         className: 'bus-stop-custom-icon'
     }),
     "5_shelter_yes_pole_sign": L.icon({
-        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte+Rambu-Icon.svg',
+        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte+Rambu-Button.svg',
         iconSize: [30, 30],
-        iconAnchor: [10, 10],
+        iconAnchor: [15, 15],
         className: 'bus-stop-custom-icon'
     }),
     "6_shelter_yes_pole_totem": L.icon({
-        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte+Totem-Icon.svg',
+        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte+Totem-Button.svg',
         iconSize: [30, 30],
-        iconAnchor: [10, 10],
+        iconAnchor: [15, 15],
         className: 'bus-stop-custom-icon'
     }),
     "7_shelter_yes_pole_flag": L.icon({
-        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte+Flag-Icon.svg',
+        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte+Flag-Button.svg',
         iconSize: [30, 30],
-        iconAnchor: [10, 10],
+        iconAnchor: [15, 15],
         className: 'bus-stop-custom-icon'
     }),
     "8_shelter_none_pole_none": L.icon({
-        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Virtual-Icon.svg',
+        iconUrl: 'assets/bus-stop-icon/Bus-Stop-Virtual-Button.svg',
         iconSize: [30, 30],
-        iconAnchor: [10, 10],
+        iconAnchor: [15, 15],
         className: 'bus-stop-custom-icon'
     })
 };
