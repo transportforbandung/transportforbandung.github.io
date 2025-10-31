@@ -63,13 +63,15 @@
       "properties": {
         "id": 4256290,
         "avgspeed": "25",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Trunojoyo",
         "oneway": "no",
         "parking:left": "no",
         "parking:right": "lane",
         "parking:right:orientation": "parallel",
+        "ref": "2409",
+        "reg_ref": "22-10-2409",
         "surface": "asphalt"
       }
     },
@@ -921,10 +923,12 @@
       "properties": {
         "id": 174309305,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "no",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -963,10 +967,12 @@
       "properties": {
         "id": 174309310,
         "avgspeed": "20",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "yes",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -1045,10 +1051,12 @@
         "id": 175069456,
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumbawa",
         "oneway": "yes",
+        "ref": "2360",
+        "reg_ref": "22-10-2360",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -1082,10 +1090,12 @@
       },
       "properties": {
         "id": 177627670,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Kalimantan",
         "oneway": "yes",
+        "ref": "2192",
+        "reg_ref": "22-10-2192",
         "surface": "asphalt"
       }
     },
@@ -1223,68 +1233,8 @@
             -6.9357513
           ],
           [
-            107.6262416,
-            -6.9354616
-          ],
-          [
-            107.6263717,
-            -6.935227
-          ],
-          [
-            107.6264862,
-            -6.9349941
-          ],
-          [
-            107.6266374,
-            -6.9346976
-          ],
-          [
-            107.626681,
-            -6.9345977
-          ],
-          [
-            107.626703,
-            -6.9345365
-          ],
-          [
-            107.6267581,
-            -6.9343867
-          ],
-          [
-            107.626793,
-            -6.9342849
-          ],
-          [
-            107.6268193,
-            -6.934212
-          ],
-          [
-            107.6268568,
-            -6.9341077
-          ],
-          [
-            107.6268968,
-            -6.9339966
-          ],
-          [
-            107.6269745,
-            -6.9337673
-          ],
-          [
-            107.6270073,
-            -6.9336706
-          ],
-          [
-            107.627085,
-            -6.9334736
-          ],
-          [
-            107.627097,
-            -6.9334401
-          ],
-          [
-            107.6271109,
-            -6.9334016
+            107.6262684,
+            -6.9354443
           ]
         ]
       },
@@ -1736,10 +1686,12 @@
       "properties": {
         "id": 317742824,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -1777,6 +1729,8 @@
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -1860,6 +1814,8 @@
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -1943,10 +1899,12 @@
         "id": 318478994,
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumbawa",
         "oneway": "yes",
+        "ref": "2360",
+        "reg_ref": "22-10-2360",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -1981,6 +1939,8 @@
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -2389,20 +2349,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6105561,
-            -6.9144635
+            107.6106029,
+            -6.9145006
           ],
           [
-            107.6106076,
-            -6.9144716
+            107.6106756,
+            -6.9145062
           ],
           [
-            107.6106943,
-            -6.9144865
-          ],
-          [
-            107.6110256,
-            -6.9145277
+            107.6110233,
+            -6.914537
           ]
         ]
       },
@@ -2432,16 +2388,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6105561,
-            -6.9144635
+            107.6106029,
+            -6.9145006
           ],
           [
-            107.6104483,
-            -6.9144756
+            107.6104448,
+            -6.9145057
           ],
           [
-            107.6103996,
-            -6.914492
+            107.6103786,
+            -6.9145105
           ],
           [
             107.6103284,
@@ -2551,10 +2507,12 @@
         "avgspeed": "25",
         "cycleway:left": "no",
         "cycleway:right": "shared_lane",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sultan Agung",
         "oneway": "yes",
+        "ref": "2356",
+        "reg_ref": "22-10-2356",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -2619,10 +2577,12 @@
       },
       "properties": {
         "id": 555588512,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Kalimantan",
         "oneway": "yes",
+        "ref": "2192",
+        "reg_ref": "22-10-2192",
         "surface": "asphalt",
         "width": "6"
       }
@@ -2633,8 +2593,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6178256,
-            -6.9204254
+            107.6178524,
+            -6.9204334
           ],
           [
             107.6179092,
@@ -2717,10 +2677,12 @@
       "properties": {
         "id": 555601273,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "ref": "1269",
+        "reg_ref": "22-10-1269",
         "surface": "asphalt"
       }
     },
@@ -2842,10 +2804,12 @@
       "properties": {
         "id": 703831331,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -3002,9 +2966,11 @@
         "cycleway:lane": "advisory",
         "cycleway:left": "no",
         "cycleway:right": "shared_lane",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "name": "Jalan Sultan Agung",
         "oneway": "yes",
+        "ref": "2356",
+        "reg_ref": "22-10-2356",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -3015,16 +2981,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6176543,
-            -6.9219485
+            107.6176674,
+            -6.9220018
           ],
           [
-            107.6176748,
-            -6.9217511
+            107.6176925,
+            -6.921758
           ],
           [
-            107.6177343,
-            -6.9211766
+            107.6177628,
+            -6.9211858
           ]
         ]
       },
@@ -3032,10 +2998,12 @@
         "id": 769054482,
         "avgspeed": "30",
         "destination:lanes": "Braga|Jawa;Sumbawa;Bangka;Gudang|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "ref": "1269",
+        "reg_ref": "22-10-1269",
         "surface": "asphalt",
         "turn:lanes": "left;through|through|through;right"
       }
@@ -3074,12 +3042,8 @@
             -6.9220526
           ],
           [
-            107.6176589,
+            107.6176674,
             -6.9220018
-          ],
-          [
-            107.6176543,
-            -6.9219485
           ]
         ]
       },
@@ -3764,8 +3728,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6271109,
-            -6.9334016
+            107.6270975,
+            -6.9333963
           ],
           [
             107.6272027,
@@ -4207,10 +4171,12 @@
         "avgspeed": "25",
         "cycleway": "shared_lane",
         "cycleway:lane": "advisory",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "lane_markings": "no",
         "name": "Jalan Trunojoyo",
         "oneway": "no",
+        "ref": "2409",
+        "reg_ref": "22-10-2409",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -4221,12 +4187,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6177343,
-            -6.9211766
+            107.6177628,
+            -6.9211858
           ],
           [
-            107.6178256,
-            -6.9204254
+            107.6178524,
+            -6.9204334
           ]
         ]
       },
@@ -4234,10 +4200,12 @@
         "id": 1193893116,
         "avgspeed": "30",
         "destination:lanes": "Jawa;Sumbawa;Bangka;Gudang|Jawa;Sumbawa;Bangka;Gudang|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "ref": "1269",
+        "reg_ref": "22-10-1269",
         "surface": "asphalt",
         "turn:lanes": "through|through|through;right"
       }
@@ -4772,7 +4740,7 @@
       "properties": {
         "id": 1433877606,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "highway": "residential",
         "lanes": "2",
         "name": "Jalan ABC",
         "name:nl": "ABC Straat",
@@ -4973,12 +4941,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6110256,
-            -6.9145277
+            107.6110233,
+            -6.914537
           ],
           [
             107.611206,
-            -6.9145457
+            -6.9145527
           ]
         ]
       },
@@ -5009,7 +4977,7 @@
         "coordinates": [
           [
             107.611206,
-            -6.9145457
+            -6.9145527
           ],
           [
             107.6116145,
@@ -5458,6 +5426,242 @@
         "oneway": "yes",
         "surface": "asphalt",
         "width": "8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6262684,
+            -6.9354443
+          ],
+          [
+            107.6263932,
+            -6.935235
+          ],
+          [
+            107.6265023,
+            -6.9350074
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396304,
+        "highway": "tertiary",
+        "name": "Jalan Maskumambang",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6265023,
+            -6.9350074
+          ],
+          [
+            107.6266495,
+            -6.9347029
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396305,
+        "highway": "tertiary",
+        "name": "Jalan Maskumambang",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6266495,
+            -6.9347029
+          ],
+          [
+            107.6266944,
+            -6.9346057
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396306,
+        "highway": "tertiary",
+        "name": "Jalan Maskumambang",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6266944,
+            -6.9346057
+          ],
+          [
+            107.6267245,
+            -6.9345392
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396307,
+        "highway": "tertiary",
+        "name": "Jalan Maskumambang",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6267245,
+            -6.9345392
+          ],
+          [
+            107.6267769,
+            -6.9343907
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396308,
+        "highway": "tertiary",
+        "name": "Jalan Maskumambang",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6267769,
+            -6.9343907
+          ],
+          [
+            107.6268118,
+            -6.9342942
+          ],
+          [
+            107.6268327,
+            -6.9342213
+          ],
+          [
+            107.6268716,
+            -6.934109
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396309,
+        "highway": "tertiary",
+        "name": "Jalan Maskumambang",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6268716,
+            -6.934109
+          ],
+          [
+            107.6269089,
+            -6.9340019
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396310,
+        "highway": "tertiary",
+        "name": "Jalan Maskumambang",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6269089,
+            -6.9340019
+          ],
+          [
+            107.6270113,
+            -6.9336719
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396311,
+        "highway": "tertiary",
+        "name": "Jalan Maskumambang",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6270113,
+            -6.9336719
+          ],
+          [
+            107.6270743,
+            -6.9334709
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396312,
+        "highway": "tertiary",
+        "name": "Jalan Maskumambang",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6270743,
+            -6.9334709
+          ],
+          [
+            107.6270863,
+            -6.9334361
+          ],
+          [
+            107.6270975,
+            -6.9333963
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396313,
+        "highway": "tertiary",
+        "name": "Jalan Maskumambang",
+        "surface": "asphalt"
       }
     }
   ]

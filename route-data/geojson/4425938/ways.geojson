@@ -61,16 +61,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6090123,
-            -6.9139197
+            107.6090046,
+            -6.9139396
           ],
           [
-            107.6090098,
-            -6.9140203
+            107.6090046,
+            -6.9140717
           ],
           [
-            107.6090062,
-            -6.9141638
+            107.6090015,
+            -6.9141626
           ],
           [
             107.6089951,
@@ -198,8 +198,20 @@
             -6.9138902
           ],
           [
-            107.6089385,
-            -6.9138394
+            107.6087543,
+            -6.9138526
+          ],
+          [
+            107.6088744,
+            -6.9138541
+          ],
+          [
+            107.6088925,
+            -6.9138558
+          ],
+          [
+            107.6089308,
+            -6.9138593
           ]
         ]
       },
@@ -517,10 +529,12 @@
         "id": 175069456,
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumbawa",
         "oneway": "yes",
+        "ref": "2360",
+        "reg_ref": "22-10-2360",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -566,8 +580,8 @@
             -6.9201846
           ],
           [
-            107.6178256,
-            -6.9204254
+            107.6178524,
+            -6.9204334
           ]
         ]
       },
@@ -577,7 +591,7 @@
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
         "destination:lanes": "Jawa;Sumbawa;Bangka;Gudang|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Veteran",
         "oneway": "yes",
@@ -1021,6 +1035,8 @@
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -1149,12 +1165,12 @@
             -6.9074244
           ],
           [
-            107.6198672,
-            -6.9072744
+            107.6199255,
+            -6.9072325
           ],
           [
-            107.6199733,
-            -6.9072196
+            107.6200125,
+            -6.9071936
           ],
           [
             107.620181,
@@ -1411,6 +1427,8 @@
         "lanes": "2",
         "name": "Jalan Cikutra Barat",
         "oneway": "no",
+        "ref": "2096",
+        "reg_ref": "22-10-2096",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -1791,6 +1809,8 @@
         "lanes": "2",
         "name": "Jalan Cikutra Barat",
         "oneway": "no",
+        "ref": "2096",
+        "reg_ref": "22-10-2096",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -1871,8 +1891,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6178256,
-            -6.9204254
+            107.6178524,
+            -6.9204334
           ],
           [
             107.6179092,
@@ -1955,10 +1975,12 @@
       "properties": {
         "id": 555601273,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "ref": "1269",
+        "reg_ref": "22-10-1269",
         "surface": "asphalt"
       }
     },
@@ -2099,32 +2121,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6089385,
-            -6.9138394
+            107.6089308,
+            -6.9138593
           ],
           [
-            107.6089384,
-            -6.9138601
+            107.6089307,
+            -6.91388
           ],
           [
-            107.6089444,
-            -6.9138799
+            107.6089367,
+            -6.9138998
           ],
           [
-            107.608956,
-            -6.9138955
+            107.6089483,
+            -6.9139154
           ],
           [
-            107.6089722,
-            -6.9139102
+            107.6089645,
+            -6.9139301
           ],
           [
-            107.6089915,
-            -6.9139179
+            107.6089838,
+            -6.9139378
           ],
           [
-            107.6090123,
-            -6.9139197
+            107.6090046,
+            -6.9139396
           ]
         ]
       },
@@ -2267,6 +2289,8 @@
         "lanes": "2",
         "name": "Jalan Cikutra Barat",
         "oneway": "no",
+        "ref": "2096",
+        "reg_ref": "22-10-2096",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -2512,7 +2536,7 @@
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
         "destination:lanes": "Jawa;Sumbawa;Bangka;Gudang|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Veteran",
         "oneway": "yes",
@@ -2577,6 +2601,22 @@
           [
             107.6350707,
             -6.8925301
+          ],
+          [
+            107.6350048,
+            -6.892515
+          ],
+          [
+            107.6347957,
+            -6.892481
+          ],
+          [
+            107.6345702,
+            -6.8924443
+          ],
+          [
+            107.6345337,
+            -6.8924399
           ]
         ]
       },
@@ -2591,100 +2631,8 @@
         "lanes": "2",
         "name": "Jalan Cikutra Barat",
         "oneway": "no",
-        "sidewalk": "both",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6350707,
-            -6.8925301
-          ],
-          [
-            107.6350048,
-            -6.892515
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1394904182,
-        "access": "yes",
-        "bicycle": "yes",
-        "cycleway": "no",
-        "foot": "yes",
-        "highway": "secondary",
-        "horse": "yes",
-        "lanes": "2",
-        "name": "Jalan Cikutra Barat",
-        "oneway": "no",
-        "sidewalk": "both",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6350048,
-            -6.892515
-          ],
-          [
-            107.6347957,
-            -6.892481
-          ],
-          [
-            107.6345702,
-            -6.8924443
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1394904183,
-        "access": "yes",
-        "bicycle": "yes",
-        "cycleway": "no",
-        "foot": "yes",
-        "highway": "secondary",
-        "horse": "yes",
-        "lanes": "2",
-        "name": "Jalan Cikutra Barat",
-        "oneway": "no",
-        "sidewalk": "both",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6345702,
-            -6.8924443
-          ],
-          [
-            107.6345337,
-            -6.8924399
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1394904184,
-        "access": "yes",
-        "bicycle": "yes",
-        "cycleway": "no",
-        "foot": "yes",
-        "highway": "secondary",
-        "horse": "yes",
-        "lanes": "2",
-        "name": "Jalan Cikutra Barat",
-        "oneway": "no",
+        "ref": "2096",
+        "reg_ref": "22-10-2096",
         "sidewalk": "both",
         "surface": "asphalt"
       }

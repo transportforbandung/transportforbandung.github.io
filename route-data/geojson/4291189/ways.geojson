@@ -124,32 +124,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5793414,
-            -6.9075857
+            107.5793292,
+            -6.9075821
           ],
           [
-            107.579391,
-            -6.9075511
+            107.5793823,
+            -6.907539
           ],
           [
-            107.5794252,
-            -6.9075298
+            107.5794813,
+            -6.9074864
           ],
           [
-            107.5796217,
-            -6.9074426
+            107.5796359,
+            -6.9074297
           ],
           [
-            107.5797772,
-            -6.9074113
+            107.579745,
+            -6.9074035
           ],
           [
-            107.5798218,
-            -6.9074031
-          ],
-          [
-            107.5798772,
-            -6.9073964
+            107.5798589,
+            -6.9073792
           ]
         ]
       },
@@ -188,9 +184,11 @@
       "properties": {
         "id": 4625281,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "highway": "secondary",
         "name": "Jalan Ciroyom",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "1082",
+        "reg_ref": "22-10-1082"
       }
     },
     {
@@ -1248,8 +1246,10 @@
         "cycleway:left": "no",
         "cycleway:right": "lane",
         "cycleway:right:lane": "advisory",
-        "highway": "residential",
+        "highway": "tertiary",
         "name": "Jalan Penata Yudha",
+        "ref": "2274",
+        "reg_ref": "22-10-2274",
         "surface": "asphalt"
       }
     },
@@ -1510,6 +1510,8 @@
         "lit": "yes",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "sidewalk:left": "no",
         "sidewalk:right": "separate",
         "surface": "asphalt"
@@ -2018,6 +2020,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "surface": "asphalt"
       }
     },
@@ -2293,6 +2297,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "surface": "asphalt"
       }
     },
@@ -2302,48 +2308,82 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.583414,
-            -6.9110471
+            107.5834264,
+            -6.911033
           ],
           [
-            107.5826442,
+            107.5832037,
+            -6.9108829
+          ],
+          [
+            107.5831698,
+            -6.9108601
+          ],
+          [
+            107.5826513,
             -6.9105104
           ],
           [
-            107.5821727,
-            -6.9102054
+            107.5821809,
+            -6.9101938
           ],
           [
-            107.5816736,
-            -6.9098863
+            107.5816797,
+            -6.9098712
           ],
           [
-            107.5815368,
-            -6.9097983
+            107.5815439,
+            -6.9097842
           ],
           [
-            107.5813863,
-            -6.9097015
+            107.5813924,
+            -6.9096894
           ],
           [
-            107.5811457,
-            -6.9095396
+            107.5811508,
+            -6.9095295
           ],
           [
-            107.5798959,
-            -6.9086988
+            107.5810967,
+            -6.9094937
           ],
           [
-            107.5790593,
-            -6.9081313
+            107.5810602,
+            -6.9094696
+          ],
+          [
+            107.5799006,
+            -6.9086849
+          ],
+          [
+            107.5794756,
+            -6.9083983
+          ],
+          [
+            107.5794427,
+            -6.9083767
+          ],
+          [
+            107.5792165,
+            -6.9082288
+          ],
+          [
+            107.5791712,
+            -6.9082041
+          ],
+          [
+            107.5790892,
+            -6.9081752
           ]
         ]
       },
       "properties": {
         "id": 318891913,
         "avgspeed": "20",
-        "highway": "tertiary",
-        "name": "Jalan Ciroyom"
+        "highway": "secondary",
+        "name": "Jalan Ciroyom",
+        "ref": "1082",
+        "reg_ref": "22-10-1082"
       }
     },
     {
@@ -2352,32 +2392,46 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5859346,
-            -6.9127944
+            107.5858255,
+            -6.912692
           ],
           [
-            107.5857378,
-            -6.9126671
+            107.5857541,
+            -6.912651
           ],
           [
-            107.5848278,
-            -6.9120351
+            107.5857253,
+            -6.9126318
+          ],
+          [
+            107.584839,
+            -6.912027
           ],
           [
             107.5845003,
             -6.911786
           ],
           [
-            107.583414,
-            -6.9110471
+            107.5839364,
+            -6.9113821
+          ],
+          [
+            107.5838485,
+            -6.9113187
+          ],
+          [
+            107.5834264,
+            -6.911033
           ]
         ]
       },
       "properties": {
         "id": 318891922,
         "avgspeed": "20",
-        "highway": "tertiary",
-        "name": "Jalan Ciroyom"
+        "highway": "secondary",
+        "name": "Jalan Ciroyom",
+        "ref": "1082",
+        "reg_ref": "22-10-1082"
       }
     },
     {
@@ -3063,6 +3117,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -3092,6 +3148,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "surface": "asphalt"
       }
     },
@@ -3375,9 +3433,11 @@
       "properties": {
         "id": 555629087,
         "avgspeed": "15",
-        "highway": "tertiary",
+        "highway": "secondary",
         "name": "Jalan Arjuna",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "1007",
+        "reg_ref": "22-10-1007"
       }
     },
     {
@@ -3668,16 +3728,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5791651,
-            -6.907794
+            107.5791589,
+            -6.9077932
           ],
           [
-            107.5792529,
-            -6.9076749
+            107.579252,
+            -6.9076696
           ],
           [
-            107.5793414,
-            -6.9075857
+            107.579312,
+            -6.9075997
+          ],
+          [
+            107.5793292,
+            -6.9075821
           ]
         ]
       },
@@ -3803,6 +3867,8 @@
         "lanes": "1",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -3966,6 +4032,8 @@
         "lanes": "1",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "surface": "asphalt"
       }
     },
@@ -4021,6 +4089,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "surface": "asphalt"
       }
     },
@@ -4083,11 +4153,13 @@
       },
       "properties": {
         "id": 826486237,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -4351,8 +4423,10 @@
         "cycleway:left": "no",
         "cycleway:right": "lane",
         "cycleway:right:lane": "advisory",
-        "highway": "residential",
+        "highway": "tertiary",
         "name": "Jalan Penata Yudha",
+        "ref": "2274",
+        "reg_ref": "22-10-2274",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -4459,6 +4533,8 @@
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "smoothness": "good",
@@ -5047,9 +5123,11 @@
         "cycleway:left": "no",
         "cycleway:right": "lane",
         "cycleway:right:lane": "advisory",
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Penata Yudha",
+        "ref": "2274",
+        "reg_ref": "22-10-2274",
         "surface": "asphalt"
       }
     },
@@ -5120,24 +5198,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.586606,
-            -6.9130812
+            107.5867539,
+            -6.9131493
           ],
           [
             107.5869544,
             -6.9132359
           ],
           [
-            107.5872455,
-            -6.913351
+            107.5872887,
+            -6.9133487
           ],
           [
-            107.5877233,
-            -6.9135372
+            107.5877408,
+            -6.9135291
           ],
           [
-            107.5883833,
-            -6.9137779
+            107.5883956,
+            -6.9137733
+          ],
+          [
+            107.5889327,
+            -6.9139693
           ],
           [
             107.5890738,
@@ -5147,9 +5229,11 @@
       },
       "properties": {
         "id": 1242500614,
-        "highway": "tertiary",
+        "highway": "secondary",
         "name": "Jalan Ciroyom",
         "oneway": "yes",
+        "ref": "1082",
+        "reg_ref": "22-10-1082",
         "surface": "concrete"
       }
     },
@@ -5235,16 +5319,20 @@
             -6.9079365
           ],
           [
-            107.5791632,
-            -6.9079658
+            107.57918,
+            -6.9079579
           ],
           [
-            107.5791472,
-            -6.907992
+            107.5791739,
+            -6.907994
           ],
           [
-            107.5790593,
-            -6.9081313
+            107.5791577,
+            -6.9080639
+          ],
+          [
+            107.5791375,
+            -6.9081026
           ]
         ]
       },
@@ -5262,8 +5350,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5791651,
-            -6.907794
+            107.5791589,
+            -6.9077932
           ],
           [
             107.5791621,
@@ -5293,8 +5381,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5800042,
-            -6.907477
+            107.5800086,
+            -6.9075034
           ],
           [
             107.5799664,
@@ -5305,8 +5393,8 @@
             -6.9074203
           ],
           [
-            107.5798772,
-            -6.9073964
+            107.5798589,
+            -6.9073792
           ]
         ]
       },
@@ -5351,28 +5439,38 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5859346,
-            -6.9127944
+            107.5858255,
+            -6.912692
           ],
           [
-            107.5860118,
-            -6.9128138
+            107.585893,
+            -6.9127104
           ],
           [
-            107.5860847,
-            -6.9128425
+            107.5859605,
+            -6.9127241
           ],
           [
-            107.5862826,
-            -6.9129264
+            107.5860131,
+            -6.9127328
+          ],
+          [
+            107.5860552,
+            -6.9127416
+          ],
+          [
+            107.586119,
+            -6.9127619
           ]
         ]
       },
       "properties": {
         "id": 1330455094,
-        "highway": "tertiary",
+        "highway": "secondary",
         "name": "Jalan Ciroyom",
         "oneway": "yes",
+        "ref": "1082",
+        "reg_ref": "22-10-1082",
         "surface": "concrete"
       }
     },
@@ -5382,20 +5480,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5862826,
-            -6.9129264
+            107.586119,
+            -6.9127619
           ],
           [
-            107.586606,
-            -6.9130812
+            107.5867539,
+            -6.9131493
           ]
         ]
       },
       "properties": {
         "id": 1330455095,
-        "highway": "tertiary",
+        "highway": "secondary",
         "name": "Jalan Ciroyom",
         "oneway": "yes",
+        "ref": "1082",
+        "reg_ref": "22-10-1082",
         "surface": "concrete"
       }
     },
@@ -5553,6 +5653,8 @@
         "lit": "yes",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "sidewalk:left": "yes",
         "sidewalk:right": "separate",
         "surface": "asphalt"
@@ -5592,6 +5694,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "sidewalk:left": "no",
         "sidewalk:right": "separate",
         "surface": "asphalt"
@@ -5692,26 +5796,73 @@
             -6.9076735
           ],
           [
-            107.5809663,
-            -6.9076194
-          ],
-          [
-            107.5805433,
-            -6.9075583
-          ],
-          [
-            107.580125,
-            -6.907494
-          ],
-          [
-            107.5800042,
-            -6.907477
+            107.5811418,
+            -6.9076367
           ]
         ]
       },
       "properties": {
         "id": 1427520618,
         "highway": "trunk",
+        "lanes": "1",
+        "name": "Jalan Abdul Rahman Saleh",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5791375,
+            -6.9081026
+          ],
+          [
+            107.5790892,
+            -6.9081752
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399274,
+        "highway": "trunk",
+        "lanes": "1",
+        "name": "Jalan Abdul Rahman Saleh",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5811418,
+            -6.9076367
+          ],
+          [
+            107.580884,
+            -6.9076194
+          ],
+          [
+            107.5805513,
+            -6.9075785
+          ],
+          [
+            107.5801285,
+            -6.9075186
+          ],
+          [
+            107.5800086,
+            -6.9075034
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1446497274,
+        "construction": "trunk",
+        "highway": "construction",
         "lanes": "1",
         "name": "Jalan Abdul Rahman Saleh",
         "oneway": "yes"

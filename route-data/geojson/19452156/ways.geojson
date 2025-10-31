@@ -180,8 +180,11 @@
       },
       "properties": {
         "id": 318729570,
-        "highway": "tertiary",
-        "lanes": "2"
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Cisaranten Kulon",
+        "ref": "5106",
+        "reg_ref": "22-10-5106"
       }
     },
     {
@@ -261,7 +264,10 @@
       },
       "properties": {
         "id": 318729571,
-        "highway": "tertiary"
+        "highway": "secondary",
+        "name": "Jalan Cisaranten Kulon",
+        "ref": "5106",
+        "reg_ref": "22-10-5106"
       }
     },
     {
@@ -568,6 +574,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Cisaranten Kulon",
+        "ref": "5106",
+        "reg_ref": "22-10-5106",
         "surface": "concrete",
         "width": "4"
       }
@@ -685,8 +693,11 @@
       },
       "properties": {
         "id": 553955970,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Cisaranten Kulon",
+        "ref": "5106",
+        "reg_ref": "22-10-5106",
         "smoothness": "good",
         "surface": "concrete",
         "width": "4"
@@ -733,8 +744,10 @@
       },
       "properties": {
         "id": 554187369,
-        "highway": "tertiary",
-        "name": "Jalan Cinambo"
+        "highway": "secondary",
+        "name": "Jalan Cisaranten Kulon",
+        "ref": "5106",
+        "reg_ref": "22-10-5106"
       }
     },
     {
@@ -883,32 +896,24 @@
             -6.9100505
           ],
           [
-            107.6834678,
-            -6.9115966
+            107.683441,
+            -6.9116112
           ],
           [
-            107.6832381,
-            -6.9121122
+            107.6833347,
+            -6.9118872
           ],
           [
-            107.6832025,
-            -6.9122167
+            107.6832092,
+            -6.9122207
           ],
           [
             107.683082,
             -6.9128432
           ],
           [
-            107.6830832,
-            -6.9128585
-          ],
-          [
-            107.6830906,
-            -6.9128765
-          ],
-          [
-            107.6831302,
-            -6.9129185
+            107.6830772,
+            -6.9128659
           ],
           [
             107.6832604,
@@ -987,7 +992,12 @@
       "properties": {
         "id": 554820969,
         "highway": "unclassified",
-        "name": "Jalan Cicukang"
+        "lanes": "2",
+        "name": "Jalan Cicukang",
+        "oneway": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "4"
       }
     },
     {
@@ -1537,8 +1547,10 @@
       },
       "properties": {
         "id": 1384093994,
-        "highway": "tertiary",
-        "name": "Jalan Cinambo"
+        "highway": "secondary",
+        "name": "Jalan Cisaranten Kulon",
+        "ref": "5106",
+        "reg_ref": "22-10-5106"
       }
     },
     {
@@ -1558,8 +1570,10 @@
       },
       "properties": {
         "id": 1384093995,
-        "highway": "tertiary",
-        "name": "Jalan Cinambo"
+        "highway": "secondary",
+        "name": "Jalan Cisaranten Kulon",
+        "ref": "5106",
+        "reg_ref": "22-10-5106"
       }
     }
   ]

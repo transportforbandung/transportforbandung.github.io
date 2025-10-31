@@ -152,7 +152,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6149201,
+            107.6149248,
             -6.9325064
           ],
           [
@@ -171,10 +171,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Mochammad Ramdhan",
         "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
         "surface": "asphalt"
       }
     },
@@ -300,10 +302,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Mochammad Ramdhan",
         "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
         "surface": "asphalt"
       }
     },
@@ -345,10 +349,12 @@
       "properties": {
         "id": 187596265,
         "alt_name": "Jalan Banteng",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Ahmad Dahlan",
         "oneway": "yes",
+        "ref": "3981",
+        "reg_ref": "22-10-3981",
         "surface": "asphalt"
       }
     },
@@ -386,10 +392,12 @@
       "properties": {
         "id": 192906838,
         "foot": "no",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Mochammad Ramdhan",
         "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
         "surface": "asphalt"
       }
     },
@@ -551,10 +559,12 @@
       "properties": {
         "id": 255029941,
         "alt_name": "Jalan Banteng",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Ahmad Dahlan",
         "oneway": "yes",
+        "ref": "3981",
+        "reg_ref": "22-10-3981",
         "surface": "asphalt"
       }
     },
@@ -664,6 +674,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "ref": "4114",
+        "reg_ref": "22-10-4114",
         "surface": "asphalt"
       }
     },
@@ -769,6 +781,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "ref": "4114",
+        "reg_ref": "22-10-4114",
         "surface": "asphalt"
       }
     },
@@ -1308,9 +1322,11 @@
       },
       "properties": {
         "id": 318899764,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Mochammad Ramdhan",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
         "surface": "asphalt"
       }
     },
@@ -1540,10 +1556,12 @@
         "avgspeed": "15",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Ahmad Dahlan",
         "oneway": "yes",
+        "ref": "3981",
+        "reg_ref": "22-10-3981",
         "surface": "asphalt"
       }
     },
@@ -1576,10 +1594,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Mochammad Ramdhan",
         "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
         "surface": "asphalt"
       }
     },
@@ -1631,12 +1651,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5981805,
-            -6.916324
+            107.5982102,
+            -6.9163251
           ],
           [
-            107.5982481,
-            -6.9163209
+            107.5982729,
+            -6.9163191
           ]
         ]
       },
@@ -1818,16 +1838,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5982481,
-            -6.9163209
+            107.5982729,
+            -6.9163191
           ],
           [
-            107.5982497,
-            -6.9164077
+            107.5982759,
+            -6.9164046
           ],
           [
-            107.5982689,
-            -6.9170906
+            107.5982887,
+            -6.9170918
           ]
         ]
       },
@@ -1932,11 +1952,13 @@
         "bicycle": "yes",
         "bridge": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Mochammad Ramdhan",
         "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
         "surface": "asphalt"
       }
     },
@@ -2152,8 +2174,8 @@
             -6.9163279
           ],
           [
-            107.5981805,
-            -6.916324
+            107.5982102,
+            -6.9163251
           ]
         ]
       },
@@ -2259,8 +2281,16 @@
             -6.9213863
           ],
           [
+            107.6306436,
+            -6.9213081
+          ],
+          [
             107.6307528,
             -6.9208907
+          ],
+          [
+            107.6307766,
+            -6.9207999
           ],
           [
             107.630896,
@@ -2345,9 +2375,11 @@
       },
       "properties": {
         "id": 620544853,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Mochammad Ramdhan",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
         "surface": "asphalt"
       }
     },
@@ -2496,32 +2528,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6149112,
-            -6.9325381
-          ],
-          [
-            107.6149201,
-            -6.9325064
-          ]
-        ]
-      },
-      "properties": {
-        "id": 826437770,
-        "highway": "primary",
-        "lanes": "1",
-        "name": "Jalan Mochammad Ramdhan",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5982689,
-            -6.9170906
+            107.5982887,
+            -6.9170918
           ],
           [
             107.5982849,
@@ -3164,16 +3172,18 @@
             -6.933004
           ],
           [
-            107.6149112,
-            -6.9325381
+            107.6149248,
+            -6.9325064
           ]
         ]
       },
       "properties": {
         "id": 1113396469,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Mochammad Ramdhan",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
         "surface": "asphalt"
       }
     },
@@ -3202,10 +3212,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Karapitan",
         "oneway": "yes",
+        "ref": "3278",
+        "reg_ref": "22-10-3278",
         "surface": "asphalt"
       }
     },
@@ -3319,10 +3331,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Karapitan",
         "oneway": "yes",
+        "ref": "3278",
+        "reg_ref": "22-10-3278",
         "surface": "asphalt"
       }
     },

@@ -423,8 +423,10 @@
         "cycleway:left": "no",
         "cycleway:right": "lane",
         "cycleway:right:lane": "advisory",
-        "highway": "residential",
+        "highway": "tertiary",
         "name": "Jalan Penata Yudha",
+        "ref": "2274",
+        "reg_ref": "22-10-2274",
         "surface": "asphalt"
       }
     },
@@ -474,6 +476,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "surface": "asphalt"
       }
     },
@@ -1092,10 +1096,6 @@
           [
             107.696939,
             -6.9226061
-          ],
-          [
-            107.6968315,
-            -6.9227914
           ],
           [
             107.6967262,
@@ -2537,8 +2537,10 @@
         "cycleway:left": "no",
         "cycleway:right": "lane",
         "cycleway:right:lane": "advisory",
-        "highway": "residential",
+        "highway": "tertiary",
         "name": "Jalan Penata Yudha",
+        "ref": "2274",
+        "reg_ref": "22-10-2274",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -2879,8 +2881,8 @@
             -6.9045989
           ],
           [
-            107.6746631,
-            -6.9045851
+            107.674651,
+            -6.9045858
           ],
           [
             107.6744895,
@@ -2931,7 +2933,8 @@
         "name": "Jalan Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:backward": "left;through|through",
-        "turn:lanes:forward": "left;through|through"
+        "turn:lanes:forward": "left;through|through",
+        "width": "8"
       }
     },
     {
@@ -3505,9 +3508,11 @@
         "cycleway:left": "no",
         "cycleway:right": "lane",
         "cycleway:right:lane": "advisory",
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Penata Yudha",
+        "ref": "2274",
+        "reg_ref": "22-10-2274",
         "surface": "asphalt"
       }
     },

@@ -257,9 +257,11 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "tertiary",
         "name": "Jalan Purnawarman",
         "oneway": "yes",
+        "ref": "10216",
+        "reg_ref": "22-10-10216",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -354,12 +356,12 @@
             -6.9123486
           ],
           [
-            107.5980252,
-            -6.9123143
+            107.5980334,
+            -6.9123085
           ],
           [
-            107.597963,
-            -6.9122655
+            107.5979805,
+            -6.912262
           ]
         ]
       },
@@ -388,54 +390,6 @@
           [
             107.601745,
             -6.9125245
-          ],
-          [
-            107.601624,
-            -6.9125174
-          ],
-          [
-            107.6015636,
-            -6.9125139
-          ],
-          [
-            107.6010547,
-            -6.9124917
-          ],
-          [
-            107.6009674,
-            -6.9124878
-          ],
-          [
-            107.6007223,
-            -6.9124771
-          ],
-          [
-            107.6006486,
-            -6.9124739
-          ],
-          [
-            107.6002224,
-            -6.9124495
-          ],
-          [
-            107.6000202,
-            -6.912439
-          ],
-          [
-            107.5993874,
-            -6.9123994
-          ],
-          [
-            107.5990408,
-            -6.912374
-          ],
-          [
-            107.5990132,
-            -6.912372
-          ],
-          [
-            107.5982527,
-            -6.912368
           ]
         ]
       },
@@ -579,32 +533,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5793414,
-            -6.9075857
+            107.5793292,
+            -6.9075821
           ],
           [
-            107.579391,
-            -6.9075511
+            107.5793823,
+            -6.907539
           ],
           [
-            107.5794252,
-            -6.9075298
+            107.5794813,
+            -6.9074864
           ],
           [
-            107.5796217,
-            -6.9074426
+            107.5796359,
+            -6.9074297
           ],
           [
-            107.5797772,
-            -6.9074113
+            107.579745,
+            -6.9074035
           ],
           [
-            107.5798218,
-            -6.9074031
-          ],
-          [
-            107.5798772,
-            -6.9073964
+            107.5798589,
+            -6.9073792
           ]
         ]
       },
@@ -1283,10 +1233,12 @@
         "id": 32388792,
         "avgspeed": "20",
         "destination": "Cicendo;Pasteur",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Purnawarman",
         "oneway": "yes",
+        "ref": "10216",
+        "reg_ref": "22-10-10216",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1903,8 +1855,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5979376,
-            -6.9117836
+            107.5979469,
+            -6.9117824
           ],
           [
             107.5979313,
@@ -2005,16 +1957,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5786837,
-            -6.9089362
+            107.5784294,
+            -6.909994
           ],
           [
-            107.5784895,
-            -6.90976
+            107.578386,
+            -6.9101772
           ],
           [
-            107.5784646,
-            -6.9098484
+            107.5782065,
+            -6.910981
           ],
           [
             107.5781807,
@@ -2558,41 +2510,67 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5790593,
-            -6.9081313
+            107.5790892,
+            -6.9081752
           ],
           [
-            107.5789413,
-            -6.9083597
+            107.5790301,
+            -6.9082727
           ],
           [
-            107.5789112,
-            -6.9084349
+            107.5789712,
+            -6.9083703
           ],
           [
-            107.578868,
-            -6.9085429
+            107.5789311,
+            -6.9084452
           ],
           [
-            107.5787761,
-            -6.9087759
+            107.578906,
+            -6.908499
           ],
           [
-            107.5787412,
-            -6.9088385
+            107.578861,
+            -6.9086014
           ],
           [
-            107.5786837,
-            -6.9089362
+            107.578817,
+            -6.9087324
+          ],
+          [
+            107.5787284,
+            -6.9090819
+          ],
+          [
+            107.5786623,
+            -6.909348
+          ],
+          [
+            107.5785869,
+            -6.9096141
+          ],
+          [
+            107.5785545,
+            -6.9097131
+          ],
+          [
+            107.5784914,
+            -6.9098515
+          ],
+          [
+            107.5784294,
+            -6.909994
           ]
         ]
       },
       "properties": {
         "id": 318100679,
-        "highway": "trunk",
+        "check_date": "2025-10-31",
+        "highway": "construction",
         "lanes": "1",
         "name": "Jalan Garuda",
-        "oneway": "yes"
+        "oneway": "yes",
+        "opening_date": "2025-12-31"
       }
     },
     {
@@ -3457,12 +3435,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.597963,
-            -6.9122655
+            107.5979805,
+            -6.912262
           ],
           [
-            107.5979376,
-            -6.9117836
+            107.5979469,
+            -6.9117824
           ]
         ]
       },
@@ -4245,16 +4223,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5791651,
-            -6.907794
+            107.5791589,
+            -6.9077932
           ],
           [
-            107.5792529,
-            -6.9076749
+            107.579252,
+            -6.9076696
           ],
           [
-            107.5793414,
-            -6.9075857
+            107.579312,
+            -6.9075997
+          ],
+          [
+            107.5793292,
+            -6.9075821
           ]
         ]
       },
@@ -4404,11 +4386,13 @@
       },
       "properties": {
         "id": 826486237,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "smoothness": "excellent",
         "surface": "asphalt"
       }
@@ -5314,6 +5298,10 @@
             -6.9127137
           ],
           [
+            107.5778075,
+            -6.9127704
+          ],
+          [
             107.5776241,
             -6.9135596
           ],
@@ -5791,16 +5779,20 @@
             -6.9079365
           ],
           [
-            107.5791632,
-            -6.9079658
+            107.57918,
+            -6.9079579
           ],
           [
-            107.5791472,
-            -6.907992
+            107.5791739,
+            -6.907994
           ],
           [
-            107.5790593,
-            -6.9081313
+            107.5791577,
+            -6.9080639
+          ],
+          [
+            107.5791375,
+            -6.9081026
           ]
         ]
       },
@@ -5818,8 +5810,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5791651,
-            -6.907794
+            107.5791589,
+            -6.9077932
           ],
           [
             107.5791621,
@@ -5849,8 +5841,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5800042,
-            -6.907477
+            107.5800086,
+            -6.9075034
           ],
           [
             107.5799664,
@@ -5861,8 +5853,8 @@
             -6.9074203
           ],
           [
-            107.5798772,
-            -6.9073964
+            107.5798589,
+            -6.9073792
           ]
         ]
       },
@@ -5934,9 +5926,11 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "tertiary",
         "name": "Jalan Purnawarman",
         "oneway": "yes",
+        "ref": "10216",
+        "reg_ref": "22-10-10216",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -6265,20 +6259,8 @@
             -6.9076735
           ],
           [
-            107.5809663,
-            -6.9076194
-          ],
-          [
-            107.5805433,
-            -6.9075583
-          ],
-          [
-            107.580125,
-            -6.907494
-          ],
-          [
-            107.5800042,
-            -6.907477
+            107.5811418,
+            -6.9076367
           ]
         ]
       },
@@ -6337,6 +6319,333 @@
         "smoothness": "good",
         "surface": "asphalt",
         "width": "4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6006435,
+            -6.9124749
+          ],
+          [
+            107.6002224,
+            -6.9124495
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399243,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6002224,
+            -6.9124495
+          ],
+          [
+            107.6000202,
+            -6.912439
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399244,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6000202,
+            -6.912439
+          ],
+          [
+            107.5993874,
+            -6.9123994
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399245,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5993874,
+            -6.9123994
+          ],
+          [
+            107.5990408,
+            -6.912374
+          ],
+          [
+            107.5990132,
+            -6.912372
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399246,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5990132,
+            -6.912372
+          ],
+          [
+            107.5982527,
+            -6.912368
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399247,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.601745,
+            -6.9125245
+          ],
+          [
+            107.601624,
+            -6.9125174
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399248,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.601624,
+            -6.9125174
+          ],
+          [
+            107.6015636,
+            -6.9125139
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399249,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6015636,
+            -6.9125139
+          ],
+          [
+            107.6010547,
+            -6.9124917
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399250,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6010547,
+            -6.9124917
+          ],
+          [
+            107.6009674,
+            -6.9124878
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399251,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6009674,
+            -6.9124878
+          ],
+          [
+            107.6007223,
+            -6.9124771
+          ],
+          [
+            107.6006435,
+            -6.9124749
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399252,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5791375,
+            -6.9081026
+          ],
+          [
+            107.5790892,
+            -6.9081752
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399274,
+        "highway": "trunk",
+        "lanes": "1",
+        "name": "Jalan Abdul Rahman Saleh",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5811418,
+            -6.9076367
+          ],
+          [
+            107.580884,
+            -6.9076194
+          ],
+          [
+            107.5805513,
+            -6.9075785
+          ],
+          [
+            107.5801285,
+            -6.9075186
+          ],
+          [
+            107.5800086,
+            -6.9075034
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1446497274,
+        "construction": "trunk",
+        "highway": "construction",
+        "lanes": "1",
+        "name": "Jalan Abdul Rahman Saleh",
+        "oneway": "yes"
       }
     }
   ]

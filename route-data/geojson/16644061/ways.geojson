@@ -415,10 +415,12 @@
         "id": 174269821,
         "avgspeed": "30",
         "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong|Naripan;Asia Afrika;Lengkong",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt",
         "turn:lanes": "sharp_left|slight_right|slight_right"
       }
@@ -633,10 +635,12 @@
       "properties": {
         "id": 174309305,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "no",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -675,10 +679,12 @@
       "properties": {
         "id": 174309310,
         "avgspeed": "20",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "yes",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -774,6 +780,8 @@
         "motor_vehicle": "yes",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "sidewalk": "no",
         "surface": "asphalt"
       }
@@ -890,6 +898,8 @@
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -967,8 +977,8 @@
             -6.9201846
           ],
           [
-            107.6178256,
-            -6.9204254
+            107.6178524,
+            -6.9204334
           ]
         ]
       },
@@ -978,7 +988,7 @@
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
         "destination:lanes": "Jawa;Sumbawa;Bangka;Gudang|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Veteran",
         "oneway": "yes",
@@ -1327,10 +1337,12 @@
       "properties": {
         "id": 317742824,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -1368,6 +1380,8 @@
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -2135,8 +2149,11 @@
       },
       "properties": {
         "id": 318729570,
-        "highway": "tertiary",
-        "lanes": "2"
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Cisaranten Kulon",
+        "ref": "5106",
+        "reg_ref": "22-10-5106"
       }
     },
     {
@@ -2216,7 +2233,10 @@
       },
       "properties": {
         "id": 318729571,
-        "highway": "tertiary"
+        "highway": "secondary",
+        "name": "Jalan Cisaranten Kulon",
+        "ref": "5106",
+        "reg_ref": "22-10-5106"
       }
     },
     {
@@ -2595,6 +2615,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -2648,6 +2670,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "surface": "asphalt"
       }
     },
@@ -3020,32 +3044,24 @@
             -6.9100505
           ],
           [
-            107.6834678,
-            -6.9115966
+            107.683441,
+            -6.9116112
           ],
           [
-            107.6832381,
-            -6.9121122
+            107.6833347,
+            -6.9118872
           ],
           [
-            107.6832025,
-            -6.9122167
+            107.6832092,
+            -6.9122207
           ],
           [
             107.683082,
             -6.9128432
           ],
           [
-            107.6830832,
-            -6.9128585
-          ],
-          [
-            107.6830906,
-            -6.9128765
-          ],
-          [
-            107.6831302,
-            -6.9129185
+            107.6830772,
+            -6.9128659
           ],
           [
             107.6832604,
@@ -3124,7 +3140,12 @@
       "properties": {
         "id": 554820969,
         "highway": "unclassified",
-        "name": "Jalan Cicukang"
+        "lanes": "2",
+        "name": "Jalan Cicukang",
+        "oneway": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "4"
       }
     },
     {
@@ -3202,10 +3223,12 @@
       "properties": {
         "id": 555601276,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -3734,10 +3757,12 @@
       "properties": {
         "id": 703831331,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -4052,10 +4077,12 @@
         "id": 1110342439,
         "avgspeed": "30",
         "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong|Naripan;Asia Afrika;Lengkong",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -4497,8 +4524,8 @@
             -6.9045989
           ],
           [
-            107.6746631,
-            -6.9045851
+            107.674651,
+            -6.9045858
           ],
           [
             107.6744895,
@@ -4549,7 +4576,8 @@
         "name": "Jalan Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:backward": "left;through|through",
-        "turn:lanes:forward": "left;through|through"
+        "turn:lanes:forward": "left;through|through",
+        "width": "8"
       }
     },
     {
@@ -4727,8 +4755,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6178256,
-            -6.9204254
+            107.6178524,
+            -6.9204334
           ],
           [
             107.6185363,
@@ -4767,7 +4795,7 @@
       "properties": {
         "id": 1220201479,
         "destination:lanes": "Kosambi;Cikudapateuh;Riau;Supratman|Kosambi;Cikudapateuh;Riau;Supratman;Simpang Lima;Asia Afrika;Gatot Subroto;Alun Alun|Simpang Lima;Asia Afrika;Gatot Subroto;Alun Alun",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Veteran",
         "oneway": "yes",
@@ -4975,7 +5003,7 @@
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
         "destination:lanes": "Jawa;Sumbawa;Bangka;Gudang|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Veteran",
         "oneway": "yes",
@@ -5194,8 +5222,10 @@
       },
       "properties": {
         "id": 1384093994,
-        "highway": "tertiary",
-        "name": "Jalan Cinambo"
+        "highway": "secondary",
+        "name": "Jalan Cisaranten Kulon",
+        "ref": "5106",
+        "reg_ref": "22-10-5106"
       }
     },
     {

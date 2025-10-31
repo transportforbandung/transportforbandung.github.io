@@ -7,12 +7,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6164323,
-            -6.9288073
+            107.6164384,
+            -6.9287942
           ],
           [
-            107.6164467,
-            -6.9287637
+            107.6164497,
+            -6.9287607
           ]
         ]
       },
@@ -22,10 +22,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Karapitan",
         "oneway": "yes",
+        "ref": "3278",
+        "reg_ref": "22-10-3278",
         "surface": "asphalt"
       }
     },
@@ -35,7 +37,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6149201,
+            107.6149248,
             -6.9325064
           ],
           [
@@ -54,10 +56,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Mochammad Ramdhan",
         "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
         "surface": "asphalt"
       }
     },
@@ -102,10 +106,12 @@
         "bicycle": "yes",
         "cycleway": "lane",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Seram",
         "oneway": "yes",
+        "ref": "2337",
+        "reg_ref": "22-10-2337",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -230,10 +236,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Mochammad Ramdhan",
         "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
         "surface": "asphalt"
       }
     },
@@ -271,10 +279,12 @@
       "properties": {
         "id": 174309310,
         "avgspeed": "20",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "yes",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -353,10 +363,12 @@
         "id": 175069456,
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumbawa",
         "oneway": "yes",
+        "ref": "2360",
+        "reg_ref": "22-10-2360",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -415,6 +427,8 @@
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -424,7 +438,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6149201,
+            107.6149248,
             -6.9325064
           ],
           [
@@ -463,9 +477,11 @@
       },
       "properties": {
         "id": 255027925,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Pungkur",
+        "ref": "3494",
+        "reg_ref": "22-10-3494",
         "surface": "asphalt"
       }
     },
@@ -475,40 +491,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6173303,
-            -6.9250463
+            107.6173532,
+            -6.925034
           ],
           [
-            107.6173654,
-            -6.9248193
-          ],
-          [
-            107.617431,
-            -6.9242266
-          ],
-          [
-            107.6174388,
-            -6.9241564
-          ],
-          [
-            107.6174602,
-            -6.9239362
-          ],
-          [
-            107.6174644,
-            -6.9238804
-          ],
-          [
-            107.6174677,
-            -6.923837
-          ],
-          [
-            107.617469,
-            -6.9238089
-          ],
-          [
-            107.6174757,
-            -6.9237597
+            107.6173947,
+            -6.9248147
           ]
         ]
       },
@@ -518,11 +506,13 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Karapitan",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "3278",
+        "reg_ref": "22-10-3278",
         "surface": "asphalt"
       }
     },
@@ -631,10 +621,12 @@
       "properties": {
         "id": 317742823,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -943,10 +935,12 @@
         "id": 318478994,
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumbawa",
         "oneway": "yes",
+        "ref": "2360",
+        "reg_ref": "22-10-2360",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -1156,9 +1150,11 @@
       },
       "properties": {
         "id": 318899761,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Pungkur",
+        "ref": "3494",
+        "reg_ref": "22-10-3494",
         "surface": "asphalt"
       }
     },
@@ -1223,10 +1219,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Mochammad Ramdhan",
         "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
         "surface": "asphalt"
       }
     },
@@ -1288,16 +1286,16 @@
             -6.9258111
           ],
           [
-            107.6172986,
-            -6.9252112
+            107.6173169,
+            -6.9252132
           ],
           [
-            107.61732,
-            -6.9250993
+            107.6173393,
+            -6.9251003
           ],
           [
-            107.6173303,
-            -6.9250463
+            107.6173532,
+            -6.925034
           ]
         ]
       },
@@ -1310,7 +1308,7 @@
         "cycleway:right": "lane",
         "cycleway:right:oneway": "-1",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Karapitan",
@@ -1319,6 +1317,8 @@
         "parking:left": "lane",
         "parking:left:orientation": "diagonal",
         "parking:right": "no",
+        "ref": "3278",
+        "reg_ref": "22-10-3278",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -1337,7 +1337,7 @@
             -6.9237379
           ],
           [
-            107.6175533,
+            107.6175602,
             -6.9230443
           ]
         ]
@@ -1348,7 +1348,7 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sunda",
         "oneway": "yes",
@@ -1374,8 +1374,8 @@
             -6.9292857
           ],
           [
-            107.6164323,
-            -6.9288073
+            107.6164384,
+            -6.9287942
           ]
         ]
       },
@@ -1385,10 +1385,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Karapitan",
         "oneway": "yes",
+        "ref": "3278",
+        "reg_ref": "22-10-3278",
         "surface": "asphalt"
       }
     },
@@ -1445,10 +1447,12 @@
       },
       "properties": {
         "id": 407800368,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Seram",
         "oneway": "yes",
+        "ref": "2337",
+        "reg_ref": "22-10-2337",
         "surface": "asphalt"
       }
     },
@@ -1510,10 +1514,12 @@
       },
       "properties": {
         "id": 555346570,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -1539,11 +1545,13 @@
         "bicycle": "yes",
         "bridge": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Mochammad Ramdhan",
         "oneway": "yes",
+        "ref": "3408",
+        "reg_ref": "22-10-3408",
         "surface": "asphalt"
       }
     },
@@ -1585,8 +1593,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6178256,
-            -6.9204254
+            107.6178524,
+            -6.9204334
           ],
           [
             107.6179092,
@@ -1669,10 +1677,12 @@
       "properties": {
         "id": 555601273,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "ref": "1269",
+        "reg_ref": "22-10-1269",
         "surface": "asphalt"
       }
     },
@@ -1682,8 +1692,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6164467,
-            -6.9287637
+            107.6164497,
+            -6.9287607
           ],
           [
             107.6164635,
@@ -1697,10 +1707,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Karapitan",
         "oneway": "yes",
+        "ref": "3278",
+        "reg_ref": "22-10-3278",
         "surface": "asphalt"
       }
     },
@@ -2166,16 +2178,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6176543,
-            -6.9219485
+            107.6176674,
+            -6.9220018
           ],
           [
-            107.6176748,
-            -6.9217511
+            107.6176925,
+            -6.921758
           ],
           [
-            107.6177343,
-            -6.9211766
+            107.6177628,
+            -6.9211858
           ]
         ]
       },
@@ -2183,10 +2195,12 @@
         "id": 769054482,
         "avgspeed": "30",
         "destination:lanes": "Braga|Jawa;Sumbawa;Bangka;Gudang|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "ref": "1269",
+        "reg_ref": "22-10-1269",
         "surface": "asphalt",
         "turn:lanes": "left;through|through|through;right"
       }
@@ -2197,19 +2211,23 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6175533,
+            107.6175602,
             -6.9230443
           ],
           [
-            107.6175959,
-            -6.9224232
+            107.6176158,
+            -6.9225861
+          ],
+          [
+            107.6176318,
+            -6.9224238
           ]
         ]
       },
       "properties": {
         "id": 769054483,
         "destination:lanes": "Asia Afrika;Alun Alun;Otto Iskandar Dinata|Sunda;Jawa|Sunda;Kosambi",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
@@ -2224,21 +2242,23 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6175959,
-            -6.9224232
+            107.6176318,
+            -6.9224238
           ],
           [
-            107.6176047,
-            -6.9222986
+            107.6176409,
+            -6.9222818
           ]
         ]
       },
       "properties": {
         "id": 769054487,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "ref": "1269",
+        "reg_ref": "22-10-1269",
         "surface": "asphalt"
       }
     },
@@ -2248,21 +2268,23 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6176047,
-            -6.9222986
+            107.6176409,
+            -6.9222818
           ],
           [
-            107.6176112,
-            -6.9222581
+            107.617642,
+            -6.9222596
           ]
         ]
       },
       "properties": {
         "id": 769054498,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sunda",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "1269",
+        "reg_ref": "22-10-1269"
       }
     },
     {
@@ -2680,9 +2702,12 @@
       "properties": {
         "id": 1110338261,
         "avgspeed": "30",
-        "highway": "secondary_link",
+        "highway": "tertiary_link",
         "lanes": "1",
+        "name": "Jalan Belitung",
         "oneway": "yes",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -2754,10 +2779,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Karapitan",
         "oneway": "yes",
+        "ref": "3278",
+        "reg_ref": "22-10-3278",
         "surface": "asphalt"
       }
     },
@@ -2767,12 +2794,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6177343,
-            -6.9211766
+            107.6177628,
+            -6.9211858
           ],
           [
-            107.6178256,
-            -6.9204254
+            107.6178524,
+            -6.9204334
           ]
         ]
       },
@@ -2780,10 +2807,12 @@
         "id": 1193893116,
         "avgspeed": "30",
         "destination:lanes": "Jawa;Sumbawa;Bangka;Gudang|Jawa;Sumbawa;Bangka;Gudang|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "ref": "1269",
+        "reg_ref": "22-10-1269",
         "surface": "asphalt",
         "turn:lanes": "through|through|through;right"
       }
@@ -3011,10 +3040,12 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Karapitan",
         "oneway": "yes",
+        "ref": "3278",
+        "reg_ref": "22-10-3278",
         "surface": "asphalt"
       }
     },
@@ -3241,25 +3272,27 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6176112,
-            -6.9222581
+            107.617642,
+            -6.9222596
           ],
           [
-            107.6176418,
-            -6.9220702
+            107.6176603,
+            -6.9220817
           ],
           [
-            107.6176543,
-            -6.9219485
+            107.6176674,
+            -6.9220018
           ]
         ]
       },
       "properties": {
         "id": 1304785726,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "ref": "1269",
+        "reg_ref": "22-10-1269",
         "surface": "asphalt"
       }
     },
@@ -3628,6 +3661,144 @@
         "ref": "2318",
         "reg_ref": "22-10-2318",
         "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6173947,
+            -6.9248147
+          ],
+          [
+            107.6174186,
+            -6.9245782
+          ],
+          [
+            107.6174402,
+            -6.9242266
+          ],
+          [
+            107.617445,
+            -6.9241549
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396318,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Karapitan",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "3278",
+        "reg_ref": "22-10-3278",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.617445,
+            -6.9241549
+          ],
+          [
+            107.6174602,
+            -6.9239362
+          ],
+          [
+            107.6174644,
+            -6.9238804
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396319,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Karapitan",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "3278",
+        "reg_ref": "22-10-3278",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6174644,
+            -6.9238804
+          ],
+          [
+            107.6174677,
+            -6.923837
+          ],
+          [
+            107.6174708,
+            -6.9238071
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396320,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Karapitan",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "3278",
+        "reg_ref": "22-10-3278",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6174708,
+            -6.9238071
+          ],
+          [
+            107.6174757,
+            -6.9237597
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396321,
+        "access": "yes",
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Karapitan",
+        "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     }

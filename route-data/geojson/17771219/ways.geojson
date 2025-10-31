@@ -47,10 +47,12 @@
       "properties": {
         "id": 4627126,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Banceuy",
         "oneway": "yes",
+        "ref": "2020",
+        "reg_ref": "22-10-2020",
         "sidewalk": "separate"
       }
     },
@@ -124,7 +126,7 @@
       "properties": {
         "id": 4627147,
         "avgspeed": "25",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan ABC",
         "name:nl": "ABC Straat",
@@ -376,7 +378,7 @@
       "properties": {
         "id": 168567116,
         "avgspeed": "25",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan ABC",
         "name:nl": "ABC Straat",
@@ -406,7 +408,7 @@
         "id": 168567119,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan ABC",
@@ -483,6 +485,8 @@
         "highway": "primary",
         "name": "Jalan Kopo",
         "oneway": "yes",
+        "ref": "4114",
+        "reg_ref": "22-10-4114",
         "surface": "asphalt"
       }
     },
@@ -720,6 +724,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "ref": "4114",
+        "reg_ref": "22-10-4114",
         "surface": "asphalt"
       }
     },
@@ -855,6 +861,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "ref": "4114",
+        "reg_ref": "22-10-4114",
         "surface": "asphalt"
       }
     },
@@ -932,9 +940,11 @@
       },
       "properties": {
         "id": 317742828,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Pungkur",
+        "ref": "3494",
+        "reg_ref": "22-10-3494",
         "surface": "asphalt"
       }
     },
@@ -975,10 +985,12 @@
       },
       "properties": {
         "id": 318191411,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Pungkur",
         "oneway": "yes",
+        "ref": "3494",
+        "reg_ref": "22-10-3494",
         "surface": "asphalt"
       }
     },
@@ -1858,6 +1870,8 @@
         "lanes": "2",
         "name": "Jalan Pasir Koja",
         "oneway": "yes",
+        "ref": "4149",
+        "reg_ref": "22-10-4149",
         "surface": "asphalt"
       }
     },
@@ -2709,6 +2723,8 @@
         "maxweight": "5",
         "name": "Jalan Pasir Koja",
         "oneway": "yes",
+        "ref": "4149",
+        "reg_ref": "22-10-4149",
         "surface": "asphalt"
       }
     },
@@ -2737,6 +2753,8 @@
         "lanes": "2",
         "name": "Jalan Pasir Koja",
         "oneway": "yes",
+        "ref": "4149",
+        "reg_ref": "22-10-4149",
         "surface": "asphalt"
       }
     },
@@ -2758,11 +2776,13 @@
       "properties": {
         "id": 555679526,
         "bridge": "yes",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Pungkur",
         "oneway": "yes",
+        "ref": "3494",
+        "reg_ref": "22-10-3494",
         "surface": "asphalt"
       }
     },
@@ -2795,10 +2815,12 @@
       },
       "properties": {
         "id": 555679527,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Pungkur",
         "oneway": "yes",
+        "ref": "3494",
+        "reg_ref": "22-10-3494",
         "surface": "asphalt"
       }
     },
@@ -3570,7 +3592,9 @@
         "id": 704492127,
         "highway": "primary",
         "name": "Jalan Pasir Koja",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "4149",
+        "reg_ref": "22-10-4149"
       }
     },
     {
@@ -3799,6 +3823,8 @@
         "lanes:forward": "1",
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "oneway": "no",
+        "ref": "4114",
+        "reg_ref": "22-10-4114",
         "surface": "asphalt"
       }
     },
@@ -3808,8 +3834,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6177343,
-            -6.9211766
+            107.6177628,
+            -6.9211858
           ],
           [
             107.6171928,
@@ -4916,8 +4942,8 @@
             -6.9045989
           ],
           [
-            107.6746631,
-            -6.9045851
+            107.674651,
+            -6.9045858
           ],
           [
             107.6744895,
@@ -4968,7 +4994,8 @@
         "name": "Jalan Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:backward": "left;through|through",
-        "turn:lanes:forward": "left;through|through"
+        "turn:lanes:forward": "left;through|through",
+        "width": "8"
       }
     },
     {
@@ -5290,12 +5317,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6177343,
-            -6.9211766
+            107.6177628,
+            -6.9211858
           ],
           [
-            107.6178256,
-            -6.9204254
+            107.6178524,
+            -6.9204334
           ]
         ]
       },
@@ -5303,10 +5330,12 @@
         "id": 1193893116,
         "avgspeed": "30",
         "destination:lanes": "Jawa;Sumbawa;Bangka;Gudang|Jawa;Sumbawa;Bangka;Gudang|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "ref": "1269",
+        "reg_ref": "22-10-1269",
         "surface": "asphalt",
         "turn:lanes": "through|through|through;right"
       }
@@ -5506,8 +5535,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6178256,
-            -6.9204254
+            107.6178524,
+            -6.9204334
           ],
           [
             107.6185363,
@@ -5546,7 +5575,7 @@
       "properties": {
         "id": 1220201479,
         "destination:lanes": "Kosambi;Cikudapateuh;Riau;Supratman|Kosambi;Cikudapateuh;Riau;Supratman;Simpang Lima;Asia Afrika;Gatot Subroto;Alun Alun|Simpang Lima;Asia Afrika;Gatot Subroto;Alun Alun",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Veteran",
         "oneway": "yes",
@@ -5672,7 +5701,6 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Naripan",
-        "oneway": "yes",
         "sidewalk": "separate"
       }
     },

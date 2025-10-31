@@ -284,6 +284,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -320,42 +322,48 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6126316,
-            -6.926269
+            107.612647,
+            -6.9262231
           ],
           [
-            107.6128501,
-            -6.9265242
+            107.6128857,
+            -6.926502
           ],
           [
-            107.6129723,
-            -6.9266612
+            107.6130005,
+            -6.9266412
           ],
           [
-            107.6130446,
-            -6.9267623
+            107.6130714,
+            -6.926733
           ],
           [
-            107.6130889,
-            -6.9268342
+            107.6131037,
+            -6.9268116
           ],
           [
-            107.6131171,
-            -6.9269168
+            107.6131248,
+            -6.9268697
           ],
           [
-            107.6131287,
-            -6.926975
+            107.6131331,
+            -6.9269146
+          ],
+          [
+            107.6131443,
+            -6.9269688
           ]
         ]
       },
       "properties": {
         "id": 4637738,
         "avgspeed": "30",
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Lengkong Besar",
         "oneway": "yes",
+        "ref": "3367",
+        "reg_ref": "22-10-3367",
         "surface": "asphalt"
       }
     },
@@ -427,10 +435,12 @@
       "properties": {
         "id": 105231312,
         "avgspeed": "30",
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Lengkong Besar",
         "oneway": "yes",
+        "ref": "3367",
+        "reg_ref": "22-10-3367",
         "surface": "asphalt"
       }
     },
@@ -574,7 +584,10 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Ibu Inggit Ganarsih",
+        "old_name": "Jalan Ciateul",
         "oneway": "no",
+        "ref": "4097",
+        "reg_ref": "22-10-4097",
         "surface": "asphalt"
       }
     },
@@ -722,10 +735,12 @@
         "id": 174269821,
         "avgspeed": "30",
         "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong|Naripan;Asia Afrika;Lengkong",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt",
         "turn:lanes": "sharp_left|slight_right|slight_right"
       }
@@ -740,8 +755,8 @@
             -6.9217387
           ],
           [
-            107.6119957,
-            -6.9218717
+            107.6120004,
+            -6.9218318
           ],
           [
             107.6119659,
@@ -763,10 +778,12 @@
       },
       "properties": {
         "id": 174269832,
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Lengkong Besar",
         "oneway": "yes",
+        "ref": "3367",
+        "reg_ref": "22-10-3367",
         "surface": "asphalt"
       }
     },
@@ -852,10 +869,12 @@
       "properties": {
         "id": 174309305,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "no",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -894,10 +913,12 @@
       "properties": {
         "id": 174309310,
         "avgspeed": "20",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "yes",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -939,6 +960,8 @@
         "motor_vehicle": "yes",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "sidewalk": "no",
         "surface": "asphalt"
       }
@@ -982,6 +1005,8 @@
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "sidewalk": "no",
         "smoothness": "excellent",
         "surface": "asphalt"
@@ -1016,10 +1041,12 @@
       },
       "properties": {
         "id": 177627670,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Kalimantan",
         "oneway": "yes",
+        "ref": "2192",
+        "reg_ref": "22-10-2192",
         "surface": "asphalt"
       }
     },
@@ -1110,6 +1137,8 @@
         "lit": "yes",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "sidewalk:left": "no",
         "sidewalk:right": "separate",
         "surface": "asphalt"
@@ -1210,10 +1239,12 @@
       "properties": {
         "id": 317742824,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -1250,7 +1281,10 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Ibu Inggit Ganarsih",
+        "old_name": "Jalan Ciateul",
         "oneway": "no",
+        "ref": "4097",
+        "reg_ref": "22-10-4097",
         "surface": "asphalt"
       }
     },
@@ -1383,6 +1417,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "surface": "asphalt"
       }
     },
@@ -1550,7 +1586,10 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Ibu Inggit Ganarsih",
+        "old_name": "Jalan Ciateul",
         "oneway": "no",
+        "ref": "4097",
+        "reg_ref": "22-10-4097",
         "surface": "asphalt"
       }
     },
@@ -1643,6 +1682,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -1654,11 +1695,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6131088,
-            -6.9274572
+            107.613137,
+            -6.9274559
           ],
           [
-            107.6130977,
+            107.6131272,
             -6.9275689
           ],
           [
@@ -1690,10 +1731,12 @@
       "properties": {
         "id": 331562848,
         "avgspeed": "30",
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Lengkong Besar",
         "oneway": "yes",
+        "ref": "3367",
+        "reg_ref": "22-10-3367",
         "surface": "asphalt"
       }
     },
@@ -1719,73 +1762,75 @@
             -6.9242192
           ],
           [
-            107.611699,
-            -6.9246866
+            107.6117142,
+            -6.9246889
           ],
           [
-            107.6116941,
+            107.6117081,
             -6.9247371
           ],
           [
-            107.6116853,
+            107.6117028,
             -6.9248556
           ],
           [
-            107.6116821,
-            -6.9249171
+            107.6117078,
+            -6.9249159
           ],
           [
-            107.6116955,
+            107.6117224,
             -6.9249903
           ],
           [
-            107.6117291,
-            -6.9250668
+            107.6117513,
+            -6.925068
           ],
           [
-            107.6117823,
-            -6.9251585
+            107.6117998,
+            -6.9251562
           ],
           [
-            107.6118547,
-            -6.9252768
+            107.6118687,
+            -6.9252698
           ],
           [
-            107.6119396,
-            -6.9254138
+            107.6119571,
+            -6.9254045
           ],
           [
-            107.6120025,
-            -6.9255072
+            107.6120282,
+            -6.9254956
           ],
           [
-            107.6120429,
-            -6.9255602
+            107.6120768,
+            -6.9255532
           ],
           [
-            107.6121461,
-            -6.9256813
+            107.6121706,
+            -6.9256697
           ],
           [
-            107.6125697,
-            -6.9261958
+            107.6126055,
+            -6.9261738
           ],
           [
-            107.6125973,
-            -6.9262285
+            107.6126274,
+            -6.9261996
           ],
           [
-            107.6126316,
-            -6.926269
+            107.612647,
+            -6.9262231
           ]
         ]
       },
       "properties": {
         "id": 331562849,
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Lengkong Besar",
         "oneway": "yes",
+        "ref": "3367",
+        "reg_ref": "22-10-3367",
         "surface": "asphalt"
       }
     },
@@ -1813,6 +1858,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "surface": "asphalt"
       }
     },
@@ -1859,10 +1906,12 @@
       },
       "properties": {
         "id": 555588512,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Kalimantan",
         "oneway": "yes",
+        "ref": "2192",
+        "reg_ref": "22-10-2192",
         "surface": "asphalt",
         "width": "6"
       }
@@ -1913,10 +1962,12 @@
       "properties": {
         "id": 555601276,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -2104,10 +2155,12 @@
       "properties": {
         "id": 703831331,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -2235,6 +2288,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "surface": "asphalt"
       }
     },
@@ -2282,6 +2337,8 @@
         "lanes": "1",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "surface": "asphalt"
       }
     },
@@ -2478,10 +2535,12 @@
         "id": 1110342439,
         "avgspeed": "30",
         "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong|Naripan;Asia Afrika;Lengkong",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -2765,22 +2824,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6131287,
-            -6.926975
+            107.6131443,
+            -6.9269688
           ],
           [
-            107.6131088,
-            -6.9274572
+            107.613137,
+            -6.9274559
           ]
         ]
       },
       "properties": {
         "id": 1220673725,
         "avgspeed": "30",
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Lengkong Besar",
         "oneway": "yes",
+        "ref": "3367",
+        "reg_ref": "22-10-3367",
         "surface": "asphalt"
       }
     },
@@ -3256,6 +3317,8 @@
         "lit": "yes",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "sidewalk:left": "yes",
         "sidewalk:right": "separate",
         "surface": "asphalt"
@@ -3295,6 +3358,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "sidewalk:left": "no",
         "sidewalk:right": "separate",
         "surface": "asphalt"

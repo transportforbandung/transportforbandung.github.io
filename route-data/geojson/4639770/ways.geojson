@@ -96,9 +96,11 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "tertiary",
         "name": "Jalan Purnawarman",
         "oneway": "yes",
+        "ref": "10216",
+        "reg_ref": "22-10-10216",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -177,8 +179,8 @@
             -6.9093774
           ],
           [
-            107.6432846,
-            -6.9094522
+            107.6433049,
+            -6.9094542
           ]
         ]
       },
@@ -311,10 +313,12 @@
         "id": 32388791,
         "avgspeed": "20",
         "destination": "Aceh;Jawa;Braga;Veteran",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Purnawarman",
         "oneway": "yes",
+        "ref": "10216",
+        "reg_ref": "22-10-10216",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -431,10 +435,12 @@
       },
       "properties": {
         "id": 177627670,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Kalimantan",
         "oneway": "yes",
+        "ref": "2192",
+        "reg_ref": "22-10-2192",
         "surface": "asphalt"
       }
     },
@@ -492,6 +498,8 @@
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -961,6 +969,8 @@
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -1044,6 +1054,8 @@
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -1061,8 +1073,8 @@
             -6.9064194
           ],
           [
-            107.5967209,
-            -6.9063994
+            107.5967306,
+            -6.9063983
           ],
           [
             107.5968629,
@@ -1073,16 +1085,12 @@
             -6.9063754
           ],
           [
-            107.5971919,
-            -6.9063647
-          ],
-          [
             107.5972896,
             -6.9063654
           ],
           [
-            107.5974289,
-            -6.9063687
+            107.5974482,
+            -6.9063626
           ],
           [
             107.5975495,
@@ -1382,16 +1390,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.643479,
-            -6.9113625
+            107.6434964,
+            -6.9113612
           ],
           [
-            107.6435013,
-            -6.9115874
+            107.6435161,
+            -6.9115847
           ],
           [
-            107.6435336,
-            -6.9119301
+            107.6435389,
+            -6.9119283
           ],
           [
             107.6435633,
@@ -2183,28 +2191,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6433384,
-            -6.9099756
+            107.6433608,
+            -6.9099796
           ],
           [
-            107.6433851,
-            -6.9104303
+            107.6434062,
+            -6.9104364
           ],
           [
-            107.6434008,
-            -6.9105843
+            107.6434211,
+            -6.9105823
           ],
           [
-            107.643456,
+            107.6434723,
             -6.9111273
           ],
           [
-            107.6434646,
-            -6.9112119
+            107.6434794,
+            -6.9112066
           ],
           [
-            107.643479,
-            -6.9113625
+            107.6434964,
+            -6.9113612
           ]
         ]
       },
@@ -2399,10 +2407,12 @@
       },
       "properties": {
         "id": 555588512,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Kalimantan",
         "oneway": "yes",
+        "ref": "2192",
+        "reg_ref": "22-10-2192",
         "surface": "asphalt",
         "width": "6"
       }
@@ -2985,38 +2995,6 @@
           [
             107.599567,
             -6.9068341
-          ],
-          [
-            107.5998642,
-            -6.9068525
-          ],
-          [
-            107.6000477,
-            -6.9068645
-          ],
-          [
-            107.6006155,
-            -6.9069026
-          ],
-          [
-            107.6008643,
-            -6.9069205
-          ],
-          [
-            107.6009527,
-            -6.906927
-          ],
-          [
-            107.6011922,
-            -6.9069453
-          ],
-          [
-            107.6012851,
-            -6.9069524
-          ],
-          [
-            107.601582,
-            -6.9069752
           ]
         ]
       },
@@ -3336,16 +3314,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6432846,
-            -6.9094522
+            107.6433049,
+            -6.9094542
           ],
           [
-            107.6433008,
-            -6.9096195
+            107.6433272,
+            -6.9096134
           ],
           [
-            107.6433384,
-            -6.9099756
+            107.6433608,
+            -6.9099796
           ]
         ]
       },
@@ -4002,9 +3980,11 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "tertiary",
         "name": "Jalan Purnawarman",
         "oneway": "yes",
+        "ref": "10216",
+        "reg_ref": "22-10-10216",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -4432,6 +4412,158 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.599567,
+            -6.9068341
+          ],
+          [
+            107.5998642,
+            -6.9068525
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399269,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "371",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5998642,
+            -6.9068525
+          ],
+          [
+            107.6000477,
+            -6.9068645
+          ],
+          [
+            107.6006155,
+            -6.9069026
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399270,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "371",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6006155,
+            -6.9069026
+          ],
+          [
+            107.6008643,
+            -6.9069205
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399271,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "371",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6008643,
+            -6.9069205
+          ],
+          [
+            107.6009527,
+            -6.906927
+          ],
+          [
+            107.6011922,
+            -6.9069453
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399272,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "371",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6011922,
+            -6.9069453
+          ],
+          [
+            107.6012851,
+            -6.9069524
+          ],
+          [
+            107.601582,
+            -6.9069752
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399273,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Pajajaran",
+        "oneway": "yes",
+        "ref": "371",
         "surface": "asphalt"
       }
     }

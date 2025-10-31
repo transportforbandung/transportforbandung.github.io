@@ -235,6 +235,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -739,10 +741,12 @@
       },
       "properties": {
         "id": 244799598,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Sukabumi",
         "oneway": "yes",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     },
@@ -901,9 +905,11 @@
       },
       "properties": {
         "id": 301544694,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     },
@@ -1130,16 +1136,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.643479,
-            -6.9113625
+            107.6434964,
+            -6.9113612
           ],
           [
-            107.6435013,
-            -6.9115874
+            107.6435161,
+            -6.9115847
           ],
           [
-            107.6435336,
-            -6.9119301
+            107.6435389,
+            -6.9119283
           ],
           [
             107.6435633,
@@ -1196,6 +1202,8 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "yes",
+        "ref": "2137",
+        "reg_ref": "22-10-2137",
         "surface": "asphalt"
       }
     },
@@ -1480,8 +1488,11 @@
       },
       "properties": {
         "id": 318729570,
-        "highway": "tertiary",
-        "lanes": "2"
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Cisaranten Kulon",
+        "ref": "5106",
+        "reg_ref": "22-10-5106"
       }
     },
     {
@@ -1561,7 +1572,10 @@
       },
       "properties": {
         "id": 318729571,
-        "highway": "tertiary"
+        "highway": "secondary",
+        "name": "Jalan Cisaranten Kulon",
+        "ref": "5106",
+        "reg_ref": "22-10-5106"
       }
     },
     {
@@ -2359,28 +2373,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6433384,
-            -6.9099756
+            107.6433608,
+            -6.9099796
           ],
           [
-            107.6433851,
-            -6.9104303
+            107.6434062,
+            -6.9104364
           ],
           [
-            107.6434008,
-            -6.9105843
+            107.6434211,
+            -6.9105823
           ],
           [
-            107.643456,
+            107.6434723,
             -6.9111273
           ],
           [
-            107.6434646,
-            -6.9112119
+            107.6434794,
+            -6.9112066
           ],
           [
-            107.643479,
-            -6.9113625
+            107.6434964,
+            -6.9113612
           ]
         ]
       },
@@ -2827,32 +2841,24 @@
             -6.9100505
           ],
           [
-            107.6834678,
-            -6.9115966
+            107.683441,
+            -6.9116112
           ],
           [
-            107.6832381,
-            -6.9121122
+            107.6833347,
+            -6.9118872
           ],
           [
-            107.6832025,
-            -6.9122167
+            107.6832092,
+            -6.9122207
           ],
           [
             107.683082,
             -6.9128432
           ],
           [
-            107.6830832,
-            -6.9128585
-          ],
-          [
-            107.6830906,
-            -6.9128765
-          ],
-          [
-            107.6831302,
-            -6.9129185
+            107.6830772,
+            -6.9128659
           ],
           [
             107.6832604,
@@ -2931,7 +2937,12 @@
       "properties": {
         "id": 554820969,
         "highway": "unclassified",
-        "name": "Jalan Cicukang"
+        "lanes": "2",
+        "name": "Jalan Cicukang",
+        "oneway": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "4"
       }
     },
     {
@@ -3230,12 +3241,12 @@
             -6.9093014
           ],
           [
-            107.6433023,
+            107.6433104,
             -6.9093874
           ],
           [
-            107.6432846,
-            -6.9094522
+            107.6433049,
+            -6.9094542
           ]
         ]
       },
@@ -3614,9 +3625,11 @@
       },
       "properties": {
         "id": 986595380,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     },
@@ -3734,18 +3747,20 @@
             -6.9173179
           ],
           [
-            107.6337902,
-            -6.9174244
+            107.6337948,
+            -6.9174252
           ]
         ]
       },
       "properties": {
         "id": 1064244371,
         "bridge": "yes",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     },
@@ -3766,9 +3781,11 @@
       },
       "properties": {
         "id": 1064247852,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     },
@@ -3838,16 +3855,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6432846,
-            -6.9094522
+            107.6433049,
+            -6.9094542
           ],
           [
-            107.6433008,
-            -6.9096195
+            107.6433272,
+            -6.9096134
           ],
           [
-            107.6433384,
-            -6.9099756
+            107.6433608,
+            -6.9099796
           ]
         ]
       },
@@ -3883,9 +3900,11 @@
       },
       "properties": {
         "id": 1111616658,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     },
@@ -4637,8 +4656,8 @@
             -6.9045989
           ],
           [
-            107.6746631,
-            -6.9045851
+            107.674651,
+            -6.9045858
           ],
           [
             107.6744895,
@@ -4689,7 +4708,8 @@
         "name": "Jalan Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:backward": "left;through|through",
-        "turn:lanes:forward": "left;through|through"
+        "turn:lanes:forward": "left;through|through",
+        "width": "8"
       }
     },
     {
@@ -5050,11 +5070,13 @@
       },
       "properties": {
         "id": 1225789974,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sukabumi",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt",
         "turn:lanes": "through|through"
       }
@@ -5080,10 +5102,12 @@
       },
       "properties": {
         "id": 1225789975,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sukabumi",
         "oneway": "yes",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt",
         "turn:lanes": "slight_left|right"
       }
@@ -5094,8 +5118,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6337902,
-            -6.9174244
+            107.6337948,
+            -6.9174252
           ],
           [
             107.6337656,
@@ -5126,11 +5150,13 @@
       "properties": {
         "id": 1225789976,
         "destination:lanes:forward": "Lingkar Selatan;Gatot Subroto;Buahbatu|Ahmad Yani;Riau;Kosambi",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
         "lanes:forward": "2",
         "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     },
@@ -5421,8 +5447,10 @@
       },
       "properties": {
         "id": 1384093994,
-        "highway": "tertiary",
-        "name": "Jalan Cinambo"
+        "highway": "secondary",
+        "name": "Jalan Cisaranten Kulon",
+        "ref": "5106",
+        "reg_ref": "22-10-5106"
       }
     },
     {
@@ -5442,8 +5470,10 @@
       },
       "properties": {
         "id": 1384093995,
-        "highway": "tertiary",
-        "name": "Jalan Cinambo"
+        "highway": "secondary",
+        "name": "Jalan Cisaranten Kulon",
+        "ref": "5106",
+        "reg_ref": "22-10-5106"
       }
     },
     {

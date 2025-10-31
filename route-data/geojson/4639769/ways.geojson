@@ -209,12 +209,12 @@
             -6.9123486
           ],
           [
-            107.5980252,
-            -6.9123143
+            107.5980334,
+            -6.9123085
           ],
           [
-            107.597963,
-            -6.9122655
+            107.5979805,
+            -6.912262
           ]
         ]
       },
@@ -243,54 +243,6 @@
           [
             107.601745,
             -6.9125245
-          ],
-          [
-            107.601624,
-            -6.9125174
-          ],
-          [
-            107.6015636,
-            -6.9125139
-          ],
-          [
-            107.6010547,
-            -6.9124917
-          ],
-          [
-            107.6009674,
-            -6.9124878
-          ],
-          [
-            107.6007223,
-            -6.9124771
-          ],
-          [
-            107.6006486,
-            -6.9124739
-          ],
-          [
-            107.6002224,
-            -6.9124495
-          ],
-          [
-            107.6000202,
-            -6.912439
-          ],
-          [
-            107.5993874,
-            -6.9123994
-          ],
-          [
-            107.5990408,
-            -6.912374
-          ],
-          [
-            107.5990132,
-            -6.912372
-          ],
-          [
-            107.5982527,
-            -6.912368
           ]
         ]
       },
@@ -324,23 +276,31 @@
           ],
           [
             107.6099494,
-            -6.9139376
+            -6.9139437
           ],
           [
-            107.6098993,
-            -6.9139397
+            107.6099002,
+            -6.9139511
           ],
           [
-            107.6098166,
-            -6.913931
+            107.6098104,
+            -6.9139493
           ],
           [
-            107.6091994,
-            -6.9138624
+            107.6097898,
+            -6.913947
           ],
           [
-            107.6090819,
-            -6.9138528
+            107.6097682,
+            -6.9139446
+          ],
+          [
+            107.6091954,
+            -6.9138828
+          ],
+          [
+            107.6090742,
+            -6.9138727
           ]
         ]
       },
@@ -513,10 +473,12 @@
       "properties": {
         "id": 174309310,
         "avgspeed": "20",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "yes",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -655,6 +617,8 @@
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -730,10 +694,12 @@
       },
       "properties": {
         "id": 244799598,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Sukabumi",
         "oneway": "yes",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     },
@@ -743,8 +709,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5979376,
-            -6.9117836
+            107.5979469,
+            -6.9117824
           ],
           [
             107.5979313,
@@ -833,9 +799,11 @@
       },
       "properties": {
         "id": 301544694,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     },
@@ -1030,10 +998,12 @@
       "properties": {
         "id": 317742823,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -1071,6 +1041,8 @@
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -1112,6 +1084,8 @@
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "no",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -1209,8 +1183,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6090178,
-            -6.9137787
+            107.6090101,
+            -6.9137986
           ],
           [
             107.6090205,
@@ -2102,12 +2076,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.597963,
-            -6.9122655
+            107.5979805,
+            -6.912262
           ],
           [
-            107.5979376,
-            -6.9117836
+            107.5979469,
+            -6.9117824
           ]
         ]
       },
@@ -3164,24 +3138,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6090819,
-            -6.9138528
+            107.6090742,
+            -6.9138727
           ],
           [
-            107.6090781,
-            -6.9138264
+            107.6090704,
+            -6.9138463
           ],
           [
-            107.6090646,
-            -6.9138032
+            107.6090569,
+            -6.9138231
           ],
           [
-            107.6090436,
-            -6.9137865
+            107.6090359,
+            -6.9138064
           ],
           [
-            107.6090178,
-            -6.9137787
+            107.6090101,
+            -6.9137986
           ]
         ]
       },
@@ -3272,9 +3246,11 @@
       },
       "properties": {
         "id": 986595380,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     },
@@ -3344,18 +3320,20 @@
             -6.9173179
           ],
           [
-            107.6337902,
-            -6.9174244
+            107.6337948,
+            -6.9174252
           ]
         ]
       },
       "properties": {
         "id": 1064244371,
         "bridge": "yes",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     },
@@ -3376,9 +3354,11 @@
       },
       "properties": {
         "id": 1064247852,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     },
@@ -3470,9 +3450,12 @@
       "properties": {
         "id": 1110338261,
         "avgspeed": "30",
-        "highway": "secondary_link",
+        "highway": "tertiary_link",
         "lanes": "1",
+        "name": "Jalan Belitung",
         "oneway": "yes",
+        "ref": "2046",
+        "reg_ref": "22-10-2046",
         "surface": "asphalt"
       }
     },
@@ -3514,10 +3497,12 @@
       "properties": {
         "id": 1110338262,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -3542,9 +3527,11 @@
       },
       "properties": {
         "id": 1111616658,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     },
@@ -3805,11 +3792,13 @@
       },
       "properties": {
         "id": 1225789974,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sukabumi",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt",
         "turn:lanes": "through|through"
       }
@@ -3835,10 +3824,12 @@
       },
       "properties": {
         "id": 1225789975,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sukabumi",
         "oneway": "yes",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt",
         "turn:lanes": "slight_left|right"
       }
@@ -3849,8 +3840,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6337902,
-            -6.9174244
+            107.6337948,
+            -6.9174252
           ],
           [
             107.6337656,
@@ -3881,11 +3872,13 @@
       "properties": {
         "id": 1225789976,
         "destination:lanes:forward": "Lingkar Selatan;Gatot Subroto;Buahbatu|Ahmad Yani;Riau;Kosambi",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
         "lanes:forward": "2",
         "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     },
@@ -4440,6 +4433,274 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Gudang Utara",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6006435,
+            -6.9124749
+          ],
+          [
+            107.6002224,
+            -6.9124495
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399243,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6002224,
+            -6.9124495
+          ],
+          [
+            107.6000202,
+            -6.912439
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399244,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6000202,
+            -6.912439
+          ],
+          [
+            107.5993874,
+            -6.9123994
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399245,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5993874,
+            -6.9123994
+          ],
+          [
+            107.5990408,
+            -6.912374
+          ],
+          [
+            107.5990132,
+            -6.912372
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399246,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5990132,
+            -6.912372
+          ],
+          [
+            107.5982527,
+            -6.912368
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399247,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.601745,
+            -6.9125245
+          ],
+          [
+            107.601624,
+            -6.9125174
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399248,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.601624,
+            -6.9125174
+          ],
+          [
+            107.6015636,
+            -6.9125139
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399249,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6015636,
+            -6.9125139
+          ],
+          [
+            107.6010547,
+            -6.9124917
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399250,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6010547,
+            -6.9124917
+          ],
+          [
+            107.6009674,
+            -6.9124878
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399251,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6009674,
+            -6.9124878
+          ],
+          [
+            107.6007223,
+            -6.9124771
+          ],
+          [
+            107.6006435,
+            -6.9124749
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399252,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kebon Kawung",
+        "oneway": "yes",
+        "ref": "370",
         "surface": "asphalt"
       }
     }

@@ -61,8 +61,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5983921,
-            -6.91631
+            107.5984551,
+            -6.9163007
           ],
           [
             107.5986452,
@@ -236,16 +236,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6090123,
-            -6.9139197
+            107.6090046,
+            -6.9139396
           ],
           [
-            107.6090098,
-            -6.9140203
+            107.6090046,
+            -6.9140717
           ],
           [
-            107.6090062,
-            -6.9141638
+            107.6090015,
+            -6.9141626
           ],
           [
             107.6089951,
@@ -373,8 +373,20 @@
             -6.9138902
           ],
           [
-            107.6089385,
-            -6.9138394
+            107.6087543,
+            -6.9138526
+          ],
+          [
+            107.6088744,
+            -6.9138541
+          ],
+          [
+            107.6088925,
+            -6.9138558
+          ],
+          [
+            107.6089308,
+            -6.9138593
           ]
         ]
       },
@@ -2189,12 +2201,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5981805,
-            -6.916324
+            107.5982102,
+            -6.9163251
           ],
           [
-            107.5982481,
-            -6.9163209
+            107.5982729,
+            -6.9163191
           ]
         ]
       },
@@ -3216,90 +3228,6 @@
           [
             107.6118192,
             -6.9217111
-          ],
-          [
-            107.6114983,
-            -6.9216723
-          ],
-          [
-            107.6114205,
-            -6.9216629
-          ],
-          [
-            107.6112374,
-            -6.9216415
-          ],
-          [
-            107.6110264,
-            -6.921617
-          ],
-          [
-            107.6108437,
-            -6.9215945
-          ],
-          [
-            107.6106298,
-            -6.9215692
-          ],
-          [
-            107.6104268,
-            -6.9215449
-          ],
-          [
-            107.610212,
-            -6.9215192
-          ],
-          [
-            107.6101457,
-            -6.9215112
-          ],
-          [
-            107.6099811,
-            -6.9214915
-          ],
-          [
-            107.6099361,
-            -6.9214856
-          ],
-          [
-            107.6098247,
-            -6.9214728
-          ],
-          [
-            107.6094601,
-            -6.9214292
-          ],
-          [
-            107.6092781,
-            -6.9214081
-          ],
-          [
-            107.6088891,
-            -6.9213611
-          ],
-          [
-            107.6087887,
-            -6.9213491
-          ],
-          [
-            107.6087588,
-            -6.9213455
-          ],
-          [
-            107.6086038,
-            -6.921327
-          ],
-          [
-            107.6082301,
-            -6.921281
-          ],
-          [
-            107.6081802,
-            -6.9212757
-          ],
-          [
-            107.6080507,
-            -6.92126
           ]
         ]
       },
@@ -3533,8 +3461,8 @@
             -6.9163279
           ],
           [
-            107.5981805,
-            -6.916324
+            107.5982102,
+            -6.9163251
           ]
         ]
       },
@@ -4993,32 +4921,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6089385,
-            -6.9138394
+            107.6089308,
+            -6.9138593
           ],
           [
-            107.6089384,
-            -6.9138601
+            107.6089307,
+            -6.91388
           ],
           [
-            107.6089444,
-            -6.9138799
+            107.6089367,
+            -6.9138998
           ],
           [
-            107.608956,
-            -6.9138955
+            107.6089483,
+            -6.9139154
           ],
           [
-            107.6089722,
-            -6.9139102
+            107.6089645,
+            -6.9139301
           ],
           [
-            107.6089915,
-            -6.9139179
+            107.6089838,
+            -6.9139378
           ],
           [
-            107.6090123,
-            -6.9139197
+            107.6090046,
+            -6.9139396
           ]
         ]
       },
@@ -7013,12 +6941,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5982481,
-            -6.9163209
+            107.5982729,
+            -6.9163191
           ],
           [
-            107.5983921,
-            -6.91631
+            107.5984551,
+            -6.9163007
           ]
         ]
       },
@@ -7422,6 +7350,484 @@
         "sidewalk": "separate",
         "surface": "asphalt",
         "turn:lanes": "through|through|slight_right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6098247,
+            -6.9214728
+          ],
+          [
+            107.6094601,
+            -6.9214292
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399253,
+        "avgspeed": "40",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Jalan Asia Afrika",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6094601,
+            -6.9214292
+          ],
+          [
+            107.6092781,
+            -6.9214081
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399254,
+        "avgspeed": "40",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Jalan Asia Afrika",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6092781,
+            -6.9214081
+          ],
+          [
+            107.6090693,
+            -6.9213829
+          ],
+          [
+            107.6088891,
+            -6.9213611
+          ],
+          [
+            107.6087887,
+            -6.9213491
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399255,
+        "avgspeed": "40",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Jalan Asia Afrika",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6087887,
+            -6.9213491
+          ],
+          [
+            107.6087588,
+            -6.9213455
+          ],
+          [
+            107.6086038,
+            -6.921327
+          ],
+          [
+            107.6082301,
+            -6.921281
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399256,
+        "avgspeed": "40",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Jalan Asia Afrika",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6082301,
+            -6.921281
+          ],
+          [
+            107.6081802,
+            -6.9212757
+          ],
+          [
+            107.6080507,
+            -6.92126
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399257,
+        "avgspeed": "40",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Jalan Asia Afrika",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6118192,
+            -6.9217111
+          ],
+          [
+            107.6114983,
+            -6.9216723
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399258,
+        "avgspeed": "40",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Jalan Asia Afrika",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6114983,
+            -6.9216723
+          ],
+          [
+            107.6114205,
+            -6.9216629
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399259,
+        "avgspeed": "40",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Jalan Asia Afrika",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6114205,
+            -6.9216629
+          ],
+          [
+            107.6112374,
+            -6.9216415
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399260,
+        "avgspeed": "40",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Jalan Asia Afrika",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6112374,
+            -6.9216415
+          ],
+          [
+            107.6110264,
+            -6.921617
+          ],
+          [
+            107.6108437,
+            -6.9215945
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399261,
+        "avgspeed": "40",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Jalan Asia Afrika",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6108437,
+            -6.9215945
+          ],
+          [
+            107.6106298,
+            -6.9215692
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399262,
+        "avgspeed": "40",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Jalan Asia Afrika",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6106298,
+            -6.9215692
+          ],
+          [
+            107.6104268,
+            -6.9215449
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399263,
+        "avgspeed": "40",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Jalan Asia Afrika",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6104268,
+            -6.9215449
+          ],
+          [
+            107.610212,
+            -6.9215192
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399264,
+        "avgspeed": "40",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Jalan Asia Afrika",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.610212,
+            -6.9215192
+          ],
+          [
+            107.6101457,
+            -6.9215112
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399265,
+        "avgspeed": "40",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Jalan Asia Afrika",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6101457,
+            -6.9215112
+          ],
+          [
+            107.6099811,
+            -6.9214915
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399266,
+        "avgspeed": "40",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Jalan Asia Afrika",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6099811,
+            -6.9214915
+          ],
+          [
+            107.6099361,
+            -6.9214856
+          ],
+          [
+            107.6098247,
+            -6.9214728
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445399267,
+        "avgspeed": "40",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Jalan Asia Afrika",
+        "oneway": "yes",
+        "sidewalk": "separate",
+        "surface": "asphalt"
       }
     }
   ]

@@ -63,13 +63,15 @@
       "properties": {
         "id": 4256290,
         "avgspeed": "25",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Trunojoyo",
         "oneway": "no",
         "parking:left": "no",
         "parking:right": "lane",
         "parking:right:orientation": "parallel",
+        "ref": "2409",
+        "reg_ref": "22-10-2409",
         "surface": "asphalt"
       }
     },
@@ -83,20 +85,24 @@
             -6.914166
           ],
           [
-            107.6103544,
-            -6.9142938
+            107.6103155,
+            -6.914268
           ],
           [
-            107.6104193,
-            -6.9143679
+            107.6103473,
+            -6.914321
           ],
           [
-            107.6104965,
-            -6.9144291
+            107.6104158,
+            -6.9143899
           ],
           [
-            107.6105561,
-            -6.9144635
+            107.610493,
+            -6.9144379
+          ],
+          [
+            107.6106029,
+            -6.9145006
           ]
         ]
       },
@@ -179,8 +185,20 @@
             -6.9138902
           ],
           [
-            107.6089385,
-            -6.9138394
+            107.6087543,
+            -6.9138526
+          ],
+          [
+            107.6088744,
+            -6.9138541
+          ],
+          [
+            107.6088925,
+            -6.9138558
+          ],
+          [
+            107.6089308,
+            -6.9138593
           ]
         ]
       },
@@ -231,7 +249,7 @@
       "properties": {
         "id": 4627130,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "highway": "residential",
         "lanes": "2",
         "name": "Jalan ABC",
         "name:nl": "ABC Straat",
@@ -311,7 +329,7 @@
       "properties": {
         "id": 4627147,
         "avgspeed": "25",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan ABC",
         "name:nl": "ABC Straat",
@@ -428,10 +446,12 @@
         "bicycle": "yes",
         "cycleway": "lane",
         "foot": "yes",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Seram",
         "oneway": "yes",
+        "ref": "2337",
+        "reg_ref": "22-10-2337",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -567,7 +587,7 @@
       "properties": {
         "id": 168567116,
         "avgspeed": "25",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan ABC",
         "name:nl": "ABC Straat",
@@ -597,7 +617,7 @@
         "id": 168567119,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan ABC",
@@ -813,10 +833,12 @@
         "id": 174269821,
         "avgspeed": "30",
         "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong|Naripan;Asia Afrika;Lengkong",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt",
         "turn:lanes": "sharp_left|slight_right|slight_right"
       }
@@ -952,10 +974,12 @@
       "properties": {
         "id": 174309305,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "no",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -1494,10 +1518,12 @@
       },
       "properties": {
         "id": 244802257,
-        "highway": "unclassified",
+        "highway": "tertiary",
         "lane_markings": "no",
         "name": "Jalan Trunojoyo",
         "oneway": "yes",
+        "ref": "2409",
+        "reg_ref": "22-10-2409",
         "sidewalk:left": "separate",
         "sidewalk:right": "yes",
         "surface": "asphalt",
@@ -1816,39 +1842,22 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.63176,
-            -6.9379133
+            107.6317661,
+            -6.9379183
           ],
           [
-            107.631737,
-            -6.9379628
-          ],
-          [
-            107.6315151,
-            -6.9384406
-          ],
-          [
-            107.6313499,
-            -6.9387944
-          ],
-          [
-            107.6312907,
-            -6.9389235
-          ],
-          [
-            107.6310553,
-            -6.9394309
-          ],
-          [
-            107.6309641,
-            -6.9396275
+            107.6317421,
+            -6.9379689
           ]
         ]
       },
       "properties": {
         "id": 302584619,
-        "highway": "residential",
-        "name": "Jalan Reog"
+        "highway": "tertiary",
+        "name": "Jalan Reog",
+        "ref": "2322",
+        "reg_ref": "22-10-2322",
+        "surface": "asphalt"
       }
     },
     {
@@ -1857,60 +1866,72 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.632568,
-            -6.9343049
+            107.6325931,
+            -6.9343034
           ],
           [
-            107.6325329,
-            -6.934612
+            107.6325962,
+            -6.9343362
           ],
           [
-            107.632521,
-            -6.9347164
+            107.6325954,
+            -6.934371
           ],
           [
-            107.6325141,
-            -6.9347769
+            107.6325634,
+            -6.934615
           ],
           [
-            107.6324719,
-            -6.9350266
+            107.6325505,
+            -6.9347184
           ],
           [
-            107.6324348,
-            -6.935337
+            107.6325426,
+            -6.9347819
           ],
           [
-            107.6324129,
-            -6.9354931
+            107.6325075,
+            -6.9350377
           ],
           [
-            107.6323847,
-            -6.9356488
+            107.6324639,
+            -6.935345
           ],
           [
-            107.6323673,
-            -6.9357928
+            107.6324368,
+            -6.9355098
           ],
           [
-            107.6322996,
-            -6.9361789
+            107.63239,
+            -6.9357998
           ],
           [
-            107.6322842,
-            -6.9363025
+            107.6323275,
+            -6.9361852
           ],
           [
-            107.6321755,
-            -6.9367711
+            107.6323086,
+            -6.9363088
           ],
           [
-            107.6321283,
-            -6.9369348
+            107.632262,
+            -6.9365411
           ],
           [
-            107.6320929,
-            -6.9370503
+            107.6322012,
+            -6.9367769
+          ],
+          [
+            107.6321575,
+            -6.9369339
+          ],
+          [
+            107.6321151,
+            -6.9370549
+          ],
+          [
+            107.6320281,
+            -6.9373171
           ],
           [
             107.6319463,
@@ -1921,15 +1942,17 @@
             -6.9375605
           ],
           [
-            107.63176,
-            -6.9379133
+            107.6317661,
+            -6.9379183
           ]
         ]
       },
       "properties": {
         "id": 302584620,
-        "highway": "residential",
+        "highway": "tertiary",
         "name": "Jalan Reog",
+        "ref": "2322",
+        "reg_ref": "22-10-2322",
         "surface": "asphalt"
       }
     },
@@ -2121,10 +2144,12 @@
       "properties": {
         "id": 317742823,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -2326,8 +2351,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6090178,
-            -6.9137787
+            107.6090101,
+            -6.9137986
           ],
           [
             107.6090205,
@@ -2438,28 +2463,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6089385,
-            -6.9138394
+            107.6089308,
+            -6.9138593
           ],
           [
-            107.608945,
-            -6.9138185
+            107.6089373,
+            -6.9138384
           ],
           [
-            107.6089576,
-            -6.9138005
+            107.6089499,
+            -6.9138204
           ],
           [
-            107.6089751,
-            -6.9137871
+            107.6089674,
+            -6.913807
           ],
           [
-            107.6089958,
-            -6.9137796
+            107.6089881,
+            -6.9137995
           ],
           [
-            107.6090178,
-            -6.9137787
+            107.6090101,
+            -6.9137986
           ]
         ]
       },
@@ -2651,8 +2676,8 @@
             -6.9342353
           ],
           [
-            107.632568,
-            -6.9343049
+            107.6325931,
+            -6.9343034
           ]
         ]
       },
@@ -3073,20 +3098,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6105561,
-            -6.9144635
+            107.6106029,
+            -6.9145006
           ],
           [
-            107.6106076,
-            -6.9144716
+            107.6106756,
+            -6.9145062
           ],
           [
-            107.6106943,
-            -6.9144865
-          ],
-          [
-            107.6110256,
-            -6.9145277
+            107.6110233,
+            -6.914537
           ]
         ]
       },
@@ -3163,10 +3184,12 @@
       },
       "properties": {
         "id": 407800368,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Seram",
         "oneway": "yes",
+        "ref": "2337",
+        "reg_ref": "22-10-2337",
         "surface": "asphalt"
       }
     },
@@ -3244,10 +3267,12 @@
       },
       "properties": {
         "id": 555346570,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -3372,10 +3397,12 @@
       "properties": {
         "id": 555601276,
         "avgspeed": "30",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -3577,10 +3604,12 @@
       },
       "properties": {
         "id": 703831332,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -3621,10 +3650,12 @@
       },
       "properties": {
         "id": 703831335,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -3665,10 +3696,12 @@
       },
       "properties": {
         "id": 706564384,
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -3891,8 +3924,10 @@
         "cycleway:lane": "advisory",
         "cycleway:left": "no",
         "cycleway:right": "shared_lane",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "name": "Jalan Trunojoyo",
+        "ref": "2409",
+        "reg_ref": "22-10-2409",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -4084,8 +4119,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6177343,
-            -6.9211766
+            107.6177628,
+            -6.9211858
           ],
           [
             107.6171928,
@@ -4266,10 +4301,12 @@
         "cycleway:lane": "advisory",
         "cycleway:left": "no",
         "cycleway:right": "shared_lane",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "lane_markings": "no",
         "name": "Jalan Trunojoyo",
         "oneway": "no",
+        "ref": "2409",
+        "reg_ref": "22-10-2409",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -4394,10 +4431,12 @@
         "id": 1110342439,
         "avgspeed": "30",
         "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong|Naripan;Asia Afrika;Lengkong",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "ref": "2359",
+        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -4545,10 +4584,12 @@
         "avgspeed": "25",
         "cycleway": "shared_lane",
         "cycleway:lane": "advisory",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "lane_markings": "no",
         "name": "Jalan Trunojoyo",
         "oneway": "no",
+        "ref": "2409",
+        "reg_ref": "22-10-2409",
         "sidewalk:both": "separate",
         "surface": "asphalt"
       }
@@ -4559,12 +4600,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6177343,
-            -6.9211766
+            107.6177628,
+            -6.9211858
           ],
           [
-            107.6178256,
-            -6.9204254
+            107.6178524,
+            -6.9204334
           ]
         ]
       },
@@ -4572,10 +4613,12 @@
         "id": 1193893116,
         "avgspeed": "30",
         "destination:lanes": "Jawa;Sumbawa;Bangka;Gudang|Jawa;Sumbawa;Bangka;Gudang|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto",
-        "highway": "secondary",
+        "highway": "tertiary",
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "ref": "1269",
+        "reg_ref": "22-10-1269",
         "surface": "asphalt",
         "turn:lanes": "through|through|through;right"
       }
@@ -4701,7 +4744,7 @@
       "properties": {
         "id": 1216756086,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "highway": "residential",
         "lanes": "2",
         "name": "Jalan ABC",
         "name:nl": "ABC Straat",
@@ -4808,8 +4851,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6178256,
-            -6.9204254
+            107.6178524,
+            -6.9204334
           ],
           [
             107.6185363,
@@ -4848,7 +4891,7 @@
       "properties": {
         "id": 1220201479,
         "destination:lanes": "Kosambi;Cikudapateuh;Riau;Supratman|Kosambi;Cikudapateuh;Riau;Supratman;Simpang Lima;Asia Afrika;Gatot Subroto;Alun Alun|Simpang Lima;Asia Afrika;Gatot Subroto;Alun Alun",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Veteran",
         "oneway": "yes",
@@ -5140,7 +5183,7 @@
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
         "destination:lanes": "Jawa;Sumbawa;Bangka;Gudang|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto",
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Veteran",
         "oneway": "yes",
@@ -6024,12 +6067,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6110256,
-            -6.9145277
+            107.6110233,
+            -6.914537
           ],
           [
             107.611206,
-            -6.9145457
+            -6.9145527
           ]
         ]
       },
@@ -6060,7 +6103,7 @@
         "coordinates": [
           [
             107.611206,
-            -6.9145457
+            -6.9145527
           ],
           [
             107.6116145,
@@ -6502,6 +6545,86 @@
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "sett"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6317421,
+            -6.9379689
+          ],
+          [
+            107.6315151,
+            -6.9384406
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396322,
+        "highway": "tertiary",
+        "name": "Jalan Reog",
+        "ref": "2322",
+        "reg_ref": "22-10-2322",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6315151,
+            -6.9384406
+          ],
+          [
+            107.6313499,
+            -6.9387944
+          ],
+          [
+            107.6312907,
+            -6.9389235
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396323,
+        "highway": "tertiary",
+        "name": "Jalan Reog",
+        "ref": "2322",
+        "reg_ref": "22-10-2322",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6312907,
+            -6.9389235
+          ],
+          [
+            107.6310553,
+            -6.9394309
+          ],
+          [
+            107.6309641,
+            -6.9396275
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396324,
+        "highway": "tertiary",
+        "name": "Jalan Reog",
+        "ref": "2322",
+        "reg_ref": "22-10-2322",
+        "surface": "asphalt"
       }
     }
   ]
