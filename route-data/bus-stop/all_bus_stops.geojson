@@ -498,7 +498,8 @@
           18766207,
           18766208,
           18771222,
-          18771223
+          18771223,
+          19757705
         ],
         "category": "6_shelter_yes_pole_totem"
       }
@@ -886,60 +887,6 @@
           18797950,
           18797951
         ],
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5769466,
-          -6.9223077
-        ]
-      },
-      "properties": {
-        "id": 1911634927,
-        "name": "RS Priangan",
-        "shelter": null,
-        "pole": null,
-        "routes": [],
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5813879,
-          -6.9235251
-        ]
-      },
-      "properties": {
-        "id": 1911634972,
-        "name": "Pasar Cangkring/Situ Aksan",
-        "shelter": null,
-        "pole": null,
-        "routes": [],
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.580869,
-          -6.9206062
-        ]
-      },
-      "properties": {
-        "id": 1911634983,
-        "name": "Jalan Suryani",
-        "shelter": null,
-        "pole": null,
-        "routes": [],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -1406,17 +1353,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.5917888,
-          -6.9087296
+          107.5918925,
+          -6.9085147
         ]
       },
       "properties": {
         "id": 2012970403,
-        "name": "Arjuna/Bima",
-        "shelter": null,
-        "pole": null,
+        "name": "Seberang Kantor Kelurahan Arjuna",
+        "shelter": "no",
+        "pole": "no",
         "routes": [
-          4423238
+          19757704
         ],
         "category": "8_shelter_none_pole_none"
       }
@@ -3086,7 +3033,7 @@
       },
       "properties": {
         "id": 3375793689,
-        "name": "Simpang Supratman Ahmad Yani",
+        "name": "Simpang Supratman - Ahmad Yani",
         "shelter": "no",
         "pole": "flag",
         "routes": [
@@ -3100,7 +3047,8 @@
           17329177,
           17350725,
           17770945,
-          17771219
+          17771219,
+          19757704
         ],
         "category": "4_shelter_none_pole_flag"
       }
@@ -3124,7 +3072,8 @@
           4634057,
           4639769,
           15555900,
-          15555901
+          15555901,
+          19757705
         ],
         "category": "3_shelter_none_pole_totem"
       }
@@ -3150,7 +3099,8 @@
           14364569,
           15555900,
           16644187,
-          17770945
+          17770945,
+          19757704
         ],
         "category": "2_shelter_none_pole_sign"
       }
@@ -3231,7 +3181,8 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
-          4635390
+          4635390,
+          19757705
         ],
         "category": "8_shelter_none_pole_none"
       }
@@ -4684,13 +4635,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.5980763,
+          107.5980816,
           -6.9155756
         ]
       },
       "properties": {
         "id": 3383432850,
-        "name": "Paskal Hypersquare",
+        "name": "Paskal 23",
         "shelter": "no",
         "pole": "totem",
         "routes": [
@@ -5866,7 +5817,8 @@
           16648408,
           17771221,
           18770906,
-          19664371
+          19664371,
+          19757704
         ],
         "category": "2_shelter_none_pole_sign"
       }
@@ -6516,14 +6468,15 @@
       },
       "properties": {
         "id": 5358212374,
-        "name": "Gedung Keuangan Negara/KM 0",
+        "name": "Monumen 0 KM Kota Bandung",
         "shelter": "no",
         "pole": "totem",
         "routes": [
           15520324,
           15555900,
           17771223,
-          18771223
+          18771223,
+          19757705
         ],
         "category": "3_shelter_none_pole_totem"
       }
@@ -6992,7 +6945,8 @@
           17772447,
           18782467,
           18782468,
-          18782469
+          18782469,
+          19757704
         ],
         "category": "2_shelter_none_pole_sign"
       }
@@ -7524,7 +7478,8 @@
           14298213,
           17772446,
           18771222,
-          19664372
+          19664372,
+          19757705
         ],
         "category": "5_shelter_yes_pole_sign"
       }
@@ -8307,7 +8262,9 @@
           16650512,
           18766206,
           18768805,
-          18782468
+          18782468,
+          19757704,
+          19757705
         ],
         "category": "8_shelter_none_pole_none"
       }
@@ -8491,7 +8448,7 @@
       },
       "properties": {
         "id": 10778288303,
-        "name": "Pos Banceuy",
+        "name": "Kantor Pos Banceuy",
         "shelter": "yes",
         "pole": "traffic_sign",
         "routes": [
@@ -8500,7 +8457,8 @@
           16650512,
           17771073,
           17771219,
-          18771222
+          18771222,
+          19757705
         ],
         "category": "5_shelter_yes_pole_sign"
       }
@@ -8635,7 +8593,8 @@
           17772446,
           18766206,
           18771222,
-          19664372
+          19664372,
+          19757705
         ],
         "category": "5_shelter_yes_pole_sign"
       }
@@ -8671,7 +8630,8 @@
           18766208,
           18771222,
           18782467,
-          18782469
+          18782469,
+          19757705
         ],
         "category": "8_shelter_none_pole_none"
       }
@@ -9215,7 +9175,8 @@
           15555901,
           16650513,
           16650577,
-          17771223
+          17771223,
+          19757705
         ],
         "category": "1_shelter_yes_pole_none"
       }
@@ -9246,7 +9207,8 @@
           15555901,
           16650513,
           16650577,
-          17771223
+          17771223,
+          19757705
         ],
         "category": "5_shelter_yes_pole_sign"
       }
@@ -9304,7 +9266,8 @@
           16650513,
           16650577,
           17770945,
-          17771223
+          17771223,
+          19757705
         ],
         "category": "4_shelter_none_pole_flag"
       }
@@ -9345,7 +9308,7 @@
       },
       "properties": {
         "id": 10815563379,
-        "name": "Padjajaran 1",
+        "name": "SMK Negeri 12 Bandung",
         "shelter": "yes",
         "pole": "traffic_sign",
         "routes": [
@@ -9356,7 +9319,8 @@
           4816517,
           16644123,
           17553836,
-          18782468
+          18782468,
+          19757704
         ],
         "category": "5_shelter_yes_pole_sign"
       }
@@ -10025,7 +9989,8 @@
           18766208,
           18782467,
           18782468,
-          18782469
+          18782469,
+          19757705
         ],
         "category": "2_shelter_none_pole_sign"
       }
@@ -10055,7 +10020,8 @@
           15555900,
           15555901,
           16650513,
-          17771223
+          17771223,
+          19757705
         ],
         "category": "1_shelter_yes_pole_none"
       }
@@ -10092,7 +10058,7 @@
       },
       "properties": {
         "id": 11180801386,
-        "name": "Sekolah Agustinus",
+        "name": "Jalan Bengawan",
         "shelter": "no",
         "pole": "flag",
         "routes": [
@@ -10102,7 +10068,8 @@
           17329177,
           17350725,
           17770945,
-          17771219
+          17771219,
+          19757704
         ],
         "category": "4_shelter_none_pole_flag"
       }
@@ -10128,7 +10095,8 @@
           17329177,
           17350725,
           17770945,
-          17771219
+          17771219,
+          19757704
         ],
         "category": "4_shelter_none_pole_flag"
       }
@@ -10144,7 +10112,7 @@
       },
       "properties": {
         "id": 11181354888,
-        "name": "Awi Bitung",
+        "name": "Jembar Awi Bitung",
         "shelter": "no",
         "pole": "totem",
         "routes": [
@@ -10159,7 +10127,8 @@
           17329177,
           17350725,
           17770945,
-          17771219
+          17771219,
+          19757704
         ],
         "category": "3_shelter_none_pole_totem"
       }
@@ -10175,7 +10144,7 @@
       },
       "properties": {
         "id": 11181354889,
-        "name": "Cikaso",
+        "name": "Simpang Cikaso - Bogor",
         "shelter": "no",
         "pole": "totem",
         "routes": [
@@ -10190,7 +10159,8 @@
           17329177,
           17350725,
           17770945,
-          17771219
+          17771219,
+          19757704
         ],
         "category": "3_shelter_none_pole_totem"
       }
@@ -10210,7 +10180,8 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
-          16644187
+          16644187,
+          19757704
         ],
         "category": "8_shelter_none_pole_none"
       }
@@ -10229,7 +10200,9 @@
         "name": "Simpang Laswi Gatot Subroto 1",
         "shelter": "no",
         "pole": "totem",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "3_shelter_none_pole_totem"
       }
     },
@@ -11444,7 +11417,8 @@
           17556157,
           17772447,
           18766206,
-          18782468
+          18782468,
+          19757704
         ],
         "category": "2_shelter_none_pole_sign"
       }
@@ -11615,18 +11589,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6158841,
-          -6.922296
+          107.6162145,
+          -6.9223111
         ]
       },
       "properties": {
         "id": 11735248709,
-        "name": "Asia Afrika",
+        "name": "Simpang Lima Asia Afrika",
         "shelter": "no",
         "pole": "traffic_sign",
         "routes": [
           15520324,
-          17771223
+          17771223,
+          19757705
         ],
         "category": "2_shelter_none_pole_sign"
       }
@@ -15627,7 +15602,7 @@
       },
       "properties": {
         "id": 12806120203,
-        "name": "Haji Mesri",
+        "name": "Simpang H. Mesri - Kebon Kawung 1",
         "shelter": "no",
         "pole": "totem",
         "routes": [
@@ -15650,7 +15625,8 @@
           17772447,
           18782467,
           18782468,
-          18782469
+          18782469,
+          19757705
         ],
         "category": "3_shelter_none_pole_totem"
       }
@@ -16804,7 +16780,8 @@
         "pole": "flag",
         "routes": [
           4433069,
-          19664371
+          19664371,
+          19757705
         ],
         "category": "4_shelter_none_pole_flag"
       }
@@ -17153,7 +17130,7 @@
       },
       "properties": {
         "id": 12808948221,
-        "name": "SMPN 43 Bandung",
+        "name": "SMP Negeri 43 Bandung",
         "shelter": "yes",
         "pole": "no",
         "routes": [
@@ -17488,7 +17465,8 @@
           4639769,
           4802258,
           17772446,
-          18771222
+          18771222,
+          19757705
         ],
         "category": "3_shelter_none_pole_totem"
       }
@@ -17880,7 +17858,8 @@
           4634057,
           4639769,
           15555900,
-          15555901
+          15555901,
+          19757705
         ],
         "category": "4_shelter_none_pole_flag"
       }
@@ -18307,7 +18286,8 @@
         "shelter": "no",
         "pole": "totem",
         "routes": [
-          16650514
+          16650514,
+          19757704
         ],
         "category": "3_shelter_none_pole_totem"
       }
@@ -19119,7 +19099,7 @@
       },
       "properties": {
         "id": 12887182236,
-        "name": "Trans Studio Mall",
+        "name": "JPO Cibangkong",
         "shelter": "no",
         "pole": "totem",
         "routes": [
@@ -19478,7 +19458,8 @@
         "shelter": "no",
         "pole": "totem",
         "routes": [
-          3415464
+          3415464,
+          19757704
         ],
         "category": "3_shelter_none_pole_totem"
       }
@@ -19541,7 +19522,8 @@
         "pole": "flag",
         "routes": [
           3415464,
-          16650514
+          16650514,
+          19757704
         ],
         "category": "4_shelter_none_pole_flag"
       }
@@ -20876,7 +20858,8 @@
           15555901,
           16650513,
           16650577,
-          17771223
+          17771223,
+          19757705
         ],
         "category": "3_shelter_none_pole_totem"
       }
@@ -21064,13 +21047,14 @@
       },
       "properties": {
         "id": 13094341167,
-        "name": "Apartemen Grand Asia Afrika",
+        "name": "Karapitan - Lengkong Kecil",
         "shelter": "yes",
         "pole": "no",
         "routes": [
           4283719,
           4308300,
-          4636155
+          4636155,
+          19757705
         ],
         "category": "1_shelter_yes_pole_none"
       }
@@ -21123,7 +21107,9 @@
           16650577,
           17350725,
           17770945,
-          17771223
+          17771223,
+          19757704,
+          19757705
         ],
         "category": "2_shelter_none_pole_sign"
       }
@@ -21780,18 +21766,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6141487,
-          -6.9220479
+          107.6141767,
+          -6.9220491
         ]
       },
       "properties": {
         "id": 13122143965,
-        "name": "Kasim",
+        "name": "Jalan Kasim",
         "shelter": "no",
         "pole": "totem",
         "routes": [
           15520324,
-          17771223
+          17771223,
+          19757705
         ],
         "category": "3_shelter_none_pole_totem"
       }
@@ -22174,8 +22161,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6176038,
-          -6.9217412
+          107.6176238,
+          -6.921729
         ]
       },
       "properties": {
@@ -22603,7 +22590,8 @@
           16650512,
           17771221,
           18771222,
-          19664371
+          19664371,
+          19757705
         ],
         "category": "8_shelter_none_pole_none"
       }
@@ -22624,7 +22612,8 @@
         "pole": null,
         "routes": [
           19664371,
-          19664372
+          19664372,
+          19757704
         ],
         "category": "8_shelter_none_pole_none"
       }
@@ -22647,7 +22636,8 @@
           16634809,
           17771073,
           17771219,
-          19664372
+          19664372,
+          19757704
         ],
         "category": "8_shelter_none_pole_none"
       }
@@ -23189,7 +23179,8 @@
         "routes": [
           3415464,
           16634809,
-          19664372
+          19664372,
+          19757704
         ],
         "category": "3_shelter_none_pole_totem"
       }
@@ -23211,7 +23202,8 @@
         "routes": [
           3415464,
           16634809,
-          19664372
+          19664372,
+          19757704
         ],
         "category": "8_shelter_none_pole_none"
       }
@@ -23221,7 +23213,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6325659,
+          107.6325883,
           -6.9346225
         ]
       },
@@ -23242,8 +23234,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6321263,
-          -6.9370785
+          107.632131,
+          -6.9370797
         ]
       },
       "properties": {
@@ -23768,7 +23760,9 @@
         "name": "Gang Cinta Asih Selatan",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -23786,7 +23780,9 @@
         "name": "Samoja-Laswi",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757704
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -23804,7 +23800,9 @@
         "name": "Museum Kavaleri",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757704
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -23822,7 +23820,9 @@
         "name": "Seberang Museum Kavaleri",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -23840,7 +23840,9 @@
         "name": "Jalan Warta",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -23858,7 +23860,9 @@
         "name": "Trans Studio Mall",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -23876,7 +23880,9 @@
         "name": "Macan - Lodaya 1",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -23894,7 +23900,9 @@
         "name": "Macan - Lodaya 2",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757704
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -23912,7 +23920,9 @@
         "name": "Seberang SD Negeri 115 Turangga",
         "shelter": "yes",
         "pole": null,
-        "routes": [],
+        "routes": [
+          19757704
+        ],
         "category": "1_shelter_yes_pole_none"
       }
     },
@@ -23930,7 +23940,9 @@
         "name": "SD Negeri 115 Turangga",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -23948,7 +23960,9 @@
         "name": "Simpang Turangga-Salak",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757704
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -23966,7 +23980,9 @@
         "name": "Taman Tri G",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -23984,7 +24000,9 @@
         "name": "Jalan RH Hasan Saputra Raya",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -24002,7 +24020,9 @@
         "name": "Salendro Utara - Salendro Raya",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -24020,7 +24040,9 @@
         "name": "Nayaga - Salendro Raya",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -24038,7 +24060,9 @@
         "name": "Nayaga - Bongo",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -24056,7 +24080,9 @@
         "name": "Asmarandana - Reog",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -24074,7 +24100,9 @@
         "name": "Asmarandana - Gamelan",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -24092,7 +24120,9 @@
         "name": "Asmarandana - Guntur Madu",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -24110,7 +24140,9 @@
         "name": "Simpang Asmarandana - Maskumambang 2",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -24128,7 +24160,9 @@
         "name": "Banteng Dalam - Lodaya 1",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -24146,7 +24180,9 @@
         "name": "Banteng Dalam - Lodaya 2",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757704
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -24164,7 +24200,9 @@
         "name": "Pasar Bunga Palasari 1",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -24182,7 +24220,9 @@
         "name": "Pasar Bunga Palasari 2",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757704
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -24200,7 +24240,9 @@
         "name": "Lapangan Lodaya",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757705
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -24218,7 +24260,910 @@
         "name": "Seberang Lapangan Lodaya",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6195558,
+          -6.9257234
+        ]
+      },
+      "properties": {
+        "id": 13257395271,
+        "name": "Simpang Burangrang - Halimun",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.618957,
+          -6.9251726
+        ]
+      },
+      "properties": {
+        "id": 13257395274,
+        "name": "Jalan Emong - BPI",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6090687,
+          -6.921434
+        ]
+      },
+      "properties": {
+        "id": 13257407204,
+        "name": "Gedung Merdeka",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704,
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6063527,
+          -6.917636
+        ]
+      },
+      "properties": {
+        "id": 13257407206,
+        "name": "Banceuy - Pecinan Lama",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6073165,
+          -6.9104474
+        ]
+      },
+      "properties": {
+        "id": 13257407209,
+        "name": "Aceh - Kebon Sirih Dalam",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6059,
+          -6.9107463
+        ]
+      },
+      "properties": {
+        "id": 13257407211,
+        "name": "Polsek Sumur Bandung",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.605597,
+          -6.9123957
+        ]
+      },
+      "properties": {
+        "id": 13257407213,
+        "name": "Gedung Pakuan - Kebon Sirih",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5964581,
+          -6.9120531
+        ]
+      },
+      "properties": {
+        "id": 13257407215,
+        "name": "SMP Negeri 1 Bandung",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5948687,
+          -6.9113468
+        ]
+      },
+      "properties": {
+        "id": 13257407218,
+        "name": "Masjid Jami Miftahul Khaer Jalan Bima",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5926624,
+          -6.910955
+        ]
+      },
+      "properties": {
+        "id": 13257407253,
+        "name": "Landmark Residence Bima",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5920216,
+          -6.9090473
+        ]
+      },
+      "properties": {
+        "id": 13257407254,
+        "name": "Kantor Kelurahan Arjuna",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5908225,
+          -6.9097881
+        ]
+      },
+      "properties": {
+        "id": 13257407256,
+        "name": "Seberang Jalan Simpang Industri",
+        "shelter": null,
+        "pole": null,
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5908859,
+          -6.9098188
+        ]
+      },
+      "properties": {
+        "id": 13257407258,
+        "name": "Jalan Simpang Industri",
+        "shelter": null,
+        "pole": null,
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5896374,
+          -6.9111
+        ]
+      },
+      "properties": {
+        "id": 13257407260,
+        "name": "Alun-alun Cicendo 2",
+        "shelter": null,
+        "pole": null,
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5896747,
+          -6.9111611
+        ]
+      },
+      "properties": {
+        "id": 13257407262,
+        "name": "Alun-alun Cicendo1",
+        "shelter": null,
+        "pole": null,
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5859659,
+          -6.9126903
+        ]
+      },
+      "properties": {
+        "id": 13259837493,
+        "name": "Seberang Gang 5 Ciroyom",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5857048,
+          -6.9126689
+        ]
+      },
+      "properties": {
+        "id": 13259837496,
+        "name": "Gang 5 Ciroyom",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5831516,
+          -6.9109008
+        ]
+      },
+      "properties": {
+        "id": 13259837499,
+        "name": "Simpang Andir - Ciroyom 1",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5832188,
+          -6.9108569
+        ]
+      },
+      "properties": {
+        "id": 13259851101,
+        "name": "Simpang Andir - Ciroyom 2",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5810404,
+          -6.9095072
+        ]
+      },
+      "properties": {
+        "id": 13259851103,
+        "name": "Gang Moh. 1",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5811101,
+          -6.909471
+        ]
+      },
+      "properties": {
+        "id": 13259851105,
+        "name": "Seberang Gang Moh. 1",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5794285,
+          -6.908407
+        ]
+      },
+      "properties": {
+        "id": 13259851107,
+        "name": "Stasiun Andir 1",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5794953,
+          -6.9083655
+        ]
+      },
+      "properties": {
+        "id": 13259851109,
+        "name": "Stasiun Andir 2",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.578089,
+          -6.9109426
+        ]
+      },
+      "properties": {
+        "id": 13259851113,
+        "name": "Simpang Garuda - Dadali",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5773063,
+          -6.9116242
+        ]
+      },
+      "properties": {
+        "id": 13259851115,
+        "name": "Seberang Puskesmas Garuda",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5751173,
+          -6.9107079
+        ]
+      },
+      "properties": {
+        "id": 13259851117,
+        "name": "Simpang Dadali - Flamingo",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5731023,
+          -6.9117008
+        ]
+      },
+      "properties": {
+        "id": 13259851119,
+        "name": "Institut Kesehatan Rajawali",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757705
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5777452,
+          -6.9127524
+        ]
+      },
+      "properties": {
+        "id": 13259851121,
+        "name": "Simpang Garuda - Rajawali Timur",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5967276,
+          -6.9063778
+        ]
+      },
+      "properties": {
+        "id": 13261248359,
+        "name": "Istana Plaza Pajajaran",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5995747,
+          -6.9071393
+        ]
+      },
+      "properties": {
+        "id": 13261248360,
+        "name": "Moch. Yunus - Pajajaran",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6004618,
+          -6.9089279
+        ]
+      },
+      "properties": {
+        "id": 13261248362,
+        "name": "Gang Moch. Mesri Dalam",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6007547,
+          -6.9104981
+        ]
+      },
+      "properties": {
+        "id": 13261248368,
+        "name": "H. Mesri - H. Moh. Iskat",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6006861,
+          -6.9121392
+        ]
+      },
+      "properties": {
+        "id": 13261248372,
+        "name": "Simpang H. Mesri - Kebon Kawung 2",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5981035,
+          -6.9128148
+        ]
+      },
+      "properties": {
+        "id": 13261248374,
+        "name": "Gedong Sembilan - Pasir Kaliki",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.598251,
+          -6.9155074
+        ]
+      },
+      "properties": {
+        "id": 13261248381,
+        "name": "Seberang Paskal 23",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6100205,
+          -6.9200613
+        ]
+      },
+      "properties": {
+        "id": 13261248383,
+        "name": "Taman Braga",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6077447,
+          -6.9219561
+        ]
+      },
+      "properties": {
+        "id": 13261248385,
+        "name": "Jalan Alun-alun Timur",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6077946,
+          -6.9240087
+        ]
+      },
+      "properties": {
+        "id": 13261248387,
+        "name": "Kantor Kelurahan Balong Gede",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6072303,
+          -6.9253573
+        ]
+      },
+      "properties": {
+        "id": 13261248389,
+        "name": "Samping SMP Negeri 43 Bandung",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6078692,
+          -6.9258334
+        ]
+      },
+      "properties": {
+        "id": 13261248391,
+        "name": "Sekolah Assalaam",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6097229,
+          -6.926021
+        ]
+      },
+      "properties": {
+        "id": 13261248393,
+        "name": "Simpang Sasak Gantung - Pasundan",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.611208,
+          -6.9260934
+        ]
+      },
+      "properties": {
+        "id": 13261248395,
+        "name": "Gang Sasak Gantung IV",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6133183,
+          -6.9271849
+        ]
+      },
+      "properties": {
+        "id": 13261248400,
+        "name": "Monumen Pertempuran Lengkong Besar",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6147992,
+          -6.9279025
+        ]
+      },
+      "properties": {
+        "id": 13261297178,
+        "name": "Cikawao - Melong Kaler",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6169137,
+          -6.9288971
+        ]
+      },
+      "properties": {
+        "id": 13261297180,
+        "name": "Simpang Cikawao - Karapitan",
+        "shelter": "no",
+        "pole": "no",
+        "routes": [
+          19757704
+        ],
         "category": "8_shelter_none_pole_none"
       }
     }
