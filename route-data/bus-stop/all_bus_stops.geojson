@@ -3644,8 +3644,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.608725,
-          -6.8946166
+          107.6085894,
+          -6.8943964
         ]
       },
       "properties": {
@@ -3713,8 +3713,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6281588,
-          -6.9040897
+          107.6281786,
+          -6.9040712
         ]
       },
       "properties": {
@@ -3735,8 +3735,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6283137,
-          -6.9039639
+          107.6283242,
+          -6.9039581
         ]
       },
       "properties": {
@@ -4730,15 +4730,15 @@
       },
       "properties": {
         "id": 3383661734,
-        "name": "Borma Margacinta",
+        "name": "Pandanwangi",
         "shelter": "yes",
-        "pole": "no",
+        "pole": "traffic_sign",
         "routes": [
           4648328,
           5736509,
           16646697
         ],
-        "category": "1_shelter_yes_pole_none"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -7027,7 +7027,7 @@
       },
       "properties": {
         "id": 9735217307,
-        "name": "Pusdiklat PU",
+        "name": "Ditjen Bina Konstruksi Kementerian PU",
         "shelter": "no",
         "pole": "totem",
         "routes": [
@@ -7682,8 +7682,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6321395,
-          -6.9102236
+          107.6321664,
+          -6.9102039
         ]
       },
       "properties": {
@@ -17824,8 +17824,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6198701,
-          -6.9236453
+          107.6199108,
+          -6.9236547
         ]
       },
       "properties": {
@@ -18081,8 +18081,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6324781,
-          -6.9102722
+          107.6324629,
+          -6.9102843
         ]
       },
       "properties": {
@@ -18238,8 +18238,8 @@
       },
       "properties": {
         "id": 12813271262,
-        "name": "Seberang Borma Margacinta",
-        "shelter": null,
+        "name": "Mustika Hegar",
+        "shelter": "no",
         "pole": "flag",
         "routes": [
           4308485,
@@ -19225,7 +19225,7 @@
       },
       "properties": {
         "id": 12947323124,
-        "name": "Sekolah Taruna Bakti",
+        "name": "Yayasan Taruna Bakti",
         "shelter": "no",
         "pole": "totem",
         "routes": [
@@ -21047,7 +21047,7 @@
       },
       "properties": {
         "id": 13094341167,
-        "name": "Karapitan - Lengkong Kecil",
+        "name": "Karapitan—Lengkong Kecil",
         "shelter": "yes",
         "pole": "no",
         "routes": [
@@ -21453,8 +21453,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6333102,
-          -6.9120065
+          107.6333427,
+          -6.9119823
         ]
       },
       "properties": {
@@ -25165,6 +25165,78 @@
           19757704
         ],
         "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6186271,
+          -6.92813
+        ]
+      },
+      "properties": {
+        "id": 13277620689,
+        "name": "Sadakeling - Wiradisastra",
+        "shelter": null,
+        "pole": null,
+        "routes": [],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6200414,
+          -6.9237698
+        ]
+      },
+      "properties": {
+        "id": 13279832764,
+        "name": "Seberang Sekolah BPI",
+        "shelter": "no",
+        "pole": "flag",
+        "routes": [],
+        "category": "4_shelter_none_pole_flag"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5761377,
+          -6.9132205
+        ]
+      },
+      "properties": {
+        "id": 13279832766,
+        "name": "Pangkalan Angkot Rajawali",
+        "shelter": "no",
+        "pole": "traffic_sign",
+        "routes": [],
+        "category": "2_shelter_none_pole_sign"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6132892,
+          -6.9067312
+        ]
+      },
+      "properties": {
+        "id": 13289848026,
+        "name": "RSIA Limijati",
+        "shelter": "no",
+        "pole": "flag",
+        "routes": [],
+        "category": "4_shelter_none_pole_flag"
       }
     }
   ]
