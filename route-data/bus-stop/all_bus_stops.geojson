@@ -8431,7 +8431,6 @@
         "shelter": "yes",
         "pole": "traffic_sign",
         "routes": [
-          3415464,
           14364569
         ],
         "category": "5_shelter_yes_pole_sign"
@@ -14614,8 +14613,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.4552132,
-          -6.8673982
+          107.4551996,
+          -6.8674027
         ]
       },
       "properties": {
@@ -15155,8 +15154,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.4572149,
-          -6.8654722
+          107.4572184,
+          -6.8655021
         ]
       },
       "properties": {
@@ -23539,7 +23538,9 @@
         "name": "SPBU Sesko TNI",
         "shelter": "yes",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          3415464
+        ],
         "category": "1_shelter_yes_pole_none"
       }
     },
@@ -23801,6 +23802,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          16650514,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -23821,6 +23823,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          16650513,
           19757705
         ],
         "category": "8_shelter_none_pole_none"
@@ -23841,6 +23844,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          16650513,
           19757705
         ],
         "category": "8_shelter_none_pole_none"
@@ -23861,6 +23865,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          16650513,
           19757705
         ],
         "category": "8_shelter_none_pole_none"
@@ -23921,6 +23926,7 @@
         "shelter": "yes",
         "pole": null,
         "routes": [
+          3415464,
           19757704
         ],
         "category": "1_shelter_yes_pole_none"
@@ -23941,6 +23947,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4635390,
           19757705
         ],
         "category": "8_shelter_none_pole_none"
@@ -23961,6 +23968,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          3415464,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -24161,6 +24169,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4635390,
           19757705
         ],
         "category": "8_shelter_none_pole_none"
@@ -24181,6 +24190,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          3415464,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -24201,6 +24211,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4635390,
           19757705
         ],
         "category": "8_shelter_none_pole_none"
@@ -24221,6 +24232,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          3415464,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -24281,6 +24293,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          16650513,
           19757705
         ],
         "category": "8_shelter_none_pole_none"
@@ -25122,6 +25135,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          16650513,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -25142,6 +25156,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          16650513,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -25162,6 +25177,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          16650513,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -25181,7 +25197,9 @@
         "name": "Sadakeling - Wiradisastra",
         "shelter": null,
         "pole": null,
-        "routes": [],
+        "routes": [
+          16650513
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -25199,7 +25217,9 @@
         "name": "Seberang Sekolah BPI",
         "shelter": "no",
         "pole": "flag",
-        "routes": [],
+        "routes": [
+          16650514
+        ],
         "category": "4_shelter_none_pole_flag"
       }
     },
@@ -25237,6 +25257,28 @@
         "pole": "flag",
         "routes": [],
         "category": "4_shelter_none_pole_flag"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.617036,
+          -6.9315646
+        ]
+      },
+      "properties": {
+        "id": 13306408924,
+        "name": "Jalan Gurame",
+        "shelter": "no",
+        "pole": "totem",
+        "routes": [
+          4635390,
+          4652619,
+          16644335
+        ],
+        "category": "3_shelter_none_pole_totem"
       }
     }
   ]
