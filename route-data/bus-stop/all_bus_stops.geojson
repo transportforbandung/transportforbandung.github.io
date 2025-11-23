@@ -2380,7 +2380,7 @@
         "id": 3272242234,
         "name": "Simpang Soetta Kiaracondong",
         "shelter": "yes",
-        "pole": "traffic_sign",
+        "pole": "traffic_sign;totem",
         "routes": [
           4308486,
           4433069,
@@ -2596,8 +2596,8 @@
       "properties": {
         "id": 3374033498,
         "name": "SMP Negeri 2 Bandung",
-        "shelter": "no",
-        "pole": null,
+        "shelter": "yes",
+        "pole": "traffic_sign",
         "routes": [
           4635842,
           4636013,
@@ -2605,7 +2605,7 @@
           16644061,
           19664371
         ],
-        "category": "8_shelter_none_pole_none"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -5126,7 +5126,7 @@
         "id": 3386379790,
         "name": "Seberang ISBI Bandung",
         "shelter": "no",
-        "pole": "totem",
+        "pole": "no",
         "routes": [
           4425956,
           4652571,
@@ -5134,7 +5134,7 @@
           17771073,
           19664372
         ],
-        "category": "3_shelter_none_pole_totem"
+        "category": "8_shelter_none_pole_none"
       }
     },
     {
@@ -16176,21 +16176,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6234516,
-          -6.9273822
+          107.6233702,
+          -6.9277142
         ]
       },
       "properties": {
         "id": 12806717336,
         "name": "SD Al-Azhar 36 Bandung",
         "shelter": "yes",
-        "pole": "no",
+        "pole": "traffic_sign",
         "routes": [
           16634809,
           16644335,
           19664372
         ],
-        "category": "1_shelter_yes_pole_none"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -19683,13 +19683,13 @@
       "properties": {
         "id": 12986828684,
         "name": "SMK Negeri 8 Bandung",
-        "shelter": "no",
-        "pole": "flag",
+        "shelter": "yes",
+        "pole": "traffic_sign;flag",
         "routes": [
           4433069,
           19664371
         ],
-        "category": "4_shelter_none_pole_flag"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -19704,13 +19704,13 @@
       "properties": {
         "id": 12986851582,
         "name": "SMK Negeri 4 Bandung",
-        "shelter": "no",
-        "pole": "flag",
+        "shelter": "yes",
+        "pole": "traffic_sign;flag",
         "routes": [
           16634809,
           19664372
         ],
-        "category": "4_shelter_none_pole_flag"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -20395,8 +20395,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.4648399,
-          -6.8668045
+          107.4648493,
+          -6.8667825
         ]
       },
       "properties": {
@@ -22470,19 +22470,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6119513,
-          -6.9086218
+          107.612233,
+          -6.9093357
         ]
       },
       "properties": {
         "id": 13178943065,
         "name": "Taman Pertigaan Pujasera",
         "shelter": "no",
-        "pole": null,
+        "pole": "totem",
         "routes": [
           19664371
         ],
-        "category": "8_shelter_none_pole_none"
+        "category": "3_shelter_none_pole_totem"
       }
     },
     {
@@ -22538,12 +22538,12 @@
         "id": 13178943072,
         "name": "Jalan Braga Gang Cikapundung",
         "shelter": "no",
-        "pole": null,
+        "pole": "totem",
         "routes": [
           19664371,
           19664372
         ],
-        "category": "8_shelter_none_pole_none"
+        "category": "3_shelter_none_pole_totem"
       }
     },
     {
@@ -22559,14 +22559,14 @@
         "id": 13178943074,
         "name": "Suniaraja Braga",
         "shelter": "no",
-        "pole": null,
+        "pole": "totem",
         "routes": [
           4433069,
           4642211,
           19664371,
           19664372
         ],
-        "category": "8_shelter_none_pole_none"
+        "category": "3_shelter_none_pole_totem"
       }
     },
     {
@@ -22674,11 +22674,11 @@
         "id": 13178943084,
         "name": "Seberang SMP Negeri 2 Bandung",
         "shelter": "yes",
-        "pole": null,
+        "pole": "traffic_sign",
         "routes": [
           19664372
         ],
-        "category": "1_shelter_yes_pole_none"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -23021,11 +23021,11 @@
         "id": 13178984116,
         "name": "Seberang SMP Negeri 5 Bandung",
         "shelter": "yes",
-        "pole": null,
+        "pole": "traffic_sign",
         "routes": [
           19664372
         ],
-        "category": "1_shelter_yes_pole_none"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -23033,15 +23033,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.613765,
-          -6.9164144
+          107.6136188,
+          -6.9172219
         ]
       },
       "properties": {
         "id": 13178984118,
         "name": "Simpang Sumatera - Natuna",
         "shelter": "no",
-        "pole": null,
+        "pole": "totem",
         "routes": [
           4635842,
           4636013,
@@ -23049,7 +23049,7 @@
           16644061,
           19664372
         ],
-        "category": "8_shelter_none_pole_none"
+        "category": "3_shelter_none_pole_totem"
       }
     },
     {
@@ -23109,12 +23109,12 @@
         "id": 13178984124,
         "name": "Seberang SMK Negeri 15 Bandung",
         "shelter": "no",
-        "pole": null,
+        "pole": "totem",
         "routes": [
           16634809,
           19664372
         ],
-        "category": "8_shelter_none_pole_none"
+        "category": "3_shelter_none_pole_totem"
       }
     },
     {
@@ -23122,21 +23122,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.621427,
-          -6.9228468
+          107.6212105,
+          -6.9228054
         ]
       },
       "properties": {
         "id": 13178984126,
         "name": "Simpang Gatot Subroto - Guntur",
         "shelter": "no",
-        "pole": null,
+        "pole": "totem",
         "routes": [
           16634809,
           16650513,
           19664372
         ],
-        "category": "8_shelter_none_pole_none"
+        "category": "3_shelter_none_pole_totem"
       }
     },
     {
@@ -23262,12 +23262,12 @@
         "id": 13179094017,
         "name": "Kantor Kelurahan Turangga",
         "shelter": "yes",
-        "pole": null,
+        "pole": "traffic_sign",
         "routes": [
           16634809,
           19664372
         ],
-        "category": "1_shelter_yes_pole_none"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -23924,12 +23924,12 @@
         "id": 13255749331,
         "name": "Seberang SD Negeri 115 Turangga",
         "shelter": "yes",
-        "pole": null,
+        "pole": "traffic_sign",
         "routes": [
           3415464,
           19757704
         ],
-        "category": "1_shelter_yes_pole_none"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
