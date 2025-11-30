@@ -2193,7 +2193,7 @@
       "properties": {
         "id": 3244745031,
         "name": "Terminal Parongpong",
-        "shelter": null,
+        "shelter": "yes",
         "pole": null,
         "routes": [
           4421036,
@@ -2201,7 +2201,7 @@
           4818569,
           19526847
         ],
-        "category": "8_shelter_none_pole_none"
+        "category": "1_shelter_yes_pole_none"
       }
     },
     {
@@ -4708,15 +4708,15 @@
       },
       "properties": {
         "id": 3383661732,
-        "name": "SMPN 51 Bandung",
-        "shelter": null,
-        "pole": null,
+        "name": "SMP Negeri 51 Bandung",
+        "shelter": "yes",
+        "pole": "traffic_sign",
         "routes": [
           4648328,
           5736509,
           16646697
         ],
-        "category": "8_shelter_none_pole_none"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -4752,15 +4752,15 @@
       },
       "properties": {
         "id": 3383661735,
-        "name": "Taman Lansia Margahayu Raya",
+        "name": "Ciwastra Pluto Raya",
         "shelter": "yes",
-        "pole": null,
+        "pole": "traffic_sign",
         "routes": [
           4308485,
           4425956,
           5736507
         ],
-        "category": "1_shelter_yes_pole_none"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -8256,9 +8256,7 @@
           4817613,
           4817618,
           15520324,
-          16644187,
           16644335,
-          16648408,
           16650512,
           18766206,
           18768805,
@@ -13045,7 +13043,7 @@
         "id": 11880588500,
         "name": "SMA Negeri 3 dan 5 Bandung",
         "shelter": "yes",
-        "pole": "flag",
+        "pole": "traffic_sign",
         "routes": [
           4283719,
           4433069,
@@ -13054,7 +13052,7 @@
           4642211,
           16644061
         ],
-        "category": "7_shelter_yes_pole_flag"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -16775,14 +16773,14 @@
       "properties": {
         "id": 12806868634,
         "name": "DPPKB Kota Bandung",
-        "shelter": "no",
-        "pole": "flag",
+        "shelter": "yes",
+        "pole": "traffic_sign",
         "routes": [
           4433069,
           19664371,
           19757705
         ],
-        "category": "4_shelter_none_pole_flag"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -17622,14 +17620,14 @@
       "properties": {
         "id": 12809314924,
         "name": "Seberang Gang Pelita",
-        "shelter": "yes",
+        "shelter": "no",
         "pole": "no",
         "routes": [
           4294473,
           4425899,
           4425942
         ],
-        "category": "1_shelter_yes_pole_none"
+        "category": "8_shelter_none_pole_none"
       }
     },
     {
@@ -17644,13 +17642,13 @@
       "properties": {
         "id": 12809314926,
         "name": "Sunson Cijerah",
-        "shelter": "yes",
+        "shelter": "no",
         "pole": "no",
         "routes": [
           4294473,
           4425899
         ],
-        "category": "1_shelter_yes_pole_none"
+        "category": "8_shelter_none_pole_none"
       }
     },
     {
@@ -17665,13 +17663,13 @@
       "properties": {
         "id": 12809314927,
         "name": "Seberang SDN 093 Tunas Harapan Cijerah",
-        "shelter": "yes",
+        "shelter": "no",
         "pole": null,
         "routes": [
           4294473,
           4425899
         ],
-        "category": "1_shelter_yes_pole_none"
+        "category": "8_shelter_none_pole_none"
       }
     },
     {
@@ -17687,12 +17685,12 @@
         "id": 12809314929,
         "name": "SDN 061 Cijerah",
         "shelter": "yes",
-        "pole": null,
+        "pole": "traffic_sign",
         "routes": [
           4645553,
           4646137
         ],
-        "category": "1_shelter_yes_pole_none"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -17707,13 +17705,13 @@
       "properties": {
         "id": 12809314931,
         "name": "Masjid Jami Al Istiqomah",
-        "shelter": "yes",
+        "shelter": "no",
         "pole": null,
         "routes": [
           4294473,
           4425899
         ],
-        "category": "1_shelter_yes_pole_none"
+        "category": "8_shelter_none_pole_none"
       }
     },
     {
@@ -17729,12 +17727,12 @@
         "id": 12809314933,
         "name": "Simpang Bojong Raya",
         "shelter": "yes",
-        "pole": null,
+        "pole": "traffic_sign",
         "routes": [
           4294473,
           4650925
         ],
-        "category": "1_shelter_yes_pole_none"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -18259,15 +18257,15 @@
       },
       "properties": {
         "id": 12813271266,
-        "name": "SDN 069 Cipamokolan",
-        "shelter": null,
-        "pole": null,
+        "name": "SDN 069 Cipamokolan Derwati",
+        "shelter": "yes",
+        "pole": "traffic_sign",
         "routes": [
           4648328,
           5736509,
           16646697
         ],
-        "category": "8_shelter_none_pole_none"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -19789,13 +19787,13 @@
         "id": 12997502200,
         "name": "SMA Negeri 17 Bandung",
         "shelter": "yes",
-        "pole": null,
+        "pole": "traffic_sign",
         "routes": [
           4294473,
           17834086,
           17834107
         ],
-        "category": "1_shelter_yes_pole_none"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -20337,13 +20335,13 @@
         "id": 13051904700,
         "name": "DPKP Kota Bandung",
         "shelter": "yes",
-        "pole": null,
+        "pole": "traffic_sign",
         "routes": [
           4646137,
           17834085,
           17834106
         ],
-        "category": "1_shelter_yes_pole_none"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -20624,13 +20622,13 @@
         "id": 13064974004,
         "name": "Bulog Kancab Bandung",
         "shelter": "yes",
-        "pole": "flag",
+        "pole": "flag;traffic_sign",
         "routes": [
           4284600,
           16645492,
           16645493
         ],
-        "category": "7_shelter_yes_pole_flag"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -22061,7 +22059,7 @@
         "id": 13178943018,
         "name": "Simpang Asmarandana - Maskumambang",
         "shelter": "no",
-        "pole": null,
+        "pole": "no",
         "routes": [
           4433069,
           19664371
@@ -22196,6 +22194,7 @@
         "routes": [
           4283719,
           4308300,
+          4425938,
           4433069,
           4636155,
           19664371
@@ -22337,11 +22336,11 @@
         "id": 13178943050,
         "name": "Taman Cibeunying Selatan",
         "shelter": "no",
-        "pole": null,
+        "pole": "totem",
         "routes": [
           19664371
         ],
-        "category": "8_shelter_none_pole_none"
+        "category": "3_shelter_none_pole_totem"
       }
     },
     {
@@ -24334,6 +24333,10 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          15520324,
+          15555900,
+          17771223,
+          18771223,
           19757704,
           19757705
         ],
@@ -24355,6 +24358,9 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4652511,
+          16650512,
+          18771222,
           19757705
         ],
         "category": "8_shelter_none_pole_none"
@@ -24595,6 +24601,9 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4291189,
+          16644124,
+          17553837,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -24655,6 +24664,9 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4291189,
+          16644124,
+          17553837,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -24695,6 +24707,9 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4291189,
+          16644124,
+          17553837,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -24735,6 +24750,9 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4291189,
+          16644124,
+          17553837,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -24755,6 +24773,10 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4645553,
+          4646137,
+          4816517,
+          18782468,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -24775,6 +24797,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          16650512,
           19757705
         ],
         "category": "8_shelter_none_pole_none"
@@ -24795,6 +24818,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          16650512,
           19757705
         ],
         "category": "8_shelter_none_pole_none"
@@ -24815,6 +24839,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          16650512,
           19757705
         ],
         "category": "8_shelter_none_pole_none"
@@ -24835,6 +24860,10 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4645553,
+          4646137,
+          4816517,
+          18782468,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -25237,7 +25266,16 @@
         "name": "Pangkalan Angkot Rajawali",
         "shelter": "no",
         "pole": "traffic_sign",
-        "routes": [],
+        "routes": [
+          4645553,
+          4646137,
+          4816517,
+          16644187,
+          16644335,
+          16648408,
+          16650512,
+          18782468
+        ],
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -25279,6 +25317,148 @@
           16644335
         ],
         "category": "3_shelter_none_pole_totem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5733628,
+          -6.9295291
+        ]
+      },
+      "properties": {
+        "id": 13334663505,
+        "name": "Holis 266",
+        "shelter": "yes",
+        "pole": "traffic_sign",
+        "routes": [
+          4646137
+        ],
+        "category": "5_shelter_yes_pole_sign"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5717183,
+          -6.9333483
+        ]
+      },
+      "properties": {
+        "id": 13334663507,
+        "name": "Holis Sumbersari Indah",
+        "shelter": "yes",
+        "pole": "traffic_sign",
+        "routes": [
+          4646137
+        ],
+        "category": "5_shelter_yes_pole_sign"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6269347,
+          -6.9338213
+        ]
+      },
+      "properties": {
+        "id": 13334663510,
+        "name": "Golkar Jawa Barat",
+        "shelter": "no",
+        "pole": "flag",
+        "routes": [
+          4433069
+        ],
+        "category": "4_shelter_none_pole_flag"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6165565,
+          -6.9054334
+        ]
+      },
+      "properties": {
+        "id": 13334663514,
+        "name": "BPK Penabur Banda",
+        "shelter": "yes",
+        "pole": null,
+        "routes": [
+          4634057
+        ],
+        "category": "1_shelter_yes_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6226252,
+          -6.9042456
+        ]
+      },
+      "properties": {
+        "id": 13334663516,
+        "name": "SMA Negeri 20 Bandung",
+        "shelter": null,
+        "pole": null,
+        "routes": [
+          4425938
+        ],
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6486389,
+          -6.9550858
+        ]
+      },
+      "properties": {
+        "id": 13334720645,
+        "name": "Sarijati I",
+        "shelter": "yes",
+        "pole": "traffic_sign",
+        "routes": [
+          4308485,
+          4425956,
+          5736507
+        ],
+        "category": "5_shelter_yes_pole_sign"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6253191,
+          -6.8885585
+        ]
+      },
+      "properties": {
+        "id": 13334720649,
+        "name": "SD Negeri 189 Neglasari",
+        "shelter": "yes",
+        "pole": "traffic_sign",
+        "routes": [
+          4646137
+        ],
+        "category": "5_shelter_yes_pole_sign"
       }
     }
   ]
