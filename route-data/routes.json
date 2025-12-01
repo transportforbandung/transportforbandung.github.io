@@ -5,30 +5,35 @@
       "routes": [
         {
           "name": "Commuter Line Bandung Raya: Padalarang → Cicalengka",
+          "ref": "B",
           "relationId": "17077466",
           "color": "#2D398B",
           "type": "ways_with_points"
         },
         {
           "name": "Commuter Line Bandung Raya: Cicalengka → Padalarang",
+          "ref": "B",
           "relationId": "17077467",
           "color": "#2D398B",
           "type": "ways_with_points"
         },
         {
           "name": "Commuter Line Bandung Raya: Cicalengka → Purwakarta",
+          "ref": "B",
           "relationId": "4626672",
           "color": "#2D398B",
           "type": "ways_with_points"
         },
         {
           "name": "Commuter Line Garut: Purwakarta → Garut",
+          "ref": "C",
           "relationId": "15534571",
           "color": "#1C75BC",
           "type": "ways_with_points"
         },
         {
           "name": "Commuter Line Garut: Garut → Purwakarta",
+          "ref": "C",
           "relationId": "17545520",
           "color": "#1C75BC",
           "type": "ways_with_points"
@@ -40,96 +45,112 @@
       "routes": [
         {
           "name": "Koridor 1: Leuwipanjang → Soreang",
+          "ref": "1",
           "relationId": "14365267",
           "color": "#00A64F",
           "type": "ways_with_points"
         },
         {
           "name": "Koridor 1: Soreang → Leuwipanjang",
+          "ref": "1",
           "relationId": "18765871",
           "color": "#00A64F",
           "type": "ways_with_points"
         },
         {
           "name": "Koridor 2: Kota Baru Parahyangan → Alun-alun Bandung",
+          "ref": "2",
           "relationId": "18766206",
           "color": "#ED1C24",
           "type": "ways_with_points"
         },
         {
           "name": "Koridor 2: Alun-Alun Bandung → Kota Baru Parahyangan",
+          "ref": "2",
           "relationId": "18766205",
           "color": "#ED1C24",
           "type": "ways_with_points"
         },
         {
           "name": "Koridor 3: Baleendah → BEC",
+          "ref": "3",
           "relationId": "18766208",
           "color": "#562B63",
           "type": "ways_with_points"
         },
         {
           "name": "Koridor 3: BEC → Baleendah",
+          "ref": "3",
           "relationId": "18766207",
           "color": "#562B63",
           "type": "ways_with_points"
         },
         {
           "name": "Koridor 4: Leuwipanjang → Dago",
+          "ref": "4",
           "relationId": "14298213",
           "color": "#2E3192",
           "type": "ways_with_points"
         },
         {
           "name": "Koridor 4: Dago → Leuwipanjang",
+          "ref": "4",
           "relationId": "18770906",
           "color": "#2E3192",
           "type": "ways_with_points"
         },
         {
           "name": "Koridor 5: Dipatiukur → Jatinangor",
+          "ref": "5",
           "relationId": "15660998",
           "color": "#EC008C",
           "type": "ways_with_points"
         },
         {
           "name": "Koridor 5: Jatinangor → Dipatiukur",
+          "ref": "5",
           "relationId": "14364569",
           "color": "#EC008C",
           "type": "ways_with_points"
         },
         {
           "name": "Koridor 6: Leuwipanjang → Majalaya",
+          "ref": "6",
           "relationId": "18771078",
           "color": "#F04B23",
           "type": "ways_with_points"
         },
         {
           "name": "Koridor 6: Majalaya → Leuwipanjang",
+          "ref": "6",
           "relationId": "18771079",
           "color": "#F04B23",
           "type": "ways_with_points"
         },
         {
           "name": "Feeder 1: Simpang Soetta Kiaracondong → Pasar Baru ABC",
+          "ref": "FD1",
           "relationId": "19664371",
           "color": "#22B473",
           "type": "ways_with_points"
         },
         {
           "name": "Feeder 1: Pasar Baru ABC → Simpang Soetta Kiaracondong",
+          "ref": "FD1",
           "relationId": "19664372",
           "color": "#22B473",
           "type": "ways_with_points"
         },
         {
           "name": "Feeder 2: Cicadas → Elang",
+          "ref": "FD2",
           "relationId": "19757705",
           "color": "#C0282C",
           "type": "ways_with_points"
         },
         {
           "name": "Feeder 2: Elang → Cicadas",
+          "ref": "FD2",
           "relationId": "19757704",
           "color": "#C0282C",
           "type": "ways_with_points"
@@ -141,12 +162,14 @@
       "routes": [
         {
           "name": "Koridor 1: Cibiru → Cibeureum",
+          "ref": "K1",
           "relationId": "18768805",
           "color": "#EF2A33",
           "type": "ways"
         },
         {
           "name": "Koridor 1: Cibeureum → Cibiru",
+          "ref": "K1",
           "relationId": "18768804",
           "color": "#EF2A33",
           "type": "ways"
