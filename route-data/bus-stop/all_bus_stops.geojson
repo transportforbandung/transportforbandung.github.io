@@ -4195,11 +4195,7 @@
         "name": "Junction 8 Sukajadi",
         "shelter": "no",
         "pole": "no",
-        "routes": [
-          4649915,
-          4652460,
-          4652511
-        ],
+        "routes": [],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -5020,6 +5016,7 @@
         "pole": "no",
         "routes": [
           4421036,
+          4650417,
           16644123,
           16644124,
           19526847
@@ -5692,26 +5689,6 @@
           19526847
         ],
         "category": "1_shelter_yes_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5797493,
-          -6.8028047
-        ]
-      },
-      "properties": {
-        "id": 3470310970,
-        "name": "Universitas Advent Indonesia",
-        "shelter": null,
-        "pole": null,
-        "routes": [
-          4818568
-        ],
-        "category": "8_shelter_none_pole_none"
       }
     },
     {
@@ -11639,6 +11616,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4423238,
           15520324,
           16644335
         ],
@@ -11788,6 +11766,7 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          16634809,
           16648408,
           17771221,
           17771223,
@@ -13373,6 +13352,7 @@
         "shelter": "no",
         "pole": "totem;traffic_sign",
         "routes": [
+          4294473,
           4637081,
           4648025,
           16644061,
@@ -21279,7 +21259,11 @@
         "name": "Sukamulya",
         "shelter": "no",
         "pole": "totem",
-        "routes": [],
+        "routes": [
+          4649813,
+          4650417,
+          17772447
+        ],
         "category": "3_shelter_none_pole_totem"
       }
     },
@@ -22148,6 +22132,7 @@
         "shelter": "no",
         "pole": null,
         "routes": [
+          4433069,
           19664371
         ],
         "category": "8_shelter_none_pole_none"
@@ -23492,7 +23477,10 @@
         "name": "Seberang Borma Dakota",
         "shelter": "no",
         "pole": "no",
-        "routes": [],
+        "routes": [
+          4649813,
+          17772447
+        ],
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -23538,7 +23526,8 @@
         "shelter": "yes",
         "pole": "no",
         "routes": [
-          3415464
+          3415464,
+          16634809
         ],
         "category": "1_shelter_yes_pole_none"
       }
@@ -23687,8 +23676,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.7732154,
-          -6.9322857
+          107.7732322,
+          -6.9323173
         ]
       },
       "properties": {
@@ -23708,8 +23697,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.773247,
-          -6.9323322
+          107.7732682,
+          -6.9323673
         ]
       },
       "properties": {
@@ -23729,8 +23718,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.77327,
-          -6.9323823
+          107.7732895,
+          -6.9324104
         ]
       },
       "properties": {
@@ -24541,6 +24530,7 @@
         "shelter": null,
         "pole": null,
         "routes": [
+          4423238,
           19757705
         ],
         "category": "8_shelter_none_pole_none"
@@ -24581,6 +24571,7 @@
         "shelter": null,
         "pole": null,
         "routes": [
+          4423238,
           19757705
         ],
         "category": "8_shelter_none_pole_none"
@@ -24665,6 +24656,7 @@
         "pole": "no",
         "routes": [
           4291189,
+          4423238,
           16644124,
           17553837,
           19757704
@@ -24708,6 +24700,7 @@
         "pole": "no",
         "routes": [
           4291189,
+          4423238,
           16644124,
           17553837,
           19757704
@@ -24751,6 +24744,7 @@
         "pole": "no",
         "routes": [
           4291189,
+          4423238,
           16644124,
           17553837,
           19757704
@@ -24884,6 +24878,9 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4639770,
+          4816517,
+          18782468,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -24984,6 +24981,16 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4294474,
+          4433069,
+          4649813,
+          4650417,
+          4802257,
+          4816517,
+          16677557,
+          17556157,
+          17772447,
+          18782468,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -25004,6 +25011,16 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4294474,
+          4433069,
+          4649813,
+          4650417,
+          4802257,
+          4816517,
+          16677557,
+          17556157,
+          17772447,
+          18782468,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -25164,7 +25181,9 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4652571,
           16650513,
+          17771073,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -25185,7 +25204,9 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4652571,
           16650513,
+          17771073,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -25206,7 +25227,9 @@
         "shelter": "no",
         "pole": "no",
         "routes": [
+          4652571,
           16650513,
+          17771073,
           19757704
         ],
         "category": "8_shelter_none_pole_none"
@@ -25459,6 +25482,65 @@
           4646137
         ],
         "category": "5_shelter_yes_pole_sign"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6094279,
+          -6.9079426
+        ]
+      },
+      "properties": {
+        "id": 13343354781,
+        "name": "IFI Bandung",
+        "shelter": "no",
+        "pole": "flag",
+        "routes": [
+          4294473,
+          4423238,
+          4636013,
+          4639770
+        ],
+        "category": "4_shelter_none_pole_flag"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7785151,
+          -6.9318901
+        ]
+      },
+      "properties": {
+        "id": 13357100636,
+        "name": "McD Jatinangor",
+        "shelter": "no",
+        "pole": "traffic_sign",
+        "routes": [],
+        "category": "2_shelter_none_pole_sign"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7785184,
+          -6.9317543
+        ]
+      },
+      "properties": {
+        "id": 13357100638,
+        "name": "Seberang McD Jatinangor",
+        "shelter": "no",
+        "pole": "traffic_sign",
+        "routes": [],
+        "category": "2_shelter_none_pole_sign"
       }
     }
   ]
