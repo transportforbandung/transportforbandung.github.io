@@ -1364,19 +1364,21 @@ tr:hover {
 
 /* Enhanced Bus Stop Popup Styles */
 .enhanced-bus-stop-popup .leaflet-popup-content-wrapper {
-    border-radius: 15px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
 .enhanced-bus-stop-popup .leaflet-popup-content {
     margin: 0;
     padding: 0;
-    line-height: 1.4;
+    line-height: 1.3;
+    font-size: 0.9em;
 }
 
 .enhanced-bus-stop-popup .leaflet-popup-tip {
-    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.2);
+    width: 12px;
+    height: 12px;
 }
 
 /* Loading state */
@@ -1397,40 +1399,40 @@ tr:hover {
 /* Enhanced popup specific styles */
 .bus-stop-popup-enhanced {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    max-width: 350px;
-    min-width: 250px;
+    max-width: 280px;
+    min-width: 200px;
 }
 
 .bus-stop-popup-enhanced .popup-header {
-    padding: 20px 20px 15px 20px;
+    padding: 15px 15px 10px 15px;
     background: linear-gradient(to bottom, #f8f9fa, #ffffff);
-    border-bottom: 1px solid #eee;
+    border-bottom: 0.8px solid #eee;
 }
 
 .bus-stop-popup-enhanced .stop-info {
     color: #666;
-    font-size: 0.9rem;
-    line-height: 1.4;
+    font-size: 0.8rem;
+    line-height: 1.3;
 }
 
 .bus-stop-popup-enhanced .route-categories {
-    max-height: 300px;
+    max-height: 240px;
     overflow-y: auto;
-    padding: 15px 20px;
+    padding: 12px 15px;
 }
 
 .bus-stop-popup-enhanced .route-categories::-webkit-scrollbar {
-    width: 6px;
+    width: 4px;
 }
 
 .bus-stop-popup-enhanced .route-categories::-webkit-scrollbar-track {
     background: #f1f1f1;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 .bus-stop-popup-enhanced .route-categories::-webkit-scrollbar-thumb {
     background: #c1c1c1;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 .bus-stop-popup-enhanced .route-categories::-webkit-scrollbar-thumb:hover {
@@ -1438,7 +1440,7 @@ tr:hover {
 }
 
 .bus-stop-popup-enhanced .category-group {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .bus-stop-popup-enhanced .category-group:last-child {
@@ -1447,18 +1449,18 @@ tr:hover {
 
 .bus-stop-popup-enhanced .category-group h5 {
     color: #00568E;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
-    margin: 0 0 12px 0;
+    margin: 0 0 10px 0;
     padding-bottom: 8px;
     border-bottom: 2px solid #eaeaea;
 }
 
 .bus-stop-popup-enhanced .route-item {
-    padding: 10px 12px;
-    border-radius: 8px;
+    padding: 8px 10px;
+    border-radius: 6px;
     transition: all 0.2s ease;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 .bus-stop-popup-enhanced .route-item:hover {
@@ -1483,10 +1485,10 @@ tr:hover {
 }
 
 .bus-stop-popup-enhanced .popup-route-checkbox {
-    margin-right: 12px;
+    margin-right: 10px;
     cursor: pointer;
-    width: 18px;
-    height: 18px;
+    width: 12px;
+    height: 12px;
     accent-color: #00A64F;
 }
 
@@ -1494,14 +1496,14 @@ tr:hover {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 32px;
-    height: 32px;
-    border-radius: 6px;
+    min-width: 26px;
+    height: 26px;
+    border-radius: 4px;
     font-weight: 600;
-    font-size: 0.9rem;
-    margin-right: 12px;
+    font-size: 0.8rem;
+    margin-right: 10px;
     flex-shrink: 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
 }
 
@@ -1510,19 +1512,19 @@ tr:hover {
 }
 
 .bus-stop-popup-enhanced .route-destination {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     color: #333;
-    line-height: 1.4;
+    line-height: 1;
     flex: 1;
 }
 
 .bus-stop-popup-enhanced .popup-actions {
-    padding: 15px 20px 20px 20px;
+    padding: 10px 15px 15px 10px;
     border-top: 1px solid #eee;
     display: flex;
-    gap: 10px;
+    gap: 8px;
     background-color: #f9f9f9;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 10px 10px;
 }
 
 .bus-stop-popup-enhanced .btn-select-all {
