@@ -187,11 +187,6 @@ async function generateEnhancedPopup(stopProps) {
         <div class="bus-stop-popup-enhanced">
             <div class="popup-header">
                 <h4 style="margin: 0 0 8px 0; color: #00152B; font-size: 1.1rem;">${stopProps.name || 'Halte Tanpa Nama'}</h4>
-                <div class="stop-info" style="color: #666; font-size: 0.9rem; margin-bottom: 15px; line-height: 1.4;">
-                    ${stopProps.shelter ? `Shelter: ${stopProps.shelter}<br>` : ''}
-                    ${stopProps.pole ? `Tiang: ${stopProps.pole}<br>` : ''}
-                    Melayani ${routes.length} rute
-                </div>
             </div>
     `;
     
