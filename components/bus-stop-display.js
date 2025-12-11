@@ -7,49 +7,49 @@ let routeDataCache = null;
 const busStopIcons = {
     "1_shelter_yes_pole_none": L.icon({
         iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte-Button.svg',
-        iconSize: [25, 25],
+        iconSize: [20, 20],
         iconAnchor: [12, 12],
         className: 'bus-stop-custom-icon'
     }),
     "2_shelter_none_pole_sign": L.icon({
         iconUrl: 'assets/bus-stop-icon/Bus-Stop-Rambu-Button.svg',
-        iconSize: [25, 25],
+        iconSize: [20, 20],
         iconAnchor: [12, 12],
         className: 'bus-stop-custom-icon'
     }),
     "3_shelter_none_pole_totem": L.icon({
         iconUrl: 'assets/bus-stop-icon/Bus-Stop-Totem-Button.svg',
-        iconSize: [25, 25],
+        iconSize: [20, 20],
         iconAnchor: [12, 12],
         className: 'bus-stop-custom-icon'
     }),
     "4_shelter_none_pole_flag": L.icon({
         iconUrl: 'assets/bus-stop-icon/Bus-Stop-Flag-Button.svg',
-        iconSize: [25, 25],
+        iconSize: [20, 20],
         iconAnchor: [12, 12],
         className: 'bus-stop-custom-icon'
     }),
     "5_shelter_yes_pole_sign": L.icon({
         iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte+Rambu-Button.svg',
-        iconSize: [25, 25],
+        iconSize: [20, 20],
         iconAnchor: [12, 12],
         className: 'bus-stop-custom-icon'
     }),
     "6_shelter_yes_pole_totem": L.icon({
         iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte+Totem-Button.svg',
-        iconSize: [25, 25],
+        iconSize: [20, 20],
         iconAnchor: [12, 12],
         className: 'bus-stop-custom-icon'
     }),
     "7_shelter_yes_pole_flag": L.icon({
         iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte+Flag-Button.svg',
-        iconSize: [25, 25],
+        iconSize: [20, 20],
         iconAnchor: [12, 12],
         className: 'bus-stop-custom-icon'
     }),
     "8_shelter_none_pole_none": L.icon({
         iconUrl: 'assets/bus-stop-icon/Bus-Stop-Virtual-Button.svg',
-        iconSize: [25, 25],
+        iconSize: [20, 20],
         iconAnchor: [12, 12],
         className: 'bus-stop-custom-icon'
     })
@@ -186,18 +186,18 @@ async function generateEnhancedPopup(stopProps) {
     let html = `
         <div class="bus-stop-popup-enhanced">
             <div class="popup-header">
-                <h4 style="margin: 0 0 8px 0; color: #00152B; font-size: 1.1rem;">${stopProps.name || 'Halte Tanpa Nama'}</h4>
+                <h4 style="margin: 0 0 6px 0; color: #00152B; font-size: 1rem;">${stopProps.name || 'Halte Tanpa Nama'}</h4>
             </div>
     `;
     
     if (Object.keys(routesByCategory).length > 0) {
-        html += `<div class="route-categories" style="max-height: 300px; overflow-y: auto; padding-right: 5px;">`;
+        html += `<div class="route-categories" style="max-height: 240px; overflow-y: auto; padding-right: 5px;">`;
         
         Object.entries(routesByCategory).forEach(([categoryName, categoryRoutes]) => {
             html += `
-                <div class="category-group" style="margin-bottom: 20px;">
-                    <h5 style="margin: 0 0 10px 0; color: #00568E; font-size: 1rem; 
-                           border-bottom: 1px solid #eee; padding-bottom: 5px; font-weight: 600;">
+                <div class="category-group" style="margin-bottom: 16px;">
+                    <h5 style="margin: 0 0 8px 0; color: #00568E; font-size: 0.8rem; 
+                           border-bottom: 1px solid #eee; padding-bottom: 4px; font-weight: 600;">
                         ${categoryName}
                     </h5>
                     <div class="route-list">
@@ -208,23 +208,23 @@ async function generateEnhancedPopup(stopProps) {
                 
                 html += `
                     <div class="route-item" data-relation-id="${route.relationId}" 
-                         style="padding: 8px 0; border-bottom: 1px solid #f0f0f0; transition: background-color 0.2s;">
+                         style="padding: 6px 0; border-bottom: 1px solid #f0f0f0; transition: background-color 0.2s;">
                         <label style="display: flex; align-items: center; cursor: pointer; margin: 0;">
                             <input type="checkbox" 
                                    class="popup-route-checkbox" 
                                    data-relation-id="${route.relationId}"
                                    ${isActive ? 'checked' : ''}
-                                   style="margin-right: 10px; cursor: pointer; width: 16px; height: 16px;">
+                                   style="margin-right: 8px; cursor: pointer; width: 14px; height: 14px;">
                             <span class="route-badge" 
                                   style="display: inline-flex; align-items: center; justify-content: center; 
-                                         min-width: 32px; height: 32px; border-radius: 6px; 
+                                         min-width: 26px; height: 26px; border-radius: 5px; 
                                          background-color: ${route.color || '#CCCCCC'}; 
                                          color: ${route.textColor}; font-weight: 600; 
-                                         font-size: 0.9rem; margin-right: 10px; flex-shrink: 0;
+                                         font-size: 0.8rem; margin-right: 8px; flex-shrink: 0;
                                          box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
                                 ${route.ref || '?'}
                             </span>
-                            <span class="route-destination" style="font-size: 0.95rem; color: #333; line-height: 1.3;">
+                            <span class="route-destination" style="font-size: 0.8rem; color: #333; line-height: 1.3;">
                                 ke ${route.destination}
                             </span>
                         </label>
@@ -237,14 +237,14 @@ async function generateEnhancedPopup(stopProps) {
         
         html += `</div>`;
     } else {
-        html += `<div style="text-align: center; padding: 20px 0;">
+        html += `<div style="text-align: center; padding: 16px 0;">
                     <p style="color: #666; font-style: italic; margin: 0;">Data rute belum tersedia</p>
                  </div>`;
     }
     
     // Add action buttons
     html += `
-        <div class="popup-actions" style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee;">
+        <div class="popup-actions" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #eee;">
             <button class="btn-select-all" 
                     style="background-color: #00A64F; color: white; border: none; border-radius: 25px; 
                            padding: 10px 20px; font-weight: 600; cursor: pointer; font-size: 0.9rem; 
@@ -399,7 +399,7 @@ async function loadBusStops() {
                     setTimeout(() => attachPopupEventListeners(), 50);
                 } catch (error) {
                     console.error('Error loading popup content:', error);
-                    popup.setContent('<div style="padding: 20px; text-align: center; color: #666;">Gagal memuat data rute</div>');
+                    popup.setContent('<div style="padding: 16px; text-align: center; color: #666;">Gagal memuat data rute</div>');
                 }
             });
             
@@ -471,7 +471,7 @@ function initializeBusStopControls() {
         
         // Set up checkbox event
         busStopCheckbox.addEventListener('change', function() {
-            if (this.checked && map.getZoom() >= 15) {
+            if (this.checked && map.getZoom() >= 16) {
                 map.addLayer(layer);
                 isLayerVisible = true;
             } else {
