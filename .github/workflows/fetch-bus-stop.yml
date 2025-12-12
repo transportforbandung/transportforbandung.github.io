@@ -8,11 +8,13 @@ on:
 jobs:
   fetch-bus-stops:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -20,18 +22,32 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run Overpass fetcher with timeout
+      - name: Run Overpass fetcher
+        env:
+          PYTHONUNBUFFERED: 1
         run: |
-          echo "Starting Python script..."
-          timeout 600 python action-scripts/fetch-bus-stop.py  # 10 minute timeout
-          echo "Script completed or timed out"
+          echo "Starting script at $(date)"
+          echo "Using bulk route fetching method to avoid rate limits..."
+          timeout 1200 python -u action-scripts/fetch-bus-stop.py
+          echo "Script completed at $(date)"
+          
+      - name: Check output
+        run: |
+          echo "Generated files:"
+          ls -la route-data/bus-stop/ || echo "No output directory"
           
       - name: Commit and push updates
         if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add route-data/bus-stop/*.geojson
-          git commit -m "Update bus stop GeoJSONs" || echo "No changes"
-          git pull --rebase origin main
-          git push
+          
+          # Only commit if there are changes
+          if git diff --quiet --exit-code; then
+            echo "No changes to commit"
+          else
+            git add route-data/bus-stop/*.geojson
+            git commit -m "Update bus stop GeoJSONs [$(date +'%Y-%m-%d')]"
+            git pull --rebase origin main
+            git push
+          fi
