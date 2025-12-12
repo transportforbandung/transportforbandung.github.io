@@ -1,4 +1,4 @@
-// components/bus-stop-display.js - WITH SMART TOGGLE BUTTON
+// components/bus-stop-display.js
 let busStopLayer = null;
 let busStopCheckbox = null;
 let routeDataCache = null;
@@ -139,9 +139,102 @@ function syncWithSidebar(relationId, shouldDisplay) {
     }
 }
 
-// Check if all routes in the popup are selected
-function areAllRoutesSelected() {
-    const checkboxes = document.querySelectorAll('.popup-route-checkbox');
+// Event delegation for popup interactions
+function setupEventDelegation() {
+    // Use event delegation for checkbox changes
+    document.addEventListener('change', function(e) {
+        if (e.target.classList.contains('popup-route-checkbox')) {
+            const checkbox = e.target;
+            const relationId = checkbox.dataset.relationId;
+            const routeItem = checkbox.closest('.route-item');
+            
+            // Update visual state
+            if (routeItem) {
+                routeItem.style.backgroundColor = checkbox.checked ? 'rgba(0, 166, 79, 0.05)' : '';
+            }
+            
+            // Sync with sidebar
+            syncWithSidebar(relationId, checkbox.checked);
+            
+            // Update toggle button in the same popup
+            updateToggleButton(routeItem?.closest('.bus-stop-popup-enhanced'));
+        }
+    });
+    
+    // Event delegation for button clicks
+    document.addEventListener('click', function(e) {
+        // Toggle all button
+        if (e.target.classList.contains('btn-toggle-all') || e.target.closest('.btn-toggle-all')) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            const toggleBtn = e.target.classList.contains('btn-toggle-all') 
+                ? e.target 
+                : e.target.closest('.btn-toggle-all');
+            
+            if (!toggleBtn) return;
+            
+            const popup = toggleBtn.closest('.bus-stop-popup-enhanced');
+            if (!popup) return;
+            
+            toggleAllRoutes(popup);
+        }
+        
+        // Close button
+        else if (e.target.classList.contains('btn-close-popup') || e.target.closest('.btn-close-popup')) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            // Find and close the popup
+            const popup = document.querySelector('.leaflet-popup');
+            if (popup) {
+                const closeBtn = popup.querySelector('.leaflet-popup-close-button');
+                if (closeBtn) closeBtn.click();
+            }
+        }
+    });
+    
+    // Mouse events for toggle buttons (direct event handlers since they're safe)
+    document.addEventListener('mouseover', function(e) {
+        if (e.target.classList.contains('btn-toggle-all') || e.target.closest('.btn-toggle-all')) {
+            const toggleBtn = e.target.classList.contains('btn-toggle-all') 
+                ? e.target 
+                : e.target.closest('.btn-toggle-all');
+            
+            if (!toggleBtn) return;
+            
+            const mode = toggleBtn.dataset.mode;
+            if (mode === 'select') {
+                toggleBtn.style.backgroundColor = '#008f43'; // Darker green
+            } else {
+                toggleBtn.style.backgroundColor = '#5a6268'; // Darker gray
+            }
+        }
+    });
+    
+    document.addEventListener('mouseout', function(e) {
+        if (e.target.classList.contains('btn-toggle-all') || e.target.closest('.btn-toggle-all')) {
+            const toggleBtn = e.target.classList.contains('btn-toggle-all') 
+                ? e.target 
+                : e.target.closest('.btn-toggle-all');
+            
+            if (!toggleBtn) return;
+            
+            const mode = toggleBtn.dataset.mode;
+            if (mode === 'select') {
+                toggleBtn.style.backgroundColor = '#00A64F';
+            } else {
+                toggleBtn.style.backgroundColor = '#6c757d';
+            }
+        }
+    });
+}
+
+// Check if all routes in a specific popup are selected
+function areAllRoutesSelected(popupElement) {
+    if (!popupElement) return false;
+    
+    const checkboxes = popupElement.querySelectorAll('.popup-route-checkbox');
     if (checkboxes.length === 0) return false;
     
     for (let checkbox of checkboxes) {
@@ -150,30 +243,34 @@ function areAllRoutesSelected() {
     return true;
 }
 
-// Update toggle button text and state
-function updateToggleButton() {
-    const toggleBtn = document.querySelector('.btn-toggle-all');
+// Update toggle button text and state for a specific popup
+function updateToggleButton(popupElement) {
+    if (!popupElement) return;
+    
+    const toggleBtn = popupElement.querySelector('.btn-toggle-all');
     if (!toggleBtn) return;
     
-    const allSelected = areAllRoutesSelected();
+    const allSelected = areAllRoutesSelected(popupElement);
     
     if (allSelected) {
         toggleBtn.innerHTML = '<i class="bi bi-eye-slash me-1"></i>Sembunyikan Semua Rute';
         toggleBtn.dataset.mode = 'deselect';
-        toggleBtn.style.backgroundColor = '#6c757d'; // Gray for deselect mode
+        toggleBtn.style.backgroundColor = '#6c757d';
     } else {
         toggleBtn.innerHTML = '<i class="bi bi-check-all me-1"></i>Pilih Semua Rute';
         toggleBtn.dataset.mode = 'select';
-        toggleBtn.style.backgroundColor = '#00A64F'; // Green for select mode
+        toggleBtn.style.backgroundColor = '#00A64F';
     }
 }
 
-// Toggle all routes in the popup
-function toggleAllRoutes() {
-    const toggleBtn = document.querySelector('.btn-toggle-all');
+// Toggle all routes in a specific popup
+function toggleAllRoutes(popupElement) {
+    if (!popupElement) return;
+    
+    const toggleBtn = popupElement.querySelector('.btn-toggle-all');
     if (!toggleBtn) return;
     
-    const checkboxes = document.querySelectorAll('.popup-route-checkbox');
+    const checkboxes = popupElement.querySelectorAll('.popup-route-checkbox');
     const mode = toggleBtn.dataset.mode;
     const shouldSelect = mode === 'select';
     
@@ -194,7 +291,7 @@ function toggleAllRoutes() {
     });
     
     // Update button for next click
-    updateToggleButton();
+    updateToggleButton(popupElement);
 }
 
 // Generate enhanced popup
@@ -236,6 +333,11 @@ async function generateEnhancedPopup(stopProps) {
         <div class="bus-stop-popup-enhanced">
             <div class="popup-header">
                 <h4 style="margin: 0 0 6px 0; color: #00152B; font-size: 1rem; font-weight: 600;">${stopProps.name || 'Halte Tanpa Nama'}</h4>
+                <div class="stop-info" style="color: #666; font-size: 0.8rem; margin-bottom: 12px; line-height: 1.3;">
+                    ${stopProps.shelter ? `Shelter: ${stopProps.shelter}<br>` : ''}
+                    ${stopProps.pole ? `Tiang: ${stopProps.pole}<br>` : ''}
+                    Melayani ${routes.length} rute
+                </div>
             </div>
     `;
     
@@ -317,67 +419,6 @@ async function generateEnhancedPopup(stopProps) {
     return html;
 }
 
-// Attach event listeners with smart toggle
-function attachPopupEventListeners() {
-    // Handle route checkbox changes
-    document.querySelectorAll('.popup-route-checkbox').forEach(checkbox => {
-        checkbox.addEventListener('change', function() {
-            const relationId = this.dataset.relationId;
-            const routeItem = this.closest('.route-item');
-            
-            // Update visual state
-            if (routeItem) {
-                routeItem.style.backgroundColor = this.checked ? 'rgba(0, 166, 79, 0.05)' : '';
-            }
-            
-            // Sync with sidebar
-            syncWithSidebar(relationId, this.checked);
-            
-            // Update toggle button text
-            updateToggleButton();
-        });
-    });
-    
-    // Smart toggle button
-    const toggleBtn = document.querySelector('.btn-toggle-all');
-    if (toggleBtn) {
-        toggleBtn.addEventListener('click', function() {
-            toggleAllRoutes();
-        });
-        
-        // Hover effects
-        toggleBtn.addEventListener('mouseover', function() {
-            const mode = this.dataset.mode;
-            if (mode === 'select') {
-                this.style.backgroundColor = '#008f43'; // Darker green
-            } else {
-                this.style.backgroundColor = '#5a6268'; // Darker gray
-            }
-        });
-        
-        toggleBtn.addEventListener('mouseout', function() {
-            const mode = this.dataset.mode;
-            if (mode === 'select') {
-                this.style.backgroundColor = '#00A64F';
-            } else {
-                this.style.backgroundColor = '#6c757d';
-            }
-        });
-    }
-    
-    // Close button
-    const closeBtn = document.querySelector('.btn-close-popup');
-    if (closeBtn) {
-        closeBtn.addEventListener('click', function() {
-            const popup = document.querySelector('.leaflet-popup');
-            if (popup) {
-                const closeBtn = popup.querySelector('.leaflet-popup-close-button');
-                if (closeBtn) closeBtn.click();
-            }
-        });
-    }
-}
-
 // Load bus stops
 async function loadBusStops() {
     if (busStopLayer) return busStopLayer;
@@ -410,7 +451,16 @@ async function loadBusStops() {
                 try {
                     const content = await generateEnhancedPopup(props);
                     popup.setContent(content);
-                    setTimeout(() => attachPopupEventListeners(), 30);
+                    
+                    // No need to attach event listeners - they're handled by delegation
+                    // But we should update the toggle button for this popup
+                    setTimeout(() => {
+                        const popupElement = popup.getElement()?.querySelector('.bus-stop-popup-enhanced');
+                        if (popupElement) {
+                            updateToggleButton(popupElement);
+                        }
+                    }, 10);
+                    
                 } catch (error) {
                     popup.setContent('<div style="padding: 15px; text-align: center; color: #666; font-size: 0.85rem;">Gagal memuat data</div>');
                 }
@@ -419,7 +469,7 @@ async function loadBusStops() {
             busStopLayer.addLayer(marker);
         });
 
-        console.log(`✓ Loaded ${data.features.length} bus stops with smart toggle`);
+        console.log(`✓ Loaded ${data.features.length} bus stops`);
         return busStopLayer;
         
     } catch (error) {
@@ -504,8 +554,12 @@ function initializeBusStopControls() {
     });
 }
 
-// Initialize
+// Initialize everything
 document.addEventListener('DOMContentLoaded', function() {
+    // Set up event delegation once
+    setupEventDelegation();
+    
+    // Wait for map to be initialized
     const checkMap = setInterval(() => {
         if (typeof map !== 'undefined') {
             clearInterval(checkMap);
