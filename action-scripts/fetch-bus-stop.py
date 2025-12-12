@@ -3,43 +3,58 @@ import json
 import time
 import os
 import math
+import threading
 from datetime import datetime
+from queue import Queue
 
 # Bounding box for Greater Bandung
 BBOX = "-7.119970883040842,107.29935103886602,-6.7164372353137045,108.00522056337834"
 
-# Overpass API settings
-OVERPASS_URL = "https://overpass-api.de/api/interpreter"
-# Alternative servers if main one fails
+# Thread-safe rate limiter class
+class RateLimiter:
+    def __init__(self, min_interval=5):
+        self.min_interval = min_interval
+        self.last_request_time = 0
+        self.lock = threading.Lock()
+    
+    def wait_if_needed(self):
+        with self.lock:
+            current_time = time.time()
+            time_since_last = current_time - self.last_request_time
+            
+            if time_since_last < self.min_interval:
+                sleep_time = self.min_interval - time_since_last
+                if sleep_time > 0.1:  # Only log if significant wait
+                    print(f"Rate limiter: Waiting {sleep_time:.1f} seconds...")
+                time.sleep(sleep_time)
+            
+            self.last_request_time = time.time()
+
+# Create a global rate limiter instance
+rate_limiter = RateLimiter(min_interval=5)
+
+# Alternative servers
 ALTERNATIVE_SERVERS = [
     "https://overpass-api.de/api/interpreter",
     "https://lz4.overpass-api.de/api/interpreter",
     "https://z.overpass-api.de/api/interpreter",
 ]
 
-# Rate limiting
-LAST_REQUEST_TIME = 0
-MIN_REQUEST_INTERVAL = 5  # Minimum 5 seconds between requests
-
 def fetch_overpass(query, retries=5, delay=10):
     """Query Overpass API with exponential backoff and server rotation"""
-    global LAST_REQUEST_TIME
-    
-    # Rate limiting between all requests
-    current_time = time.time()
-    time_since_last = current_time - LAST_REQUEST_TIME
-    if time_since_last < MIN_REQUEST_INTERVAL:
-        sleep_time = MIN_REQUEST_INTERVAL - time_since_last
-        time.sleep(sleep_time)
     
     for attempt in range(1, retries + 1):
+        # Rate limit BEFORE making the request
+        rate_limiter.wait_if_needed()
+        
         # Rotate servers to spread load
         server_idx = (attempt - 1) % len(ALTERNATIVE_SERVERS)
         base_url = ALTERNATIVE_SERVERS[server_idx]
+        server_name = base_url.split('/')[2]
         
         try:
-            print(f"Attempt {attempt}/{retries} on server {base_url.split('/')[2]}...")
-            LAST_REQUEST_TIME = time.time()
+            if attempt == 1:
+                print(f"  Request to {server_name}...")
             
             response = requests.post(
                 base_url,
@@ -56,19 +71,19 @@ def fetch_overpass(query, retries=5, delay=10):
             elif response.status_code == 429:
                 # Rate limited - exponential backoff
                 wait_time = delay * (2 ** attempt)
-                print(f"Rate limited. Waiting {wait_time} seconds...")
+                print(f"  Rate limited by {server_name}. Waiting {wait_time} seconds...")
                 time.sleep(wait_time)
                 continue
             elif response.status_code == 504:
                 # Gateway timeout
-                print(f"Gateway timeout, retrying in {delay} seconds...")
+                print(f"  Gateway timeout from {server_name}, retrying...")
                 time.sleep(delay)
                 continue
             else:
                 response.raise_for_status()
                 
         except requests.exceptions.RequestException as e:
-            print(f"Request error (attempt {attempt}/{retries}): {e}")
+            print(f"  Request error (attempt {attempt}/{retries}): {e}")
             if attempt == retries:
                 raise
             
@@ -95,103 +110,21 @@ def fetch_all_bus_stops():
     print(f"Found {len(elements)} total bus stops")
     return elements
 
-# Enhanced individual node route fetching with progress tracking
-def fetch_routes_for_nodes_individual(node_ids, max_workers=2, batch_size=1):
-    """Fetch routes for each node individually with proper rate limiting"""
-    import concurrent.futures
-    import threading
-    
-    node_routes = {}
-    completed_count = 0
-    total_count = len(node_ids)
-    lock = threading.Lock()
-    
-    def update_progress():
-        nonlocal completed_count
-        with lock:
-            completed_count += 1
-            if completed_count % 10 == 0 or completed_count == total_count:
-                print(f"Progress: {completed_count}/{total_count} ({completed_count/total_count*100:.1f}%)")
-    
-    def fetch_single_node_with_delay(node_id, delay_multiplier=1):
-        """Fetch routes for a single node with delay"""
-        try:
-            # Add delay based on request count
-            time.sleep(2 * delay_multiplier)
-            
-            query = f"""
-            [out:json][timeout:30];
-            node({node_id});
-            rel(bn)["type"="route"]["route"="bus"];
-            out body;
-            """
-            
-            data = fetch_overpass(query)
-            routes = []
-            
-            # Parse relations
-            for element in data.get("elements", []):
-                if element["type"] == "relation":
-                    routes.append(element["id"])
-            
-            update_progress()
-            return (node_id, routes)
-            
-        except Exception as e:
-            print(f"Error fetching routes for node {node_id}: {e}")
-            update_progress()
-            return (node_id, [])
-    
-    # Group nodes by area to potentially find patterns
-    print(f"Fetching routes for {total_count} nodes...")
-    print(f"Using {max_workers} workers with {batch_size} nodes per batch")
-    
-    # Process in batches with delays between batches
-    batches = [node_ids[i:i + batch_size] for i in range(0, len(node_ids), batch_size)]
-    
-    for batch_idx, batch in enumerate(batches):
-        print(f"Processing batch {batch_idx + 1}/{len(batches)}")
-        
-        with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-            futures = []
-            
-            for i, node_id in enumerate(batch):
-                # Stagger start times
-                initial_delay = i * 0.5
-                future = executor.submit(fetch_single_node_with_delay, node_id, batch_idx + 1)
-                futures.append(future)
-            
-            # Wait for all in batch to complete
-            for future in concurrent.futures.as_completed(futures):
-                node_id, routes = future.result()
-                node_routes[node_id] = routes
-        
-        # Longer delay between batches
-        if batch_idx < len(batches) - 1:
-            batch_delay = 10  # 10 seconds between batches
-            print(f"Batch completed. Waiting {batch_delay} seconds before next batch...")
-            time.sleep(batch_delay)
-    
-    return node_routes
-
-# Alternative: Sequential with intelligent delay
-def fetch_routes_sequential(node_ids):
-    """Fetch routes sequentially with intelligent delay management"""
+# Better sequential approach with progress
+def fetch_routes_sequential_safe(node_ids):
+    """Fetch routes sequentially - most reliable for rate limiting"""
     node_routes = {}
     total = len(node_ids)
     
+    print(f"Fetching routes for {total} nodes sequentially...")
+    print("This will take approximately {} minutes".format(math.ceil(total * 5 / 60)))
+    
     for i, node_id in enumerate(node_ids, 1):
-        if i % 20 == 0:
+        # Progress indicator
+        if i % 10 == 0 or i == total:
             print(f"Progress: {i}/{total} ({i/total*100:.1f}%)")
         
         try:
-            # Dynamic delay based on progress
-            base_delay = 3
-            if i % 50 == 0:
-                # Longer pause every 50 requests
-                print("Taking a longer pause to respect rate limits...")
-                time.sleep(30)
-            
             query = f"""
             [out:json][timeout:25];
             node({node_id});
@@ -208,16 +141,71 @@ def fetch_routes_sequential(node_ids):
             
             node_routes[node_id] = routes
             
-            # Short delay between requests
-            if i < total:
-                time.sleep(base_delay)
-                
+            # Additional delay every 50 requests
+            if i % 50 == 0 and i < total:
+                print("  Taking a 30-second pause...")
+                time.sleep(30)
+            
         except Exception as e:
             print(f"Error for node {node_id}: {e}")
             node_routes[node_id] = []
             
             # Longer delay on error
-            time.sleep(10)
+            print("  Pausing 15 seconds after error...")
+            time.sleep(15)
+    
+    return node_routes
+
+# Thread-safe batch processing
+def fetch_routes_batched_safe(node_ids, batch_size=20):
+    """Process nodes in batches with controlled concurrency"""
+    import concurrent.futures
+    
+    node_routes = {}
+    total = len(node_ids)
+    batches = [node_ids[i:i + batch_size] for i in range(0, total, batch_size)]
+    
+    print(f"Processing {len(batches)} batches of up to {batch_size} nodes each")
+    
+    # Use a queue to process batches sequentially
+    for batch_idx, batch in enumerate(batches, 1):
+        print(f"\nBatch {batch_idx}/{len(batches)}: {len(batch)} nodes")
+        
+        batch_results = {}
+        
+        # Process this batch sequentially within the batch
+        for i, node_id in enumerate(batch, 1):
+            print(f"  Node {i}/{len(batch)} in batch...")
+            
+            try:
+                query = f"""
+                [out:json][timeout:25];
+                node({node_id});
+                rel(bn)["type"="route"]["route"="bus"];
+                out body;
+                """
+                
+                data = fetch_overpass(query)
+                routes = []
+                
+                for element in data.get("elements", []):
+                    if element["type"] == "relation":
+                        routes.append(element["id"])
+                
+                batch_results[node_id] = routes
+                
+            except Exception as e:
+                print(f"  Error for node {node_id}: {e}")
+                batch_results[node_id] = []
+        
+        # Add batch results to main dict
+        node_routes.update(batch_results)
+        
+        # Delay between batches
+        if batch_idx < len(batches):
+            batch_delay = 30
+            print(f"  Waiting {batch_delay} seconds before next batch...")
+            time.sleep(batch_delay)
     
     return node_routes
 
@@ -248,7 +236,7 @@ def get_stop_category(shelter, pole):
 
 def main():
     print("=" * 60)
-    print("Bus Stop Extractor - Individual Node Method")
+    print("Bus Stop Extractor - Rate Limited Version")
     print(f"Start time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
     
@@ -257,7 +245,6 @@ def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     print(f"Output directory: {OUTPUT_DIR}")
     
-    # Timer
     total_start = time.time()
     
     # Step 1: Fetch bus stops
@@ -265,7 +252,6 @@ def main():
     start_time = time.time()
     all_stops = fetch_all_bus_stops()
     stop_fetch_time = time.time() - start_time
-    print(f"  Time: {stop_fetch_time:.1f} seconds")
     
     if not all_stops:
         print("No bus stops found!")
@@ -273,43 +259,33 @@ def main():
     
     # Extract node IDs
     node_ids = [stop["id"] for stop in all_stops if stop["type"] == "node"]
-    print(f"\n[2/4] Processing {len(node_ids)} bus stops...")
+    print(f"\n[2/4] Found {len(node_ids)} bus stop nodes")
     
-    # Step 2: Fetch routes (choose method)
+    # Step 2: Fetch routes
     print("\n[3/4] Fetching route associations...")
-    print("Using individual node method for accuracy")
+    print("Using sequential method for maximum reliability")
     
     route_start = time.time()
     
-    # CHOOSE YOUR METHOD:
-    # Method A: Threaded with rate limiting (faster but riskier)
-    # node_routes = fetch_routes_for_nodes_individual(node_ids, max_workers=2, batch_size=10)
+    # CHOOSE METHOD:
+    # Method 1: Pure sequential (safest)
+    # node_routes = fetch_routes_sequential_safe(node_ids)
     
-    # Method B: Sequential (slower but safest)
-    node_routes = fetch_routes_sequential(node_ids)
+    # Method 2: Batched sequential (good balance)
+    node_routes = fetch_routes_batched_safe(node_ids, batch_size=10)
     
     route_fetch_time = time.time() - route_start
-    print(f"  Route fetching time: {route_fetch_time:.1f} seconds ({route_fetch_time/60:.1f} minutes)")
     
     # Step 3: Process and save
     print("\n[4/4] Creating GeoJSON...")
     
     features = []
-    route_stats = {}
     
     for stop in all_stops:
         if stop["type"] != "node":
             continue
             
         tags = stop.get("tags", {})
-        stop_id = stop["id"]
-        
-        # Get routes
-        routes = node_routes.get(stop_id, [])
-        
-        # Track route statistics
-        for route_id in routes:
-            route_stats[route_id] = route_stats.get(route_id, 0) + 1
         
         feature = {
             "type": "Feature",
@@ -318,85 +294,38 @@ def main():
                 "coordinates": [stop["lon"], stop["lat"]]
             },
             "properties": {
-                "id": stop_id,
+                "id": stop["id"],
                 "name": tags.get("name"),
                 "shelter": tags.get("shelter"),
                 "pole": tags.get("pole"),
                 "lit": tags.get("lit"),
                 "bench": tags.get("bench"),
                 "bin": tags.get("bin"),
-                "routes": routes,
-                "route_count": len(routes),
+                "routes": node_routes.get(stop["id"], []),
+                "route_count": len(node_routes.get(stop["id"], [])),
                 "category": get_stop_category(tags.get("shelter"), tags.get("pole"))
             }
         }
         features.append(feature)
     
-    # Save to file with timestamp
+    # Save to file
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_path = f"{OUTPUT_DIR}/bus_stops_{timestamp}.geojson"
     
-    geojson = {
-        "type": "FeatureCollection",
-        "features": features
-    }
-    
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(geojson, f, ensure_ascii=False, indent=2)
+        json.dump({
+            "type": "FeatureCollection",
+            "features": features
+        }, f, ensure_ascii=False, indent=2)
     
-    # Create a symlink to the latest file
-    latest_path = f"{OUTPUT_DIR}/all_bus_stops.geojson"
-    if os.path.exists(latest_path):
-        os.remove(latest_path)
-    os.symlink(f"bus_stops_{timestamp}.geojson", latest_path)
-    
-    # Print comprehensive summary
+    # Summary
     total_time = time.time() - total_start
     stops_with_routes = sum(1 for f in features if f["properties"]["route_count"] > 0)
-    total_routes = sum(f["properties"]["route_count"] for f in features)
-    unique_routes = len(route_stats)
     
-    print("\n" + "=" * 60)
-    print(" EXTRACTION COMPLETE")
-    print("=" * 60)
-    print(f" Output file: {output_path}")
-    print(f" Total time: {total_time:.1f} seconds ({total_time/60:.1f} minutes)")
-    
-    print(f"\n📈 Statistics:")
-    print(f"  Total bus stops: {len(features)}")
-    print(f"  Stops with routes: {stops_with_routes} ({stops_with_routes/len(features)*100:.1f}%)")
-    print(f"  Total route associations: {total_routes}")
-    print(f"  Unique bus routes found: {unique_routes}")
-    
-    if stops_with_routes > 0:
-        print(f"  Average routes per stop: {total_routes/stops_with_routes:.2f}")
-    
-    # Route distribution
-    print(f"  Route distribution:")
-    route_counts = {}
-    for f in features:
-        count = f["properties"]["route_count"]
-        route_counts[count] = route_counts.get(count, 0) + 1
-    
-    for count in sorted(route_counts.keys()):
-        percentage = route_counts[count] / len(features) * 100
-        print(f"  {count} route(s): {route_counts[count]} stops ({percentage:.1f}%)")
-    
-    # Time breakdown
-    print(f"  Time breakdown:")
-    print(f"  Bus stop fetching: {stop_fetch_time:.1f}s ({stop_fetch_time/total_time*100:.1f}%)")
-    print(f"  Route fetching: {route_fetch_time:.1f}s ({route_fetch_time/total_time*100:.1f}%)")
-    print(f"  Processing: {total_time - stop_fetch_time - route_fetch_time:.1f}s")
-    
-    print(f" Finished at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print("=" * 60)
+    print(f"  Extraction complete!")
+    print(f"  Output: {output_path}")
+    print(f"  Total time: {total_time/60:.1f} minutes")
+    print(f"  Stops with routes: {stops_with_routes}/{len(features)}")
 
 if __name__ == "__main__":
-    try:
-        main()
-    except KeyboardInterrupt:
-        print("  Script interrupted by user")
-    except Exception as e:
-        print(f" Script failed with error: {e}")
-        import traceback
-        traceback.print_exc()
+    main()
