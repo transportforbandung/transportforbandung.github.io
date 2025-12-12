@@ -65,12 +65,20 @@ async function loadRouteData() {
         
         const routeLookup = {};
         const categoryLookup = {};
+        const categoryOrder = []; // NEW: Store category order from routes.json
         
-        data.categories.forEach(category => {
+        // Store categories in the order they appear in routes.json
+        data.categories.forEach((category, index) => {
+            categoryOrder.push({
+                name: category.name,
+                order: index
+            });
+            
             category.routes.forEach(route => {
                 routeLookup[route.relationId] = {
                     ...route,
-                    categoryName: category.name
+                    categoryName: category.name,
+                    categoryOrder: index // Add category order to each route
                 };
                 
                 if (!categoryLookup[category.name]) {
@@ -80,13 +88,17 @@ async function loadRouteData() {
             });
         });
         
-        routeDataCache = { routeLookup, categoryLookup };
-        console.log(`Loaded ${Object.keys(routeLookup).length} routes`);
+        routeDataCache = { 
+            routeLookup, 
+            categoryLookup,
+            categoryOrder // NEW: Store the order
+        };
+        console.log(`Loaded ${Object.keys(routeLookup).length} routes, ${categoryOrder.length} categories`);
         return routeDataCache;
         
     } catch (error) {
         console.error('Failed to load route data:', error);
-        return { routeLookup: {}, categoryLookup: {} };
+        return { routeLookup: {}, categoryLookup: {}, categoryOrder: [] };
     }
 }
 
@@ -139,7 +151,7 @@ function syncWithSidebar(relationId, shouldDisplay) {
     }
 }
 
-// Generate enhanced popup WITHOUT buttons
+// Generate enhanced popup with proper category ordering
 async function generateEnhancedPopup(stopProps) {
     const routeData = await loadRouteData();
     const routes = stopProps.routes || [];
@@ -186,17 +198,41 @@ async function generateEnhancedPopup(stopProps) {
     if (Object.keys(routesByCategory).length > 0) {
         html += `<div class="route-categories" style="max-height: 280px; overflow-y: auto; padding-right: 4px;">`;
         
-        Object.entries(routesByCategory).forEach(([categoryName, categoryRoutes]) => {
+        // NEW: Sort categories based on their order in routes.json
+        const sortedCategories = routeData.categoryOrder
+            .filter(cat => routesByCategory[cat.name]) // Only include categories that have routes for this stop
+            .map(cat => ({
+                name: cat.name,
+                order: cat.order,
+                routes: routesByCategory[cat.name]
+            }));
+        
+        // Add any categories not in the original order (like 'Lainnya')
+        Object.keys(routesByCategory).forEach(categoryName => {
+            if (!sortedCategories.find(cat => cat.name === categoryName)) {
+                sortedCategories.push({
+                    name: categoryName,
+                    order: 9999, // Put at the end
+                    routes: routesByCategory[categoryName]
+                });
+            }
+        });
+        
+        // Sort by order from routes.json
+        sortedCategories.sort((a, b) => a.order - b.order);
+        
+        // Display categories in the correct order
+        sortedCategories.forEach(category => {
             html += `
                 <div class="category-group" style="margin-bottom: 16px;">
                     <h5 style="margin: 0 0 8px 0; color: #00568E; font-size: 0.9rem; 
                            border-bottom: 1px solid #eee; padding-bottom: 4px; font-weight: 600;">
-                        ${categoryName}
+                        ${category.name}
                     </h5>
                     <div class="route-list">
             `;
             
-            categoryRoutes.forEach(route => {
+            category.routes.forEach(route => {
                 const isActive = isRouteDisplayed(route.relationId);
                 
                 html += `
@@ -304,7 +340,7 @@ async function loadBusStops() {
             busStopLayer.addLayer(marker);
         });
 
-        console.log(`✓ Loaded ${data.features.length} bus stops`);
+        console.log(`✓ Loaded ${data.features.length} bus stops with correct category ordering`);
         return busStopLayer;
         
     } catch (error) {
