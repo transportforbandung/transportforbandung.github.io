@@ -1331,94 +1331,79 @@ tr:hover {
     margin: 5px 0;
 }
 
-/* Bus stop icons */
-.bus-stop-icon {
-    background: transparent !important;
-    border: none !important;
-}
-
-.bus-stop-popup {
-    font-size: 14px;
-    min-width: 200px;
-}
-
-/* Ensure bus stops don't interfere with other layers */
-.leaflet-marker-icon.bus-stop-icon {
-    z-index: 600;
-}
-
-/* Bus Stop Custom Icons with White Stroke */
+/* Bus Stop Markers - Keep these essential styles */
 .bus-stop-custom-icon {
     filter: drop-shadow(0 0 2px white) 
            drop-shadow(0 0 1px white)
            drop-shadow(1px 1px 1px rgba(0,0,0,0.3));
 }
 
-/* Optional: Hover effect */
 .bus-stop-custom-icon:hover {
     filter: drop-shadow(0 0 3px white) 
            drop-shadow(0 0 2px white)
            drop-shadow(2px 2px 2px rgba(0,0,0,0.4));
-    transition: filter 0.2s ease;
 }
 
-/* Enhanced Bus Stop Popup Styles */
+/* Ensure proper z-index for markers */
+.leaflet-marker-icon.bus-stop-custom-icon {
+    z-index: 600;
+}
+
+/* Enhanced Popup Container */
 .enhanced-bus-stop-popup .leaflet-popup-content-wrapper {
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     overflow: hidden;
+    padding: 0;
 }
 
 .enhanced-bus-stop-popup .leaflet-popup-content {
     margin: 0;
     padding: 0;
     line-height: 1.3;
-    font-size: 0.9em;
+    max-width: 280px;
+    min-width: 200px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .enhanced-bus-stop-popup .leaflet-popup-tip {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
 }
 
-/* Loading state */
-.popup-loading {
-    padding: 30px;
-    text-align: center;
-    color: #666;
-    font-size: 0.9rem;
-}
-
-.popup-loading .bi {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #00A64F;
-    display: block;
-}
-
-/* Enhanced popup specific styles */
+/* Popup Structure */
 .bus-stop-popup-enhanced {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     max-width: 280px;
     min-width: 200px;
 }
 
+/* Header Section */
 .bus-stop-popup-enhanced .popup-header {
-    padding: 15px 15px 10px 15px;
-    background: linear-gradient(to bottom, #f8f9fa, #ffffff);
-    border-bottom: 0.8px solid #eee;
+    padding: 12px 15px 8px 15px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.bus-stop-popup-enhanced .popup-header h4 {
+    margin: 0 0 4px 0;
+    color: #00152B;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.2;
 }
 
 .bus-stop-popup-enhanced .stop-info {
-    color: #666;
-    font-size: 0.8rem;
+    color: #6c757d;
+    font-size: 0.75rem;
     line-height: 1.3;
+    margin: 0;
 }
 
+/* Route Categories & Scroll */
 .bus-stop-popup-enhanced .route-categories {
-    max-height: 240px;
+    max-height: 220px;
     overflow-y: auto;
-    padding: 12px 15px;
+    padding: 10px 15px;
 }
 
 .bus-stop-popup-enhanced .route-categories::-webkit-scrollbar {
@@ -1426,21 +1411,18 @@ tr:hover {
 }
 
 .bus-stop-popup-enhanced .route-categories::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #f8f9fa;
     border-radius: 2px;
 }
 
 .bus-stop-popup-enhanced .route-categories::-webkit-scrollbar-thumb {
-    background: #c1c1c1;
+    background: #adb5bd;
     border-radius: 2px;
 }
 
-.bus-stop-popup-enhanced .route-categories::-webkit-scrollbar-thumb:hover {
-    background: #a8a8a8;
-}
-
+/* Category Groups */
 .bus-stop-popup-enhanced .category-group {
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .bus-stop-popup-enhanced .category-group:last-child {
@@ -1451,32 +1433,28 @@ tr:hover {
     color: #00568E;
     font-size: 0.8rem;
     font-weight: 600;
-    margin: 0 0 10px 0;
-    padding-bottom: 8px;
-    border-bottom: 2px solid #eaeaea;
+    margin: 0 0 6px 0;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #dee2e6;
 }
 
+/* Individual Route Items */
 .bus-stop-popup-enhanced .route-item {
-    padding: 8px 10px;
-    border-radius: 6px;
-    transition: all 0.2s ease;
-    margin-bottom: 4px;
+    padding: 5px 8px;
+    border-radius: 4px;
+    transition: background-color 0.15s ease;
+    margin-bottom: 2px;
 }
 
 .bus-stop-popup-enhanced .route-item:hover {
     background-color: rgba(0, 166, 79, 0.05);
-    transform: translateX(2px);
 }
 
 .bus-stop-popup-enhanced .route-item.active {
-    background-color: rgba(0, 166, 79, 0.1);
-    border-left: 3px solid #00A64F;
+    background-color: rgba(0, 166, 79, 0.08);
 }
 
-.bus-stop-popup-enhanced .route-item:last-child {
-    border-bottom: none;
-}
-
+/* Route Item Label & Checkbox */
 .bus-stop-popup-enhanced .route-item label {
     display: flex;
     align-items: center;
@@ -1485,13 +1463,14 @@ tr:hover {
 }
 
 .bus-stop-popup-enhanced .popup-route-checkbox {
-    margin-right: 10px;
+    margin-right: 8px;
     cursor: pointer;
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
     accent-color: #00A64F;
 }
 
+/* Route Badge (Colored Number Box) */
 .bus-stop-popup-enhanced .route-badge {
     display: inline-flex;
     align-items: center;
@@ -1501,107 +1480,100 @@ tr:hover {
     border-radius: 4px;
     font-weight: 600;
     font-size: 0.8rem;
-    margin-right: 10px;
+    margin-right: 8px;
     flex-shrink: 0;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease;
+    line-height: 1;
 }
 
-.bus-stop-popup-enhanced .route-item:hover .route-badge {
-    transform: scale(1.05);
-}
-
+/* Route Destination Text */
 .bus-stop-popup-enhanced .route-destination {
     font-size: 0.8rem;
-    color: #333;
-    line-height: 1;
+    color: #495057;
+    line-height: 1.2;
     flex: 1;
 }
 
+/* Action Buttons */
 .bus-stop-popup-enhanced .popup-actions {
-    padding: 10px 15px 15px 10px;
-    border-top: 1px solid #eee;
+    padding: 10px 15px 12px 15px;
+    border-top: 1px solid #e9ecef;
     display: flex;
     gap: 8px;
-    background-color: #f9f9f9;
-    border-radius: 0 0 10px 10px;
+    background-color: #f8f9fa;
 }
 
-.bus-stop-popup-enhanced .btn-select-all {
+/* Toggle Button (Smart Select/Deselect) */
+.bus-stop-popup-enhanced .btn-toggle-all {
     background-color: #00A64F;
     color: white;
     border: none;
-    border-radius: 25px;
-    padding: 12px 20px;
-    font-weight: 600;
-    cursor: pointer;
-    font-size: 0.9rem;
-    transition: all 0.3s ease;
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-}
-
-.bus-stop-popup-enhanced .btn-select-all:hover {
-    background-color: #008f43;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(0, 166, 79, 0.2);
-}
-
-.bus-stop-popup-enhanced .btn-select-all:active {
-    transform: translateY(0);
-}
-
-.bus-stop-popup-enhanced .btn-close-popup {
-    background-color: white;
-    color: #666;
-    border: 1px solid #ddd;
-    border-radius: 25px;
-    padding: 12px 20px;
+    border-radius: 18px;
+    padding: 6px 12px;
     font-weight: 500;
     cursor: pointer;
-    font-size: 0.9rem;
-    transition: all 0.3s ease;
+    font-size: 0.8rem;
+    transition: all 0.2s ease;
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 4px;
+    line-height: 1.2;
+}
+
+.bus-stop-popup-enhanced .btn-toggle-all:hover {
+    opacity: 0.9;
+}
+
+.bus-stop-popup-enhanced .btn-toggle-all[data-mode="deselect"] {
+    background-color: #6c757d;
+}
+
+.bus-stop-popup-enhanced .btn-toggle-all i {
+    font-size: 0.85rem;
+}
+
+/* Close Button */
+.bus-stop-popup-enhanced .btn-close-popup {
+    background-color: white;
+    color: #6c757d;
+    border: 1px solid #dee2e6;
+    border-radius: 18px;
+    padding: 6px 12px;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.2s ease;
+    flex: 1;
 }
 
 .bus-stop-popup-enhanced .btn-close-popup:hover {
-    background-color: #f5f5f5;
-    border-color: #ccc;
-    color: #333;
+    background-color: #f8f9fa;
+    border-color: #ced4da;
 }
 
-/* Legend styles in control panel */
+/* Control Panel Legend (in sidebar) */
 .bus-stop-legend {
-    margin-top: 12px;
-    padding-top: 12px;
+    margin-top: 8px;
+    padding-top: 8px;
     border-top: 1px solid #dee2e6;
+    font-size: 0.65rem;
 }
 
 .legend-item {
     display: flex;
     align-items: center;
-    gap: 8px;
-    color: #495057;
+    gap: 6px;
+    color: #6c757d;
+    margin-bottom: 4px;
 }
 
 .legend-color {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
-    display: inline-block;
+    flex-shrink: 0;
     border: 1px solid rgba(0,0,0,0.1);
-}
-
-/* Ensure proper z-index */
-.leaflet-marker-icon.bus-stop-custom-icon {
-    z-index: 600;
 }
 
 /* Style for regular options */
@@ -2194,44 +2166,68 @@ textarea,
         z-index: 10000;
     }
 
-    .bus-stop-popup-enhanced {
-        max-width: 90vw;
-        min-width: 85vw;
+    .enhanced-bus-stop-popup .leaflet-popup-content {
+        max-width: 85vw;
+        min-width: 80vw;
     }
     
     .bus-stop-popup-enhanced .popup-header {
-        padding: 15px 15px 10px 15px;
+        padding: 10px 12px 6px 12px;
     }
     
-    .bus-stop-popup-enhanced .route-categories {
-        max-height: 250px;
-        padding: 10px 15px;
-    }
-    
-    .bus-stop-popup-enhanced .route-item {
-        padding: 8px 10px;
-    }
-    
-    .bus-stop-popup-enhanced .route-badge {
-        min-width: 28px;
-        height: 28px;
-        font-size: 0.85rem;
-    }
-    
-    .bus-stop-popup-enhanced .route-destination {
+    .bus-stop-popup-enhanced .popup-header h4 {
         font-size: 0.9rem;
     }
     
-    .bus-stop-popup-enhanced .popup-actions {
-        padding: 12px 15px 15px 15px;
-        flex-direction: column;
-        gap: 8px;
+    .bus-stop-popup-enhanced .stop-info {
+        font-size: 0.7rem;
     }
     
-    .bus-stop-popup-enhanced .btn-select-all,
+    .bus-stop-popup-enhanced .route-categories {
+        max-height: 200px;
+        padding: 8px 12px;
+    }
+    
+    .bus-stop-popup-enhanced .category-group h5 {
+        font-size: 0.75rem;
+    }
+    
+    .bus-stop-popup-enhanced .route-item {
+        padding: 4px 6px;
+    }
+    
+    .bus-stop-popup-enhanced .popup-route-checkbox {
+        width: 12px;
+        height: 12px;
+    }
+    
+    .bus-stop-popup-enhanced .route-badge {
+        min-width: 24px;
+        height: 24px;
+        font-size: 0.75rem;
+        margin-right: 6px;
+    }
+    
+    .bus-stop-popup-enhanced .route-destination {
+        font-size: 0.75rem;
+    }
+    
+    .bus-stop-popup-enhanced .popup-actions {
+        padding: 8px 12px 10px 12px;
+        flex-direction: row; /* Keep side-by-side on mobile */
+        gap: 6px;
+    }
+    
+    .bus-stop-popup-enhanced .btn-toggle-all,
     .bus-stop-popup-enhanced .btn-close-popup {
-        width: 100%;
-        padding: 10px 15px;
+        padding: 5px 10px;
+        font-size: 0.75rem;
+        border-radius: 16px;
+    }
+    
+    .bus-stop-popup-enhanced .btn-toggle-all i,
+    .bus-stop-popup-enhanced .btn-close-popup i {
+        font-size: 0.8rem;
     }
 
     .footer-container {
