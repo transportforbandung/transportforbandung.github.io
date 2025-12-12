@@ -177,60 +177,42 @@ async function generateEnhancedPopup(stopProps) {
         return iconMap[category] || iconMap["8_shelter_none_pole_none"];
     };
     
+    // DEBUG: Log what we're working with
+    console.log('Bus stop properties:', stopProps);
+    console.log('Routes for this stop:', routes);
+    console.log('Total routes in cache:', Object.keys(routeData.routeLookup).length);
+    
     // Group routes by category while preserving order
     const routesByCategory = {};
     
-    // Create a Set of routes that serve this stop for quick lookup
-    const stopRoutesSet = new Set(routes);
-    
-    // First, get all routes from routeData that serve this stop
-    const routesForStop = [];
-    
-    // Iterate through categories in the order from routes.json
-    routeData.categoryOrder.forEach(catOrderItem => {
-        const categoryName = catOrderItem.name;
-        const categoryRoutes = routeData.categoryLookup[categoryName] || [];
-        
-        // For each route in this category (in order)
-        categoryRoutes.forEach(relationId => {
-            if (stopRoutesSet.has(relationId)) {
-                const routeInfo = routeData.routeLookup[relationId];
-                if (routeInfo) {
-                    let routeRef = routeInfo.ref || '';
-                    if (!routeRef && routeInfo.name) {
-                        const match = routeInfo.name.match(/^(?:Koridor|Corridor|Rute|Route)?\s*(\w+)/i);
-                        routeRef = match ? match[1] : '';
-                    }
-                    
-                    routesForStop.push({
-                        ...routeInfo,
-                        relationId,
-                        ref: routeRef,
-                        destination: extractDestination(routeInfo.name),
-                        textColor: getContrastColor(routeInfo.color || '#CCCCCC'),
-                        categoryName: routeInfo.categoryName,
-                        categoryOrder: routeInfo.categoryOrder
-                    });
-                }
-            }
-        });
-    });
-    
-    // Group the filtered routes by category
-    routesForStop.forEach(route => {
-        const categoryName = route.categoryName || 'Lainnya';
-        
-        if (!routesByCategory[categoryName]) {
-            routesByCategory[categoryName] = [];
-        }
-        
-        // Add route to its category
-        routesByCategory[categoryName].push(route);
-    });
-    
-    // Check for routes that aren't in routeData
+    // First, let's process each route ID from the bus stop
     routes.forEach(relationId => {
-        if (!routeData.routeLookup[relationId]) {
+        // Try to find this route in our route data
+        const routeInfo = routeData.routeLookup[relationId];
+        
+        if (routeInfo) {
+            // Route found in our data
+            const categoryName = routeInfo.categoryName || 'Lainnya';
+            
+            if (!routesByCategory[categoryName]) {
+                routesByCategory[categoryName] = [];
+            }
+            
+            let routeRef = routeInfo.ref || '';
+            if (!routeRef && routeInfo.name) {
+                const match = routeInfo.name.match(/^(?:Koridor|Corridor|Rute|Route)?\s*(\w+)/i);
+                routeRef = match ? match[1] : '';
+            }
+            
+            routesByCategory[categoryName].push({
+                ...routeInfo,
+                relationId,
+                ref: routeRef,
+                destination: extractDestination(routeInfo.name),
+                textColor: getContrastColor(routeInfo.color || '#CCCCCC')
+            });
+        } else {
+            // Route not found in our data - put in "Lainnya"
             const categoryName = 'Lainnya';
             if (!routesByCategory[categoryName]) {
                 routesByCategory[categoryName] = [];
@@ -243,11 +225,12 @@ async function generateEnhancedPopup(stopProps) {
                 destination: `Rute ${relationId}`,
                 color: '#CCCCCC',
                 textColor: getContrastColor('#CCCCCC'),
-                categoryName: 'Lainnya',
-                categoryOrder: 9999
+                categoryName: 'Lainnya'
             });
         }
     });
+    
+    console.log('Routes grouped by category:', routesByCategory);
     
     // Start building the HTML with the new two-column header
     let html = `
@@ -287,56 +270,62 @@ async function generateEnhancedPopup(stopProps) {
             </div>
     `;
     
-    if (Object.keys(routesByCategory).length > 0) {
+    // Now we need to sort the routes within each category by their original order
+    // First, let's create a map to track category order
+    const categoryOrderMap = new Map();
+    routeData.categoryOrder.forEach((cat, index) => {
+        categoryOrderMap.set(cat.name, index);
+    });
+    
+    // Sort categories based on routes.json order
+    const sortedCategories = Object.keys(routesByCategory)
+        .filter(categoryName => routesByCategory[categoryName].length > 0)
+        .sort((a, b) => {
+            const orderA = categoryOrderMap.has(a) ? categoryOrderMap.get(a) : 9999;
+            const orderB = categoryOrderMap.has(b) ? categoryOrderMap.get(b) : 9999;
+            return orderA - orderB;
+        });
+    
+    console.log('Sorted categories:', sortedCategories);
+    
+    if (sortedCategories.length > 0) {
         html += `<div class="route-categories" style="max-height: 280px; overflow-y: auto; padding-right: 4px;">`;
         
-        // Get categories in the order they appear in routes.json
-        // First, get categories from routeData.categoryOrder that actually have routes
-        const sortedCategories = [];
-        
-        // Add categories in the order from routes.json
-        routeData.categoryOrder.forEach(catOrderItem => {
-            const categoryName = catOrderItem.name;
-            if (routesByCategory[categoryName] && routesByCategory[categoryName].length > 0) {
-                sortedCategories.push({
-                    name: categoryName,
-                    order: catOrderItem.order,
-                    routes: routesByCategory[categoryName]
-                    // Routes are already in the correct order from our initial processing
-                });
-                
-                // Remove from routesByCategory so we know which ones we've processed
-                delete routesByCategory[categoryName];
-            }
-        });
-        
-        // Add remaining categories (like 'Lainnya')
-        Object.keys(routesByCategory).forEach(categoryName => {
-            if (routesByCategory[categoryName] && routesByCategory[categoryName].length > 0) {
-                sortedCategories.push({
-                    name: categoryName,
-                    order: 9999, // Put at the end
-                    routes: routesByCategory[categoryName]
-                });
-            }
-        });
-        
-        // Sort categories by their order (from routes.json or fallback)
-        sortedCategories.sort((a, b) => a.order - b.order);
-        
         // Display categories in the correct order
-        sortedCategories.forEach(category => {
+        sortedCategories.forEach(categoryName => {
+            const categoryRoutes = routesByCategory[categoryName];
+            
+            // Sort routes within this category by their original order from routes.json
+            const sortedRoutes = [...categoryRoutes].sort((a, b) => {
+                // Get the position of each route in the original category order
+                const categoryRouteIds = routeData.categoryLookup[categoryName] || [];
+                const indexA = categoryRouteIds.indexOf(a.relationId);
+                const indexB = categoryRouteIds.indexOf(b.relationId);
+                
+                // If both routes are in the category list, sort by that order
+                if (indexA !== -1 && indexB !== -1) {
+                    return indexA - indexB;
+                }
+                
+                // If one is not in the list, put it at the end
+                if (indexA === -1 && indexB !== -1) return 1;
+                if (indexA !== -1 && indexB === -1) return -1;
+                
+                // If neither is in the list, maintain original order
+                return 0;
+            });
+            
             html += `
                 <div class="category-group" style="margin-bottom: 16px;">
                     <h5 style="margin: 0 0 8px 0; color: #00568E; font-size: 0.9rem; 
                            border-bottom: 1px solid #eee; padding-bottom: 4px; font-weight: 600;">
-                        ${category.name}
+                        ${categoryName}
                     </h5>
                     <div class="route-list">
             `;
             
-            // Display routes for this category
-            category.routes.forEach(route => {
+            // Display routes for this category (now sorted)
+            sortedRoutes.forEach(route => {
                 const isActive = isRouteDisplayed(route.relationId);
                 
                 html += `
