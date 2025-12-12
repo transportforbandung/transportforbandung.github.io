@@ -8,7 +8,7 @@ on:
 jobs:
   fetch-bus-stops:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 60  # Allow up to 60 minutes
     
     steps:
       - name: Checkout repository
@@ -22,16 +22,26 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run Overpass fetcher
+      - name: Run bus stop extraction
         env:
           PYTHONUNBUFFERED: 1
         run: |
-          echo "Starting script at $(date)"
-          echo "Using bulk route fetching method to avoid rate limits..."
-          timeout 1200 python -u action-scripts/fetch-bus-stop.py
-          echo "Script completed at $(date)"
+          echo "Starting bus stop extraction at $(date)"
+          echo "Using individual node method for accurate route detection"
+          echo "This may take up to 60 minutes due to rate limiting..."
           
-      - name: Check output
+          # Run with generous timeout
+          timeout 3300 python -u action-scripts/fetch-bus-stop.py 2>&1 | tee extraction.log
+          
+          echo "Extraction completed at $(date)"
+          
+      - name: Save extraction log
+        if: always()
+        run: |
+          mkdir -p logs
+          cp extraction.log logs/extraction_$(date +'%Y%m%d_%H%M%S').log 2>/dev/null || true
+          
+      - name: Check output files
         run: |
           echo "Generated files:"
           ls -la route-data/bus-stop/ || echo "No output directory"
@@ -42,12 +52,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Only commit if there are changes
-          if git diff --quiet --exit-code; then
+          # Add all GeoJSON files
+          git add route-data/bus-stop/*.geojson
+          
+          # Check if there are changes
+          if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git add route-data/bus-stop/*.geojson
-            git commit -m "Update bus stop GeoJSONs [$(date +'%Y-%m-%d')]"
+            git commit -m "Update bus stop GeoJSONs [$(date +'%Y-%m-%d %H:%M')]"
             git pull --rebase origin main
             git push
           fi
