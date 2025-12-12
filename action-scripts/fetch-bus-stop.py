@@ -198,9 +198,6 @@ def main():
         tags = stop.get("tags", {})
         shelter = tags.get("shelter")
         pole = tags.get("pole")
-        bin = tags.get("bin")
-        bench = tags.get("bench")
-        lit = tags.get("lit")
         
         # Get routes from results
         route_ids = node_routes.get(stop["id"], [])
@@ -219,9 +216,6 @@ def main():
                 "name": tags.get("name"),
                 "shelter": shelter,
                 "pole": pole,
-                "bench" : bench,
-                "bin" : bin,
-                "lit" : lit,
                 "routes": route_ids,
                 "category": category
             }
