@@ -156,6 +156,27 @@ async function generateEnhancedPopup(stopProps) {
     const routeData = await loadRouteData();
     const routes = stopProps.routes || [];
     
+    // Get category from stop properties
+    const category = stopProps.category || "8_shelter_none_pole_none";
+    
+    // Determine if it has shelter based on category
+    const hasShelter = category.includes('shelter_yes');
+    
+    // Map category to icon path (same as busStopIcons)
+    const getIconPath = (category) => {
+        const iconMap = {
+            "1_shelter_yes_pole_none": 'assets/bus-stop-icon/Bus-Stop-Halte-Button.svg',
+            "2_shelter_none_pole_sign": 'assets/bus-stop-icon/Bus-Stop-Rambu-Button.svg',
+            "3_shelter_none_pole_totem": 'assets/bus-stop-icon/Bus-Stop-Totem-Button.svg',
+            "4_shelter_none_pole_flag": 'assets/bus-stop-icon/Bus-Stop-Flag-Button.svg',
+            "5_shelter_yes_pole_sign": 'assets/bus-stop-icon/Bus-Stop-Halte+Rambu-Button.svg',
+            "6_shelter_yes_pole_totem": 'assets/bus-stop-icon/Bus-Stop-Halte+Totem-Button.svg',
+            "7_shelter_yes_pole_flag": 'assets/bus-stop-icon/Bus-Stop-Halte+Flag-Button.svg',
+            "8_shelter_none_pole_none": 'assets/bus-stop-icon/Bus-Stop-Virtual-Button.svg'
+        };
+        return iconMap[category] || iconMap["8_shelter_none_pole_none"];
+    };
+    
     // Group routes by category
     const routesByCategory = {};
     routes.forEach(relationId => {
@@ -182,12 +203,37 @@ async function generateEnhancedPopup(stopProps) {
         }
     });
     
-    // Simple HTML WITHOUT buttons
+    // Start building the HTML with the new two-column header
     let html = `
         <div class="bus-stop-popup-enhanced">
-            <div class="popup-header">
-                <h4 style="margin: 0 0 6px 0; color: #00152B; font-size: 1rem; font-weight: 600;">${stopProps.name || 'Halte Tanpa Nama'}</h4>
-                <div class="stop-info" style="color: #666; font-size: 0.8rem; margin-bottom: 12px; line-height: 1.3;">
+            <!-- New Two-Column Header -->
+            <div class="popup-header" style="margin-bottom: 12px;">
+                <div style="display: flex; align-items: stretch; min-height: 60px;">
+                    <!-- Column 1: Icon (spans both rows) -->
+                    <div style="flex: 0 0 60px; display: flex; align-items: center; justify-content: center; 
+                         padding: 8px; background: #f8f9fa; border-radius: 8px 0 0 8px; border-right: 1px solid #e9ecef;">
+                        <img src="${getIconPath(category)}" 
+                             alt="Bus stop icon" 
+                             style="width: 40px; height: 40px; object-fit: contain;">
+                    </div>
+                    
+                    <!-- Column 2: Text (two rows) -->
+                    <div style="flex: 1; padding: 8px 12px; background: #f8f9fa; border-radius: 0 8px 8px 0;
+                         display: flex; flex-direction: column; justify-content: center;">
+                        <!-- Row 1: HALTE/PERHENTIAN -->
+                        <div style="font-size: 11px; color: #6c757d; font-weight: 600; 
+                             text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 2px;">
+                            ${hasShelter ? 'HALTE' : 'PERHENTIAN'}
+                        </div>
+                        <!-- Row 2: Bus stop name -->
+                        <div style="font-size: 16px; color: #00152B; font-weight: 700; line-height: 1.2;">
+                            ${stopProps.name || 'Halte Tanpa Nama'}
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stop info below header -->
+                <div class="stop-info" style="color: #666; font-size: 0.8rem; margin-top: 8px; line-height: 1.3;">
                     ${stopProps.shelter ? `Shelter: ${stopProps.shelter}<br>` : ''}
                     ${stopProps.pole ? `Tiang: ${stopProps.pole}<br>` : ''}
                     Melayani ${routes.length} rute
@@ -198,21 +244,21 @@ async function generateEnhancedPopup(stopProps) {
     if (Object.keys(routesByCategory).length > 0) {
         html += `<div class="route-categories" style="max-height: 280px; overflow-y: auto; padding-right: 4px;">`;
         
-        // NEW: Sort categories based on their order in routes.json
+        // Sort categories based on their order in routes.json
         const sortedCategories = routeData.categoryOrder
-            .filter(cat => routesByCategory[cat.name]) // Only include categories that have routes for this stop
+            .filter(cat => routesByCategory[cat.name])
             .map(cat => ({
                 name: cat.name,
                 order: cat.order,
                 routes: routesByCategory[cat.name]
             }));
         
-        // Add any categories not in the original order (like 'Lainnya')
+        // Add any categories not in the original order
         Object.keys(routesByCategory).forEach(categoryName => {
             if (!sortedCategories.find(cat => cat.name === categoryName)) {
                 sortedCategories.push({
                     name: categoryName,
-                    order: 9999, // Put at the end
+                    order: 9999,
                     routes: routesByCategory[categoryName]
                 });
             }
@@ -270,7 +316,6 @@ async function generateEnhancedPopup(stopProps) {
                  </div>`;
     }
     
-    // NO BUTTONS - Just close the div
     html += `</div>`;
     
     return html;
