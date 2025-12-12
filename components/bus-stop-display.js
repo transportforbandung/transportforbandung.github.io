@@ -151,7 +151,7 @@ function syncWithSidebar(relationId, shouldDisplay) {
     }
 }
 
-// Generate enhanced popup with proper category ordering
+// Generate enhanced popup with proper category and route ordering
 async function generateEnhancedPopup(stopProps) {
     const routeData = await loadRouteData();
     const routes = stopProps.routes || [];
@@ -177,31 +177,88 @@ async function generateEnhancedPopup(stopProps) {
         return iconMap[category] || iconMap["8_shelter_none_pole_none"];
     };
     
-    // Group routes by category
+    // Create a map of route relation IDs that serve this stop
+    const stopRouteIds = new Set(routes);
+    
+    // Group routes by category while preserving original order
     const routesByCategory = {};
-    routes.forEach(relationId => {
-        const routeInfo = routeData.routeLookup[relationId];
-        if (routeInfo) {
-            const category = routeInfo.categoryName || 'Lainnya';
-            if (!routesByCategory[category]) {
-                routesByCategory[category] = [];
+    const categoryRouteOrder = {}; // Track original route order within each category
+    
+    // First, iterate through all categories in their original order
+    routeData.categoryOrder.forEach(category => {
+        const categoryName = category.name;
+        routesByCategory[categoryName] = [];
+        categoryRouteOrder[categoryName] = [];
+        
+        // Get all routes for this category from routeData
+        const categoryRouteIds = routeData.categoryLookup[categoryName] || [];
+        
+        // Add routes that serve this stop, in their original order
+        categoryRouteIds.forEach(relationId => {
+            if (stopRouteIds.has(relationId)) {
+                const routeInfo = routeData.routeLookup[relationId];
+                if (routeInfo) {
+                    let routeRef = routeInfo.ref || '';
+                    if (!routeRef && routeInfo.name) {
+                        const match = routeInfo.name.match(/^(?:Koridor|Corridor|Rute|Route)?\s*(\w+)/i);
+                        routeRef = match ? match[1] : '';
+                    }
+                    
+                    const routeData = {
+                        ...routeInfo,
+                        relationId,
+                        ref: routeRef,
+                        destination: extractDestination(routeInfo.name),
+                        textColor: getContrastColor(routeInfo.color || '#CCCCCC'),
+                        routeOrder: routesByCategory[categoryName].length // Track order within category
+                    };
+                    
+                    routesByCategory[categoryName].push(routeData);
+                    categoryRouteOrder[categoryName].push(relationId);
+                }
             }
-            
-            let routeRef = routeInfo.ref || '';
-            if (!routeRef && routeInfo.name) {
-                const match = routeInfo.name.match(/^(?:Koridor|Corridor|Rute|Route)?\s*(\w+)/i);
-                routeRef = match ? match[1] : '';
-            }
-            
-            routesByCategory[category].push({
-                ...routeInfo,
-                relationId,
-                ref: routeRef,
-                destination: extractDestination(routeInfo.name),
-                textColor: getContrastColor(routeInfo.color || '#CCCCCC')
-            });
+        });
+        
+        // Remove empty categories
+        if (routesByCategory[categoryName].length === 0) {
+            delete routesByCategory[categoryName];
+            delete categoryRouteOrder[categoryName];
         }
     });
+    
+    // Check for any routes that might belong to categories not in the original order
+    const processedRouteIds = new Set();
+    Object.values(routesByCategory).flat().forEach(route => processedRouteIds.add(route.relationId));
+    
+    const unprocessedRoutes = routes.filter(relationId => !processedRouteIds.has(relationId));
+    
+    if (unprocessedRoutes.length > 0) {
+        // Handle routes that don't belong to any known category
+        const otherCategory = 'Lainnya';
+        if (!routesByCategory[otherCategory]) {
+            routesByCategory[otherCategory] = [];
+        }
+        
+        unprocessedRoutes.forEach(relationId => {
+            const routeInfo = routeData.routeLookup[relationId];
+            if (routeInfo) {
+                let routeRef = routeInfo.ref || '';
+                if (!routeRef && routeInfo.name) {
+                    const match = routeInfo.name.match(/^(?:Koridor|Corridor|Rute|Route)?\s*(\w+)/i);
+                    routeRef = match ? match[1] : '';
+                }
+                
+                routesByCategory[otherCategory].push({
+                    ...routeInfo,
+                    relationId,
+                    ref: routeRef,
+                    destination: extractDestination(routeInfo.name),
+                    textColor: getContrastColor(routeInfo.color || '#CCCCCC'),
+                    routeOrder: routesByCategory[otherCategory].length
+                });
+            }
+        });
+    }
     
     // Start building the HTML with the new two-column header
     let html = `
@@ -244,27 +301,26 @@ async function generateEnhancedPopup(stopProps) {
     if (Object.keys(routesByCategory).length > 0) {
         html += `<div class="route-categories" style="max-height: 280px; overflow-y: auto; padding-right: 4px;">`;
         
-        // Sort categories based on their order in routes.json
+        // Get categories in the order from routes.json
         const sortedCategories = routeData.categoryOrder
-            .filter(cat => routesByCategory[cat.name])
+            .filter(cat => routesByCategory[cat.name]) // Only include categories that have routes for this stop
             .map(cat => ({
                 name: cat.name,
                 order: cat.order,
                 routes: routesByCategory[cat.name]
+                // Routes are already in the correct order from our processing above
             }));
         
-        // Add any categories not in the original order
-        Object.keys(routesByCategory).forEach(categoryName => {
-            if (!sortedCategories.find(cat => cat.name === categoryName)) {
-                sortedCategories.push({
-                    name: categoryName,
-                    order: 9999,
-                    routes: routesByCategory[categoryName]
-                });
-            }
-        });
+        // Add "Lainnya" category if it exists
+        if (routesByCategory['Lainnya'] && !sortedCategories.find(cat => cat.name === 'Lainnya')) {
+            sortedCategories.push({
+                name: 'Lainnya',
+                order: 9999, // Put at the end
+                routes: routesByCategory['Lainnya']
+            });
+        }
         
-        // Sort by order from routes.json
+        // Sort categories by order from routes.json
         sortedCategories.sort((a, b) => a.order - b.order);
         
         // Display categories in the correct order
@@ -278,6 +334,7 @@ async function generateEnhancedPopup(stopProps) {
                     <div class="route-list">
             `;
             
+            // Routes are already in the correct order from routes.json
             category.routes.forEach(route => {
                 const isActive = isRouteDisplayed(route.relationId);
                 
