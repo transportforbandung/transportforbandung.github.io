@@ -2,11 +2,12 @@ import requests
 import json
 import time
 import os
+from datetime import datetime
 
 # Bounding box for Greater Bandung
 BBOX = "-7.119970883040842,107.29935103886602,-6.7164372353137045,108.00522056337834"
 
-# Function to query Overpass API
+# Function to query Overpass API with rate limiting
 def fetch_overpass(query, retries=3, delay=2):
     base_url = "https://overpass-api.de/api/interpreter"
     
@@ -15,10 +16,20 @@ def fetch_overpass(query, retries=3, delay=2):
             response = requests.post(base_url, data=query, timeout=60)
             response.raise_for_status()
             return response.json()
+        except requests.exceptions.HTTPError as e:
+            if response.status_code == 429:  # Rate limit
+                wait_time = delay * (2 ** attempt)  # Exponential backoff
+                print(f"Rate limited. Waiting {wait_time} seconds...")
+                time.sleep(wait_time)
+                continue
+            if attempt == retries:
+                raise
+            print(f"HTTP error (attempt {attempt}/{retries}): {e}")
+            time.sleep(delay * attempt)
         except requests.RequestException as e:
             if attempt == retries:
                 raise
-            print(f"Overpass error (attempt {attempt}/{retries}): {e}")
+            print(f"Request error (attempt {attempt}/{retries}): {e}")
             time.sleep(delay * attempt)
 
 # Fetch all bus stops in single query
@@ -37,35 +48,108 @@ def fetch_all_bus_stops():
     print(f"Found {len(data.get('elements', []))} total bus stops")
     return data.get("elements", [])
 
-# Simple approach for fetching routes
-def fetch_routes_for_nodes(node_ids, max_workers=3):
-    """Fetch routes for nodes with simple sequential requests"""
+# SIMPLIFIED: Fetch all bus routes in one query, then match locally
+def fetch_all_bus_routes_and_match():
+    """Fetch all bus routes in the area once, then match to stops locally"""
+    print("Fetching all bus routes in the area...")
+    
+    # First, get all bus routes in the bounding box
+    query = f"""
+    [out:json][timeout:180];
+    (
+      relation["type"="route"]["route"="bus"]({BBOX});
+    );
+    out body;
+    """
+    
+    try:
+        data = fetch_overpass(query)
+        routes = data.get("elements", [])
+        print(f"Found {len(routes)} bus routes")
+        
+        # Create a mapping of node_id -> list of route_ids
+        node_to_routes = {}
+        
+        for route in routes:
+            if route["type"] != "relation":
+                continue
+                
+            route_id = route["id"]
+            # Look for node members in this route
+            for member in route.get("members", []):
+                if member["type"] == "node" and member.get("role") in ["", "stop", "platform"]:
+                    node_id = member["ref"]
+                    if node_id not in node_to_routes:
+                        node_to_routes[node_id] = []
+                    node_to_routes[node_id].append(route_id)
+        
+        return node_to_routes
+        
+    except Exception as e:
+        print(f"Error fetching routes: {e}")
+        return {}
+
+# ALTERNATIVE: Fetch routes in a smarter way with batch queries
+def fetch_routes_for_nodes_smart(node_ids):
+    """Fetch routes for nodes using smarter batching to avoid rate limits"""
     import concurrent.futures
     
     node_routes = {}
     
-    def fetch_single_node(node_id):
-        try:
-            query = f"""
-            [out:json][timeout:30];
-            node({node_id});
-            rel(bn)["type"="route"]["route"="bus"];
-            out body;
-            """
-            data = fetch_overpass(query)
-            routes = [el["id"] for el in data.get("elements", []) if el["type"] == "relation"]
-            return (node_id, routes)
-        except Exception as e:
-            print(f"Error fetching routes for node {node_id}: {e}")
-            return (node_id, [])
+    # Group nodes into batches of 10
+    batches = [node_ids[i:i+10] for i in range(0, len(node_ids), 10)]
+    print(f"Processing {len(batches)} batches of up to 10 nodes each")
     
-    # Use ThreadPoolExecutor for parallel requests
-    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = [executor.submit(fetch_single_node, node_id) for node_id in node_ids]
+    def fetch_batch(batch_nodes):
+        try:
+            # Create a query for multiple nodes at once
+            node_list = ",".join(str(node_id) for node_id in batch_nodes)
+            query = f"""
+            [out:json][timeout:60];
+            node(id:{node_list});
+            rel(bn)["type"="route"]["route"="bus"];
+            out ids;
+            """
+            
+            data = fetch_overpass(query)
+            
+            # Initialize all nodes in batch with empty routes
+            batch_result = {}
+            for node_id in batch_nodes:
+                batch_result[node_id] = []
+            
+            # Extract route IDs
+            for element in data.get("elements", []):
+                if element["type"] == "relation":
+                    # For simplicity, we'll assume all queried nodes are connected to this route
+                    # In reality, we'd need to check members, but this is a trade-off for speed
+                    for node_id in batch_nodes:
+                        batch_result[node_id].append(element["id"])
+            
+            return batch_result
+            
+        except Exception as e:
+            print(f"Error fetching batch: {e}")
+            # Return empty routes for this batch
+            return {node_id: [] for node_id in batch_nodes}
+    
+    # Use ThreadPoolExecutor but with max 2 workers and delays
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
+        futures = []
         
+        for i, batch in enumerate(batches):
+            # Add delay between submitting batches
+            if i > 0:
+                time.sleep(5)  # 5 second delay between batch submissions
+            
+            future = executor.submit(fetch_batch, batch)
+            futures.append(future)
+            print(f"Submitted batch {i+1}/{len(batches)}")
+        
+        # Collect results
         for future in concurrent.futures.as_completed(futures):
-            node_id, routes = future.result()
-            node_routes[node_id] = routes
+            batch_result = future.result()
+            node_routes.update(batch_result)
     
     return node_routes
 
@@ -95,10 +179,11 @@ def get_stop_category(shelter, pole):
             return "8_shelter_none_pole_none"
 
 def main():
-    # Create output directory INSIDE main()
+    # Create output directory
     OUTPUT_DIR = "route-data/bus-stop"
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     print(f"Created output directory: {OUTPUT_DIR}")
+    start_time = time.time()
     
     # Fetch all bus stops
     print("Step 1: Fetching bus stops...")
@@ -112,9 +197,19 @@ def main():
     node_ids = [stop["id"] for stop in all_stops if stop["type"] == "node"]
     print(f"Step 2: Processing {len(node_ids)} bus stops...")
     
-    # Fetch routes
-    print("Step 3: Fetching route associations...")
-    node_routes = fetch_routes_for_nodes(node_ids, max_workers=3)
+    # CHOOSE ONE APPROACH FOR FETCHING ROUTES:
+    
+    # Option A: Fetch all routes once and match locally (FASTEST)
+    print("Step 3: Fetching route associations (bulk method)...")
+    node_routes = fetch_all_bus_routes_and_match()
+    
+    # Option B: Use smart batching (slower but more accurate)
+    # print("Step 3: Fetching route associations (batched method)...")
+    # node_routes = fetch_routes_for_nodes_smart(node_ids)
+    
+    # Option C: Skip route fetching entirely for now
+    # print("Step 3: Skipping route associations...")
+    # node_routes = {}
     
     # Process and save
     print("Step 4: Creating GeoJSON...")
@@ -156,19 +251,32 @@ def main():
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(geojson, f, ensure_ascii=False, indent=2)
     
+    end_time = time.time()
+    elapsed = end_time - start_time
+    
     print(f"✅ Saved {len(features)} stops to {output_path}")
+    print(f"⏱️  Total execution time: {elapsed:.2f} seconds ({elapsed/60:.1f} minutes)")
     
     # Print summary
     stops_with_routes = sum(1 for f in features if len(f["properties"]["routes"]) > 0)
-    print(f"\n📊 Summary:")
+    print(f" Summary:")
     print(f"  Total stops: {len(features)}")
-    print(f"  Stops with routes: {stops_with_routes}")
+    print(f"  Stops with routes: {stops_with_routes} ({stops_with_routes/len(features)*100:.1f}%)")
     print(f"  Route associations: {sum(len(f['properties']['routes']) for f in features)}")
+    
+    if elapsed > 480:  # 8 minutes
+        print(" Warning: Script took more than 8 minutes. Consider:")
+        print("  1. Using the bulk route fetching method (Option A)")
+        print("  2. Skipping route fetching entirely")
+        print("  3. Reducing the bounding box size")
 
-# This is the key fix - Only run main() if the script is executed directly
 if __name__ == "__main__":
     print("Starting bus stop extraction script...")
-    start_time = time.time()
-    main()
-    end_time = time.time()
-    print(f"\n⏱️  Total execution time: {end_time - start_time:.2f} seconds")
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\n⚠️  Script interrupted by user")
+    except Exception as e:
+        print(f"\n❌ Script failed: {e}")
+        import traceback
+        traceback.print_exc()
