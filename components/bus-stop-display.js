@@ -3,7 +3,7 @@ let busStopLayer = null;
 let busStopCheckbox = null;
 let routeDataCache = null;
 
-// Updated icon configurations
+// Bus stop icons
 const busStopIcons = {
     "1_shelter_yes_pole_none": L.icon({
         iconUrl: 'assets/bus-stop-icon/Bus-Stop-Halte-Button.svg',
@@ -55,7 +55,8 @@ const busStopIcons = {
     })
 };
 
-// Load route data
+// =============== UTILITY FUNCTIONS ===============
+
 async function loadRouteData() {
     if (routeDataCache) return routeDataCache;
     
@@ -64,33 +65,24 @@ async function loadRouteData() {
         const data = await response.json();
         
         const routeLookup = {};
-        const categoryLookup = {};
-        
         data.categories.forEach(category => {
             category.routes.forEach(route => {
                 routeLookup[route.relationId] = {
                     ...route,
                     categoryName: category.name
                 };
-                
-                if (!categoryLookup[category.name]) {
-                    categoryLookup[category.name] = [];
-                }
-                categoryLookup[category.name].push(route.relationId);
             });
         });
         
-        routeDataCache = { routeLookup, categoryLookup };
-        console.log(`Loaded ${Object.keys(routeLookup).length} routes`);
+        routeDataCache = { routeLookup };
         return routeDataCache;
         
     } catch (error) {
         console.error('Failed to load route data:', error);
-        return { routeLookup: {}, categoryLookup: {} };
+        return { routeLookup: {} };
     }
 }
 
-// Extract destination from route name
 function extractDestination(routeName) {
     const arrowIndex = routeName.indexOf('→');
     if (arrowIndex !== -1) {
@@ -107,7 +99,6 @@ function extractDestination(routeName) {
     return routeName;
 }
 
-// Calculate text color for badge
 function getContrastColor(hexColor) {
     if (!hexColor || !hexColor.startsWith('#') || hexColor.length !== 7) {
         return '#FFFFFF';
@@ -124,177 +115,122 @@ function getContrastColor(hexColor) {
     }
 }
 
-// Check if route is displayed
 function isRouteDisplayed(relationId) {
     const sidebarCheckbox = document.querySelector(`.route-checkbox[data-relation-id="${relationId}"]`);
     return sidebarCheckbox ? sidebarCheckbox.checked : false;
 }
 
-// Sync with sidebar
 function syncWithSidebar(relationId, shouldDisplay) {
     const sidebarCheckbox = document.querySelector(`.route-checkbox[data-relation-id="${relationId}"]`);
     if (sidebarCheckbox && sidebarCheckbox.checked !== shouldDisplay) {
         sidebarCheckbox.checked = shouldDisplay;
+        // Trigger the change event to load/unload route
         sidebarCheckbox.dispatchEvent(new Event('change', { bubbles: true }));
     }
 }
 
-// Event delegation for popup interactions
+// =============== EVENT HANDLING ===============
+
 function setupEventDelegation() {
-    // Use event delegation for checkbox changes
+    // Event delegation for checkbox changes
     document.addEventListener('change', function(e) {
-        if (e.target.classList.contains('popup-route-checkbox')) {
-            const checkbox = e.target;
-            const relationId = checkbox.dataset.relationId;
-            const routeItem = checkbox.closest('.route-item');
-            
-            // Update visual state
-            if (routeItem) {
-                routeItem.style.backgroundColor = checkbox.checked ? 'rgba(0, 166, 79, 0.05)' : '';
-            }
-            
-            // Sync with sidebar
-            syncWithSidebar(relationId, checkbox.checked);
-            
-            // Update toggle button in the same popup
-            updateToggleButton(routeItem?.closest('.bus-stop-popup-enhanced'));
+        if (e.target && e.target.classList.contains('popup-route-checkbox')) {
+            handleCheckboxChange(e.target);
         }
     });
     
     // Event delegation for button clicks
     document.addEventListener('click', function(e) {
-        // Toggle all button
+        if (!e.target) return;
+        
+        // Toggle button
         if (e.target.classList.contains('btn-toggle-all') || e.target.closest('.btn-toggle-all')) {
             e.preventDefault();
             e.stopPropagation();
-            
-            const toggleBtn = e.target.classList.contains('btn-toggle-all') 
+            const button = e.target.classList.contains('btn-toggle-all') 
                 ? e.target 
                 : e.target.closest('.btn-toggle-all');
-            
-            if (!toggleBtn) return;
-            
-            const popup = toggleBtn.closest('.bus-stop-popup-enhanced');
-            if (!popup) return;
-            
-            toggleAllRoutes(popup);
+            if (button) handleToggleAll(button);
         }
         
         // Close button
         else if (e.target.classList.contains('btn-close-popup') || e.target.closest('.btn-close-popup')) {
             e.preventDefault();
             e.stopPropagation();
-            
-            // Find and close the popup
-            const popup = document.querySelector('.leaflet-popup');
-            if (popup) {
-                const closeBtn = popup.querySelector('.leaflet-popup-close-button');
-                if (closeBtn) closeBtn.click();
-            }
-        }
-    });
-    
-    // Mouse events for toggle buttons (direct event handlers since they're safe)
-    document.addEventListener('mouseover', function(e) {
-        if (e.target.classList.contains('btn-toggle-all') || e.target.closest('.btn-toggle-all')) {
-            const toggleBtn = e.target.classList.contains('btn-toggle-all') 
-                ? e.target 
-                : e.target.closest('.btn-toggle-all');
-            
-            if (!toggleBtn) return;
-            
-            const mode = toggleBtn.dataset.mode;
-            if (mode === 'select') {
-                toggleBtn.style.backgroundColor = '#008f43'; // Darker green
-            } else {
-                toggleBtn.style.backgroundColor = '#5a6268'; // Darker gray
-            }
-        }
-    });
-    
-    document.addEventListener('mouseout', function(e) {
-        if (e.target.classList.contains('btn-toggle-all') || e.target.closest('.btn-toggle-all')) {
-            const toggleBtn = e.target.classList.contains('btn-toggle-all') 
-                ? e.target 
-                : e.target.closest('.btn-toggle-all');
-            
-            if (!toggleBtn) return;
-            
-            const mode = toggleBtn.dataset.mode;
-            if (mode === 'select') {
-                toggleBtn.style.backgroundColor = '#00A64F';
-            } else {
-                toggleBtn.style.backgroundColor = '#6c757d';
-            }
+            closePopup();
         }
     });
 }
 
-// Check if all routes in a specific popup are selected
-function areAllRoutesSelected(popupElement) {
-    if (!popupElement) return false;
+function handleCheckboxChange(checkbox) {
+    const relationId = checkbox.dataset.relationId;
+    const routeItem = checkbox.closest('.route-item');
     
-    const checkboxes = popupElement.querySelectorAll('.popup-route-checkbox');
-    if (checkboxes.length === 0) return false;
-    
-    for (let checkbox of checkboxes) {
-        if (!checkbox.checked) return false;
+    // Update visual state
+    if (routeItem) {
+        routeItem.style.backgroundColor = checkbox.checked ? 'rgba(0, 166, 79, 0.05)' : '';
     }
-    return true;
+    
+    // Sync with sidebar
+    syncWithSidebar(relationId, checkbox.checked);
+    
+    // Update toggle button in the same popup
+    const popup = checkbox.closest('.bus-stop-popup-enhanced');
+    if (popup) updateToggleButton(popup);
 }
 
-// Update toggle button text and state for a specific popup
-function updateToggleButton(popupElement) {
-    if (!popupElement) return;
+function handleToggleAll(button) {
+    const popup = button.closest('.bus-stop-popup-enhanced');
+    if (!popup) return;
     
-    const toggleBtn = popupElement.querySelector('.btn-toggle-all');
-    if (!toggleBtn) return;
-    
-    const allSelected = areAllRoutesSelected(popupElement);
-    
-    if (allSelected) {
-        toggleBtn.innerHTML = '<i class="bi bi-eye-slash me-1"></i>Sembunyikan Semua Rute';
-        toggleBtn.dataset.mode = 'deselect';
-        toggleBtn.style.backgroundColor = '#6c757d';
-    } else {
-        toggleBtn.innerHTML = '<i class="bi bi-check-all me-1"></i>Pilih Semua Rute';
-        toggleBtn.dataset.mode = 'select';
-        toggleBtn.style.backgroundColor = '#00A64F';
-    }
-}
-
-// Toggle all routes in a specific popup
-function toggleAllRoutes(popupElement) {
-    if (!popupElement) return;
-    
-    const toggleBtn = popupElement.querySelector('.btn-toggle-all');
-    if (!toggleBtn) return;
-    
-    const checkboxes = popupElement.querySelectorAll('.popup-route-checkbox');
-    const mode = toggleBtn.dataset.mode;
+    const checkboxes = popup.querySelectorAll('.popup-route-checkbox');
+    const mode = button.dataset.mode;
     const shouldSelect = mode === 'select';
     
-    // Update all checkboxes in the popup
     checkboxes.forEach(checkbox => {
         if (checkbox.checked !== shouldSelect) {
             checkbox.checked = shouldSelect;
-            
-            // Update visual state
-            const routeItem = checkbox.closest('.route-item');
-            if (routeItem) {
-                routeItem.style.backgroundColor = shouldSelect ? 'rgba(0, 166, 79, 0.05)' : '';
-            }
-            
-            // Sync with sidebar
-            syncWithSidebar(checkbox.dataset.relationId, shouldSelect);
+            checkbox.dispatchEvent(new Event('change'));
         }
     });
-    
-    // Update button for next click
-    updateToggleButton(popupElement);
 }
 
-// Generate enhanced popup
+function closePopup() {
+    const popup = document.querySelector('.leaflet-popup');
+    if (popup) {
+        const closeButton = popup.querySelector('.leaflet-popup-close-button');
+        if (closeButton) closeButton.click();
+    }
+}
+
+function areAllRoutesSelected(popup) {
+    if (!popup) return false;
+    const checkboxes = popup.querySelectorAll('.popup-route-checkbox');
+    if (checkboxes.length === 0) return false;
+    
+    return Array.from(checkboxes).every(checkbox => checkbox.checked);
+}
+
+function updateToggleButton(popup) {
+    if (!popup) return;
+    const button = popup.querySelector('.btn-toggle-all');
+    if (!button) return;
+    
+    const allSelected = areAllRoutesSelected(popup);
+    
+    if (allSelected) {
+        button.innerHTML = '<i class="bi bi-eye-slash me-1"></i>Sembunyikan Semua Rute';
+        button.dataset.mode = 'deselect';
+        button.style.backgroundColor = '#6c757d';
+    } else {
+        button.innerHTML = '<i class="bi bi-check-all me-1"></i>Pilih Semua Rute';
+        button.dataset.mode = 'select';
+        button.style.backgroundColor = '#00A64F';
+    }
+}
+
+// =============== POPUP GENERATION ===============
+
 async function generateEnhancedPopup(stopProps) {
     const routeData = await loadRouteData();
     const routes = stopProps.routes || [];
@@ -328,55 +264,42 @@ async function generateEnhancedPopup(stopProps) {
     // Check initial state for toggle button
     const initialAllSelected = routes.every(relationId => isRouteDisplayed(relationId));
     
-    // Compact HTML
+    // Build HTML
     let html = `
         <div class="bus-stop-popup-enhanced">
             <div class="popup-header">
-                <h4 style="margin: 0 0 6px 0; color: #00152B; font-size: 1rem; font-weight: 600;">${stopProps.name || 'Halte Tanpa Nama'}</h4>
-                <div class="stop-info" style="color: #666; font-size: 0.8rem; margin-bottom: 12px; line-height: 1.3;">
-                    ${stopProps.shelter ? `Shelter: ${stopProps.shelter}<br>` : ''}
-                    ${stopProps.pole ? `Tiang: ${stopProps.pole}<br>` : ''}
-                    Melayani ${routes.length} rute
+                <h4>${stopProps.name || 'Halte Tanpa Nama'}</h4>
+                <div class="stop-info">
+                    ${stopProps.shelter ? `<div>Shelter: ${stopProps.shelter}</div>` : ''}
+                    ${stopProps.pole ? `<div>Tiang: ${stopProps.pole}</div>` : ''}
+                    <div>Melayani ${routes.length} rute</div>
                 </div>
             </div>
     `;
     
     if (Object.keys(routesByCategory).length > 0) {
-        html += `<div class="route-categories" style="max-height: 240px; overflow-y: auto; padding-right: 4px;">`;
+        html += `<div class="route-categories">`;
         
         Object.entries(routesByCategory).forEach(([categoryName, categoryRoutes]) => {
             html += `
-                <div class="category-group" style="margin-bottom: 16px;">
-                    <h5 style="margin: 0 0 8px 0; color: #00568E; font-size: 0.9rem; 
-                           border-bottom: 1px solid #eee; padding-bottom: 4px; font-weight: 600;">
-                        ${categoryName}
-                    </h5>
+                <div class="category-group">
+                    <h5>${categoryName}</h5>
                     <div class="route-list">
             `;
             
             categoryRoutes.forEach(route => {
                 const isActive = isRouteDisplayed(route.relationId);
-                
                 html += `
-                    <div class="route-item" data-relation-id="${route.relationId}" 
-                         style="padding: 6px 0; border-bottom: 1px solid #f0f0f0;">
-                        <label style="display: flex; align-items: center; cursor: pointer; margin: 0;">
+                    <div class="route-item" data-relation-id="${route.relationId}">
+                        <label>
                             <input type="checkbox" 
                                    class="popup-route-checkbox" 
                                    data-relation-id="${route.relationId}"
-                                   ${isActive ? 'checked' : ''}
-                                   style="margin-right: 8px; cursor: pointer; width: 14px; height: 14px;">
-                            <span class="route-badge" 
-                                  style="display: inline-flex; align-items: center; justify-content: center; 
-                                         min-width: 26px; height: 26px; border-radius: 5px; 
-                                         background-color: ${route.color || '#CCCCCC'}; 
-                                         color: ${route.textColor}; font-weight: 600; 
-                                         font-size: 0.8rem; margin-right: 8px; flex-shrink: 0;">
+                                   ${isActive ? 'checked' : ''}>
+                            <span class="route-badge" style="background-color: ${route.color || '#CCCCCC'}; color: ${route.textColor}">
                                 ${route.ref || '?'}
                             </span>
-                            <span class="route-destination" style="font-size: 0.85rem; color: #333; line-height: 1.2;">
-                                ke ${route.destination}
-                            </span>
+                            <span class="route-destination">ke ${route.destination}</span>
                         </label>
                     </div>
                 `;
@@ -387,39 +310,29 @@ async function generateEnhancedPopup(stopProps) {
         
         html += `</div>`;
     } else {
-        html += `<div style="text-align: center; padding: 16px 0;">
-                    <p style="color: #666; font-style: italic; margin: 0; font-size: 0.85rem;">Data rute belum tersedia</p>
-                 </div>`;
+        html += `<div class="no-routes">Data rute belum tersedia</div>`;
     }
     
-    // Smart toggle button - initial text based on current selection
+    // Toggle button
     const toggleText = initialAllSelected ? 
         '<i class="bi bi-eye-slash me-1"></i>Sembunyikan Semua Rute' : 
         '<i class="bi bi-check-all me-1"></i>Pilih Semua Rute';
     const toggleColor = initialAllSelected ? '#6c757d' : '#00A64F';
     
     html += `
-        <div class="popup-actions" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #eee;">
-            <button class="btn-toggle-all" 
-                    data-mode="${initialAllSelected ? 'deselect' : 'select'}"
-                    style="background-color: ${toggleColor}; color: white; border: none; border-radius: 20px; 
-                           padding: 8px 16px; font-weight: 500; cursor: pointer; font-size: 0.85rem; 
-                           margin-right: 8px; flex: 1; transition: background-color 0.2s ease;">
+        <div class="popup-actions">
+            <button class="btn-toggle-all" data-mode="${initialAllSelected ? 'deselect' : 'select'}" style="background-color: ${toggleColor}">
                 ${toggleText}
             </button>
-            <button class="btn-close-popup" 
-                    style="background-color: transparent; color: #666; border: 1px solid #ddd; 
-                           border-radius: 20px; padding: 8px 16px; font-weight: 400; cursor: pointer; 
-                           font-size: 0.85rem; flex: 1;">
-                Tutup
-            </button>
+            <button class="btn-close-popup">Tutup</button>
         </div>
     </div>`;
     
     return html;
 }
 
-// Load bus stops
+// =============== BUS STOP MANAGEMENT ===============
+
 async function loadBusStops() {
     if (busStopLayer) return busStopLayer;
 
@@ -438,38 +351,27 @@ async function loadBusStops() {
                 icon: busStopIcons[category]
             });
             
-            // Initial loading popup
-            marker.bindPopup('<div style="padding: 15px; text-align: center; font-size: 0.85rem;"><i class="bi bi-hourglass-split"></i><br>Memuat...</div>', {
+            marker.bindPopup('<div class="popup-loading">Memuat data rute...</div>', {
                 maxWidth: 280,
                 minWidth: 200,
                 className: 'enhanced-bus-stop-popup'
             });
             
-            // Load popup content when opened
             marker.on('popupopen', async function() {
                 const popup = this.getPopup();
                 try {
                     const content = await generateEnhancedPopup(props);
                     popup.setContent(content);
-                    
-                    // No need to attach event listeners - they're handled by delegation
-                    // But we should update the toggle button for this popup
-                    setTimeout(() => {
-                        const popupElement = popup.getElement()?.querySelector('.bus-stop-popup-enhanced');
-                        if (popupElement) {
-                            updateToggleButton(popupElement);
-                        }
-                    }, 10);
-                    
                 } catch (error) {
-                    popup.setContent('<div style="padding: 15px; text-align: center; color: #666; font-size: 0.85rem;">Gagal memuat data</div>');
+                    console.error('Error loading popup:', error);
+                    popup.setContent('<div class="popup-error">Gagal memuat data</div>');
                 }
             });
             
             busStopLayer.addLayer(marker);
         });
 
-        console.log(`✓ Loaded ${data.features.length} bus stops`);
+        console.log(`Loaded ${data.features.length} bus stops`);
         return busStopLayer;
         
     } catch (error) {
@@ -478,45 +380,27 @@ async function loadBusStops() {
     }
 }
 
-// Initialize bus stop controls
 function initializeBusStopControls() {
     const routeContainer = document.getElementById('route-container');
     if (!routeContainer) return;
 
-    // Control panel
     const busStopControl = document.createElement('div');
     busStopControl.className = 'bus-stop-control mb-3 p-2 border-bottom bg-light rounded';
     busStopControl.innerHTML = `
         <div class="form-check form-switch">
             <input class="form-check-input" type="checkbox" id="bus-stop-toggle" checked>
-            <label class="form-check-label fw-bold" for="bus-stop-toggle" style="font-size: 0.9rem;">
+            <label class="form-check-label fw-bold" for="bus-stop-toggle">
                 <i class="bi bi-geo-alt-fill me-1"></i>Tampilkan Halte Bus
             </label>
         </div>
-        <small class="text-muted d-block mt-1" style="font-size: 0.75rem;">Klik halte untuk melihat rute</small>
+        <small class="text-muted d-block mt-1">Klik halte untuk melihat rute</small>
         
-        <!-- Compact legend -->
-        <div class="bus-stop-legend mt-2" style="font-size: 0.65rem;">
-            <div class="legend-item mb-1">
-                <span class="legend-color" style="background-color: #2ecc71;"></span>
-                Halte
-            </div>
-            <div class="legend-item mb-1">
-                <span class="legend-color" style="background-color: #3498db;"></span>
-                Rambu
-            </div>
-            <div class="legend-item mb-1">
-                <span class="legend-color" style="background-color: #e74c3c;"></span>
-                Totem
-            </div>
-            <div class="legend-item mb-1">
-                <span class="legend-color" style="background-color: #f39c12;"></span>
-                Flag
-            </div>
-            <div class="legend-item mb-1">
-                <span class="legend-color" style="background-color: #95a5a6;"></span>
-                Virtual
-            </div>
+        <div class="bus-stop-legend mt-2">
+            <div class="legend-item"><span class="legend-color" style="background-color: #2ecc71;"></span>Halte</div>
+            <div class="legend-item"><span class="legend-color" style="background-color: #3498db;"></span>Rambu</div>
+            <div class="legend-item"><span class="legend-color" style="background-color: #e74c3c;"></span>Totem</div>
+            <div class="legend-item"><span class="legend-color" style="background-color: #f39c12;"></span>Flag</div>
+            <div class="legend-item"><span class="legend-color" style="background-color: #95a5a6;"></span>Virtual</div>
         </div>
     `;
     
@@ -554,12 +438,13 @@ function initializeBusStopControls() {
     });
 }
 
-// Initialize everything
+// =============== INITIALIZATION ===============
+
 document.addEventListener('DOMContentLoaded', function() {
-    // Set up event delegation once
+    // Set up event delegation
     setupEventDelegation();
     
-    // Wait for map to be initialized
+    // Wait for map
     const checkMap = setInterval(() => {
         if (typeof map !== 'undefined') {
             clearInterval(checkMap);
