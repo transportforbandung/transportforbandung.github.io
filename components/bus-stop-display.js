@@ -177,10 +177,92 @@ async function generateEnhancedPopup(stopProps) {
         return iconMap[category] || iconMap["8_shelter_none_pole_none"];
     };
     
-    // DEBUG: Log what we're working with
-    console.log('Bus stop properties:', stopProps);
-    console.log('Routes for this stop:', routes);
-    console.log('Total routes in cache:', Object.keys(routeData.routeLookup).length);
+    // Function to get facility icon based on value
+    const getFacilityIcon = (value, type) => {
+        let iconSVG, color, text;
+        if (value === 'yes') {
+            color = '#28a745';
+            text = 'Ya';
+            
+            if (type === 'bench') {
+                iconSVG = `<svg width="16" height="16" viewBox="0 0 24 24" fill="#28a745">
+                <path d="M2 15v-2c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1zm16-8H6a2 2 0 0 0-2 2v2h16V9a2 2 0 0 0-2-2zm-2 6H4v2h12v-2z"/>
+                </svg>`;
+            } else if (type === 'bin') {
+                iconSVG = `<svg width="16" height="16" viewBox="0 0 24 24" fill="#28a745">
+                <path d="M3 6h18v2H3V6zm2 2v11a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8H5zm3 2h8v9H8v-9zm8-5V3a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v2H5v2h14V5h-3z"/>
+                </svg>`;
+            } else if (type === 'lit') {
+                iconSVG = `<svg width="16" height="16" viewBox="0 0 24 24" fill="#28a745">
+                <path d="M12 2a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1zm9 9h-1a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2zM4 12a1 1 0 0 1-1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1zm7 7a1 1 0 0 1-1 1h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1zm6.95-2.535a1 1 0 0 1-1.414-1.414l.707-.707a1 1 0 1 1 1.414 1.414l-.707.707zM7.05 7.05a1 1 0 0 1 0-1.414l.707-.707a1 1 0 1 1 1.414 1.414l-.707.707a1 1 0 0 1-1.414 0zM16.95 16.95a1 1 0 0 1-1.414 0l-.707-.707a1 1 0 1 1 1.414-1.414l.707.707a1 1 0 0 1 0 1.414zM5.636 16.95a1 1 0 0 1-1.414-1.414l.707-.707a1 1 0 1 1 1.414 1.414l-.707.707zM12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/>
+                </svg>`;
+            } else {
+                // Default check mark for unknown type
+                iconSVG = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#28a745" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>`;
+            }    
+        } else if (value === 'no') {
+            color = '#dc3545';
+            text = 'Tidak';
+            if (type === 'bench') {
+                iconSVG = `<svg width="16" height="16" viewBox="0 0 24 24" fill="#dc3545">
+                <path d="M2 15v-2c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1zm16-8H6a2 2 0 0 0-2 2v2h16V9a2 2 0 0 0-2-2zm-2 6H4v2h12v-2z" opacity="0.3"/>
+                <line x1="4" y1="4" x2="20" y2="20" stroke="#dc3545" stroke-width="2"/>
+                </svg>`;
+            } else if (type === 'bin') {
+                iconSVG = `<svg width="16" height="16" viewBox="0 0 24 24" fill="#dc3545">
+                <path d="M3 6h18v2H3V6zm2 2v11a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8H5zm3 2h8v9H8v-9zm8-5V3a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v2H5v2h14V5h-3z" opacity="0.3"/>
+                <line x1="4" y1="4" x2="20" y2="20" stroke="#dc3545" stroke-width="2"/>
+                </svg>`;
+            } else if (type === 'lit') {
+                iconSVG = `<svg width="16" height="16" viewBox="0 0 24 24" fill="#dc3545">
+                <path d="M12 2a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1zm9 9h-1a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2zM4 12a1 1 0 0 1-1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1zm7 7a1 1 0 0 1-1 1h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1zm6.95-2.535a1 1 0 0 1-1.414-1.414l.707-.707a1 1 0 1 1 1.414 1.414l-.707.707zM7.05 7.05a1 1 0 0 1 0-1.414l.707-.707a1 1 0 1 1 1.414 1.414l-.707.707a1 1 0 0 1-1.414 0zM16.95 16.95a1 1 0 0 1-1.414 0l-.707-.707a1 1 0 1 1 1.414-1.414l.707.707a1 1 0 0 1 0 1.414zM5.636 16.95a1 1 0 0 1-1.414-1.414l.707-.707a1 1 0 1 1 1.414 1.414l-.707.707zM12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z" opacity="0.3"/>
+                <line x1="4" y1="4" x2="20" y2="20" stroke="#dc3545" stroke-width="2"/>
+                </svg>`;
+            } else {
+                // Default X mark for unknown type
+                iconSVG = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#dc3545" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>`;
+            }      
+        } else {
+            // null, undefined, or unknown
+            color = '#6c757d';
+            text = '?';
+            
+            if (type === 'bench') {
+                iconSVG = `<svg width="16" height="16" viewBox="0 0 24 24" fill="#6c757d" opacity="0.5">
+                <path d="M2 15v-2c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1zm16-8H6a2 2 0 0 0-2 2v2h16V9a2 2 0 0 0-2-2zm-2 6H4v2h12v-2z"/>
+                </svg>`;
+            } else if (type === 'bin') {
+                iconSVG = `<svg width="16" height="16" viewBox="0 0 24 24" fill="#6c757d" opacity="0.5">
+                <path d="M3 6h18v2H3V6zm2 2v11a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8H5zm3 2h8v9H8v-9zm8-5V3a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v2H5v2h14V5h-3z"/>
+                </svg>`;
+            } else if (type === 'lit') {
+                iconSVG = `<svg width="16" height="16" viewBox="0 0 24 24" fill="#6c757d" opacity="0.5">
+                <path d="M12 2a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1zm9 9h-1a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2zM4 12a1 1 0 0 1-1-1v-1a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1zm7 7a1 1 0 0 1-1 1h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1zm6.95-2.535a1 1 0 0 1-1.414-1.414l.707-.707a1 1 0 1 1 1.414 1.414l-.707.707zM7.05 7.05a1 1 0 0 1 0-1.414l.707-.707a1 1 0 1 1 1.414 1.414l-.707.707a1 1 0 0 1-1.414 0zM16.95 16.95a1 1 0 0 1-1.414 0l-.707-.707a1 1 0 1 1 1.414-1.414l.707.707a1 1 0 0 1 0 1.414zM5.636 16.95a1 1 0 0 1-1.414-1.414l.707-.707a1 1 0 1 1 1.414 1.414l-.707.707zM12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/>
+                </svg>`;
+            } else {
+                // Default question mark for unknown type
+                iconSVG = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6c757d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                </svg>`;
+            }
+        }
+        return {
+            icon: iconSVG,
+            color: color,
+            text: text
+        };
+    };
+    // Get facility data
+    const benchData = getFacilityIcon(stopProps.bench, 'bench');
+    const binData = getFacilityIcon(stopProps.bin, 'bin');
+    const litData = getFacilityIcon(stopProps.lit, 'lit');
     
     // Group routes by category while preserving order
     const routesByCategory = {};
@@ -193,17 +275,14 @@ async function generateEnhancedPopup(stopProps) {
         if (routeInfo) {
             // Route found in our data
             const categoryName = routeInfo.categoryName || 'Lainnya';
-            
             if (!routesByCategory[categoryName]) {
                 routesByCategory[categoryName] = [];
             }
-            
             let routeRef = routeInfo.ref || '';
             if (!routeRef && routeInfo.name) {
                 const match = routeInfo.name.match(/^(?:Koridor|Corridor|Rute|Route)?\s*(\w+)/i);
                 routeRef = match ? match[1] : '';
             }
-            
             routesByCategory[categoryName].push({
                 ...routeInfo,
                 relationId,
@@ -229,8 +308,6 @@ async function generateEnhancedPopup(stopProps) {
             });
         }
     });
-    
-    console.log('Routes grouped by category:', routesByCategory);
     
     // Start building the HTML with the new two-column header
     let html = `
@@ -261,11 +338,57 @@ async function generateEnhancedPopup(stopProps) {
                     </div>
                 </div>
                 
-                <!-- Stop info below header -->
-                <div class="stop-info" style="color: #666; font-size: 0.8rem; margin-top: 8px; line-height: 1.3;">
-                    ${stopProps.shelter ? `Shelter: ${stopProps.shelter}<br>` : ''}
-                    ${stopProps.pole ? `Tiang: ${stopProps.pole}<br>` : ''}
-                    Melayani ${routes.length} rute
+                <!-- Facility Information Grid -->
+                <div class="facility-info" style="margin-top: 12px; background: #f8f9fa; border-radius: 8px; padding: 12px;">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                        <!-- First Column (Bench and Bin) -->
+                        <div style="display: flex; flex-direction: column; gap: 8px;">
+                            <!-- Bench -->
+                            <div style="display: flex; align-items: center;">
+                                <span style="font-size: 16px; margin-right: 8px; color: ${benchData.color};">
+                                    ${benchData.icon}
+                                </span>
+                                <span style="font-size: 12px; color: #333;">Bangku</span>
+                                <span style="margin-left: auto; font-size: 11px; color: ${benchData.color};">
+                                    ${benchData.text}
+                                </span>
+                            </div>
+                            
+                            <!-- Bin -->
+                            <div style="display: flex; align-items: center;">
+                                <span style="font-size: 16px; margin-right: 8px; color: ${binData.color};">
+                                    ${binData.icon}
+                                </span>
+                                <span style="font-size: 12px; color: #333;">Tempat Sampah</span>
+                                <span style="margin-left: auto; font-size: 11px; color: ${binData.color};">
+                                    ${binData.text}
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <!-- Second Column (Lighting - spans both rows) -->
+                        <div style="display: flex; align-items: center; justify-content: center;
+                             border-left: 1px solid #e0e0e0; padding-left: 12px;">
+                            <div style="text-align: center;">
+                                <div style="font-size: 20px; color: ${litData.color}; margin-bottom: 4px;">
+                                    ${litData.icon}
+                                </div>
+                                <div style="font-size: 11px; color: #333; margin-bottom: 2px;">
+                                    Penerangan
+                                </div>
+                                <div style="font-size: 10px; color: ${litData.color};">
+                                    ${litData.text}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Route count below facilities -->
+                    <div style="text-align: center; margin-top: 12px; padding-top: 8px; border-top: 1px solid #e0e0e0;">
+                        <span style="font-size: 11px; color: #666;">
+                            Melayani <strong>${routes.length}</strong> rute
+                        </span>
+                    </div>
                 </div>
             </div>
     `;
@@ -286,34 +409,12 @@ async function generateEnhancedPopup(stopProps) {
             return orderA - orderB;
         });
     
-    console.log('Sorted categories:', sortedCategories);
-    
     if (sortedCategories.length > 0) {
         html += `<div class="route-categories" style="max-height: 280px; overflow-y: auto; padding-right: 4px;">`;
         
         // Display categories in the correct order
         sortedCategories.forEach(categoryName => {
             const categoryRoutes = routesByCategory[categoryName];
-            
-            // Sort routes within this category by their original order from routes.json
-            const sortedRoutes = [...categoryRoutes].sort((a, b) => {
-                // Get the position of each route in the original category order
-                const categoryRouteIds = routeData.categoryLookup[categoryName] || [];
-                const indexA = categoryRouteIds.indexOf(a.relationId);
-                const indexB = categoryRouteIds.indexOf(b.relationId);
-                
-                // If both routes are in the category list, sort by that order
-                if (indexA !== -1 && indexB !== -1) {
-                    return indexA - indexB;
-                }
-                
-                // If one is not in the list, put it at the end
-                if (indexA === -1 && indexB !== -1) return 1;
-                if (indexA !== -1 && indexB === -1) return -1;
-                
-                // If neither is in the list, maintain original order
-                return 0;
-            });
             
             html += `
                 <div class="category-group" style="margin-bottom: 16px;">
@@ -324,8 +425,8 @@ async function generateEnhancedPopup(stopProps) {
                     <div class="route-list">
             `;
             
-            // Display routes for this category (now sorted)
-            sortedRoutes.forEach(route => {
+            // Display routes for this category
+            categoryRoutes.forEach(route => {
                 const isActive = isRouteDisplayed(route.relationId);
                 
                 html += `
