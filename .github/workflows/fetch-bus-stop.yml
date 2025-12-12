@@ -8,13 +8,13 @@ on:
 jobs:
   fetch-bus-stops:
     runs-on: ubuntu-latest
-    timeout-minutes: 60  # Allow up to 60 minutes
+    timeout-minutes: 30
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python 3.11
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -26,40 +26,16 @@ jobs:
         env:
           PYTHONUNBUFFERED: 1
         run: |
-          echo "Starting bus stop extraction at $(date)"
-          echo "Using individual node method for accurate route detection"
-          echo "This may take up to 60 minutes due to rate limiting..."
-          
-          # Run with generous timeout
-          timeout 3300 python -u action-scripts/fetch-bus-stop.py 2>&1 | tee extraction.log
-          
-          echo "Extraction completed at $(date)"
-          
-      - name: Save extraction log
-        if: always()
-        run: |
-          mkdir -p logs
-          cp extraction.log logs/extraction_$(date +'%Y%m%d_%H%M%S').log 2>/dev/null || true
-          
-      - name: Check output files
-        run: |
-          echo "Generated files:"
-          ls -la route-data/bus-stop/ || echo "No output directory"
+          echo "Starting bus stop extraction..."
+          echo "This includes ALL platform roles (entry_only, exit_only, etc.)"
+          timeout 1800 python -u action-scripts/fetch-bus-stop.py
           
       - name: Commit and push updates
         if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Add all GeoJSON files
           git add route-data/bus-stop/*.geojson
-          
-          # Check if there are changes
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update bus stop GeoJSONs [$(date +'%Y-%m-%d %H:%M')]"
-            git pull --rebase origin main
-            git push
-          fi
+          git commit -m "Update bus stop GeoJSONs with all platform roles" || echo "No changes"
+          git pull --rebase origin main
+          git push
