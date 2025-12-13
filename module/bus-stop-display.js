@@ -1,4 +1,4 @@
-// components/bus-stop-display.js
+// module/bus-stop-display.js
 let busStopLayer = null;
 let busStopCheckbox = null;
 let routeDataCache = null;
