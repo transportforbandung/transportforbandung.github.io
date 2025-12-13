@@ -22,8 +22,8 @@ function loadComponent(url, elementId, callback) {
     .catch(console.error);
 }
 
-// Load components with enhanced initialization
-loadComponent('/components/header.html', 'header', () => {
+// Load module with enhanced initialization
+loadComponent('/module/header.html', 'header', () => {
   // Re-initialize hamburger after header load
   initializeHamburger();
   
@@ -39,4 +39,4 @@ loadComponent('/components/header.html', 'header', () => {
   });
 });
 
-loadComponent('/components/footer.html', 'footer');
+loadComponent('/module/footer.html', 'footer');
