@@ -4,14 +4,12 @@ let busStopCheckbox = null;
 let routeDataCache = null;
 
 // Updated icon configurations
-const busStopIcons = {
-    L.icon({
-        iconUrl: 'assets/bus-stop-icon/Bus-Stop.svg',
-        iconSize: [18, 18],
-        iconAnchor: [10, 10],
-        className: 'bus-stop-custom-icon'
-    })
-}
+const busStopIcons = L.icon({
+    iconUrl: 'assets/bus-stop-icon/Bus-Stop.svg',
+    iconSize: [18, 18],
+    iconAnchor: [10, 10],
+    className: 'bus-stop-custom-icon'
+});
 
 // Load route data
 async function loadRouteData() {
