@@ -4,10 +4,10 @@ let busStopCheckbox = null;
 let routeDataCache = null;
 
 // Updated icon configurations
-const busStopIcons = L.icon({
+const busStopIcon = L.icon({
     iconUrl: 'assets/bus-stop-icon/Bus-Stop.svg',
     iconSize: [18, 18],
-    iconAnchor: [10, 10],
+    iconAnchor: [9, 9],
     className: 'bus-stop-custom-icon'
 });
 
@@ -462,10 +462,10 @@ async function loadBusStops() {
         data.features.forEach(stop => {
             const coords = stop.geometry.coordinates;
             const props = stop.properties;
-            const category = props.category || "8_shelter_none_pole_none";
             
+            // Use the single icon for all markers
             const marker = L.marker([coords[1], coords[0]], {
-                icon: busStopIcons[category]
+                icon: busStopIcon  // Use the single icon object directly
             });
             
             // Initial loading popup
@@ -489,7 +489,7 @@ async function loadBusStops() {
             busStopLayer.addLayer(marker);
         });
 
-        console.log(`✓ Loaded ${data.features.length} bus stops with correct category ordering`);
+        console.log(`✓ Loaded ${data.features.length} bus stops with single icon`);
         return busStopLayer;
         
     } catch (error) {
