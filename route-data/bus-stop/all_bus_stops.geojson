@@ -16,7 +16,7 @@
         "shelter": "yes",
         "pole": "traffic_sign",
         "lit": null,
-        "bench": null,
+        "bench": "yes",
         "bin": null,
         "routes": [
           4425942,
@@ -739,9 +739,9 @@
         "name": "Pussenif",
         "shelter": "yes",
         "pole": "totem",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           3415464,
           4432470,
@@ -1544,9 +1544,9 @@
         "name": "Seberang Kantor Kelurahan Arjuna",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757704
         ],
@@ -2891,16 +2891,14 @@
         "bench": null,
         "bin": null,
         "routes": [
-          4283719,
           4284600,
           4292372,
           4423238,
           4631469,
           4634057,
-          4643109,
           4648025
         ],
-        "route_count": 8,
+        "route_count": 6,
         "category": "1_shelter_yes_pole_none"
       }
     },
@@ -3337,9 +3335,9 @@
         "name": "UNPAD Dipatiukur",
         "shelter": "yes",
         "pole": "traffic_sign",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4284600,
           4422442,
@@ -3747,7 +3745,7 @@
       "properties": {
         "id": 3376171461,
         "name": "Taman Makam Pahlawan Cikutra",
-        "shelter": "yes",
+        "shelter": "no",
         "pole": "no",
         "lit": "no",
         "bench": "yes",
@@ -3756,7 +3754,7 @@
           4636155
         ],
         "route_count": 1,
-        "category": "1_shelter_yes_pole_none"
+        "category": "8_shelter_none_pole_none"
       }
     },
     {
@@ -3995,9 +3993,9 @@
         "name": "Pasar Kembang Wastukencana",
         "shelter": "yes",
         "pole": "totem",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4294474,
           4636013,
@@ -4251,7 +4249,7 @@
         "pole": "totem",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4291047,
           4422442,
@@ -4354,7 +4352,7 @@
         "name": "PUSDAI B",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -5093,7 +5091,7 @@
         "name": "ITB Ganesha A",
         "shelter": "yes",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
         "bin": "no",
         "routes": [
@@ -5331,8 +5329,8 @@
         "shelter": "no",
         "pole": "no",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4423238,
           4648025,
@@ -7920,7 +7918,7 @@
         "pole": "no",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4291047,
           19664372
@@ -8003,7 +8001,7 @@
         "pole": "traffic_sign",
         "lit": null,
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4308299,
           4420961,
@@ -8328,7 +8326,7 @@
         "shelter": "no",
         "pole": "traffic_sign",
         "lit": "no",
-        "bench": "no",
+        "bench": "yes",
         "bin": "no",
         "routes": [
           4284600,
@@ -8482,7 +8480,7 @@
         "name": "Tamansari (Bonbin)",
         "shelter": "yes",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
         "bin": "no",
         "routes": [
@@ -8898,9 +8896,9 @@
         "name": "Supratman 1",
         "shelter": "yes",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           3415464,
           4432470,
@@ -9551,9 +9549,9 @@
         "name": "Plaza Telkom Rajawali",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4645553,
           4645583,
@@ -9761,7 +9759,7 @@
         "pole": "traffic_sign",
         "lit": "no",
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           14364569
         ],
@@ -9870,7 +9868,7 @@
         "pole": "traffic_sign",
         "lit": "yes",
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4308300,
           4432470,
@@ -9933,9 +9931,9 @@
         "name": "Perintis Kemerdekaan",
         "shelter": "yes",
         "pole": "traffic_sign",
-        "lit": null,
+        "lit": "yes",
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4292372,
           4420961,
@@ -9970,8 +9968,8 @@
         "shelter": "no",
         "pole": "no",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4292372,
           4308299,
@@ -10010,9 +10008,9 @@
         "name": "Riau XL",
         "shelter": "yes",
         "pole": "traffic_sign",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4292372,
           4642502,
@@ -10775,9 +10773,9 @@
         "name": "SMK Negeri 12 Bandung",
         "shelter": "yes",
         "pole": "traffic_sign",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "yes",
+        "bin": "no",
         "routes": [
           4637686,
           4639770,
@@ -11244,9 +11242,9 @@
         "name": "STMIK LIKMI",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4643109
         ],
@@ -11320,7 +11318,7 @@
         "pole": "flag;traffic_sign",
         "lit": null,
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4643109
         ],
@@ -11344,7 +11342,7 @@
         "pole": "totem",
         "lit": null,
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4283719,
           4292372
@@ -11624,7 +11622,7 @@
         "name": "IBCC",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -13077,9 +13075,9 @@
         "name": "Rajawali 1",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4650925,
           16644187,
@@ -13105,9 +13103,9 @@
         "name": "Dunguscariang",
         "shelter": "no",
         "pole": "traffic_sign",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4650925,
           16644187,
@@ -13134,7 +13132,7 @@
         "shelter": "no",
         "pole": "no",
         "lit": null,
-        "bench": null,
+        "bench": "no",
         "bin": null,
         "routes": [
           4648025,
@@ -13162,7 +13160,7 @@
         "shelter": "no",
         "pole": "traffic_sign",
         "lit": null,
-        "bench": null,
+        "bench": "no",
         "bin": null,
         "routes": [
           4648025,
@@ -13189,9 +13187,9 @@
         "name": "GKI Kebonjati",
         "shelter": "yes",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "yes",
+        "bin": "no",
         "routes": [
           4294474,
           4433069,
@@ -13226,9 +13224,9 @@
         "name": "SMA Pasundan",
         "shelter": "no",
         "pole": "traffic_sign",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4294474,
           4433069,
@@ -13598,8 +13596,8 @@
         "shelter": "no",
         "pole": "totem",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4308300,
           4432470,
@@ -14018,9 +14016,9 @@
         "name": "Grand Yogya Kepatihan",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4652511,
           4652571,
@@ -14468,7 +14466,7 @@
         "name": "Unpad Kampus Iwa Koesoemasoemantri",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -16460,7 +16458,7 @@
         "name": "Taman Radio B",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -16485,7 +16483,7 @@
         "name": "Taman Radio A",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "yes",
         "bench": "yes",
         "bin": "no",
         "routes": [
@@ -17563,9 +17561,9 @@
         "name": "Surya Kencana",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4422550,
           4642924
@@ -18097,8 +18095,8 @@
         "shelter": "no",
         "pole": "flag",
         "lit": "yes",
-        "bench": null,
-        "bin": null,
+        "bench": "yes",
+        "bin": "no",
         "routes": [
           4639770,
           4648025,
@@ -20356,9 +20354,9 @@
         "name": "Wastukencana Purnawarman",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4292372,
           4294473,
@@ -21124,7 +21122,7 @@
         "name": "ITB Ganesha B",
         "shelter": "yes",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
         "bin": "no",
         "routes": [
@@ -21149,7 +21147,7 @@
         "name": "Klinik Pratama ITB",
         "shelter": "yes",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
         "bin": "no",
         "routes": [
@@ -21173,7 +21171,7 @@
         "name": "Lapangan Sipil",
         "shelter": "yes",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
         "bin": "no",
         "routes": [
@@ -21198,9 +21196,9 @@
         "name": "GKBI Andir",
         "shelter": "yes",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4294473,
           4425899,
@@ -21691,9 +21689,9 @@
         "name": "Simpang Dipatiukur Hasanudin",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4291189,
           4634057
@@ -21716,9 +21714,9 @@
         "name": "Magister Manajemen UNPAD",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4284600,
           4637686
@@ -22218,9 +22216,9 @@
         "name": "Seberang Telkom Supratman",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4291047,
           4642211,
@@ -22768,7 +22766,7 @@
         "shelter": "no",
         "pole": "flag",
         "lit": "yes",
-        "bench": "no",
+        "bench": "yes",
         "bin": "no",
         "routes": [
           3415464,
@@ -23863,7 +23861,7 @@
         "name": "Rumah Sakit Santosa",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -24437,7 +24435,7 @@
         "pole": "flag",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4291047,
           4648328,
@@ -25000,7 +24998,7 @@
         "shelter": "yes",
         "pole": "traffic_sign",
         "lit": null,
-        "bench": null,
+        "bench": "yes",
         "bin": null,
         "routes": [
           17771075,
@@ -25322,7 +25320,7 @@
         "pole": "totem",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4292372,
           4308299,
@@ -26176,7 +26174,7 @@
         "name": "Gedung Sate",
         "shelter": "no",
         "pole": null,
-        "lit": null,
+        "lit": "yes",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -26250,8 +26248,8 @@
         "shelter": "no",
         "pole": "totem",
         "lit": "no",
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19664371
         ],
@@ -26654,7 +26652,7 @@
         "name": "Seberang Gedung Sate",
         "shelter": "no",
         "pole": null,
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -27535,7 +27533,7 @@
         "name": "SPBU Sesko TNI",
         "shelter": "yes",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
         "bin": "no",
         "routes": [
@@ -27589,7 +27587,7 @@
         "pole": "no",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4291047,
           4422442,
@@ -27847,7 +27845,7 @@
         "name": "Museum Kavaleri",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
         "bin": "no",
         "routes": [
@@ -27923,8 +27921,8 @@
         "shelter": "no",
         "pole": "no",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           16650513,
           19757705
@@ -27947,9 +27945,9 @@
         "name": "Macan - Lodaya 1",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -27971,9 +27969,9 @@
         "name": "Macan - Lodaya 2",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757704
         ],
@@ -28020,9 +28018,9 @@
         "name": "SD Negeri 115 Turangga",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4635390,
           19757705
@@ -28045,9 +28043,9 @@
         "name": "Simpang Turangga-Salak",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           3415464,
           19757704
@@ -28286,9 +28284,9 @@
         "name": "Banteng Dalam - Lodaya 1",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4635390,
           19757705
@@ -28311,9 +28309,9 @@
         "name": "Banteng Dalam - Lodaya 2",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           3415464,
           19757704
@@ -28361,9 +28359,9 @@
         "name": "Pasar Bunga Palasari 2",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           3415464,
           19757704
@@ -28386,9 +28384,9 @@
         "name": "Lapangan Lodaya",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "yes",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -28410,9 +28408,9 @@
         "name": "Seberang Lapangan Lodaya",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757704
         ],
@@ -28540,8 +28538,8 @@
         "shelter": "no",
         "pole": "no",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -28563,9 +28561,9 @@
         "name": "Polsek Sumur Bandung",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -28588,8 +28586,8 @@
         "shelter": "no",
         "pole": "no",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -28611,9 +28609,9 @@
         "name": "SMP Negeri 1 Bandung",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -28635,9 +28633,9 @@
         "name": "Masjid Jami Miftahul Khaer Jalan Bima",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -28659,9 +28657,9 @@
         "name": "Landmark Residence Bima",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "yes",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -28683,9 +28681,9 @@
         "name": "Kantor Kelurahan Arjuna",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -28705,11 +28703,11 @@
       "properties": {
         "id": 13257407256,
         "name": "Seberang Jalan Simpang Industri",
-        "shelter": null,
+        "shelter": "no",
         "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757704
         ],
@@ -28729,11 +28727,11 @@
       "properties": {
         "id": 13257407258,
         "name": "Jalan Simpang Industri",
-        "shelter": null,
+        "shelter": "no",
         "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4423238,
           19757705
@@ -28754,7 +28752,7 @@
       "properties": {
         "id": 13257407260,
         "name": "Alun-alun Cicendo 2",
-        "shelter": null,
+        "shelter": "no",
         "pole": null,
         "lit": null,
         "bench": null,
@@ -28778,10 +28776,10 @@
       "properties": {
         "id": 13257407262,
         "name": "Alun-alun Cicendo1",
-        "shelter": null,
+        "shelter": "no",
         "pole": null,
         "lit": null,
-        "bench": null,
+        "bench": "no",
         "bin": null,
         "routes": [
           4423238,
@@ -28805,9 +28803,9 @@
         "name": "Seberang Gang 5 Ciroyom",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4291189,
           16644124,
@@ -28832,9 +28830,9 @@
         "name": "Gang 5 Ciroyom",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -28856,9 +28854,9 @@
         "name": "Simpang Andir - Ciroyom 1",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "yes",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -28881,8 +28879,8 @@
         "shelter": "no",
         "pole": "no",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4291189,
           4423238,
@@ -28909,8 +28907,8 @@
         "shelter": "no",
         "pole": "no",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -28933,8 +28931,8 @@
         "shelter": "no",
         "pole": "no",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4291189,
           4423238,
@@ -28960,9 +28958,9 @@
         "name": "Stasiun Andir 1",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "yes",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -29012,9 +29010,9 @@
         "name": "Simpang Garuda - Dadali",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4645553,
           4646137,
@@ -29040,9 +29038,9 @@
         "name": "Seberang Puskesmas Garuda",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "yes",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           16650512,
           19757705
@@ -29065,9 +29063,9 @@
         "name": "Simpang Dadali - Flamingo",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           16650512,
           19757705
@@ -29090,9 +29088,9 @@
         "name": "Institut Kesehatan Rajawali",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           16650512,
           19757705
@@ -29143,9 +29141,9 @@
         "name": "Istana Plaza Pajajaran",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4639770,
           4816517,
@@ -29171,8 +29169,8 @@
         "shelter": "no",
         "pole": "no",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757704
         ],
@@ -29195,8 +29193,8 @@
         "shelter": "no",
         "pole": "no",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757704
         ],
@@ -29218,9 +29216,9 @@
         "name": "H. Mesri - H. Moh. Iskat",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "yes",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757704
         ],
@@ -29242,9 +29240,9 @@
         "name": "Simpang H. Mesri - Kebon Kawung 2",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "yes",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757704
         ],
@@ -29266,9 +29264,9 @@
         "name": "Gedong Sembilan - Pasir Kaliki",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4294474,
           4433069,
@@ -29382,9 +29380,9 @@
         "name": "Kantor Kelurahan Balong Gede",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "yes",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757704
         ],
@@ -29406,9 +29404,9 @@
         "name": "Samping SMP Negeri 43 Bandung",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "yes",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757704
         ],
@@ -29430,9 +29428,9 @@
         "name": "Sekolah Assalaam",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757704
         ],
@@ -29479,8 +29477,8 @@
         "shelter": "no",
         "pole": "no",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757704
         ],
@@ -29503,8 +29501,8 @@
         "shelter": "no",
         "pole": "no",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4652571,
           16650513,
@@ -29529,9 +29527,9 @@
         "name": "Cikawao - Melong Kaler",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4652571,
           16650513,
@@ -29556,9 +29554,9 @@
         "name": "Simpang Cikawao - Karapitan",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "yes",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4652571,
           16650513,
@@ -29581,11 +29579,11 @@
       "properties": {
         "id": 13277620689,
         "name": "Sadakeling - Wiradisastra",
-        "shelter": null,
+        "shelter": "no",
         "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           16650513
         ],
@@ -29633,7 +29631,7 @@
         "pole": "traffic_sign",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4645553,
           4646137,
@@ -29935,6 +29933,31 @@
         "routes": [],
         "route_count": 0,
         "category": "2_shelter_none_pole_sign"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6263476,
+          -6.8652249
+        ]
+      },
+      "properties": {
+        "id": 13373645676,
+        "name": "Resor Dago Pakar",
+        "shelter": "no",
+        "pole": null,
+        "lit": "no",
+        "bench": null,
+        "bin": null,
+        "routes": [
+          4283719,
+          4643109
+        ],
+        "route_count": 2,
+        "category": "8_shelter_none_pole_none"
       }
     }
   ]
