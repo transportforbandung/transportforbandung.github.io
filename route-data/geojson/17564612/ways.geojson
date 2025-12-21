@@ -725,7 +725,8 @@
         "name": "Jalan Cikapayang",
         "oneway": "yes",
         "sidewalk:left": "separate",
-        "sidewalk:right": "no"
+        "sidewalk:right": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -1034,7 +1035,7 @@
       },
       "properties": {
         "id": 318760046,
-        "highway": "primary",
+        "highway": "trunk_link",
         "lanes": "2",
         "oneway": "yes",
         "surface": "asphalt"
@@ -1762,7 +1763,7 @@
         "bicycle": "yes",
         "bridge": "yes",
         "foot": "no",
-        "highway": "primary",
+        "highway": "trunk_link",
         "lanes": "2",
         "layer": "1",
         "oneway": "yes",
@@ -2503,7 +2504,7 @@
         "id": 1219894132,
         "bicycle": "yes",
         "foot": "no",
-        "highway": "primary",
+        "highway": "trunk_link",
         "lanes": "2",
         "oneway": "yes",
         "ramp": "yes",

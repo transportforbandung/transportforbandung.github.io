@@ -429,6 +429,7 @@
       "properties": {
         "id": 43542314,
         "avgspeed": "30",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Dayeuhkolot",
@@ -935,6 +936,7 @@
       "properties": {
         "id": 43542697,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Bojongsoang",
@@ -1024,6 +1026,7 @@
       "properties": {
         "id": 172898301,
         "alt_name": "Jalan Kopo",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
@@ -1230,6 +1233,7 @@
       "properties": {
         "id": 271685672,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -1646,62 +1650,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            107.5910269,
-            -6.9435481
-          ],
-          [
-            107.5910603,
-            -6.9434929
-          ],
-          [
-            107.5910903,
-            -6.9434463
-          ],
-          [
-            107.5911028,
-            -6.9434233
-          ],
-          [
-            107.5911203,
-            -6.9433931
-          ],
-          [
-            107.5912147,
-            -6.9432302
-          ],
-          [
-            107.591257,
-            -6.9431573
-          ],
-          [
-            107.5913003,
-            -6.9430856
-          ],
-          [
-            107.5913435,
-            -6.9430138
-          ],
-          [
-            107.5914686,
-            -6.9428144
-          ],
-          [
-            107.5916513,
-            -6.9425217
-          ],
-          [
-            107.5918451,
-            -6.942203
-          ],
-          [
-            107.5918647,
-            -6.9421708
-          ],
-          [
-            107.59192,
-            -6.9420837
-          ],
           [
             107.5920724,
             -6.9418438
@@ -2560,70 +2508,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.633615,
-            -6.9828912
-          ],
-          [
-            107.633572,
-            -6.9830355
-          ],
-          [
-            107.6335615,
-            -6.9830663
-          ],
-          [
-            107.6335302,
-            -6.9831657
-          ],
-          [
-            107.6335161,
-            -6.9832054
-          ],
-          [
-            107.6334542,
-            -6.9834001
-          ],
-          [
-            107.6334443,
-            -6.9834337
-          ],
-          [
-            107.6333645,
-            -6.9836962
-          ],
-          [
-            107.633295,
-            -6.9839307
-          ],
-          [
-            107.63319,
-            -6.9842659
-          ],
-          [
-            107.6331142,
-            -6.9845196
-          ],
-          [
-            107.6330944,
-            -6.984586
-          ],
-          [
-            107.6330745,
-            -6.9846524
-          ],
-          [
-            107.6329877,
-            -6.9849885
-          ],
-          [
-            107.6329841,
-            -6.98501
-          ],
-          [
-            107.632947,
-            -6.985235
-          ],
-          [
             107.6328922,
             -6.9855671
           ],
@@ -2680,6 +2564,7 @@
       "properties": {
         "id": 385695765,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -4866,6 +4751,7 @@
       "properties": {
         "id": 1079416048,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -5206,6 +5092,7 @@
         "id": 1197261993,
         "destination": "Leuwipanjang;Cibaduyut;Mohammad Toha;Cibiru",
         "destination:ref": "11",
+        "flood_prone": "yes",
         "highway": "trunk_link",
         "lanes": "1",
         "oneway": "yes",
@@ -5670,6 +5557,7 @@
       "properties": {
         "id": 1226049786,
         "alt_name": "Jalan Kopo",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
@@ -6089,6 +5977,7 @@
       "properties": {
         "id": 1363887648,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Bojongsoang",
@@ -6194,6 +6083,7 @@
       "properties": {
         "id": 1429019089,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -6220,6 +6110,7 @@
       "properties": {
         "id": 1429019090,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -6246,6 +6137,7 @@
       "properties": {
         "id": 1429019091,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -6276,6 +6168,7 @@
       "properties": {
         "id": 1429019092,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -6302,6 +6195,7 @@
       "properties": {
         "id": 1429019093,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -6328,6 +6222,7 @@
       "properties": {
         "id": 1429019094,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -6354,6 +6249,7 @@
       "properties": {
         "id": 1429019095,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -6384,6 +6280,7 @@
       "properties": {
         "id": 1429019096,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -7073,6 +6970,170 @@
         "name": "Jalan Mohammad Toha",
         "ref": "161",
         "reg_ref": "22-00-161-11K",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.633615,
+            -6.9828912
+          ],
+          [
+            107.633572,
+            -6.9830355
+          ],
+          [
+            107.6335615,
+            -6.9830663
+          ],
+          [
+            107.6335302,
+            -6.9831657
+          ],
+          [
+            107.6335161,
+            -6.9832054
+          ],
+          [
+            107.6334542,
+            -6.9834001
+          ],
+          [
+            107.6334443,
+            -6.9834337
+          ],
+          [
+            107.6333645,
+            -6.9836962
+          ],
+          [
+            107.633295,
+            -6.9839307
+          ],
+          [
+            107.63319,
+            -6.9842659
+          ],
+          [
+            107.6331142,
+            -6.9845196
+          ],
+          [
+            107.6330944,
+            -6.984586
+          ],
+          [
+            107.6330745,
+            -6.9846524
+          ],
+          [
+            107.6329877,
+            -6.9849885
+          ],
+          [
+            107.6329841,
+            -6.98501
+          ],
+          [
+            107.632947,
+            -6.985235
+          ],
+          [
+            107.6328922,
+            -6.9855671
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1459642132,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "ref": "365",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5910269,
+            -6.9435481
+          ],
+          [
+            107.5910603,
+            -6.9434929
+          ],
+          [
+            107.5910903,
+            -6.9434463
+          ],
+          [
+            107.5911028,
+            -6.9434233
+          ],
+          [
+            107.5911203,
+            -6.9433931
+          ],
+          [
+            107.5912147,
+            -6.9432302
+          ],
+          [
+            107.591257,
+            -6.9431573
+          ],
+          [
+            107.5913003,
+            -6.9430856
+          ],
+          [
+            107.5913435,
+            -6.9430138
+          ],
+          [
+            107.5914686,
+            -6.9428144
+          ],
+          [
+            107.5916513,
+            -6.9425217
+          ],
+          [
+            107.5918451,
+            -6.942203
+          ],
+          [
+            107.5918647,
+            -6.9421708
+          ],
+          [
+            107.59192,
+            -6.9420837
+          ],
+          [
+            107.5920724,
+            -6.9418438
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1459643277,
+        "alt_name": "Jalan Kopo",
+        "flood_prone": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kyai Haji Wahid Hasyim",
+        "ref": "106",
+        "reg_ref": "22-00-106-11K",
         "surface": "asphalt"
       }
     }

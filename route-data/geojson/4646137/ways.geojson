@@ -140,8 +140,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5758021,
-            -6.913142
+            107.5761151,
+            -6.9132715
           ],
           [
             107.5762053,
@@ -194,6 +194,14 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5791589,
+            -6.9077932
+          ],
+          [
+            107.579252,
+            -6.9076696
+          ],
+          [
             107.5793292,
             -6.9075821
           ],
@@ -202,8 +210,8 @@
             -6.907539
           ],
           [
-            107.5794813,
-            -6.9074864
+            107.57948,
+            -6.9074824
           ],
           [
             107.5796359,
@@ -225,7 +233,7 @@
         "highway": "trunk",
         "lanes": "1",
         "name": "Jalan Abdul Rahman Saleh",
-        "oneway": "no"
+        "oneway": "yes"
       }
     },
     {
@@ -358,7 +366,7 @@
       "properties": {
         "id": 4625948,
         "avgspeed": "15",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "name": "Jalan Bojong Raya"
       }
     },
@@ -450,6 +458,10 @@
           [
             107.5717224,
             -6.9334437
+          ],
+          [
+            107.5717469,
+            -6.9333599
           ],
           [
             107.5718157,
@@ -652,10 +664,12 @@
         "id": 4627204,
         "avgspeed": "20",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "secondary",
         "horse": "yes",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Tubagus Ismail",
         "oneway": "no",
         "surface": "asphalt"
@@ -782,6 +796,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "tertiary",
+        "lanes": "2",
         "name": "Jalan Ganesha",
         "oneway": "no",
         "sidewalk": "separate",
@@ -938,6 +953,10 @@
           [
             107.5733789,
             -6.9295643
+          ],
+          [
+            107.5733905,
+            -6.9295398
           ],
           [
             107.5735126,
@@ -1159,20 +1178,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5784294,
-            -6.909994
+            107.578386,
+            -6.9101772
           ],
           [
-            107.5784346,
-            -6.909841
+            107.5784154,
+            -6.9098377
           ],
           [
-            107.5784418,
-            -6.9096942
+            107.5784326,
+            -6.9096934
           ],
           [
-            107.5784569,
-            -6.9095962
+            107.5784528,
+            -6.9095942
           ],
           [
             107.5785409,
@@ -1203,16 +1222,20 @@
             -6.9082774
           ],
           [
-            107.5788714,
-            -6.9082307
+            107.5788535,
+            -6.9082567
           ],
           [
-            107.5789399,
-            -6.9081286
+            107.5788808,
+            -6.9082127
           ],
           [
-            107.579026,
-            -6.9080004
+            107.5789386,
+            -6.9081253
+          ],
+          [
+            107.5790233,
+            -6.9079984
           ]
         ]
       },
@@ -1338,10 +1361,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            107.5784294,
-            -6.909994
-          ],
           [
             107.578386,
             -6.9101772
@@ -2607,12 +2626,15 @@
         "id": 318756518,
         "avgspeed": "20",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "secondary",
         "horse": "yes",
         "lanes": "2",
+        "lit": "yes",
         "name": "Jalan Tubagus Ismail",
         "oneway": "no",
+        "sidewalk": "no",
         "surface": "asphalt",
         "width": "6"
       }
@@ -2686,13 +2708,15 @@
       },
       "properties": {
         "id": 321030145,
+        "alt_name": "Jalan Wastukencana",
         "bicycle": "yes",
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
         "smoothness": "intermediate",
         "source": "S2City_POI_2022",
@@ -3519,38 +3543,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5791589,
-            -6.9077932
-          ],
-          [
-            107.579252,
-            -6.9076696
-          ],
-          [
-            107.579312,
-            -6.9075997
-          ],
-          [
-            107.5793292,
-            -6.9075821
-          ]
-        ]
-      },
-      "properties": {
-        "id": 705026977,
-        "avgspeed": "30",
-        "highway": "trunk",
-        "lanes": "1",
-        "name": "Jalan Abdul Rahman Saleh",
-        "oneway": "no"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5959262,
             -6.9065893
           ],
@@ -4213,6 +4205,7 @@
       },
       "properties": {
         "id": 1113178484,
+        "alt_name": "Jalan Wastukencana",
         "avgspeed": "25",
         "bicycle": "yes",
         "cycleway:left": "lane",
@@ -4221,7 +4214,8 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "4",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -4251,13 +4245,15 @@
       },
       "properties": {
         "id": 1113178486,
+        "alt_name": "Jalan Wastukencana",
         "bicycle": "yes",
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
         "smoothness": "intermediate",
         "source": "S2City_POI_2022",
@@ -4411,6 +4407,7 @@
       },
       "properties": {
         "id": 1160465561,
+        "alt_name": "Jalan Wastukencana",
         "bridge": "yes",
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
@@ -4418,7 +4415,8 @@
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -5122,13 +5120,15 @@
       },
       "properties": {
         "id": 1227244444,
+        "alt_name": "Jalan Wastukencana",
         "bicycle": "yes",
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
         "smoothness": "intermediate",
         "source": "S2City_POI_2022",
@@ -5165,13 +5165,15 @@
       },
       "properties": {
         "id": 1227244445,
+        "alt_name": "Jalan Wastukencana",
         "bicycle": "yes",
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
         "sidewalk": "separate",
         "smoothness": "intermediate",
@@ -5235,13 +5237,15 @@
       },
       "properties": {
         "id": 1240055291,
+        "alt_name": "Jalan Wastukencana",
         "bicycle": "yes",
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
         "smoothness": "intermediate",
         "source": "S2City_POI_2022",
@@ -5274,13 +5278,15 @@
       },
       "properties": {
         "id": 1240055292,
+        "alt_name": "Jalan Wastukencana",
         "bicycle": "yes",
         "cycleway:left": "lane",
         "cycleway:left:lane": "exclusive",
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
         "smoothness": "intermediate",
         "source": "S2City_POI_2022",
@@ -5410,6 +5416,10 @@
             -6.8944755
           ],
           [
+            107.6085446,
+            -6.8944122
+          ],
+          [
             107.6085108,
             -6.8943345
           ],
@@ -5456,16 +5466,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.579026,
-            -6.9080004
+            107.5790233,
+            -6.9079984
           ],
           [
-            107.5790802,
-            -6.9079292
+            107.5790728,
+            -6.9079241
           ],
           [
-            107.5790978,
-            -6.9079012
+            107.579091,
+            -6.9078972
           ],
           [
             107.5791589,
@@ -6228,12 +6238,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5807383,
-            -6.9074945
-          ],
-          [
-            107.5809589,
-            -6.9075309
+            107.5807734,
+            -6.9075016
           ],
           [
             107.581144,
@@ -6413,12 +6419,8 @@
             -6.9074023
           ],
           [
-            107.58054,
-            -6.9074617
-          ],
-          [
-            107.5807383,
-            -6.9074945
+            107.5802185,
+            -6.9074123
           ]
         ]
       },
@@ -6428,7 +6430,57 @@
         "highway": "trunk",
         "lanes": "1",
         "name": "Jalan Abdul Rahman Saleh",
-        "oneway": "no"
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5758021,
+            -6.913142
+          ],
+          [
+            107.5761151,
+            -6.9132715
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1447411891,
+        "avgspeed": "30",
+        "destination:lanes": "Garuda;Pajajaran;Husein Sastranegara;Pasir Kaliki|Rajawali;Ciroyom;Kebonjati;Gardujati|Sudirman;Suryani;Jamika;Holis",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Rajawali Timur",
+        "oneway": "yes",
+        "turn:lanes": "left|through|through;right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5802185,
+            -6.9074123
+          ],
+          [
+            107.5807734,
+            -6.9075016
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1453988139,
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "1",
+        "name": "Jalan Abdul Rahman Saleh",
+        "oneway": "yes"
       }
     }
   ]

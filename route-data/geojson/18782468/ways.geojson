@@ -318,8 +318,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5758021,
-            -6.913142
+            107.5761151,
+            -6.9132715
           ],
           [
             107.5762053,
@@ -372,6 +372,14 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5791589,
+            -6.9077932
+          ],
+          [
+            107.579252,
+            -6.9076696
+          ],
+          [
             107.5793292,
             -6.9075821
           ],
@@ -380,8 +388,8 @@
             -6.907539
           ],
           [
-            107.5794813,
-            -6.9074864
+            107.57948,
+            -6.9074824
           ],
           [
             107.5796359,
@@ -403,7 +411,7 @@
         "highway": "trunk",
         "lanes": "1",
         "name": "Jalan Abdul Rahman Saleh",
-        "oneway": "no"
+        "oneway": "yes"
       }
     },
     {
@@ -657,20 +665,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5784294,
-            -6.909994
+            107.578386,
+            -6.9101772
           ],
           [
-            107.5784346,
-            -6.909841
+            107.5784154,
+            -6.9098377
           ],
           [
-            107.5784418,
-            -6.9096942
+            107.5784326,
+            -6.9096934
           ],
           [
-            107.5784569,
-            -6.9095962
+            107.5784528,
+            -6.9095942
           ],
           [
             107.5785409,
@@ -701,16 +709,20 @@
             -6.9082774
           ],
           [
-            107.5788714,
-            -6.9082307
+            107.5788535,
+            -6.9082567
           ],
           [
-            107.5789399,
-            -6.9081286
+            107.5788808,
+            -6.9082127
           ],
           [
-            107.579026,
-            -6.9080004
+            107.5789386,
+            -6.9081253
+          ],
+          [
+            107.5790233,
+            -6.9079984
           ]
         ]
       },
@@ -838,10 +850,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            107.5784294,
-            -6.909994
-          ],
           [
             107.578386,
             -6.9101772
@@ -2547,38 +2555,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5791589,
-            -6.9077932
-          ],
-          [
-            107.579252,
-            -6.9076696
-          ],
-          [
-            107.579312,
-            -6.9075997
-          ],
-          [
-            107.5793292,
-            -6.9075821
-          ]
-        ]
-      },
-      "properties": {
-        "id": 705026977,
-        "avgspeed": "30",
-        "highway": "trunk",
-        "lanes": "1",
-        "name": "Jalan Abdul Rahman Saleh",
-        "oneway": "no"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6039561,
             -6.9125447
           ],
@@ -2724,6 +2700,7 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "1",
+        "lit": "yes",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
         "oneway": "yes",
@@ -3805,16 +3782,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.579026,
-            -6.9080004
+            107.5790233,
+            -6.9079984
           ],
           [
-            107.5790802,
-            -6.9079292
+            107.5790728,
+            -6.9079241
           ],
           [
-            107.5790978,
-            -6.9079012
+            107.579091,
+            -6.9078972
           ],
           [
             107.5791589,
@@ -4048,12 +4025,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5807383,
-            -6.9074945
-          ],
-          [
-            107.5809589,
-            -6.9075309
+            107.5807734,
+            -6.9075016
           ],
           [
             107.581144,
@@ -4564,12 +4537,8 @@
             -6.9074023
           ],
           [
-            107.58054,
-            -6.9074617
-          ],
-          [
-            107.5807383,
-            -6.9074945
+            107.5802185,
+            -6.9074123
           ]
         ]
       },
@@ -4579,7 +4548,57 @@
         "highway": "trunk",
         "lanes": "1",
         "name": "Jalan Abdul Rahman Saleh",
-        "oneway": "no"
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5758021,
+            -6.913142
+          ],
+          [
+            107.5761151,
+            -6.9132715
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1447411891,
+        "avgspeed": "30",
+        "destination:lanes": "Garuda;Pajajaran;Husein Sastranegara;Pasir Kaliki|Rajawali;Ciroyom;Kebonjati;Gardujati|Sudirman;Suryani;Jamika;Holis",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Rajawali Timur",
+        "oneway": "yes",
+        "turn:lanes": "left|through|through;right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5802185,
+            -6.9074123
+          ],
+          [
+            107.5807734,
+            -6.9075016
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1453988139,
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "1",
+        "name": "Jalan Abdul Rahman Saleh",
+        "oneway": "yes"
       }
     }
   ]

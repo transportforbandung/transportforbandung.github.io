@@ -615,8 +615,6 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "yes",
-        "sidewalk:left": "no",
-        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -691,7 +689,7 @@
             -6.9046989
           ],
           [
-            107.6721791,
+            107.6721798,
             -6.9046133
           ],
           [
@@ -752,7 +750,10 @@
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
         "oneway": "no",
-        "turn:lanes:backward": "through|through;right"
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes:backward": "through|through;right",
+        "width": "8"
       }
     },
     {
@@ -1018,8 +1019,16 @@
             -6.9159661
           ],
           [
+            107.6992037,
+            -6.9162662
+          ],
+          [
             107.6991677,
             -6.9164339
+          ],
+          [
+            107.6990546,
+            -6.9167403
           ],
           [
             107.6990476,
@@ -1576,6 +1585,10 @@
             -6.9041035
           ],
           [
+            107.6659777,
+            -6.9040789
+          ],
+          [
             107.6656526,
             -6.9040466
           ],
@@ -2018,12 +2031,32 @@
             -6.9024754
           ],
           [
-            107.6604983,
-            -6.9023866
+            107.6604879,
+            -6.9023953
           ],
           [
-            107.6603932,
-            -6.9023222
+            107.6604098,
+            -6.9023387
+          ],
+          [
+            107.6603407,
+            -6.9023021
+          ],
+          [
+            107.6602817,
+            -6.9022811
+          ],
+          [
+            107.6602364,
+            -6.9022721
+          ],
+          [
+            107.6602053,
+            -6.9022701
+          ],
+          [
+            107.6598571,
+            -6.902257
           ]
         ]
       },
@@ -2139,14 +2172,6 @@
           [
             107.6596886,
             -6.902217
-          ],
-          [
-            107.6601196,
-            -6.902237
-          ],
-          [
-            107.6602541,
-            -6.9022498
           ]
         ]
       },
@@ -2421,12 +2446,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6602541,
-            -6.9022498
+            107.6596886,
+            -6.902217
           ],
           [
-            107.6603932,
-            -6.9023222
+            107.6597252,
+            -6.9022186
+          ],
+          [
+            107.6598571,
+            -6.902257
           ]
         ]
       },
@@ -2588,6 +2617,10 @@
             -6.9145754
           ],
           [
+            107.6993862,
+            -6.9150935
+          ],
+          [
             107.699386,
             -6.9151259
           ],
@@ -2642,6 +2675,10 @@
           [
             107.6985267,
             -6.9140727
+          ],
+          [
+            107.698183,
+            -6.9140629
           ],
           [
             107.6981324,
@@ -2717,8 +2754,8 @@
             -6.9042263
           ],
           [
-            107.6694947,
-            -6.9042219
+            107.6695292,
+            -6.9042216
           ],
           [
             107.6694301,
@@ -2772,7 +2809,10 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
-        "oneway": "no"
+        "oneway": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "8"
       }
     },
     {
@@ -2789,8 +2829,8 @@
             -6.9047612
           ],
           [
-            107.6767845,
-            -6.904759
+            107.6767644,
+            -6.904761
           ],
           [
             107.6766915,
@@ -2844,7 +2884,10 @@
         "lanes:forward": "2",
         "name": "Jalan Abdul Haris Nasution",
         "oneway": "no",
-        "turn:lanes:backward": "left;through|through"
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left;through|through",
+        "width": "8"
       }
     },
     {
@@ -2984,8 +3027,11 @@
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
         "oneway": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
         "turn:lanes:backward": "left;through|through",
-        "turn:lanes:forward": "through|through;right"
+        "turn:lanes:forward": "through|through;right",
+        "width": "8"
       }
     },
     {

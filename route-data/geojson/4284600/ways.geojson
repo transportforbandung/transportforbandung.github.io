@@ -498,6 +498,8 @@
       "properties": {
         "id": 153812752,
         "highway": "unclassified",
+        "name": "Jalan Riung Arum",
+        "name:en": "Riung Arum Way",
         "surface": "asphalt"
       }
     },
@@ -519,6 +521,8 @@
       "properties": {
         "id": 153812753,
         "highway": "unclassified",
+        "name": "Jalan Riung Tineung",
+        "name:en": "Riung Tineung Way",
         "surface": "asphalt"
       }
     },
@@ -541,6 +545,7 @@
         "id": 153812830,
         "highway": "unclassified",
         "name": "Jalan Riung Mungpulung Raya",
+        "name:en": "Main Riung Mungpulung Street",
         "oneway": "yes"
       }
     },
@@ -1581,8 +1586,6 @@
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "oneway": "yes",
-        "sidewalk:left": "no",
-        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1783,6 +1786,7 @@
       "properties": {
         "id": 318481950,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "destination:lanes": "Cikutra;Cicaheum;Ujungberung|Cikutra;Cicaheum;Ujungberung|Antapani;Kiaracondong;Binong;Samsat|Antapani;Kiaracondong;Binong;Samsat",
         "highway": "primary",
         "lanes": "4",
@@ -1938,6 +1942,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "right|right"
       }
     },
@@ -2777,6 +2782,7 @@
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "no",
+        "parking:both": "no",
         "ref": "378",
         "surface": "asphalt"
       }
@@ -3618,6 +3624,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "378",
         "surface": "asphalt"
       }
@@ -3995,20 +4002,20 @@
             -6.9241129
           ],
           [
-            107.6444939,
-            -6.9242146
+            107.6444912,
+            -6.9241923
           ],
           [
-            107.6444957,
-            -6.9242712
+            107.6444934,
+            -6.9242551
           ],
           [
-            107.6444977,
-            -6.9243167
+            107.6444962,
+            -6.9243006
           ],
           [
             107.6444992,
-            -6.9243614
+            -6.9243583
           ],
           [
             107.6445077,
@@ -6386,111 +6393,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.682605,
-            -6.9435781
-          ],
-          [
-            107.6828611,
-            -6.9435796
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1385116122,
-        "highway": "unclassified",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6823032,
-            -6.9436031
-          ],
-          [
-            107.682605,
-            -6.9435781
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1385116123,
-        "highway": "unclassified",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6819663,
-            -6.9436312
-          ],
-          [
-            107.6823032,
-            -6.9436031
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1385116124,
-        "highway": "unclassified",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6828611,
-            -6.9435796
-          ],
-          [
-            107.6830616,
-            -6.943586
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1385116125,
-        "highway": "unclassified",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6830616,
-            -6.943586
-          ],
-          [
-            107.683135,
-            -6.9435874
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1385116126,
-        "highway": "unclassified",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6206511,
             -6.8680596
           ],
@@ -6902,6 +6804,121 @@
         "ref": "381",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.682605,
+            -6.9435781
+          ],
+          [
+            107.6828611,
+            -6.9435796
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1453998719,
+        "highway": "unclassified",
+        "name": "Jalan Riung Tineung",
+        "name:en": "Riung Tineung Way",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6823032,
+            -6.9436031
+          ],
+          [
+            107.682605,
+            -6.9435781
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1453998720,
+        "highway": "unclassified",
+        "name": "Jalan Riung Tineung",
+        "name:en": "Riung Tineung Way",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6819663,
+            -6.9436312
+          ],
+          [
+            107.6823032,
+            -6.9436031
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1453998721,
+        "highway": "unclassified",
+        "name": "Jalan Riung Tineung",
+        "name:en": "Riung Tineung Way",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6828611,
+            -6.9435796
+          ],
+          [
+            107.6830616,
+            -6.943586
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1453998722,
+        "highway": "unclassified",
+        "name": "Jalan Riung Tineung",
+        "name:en": "Riung Tineung Way",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6830616,
+            -6.943586
+          ],
+          [
+            107.683135,
+            -6.9435874
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1453998723,
+        "highway": "unclassified",
+        "name": "Jalan Riung Tineung",
+        "name:en": "Riung Tineung Way",
         "surface": "asphalt"
       }
     }

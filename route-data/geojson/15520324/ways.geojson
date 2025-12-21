@@ -1085,6 +1085,7 @@
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "no",
+        "parking:both": "no",
         "ref": "378",
         "surface": "asphalt"
       }
@@ -1688,6 +1689,7 @@
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "378",
         "surface": "asphalt",
         "turn:lanes": "slight_left;through|through|right"
@@ -3418,12 +3420,16 @@
             -6.9184012
           ],
           [
-            107.6249188,
-            -6.9184878
+            107.6250224,
+            -6.9184288
           ],
           [
-            107.6248712,
-            -6.9185141
+            107.62493,
+            -6.9184772
+          ],
+          [
+            107.6248913,
+            -6.9185008
           ],
           [
             107.6247558,
@@ -3576,8 +3582,8 @@
             -6.921819
           ],
           [
-            107.6126724,
-            -6.9218128
+            107.6126979,
+            -6.9218155
           ],
           [
             107.6124953,

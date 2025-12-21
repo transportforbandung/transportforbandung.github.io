@@ -429,6 +429,7 @@
       "properties": {
         "id": 43542314,
         "avgspeed": "30",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Dayeuhkolot",
@@ -886,6 +887,7 @@
         "name": "Jalan Raya Banjaran - Pangalengan",
         "oneway": "no",
         "ref": "162",
+        "sidewalk": "both",
         "source": "GPS",
         "surface": "asphalt"
       }
@@ -1473,9 +1475,11 @@
         "foot": "yes",
         "highway": "primary",
         "horse": "yes",
+        "lane_markings": "no",
         "name": "Jalan Raya Banjaran - Pangalengan",
         "oneway": "no",
         "ref": "162",
+        "sidewalk": "no",
         "source": "Yahoo hires",
         "surface": "asphalt"
       }
@@ -2195,6 +2199,7 @@
         "motorcycle": "yes",
         "name": "Jalan Raya Banjaran - Pangalengan",
         "ref": "162",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -3237,6 +3242,7 @@
         "name": "Jalan Raya Banjaran - Pangalengan",
         "oneway": "no",
         "ref": "162",
+        "sidewalk": "no",
         "source": "Yahoo hires",
         "surface": "asphalt"
       }
@@ -5795,6 +5801,7 @@
       "properties": {
         "id": 385695770,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Raya Bandung - Banjaran",
@@ -6077,6 +6084,7 @@
       "properties": {
         "id": 570115121,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Raya Bandung - Banjaran",
@@ -6190,6 +6198,7 @@
       "properties": {
         "id": 570115123,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Raya Dayeuhkolot",
@@ -8096,6 +8105,7 @@
         "name": "Jalan Raya Banjaran - Pangalengan",
         "oneway": "no",
         "ref": "162",
+        "sidewalk": "both",
         "source": "GPS",
         "surface": "asphalt",
         "width": "6"
@@ -8848,9 +8858,11 @@
         "foot": "yes",
         "highway": "primary",
         "horse": "yes",
+        "lane_markings": "no",
         "name": "Jalan Raya Banjaran - Pangalengan",
         "oneway": "no",
         "ref": "162",
+        "sidewalk": "left",
         "source": "Yahoo hires",
         "surface": "asphalt"
       }
@@ -9218,6 +9230,7 @@
         "name": "Jalan Raya Banjaran - Pangalengan",
         "oneway": "yes",
         "ref": "162",
+        "sidewalk": "both",
         "source": "GPS",
         "surface": "asphalt"
       }
@@ -9920,6 +9933,7 @@
       "properties": {
         "id": 1112143764,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Raya Bandung - Banjaran",
@@ -11028,6 +11042,7 @@
       "properties": {
         "id": 1415825123,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Raya Bandung - Banjaran",

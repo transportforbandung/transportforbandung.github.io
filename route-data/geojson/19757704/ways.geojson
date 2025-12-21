@@ -233,8 +233,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5758021,
-            -6.913142
+            107.5761151,
+            -6.9132715
           ],
           [
             107.5762053,
@@ -472,7 +472,8 @@
         "name": "Jalan Mochammad Yunus",
         "oneway": "yes",
         "ref": "1625",
-        "reg_ref": "22-10-1625"
+        "reg_ref": "22-10-1625",
+        "surface": "asphalt"
       }
     },
     {
@@ -730,90 +731,6 @@
           [
             107.6349144,
             -6.9317675
-          ],
-          [
-            107.6349787,
-            -6.9315093
-          ],
-          [
-            107.6349977,
-            -6.9314343
-          ],
-          [
-            107.6350129,
-            -6.931374
-          ],
-          [
-            107.6350713,
-            -6.9311431
-          ],
-          [
-            107.6350864,
-            -6.931084
-          ],
-          [
-            107.6351532,
-            -6.9308208
-          ],
-          [
-            107.6352273,
-            -6.9305365
-          ],
-          [
-            107.6353063,
-            -6.9302285
-          ],
-          [
-            107.635324,
-            -6.930155
-          ],
-          [
-            107.6353583,
-            -6.9300131
-          ],
-          [
-            107.6354405,
-            -6.9296823
-          ],
-          [
-            107.6354571,
-            -6.9296186
-          ],
-          [
-            107.6355016,
-            -6.9294512
-          ],
-          [
-            107.6355097,
-            -6.9294192
-          ],
-          [
-            107.6355448,
-            -6.9292849
-          ],
-          [
-            107.6355557,
-            -6.9292433
-          ],
-          [
-            107.6355813,
-            -6.9291539
-          ],
-          [
-            107.6356061,
-            -6.9290657
-          ],
-          [
-            107.6357588,
-            -6.9285046
-          ],
-          [
-            107.6358294,
-            -6.9281885
-          ],
-          [
-            107.635966,
-            -6.9276578
           ]
         ]
       },
@@ -1196,6 +1113,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -1245,20 +1163,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5784294,
-            -6.909994
+            107.578386,
+            -6.9101772
           ],
           [
-            107.5784346,
-            -6.909841
+            107.5784154,
+            -6.9098377
           ],
           [
-            107.5784418,
-            -6.9096942
+            107.5784326,
+            -6.9096934
           ],
           [
-            107.5784569,
-            -6.9095962
+            107.5784528,
+            -6.9095942
           ],
           [
             107.5785409,
@@ -1289,16 +1207,20 @@
             -6.9082774
           ],
           [
-            107.5788714,
-            -6.9082307
+            107.5788535,
+            -6.9082567
           ],
           [
-            107.5789399,
-            -6.9081286
+            107.5788808,
+            -6.9082127
           ],
           [
-            107.579026,
-            -6.9080004
+            107.5789386,
+            -6.9081253
+          ],
+          [
+            107.5790233,
+            -6.9079984
           ]
         ]
       },
@@ -1486,8 +1408,8 @@
             -6.9299968
           ],
           [
-            107.6198556,
-            -6.9298188
+            107.6198226,
+            -6.9298046
           ]
         ]
       },
@@ -1552,10 +1474,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            107.5784294,
-            -6.909994
-          ],
           [
             107.578386,
             -6.9101772
@@ -1901,6 +1819,7 @@
       "properties": {
         "id": 318481950,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "destination:lanes": "Cikutra;Cicaheum;Ujungberung|Cikutra;Cicaheum;Ujungberung|Antapani;Kiaracondong;Binong;Samsat|Antapani;Kiaracondong;Binong;Samsat",
         "highway": "primary",
         "lanes": "4",
@@ -1942,6 +1861,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "right|right"
       }
     },
@@ -2015,8 +1935,8 @@
             -6.9082041
           ],
           [
-            107.5790892,
-            -6.9081752
+            107.5790983,
+            -6.9081626
           ]
         ]
       },
@@ -2460,6 +2380,7 @@
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "no",
+        "parking:both": "no",
         "ref": "378",
         "surface": "asphalt"
       }
@@ -2737,6 +2658,10 @@
             -6.9281252
           ],
           [
+            107.6186304,
+            -6.9281843
+          ],
+          [
             107.6185619,
             -6.928201
           ],
@@ -2807,7 +2732,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sadakeling",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2897,6 +2823,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "378",
         "surface": "asphalt"
       }
@@ -2935,12 +2862,12 @@
             -6.9201253
           ],
           [
-            107.6309827,
-            -6.9200131
+            107.6309858,
+            -6.9200009
           ],
           [
-            107.630993,
-            -6.9199735
+            107.6309953,
+            -6.919962
           ]
         ]
       },
@@ -3014,12 +2941,12 @@
             -6.9295664
           ],
           [
-            107.6197362,
-            -6.9297123
+            107.6197219,
+            -6.9296623
           ],
           [
-            107.6198556,
-            -6.9298188
+            107.619745,
+            -6.9297243
           ]
         ]
       },
@@ -3280,6 +3207,7 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "1",
+        "lit": "yes",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
         "oneway": "yes",
@@ -3632,6 +3560,7 @@
         "lanes": "3",
         "name": "Jalan Jenderal Gatot Subroto",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_left;through|through|right"
       }
@@ -3848,7 +3777,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -4216,8 +4146,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.630993,
-            -6.9199735
+            107.6309953,
+            -6.919962
           ],
           [
             107.63104,
@@ -5041,24 +4971,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.579026,
-            -6.9080004
+            107.5790233,
+            -6.9079984
           ],
           [
             107.5790861,
             -6.9080411
           ],
           [
-            107.5791162,
+            107.5791212,
             -6.9080671
           ],
           [
-            107.5791304,
-            -6.9080837
+            107.5791281,
+            -6.9080803
           ],
           [
-            107.5791375,
-            -6.9081026
+            107.5791321,
+            -6.908099
+          ],
+          [
+            107.5791287,
+            -6.9081131
           ]
         ]
       },
@@ -5508,12 +5442,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5791375,
-            -6.9081026
+            107.5791287,
+            -6.9081131
           ],
           [
-            107.5790892,
-            -6.9081752
+            107.5790983,
+            -6.9081626
           ]
         ]
       },
@@ -5522,6 +5456,340 @@
         "highway": "trunk",
         "lanes": "1",
         "name": "Jalan Abdul Rahman Saleh",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5758021,
+            -6.913142
+          ],
+          [
+            107.5761151,
+            -6.9132715
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1447411891,
+        "avgspeed": "30",
+        "destination:lanes": "Garuda;Pajajaran;Husein Sastranegara;Pasir Kaliki|Rajawali;Ciroyom;Kebonjati;Gardujati|Sudirman;Suryani;Jamika;Holis",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Rajawali Timur",
+        "oneway": "yes",
+        "turn:lanes": "left|through|through;right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6349144,
+            -6.9317675
+          ],
+          [
+            107.6349787,
+            -6.9315093
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1450888849,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Turangga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6349787,
+            -6.9315093
+          ],
+          [
+            107.6349977,
+            -6.9314343
+          ],
+          [
+            107.6350129,
+            -6.931374
+          ],
+          [
+            107.6350713,
+            -6.9311431
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1450888850,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Turangga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6350713,
+            -6.9311431
+          ],
+          [
+            107.6350864,
+            -6.931084
+          ],
+          [
+            107.6351532,
+            -6.9308208
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1450888851,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Turangga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6351532,
+            -6.9308208
+          ],
+          [
+            107.6352273,
+            -6.9305365
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1450888852,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Turangga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6352273,
+            -6.9305365
+          ],
+          [
+            107.6353063,
+            -6.9302285
+          ],
+          [
+            107.635324,
+            -6.930155
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1450888853,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Turangga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.635324,
+            -6.930155
+          ],
+          [
+            107.6353583,
+            -6.9300131
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1450888854,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Turangga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6353583,
+            -6.9300131
+          ],
+          [
+            107.6354405,
+            -6.9296823
+          ],
+          [
+            107.6354571,
+            -6.9296186
+          ],
+          [
+            107.6355016,
+            -6.9294512
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1450888855,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Turangga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6355016,
+            -6.9294512
+          ],
+          [
+            107.6355097,
+            -6.9294192
+          ],
+          [
+            107.6355448,
+            -6.9292849
+          ],
+          [
+            107.6355557,
+            -6.9292433
+          ],
+          [
+            107.6355813,
+            -6.9291539
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1450888856,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Turangga",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6355813,
+            -6.9291539
+          ],
+          [
+            107.6356061,
+            -6.9290657
+          ],
+          [
+            107.6357588,
+            -6.9285046
+          ],
+          [
+            107.6358294,
+            -6.9281885
+          ],
+          [
+            107.635966,
+            -6.9276578
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1450888857,
+        "avgspeed": "30",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Turangga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.619745,
+            -6.9297243
+          ],
+          [
+            107.6197636,
+            -6.9297198
+          ],
+          [
+            107.6197827,
+            -6.9297212
+          ],
+          [
+            107.6198003,
+            -6.9297285
+          ],
+          [
+            107.6198148,
+            -6.9297409
+          ],
+          [
+            107.6198247,
+            -6.9297572
+          ],
+          [
+            107.6198289,
+            -6.9297757
+          ],
+          [
+            107.6198267,
+            -6.929796
+          ],
+          [
+            107.6198226,
+            -6.9298046
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1459639335,
+        "avgspeed": "20",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Lodaya",
         "oneway": "yes"
       }
     }

@@ -59,6 +59,7 @@
       "properties": {
         "id": 172898301,
         "alt_name": "Jalan Kopo",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
@@ -1176,62 +1177,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5910269,
-            -6.9435481
-          ],
-          [
-            107.5910603,
-            -6.9434929
-          ],
-          [
-            107.5910903,
-            -6.9434463
-          ],
-          [
-            107.5911028,
-            -6.9434233
-          ],
-          [
-            107.5911203,
-            -6.9433931
-          ],
-          [
-            107.5912147,
-            -6.9432302
-          ],
-          [
-            107.591257,
-            -6.9431573
-          ],
-          [
-            107.5913003,
-            -6.9430856
-          ],
-          [
-            107.5913435,
-            -6.9430138
-          ],
-          [
-            107.5914686,
-            -6.9428144
-          ],
-          [
-            107.5916513,
-            -6.9425217
-          ],
-          [
-            107.5918451,
-            -6.942203
-          ],
-          [
-            107.5918647,
-            -6.9421708
-          ],
-          [
-            107.59192,
-            -6.9420837
-          ],
-          [
             107.5920724,
             -6.9418438
           ],
@@ -1496,6 +1441,27 @@
         "highway": "primary",
         "lanes": "2",
         "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5480748,
+            -6.9726218
+          ],
+          [
+            107.5479997,
+            -6.9727253
+          ]
+        ]
+      },
+      "properties": {
+        "id": 520773271,
+        "highway": "secondary",
+        "name": "Jalan Taman Kopo Indah"
       }
     },
     {
@@ -2064,8 +2030,8 @@
             -6.9728801
           ],
           [
-            107.5480353,
-            -6.9727503
+            107.5479997,
+            -6.9727253
           ]
         ]
       },
@@ -2876,8 +2842,8 @@
             -6.9712376
           ],
           [
-            107.5480353,
-            -6.9727503
+            107.5481531,
+            -6.9725962
           ]
         ]
       },
@@ -3309,6 +3275,7 @@
         "id": 1197261994,
         "destination": "Peta;Panjunan;Astana Anyar",
         "destination:ref": "106",
+        "flood_prone": "yes",
         "highway": "trunk_link",
         "lanes": "1",
         "oneway": "yes",
@@ -3728,6 +3695,28 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5481531,
+            -6.9725962
+          ],
+          [
+            107.5480748,
+            -6.9726218
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1301228982,
+        "highway": "secondary",
+        "name": "Jalan Taman Kopo Indah",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5898634,
             -6.9453375
           ],
@@ -3742,6 +3731,7 @@
         "alt_name": "Jalan Kopo",
         "destination": "Peta;Panjunan;Astana Anyar",
         "destination:ref": "106",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
@@ -3868,6 +3858,85 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cibolerang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5910269,
+            -6.9435481
+          ],
+          [
+            107.5910603,
+            -6.9434929
+          ],
+          [
+            107.5910903,
+            -6.9434463
+          ],
+          [
+            107.5911028,
+            -6.9434233
+          ],
+          [
+            107.5911203,
+            -6.9433931
+          ],
+          [
+            107.5912147,
+            -6.9432302
+          ],
+          [
+            107.591257,
+            -6.9431573
+          ],
+          [
+            107.5913003,
+            -6.9430856
+          ],
+          [
+            107.5913435,
+            -6.9430138
+          ],
+          [
+            107.5914686,
+            -6.9428144
+          ],
+          [
+            107.5916513,
+            -6.9425217
+          ],
+          [
+            107.5918451,
+            -6.942203
+          ],
+          [
+            107.5918647,
+            -6.9421708
+          ],
+          [
+            107.59192,
+            -6.9420837
+          ],
+          [
+            107.5920724,
+            -6.9418438
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1459643277,
+        "alt_name": "Jalan Kopo",
+        "flood_prone": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kyai Haji Wahid Hasyim",
+        "ref": "106",
+        "reg_ref": "22-00-106-11K",
+        "surface": "asphalt"
       }
     }
   ]

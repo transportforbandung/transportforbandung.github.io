@@ -128,8 +128,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5758021,
-            -6.913142
+            107.5761151,
+            -6.9132715
           ],
           [
             107.5762053,
@@ -583,7 +583,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Rajawali Timur",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -679,7 +680,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Rajawali Timur",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -852,30 +854,6 @@
         "name": "Jalan Kebon Jati",
         "oneway": "yes",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.575721,
-            -6.9131092
-          ],
-          [
-            107.5758021,
-            -6.913142
-          ]
-        ]
-      },
-      "properties": {
-        "id": 331452014,
-        "highway": "trunk",
-        "lanes": "3",
-        "name": "Jalan Rajawali Barat",
-        "oneway": "yes",
-        "surface": "paved"
       }
     },
     {
@@ -1212,41 +1190,6 @@
         "name": "Jalan Kebon Jati",
         "oneway": "yes",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5753653,
-            -6.9129722
-          ],
-          [
-            107.5754115,
-            -6.9129902
-          ],
-          [
-            107.5755013,
-            -6.9130253
-          ],
-          [
-            107.575721,
-            -6.9131092
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1364638661,
-        "avgspeed": "30",
-        "destination:lanes": "Garuda;Pajajaran;Husein Sastranegara;Pasir Kaliki|Rajawali;Ciroyom;Kebonjati;Gardujati|Cijerah;Holis;Cigondewah;Cimahi",
-        "highway": "trunk",
-        "lanes": "3",
-        "name": "Jalan Rajawali Barat",
-        "oneway": "yes",
-        "ref": "11",
-        "turn:lanes": "through|through|right"
       }
     },
     {

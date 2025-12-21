@@ -324,6 +324,7 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
         "oneway": "yes",
@@ -616,8 +617,8 @@
             -6.9272681
           ],
           [
-            107.5982505,
-            -6.9267335
+            107.5982512,
+            -6.9267282
           ]
         ]
       },
@@ -1437,62 +1438,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5910269,
-            -6.9435481
-          ],
-          [
-            107.5910603,
-            -6.9434929
-          ],
-          [
-            107.5910903,
-            -6.9434463
-          ],
-          [
-            107.5911028,
-            -6.9434233
-          ],
-          [
-            107.5911203,
-            -6.9433931
-          ],
-          [
-            107.5912147,
-            -6.9432302
-          ],
-          [
-            107.591257,
-            -6.9431573
-          ],
-          [
-            107.5913003,
-            -6.9430856
-          ],
-          [
-            107.5913435,
-            -6.9430138
-          ],
-          [
-            107.5914686,
-            -6.9428144
-          ],
-          [
-            107.5916513,
-            -6.9425217
-          ],
-          [
-            107.5918451,
-            -6.942203
-          ],
-          [
-            107.5918647,
-            -6.9421708
-          ],
-          [
-            107.59192,
-            -6.9420837
-          ],
-          [
             107.5920724,
             -6.9418438
           ],
@@ -1599,32 +1544,33 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5983287,
-            -6.9267363
+            107.5983304,
+            -6.926733
           ],
           [
-            107.5988513,
-            -6.9267838
+            107.598853,
+            -6.9267805
           ],
           [
-            107.599407,
-            -6.9268344
+            107.5994238,
+            -6.9268284
           ],
           [
-            107.5995156,
-            -6.9268408
+            107.5995173,
+            -6.9268375
           ]
         ]
       },
       "properties": {
         "id": 321086426,
         "highway": "primary",
-        "lanes": "2",
+        "lanes": "3",
         "name": "Jalan Pasir Koja",
         "oneway": "yes",
         "ref": "4149",
         "reg_ref": "22-10-4149",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "7"
       }
     },
     {
@@ -2125,8 +2071,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5995156,
-            -6.9268408
+            107.5995173,
+            -6.9268375
           ],
           [
             107.5995907,
@@ -2138,14 +2084,15 @@
         "id": 555652476,
         "bridge": "yes",
         "highway": "primary",
-        "lanes": "2",
+        "lanes": "3",
         "layer": "1",
         "maxweight": "5",
         "name": "Jalan Pasir Koja",
         "oneway": "yes",
         "ref": "4149",
         "reg_ref": "22-10-4149",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "7"
       }
     },
     {
@@ -2170,12 +2117,13 @@
       "properties": {
         "id": 555652477,
         "highway": "primary",
-        "lanes": "2",
+        "lanes": "3",
         "name": "Jalan Pasir Koja",
         "oneway": "yes",
         "ref": "4149",
         "reg_ref": "22-10-4149",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "7"
       }
     },
     {
@@ -2248,12 +2196,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5982505,
-            -6.9267335
+            107.5982512,
+            -6.9267282
           ],
           [
-            107.5983287,
-            -6.9267363
+            107.5983304,
+            -6.926733
           ]
         ]
       },
@@ -2527,6 +2475,7 @@
         "alt_name": "Jalan HOS. Tjokroaminoto",
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
         "oneway": "yes",
@@ -3594,7 +3543,7 @@
         "highway": "primary",
         "lanes": "2",
         "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
         "short_name": "Jalan Dr. Setiabudhi",
@@ -3893,6 +3842,85 @@
         "oneway": "yes",
         "ref": "249",
         "reg_ref": "22-00-249-13K",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5910269,
+            -6.9435481
+          ],
+          [
+            107.5910603,
+            -6.9434929
+          ],
+          [
+            107.5910903,
+            -6.9434463
+          ],
+          [
+            107.5911028,
+            -6.9434233
+          ],
+          [
+            107.5911203,
+            -6.9433931
+          ],
+          [
+            107.5912147,
+            -6.9432302
+          ],
+          [
+            107.591257,
+            -6.9431573
+          ],
+          [
+            107.5913003,
+            -6.9430856
+          ],
+          [
+            107.5913435,
+            -6.9430138
+          ],
+          [
+            107.5914686,
+            -6.9428144
+          ],
+          [
+            107.5916513,
+            -6.9425217
+          ],
+          [
+            107.5918451,
+            -6.942203
+          ],
+          [
+            107.5918647,
+            -6.9421708
+          ],
+          [
+            107.59192,
+            -6.9420837
+          ],
+          [
+            107.5920724,
+            -6.9418438
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1459643277,
+        "alt_name": "Jalan Kopo",
+        "flood_prone": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kyai Haji Wahid Hasyim",
+        "ref": "106",
+        "reg_ref": "22-00-106-11K",
         "surface": "asphalt"
       }
     }

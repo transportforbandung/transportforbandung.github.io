@@ -7,8 +7,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5758021,
-            -6.913142
+            107.5761151,
+            -6.9132715
           ],
           [
             107.5762053,
@@ -528,7 +528,7 @@
       "properties": {
         "id": 4625948,
         "avgspeed": "15",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "name": "Jalan Bojong Raya"
       }
     },
@@ -744,7 +744,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Rajawali Timur",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1301,6 +1302,55 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5885486,
+            -6.9141236
+          ],
+          [
+            107.5884097,
+            -6.9140226
+          ],
+          [
+            107.5881793,
+            -6.913895
+          ],
+          [
+            107.5880643,
+            -6.9138413
+          ],
+          [
+            107.5878468,
+            -6.9137585
+          ],
+          [
+            107.5874395,
+            -6.9135978
+          ],
+          [
+            107.5873411,
+            -6.91356
+          ],
+          [
+            107.5872252,
+            -6.9135056
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1111988150,
+        "avgspeed": "20",
+        "highway": "secondary",
+        "name": "Jalan Ciroyom",
+        "oneway": "yes",
+        "ref": "1082",
+        "reg_ref": "22-10-1082"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5825032,
             -6.9147967
           ],
@@ -1534,6 +1584,122 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5867539,
+            -6.9131493
+          ],
+          [
+            107.5869544,
+            -6.9132359
+          ],
+          [
+            107.5872887,
+            -6.9133487
+          ],
+          [
+            107.5877408,
+            -6.9135291
+          ],
+          [
+            107.5883956,
+            -6.9137733
+          ],
+          [
+            107.5889327,
+            -6.9139693
+          ],
+          [
+            107.5890718,
+            -6.914024
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1242500614,
+        "highway": "secondary",
+        "name": "Jalan Ciroyom",
+        "oneway": "yes",
+        "ref": "1082",
+        "reg_ref": "22-10-1082",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5872252,
+            -6.9135056
+          ],
+          [
+            107.5868064,
+            -6.9132825
+          ],
+          [
+            107.5867121,
+            -6.9132166
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1257121671,
+        "avgspeed": "20",
+        "highway": "secondary",
+        "name": "Jalan Ciroyom",
+        "oneway": "yes",
+        "ref": "1082",
+        "reg_ref": "22-10-1082"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5860843,
+            -6.9128486
+          ],
+          [
+            107.5860597,
+            -6.9128206
+          ],
+          [
+            107.5860543,
+            -6.912807
+          ],
+          [
+            107.586055,
+            -6.9127863
+          ],
+          [
+            107.5860709,
+            -6.9127681
+          ],
+          [
+            107.5860877,
+            -6.9127622
+          ],
+          [
+            107.586119,
+            -6.9127619
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1257121673,
+        "highway": "secondary_link",
+        "oneway": "yes",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.575723,
             -6.9133498
           ],
@@ -1642,6 +1808,31 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.586119,
+            -6.9127619
+          ],
+          [
+            107.5867539,
+            -6.9131493
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1330455095,
+        "highway": "secondary",
+        "name": "Jalan Ciroyom",
+        "oneway": "yes",
+        "ref": "1082",
+        "reg_ref": "22-10-1082",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5508272,
             -6.9324632
           ],
@@ -1656,6 +1847,107 @@
         "highway": "residential",
         "name": "Jalan Dirgantara",
         "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5867121,
+            -6.9132166
+          ],
+          [
+            107.5864102,
+            -6.9130448
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396346,
+        "avgspeed": "20",
+        "highway": "secondary",
+        "name": "Jalan Ciroyom",
+        "oneway": "yes",
+        "ref": "1082",
+        "reg_ref": "22-10-1082"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5864102,
+            -6.9130448
+          ],
+          [
+            107.5860843,
+            -6.9128486
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1445396347,
+        "avgspeed": "20",
+        "highway": "secondary",
+        "name": "Jalan Ciroyom",
+        "oneway": "yes",
+        "ref": "1082",
+        "reg_ref": "22-10-1082"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5758021,
+            -6.913142
+          ],
+          [
+            107.5761151,
+            -6.9132715
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1447411891,
+        "avgspeed": "30",
+        "destination:lanes": "Garuda;Pajajaran;Husein Sastranegara;Pasir Kaliki|Rajawali;Ciroyom;Kebonjati;Gardujati|Sudirman;Suryani;Jamika;Holis",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Rajawali Timur",
+        "oneway": "yes",
+        "turn:lanes": "left|through|through;right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5890718,
+            -6.914024
+          ],
+          [
+            107.5890644,
+            -6.914151
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1459302227,
+        "avgspeed": "15",
+        "highway": "secondary",
+        "name": "Jalan Arjuna",
+        "oneway": "yes",
+        "ref": "1007",
+        "reg_ref": "22-10-1007"
       }
     }
   ]

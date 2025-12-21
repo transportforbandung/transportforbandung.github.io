@@ -56,8 +56,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5758021,
-            -6.913142
+            107.5761151,
+            -6.9132715
           ],
           [
             107.5762053,
@@ -421,6 +421,10 @@
           [
             107.6233911,
             -6.9274059
+          ],
+          [
+            107.623318,
+            -6.9276837
           ],
           [
             107.6232698,
@@ -1142,7 +1146,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Rajawali Timur",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1238,7 +1243,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Rajawali Timur",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1722,30 +1728,6 @@
         "name": "Jalan Kebon Jati",
         "oneway": "yes",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.575721,
-            -6.9131092
-          ],
-          [
-            107.5758021,
-            -6.913142
-          ]
-        ]
-      },
-      "properties": {
-        "id": 331452014,
-        "highway": "trunk",
-        "lanes": "3",
-        "name": "Jalan Rajawali Barat",
-        "oneway": "yes",
-        "surface": "paved"
       }
     },
     {
@@ -2301,12 +2283,12 @@
             -6.9201253
           ],
           [
-            107.6309827,
-            -6.9200131
+            107.6309858,
+            -6.9200009
           ],
           [
-            107.630993,
-            -6.9199735
+            107.6309953,
+            -6.919962
           ]
         ]
       },
@@ -3227,8 +3209,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.630993,
-            -6.9199735
+            107.6309953,
+            -6.919962
           ],
           [
             107.63104,
@@ -3428,12 +3410,16 @@
             -6.9184012
           ],
           [
-            107.6249188,
-            -6.9184878
+            107.6250224,
+            -6.9184288
           ],
           [
-            107.6248712,
-            -6.9185141
+            107.62493,
+            -6.9184772
+          ],
+          [
+            107.6248913,
+            -6.9185008
           ],
           [
             107.6247558,
@@ -3624,41 +3610,6 @@
         "name:ja": "ガルドゥジャティ通り",
         "oneway": "no",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5753653,
-            -6.9129722
-          ],
-          [
-            107.5754115,
-            -6.9129902
-          ],
-          [
-            107.5755013,
-            -6.9130253
-          ],
-          [
-            107.575721,
-            -6.9131092
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1364638661,
-        "avgspeed": "30",
-        "destination:lanes": "Garuda;Pajajaran;Husein Sastranegara;Pasir Kaliki|Rajawali;Ciroyom;Kebonjati;Gardujati|Cijerah;Holis;Cigondewah;Cimahi",
-        "highway": "trunk",
-        "lanes": "3",
-        "name": "Jalan Rajawali Barat",
-        "oneway": "yes",
-        "ref": "11",
-        "turn:lanes": "through|through|right"
       }
     }
   ]

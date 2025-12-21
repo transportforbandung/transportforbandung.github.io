@@ -165,6 +165,7 @@
       "properties": {
         "id": 42488590,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Raya Bandung - Banjaran",
@@ -563,6 +564,7 @@
       "properties": {
         "id": 43542314,
         "avgspeed": "30",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Dayeuhkolot",
@@ -1582,10 +1584,6 @@
             -7.0058864
           ],
           [
-            107.6232505,
-            -7.0057839
-          ],
-          [
             107.6232547,
             -7.0055572
           ]
@@ -1594,7 +1592,7 @@
       "properties": {
         "id": 385695769,
         "avgspeed": "15",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "source": "Yahoo hires"
       }
     },
@@ -1652,6 +1650,7 @@
       "properties": {
         "id": 385695770,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Raya Bandung - Banjaran",
@@ -1664,48 +1663,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6233069,
-            -7.0012622
+            107.6232865,
+            -7.0015264
           ],
           [
-            107.6233105,
-            -7.0006006
+            107.6233034,
+            -7.0005936
           ],
           [
-            107.6233116,
+            107.6233063,
             -7.0004036
           ],
           [
-            107.6233126,
-            -7.0002923
+            107.6233091,
+            -7.0002905
           ],
           [
-            107.6233142,
-            -6.9999624
+            107.623308,
+            -6.9999593
           ],
           [
-            107.6232954,
+            107.6233042,
             -6.9997048
           ],
           [
-            107.6232935,
-            -6.9995737
+            107.6233041,
+            -6.9994667
           ],
           [
-            107.6232944,
-            -6.9994685
-          ],
-          [
-            107.6233027,
+            107.6233054,
             -6.9993468
           ],
           [
-            107.6233027,
-            -6.9993241
+            107.6233062,
+            -6.999325
           ],
           [
-            107.6233186,
-            -6.999137
+            107.6233106,
+            -6.9991309
           ],
           [
             107.6233153,
@@ -1764,7 +1759,7 @@
       "properties": {
         "id": 385695774,
         "avgspeed": "15",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "source": "Yahoo hires"
       }
     },
@@ -1973,6 +1968,7 @@
       "properties": {
         "id": 570115123,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Raya Dayeuhkolot",
@@ -2000,6 +1996,7 @@
       },
       "properties": {
         "id": 570115125,
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Raya Bandung - Banjaran",
@@ -3765,7 +3762,7 @@
       "properties": {
         "id": 1429019080,
         "avgspeed": "15",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "source": "Yahoo hires"
       }
     },
@@ -3787,7 +3784,7 @@
       "properties": {
         "id": 1429019081,
         "avgspeed": "15",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "source": "Yahoo hires"
       }
     },
@@ -3809,7 +3806,7 @@
       "properties": {
         "id": 1429019082,
         "avgspeed": "15",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "source": "Yahoo hires"
       }
     },
@@ -3835,7 +3832,7 @@
       "properties": {
         "id": 1429019083,
         "avgspeed": "15",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "source": "Yahoo hires"
       }
     },
@@ -3849,93 +3846,43 @@
             -7.0036099
           ],
           [
-            107.6232953,
-            -7.0033454
+            107.6232899,
+            -7.0033481
+          ],
+          [
+            107.6232874,
+            -7.0031243
+          ],
+          [
+            107.6232867,
+            -7.0030565
+          ],
+          [
+            107.6232852,
+            -7.0029662
+          ],
+          [
+            107.6232809,
+            -7.0024658
+          ],
+          [
+            107.6232814,
+            -7.0021999
+          ],
+          [
+            107.6232823,
+            -7.002084
+          ],
+          [
+            107.6232865,
+            -7.0015264
           ]
         ]
       },
       "properties": {
         "id": 1429019084,
         "avgspeed": "15",
-        "highway": "unclassified",
-        "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6232953,
-            -7.0033454
-          ],
-          [
-            107.6232965,
-            -7.0031233
-          ],
-          [
-            107.6232969,
-            -7.0030565
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1429019085,
-        "avgspeed": "15",
-        "highway": "unclassified",
-        "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6232969,
-            -7.0030565
-          ],
-          [
-            107.6232974,
-            -7.0029712
-          ],
-          [
-            107.6233002,
-            -7.0024658
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1429019086,
-        "avgspeed": "15",
-        "highway": "unclassified",
-        "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6233002,
-            -7.0024658
-          ],
-          [
-            107.6233017,
-            -7.0021969
-          ],
-          [
-            107.6233023,
-            -7.0020848
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1429019087,
-        "avgspeed": "15",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "source": "Yahoo hires"
       }
     },

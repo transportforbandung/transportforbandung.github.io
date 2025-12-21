@@ -256,6 +256,7 @@
         "lanes": "3",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt",
         "turn:lanes": "left|left;right|right"
@@ -480,6 +481,7 @@
         "highway": "motorway_link",
         "lanes": "2",
         "motorcycle": "no",
+        "name": "Simpang Susun Padalarang",
         "oneway": "yes",
         "source": "Bing",
         "toll": "yes"
@@ -839,8 +841,16 @@
             -6.8600506
           ],
           [
+            107.4827868,
+            -6.8602043
+          ],
+          [
             107.4827475,
             -6.8602353
+          ],
+          [
+            107.4826451,
+            -6.8603125
           ],
           [
             107.4823409,
@@ -861,6 +871,10 @@
           [
             107.4815775,
             -6.8612441
+          ],
+          [
+            107.4815106,
+            -6.861305
           ],
           [
             107.4813933,
@@ -943,12 +957,20 @@
             -6.8645886
           ],
           [
+            107.4786469,
+            -6.8647061
+          ],
+          [
             107.4783619,
             -6.8650692
           ],
           [
             107.4782844,
             -6.865168
+          ],
+          [
+            107.4781795,
+            -6.8652971
           ],
           [
             107.4780592,
@@ -1004,6 +1026,10 @@
             -6.8660919
           ],
           [
+            107.4764003,
+            -6.8661102
+          ],
+          [
             107.4760503,
             -6.8661814
           ],
@@ -1012,11 +1038,11 @@
             -6.8662008
           ],
           [
-            107.4752662,
-            -6.8662456
+            107.4752685,
+            -6.8662352
           ],
           [
-            107.4752463,
+            107.4750467,
             -6.8662477
           ],
           [
@@ -1134,6 +1160,10 @@
           [
             107.4683101,
             -6.8664501
+          ],
+          [
+            107.4679333,
+            -6.8663954
           ],
           [
             107.467723,
@@ -1619,6 +1649,7 @@
       },
       "properties": {
         "id": 235830733,
+        "alt_name": "Jalan Wastukencana",
         "cycleway:left": "lane",
         "cycleway:left:lane": "advisory",
         "cycleway:right": "no",
@@ -1626,7 +1657,8 @@
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "no",
         "sidewalk": "separate",
         "smoothness": "intermediate",
@@ -1881,12 +1913,14 @@
       },
       "properties": {
         "id": 292668884,
+        "alt_name": "Jalan Wastukencana",
         "cycleway:left": "lane",
         "cycleway:left:lane": "advisory",
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "3",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -1929,13 +1963,15 @@
       },
       "properties": {
         "id": 318233616,
+        "alt_name": "Jalan Wastukencana",
         "cycleway:left": "lane",
         "cycleway:left:lane": "advisory",
         "cycleway:right": "no",
         "destination:lanes": "Cicendo;Tamansari;Pasteur||Riau;Purnawarman;Merdeka;Juanda",
         "highway": "primary",
         "lanes": "3",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt",
@@ -2007,6 +2043,7 @@
       },
       "properties": {
         "id": 318479413,
+        "alt_name": "Jalan Wastukencana",
         "avgspeed": "30",
         "bicycle": "yes",
         "cycleway": "lane",
@@ -2016,8 +2053,10 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "3",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt",
         "turn:lanes": "left;through|through|slight_right"
@@ -2399,6 +2438,7 @@
         "motor_vehicle": "yes",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -2850,6 +2890,10 @@
           [
             107.4668402,
             -6.8717492
+          ],
+          [
+            107.4667984,
+            -6.8717498
           ],
           [
             107.4662245,
@@ -3776,6 +3820,10 @@
             -6.867992
           ],
           [
+            107.4678909,
+            -6.8679909
+          ],
+          [
             107.4679811,
             -6.8679923
           ],
@@ -3792,7 +3840,7 @@
       "properties": {
         "id": 573413091,
         "cycleway:both": "lane",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "lanes": "4",
         "lit": "yes",
         "oneway": "no",
@@ -3831,6 +3879,7 @@
         "highway": "motorway_link",
         "lanes": "3",
         "motorcycle": "no",
+        "name": "Simpang Susun Padalarang",
         "oneway": "yes",
         "source": "Bing",
         "toll": "yes"
@@ -4169,6 +4218,7 @@
         "highway": "motorway_link",
         "lanes": "7",
         "motorcycle": "no",
+        "name": "Simpang Susun Padalarang",
         "oneway": "yes",
         "source": "Bing",
         "toll": "yes"
@@ -4259,7 +4309,7 @@
       "properties": {
         "id": 776666779,
         "foot": "no",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "oneway": "yes"
       }
     },
@@ -4280,7 +4330,7 @@
       },
       "properties": {
         "id": 776666780,
-        "highway": "unclassified",
+        "highway": "tertiary",
         "oneway": "yes"
       }
     },
@@ -4341,6 +4391,7 @@
         "highway": "motorway_link",
         "lanes": "3",
         "motorcycle": "no",
+        "name": "Simpang Susun Padalarang",
         "oneway": "yes",
         "source": "Bing",
         "toll": "yes"
@@ -4429,7 +4480,7 @@
           ],
           [
             107.4651899,
-            -6.8665435
+            -6.8665505
           ],
           [
             107.4651877,
@@ -4459,7 +4510,7 @@
       },
       "properties": {
         "id": 926202829,
-        "highway": "unclassified",
+        "highway": "tertiary",
         "lanes": "4",
         "lit": "yes",
         "oneway": "no",
@@ -4772,12 +4823,14 @@
       },
       "properties": {
         "id": 1073714003,
+        "alt_name": "Jalan Wastukencana",
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "primary",
         "lanes": "3",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -4934,6 +4987,7 @@
         "highway": "motorway_link",
         "lanes": "3",
         "motorcycle": "no",
+        "name": "Simpang Susun Padalarang",
         "oneway": "yes",
         "source": "Bing",
         "toll": "yes"
@@ -4962,6 +5016,7 @@
         "highway": "motorway_link",
         "lanes": "7",
         "motorcycle": "no",
+        "name": "Simpang Susun Padalarang",
         "oneway": "yes",
         "source": "Bing",
         "toll": "yes"
@@ -4990,6 +5045,7 @@
         "highway": "motorway_link",
         "lanes": "5",
         "motorcycle": "no",
+        "name": "Simpang Susun Padalarang",
         "oneway": "yes",
         "source": "Bing",
         "toll": "yes"
@@ -5018,6 +5074,7 @@
         "highway": "motorway_link",
         "lanes": "5",
         "motorcycle": "no",
+        "name": "Simpang Susun Padalarang",
         "oneway": "yes",
         "source": "Bing",
         "toll": "yes"
@@ -5046,6 +5103,7 @@
         "highway": "motorway_link",
         "lanes": "7",
         "motorcycle": "no",
+        "name": "Simpang Susun Padalarang",
         "oneway": "yes",
         "source": "Bing",
         "toll": "yes"
@@ -6112,6 +6170,10 @@
           [
             107.4556535,
             -6.8818859
+          ],
+          [
+            107.4556219,
+            -6.8819008
           ],
           [
             107.4555808,

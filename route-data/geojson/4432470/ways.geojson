@@ -482,6 +482,7 @@
         "lanes": "3",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt",
         "turn:lanes": "left|left;right|right"
@@ -856,6 +857,7 @@
       },
       "properties": {
         "id": 235830733,
+        "alt_name": "Jalan Wastukencana",
         "cycleway:left": "lane",
         "cycleway:left:lane": "advisory",
         "cycleway:right": "no",
@@ -863,7 +865,8 @@
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "no",
         "sidewalk": "separate",
         "smoothness": "intermediate",
@@ -876,64 +879,64 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6331914,
-            -6.9117162
+            107.6332282,
+            -6.9117173
           ],
           [
-            107.6331611,
-            -6.9116686
+            107.6331856,
+            -6.9116524
           ],
           [
-            107.6329117,
-            -6.9113118
+            107.6329432,
+            -6.9112851
           ],
           [
-            107.63286,
-            -6.9112379
+            107.6328915,
+            -6.9112089
           ],
           [
-            107.6321776,
-            -6.9101794
+            107.6322045,
+            -6.910162
           ],
           [
-            107.6319159,
-            -6.9097735
+            107.6319439,
+            -6.9097596
           ],
           [
-            107.6317052,
-            -6.9094522
+            107.6317344,
+            -6.9094313
           ],
           [
-            107.6315424,
-            -6.9092038
+            107.6315704,
+            -6.9091771
           ],
           [
-            107.6314551,
-            -6.9090707
+            107.6314866,
+            -6.9090452
           ],
           [
-            107.6312067,
-            -6.9086918
+            107.6312417,
+            -6.9086675
           ],
           [
-            107.6310811,
-            -6.9085001
+            107.6311208,
+            -6.9084816
           ],
           [
-            107.6309892,
-            -6.90836
+            107.6310204,
+            -6.9083285
           ],
           [
-            107.6308809,
-            -6.9081948
+            107.6309112,
+            -6.9081623
           ],
           [
-            107.6307389,
-            -6.9079767
+            107.6307619,
+            -6.9079442
           ],
           [
-            107.6305913,
-            -6.9077531
+            107.6306223,
+            -6.907732
           ]
         ]
       },
@@ -1214,12 +1217,14 @@
       },
       "properties": {
         "id": 292668884,
+        "alt_name": "Jalan Wastukencana",
         "cycleway:left": "lane",
         "cycleway:left:lane": "advisory",
         "cycleway:right": "no",
         "highway": "primary",
         "lanes": "3",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -1512,13 +1517,15 @@
       },
       "properties": {
         "id": 318233616,
+        "alt_name": "Jalan Wastukencana",
         "cycleway:left": "lane",
         "cycleway:left:lane": "advisory",
         "cycleway:right": "no",
         "destination:lanes": "Cicendo;Tamansari;Pasteur||Riau;Purnawarman;Merdeka;Juanda",
         "highway": "primary",
         "lanes": "3",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt",
@@ -1635,6 +1642,10 @@
             -6.9066553
           ],
           [
+            107.6133145,
+            -6.906779
+          ],
+          [
             107.6130652,
             -6.9069206
           ],
@@ -1741,6 +1752,7 @@
       },
       "properties": {
         "id": 318479413,
+        "alt_name": "Jalan Wastukencana",
         "avgspeed": "30",
         "bicycle": "yes",
         "cycleway": "lane",
@@ -1750,8 +1762,10 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "3",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt",
         "turn:lanes": "left;through|through|slight_right"
@@ -2176,8 +2190,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6305913,
-            -6.9077531
+            107.6306223,
+            -6.907732
           ],
           [
             107.6302838,
@@ -4216,16 +4230,16 @@
             -6.9140834
           ],
           [
-            107.6340735,
-            -6.9129938
+            107.6340817,
+            -6.912988
           ],
           [
-            107.6339237,
-            -6.9127467
+            107.6338607,
+            -6.9126134
           ],
           [
-            107.6334328,
-            -6.9119971
+            107.6335776,
+            -6.9121582
           ]
         ]
       },
@@ -4375,6 +4389,7 @@
         "motor_vehicle": "yes",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk:left": "no",
         "sidewalk:right": "separate",
         "surface": "asphalt"
@@ -4503,12 +4518,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6334328,
-            -6.9119971
+            107.6335776,
+            -6.9121582
           ],
           [
-            107.6331914,
-            -6.9117162
+            107.6334111,
+            -6.9119426
+          ],
+          [
+            107.6332282,
+            -6.9117173
           ]
         ]
       },
@@ -4693,12 +4712,14 @@
       },
       "properties": {
         "id": 1073714003,
+        "alt_name": "Jalan Wastukencana",
         "avgspeed": "30",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "primary",
         "lanes": "3",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -5895,7 +5916,7 @@
         "highway": "primary",
         "lanes": "2",
         "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
         "short_name": "Jalan Dr. Setiabudhi",

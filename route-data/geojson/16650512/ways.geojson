@@ -73,60 +73,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5793292,
-            -6.9075821
+            107.5736296,
+            -6.9102877
           ],
           [
-            107.5793823,
-            -6.907539
+            107.5734028,
+            -6.9108464
           ],
           [
-            107.5794813,
-            -6.9074864
+            107.5733675,
+            -6.9109378
           ],
           [
-            107.5796359,
-            -6.9074297
-          ],
-          [
-            107.579745,
-            -6.9074035
-          ],
-          [
-            107.5798589,
-            -6.9073792
-          ]
-        ]
-      },
-      "properties": {
-        "id": 4569058,
-        "avgspeed": "30",
-        "highway": "trunk",
-        "lanes": "1",
-        "name": "Jalan Abdul Rahman Saleh",
-        "oneway": "no"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5737057,
-            -6.910096
-          ],
-          [
-            107.5733958,
-            -6.9108441
-          ],
-          [
-            107.5733582,
-            -6.9109366
-          ],
-          [
-            107.5732732,
-            -6.911156
+            107.5732814,
+            -6.9111572
           ],
           [
             107.5731904,
@@ -150,7 +110,10 @@
         "id": 4625334,
         "avgspeed": "15",
         "highway": "residential",
-        "name": "Jalan Kasuari"
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Jalan Kasuari",
+        "surface": "asphalt"
       }
     },
     {
@@ -223,8 +186,8 @@
             -6.9102903
           ],
           [
-            107.5737057,
-            -6.910096
+            107.5737288,
+            -6.9101067
           ]
         ]
       },
@@ -234,7 +197,8 @@
         "highway": "tertiary",
         "name": "Jalan Dadali",
         "ref": "1088",
-        "reg_ref": "22-10-1088"
+        "reg_ref": "22-10-1088",
+        "surface": "asphalt"
       }
     },
     {
@@ -654,10 +618,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5784294,
-            -6.909994
-          ],
-          [
             107.578386,
             -6.9101772
           ],
@@ -726,12 +686,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5790892,
-            -6.9081752
+            107.5790983,
+            -6.9081626
           ],
           [
             107.5790301,
             -6.9082727
+          ],
+          [
+            107.5789935,
+            -6.9083334
           ],
           [
             107.5789712,
@@ -762,31 +726,29 @@
             -6.909348
           ],
           [
-            107.5785869,
-            -6.9096141
+            107.5785977,
+            -6.9096065
           ],
           [
-            107.5785545,
-            -6.9097131
+            107.5785645,
+            -6.909733
           ],
           [
-            107.5784914,
-            -6.9098515
+            107.5785188,
+            -6.9098609
           ],
           [
-            107.5784294,
-            -6.909994
+            107.578386,
+            -6.9101772
           ]
         ]
       },
       "properties": {
         "id": 318100679,
-        "check_date": "2025-10-31",
-        "highway": "construction",
+        "highway": "trunk",
         "lanes": "1",
         "name": "Jalan Garuda",
-        "oneway": "yes",
-        "opening_date": "2025-12-31"
+        "oneway": "yes"
       }
     },
     {
@@ -1160,6 +1122,30 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.575721,
+            -6.9131092
+          ],
+          [
+            107.5758021,
+            -6.913142
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331452014,
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Rajawali Barat",
+        "oneway": "yes",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6046031,
             -6.9144539
           ],
@@ -1519,38 +1505,6 @@
         "name": "Jalan Suniaraja",
         "oneway": "yes",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5791589,
-            -6.9077932
-          ],
-          [
-            107.579252,
-            -6.9076696
-          ],
-          [
-            107.579312,
-            -6.9075997
-          ],
-          [
-            107.5793292,
-            -6.9075821
-          ]
-        ]
-      },
-      "properties": {
-        "id": 705026977,
-        "avgspeed": "30",
-        "highway": "trunk",
-        "lanes": "1",
-        "name": "Jalan Abdul Rahman Saleh",
-        "oneway": "no"
       }
     },
     {
@@ -2209,91 +2163,84 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5791793,
-            -6.9079365
+            107.5800079,
+            -6.9075068
           ],
           [
-            107.57918,
-            -6.9079579
+            107.5799246,
+            -6.9075103
           ],
           [
-            107.5791739,
-            -6.907994
+            107.5798386,
+            -6.9075218
+          ],
+          [
+            107.5797328,
+            -6.9075504
+          ],
+          [
+            107.5796492,
+            -6.9075824
+          ],
+          [
+            107.5795575,
+            -6.9076258
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1257121665,
+        "highway": "trunk",
+        "lanes": "1",
+        "name": "Jalan Abdul Rahman Saleh",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5793885,
+            -6.9077309
+          ],
+          [
+            107.5793646,
+            -6.9077499
+          ],
+          [
+            107.5793351,
+            -6.9077787
+          ],
+          [
+            107.5793028,
+            -6.9078173
+          ],
+          [
+            107.5792398,
+            -6.9079148
+          ],
+          [
+            107.5792049,
+            -6.9079695
+          ],
+          [
+            107.5791876,
+            -6.9080006
           ],
           [
             107.5791577,
             -6.9080639
           ],
           [
-            107.5791375,
-            -6.9081026
+            107.5791287,
+            -6.9081131
           ]
         ]
       },
       "properties": {
         "id": 1257121666,
-        "highway": "trunk",
-        "lanes": "1",
-        "name": "Jalan Abdul Rahman Saleh",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5791589,
-            -6.9077932
-          ],
-          [
-            107.5791621,
-            -6.9078345
-          ],
-          [
-            107.5791727,
-            -6.9078845
-          ],
-          [
-            107.5791793,
-            -6.9079365
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1257121667,
-        "highway": "trunk",
-        "lanes": "1",
-        "name": "Jalan Abdul Rahman Saleh",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5800086,
-            -6.9075034
-          ],
-          [
-            107.5799664,
-            -6.9074582
-          ],
-          [
-            107.5799277,
-            -6.9074203
-          ],
-          [
-            107.5798589,
-            -6.9073792
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1257121669,
         "highway": "trunk",
         "lanes": "1",
         "name": "Jalan Abdul Rahman Saleh",
@@ -2506,6 +2453,41 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5753653,
+            -6.9129722
+          ],
+          [
+            107.5754115,
+            -6.9129902
+          ],
+          [
+            107.5755013,
+            -6.9130253
+          ],
+          [
+            107.575721,
+            -6.9131092
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1364638661,
+        "avgspeed": "30",
+        "destination:lanes": "Garuda;Pajajaran;Husein Sastranegara;Pasir Kaliki|Rajawali;Ciroyom;Kebonjati;Gardujati|Cijerah;Holis;Cigondewah;Cimahi",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Rajawali Barat",
+        "oneway": "yes",
+        "ref": "11",
+        "turn:lanes": "through|through|right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6058121,
             -6.9276265
           ],
@@ -2587,8 +2569,8 @@
             -6.9076735
           ],
           [
-            107.5811418,
-            -6.9076367
+            107.5807659,
+            -6.9075865
           ]
         ]
       },
@@ -2874,12 +2856,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5791375,
-            -6.9081026
+            107.5791287,
+            -6.9081131
           ],
           [
-            107.5790892,
-            -6.9081752
+            107.5790983,
+            -6.9081626
           ]
         ]
       },
@@ -2897,34 +2879,124 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5811418,
-            -6.9076367
+            107.5807659,
+            -6.9075865
           ],
           [
-            107.580884,
-            -6.9076194
+            107.5806302,
+            -6.907578
           ],
           [
-            107.5805513,
-            -6.9075785
+            107.5803628,
+            -6.9075501
           ],
           [
             107.5801285,
             -6.9075186
           ],
           [
-            107.5800086,
-            -6.9075034
+            107.5800079,
+            -6.9075068
           ]
         ]
       },
       "properties": {
         "id": 1446497274,
-        "construction": "trunk",
-        "highway": "construction",
+        "highway": "trunk",
         "lanes": "1",
         "name": "Jalan Abdul Rahman Saleh",
         "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5758021,
+            -6.913142
+          ],
+          [
+            107.5761151,
+            -6.9132715
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1447411891,
+        "avgspeed": "30",
+        "destination:lanes": "Garuda;Pajajaran;Husein Sastranegara;Pasir Kaliki|Rajawali;Ciroyom;Kebonjati;Gardujati|Sudirman;Suryani;Jamika;Holis",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Rajawali Timur",
+        "oneway": "yes",
+        "turn:lanes": "left|through|through;right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5795575,
+            -6.9076258
+          ],
+          [
+            107.5794826,
+            -6.9076671
+          ],
+          [
+            107.5794319,
+            -6.9077
+          ],
+          [
+            107.5793885,
+            -6.9077309
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1458709142,
+        "highway": "trunk",
+        "lanes": "1",
+        "name": "Jalan Abdul Rahman Saleh",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5737288,
+            -6.9101067
+          ],
+          [
+            107.5736786,
+            -6.9102292
+          ],
+          [
+            107.5736541,
+            -6.9102661
+          ],
+          [
+            107.5736296,
+            -6.9102877
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1458788362,
+        "avgspeed": "15",
+        "highway": "residential",
+        "lane_markings": "yes",
+        "lanes": "1",
+        "name": "Jalan Kasuari",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     }
   ]

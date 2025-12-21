@@ -429,6 +429,7 @@
       "properties": {
         "id": 43542314,
         "avgspeed": "30",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Dayeuhkolot",
@@ -1377,10 +1378,6 @@
             -7.0058864
           ],
           [
-            107.6232505,
-            -7.0057839
-          ],
-          [
             107.6232547,
             -7.0055572
           ]
@@ -1389,7 +1386,7 @@
       "properties": {
         "id": 385695769,
         "avgspeed": "15",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "source": "Yahoo hires"
       }
     },
@@ -1945,6 +1942,7 @@
       "properties": {
         "id": 570115123,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Raya Dayeuhkolot",
@@ -2039,26 +2037,6 @@
           [
             107.625996,
             -6.9930372
-          ],
-          [
-            107.6260039,
-            -6.9928336
-          ],
-          [
-            107.6260062,
-            -6.9928049
-          ],
-          [
-            107.6260148,
-            -6.9926831
-          ],
-          [
-            107.6260431,
-            -6.9922588
-          ],
-          [
-            107.6260666,
-            -6.9918174
           ]
         ]
       },
@@ -2100,7 +2078,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6232688,
+            107.6232865,
             -7.0015264
           ],
           [
@@ -3536,6 +3514,7 @@
       },
       "properties": {
         "id": 1112143765,
+        "flood_prone": "yes",
         "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Anggadireja"
@@ -4333,6 +4312,7 @@
       "properties": {
         "id": 1415825123,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Raya Bandung - Banjaran",
@@ -4358,7 +4338,7 @@
       "properties": {
         "id": 1429019080,
         "avgspeed": "15",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "source": "Yahoo hires"
       }
     },
@@ -4380,7 +4360,7 @@
       "properties": {
         "id": 1429019081,
         "avgspeed": "15",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "source": "Yahoo hires"
       }
     },
@@ -4402,7 +4382,7 @@
       "properties": {
         "id": 1429019082,
         "avgspeed": "15",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "source": "Yahoo hires"
       }
     },
@@ -4428,7 +4408,7 @@
       "properties": {
         "id": 1429019083,
         "avgspeed": "15",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "source": "Yahoo hires"
       }
     },
@@ -4442,93 +4422,43 @@
             -7.0036099
           ],
           [
-            107.6232953,
-            -7.0033454
+            107.6232899,
+            -7.0033481
+          ],
+          [
+            107.6232874,
+            -7.0031243
+          ],
+          [
+            107.6232867,
+            -7.0030565
+          ],
+          [
+            107.6232852,
+            -7.0029662
+          ],
+          [
+            107.6232809,
+            -7.0024658
+          ],
+          [
+            107.6232814,
+            -7.0021999
+          ],
+          [
+            107.6232823,
+            -7.002084
+          ],
+          [
+            107.6232865,
+            -7.0015264
           ]
         ]
       },
       "properties": {
         "id": 1429019084,
         "avgspeed": "15",
-        "highway": "unclassified",
-        "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6232953,
-            -7.0033454
-          ],
-          [
-            107.6232965,
-            -7.0031233
-          ],
-          [
-            107.6232969,
-            -7.0030565
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1429019085,
-        "avgspeed": "15",
-        "highway": "unclassified",
-        "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6232969,
-            -7.0030565
-          ],
-          [
-            107.6232974,
-            -7.0029712
-          ],
-          [
-            107.6233002,
-            -7.0024658
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1429019086,
-        "avgspeed": "15",
-        "highway": "unclassified",
-        "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6233002,
-            -7.0024658
-          ],
-          [
-            107.6233017,
-            -7.0021969
-          ],
-          [
-            107.6233023,
-            -7.0020848
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1429019087,
-        "avgspeed": "15",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "source": "Yahoo hires"
       }
     },
@@ -4556,6 +4486,45 @@
         "ref": "161",
         "reg_ref": "22-00-161-11K",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.625996,
+            -6.9930372
+          ],
+          [
+            107.6260039,
+            -6.9928336
+          ],
+          [
+            107.6260062,
+            -6.9928049
+          ],
+          [
+            107.6260148,
+            -6.9926831
+          ],
+          [
+            107.6260431,
+            -6.9922588
+          ],
+          [
+            107.6260666,
+            -6.9918174
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1459642131,
+        "flood_prone": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Anggadireja"
       }
     }
   ]

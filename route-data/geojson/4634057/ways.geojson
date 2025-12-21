@@ -291,6 +291,8 @@
       "properties": {
         "id": 153812752,
         "highway": "unclassified",
+        "name": "Jalan Riung Arum",
+        "name:en": "Riung Arum Way",
         "surface": "asphalt"
       }
     },
@@ -312,6 +314,8 @@
       "properties": {
         "id": 153812753,
         "highway": "unclassified",
+        "name": "Jalan Riung Tineung",
+        "name:en": "Riung Tineung Way",
         "surface": "asphalt"
       }
     },
@@ -338,6 +342,7 @@
         "id": 153812853,
         "highway": "unclassified",
         "name": "Jalan Riung Subur",
+        "name:en": "Riung Subur Way",
         "oneway": "yes"
       }
     },
@@ -1772,19 +1777,19 @@
           ],
           [
             107.6443899,
-            -6.9243224
+            -6.9243186
           ],
           [
-            107.6443872,
-            -6.9242785
+            107.644388,
+            -6.924264
           ],
           [
-            107.6443849,
-            -6.9242349
+            107.6443857,
+            -6.9242173
           ],
           [
-            107.6443821,
-            -6.9241844
+            107.6443827,
+            -6.9241638
           ],
           [
             107.6443679,
@@ -5229,6 +5234,10 @@
             -6.9060651
           ],
           [
+            107.616622,
+            -6.905419
+          ],
+          [
             107.6165969,
             -6.9051579
           ]
@@ -6068,69 +6077,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.682605,
-            -6.9435781
-          ],
-          [
-            107.6828611,
-            -6.9435796
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1385116122,
-        "highway": "unclassified",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6823032,
-            -6.9436031
-          ],
-          [
-            107.682605,
-            -6.9435781
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1385116123,
-        "highway": "unclassified",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6819663,
-            -6.9436312
-          ],
-          [
-            107.6823032,
-            -6.9436031
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1385116124,
-        "highway": "unclassified",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6205739,
             -6.8680595
           ],
@@ -6394,6 +6340,75 @@
         "lanes": "2",
         "motor_vehicle": "yes",
         "name": "Jalan Cipamokolan",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.682605,
+            -6.9435781
+          ],
+          [
+            107.6828611,
+            -6.9435796
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1453998719,
+        "highway": "unclassified",
+        "name": "Jalan Riung Tineung",
+        "name:en": "Riung Tineung Way",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6823032,
+            -6.9436031
+          ],
+          [
+            107.682605,
+            -6.9435781
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1453998720,
+        "highway": "unclassified",
+        "name": "Jalan Riung Tineung",
+        "name:en": "Riung Tineung Way",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6819663,
+            -6.9436312
+          ],
+          [
+            107.6823032,
+            -6.9436031
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1453998721,
+        "highway": "unclassified",
+        "name": "Jalan Riung Tineung",
+        "name:en": "Riung Tineung Way",
         "surface": "asphalt"
       }
     }

@@ -7,8 +7,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5758021,
-            -6.913142
+            107.5761151,
+            -6.9132715
           ],
           [
             107.5762053,
@@ -3921,12 +3921,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.772336,
-            -6.9327185
+            107.7723146,
+            -6.932773
           ],
           [
-            107.7732585,
-            -6.9323545
+            107.7733061,
+            -6.9323718
           ]
         ]
       },
@@ -4787,16 +4787,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7722148,
-            -6.9328822
+            107.7722158,
+            -6.9328953
           ],
           [
-            107.7722997,
-            -6.9327627
+            107.7722644,
+            -6.932833
           ],
           [
-            107.772336,
-            -6.9327185
+            107.7723146,
+            -6.932773
           ]
         ]
       },
@@ -4996,16 +4996,16 @@
             -6.9330345
           ],
           [
-            107.7721153,
-            -6.9329191
+            107.7721133,
+            -6.9329352
           ],
           [
-            107.7721536,
-            -6.9329079
+            107.7721658,
+            -6.932914
           ],
           [
-            107.7722148,
-            -6.9328822
+            107.7722158,
+            -6.9328953
           ]
         ]
       },
@@ -5023,6 +5023,32 @@
         "sidewalk": "both",
         "source": "Bing",
         "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5758021,
+            -6.913142
+          ],
+          [
+            107.5761151,
+            -6.9132715
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1447411891,
+        "avgspeed": "30",
+        "destination:lanes": "Garuda;Pajajaran;Husein Sastranegara;Pasir Kaliki|Rajawali;Ciroyom;Kebonjati;Gardujati|Sudirman;Suryani;Jamika;Holis",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Rajawali Timur",
+        "oneway": "yes",
+        "turn:lanes": "left|through|through;right"
       }
     }
   ]

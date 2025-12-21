@@ -214,6 +214,7 @@
         "lanes": "3",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt",
         "turn:lanes": "left|left;right|right"
@@ -1265,6 +1266,10 @@
             -6.9274059
           ],
           [
+            107.623318,
+            -6.9276837
+          ],
+          [
             107.6232698,
             -6.9278671
           ],
@@ -1717,8 +1722,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6194125,
-            -6.9225967
+            107.6195437,
+            -6.9226161
           ],
           [
             107.6190746,
@@ -2410,6 +2415,7 @@
       },
       "properties": {
         "id": 318479413,
+        "alt_name": "Jalan Wastukencana",
         "avgspeed": "30",
         "bicycle": "yes",
         "cycleway": "lane",
@@ -2419,8 +2425,10 @@
         "foot": "yes",
         "highway": "primary",
         "lanes": "3",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt",
         "turn:lanes": "left;through|through|slight_right"
@@ -2500,6 +2508,7 @@
         "motor_vehicle": "yes",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -2553,6 +2562,10 @@
           [
             107.6214029,
             -6.9228986
+          ],
+          [
+            107.6212055,
+            -6.9228689
           ],
           [
             107.6211252,
@@ -3203,6 +3216,10 @@
             -6.9155493
           ],
           [
+            107.6074735,
+            -6.9155118
+          ],
+          [
             107.607404,
             -6.9153861
           ],
@@ -3357,30 +3374,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6138099,
-            -6.9157805
-          ],
-          [
-            107.6138036,
-            -6.9158186
-          ]
-        ]
-      },
-      "properties": {
-        "id": 555601275,
-        "avgspeed": "30",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Sumatra",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6139552,
             -6.9149332
           ],
@@ -3389,14 +3382,35 @@
             -6.9156373
           ],
           [
-            107.6138099,
-            -6.9157805
+            107.6138145,
+            -6.9157591
+          ],
+          [
+            107.6138075,
+            -6.9157964
+          ],
+          [
+            107.6137957,
+            -6.9158688
+          ],
+          [
+            107.6137272,
+            -6.9162973
+          ],
+          [
+            107.6137087,
+            -6.9163993
+          ],
+          [
+            107.6135654,
+            -6.9171914
           ]
         ]
       },
       "properties": {
-        "id": 555601276,
+        "id": 555601275,
         "avgspeed": "30",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong|Naripan;Asia Afrika;Lengkong",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
@@ -4406,46 +4420,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6138036,
-            -6.9158186
-          ],
-          [
-            107.6137957,
-            -6.9158688
-          ],
-          [
-            107.6137272,
-            -6.9162973
-          ],
-          [
-            107.6137087,
-            -6.9163993
-          ],
-          [
-            107.6135654,
-            -6.9171914
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1110342439,
-        "avgspeed": "30",
-        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong|Naripan;Asia Afrika;Lengkong",
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Sumatra",
-        "oneway": "yes",
-        "ref": "2359",
-        "reg_ref": "22-10-2359",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.624396,
             -6.9237055
           ],
@@ -4989,8 +4963,8 @@
             -6.9226234
           ],
           [
-            107.6194125,
-            -6.9225967
+            107.6195437,
+            -6.9226161
           ]
         ]
       },

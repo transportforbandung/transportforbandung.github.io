@@ -397,6 +397,7 @@
       "properties": {
         "id": 318481950,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "destination:lanes": "Cikutra;Cicaheum;Ujungberung|Cikutra;Cicaheum;Ujungberung|Antapani;Kiaracondong;Binong;Samsat|Antapani;Kiaracondong;Binong;Samsat",
         "highway": "primary",
         "lanes": "4",
@@ -486,6 +487,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "surface": "asphalt",
         "turn:lanes": "right|right"
       }
     },
@@ -860,62 +862,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5910269,
-            -6.9435481
-          ],
-          [
-            107.5910603,
-            -6.9434929
-          ],
-          [
-            107.5910903,
-            -6.9434463
-          ],
-          [
-            107.5911028,
-            -6.9434233
-          ],
-          [
-            107.5911203,
-            -6.9433931
-          ],
-          [
-            107.5912147,
-            -6.9432302
-          ],
-          [
-            107.591257,
-            -6.9431573
-          ],
-          [
-            107.5913003,
-            -6.9430856
-          ],
-          [
-            107.5913435,
-            -6.9430138
-          ],
-          [
-            107.5914686,
-            -6.9428144
-          ],
-          [
-            107.5916513,
-            -6.9425217
-          ],
-          [
-            107.5918451,
-            -6.942203
-          ],
-          [
-            107.5918647,
-            -6.9421708
-          ],
-          [
-            107.59192,
-            -6.9420837
-          ],
-          [
             107.5920724,
             -6.9418438
           ],
@@ -1086,6 +1032,7 @@
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "no",
+        "parking:both": "no",
         "ref": "378",
         "surface": "asphalt"
       }
@@ -1490,6 +1437,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "378",
         "surface": "asphalt"
       }
@@ -1528,12 +1476,12 @@
             -6.9201253
           ],
           [
-            107.6309827,
-            -6.9200131
+            107.6309858,
+            -6.9200009
           ],
           [
-            107.630993,
-            -6.9199735
+            107.6309953,
+            -6.919962
           ]
         ]
       },
@@ -2820,8 +2768,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.630993,
-            -6.9199735
+            107.6309953,
+            -6.919962
           ],
           [
             107.63104,
@@ -3186,6 +3134,85 @@
         "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "left|through|through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5910269,
+            -6.9435481
+          ],
+          [
+            107.5910603,
+            -6.9434929
+          ],
+          [
+            107.5910903,
+            -6.9434463
+          ],
+          [
+            107.5911028,
+            -6.9434233
+          ],
+          [
+            107.5911203,
+            -6.9433931
+          ],
+          [
+            107.5912147,
+            -6.9432302
+          ],
+          [
+            107.591257,
+            -6.9431573
+          ],
+          [
+            107.5913003,
+            -6.9430856
+          ],
+          [
+            107.5913435,
+            -6.9430138
+          ],
+          [
+            107.5914686,
+            -6.9428144
+          ],
+          [
+            107.5916513,
+            -6.9425217
+          ],
+          [
+            107.5918451,
+            -6.942203
+          ],
+          [
+            107.5918647,
+            -6.9421708
+          ],
+          [
+            107.59192,
+            -6.9420837
+          ],
+          [
+            107.5920724,
+            -6.9418438
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1459643277,
+        "alt_name": "Jalan Kopo",
+        "flood_prone": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kyai Haji Wahid Hasyim",
+        "ref": "106",
+        "reg_ref": "22-00-106-11K",
+        "surface": "asphalt"
       }
     }
   ]

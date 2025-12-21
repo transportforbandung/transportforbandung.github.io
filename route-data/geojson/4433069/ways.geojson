@@ -330,6 +330,7 @@
         "motor_vehicle": "yes",
         "name": "Jalan Braga",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -551,6 +552,7 @@
         "lanes": "3",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt",
         "turn:lanes": "left|left;right|right"
@@ -1203,6 +1205,10 @@
           [
             107.6233911,
             -6.9274059
+          ],
+          [
+            107.623318,
+            -6.9276837
           ],
           [
             107.6232698,
@@ -2611,12 +2617,12 @@
             -6.9169008
           ],
           [
-            107.6181716,
-            -6.9168731
+            107.6181745,
+            -6.9168575
           ],
           [
-            107.6181773,
-            -6.9168399
+            107.6181796,
+            -6.9168277
           ],
           [
             107.6182013,
@@ -2801,6 +2807,7 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "1",
+        "lit": "yes",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
         "oneway": "yes",
@@ -3743,6 +3750,7 @@
         "motor_vehicle": "yes",
         "name": "Jalan Perintis Kemerdekaan",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -4416,6 +4424,7 @@
         "id": 1196988788,
         "destination:backward": "Gedebage;Kiaracondong;Mohammad Toha",
         "destination:forward": "Pasar Gedebage;Pamekar Raya",
+        "flood_prone": "yes",
         "highway": "secondary_link"
       }
     },
@@ -4482,6 +4491,7 @@
       },
       "properties": {
         "id": 1196988798,
+        "flood_prone": "yes",
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
@@ -5807,6 +5817,10 @@
           [
             107.6269089,
             -6.9340019
+          ],
+          [
+            107.6269643,
+            -6.9338233
           ],
           [
             107.6270113,

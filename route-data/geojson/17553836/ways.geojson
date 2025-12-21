@@ -249,6 +249,39 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5889396,
+            -6.9145084
+          ],
+          [
+            107.588866,
+            -6.9144206
+          ],
+          [
+            107.5887699,
+            -6.9143283
+          ],
+          [
+            107.5885486,
+            -6.9141236
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4625281,
+        "avgspeed": "20",
+        "highway": "secondary",
+        "name": "Jalan Ciroyom",
+        "oneway": "no",
+        "ref": "1082",
+        "reg_ref": "22-10-1082"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5962548,
             -6.8783299
           ],
@@ -2517,6 +2550,43 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5890644,
+            -6.914151
+          ],
+          [
+            107.5890593,
+            -6.9142395
+          ],
+          [
+            107.5890483,
+            -6.9143589
+          ],
+          [
+            107.5890128,
+            -6.9144475
+          ],
+          [
+            107.5889396,
+            -6.9145084
+          ]
+        ]
+      },
+      "properties": {
+        "id": 555629087,
+        "avgspeed": "15",
+        "highway": "secondary",
+        "name": "Jalan Arjuna",
+        "oneway": "yes",
+        "ref": "1007",
+        "reg_ref": "22-10-1007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5959262,
             -6.9065893
           ],
@@ -3986,7 +4056,7 @@
         "highway": "primary",
         "lanes": "2",
         "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dokter Setiabudi",
+        "name": "Jalan Dr. Setiabudi",
         "oneway": "no",
         "ref": "249",
         "short_name": "Jalan Dr. Setiabudhi",

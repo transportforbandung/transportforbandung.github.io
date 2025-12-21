@@ -385,7 +385,7 @@
       "properties": {
         "id": 105231309,
         "bridge": "yes",
-        "highway": "primary",
+        "highway": "tertiary",
         "lanes": "3",
         "layer": "1",
         "name": "Jalan Lengkong Besar",
@@ -1460,7 +1460,9 @@
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Jalan Hasanudin",
-        "parking:both": "no",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "surface": "asphalt"
       }
     },
@@ -1869,24 +1871,117 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6212119,
-            -6.8670778
+            107.6258308,
+            -6.8633515
           ],
           [
-            107.62112,
-            -6.8672823
+            107.6257288,
+            -6.8633156
           ],
           [
-            107.6208429,
-            -6.8672088
+            107.6254359,
+            -6.863256
+          ],
+          [
+            107.6253225,
+            -6.8632383
+          ],
+          [
+            107.6252469,
+            -6.863233
+          ],
+          [
+            107.62521,
+            -6.8632302
+          ],
+          [
+            107.6251572,
+            -6.8632365
+          ],
+          [
+            107.6251102,
+            -6.8632411
+          ],
+          [
+            107.6250315,
+            -6.863261
+          ],
+          [
+            107.6249591,
+            -6.86329
+          ],
+          [
+            107.6249041,
+            -6.8633221
+          ],
+          [
+            107.6248069,
+            -6.8633788
+          ],
+          [
+            107.6246534,
+            -6.8634784
+          ],
+          [
+            107.6245821,
+            -6.8635247
+          ],
+          [
+            107.6243344,
+            -6.8637055
+          ],
+          [
+            107.6242332,
+            -6.8637903
+          ],
+          [
+            107.6241992,
+            -6.8638187
+          ],
+          [
+            107.6241423,
+            -6.8638781
+          ],
+          [
+            107.624106,
+            -6.8639295
+          ],
+          [
+            107.624031,
+            -6.8640482
+          ],
+          [
+            107.6239435,
+            -6.8642353
+          ],
+          [
+            107.6238875,
+            -6.8643595
+          ],
+          [
+            107.623866,
+            -6.8643922
+          ],
+          [
+            107.6238634,
+            -6.8643961
+          ],
+          [
+            107.6238384,
+            -6.8644167
           ]
         ]
       },
       "properties": {
-        "id": 377397439,
-        "highway": "service",
-        "name": "Terminal Dago",
-        "oneway": "yes"
+        "id": 358799393,
+        "alt_name": "Jalan Dago",
+        "destination:backward": "Pakar;Resort;Golf;Cigadung",
+        "destination:forward": "Jajaway;Giri;Elos;Simpang",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "no"
       }
     },
     {
@@ -1922,30 +2017,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6138099,
-            -6.9157805
-          ],
-          [
-            107.6138036,
-            -6.9158186
-          ]
-        ]
-      },
-      "properties": {
-        "id": 555601275,
-        "avgspeed": "30",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Sumatra",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6139552,
             -6.9149332
           ],
@@ -1954,14 +2025,35 @@
             -6.9156373
           ],
           [
-            107.6138099,
-            -6.9157805
+            107.6138145,
+            -6.9157591
+          ],
+          [
+            107.6138075,
+            -6.9157964
+          ],
+          [
+            107.6137957,
+            -6.9158688
+          ],
+          [
+            107.6137272,
+            -6.9162973
+          ],
+          [
+            107.6137087,
+            -6.9163993
+          ],
+          [
+            107.6135654,
+            -6.9171914
           ]
         ]
       },
       "properties": {
-        "id": 555601276,
+        "id": 555601275,
         "avgspeed": "30",
+        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong|Naripan;Asia Afrika;Lengkong",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sumatra",
@@ -1969,6 +2061,173 @@
         "ref": "2359",
         "reg_ref": "22-10-2359",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6210315,
+            -6.8664175
+          ],
+          [
+            107.6209571,
+            -6.8666587
+          ],
+          [
+            107.6209442,
+            -6.866704
+          ]
+        ]
+      },
+      "properties": {
+        "id": 566883405,
+        "alt_name": "Jalan Dago",
+        "destination:backward": "Citra Green;Jajaway;Giri;Pakar",
+        "destination:forward": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6221956,
+            -6.8652281
+          ],
+          [
+            107.6219105,
+            -6.8654294
+          ],
+          [
+            107.6216825,
+            -6.8655422
+          ],
+          [
+            107.6214718,
+            -6.8656235
+          ],
+          [
+            107.6213783,
+            -6.8656843
+          ],
+          [
+            107.6213318,
+            -6.8657216
+          ],
+          [
+            107.6212724,
+            -6.8657895
+          ],
+          [
+            107.6212138,
+            -6.8658951
+          ],
+          [
+            107.6211687,
+            -6.8659986
+          ],
+          [
+            107.6211032,
+            -6.8661989
+          ],
+          [
+            107.6210315,
+            -6.8664175
+          ]
+        ]
+      },
+      "properties": {
+        "id": 568085148,
+        "alt_name": "Jalan Dago",
+        "destination:backward": "Jajaway;Giri;Pakar;Resort",
+        "destination:forward": "Elos;Pojok;Tubagus Ismail;Simpang",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6221956,
+            -6.8652281
+          ],
+          [
+            107.6223016,
+            -6.8651835
+          ],
+          [
+            107.6225451,
+            -6.8650353
+          ],
+          [
+            107.6230386,
+            -6.8647116
+          ],
+          [
+            107.6231641,
+            -6.8646661
+          ],
+          [
+            107.6233288,
+            -6.8645823
+          ],
+          [
+            107.6234072,
+            -6.8645128
+          ],
+          [
+            107.6234335,
+            -6.8644926
+          ],
+          [
+            107.6235083,
+            -6.8644733
+          ],
+          [
+            107.623615,
+            -6.864456
+          ],
+          [
+            107.6236863,
+            -6.86445
+          ],
+          [
+            107.6237802,
+            -6.8644351
+          ],
+          [
+            107.6238384,
+            -6.8644167
+          ]
+        ]
+      },
+      "properties": {
+        "id": 568085149,
+        "alt_name": "Jalan Dago",
+        "destination:backward": "Jajaway;Giri;Elos;Pojok",
+        "destination:forward": "Pakar;Resort;Golf;Cigadung",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "no"
       }
     },
     {
@@ -2437,6 +2696,64 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6209351,
+            -6.8668623
+          ],
+          [
+            107.620889,
+            -6.8670356
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1073721511,
+        "alt_name": "Jalan Dago",
+        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6209442,
+            -6.866704
+          ],
+          [
+            107.6209483,
+            -6.8668113
+          ],
+          [
+            107.6209351,
+            -6.8668623
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1073721512,
+        "alt_name": "Jalan Dago",
+        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6208429,
             -6.8672088
           ],
@@ -2501,46 +2818,6 @@
         "name": "Jalan Aceh",
         "oneway": "yes",
         "smoothness": "excellent",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6138036,
-            -6.9158186
-          ],
-          [
-            107.6137957,
-            -6.9158688
-          ],
-          [
-            107.6137272,
-            -6.9162973
-          ],
-          [
-            107.6137087,
-            -6.9163993
-          ],
-          [
-            107.6135654,
-            -6.9171914
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1110342439,
-        "avgspeed": "30",
-        "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong|Naripan;Asia Afrika;Lengkong",
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Sumatra",
-        "oneway": "yes",
-        "ref": "2359",
-        "reg_ref": "22-10-2359",
         "surface": "asphalt"
       }
     },
@@ -2971,6 +3248,33 @@
         "lanes": "2",
         "name": "Jalan Dipatiukur",
         "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.620889,
+            -6.8670356
+          ],
+          [
+            107.6208429,
+            -6.8672088
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1279857972,
+        "alt_name": "Jalan Dago",
+        "destination": "Pojok;Tubagus Ismail;Simpang;Dipati Ukur",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Ir. H. Djuanda",
+        "official_name": "Jalan Insinyur Haji Djuanda",
+        "oneway": "yes",
         "surface": "asphalt"
       }
     },
@@ -3431,6 +3735,106 @@
         "oneway": "yes",
         "sidewalk": "separate",
         "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6262609,
+            -6.865122
+          ],
+          [
+            107.6262916,
+            -6.8650403
+          ],
+          [
+            107.6263111,
+            -6.8649746
+          ],
+          [
+            107.6263279,
+            -6.8649158
+          ],
+          [
+            107.6263417,
+            -6.8648466
+          ],
+          [
+            107.626382,
+            -6.8646377
+          ],
+          [
+            107.6264262,
+            -6.8642856
+          ],
+          [
+            107.626435,
+            -6.8642052
+          ],
+          [
+            107.6264343,
+            -6.8641271
+          ],
+          [
+            107.6264245,
+            -6.8640062
+          ],
+          [
+            107.6264061,
+            -6.8639
+          ],
+          [
+            107.6263699,
+            -6.8638378
+          ],
+          [
+            107.6263361,
+            -6.8637902
+          ],
+          [
+            107.6261766,
+            -6.8636324
+          ],
+          [
+            107.6259528,
+            -6.8634381
+          ],
+          [
+            107.6258308,
+            -6.8633515
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1458243357,
+        "highway": "tertiary",
+        "name": "Jalan Raya Golf",
+        "oneway": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6262609,
+            -6.865122
+          ],
+          [
+            107.6263618,
+            -6.8651759
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1458243358,
+        "highway": "unclassified",
+        "name": "Jalan Raya Dago Resort",
         "surface": "asphalt"
       }
     }

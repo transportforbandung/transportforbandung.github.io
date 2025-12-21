@@ -361,6 +361,7 @@
       },
       "properties": {
         "id": 235830733,
+        "alt_name": "Jalan Wastukencana",
         "cycleway:left": "lane",
         "cycleway:left:lane": "advisory",
         "cycleway:right": "no",
@@ -368,7 +369,8 @@
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
-        "name": "Jalan Wastukencana",
+        "name": "Jalan Wastukancana",
+        "note": "This street's original name is \"Wastukancana\", not \"Wastukencana\" based on the official address of Bandung's City Hall and printed wayfinding in some places.",
         "oneway": "no",
         "sidewalk": "separate",
         "smoothness": "intermediate",
@@ -696,6 +698,7 @@
       "properties": {
         "id": 271685672,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -1577,70 +1580,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.633615,
-            -6.9828912
-          ],
-          [
-            107.633572,
-            -6.9830355
-          ],
-          [
-            107.6335615,
-            -6.9830663
-          ],
-          [
-            107.6335302,
-            -6.9831657
-          ],
-          [
-            107.6335161,
-            -6.9832054
-          ],
-          [
-            107.6334542,
-            -6.9834001
-          ],
-          [
-            107.6334443,
-            -6.9834337
-          ],
-          [
-            107.6333645,
-            -6.9836962
-          ],
-          [
-            107.633295,
-            -6.9839307
-          ],
-          [
-            107.63319,
-            -6.9842659
-          ],
-          [
-            107.6331142,
-            -6.9845196
-          ],
-          [
-            107.6330944,
-            -6.984586
-          ],
-          [
-            107.6330745,
-            -6.9846524
-          ],
-          [
-            107.6329877,
-            -6.9849885
-          ],
-          [
-            107.6329841,
-            -6.98501
-          ],
-          [
-            107.632947,
-            -6.985235
-          ],
-          [
             107.6328922,
             -6.9855671
           ],
@@ -1697,6 +1636,7 @@
       "properties": {
         "id": 385695765,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -2372,36 +2312,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6101724,
-            -6.9153859
+            107.6101984,
+            -6.9153866
           ],
           [
-            107.6101607,
+            107.6101877,
             -6.9155247
           ],
           [
-            107.6101581,
-            -6.9155557
-          ],
-          [
-            107.610154,
+            107.610182,
             -6.915607
           ],
           [
-            107.6101093,
+            107.6101321,
             -6.9161683
           ],
           [
-            107.610095,
-            -6.9163151
+            107.6101178,
+            -6.91631
           ],
           [
-            107.6100781,
-            -6.9164886
+            107.6101057,
+            -6.916398
           ],
           [
-            107.610076,
-            -6.9165099
+            107.6100886,
+            -6.9165108
           ],
           [
             107.610072,
@@ -2761,6 +2697,7 @@
       "properties": {
         "id": 1079416048,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -3774,8 +3711,8 @@
             -6.914166
           ],
           [
-            107.6102409,
-            -6.914604
+            107.6102535,
+            -6.9146071
           ]
         ]
       },
@@ -3824,12 +3761,12 @@
             -7.0059543
           ],
           [
-            107.6243005,
-            -7.0059606
+            107.6242944,
+            -7.0059525
           ],
           [
             107.6240779,
-            -7.005949
+            -7.0059551
           ],
           [
             107.6235977,
@@ -4076,24 +4013,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6101827,
-            -6.9152463
+            107.610206,
+            -6.915247
           ],
           [
-            107.6101793,
-            -6.9152832
+            107.6102046,
+            -6.9152669
           ],
           [
-            107.6101765,
-            -6.9153226
+            107.6102025,
+            -6.915307
           ],
           [
-            107.6101743,
-            -6.915352
-          ],
-          [
-            107.6101724,
-            -6.9153859
+            107.6101984,
+            -6.9153866
           ]
         ]
       },
@@ -4132,6 +4065,7 @@
       "properties": {
         "id": 1429019089,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -4158,6 +4092,7 @@
       "properties": {
         "id": 1429019090,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -4184,6 +4119,7 @@
       "properties": {
         "id": 1429019091,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -4214,6 +4150,7 @@
       "properties": {
         "id": 1429019092,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -4240,6 +4177,7 @@
       "properties": {
         "id": 1429019093,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -4266,6 +4204,7 @@
       "properties": {
         "id": 1429019094,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -4292,6 +4231,7 @@
       "properties": {
         "id": 1429019095,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -4322,6 +4262,7 @@
       "properties": {
         "id": 1429019096,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Terusan Bojongsoang",
@@ -5091,12 +5032,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6102409,
-            -6.914604
+            107.6102535,
+            -6.9146071
           ],
           [
-            107.6101827,
-            -6.9152463
+            107.610206,
+            -6.915247
           ]
         ]
       },
@@ -6033,6 +5974,91 @@
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.633615,
+            -6.9828912
+          ],
+          [
+            107.633572,
+            -6.9830355
+          ],
+          [
+            107.6335615,
+            -6.9830663
+          ],
+          [
+            107.6335302,
+            -6.9831657
+          ],
+          [
+            107.6335161,
+            -6.9832054
+          ],
+          [
+            107.6334542,
+            -6.9834001
+          ],
+          [
+            107.6334443,
+            -6.9834337
+          ],
+          [
+            107.6333645,
+            -6.9836962
+          ],
+          [
+            107.633295,
+            -6.9839307
+          ],
+          [
+            107.63319,
+            -6.9842659
+          ],
+          [
+            107.6331142,
+            -6.9845196
+          ],
+          [
+            107.6330944,
+            -6.984586
+          ],
+          [
+            107.6330745,
+            -6.9846524
+          ],
+          [
+            107.6329877,
+            -6.9849885
+          ],
+          [
+            107.6329841,
+            -6.98501
+          ],
+          [
+            107.632947,
+            -6.985235
+          ],
+          [
+            107.6328922,
+            -6.9855671
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1459642132,
+        "avgspeed": "25",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Bojongsoang",
+        "ref": "365",
+        "source": "Yahoo hires"
       }
     }
   ]
