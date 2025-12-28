@@ -4930,7 +4930,7 @@
       },
       "properties": {
         "id": 3380452739,
-        "name": "ITB Ganesha A",
+        "name": "ITB Ganesha B",
         "shelter": "yes",
         "pole": "no",
         "lit": "no",
@@ -5405,9 +5405,9 @@
         "name": "Leuwipanjang Soekarno Hatta",
         "shelter": "yes",
         "pole": "totem",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "yes",
+        "bench": "yes",
+        "bin": "no",
         "routes": [
           4308486,
           4649692,
@@ -11690,8 +11690,8 @@
         "name": "Taman Tegalega 3",
         "shelter": "no",
         "pole": "traffic_sign",
-        "lit": null,
-        "bench": null,
+        "lit": "no",
+        "bench": "yes",
         "bin": null,
         "routes": [
           4635390,
@@ -11719,9 +11719,9 @@
         "name": "Pasar Tegalega",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           5738885,
           18770906
@@ -12311,9 +12311,9 @@
         "name": "Jalan Ibu Inggit Garnasih",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4647871,
           5738885,
@@ -12373,7 +12373,7 @@
         "pole": "traffic_sign",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           15555901,
           16644335,
@@ -12399,9 +12399,9 @@
         "name": "Astana Anyar RSIA Kota Bandung",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           14298213,
           16646484,
@@ -13490,7 +13490,7 @@
         "pole": "traffic_sign",
         "lit": null,
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4294191,
           4294474,
@@ -13585,7 +13585,7 @@
         "pole": "traffic_sign",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4425956,
           14298213,
@@ -13615,7 +13615,7 @@
         "pole": "traffic_sign",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           14365267,
           16677494
@@ -16292,7 +16292,7 @@
         "shelter": "yes",
         "pole": "traffic_sign",
         "lit": null,
-        "bench": null,
+        "bench": "yes",
         "bin": null,
         "routes": [
           14298213,
@@ -16641,9 +16641,9 @@
         "name": "Seberang Terminal Leuwipanjang",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4308486,
           4807424,
@@ -17516,8 +17516,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.832924,
-          -6.9814155
+          107.8329158,
+          -6.9814375
         ]
       },
       "properties": {
@@ -19579,7 +19579,7 @@
         "pole": "totem",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4652619,
           16646697
@@ -20507,7 +20507,7 @@
         "pole": "no",
         "lit": null,
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           16677494
         ],
@@ -20881,7 +20881,7 @@
       },
       "properties": {
         "id": 12813237914,
-        "name": "ITB Ganesha B",
+        "name": "ITB Ganesha A",
         "shelter": "yes",
         "pole": "no",
         "lit": "no",
@@ -23892,7 +23892,7 @@
         "pole": "totem",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           5517546,
           15555901,
@@ -28222,9 +28222,9 @@
         "name": "Jalan Emong - BPI",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "yes",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -28961,7 +28961,7 @@
         "name": "Gang Moch. Mesri Dalam",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "yes",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -29776,6 +29776,28 @@
           19969548
         ],
         "route_count": 4,
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6005026,
+          -6.9287218
+        ]
+      },
+      "properties": {
+        "id": 13404324148,
+        "name": "Jalan Entit",
+        "shelter": "no",
+        "pole": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
+        "routes": [],
+        "route_count": 0,
         "category": "8_shelter_none_pole_none"
       }
     }
