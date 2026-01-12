@@ -27,7 +27,7 @@
         "lanes": "2",
         "name": "Jalan Nanjung",
         "oneway": "yes",
-        "ref": "171"
+        "ref": "170"
       }
     },
     {
@@ -54,7 +54,7 @@
         "layer": "1",
         "name": "Jalan Nanjung",
         "oneway": "yes",
-        "ref": "171"
+        "ref": "170"
       }
     },
     {
@@ -87,8 +87,20 @@
             -6.9010791
           ],
           [
-            107.5355067,
-            -6.9014966
+            107.5355893,
+            -6.9013573
+          ],
+          [
+            107.5355735,
+            -6.9013848
+          ],
+          [
+            107.5355578,
+            -6.9014123
+          ],
+          [
+            107.5355102,
+            -6.9014954
           ],
           [
             107.5354538,
@@ -320,8 +332,10 @@
         "avgspeed": "30",
         "bridge": "yes",
         "highway": "primary",
+        "lanes": "2",
         "layer": "1",
-        "name": "Cisaat",
+        "name": "Jalan Patrol-Nanjung",
+        "ref": "171",
         "source": "Bing"
       }
     },
@@ -756,7 +770,9 @@
         "id": 166645694,
         "avgspeed": "30",
         "highway": "primary",
-        "name": "Cisaat"
+        "lanes": "2",
+        "name": "Jalan Patrol-Nanjung",
+        "ref": "171"
       }
     },
     {
@@ -769,8 +785,8 @@
             -7.0277389
           ],
           [
-            107.5211784,
-            -7.0280392
+            107.5211824,
+            -7.0279953
           ]
         ]
       },
@@ -778,7 +794,9 @@
         "id": 176011208,
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Raya Soreang",
         "oneway": "yes",
+        "ref": "587",
         "surface": "asphalt"
       }
     },
@@ -865,6 +883,7 @@
         "id": 239951087,
         "highway": "trunk",
         "lanes": "2",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -1591,7 +1610,7 @@
         "id": 239951088,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -1692,7 +1711,10 @@
       },
       "properties": {
         "id": 264410200,
-        "highway": "primary"
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Patrol-Nanjung",
+        "ref": "171"
       }
     },
     {
@@ -1701,12 +1723,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5245835,
-            -7.0210642
+            107.5245876,
+            -7.0210671
           ],
           [
-            107.5245516,
-            -7.0210879
+            107.52456,
+            -7.021092
           ],
           [
             107.5244098,
@@ -1810,6 +1832,8 @@
         "id": 264410201,
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Terusan Cipatik",
+        "ref": "588",
         "surface": "asphalt"
       }
     },
@@ -1871,7 +1895,9 @@
         "id": 339246669,
         "highway": "secondary",
         "lanes": "2",
-        "oneway": "yes"
+        "name": "Jalan Raya Soreang",
+        "oneway": "yes",
+        "ref": "587"
       }
     },
     {
@@ -2231,7 +2257,7 @@
         "lanes": "2",
         "name": "Jalan Nanjung",
         "oneway": "yes",
-        "ref": "171"
+        "ref": "170"
       }
     },
     {
@@ -2294,7 +2320,8 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
-        "name": "Cisaat"
+        "name": "Jalan Patrol-Nanjung",
+        "ref": "171"
       }
     },
     {
@@ -2726,7 +2753,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Nanjung",
-        "ref": "171"
+        "ref": "170"
       }
     },
     {
@@ -2774,7 +2801,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -2853,7 +2880,7 @@
         "id": 562361870,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -2934,7 +2961,9 @@
         "id": 570153169,
         "avgspeed": "30",
         "highway": "primary",
-        "name": "Cisaat"
+        "lanes": "2",
+        "name": "Jalan Patrol-Nanjung",
+        "ref": "171"
       }
     },
     {
@@ -3448,7 +3477,9 @@
         "id": 679445352,
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Terusan Cipatik",
         "oneway": "yes",
+        "ref": "588",
         "surface": "asphalt"
       }
     },
@@ -3458,28 +3489,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5211784,
-            -7.0280392
+            107.5211824,
+            -7.0279953
           ],
           [
-            107.5211105,
-            -7.0280726
+            107.5210864,
+            -7.02805
           ],
           [
-            107.521066,
-            -7.0280927
+            107.5210472,
+            -7.0280766
           ],
           [
-            107.5210415,
-            -7.0281049
-          ],
-          [
-            107.5210157,
-            -7.0281198
-          ],
-          [
-            107.5209827,
-            -7.0281387
+            107.5209736,
+            -7.0281311
           ],
           [
             107.5208731,
@@ -3491,7 +3514,9 @@
         "id": 682668361,
         "highway": "secondary",
         "lanes": "2",
-        "oneway": "yes"
+        "name": "Jalan Raya Soreang",
+        "oneway": "yes",
+        "ref": "587"
       }
     },
     {
@@ -3515,7 +3540,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -3689,6 +3714,14 @@
             -7.0053251
           ],
           [
+            107.5262693,
+            -7.0051116
+          ],
+          [
+            107.5262757,
+            -7.0050896
+          ],
+          [
             107.5263675,
             -7.0047717
           ],
@@ -3842,7 +3875,7 @@
         "id": 684398732,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -3949,7 +3982,7 @@
         "id": 686097730,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -3974,7 +4007,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -4412,7 +4445,7 @@
         "id": 891817900,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -4468,7 +4501,7 @@
         "id": 897868093,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -4587,7 +4620,7 @@
         "lanes": "1",
         "name": "Jalan Nanjung",
         "oneway": "yes",
-        "ref": "171"
+        "ref": "170"
       }
     },
     {
@@ -4797,7 +4830,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -5143,6 +5176,10 @@
             -6.9745248
           ],
           [
+            107.5339715,
+            -6.9744992
+          ],
+          [
             107.5340237,
             -6.9743288
           ],
@@ -5157,26 +5194,6 @@
           [
             107.5340788,
             -6.973947
-          ],
-          [
-            107.5340701,
-            -6.973746
-          ],
-          [
-            107.5340536,
-            -6.9734906
-          ],
-          [
-            107.5340363,
-            -6.9734067
-          ],
-          [
-            107.5340308,
-            -6.9733912
-          ],
-          [
-            107.53401,
-            -6.9733348
           ]
         ]
       },
@@ -5184,7 +5201,7 @@
         "id": 1110377185,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -5472,7 +5489,8 @@
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Cisaat"
+        "name": "Jalan Patrol-Nanjung",
+        "ref": "171"
       }
     },
     {
@@ -5507,7 +5525,8 @@
         "avgspeed": "30",
         "highway": "primary",
         "lanes": "2",
-        "name": "Cisaat"
+        "name": "Jalan Patrol-Nanjung",
+        "ref": "171"
       }
     },
     {
@@ -5522,6 +5541,10 @@
           [
             107.5379606,
             -6.8815735
+          ],
+          [
+            107.5378852,
+            -6.8816389
           ],
           [
             107.5374338,
@@ -5657,8 +5680,8 @@
             -7.0204065
           ],
           [
-            107.5245835,
-            -7.0210642
+            107.5245876,
+            -7.0210671
           ]
         ]
       },
@@ -5666,7 +5689,48 @@
         "id": 1375151757,
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Terusan Cipatik",
+        "ref": "588",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5340788,
+            -6.973947
+          ],
+          [
+            107.5340701,
+            -6.973746
+          ],
+          [
+            107.5340536,
+            -6.9734906
+          ],
+          [
+            107.5340363,
+            -6.9734067
+          ],
+          [
+            107.5340308,
+            -6.9733912
+          ],
+          [
+            107.53401,
+            -6.9733348
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1464539190,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Raya Batujajar-Soreang",
+        "ref": "10"
       }
     }
   ]

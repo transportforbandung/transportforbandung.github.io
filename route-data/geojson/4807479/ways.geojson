@@ -232,8 +232,8 @@
             -7.0277389
           ],
           [
-            107.5211784,
-            -7.0280392
+            107.5211824,
+            -7.0279953
           ]
         ]
       },
@@ -241,7 +241,9 @@
         "id": 176011208,
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Raya Soreang",
         "oneway": "yes",
+        "ref": "587",
         "surface": "asphalt"
       }
     },
@@ -458,7 +460,9 @@
         "id": 385643868,
         "highway": "secondary",
         "lanes": "2",
-        "oneway": "yes"
+        "name": "Jalan Raya Soreang",
+        "oneway": "yes",
+        "ref": "587"
       }
     },
     {
@@ -939,7 +943,8 @@
         "avgspeed": "25",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Banjaran",
+        "name": "Jalan Raya Soreang",
+        "ref": "587",
         "surface": "asphalt"
       }
     },
@@ -1157,9 +1162,12 @@
       },
       "properties": {
         "id": 782010523,
+        "alt_name": "Jalan Cingcin-Parungserab",
         "highway": "secondary_link",
         "lanes": "1",
-        "oneway": "yes"
+        "name": "Jalan Gading Tutuka",
+        "oneway": "yes",
+        "ref": "552"
       }
     },
     {
@@ -1189,8 +1197,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5211784,
-            -7.0280392
+            107.5211824,
+            -7.0279953
           ],
           [
             107.5211691,
@@ -1307,9 +1315,12 @@
       },
       "properties": {
         "id": 1365080706,
+        "alt_name": "Jalan Cingcin-Parungserab",
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Gading Tutuka",
         "oneway": "yes",
+        "ref": "552",
         "surface": "asphalt"
       }
     },
@@ -1350,9 +1361,12 @@
       },
       "properties": {
         "id": 1365080707,
+        "alt_name": "Jalan Cingcin-Parungserab",
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Gading Tutuka",
         "oneway": "yes",
+        "ref": "552",
         "surface": "asphalt"
       }
     }

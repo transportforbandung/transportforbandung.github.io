@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6223753,
+          -6.8173275
+        ]
+      },
+      "properties": {
+        "id": 7972250032,
+        "bus": "yes",
+        "name": "Pasar Panorama Lembang",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6962377,
+          -6.8247724
+        ]
+      },
+      "properties": {
+        "id": 13450339793,
+        "bus": "yes",
+        "name": "SD Negeri 1 Suntenjaya",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
+}

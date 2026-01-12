@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.3903673,
+          -6.641468
+        ]
+      },
+      "properties": {
+        "id": 13449698694,
+        "bus": "yes",
+        "name": "Kantor Kecamatan Plered",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.3616016,
+          -6.7394024
+        ]
+      },
+      "properties": {
+        "id": 7349739720,
+        "bus": "yes",
+        "name": "Pasar Cipeundeuy",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
+}

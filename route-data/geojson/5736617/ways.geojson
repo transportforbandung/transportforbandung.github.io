@@ -213,6 +213,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Cisirung",
+        "ref": "083",
         "source": "Bing"
       }
     },
@@ -424,6 +425,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Cisirung",
+        "ref": "083",
         "source": "Bing"
       }
     },
@@ -449,6 +451,7 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Cisirung",
+        "ref": "083",
         "source": "Bing"
       }
     },
@@ -487,6 +490,7 @@
         "id": 331405578,
         "highway": "secondary",
         "lanes": "2",
+        "ref": "083",
         "source": "Bing"
       }
     },
@@ -508,9 +512,10 @@
       "properties": {
         "id": 561404694,
         "bridge": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "layer": "1",
         "name": "Jalan Sukamenak",
+        "ref": "159",
         "source": "Bing"
       }
     },
@@ -559,10 +564,11 @@
       },
       "properties": {
         "id": 561404695,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Sukamenak",
+        "ref": "159",
         "source": "Bing"
       }
     },
@@ -608,9 +614,10 @@
       "properties": {
         "id": 571865177,
         "bridge": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "layer": "1",
         "name": "Jalan Sukamenak",
+        "ref": "159",
         "source": "Bing"
       }
     },
@@ -695,9 +702,10 @@
       },
       "properties": {
         "id": 571865180,
-        "highway": "tertiary",
+        "highway": "secondary",
         "motorcycle": "yes",
         "name": "Jalan Sukamenak",
+        "ref": "159",
         "source": "Bing"
       }
     },
@@ -719,9 +727,10 @@
       "properties": {
         "id": 571865186,
         "bridge": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "layer": "1",
         "name": "Jalan Sukamenak",
+        "ref": "159",
         "source": "Bing"
       }
     },
@@ -814,9 +823,10 @@
       },
       "properties": {
         "id": 571865189,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sukamenak",
+        "ref": "159",
         "source": "Bing"
       }
     },
@@ -842,6 +852,7 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Cisirung",
+        "ref": "083",
         "source": "Bing"
       }
     },
@@ -961,6 +972,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Cisirung",
+        "ref": "083",
         "source": "Bing"
       }
     },
@@ -1057,8 +1069,9 @@
       },
       "properties": {
         "id": 572970614,
-        "highway": "tertiary",
-        "name": "Jalan Sukamenak"
+        "highway": "secondary",
+        "name": "Jalan Sukamenak",
+        "ref": "159"
       }
     },
     {
@@ -1083,6 +1096,7 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Cisirung",
+        "ref": "083",
         "source": "Bing"
       }
     },
@@ -1226,6 +1240,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Cisirung",
+        "ref": "083",
         "source": "Bing"
       }
     },
@@ -1277,6 +1292,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Cisirung",
+        "ref": "083",
         "source": "Bing"
       }
     },
@@ -1312,50 +1328,15 @@
           [
             107.5883114,
             -6.9722645
-          ],
-          [
-            107.5882597,
-            -6.9722572
-          ],
-          [
-            107.5881484,
-            -6.9722352
-          ],
-          [
-            107.587962,
-            -6.9721953
-          ],
-          [
-            107.5878574,
-            -6.97218
-          ],
-          [
-            107.5877862,
-            -6.9721646
-          ],
-          [
-            107.5873645,
-            -6.9720762
-          ],
-          [
-            107.5871956,
-            -6.9720373
-          ],
-          [
-            107.5871359,
-            -6.9720236
-          ],
-          [
-            107.5870446,
-            -6.9720053
           ]
         ]
       },
       "properties": {
         "id": 1207378160,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sukamenak",
+        "ref": "083",
         "source": "Bing"
       }
     },
@@ -1471,6 +1452,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Cisirung",
+        "ref": "083",
         "source": "Bing"
       }
     },
@@ -1496,6 +1478,62 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Cisirung",
+        "ref": "083",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5883114,
+            -6.9722645
+          ],
+          [
+            107.5882597,
+            -6.9722572
+          ],
+          [
+            107.5881484,
+            -6.9722352
+          ],
+          [
+            107.587962,
+            -6.9721953
+          ],
+          [
+            107.5878574,
+            -6.97218
+          ],
+          [
+            107.5877862,
+            -6.9721646
+          ],
+          [
+            107.5873645,
+            -6.9720762
+          ],
+          [
+            107.5871956,
+            -6.9720373
+          ],
+          [
+            107.5871359,
+            -6.9720236
+          ],
+          [
+            107.5870446,
+            -6.9720053
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1466282810,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Sukamenak",
         "source": "Bing"
       }
     }

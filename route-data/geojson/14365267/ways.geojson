@@ -215,6 +215,7 @@
         "id": 237830038,
         "highway": "trunk",
         "lanes": "2",
+        "name": "Jalan Terusan Al-Fathu",
         "oneway": "yes",
         "ref": "10"
       }
@@ -364,9 +365,12 @@
       },
       "properties": {
         "id": 237830208,
+        "alt_name": "Jalan Cingcin-Parungserab",
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Gading Tutuka",
         "oneway": "yes",
+        "ref": "552",
         "surface": "asphalt"
       }
     },
@@ -725,6 +729,10 @@
             -6.9357593
           ],
           [
+            107.5926711,
+            -6.9356089
+          ],
+          [
             107.5926348,
             -6.9355874
           ],
@@ -831,6 +839,7 @@
         "foot": "no",
         "highway": "primary",
         "lanes": "3",
+        "maxheight": "5",
         "name": "Jalan Peta",
         "oneway": "yes",
         "ref": "374",
@@ -1369,25 +1378,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.529864,
-            -7.0169822
+            107.5298932,
+            -7.0169949
+          ],
+          [
+            107.5300985,
+            -7.0163348
+          ],
+          [
+            107.5302962,
+            -7.0156203
+          ],
+          [
+            107.5303801,
+            -7.0153427
           ],
           [
             107.5306229,
             -7.014649
           ],
           [
-            107.530779,
-            -7.0141857
+            107.5307204,
+            -7.0143344
+          ],
+          [
+            107.5307317,
+            -7.0142654
           ]
         ]
       },
       "properties": {
         "id": 562361873,
-        "highway": "trunk",
-        "lanes": "3",
-        "name": "Jalan Tol Soreang–Pasir Koja",
-        "oneway": "yes"
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Akses Tol Soreang",
+        "oneway": "yes",
+        "ref": "682",
+        "surface": "concrete",
+        "toll": "no"
       }
     },
     {
@@ -1396,16 +1424,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5312306,
-            -7.0132506
+            107.5312469,
+            -7.0132552
           ],
           [
-            107.5309483,
+            107.5309391,
             -7.0141236
           ],
           [
             107.5307558,
             -7.014719
+          ],
+          [
+            107.5305135,
+            -7.0153678
+          ],
+          [
+            107.5304271,
+            -7.0156232
+          ],
+          [
+            107.5302233,
+            -7.0163702
           ],
           [
             107.5300075,
@@ -1415,10 +1455,13 @@
       },
       "properties": {
         "id": 562361874,
-        "highway": "trunk",
+        "highway": "secondary",
         "lanes": "3",
-        "name": "Jalan Tol Soreang–Pasir Koja",
-        "oneway": "yes"
+        "name": "Jalan Akses Tol Soreang",
+        "oneway": "yes",
+        "ref": "682",
+        "surface": "concrete",
+        "toll": "no"
       }
     },
     {
@@ -1823,7 +1866,8 @@
         "avgspeed": "25",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Banjaran",
+        "name": "Jalan Raya Soreang",
+        "ref": "587",
         "surface": "asphalt"
       }
     },
@@ -1837,14 +1881,14 @@
             -7.0170395
           ],
           [
-            107.529864,
-            -7.0169822
+            107.5298932,
+            -7.0169949
           ]
         ]
       },
       "properties": {
         "id": 571538840,
-        "highway": "trunk_link",
+        "highway": "secondary_link",
         "lanes": "2"
       }
     },
@@ -1874,16 +1918,19 @@
             -7.013113
           ],
           [
-            107.5312306,
-            -7.0132506
+            107.5312469,
+            -7.0132552
           ]
         ]
       },
       "properties": {
         "id": 571538934,
+        "alt_name": "Jalan Cingcin-Parungserab",
         "highway": "secondary",
         "lanes": "2",
-        "oneway": "yes"
+        "name": "Jalan Gading Tutuka",
+        "oneway": "yes",
+        "ref": "552"
       }
     },
     {
@@ -2303,16 +2350,19 @@
             -7.0200579
           ],
           [
-            107.5398293,
-            -7.0196986
+            107.5397853,
+            -7.0196465
           ]
         ]
       },
       "properties": {
         "id": 770421013,
+        "alt_name": "Jalan Cingcin-Parungserab",
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Gading Tutuka",
         "oneway": "yes",
+        "ref": "552",
         "surface": "asphalt"
       }
     },
@@ -2333,9 +2383,12 @@
       },
       "properties": {
         "id": 770421015,
+        "alt_name": "Jalan Cingcin-Parungserab",
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Gading Tutuka",
         "oneway": "yes",
+        "ref": "552",
         "surface": "asphalt"
       }
     },
@@ -2392,50 +2445,6 @@
           [
             107.5448012,
             -6.964571
-          ],
-          [
-            107.5452341,
-            -6.9654715
-          ],
-          [
-            107.5453395,
-            -6.9657055
-          ],
-          [
-            107.5455022,
-            -6.9661091
-          ],
-          [
-            107.545654,
-            -6.9665245
-          ],
-          [
-            107.5457989,
-            -6.9669785
-          ],
-          [
-            107.5459669,
-            -6.9675989
-          ],
-          [
-            107.5460995,
-            -6.9682363
-          ],
-          [
-            107.5461732,
-            -6.9686344
-          ],
-          [
-            107.5462093,
-            -6.9688953
-          ],
-          [
-            107.5462992,
-            -6.9698098
-          ],
-          [
-            107.5463032,
-            -6.9707723
           ]
         ]
       },
@@ -2565,9 +2574,12 @@
       },
       "properties": {
         "id": 780427211,
+        "alt_name": "Jalan Cingcin-Parungserab",
         "highway": "secondary",
         "lanes": "2",
-        "oneway": "yes"
+        "name": "Jalan Gading Tutuka",
+        "oneway": "yes",
+        "ref": "552"
       }
     },
     {
@@ -2637,9 +2649,12 @@
       },
       "properties": {
         "id": 782010523,
+        "alt_name": "Jalan Cingcin-Parungserab",
         "highway": "secondary_link",
         "lanes": "1",
-        "oneway": "yes"
+        "name": "Jalan Gading Tutuka",
+        "oneway": "yes",
+        "ref": "552"
       }
     },
     {
@@ -2828,28 +2843,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5398293,
-            -7.0196986
-          ],
-          [
-            107.5397853,
-            -7.0196465
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1112094957,
-        "highway": "secondary",
-        "lanes": "2",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5290841,
             -7.0197549
           ],
@@ -2873,8 +2866,12 @@
       },
       "properties": {
         "id": 1154010150,
-        "highway": "trunk_link",
-        "oneway": "yes"
+        "highway": "secondary",
+        "name": "Jalan Akses Tol Soreang",
+        "oneway": "yes",
+        "ref": "682",
+        "surface": "concrete",
+        "toll": "no"
       }
     },
     {
@@ -3133,9 +3130,12 @@
       },
       "properties": {
         "id": 1267500170,
+        "alt_name": "Jalan Cingcin-Parungserab",
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Gading Tutuka",
         "oneway": "yes",
+        "ref": "552",
         "surface": "asphalt"
       }
     },
@@ -3149,21 +3149,24 @@
             -7.0128549
           ],
           [
-            107.5313444,
-            -7.0129561
+            107.5313497,
+            -7.0129491
           ],
           [
-            107.5312306,
-            -7.0132506
+            107.5312469,
+            -7.0132552
           ]
         ]
       },
       "properties": {
         "id": 1278586391,
-        "highway": "trunk",
+        "highway": "secondary",
         "lanes": "3",
-        "name": "Jalan Tol Soreang–Pasir Koja",
-        "oneway": "yes"
+        "name": "Jalan Akses Tol Soreang",
+        "oneway": "yes",
+        "ref": "682",
+        "surface": "concrete",
+        "toll": "no"
       }
     },
     {
@@ -3176,8 +3179,12 @@
             -7.0170395
           ],
           [
-            107.5293947,
+            107.5293912,
             -7.0188618
+          ],
+          [
+            107.5293184,
+            -7.0190782
           ],
           [
             107.5291163,
@@ -3191,10 +3198,13 @@
       },
       "properties": {
         "id": 1278586392,
-        "highway": "trunk",
+        "highway": "secondary",
         "lanes": "3",
-        "name": "Jalan Tol Soreang–Pasir Koja",
-        "oneway": "yes"
+        "name": "Jalan Akses Tol Soreang",
+        "oneway": "yes",
+        "ref": "682",
+        "surface": "concrete",
+        "toll": "no"
       }
     },
     {
@@ -3263,9 +3273,12 @@
       },
       "properties": {
         "id": 1365080706,
+        "alt_name": "Jalan Cingcin-Parungserab",
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Gading Tutuka",
         "oneway": "yes",
+        "ref": "552",
         "surface": "asphalt"
       }
     },
@@ -3398,6 +3411,124 @@
         "ref": "106",
         "reg_ref": "22-00-106-11K",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5448012,
+            -6.964571
+          ],
+          [
+            107.5452341,
+            -6.9654715
+          ],
+          [
+            107.5453395,
+            -6.9657055
+          ],
+          [
+            107.5455022,
+            -6.9661091
+          ],
+          [
+            107.545654,
+            -6.9665245
+          ],
+          [
+            107.5457989,
+            -6.9669785
+          ],
+          [
+            107.5459669,
+            -6.9675989
+          ],
+          [
+            107.5460995,
+            -6.9682363
+          ],
+          [
+            107.5461732,
+            -6.9686344
+          ],
+          [
+            107.5462093,
+            -6.9688953
+          ],
+          [
+            107.5462992,
+            -6.9698098
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1464539188,
+        "highway": "motorway",
+        "lanes": "2",
+        "motorcycle": "no",
+        "name": "Jalan Tol Soreang–Pasirkoja",
+        "oneway": "yes",
+        "operator": "PT Citra Marga Lintas Jabar",
+        "ref": "4",
+        "short_name": "Jalan Tol Soroja",
+        "toll": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5462992,
+            -6.9698098
+          ],
+          [
+            107.5463032,
+            -6.9707723
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1464539189,
+        "highway": "motorway",
+        "lanes": "2",
+        "motorcycle": "no",
+        "name": "Jalan Tol Soreang–Pasirkoja",
+        "oneway": "yes",
+        "operator": "PT Citra Marga Lintas Jabar",
+        "ref": "4",
+        "short_name": "Jalan Tol Soroja",
+        "toll": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5307317,
+            -7.0142654
+          ],
+          [
+            107.5307636,
+            -7.0141651
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1466011366,
+        "highway": "secondary",
+        "lanes": "3",
+        "name": "Jalan Akses Tol Soreang",
+        "oneway": "yes",
+        "ref": "682",
+        "surface": "concrete",
+        "toll": "no"
       }
     }
   ]

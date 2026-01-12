@@ -133,7 +133,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -696,7 +696,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Raya Bandung - Soreang",
-        "ref": "106-1",
+        "ref": "106",
         "surface": "asphalt"
       }
     },
@@ -728,7 +728,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Raya Bandung - Soreang",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -756,7 +756,8 @@
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "ref": "106-1"
+        "name": "Jalan Raya Bandung - Soreang",
+        "ref": "106"
       }
     },
     {
@@ -769,8 +770,8 @@
             -7.0277389
           ],
           [
-            107.5211784,
-            -7.0280392
+            107.5211824,
+            -7.0279953
           ]
         ]
       },
@@ -778,7 +779,9 @@
         "id": 176011208,
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Raya Soreang",
         "oneway": "yes",
+        "ref": "587",
         "surface": "asphalt"
       }
     },
@@ -1138,7 +1141,9 @@
         "id": 339246669,
         "highway": "secondary",
         "lanes": "2",
-        "oneway": "yes"
+        "name": "Jalan Raya Soreang",
+        "oneway": "yes",
+        "ref": "587"
       }
     },
     {
@@ -1163,7 +1168,7 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Kopo Sayati",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -1342,7 +1347,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -1367,7 +1372,7 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Kopo Sayati",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -1518,7 +1523,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -1617,7 +1622,9 @@
         "id": 571219606,
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Raya Soreang",
         "oneway": "yes",
+        "ref": "587",
         "surface": "asphalt"
       }
     },
@@ -1702,7 +1709,7 @@
         "lanes": "2",
         "name": "Jalan Raya Bandung - Soreang",
         "oneway": "yes",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -1725,7 +1732,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Raya Bandung - Soreang",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -1757,11 +1764,11 @@
       },
       "properties": {
         "id": 571538838,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "1",
-        "name": "Jalan Gandasari",
+        "name": "Jalan Segitiga Warunglobak",
         "oneway": "yes",
-        "ref": "106-1",
+        "ref": "189",
         "surface": "asphalt"
       }
     },
@@ -1802,10 +1809,11 @@
       },
       "properties": {
         "id": 571538947,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "1",
+        "name": "Jalan Segitiga Warunglobak",
         "oneway": "yes",
-        "ref": "106-1"
+        "ref": "189"
       }
     },
     {
@@ -1904,7 +1912,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -1994,6 +2002,10 @@
             -7.0276078
           ],
           [
+            107.5220249,
+            -7.0275902
+          ],
+          [
             107.5220878,
             -7.0275623
           ],
@@ -2014,8 +2026,12 @@
             -7.0271501
           ],
           [
-            107.524025,
-            -7.02672
+            107.5240219,
+            -7.0267108
+          ],
+          [
+            107.5241219,
+            -7.0266668
           ],
           [
             107.5242893,
@@ -2047,6 +2063,8 @@
         "id": 679445357,
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Raya Soreang",
+        "ref": "587",
         "surface": "asphalt"
       }
     },
@@ -2056,28 +2074,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5211784,
-            -7.0280392
+            107.5211824,
+            -7.0279953
           ],
           [
-            107.5211105,
-            -7.0280726
+            107.5210864,
+            -7.02805
           ],
           [
-            107.521066,
-            -7.0280927
+            107.5210472,
+            -7.0280766
           ],
           [
-            107.5210415,
-            -7.0281049
-          ],
-          [
-            107.5210157,
-            -7.0281198
-          ],
-          [
-            107.5209827,
-            -7.0281387
+            107.5209736,
+            -7.0281311
           ],
           [
             107.5208731,
@@ -2089,7 +2099,9 @@
         "id": 682668361,
         "highway": "secondary",
         "lanes": "2",
-        "oneway": "yes"
+        "name": "Jalan Raya Soreang",
+        "oneway": "yes",
+        "ref": "587"
       }
     },
     {
@@ -2113,7 +2125,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -2149,10 +2161,11 @@
       },
       "properties": {
         "id": 842503306,
-        "highway": "primary",
+        "highway": "secondary",
         "lanes": "1",
+        "name": "Jalan Segitiga Warunglobak",
         "oneway": "yes",
-        "ref": "106-1",
+        "ref": "189",
         "surface": "asphalt"
       }
     },
@@ -2218,6 +2231,10 @@
             -7.0185526
           ],
           [
+            107.543334,
+            -7.0187688
+          ],
+          [
             107.5430289,
             -7.0189549
           ],
@@ -2264,7 +2281,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Raya Bandung - Soreang",
-        "ref": "106-1",
+        "ref": "106",
         "surface": "asphalt"
       }
     },
@@ -2305,7 +2322,7 @@
         "lanes": "1",
         "name": "Jalan Raya Bandung - Soreang",
         "oneway": "yes",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -2353,7 +2370,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -2377,7 +2394,7 @@
         "lanes": "1",
         "name": "Jalan Raya Bandung - Soreang",
         "oneway": "yes",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -2401,7 +2418,7 @@
         "lanes": "1",
         "name": "Jalan Raya Bandung - Soreang",
         "oneway": "yes",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -2428,7 +2445,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -2523,7 +2540,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -2578,7 +2595,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -2629,7 +2646,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -2736,7 +2753,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -2794,7 +2811,7 @@
         "highway": "primary",
         "name": "Jalan Kopo Sayati",
         "oneway": "yes",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -2821,7 +2838,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -2845,7 +2862,8 @@
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
         "oneway": "yes",
-        "ref": "106-11K"
+        "ref": "106",
+        "reg_ref": "22-00-106-11K"
       }
     },
     {
@@ -2994,7 +3012,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -3018,7 +3036,7 @@
         "lanes": "2",
         "name": "Jalan Raya Bandung - Soreang",
         "oneway": "yes",
-        "ref": "106-1"
+        "ref": "106"
       }
     },
     {
@@ -3082,7 +3100,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
-        "ref": "106-1"
+        "ref": "106"
       }
     }
   ]

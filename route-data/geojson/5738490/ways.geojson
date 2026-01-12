@@ -7,6 +7,27 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.4576918,
+            -6.9517585
+          ],
+          [
+            107.457704,
+            -6.9514784
+          ]
+        ]
+      },
+      "properties": {
+        "id": 42809470,
+        "highway": "secondary",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.4758684,
             -6.9353972
           ],
@@ -669,74 +690,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.4578867,
-            -6.9510902
-          ],
-          [
-            107.4579057,
-            -6.9511261
-          ],
-          [
-            107.4579182,
-            -6.9512883
-          ],
-          [
-            107.4579143,
-            -6.9514107
-          ],
-          [
-            107.4579008,
-            -6.9518408
-          ],
-          [
-            107.4577582,
-            -6.9518563
-          ],
-          [
-            107.4576511,
-            -6.9518721
-          ]
-        ]
-      },
-      "properties": {
-        "id": 42809492,
-        "highway": "residential",
-        "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.4576867,
-            -6.9511031
-          ],
-          [
-            107.4578433,
-            -6.9511081
-          ],
-          [
-            107.4578867,
-            -6.9510902
-          ]
-        ]
-      },
-      "properties": {
-        "id": 42809501,
-        "highway": "residential",
-        "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5150402,
-            -7.0261508
+            107.5150647,
+            -7.0261589
           ],
           [
             107.515199,
@@ -866,6 +821,7 @@
         "id": 239951087,
         "highway": "trunk",
         "lanes": "2",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -1592,7 +1548,7 @@
         "id": 239951088,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -1610,8 +1566,12 @@
             -7.0269781
           ],
           [
-            107.5150402,
-            -7.0261508
+            107.5149969,
+            -7.0264672
+          ],
+          [
+            107.5150647,
+            -7.0261589
           ]
         ]
       },
@@ -1628,12 +1588,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5245835,
-            -7.0210642
+            107.5245876,
+            -7.0210671
           ],
           [
-            107.5245516,
-            -7.0210879
+            107.52456,
+            -7.021092
           ],
           [
             107.5244098,
@@ -1737,6 +1697,8 @@
         "id": 264410201,
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Terusan Cipatik",
+        "ref": "588",
         "surface": "asphalt"
       }
     },
@@ -1759,7 +1721,9 @@
         "id": 385643862,
         "highway": "secondary",
         "lanes": "2",
-        "oneway": "yes"
+        "name": "Jalan Raya Soreang",
+        "oneway": "yes",
+        "ref": "587"
       }
     },
     {
@@ -1789,7 +1753,9 @@
         "id": 385643868,
         "highway": "secondary",
         "lanes": "2",
-        "oneway": "yes"
+        "name": "Jalan Raya Soreang",
+        "oneway": "yes",
+        "ref": "587"
       }
     },
     {
@@ -2406,7 +2372,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -2485,7 +2451,7 @@
         "id": 562361870,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -2543,16 +2509,16 @@
             -6.9541706
           ],
           [
-            107.4575061,
+            107.4575163,
             -6.9540615
           ],
           [
-            107.4574846,
+            107.457507,
             -6.9540056
           ],
           [
-            107.4574797,
-            -6.953951
+            107.4575061,
+            -6.953955
           ],
           [
             107.4575633,
@@ -2563,12 +2529,12 @@
             -6.9529667
           ],
           [
-            107.4576066,
-            -6.9526591
+            107.457616,
+            -6.9526618
           ],
           [
-            107.4576511,
-            -6.9518721
+            107.4576819,
+            -6.9518641
           ]
         ]
       },
@@ -2656,7 +2622,9 @@
         "id": 679445355,
         "highway": "secondary",
         "lanes": "2",
-        "oneway": "yes"
+        "name": "Jalan Raya Soreang",
+        "oneway": "yes",
+        "ref": "587"
       }
     },
     {
@@ -2774,7 +2742,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -2948,6 +2916,14 @@
             -7.0053251
           ],
           [
+            107.5262693,
+            -7.0051116
+          ],
+          [
+            107.5262757,
+            -7.0050896
+          ],
+          [
             107.5263675,
             -7.0047717
           ],
@@ -3101,7 +3077,7 @@
         "id": 684398732,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -3208,7 +3184,7 @@
         "id": 686097730,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -3233,7 +3209,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -3264,7 +3240,7 @@
         "id": 891817900,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -3295,7 +3271,7 @@
         "id": 897868093,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -3401,12 +3377,12 @@
             -6.948555
           ],
           [
-            107.5210699,
-            -6.948401
+            107.5210566,
+            -6.9483858
           ],
           [
-            107.5210584,
-            -6.9483878
+            107.521051,
+            -6.9483785
           ],
           [
             107.5208867,
@@ -3654,7 +3630,7 @@
         "id": 903385712,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -3679,7 +3655,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -3838,7 +3814,7 @@
         "id": 1110128023,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -3867,7 +3843,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -4213,6 +4189,10 @@
             -6.9745248
           ],
           [
+            107.5339715,
+            -6.9744992
+          ],
+          [
             107.5340237,
             -6.9743288
           ],
@@ -4227,26 +4207,6 @@
           [
             107.5340788,
             -6.973947
-          ],
-          [
-            107.5340701,
-            -6.973746
-          ],
-          [
-            107.5340536,
-            -6.9734906
-          ],
-          [
-            107.5340363,
-            -6.9734067
-          ],
-          [
-            107.5340308,
-            -6.9733912
-          ],
-          [
-            107.53401,
-            -6.9733348
           ]
         ]
       },
@@ -4254,7 +4214,7 @@
         "id": 1110377185,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -4336,7 +4296,7 @@
         "id": 1301231965,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -4346,51 +4306,19 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.4576774,
-            -6.9512185
+            107.4576819,
+            -6.9518641
           ],
           [
-            107.4576867,
-            -6.9511031
+            107.4576918,
+            -6.9517585
           ]
         ]
       },
       "properties": {
-        "id": 1365080703,
+        "id": 1365080702,
         "highway": "secondary",
         "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.4576774,
-            -6.9512185
-          ],
-          [
-            107.4577093,
-            -6.9512306
-          ],
-          [
-            107.4577866,
-            -6.9513144
-          ],
-          [
-            107.4577944,
-            -6.9513397
-          ],
-          [
-            107.45779,
-            -6.9514829
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1365080704,
-        "highway": "service"
       }
     },
     {
@@ -4448,7 +4376,7 @@
         "id": 1365102231,
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Soreang - Cipatik",
+        "name": "Jalan Raya Batujajar-Soreang",
         "ref": "10"
       }
     },
@@ -4482,8 +4410,8 @@
             -7.0204065
           ],
           [
-            107.5245835,
-            -7.0210642
+            107.5245876,
+            -7.0210671
           ]
         ]
       },
@@ -4491,7 +4419,48 @@
         "id": 1375151757,
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Terusan Cipatik",
+        "ref": "588",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5340788,
+            -6.973947
+          ],
+          [
+            107.5340701,
+            -6.973746
+          ],
+          [
+            107.5340536,
+            -6.9734906
+          ],
+          [
+            107.5340363,
+            -6.9734067
+          ],
+          [
+            107.5340308,
+            -6.9733912
+          ],
+          [
+            107.53401,
+            -6.9733348
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1464539190,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Raya Batujajar-Soreang",
+        "ref": "10"
       }
     }
   ]

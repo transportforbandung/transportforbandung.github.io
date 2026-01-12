@@ -2106,12 +2106,12 @@
             -6.8839936
           ],
           [
-            107.6042247,
-            -6.8844139
+            107.6042133,
+            -6.8843933
           ],
           [
-            107.6042802,
-            -6.8845469
+            107.6042213,
+            -6.8844117
           ]
         ]
       },
@@ -4961,6 +4961,62 @@
         "reg_ref": "22-10-2354",
         "sidewalk": "separate",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6042611,
+            -6.884503
+          ],
+          [
+            107.6042802,
+            -6.8845469
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1466015977,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Dr. Setiabudi",
+        "oneway": "yes",
+        "ref": "2340",
+        "reg_ref": "22-10-2340"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6042213,
+            -6.8844117
+          ],
+          [
+            107.6042611,
+            -6.884503
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1466015978,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "avgspeed": "30",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Dr. Setiabudi",
+        "oneway": "yes",
+        "ref": "2340",
+        "reg_ref": "22-10-2340"
       }
     }
   ]

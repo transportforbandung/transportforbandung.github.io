@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.3128712,
+          -7.0229367
+        ]
+      },
+      "properties": {
+        "id": 5847707650,
+        "bus": "yes",
+        "name": "Telkom Gununghalu",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4573026,
+          -6.9510754
+        ]
+      },
+      "properties": {
+        "id": 13446617201,
+        "bus": "yes",
+        "name": "Alun-alun Cililin",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
+}

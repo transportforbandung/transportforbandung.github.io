@@ -458,9 +458,10 @@
       },
       "properties": {
         "id": 239951685,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Jaksa Naranata"
+        "name": "Jalan Jaksa Naranata",
+        "ref": "101"
       }
     },
     {
@@ -1969,7 +1970,8 @@
         "id": 571219053,
         "highway": "secondary",
         "name": "Jalan Anggadireja",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "110"
       }
     },
     {
@@ -2728,7 +2730,9 @@
       "properties": {
         "id": 1079416049,
         "avgspeed": "15",
-        "highway": "tertiary",
+        "highway": "secondary",
+        "name": "Jalan Adipati Agung",
+        "ref": "096",
         "source": "Yahoo hires"
       }
     },
@@ -3776,9 +3780,10 @@
       },
       "properties": {
         "id": 1278808778,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Jaksa Naranata"
+        "name": "Jalan Jaksa Naranata",
+        "ref": "101"
       }
     },
     {
@@ -4002,9 +4007,10 @@
       },
       "properties": {
         "id": 1365088946,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Jaksa Naranata"
+        "name": "Jalan Jaksa Naranata",
+        "ref": "101"
       }
     },
     {
@@ -5614,8 +5620,8 @@
             -6.921327
           ],
           [
-            107.6082301,
-            -6.921281
+            107.6082703,
+            -6.9212857
           ]
         ]
       },
@@ -5640,8 +5646,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6082301,
-            -6.921281
+            107.6082703,
+            -6.9212857
           ],
           [
             107.6081802,

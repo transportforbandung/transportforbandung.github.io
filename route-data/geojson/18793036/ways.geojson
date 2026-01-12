@@ -1117,6 +1117,26 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.3618035,
+            -6.7398177
+          ],
+          [
+            107.361666,
+            -6.7398847
+          ]
+        ]
+      },
+      "properties": {
+        "id": 547187032,
+        "highway": "tertiary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.4445667,
             -6.7438984
           ],
@@ -5604,8 +5624,8 @@
             -6.7394382
           ],
           [
-            107.3619642,
-            -6.7395625
+            107.3618035,
+            -6.7398177
           ]
         ]
       },
@@ -6867,6 +6887,30 @@
         "ref": "10",
         "source": "Yahoo hires",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.361666,
+            -6.7398847
+          ],
+          [
+            107.3616447,
+            -6.7396857
+          ],
+          [
+            107.3616016,
+            -6.7394024
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1466409643,
+        "highway": "tertiary"
       }
     }
   ]
