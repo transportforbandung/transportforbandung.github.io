@@ -971,6 +971,18 @@
       "name": "Angkot Kabupaten Bandung",
       "routes": [
         {
+          "name": "Ciwidey → Patenggang",
+          "relationId": "20078337",
+          "color": "#00c0ff",
+          "type": "ways"
+        },
+        {
+          "name": "Patenggang → Ciwidey",
+          "relationId": "20078338",
+          "color": "#00c0ff",
+          "type": "ways"
+        },
+        {
           "name": "Soreang → Banjaran",
           "relationId": "4807479",
           "color": "#00c0ff",
@@ -1239,27 +1251,55 @@
           "name": "A08: Cipeundeuy → Plered",
           "ref" : "A08",
           "relationId": "20072379",
+          "color": "#EE2A7B",
+          "type": "ways"
+        },
+        {
+          "name": "A08: Plered → Cipeundeuy",
+          "ref" : "A08",
+          "relationId": "20072380",
+          "color": "#EE2A7B",
+          "type": "ways"
+        },
+        {
+          "name": "B01: Cililin → Gununghalu",
+          "ref" : "B01",
+          "relationId": "20067288",
           "color": "#F7ED38",
           "type": "ways"
         },
         {
-          "name": "A05: Plered → Cipeundeuy",
-          "ref" : "A08",
-          "relationId": "20072390",
+          "name": "B01: Gununghalu → Cililin",
+          "ref" : "B01",
+          "relationId": "20067289",
+          "color": "#F7ED38",
+          "type": "ways"
+        },
+        {
+          "name": "B02: Cililin → Cijenuk",
+          "ref" : "B02",
+          "relationId": "20067291",
+          "color": "#F7ED38",
+          "type": "ways"
+        },
+        {
+          "name": "B02: Cijenuk → Cililin",
+          "ref" : "B02",
+          "relationId": "20067292",
           "color": "#F7ED38",
           "type": "ways"
         },
         {
           "name": "C01: Lembang → Maribaya → Cibodas",
           "ref" : "C01",
-          "relationId": "",
+          "relationId": "20078465",
           "color": "#F7ED38",
           "type": "ways"
         },
         {
           "name": "C01: Cibodas → Maribaya → Lembang",
           "ref" : "C01",
-          "relationId": "",
+          "relationId": "20078466",
           "color": "#F7ED38",
           "type": "ways"
         },
@@ -1723,8 +1763,32 @@
       ]
     },
     {
-      "name": "Elf",
+      "name": "Elf dan Bus Lainnya",
       "routes": [
+        {
+          "name": "Cibeureum → Bunijaya",
+          "relationId": "19969547",
+          "color": "#2c49a5",
+          "type": "ways"
+        },
+        {
+          "name": "Bunijaya → Cibeureum",
+          "relationId": "19969548",
+          "color": "#2c49a5",
+          "type": "ways"
+        },
+        {
+          "name": "Madona: Leuwipanjang → Sindangkerta",
+          "relationId": "19969540",
+          "color": "#2c49a5",
+          "type": "ways"
+        },
+        {
+          "name": "Madona: Sindangkerta → Leuwipanjang",
+          "relationId": "19969541",
+          "color": "#2c49a5",
+          "type": "ways"
+        },
         {
           "name": "Leuwipanjang → Ciwidey",
           "relationId": "18799367",
@@ -1738,18 +1802,6 @@
           "type": "ways"
         },
         {
-          "name": "Kalapa → Majalaya",
-          "relationId": "18799378",
-          "color": "#2c49a5",
-          "type": "ways"
-        },
-        {
-          "name": "Majalaya → Kalapa",
-          "relationId": "18799379",
-          "color": "#2c49a5",
-          "type": "ways"
-        },
-        {
           "name": "Tegallega → Pangalengan",
           "relationId": "18799375",
           "color": "#2c49a5",
@@ -1758,6 +1810,18 @@
         {
           "name": "Pangalengan → Tegallega",
           "relationId": "18799376",
+          "color": "#2c49a5",
+          "type": "ways"
+        },
+        {
+          "name": "Kalapa → Majalaya",
+          "relationId": "18799378",
+          "color": "#2c49a5",
+          "type": "ways"
+        },
+        {
+          "name": "Majalaya → Kalapa",
+          "relationId": "18799379",
           "color": "#2c49a5",
           "type": "ways"
         }
