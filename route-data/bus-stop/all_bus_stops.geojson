@@ -22,11 +22,10 @@
           4425942,
           4645583,
           4650925,
-          4817618,
           15520324,
           17329177
         ],
-        "route_count": 6,
+        "route_count": 5,
         "category": "5_shelter_yes_pole_sign"
       }
     },
@@ -504,28 +503,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.532588,
-          -6.8832772
-        ]
-      },
-      "properties": {
-        "id": 1550379983,
-        "name": "Warung Contong, Cimahi",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           107.6128839,
           -6.8944726
         ]
@@ -693,33 +670,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.536695,
-          -6.892527
-        ]
-      },
-      "properties": {
-        "id": 1837402709,
-        "name": "Baros, Cimahi",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          5737853,
-          5737854,
-          5737855,
-          5737866
-        ],
-        "route_count": 4,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           107.5098582,
           -6.8632888
         ]
@@ -741,57 +691,6 @@
           19969548
         ],
         "route_count": 6,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5377021,
-          -6.8737945
-        ]
-      },
-      "properties": {
-        "id": 1858790193,
-        "name": "Pojok, Cimahi",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          4817598,
-          5737857,
-          5738485
-        ],
-        "route_count": 3,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5367153,
-          -6.8764606
-        ]
-      },
-      "properties": {
-        "id": 1858815154,
-        "name": "Pasopati, Cimahi",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          5737857,
-          5738485
-        ],
-        "route_count": 2,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -1436,28 +1335,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.5344823,
-          -6.8844685
-        ]
-      },
-      "properties": {
-        "id": 2145494092,
-        "name": "RS Dustira/Stasiun Cimahi",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           107.580799,
           -7.0998166
         ]
@@ -1754,9 +1631,10 @@
           4817618,
           5737861,
           18782468,
-          18797951
+          18797951,
+          19969548
         ],
-        "route_count": 6,
+        "route_count": 7,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -1812,9 +1690,10 @@
           5738485,
           18766205,
           18782467,
+          19969544,
           19969547
         ],
-        "route_count": 6,
+        "route_count": 7,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -5994,9 +5873,10 @@
           17830973,
           18782467,
           18782469,
+          19969544,
           19969547
         ],
-        "route_count": 7,
+        "route_count": 8,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -6322,33 +6202,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.5366254,
-          -6.8924332
-        ]
-      },
-      "properties": {
-        "id": 3471649360,
-        "name": "Baros, Cimahi",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          5737853,
-          5737854,
-          5737855,
-          5737866
-        ],
-        "route_count": 4,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           107.5191763,
           -6.8971782
         ]
@@ -6391,6 +6244,37 @@
         "routes": [],
         "route_count": 0,
         "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5352512,
+          -6.889964
+        ]
+      },
+      "properties": {
+        "id": 3471717639,
+        "name": "SMP Wiyata Bakti",
+        "shelter": "yes",
+        "pole": "no",
+        "lit": "no",
+        "bench": "yes",
+        "bin": "no",
+        "routes": [
+          4817598,
+          4820225,
+          4820363,
+          5737853,
+          5737854,
+          5737865,
+          5737866,
+          18782467
+        ],
+        "route_count": 8,
+        "category": "1_shelter_yes_pole_none"
       }
     },
     {
@@ -6522,9 +6406,10 @@
           4817618,
           18766205,
           18782468,
+          19969544,
           19969547
         ],
-        "route_count": 4,
+        "route_count": 5,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -6757,14 +6642,18 @@
         "bench": null,
         "bin": null,
         "routes": [
+          4817598,
           5737859,
           5737861,
           5737862,
           17830973,
+          18782467,
           18782469,
-          18797950
+          18797950,
+          19969544,
+          19969547
         ],
-        "route_count": 6,
+        "route_count": 10,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -6788,10 +6677,9 @@
         "routes": [
           5737860,
           5737863,
-          5738484,
-          5738490
+          5738484
         ],
-        "route_count": 4,
+        "route_count": 3,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -6904,9 +6792,10 @@
           5738489,
           5742516,
           18782467,
-          18793035
+          18793035,
+          19969544
         ],
-        "route_count": 10,
+        "route_count": 11,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -6955,11 +6844,12 @@
         "routes": [
           5738483,
           5738484,
+          5738485,
           5738490,
           19969541,
           19969548
         ],
-        "route_count": 5,
+        "route_count": 6,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -7195,6 +7085,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          107.4698205,
+          -7.0993157
+        ]
+      },
+      "properties": {
+        "id": 5134266021,
+        "name": "Terminal Cibeureum Ciwidey",
+        "shelter": null,
+        "pole": null,
+        "lit": null,
+        "bench": null,
+        "bin": null,
+        "routes": [
+          18799367,
+          18799368,
+          20078337,
+          20078338
+        ],
+        "route_count": 4,
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           107.6286916,
           -6.9164091
         ]
@@ -7407,9 +7324,10 @@
           18766205,
           18782467,
           18782469,
+          19969544,
           19969547
         ],
-        "route_count": 6,
+        "route_count": 7,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -7743,9 +7661,10 @@
           5742517,
           18771223,
           18782467,
-          18793035
+          18793035,
+          19969544
         ],
-        "route_count": 7,
+        "route_count": 8,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -8552,12 +8471,13 @@
         "bench": null,
         "bin": null,
         "routes": [
+          4820225,
           5737861,
           5737864,
           18797950,
           18797951
         ],
-        "route_count": 4,
+        "route_count": 5,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -8612,9 +8532,10 @@
           18766205,
           18782468,
           18782469,
+          19969544,
           19969547
         ],
-        "route_count": 9,
+        "route_count": 10,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -8645,9 +8566,10 @@
           18766205,
           18782467,
           18782469,
+          19969544,
           19969547
         ],
-        "route_count": 10,
+        "route_count": 11,
         "category": "1_shelter_yes_pole_none"
       }
     },
@@ -8898,9 +8820,10 @@
           4817598,
           5737857,
           18766205,
-          18782467
+          18782467,
+          19969544
         ],
-        "route_count": 4,
+        "route_count": 5,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -8925,9 +8848,10 @@
           4817598,
           5737857,
           18766205,
-          18782467
+          18782467,
+          19969544
         ],
-        "route_count": 4,
+        "route_count": 5,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -8954,9 +8878,10 @@
           5738485,
           18766205,
           18782467,
+          19969544,
           19969547
         ],
-        "route_count": 6,
+        "route_count": 7,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -8983,9 +8908,10 @@
           5738485,
           18766205,
           18782467,
+          19969544,
           19969547
         ],
-        "route_count": 6,
+        "route_count": 7,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -9041,9 +8967,10 @@
           5738485,
           18766205,
           18782467,
+          19969544,
           19969547
         ],
-        "route_count": 6,
+        "route_count": 7,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -9070,9 +8997,10 @@
           5738485,
           18766205,
           18782467,
+          19969544,
           19969547
         ],
-        "route_count": 6,
+        "route_count": 7,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -9099,9 +9027,10 @@
           18766205,
           18782467,
           18782469,
+          19969544,
           19969547
         ],
-        "route_count": 6,
+        "route_count": 7,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -9128,9 +9057,10 @@
           18766205,
           18782467,
           18782469,
+          19969544,
           19969547
         ],
-        "route_count": 6,
+        "route_count": 7,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -9218,9 +9148,10 @@
           18782467,
           18782469,
           18797950,
+          19969544,
           19969547
         ],
-        "route_count": 7,
+        "route_count": 8,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -9277,9 +9208,10 @@
           18766205,
           18782467,
           18782469,
+          19969544,
           19969547
         ],
-        "route_count": 6,
+        "route_count": 7,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -12734,9 +12666,10 @@
           18766205,
           18768805,
           18782467,
-          18782469
+          18782469,
+          19969544
         ],
-        "route_count": 12,
+        "route_count": 13,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -12763,9 +12696,10 @@
           18766205,
           18782467,
           18782469,
+          19969544,
           19969548
         ],
-        "route_count": 6,
+        "route_count": 7,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -14814,9 +14748,11 @@
           17556157,
           18400714,
           19218927,
-          19218928
+          19218928,
+          20078465,
+          20078466
         ],
-        "route_count": 8,
+        "route_count": 10,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -14834,16 +14770,17 @@
         "name": "Grand Hotel",
         "shelter": "yes",
         "pole": "no",
-        "lit": null,
-        "bench": null,
+        "lit": "no",
+        "bench": "yes",
         "bin": null,
         "routes": [
           4421033,
           17553837,
           17556157,
-          19218928
+          19218928,
+          20078466
         ],
-        "route_count": 4,
+        "route_count": 5,
         "category": "1_shelter_yes_pole_none"
       }
     },
@@ -17682,8 +17619,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.3619414,
-          -6.7395315
+          107.361545,
+          -6.7394225
         ]
       },
       "properties": {
@@ -17696,9 +17633,11 @@
         "bin": null,
         "routes": [
           18793035,
-          18793036
+          18793036,
+          20072379,
+          20072380
         ],
-        "route_count": 2,
+        "route_count": 4,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -20972,9 +20911,10 @@
           4425899,
           4650909,
           18782467,
-          18782469
+          18782469,
+          19969544
         ],
-        "route_count": 5,
+        "route_count": 6,
         "category": "1_shelter_yes_pole_none"
       }
     },
@@ -22942,9 +22882,10 @@
           4817618,
           5737861,
           18782468,
-          18797951
+          18797951,
+          19969548
         ],
-        "route_count": 6,
+        "route_count": 7,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -22966,13 +22907,15 @@
         "bench": null,
         "bin": null,
         "routes": [
+          4817598,
           17830973,
           18782467,
           18782469,
           18797950,
+          19969544,
           19969547
         ],
-        "route_count": 5,
+        "route_count": 7,
         "category": "1_shelter_yes_pole_none"
       }
     },
@@ -23001,9 +22944,10 @@
           17830973,
           18782468,
           18782469,
+          19969544,
           19969547
         ],
-        "route_count": 8,
+        "route_count": 9,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -23025,9 +22969,10 @@
         "bench": "no",
         "bin": "no",
         "routes": [
+          19969544,
           19969547
         ],
-        "route_count": 1,
+        "route_count": 2,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -23678,9 +23623,10 @@
         "routes": [
           4817598,
           5737857,
-          18782467
+          18782467,
+          19969544
         ],
-        "route_count": 3,
+        "route_count": 4,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -23704,9 +23650,10 @@
         "routes": [
           4817598,
           5737857,
-          18782467
+          18782467,
+          19969544
         ],
-        "route_count": 3,
+        "route_count": 4,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -23781,9 +23728,10 @@
           4816517,
           4817613,
           4817618,
+          18782468,
           19969548
         ],
-        "route_count": 4,
+        "route_count": 5,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -23805,12 +23753,15 @@
         "bench": "no",
         "bin": "no",
         "routes": [
+          4817598,
+          17830973,
           18782467,
           18782469,
           18797950,
+          19969544,
           19969547
         ],
-        "route_count": 4,
+        "route_count": 7,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -24780,13 +24731,14 @@
         "bench": "yes",
         "bin": null,
         "routes": [
+          4817618,
           17771075,
           17772429,
           18768804,
           18768805,
           19969548
         ],
-        "route_count": 5,
+        "route_count": 6,
         "category": "5_shelter_yes_pole_sign"
       }
     },
@@ -27294,9 +27246,10 @@
           17830973,
           18782467,
           18782469,
+          19969544,
           19969547
         ],
-        "route_count": 9,
+        "route_count": 10,
         "category": "1_shelter_yes_pole_none"
       }
     },
@@ -28617,9 +28570,10 @@
           4650909,
           16650512,
           18782469,
-          19757705
+          19757705,
+          19969544
         ],
-        "route_count": 5,
+        "route_count": 6,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -28644,9 +28598,10 @@
           4650909,
           16650512,
           18782469,
-          19757705
+          19757705,
+          19969544
         ],
-        "route_count": 4,
+        "route_count": 5,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -28696,9 +28651,10 @@
           4650909,
           16650512,
           18782469,
-          19757705
+          19757705,
+          19969544
         ],
-        "route_count": 4,
+        "route_count": 5,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -28748,9 +28704,10 @@
           4650909,
           16650512,
           18782469,
-          19757705
+          19757705,
+          19969544
         ],
-        "route_count": 4,
+        "route_count": 5,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -29734,8 +29691,8 @@
         "shelter": "no",
         "pole": null,
         "lit": "no",
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4283719,
           4643109
@@ -29869,10 +29826,14 @@
         "bench": null,
         "bin": null,
         "routes": [
+          4817598,
+          17830973,
+          18782469,
+          19969544,
           19969547,
           19969548
         ],
-        "route_count": 2,
+        "route_count": 6,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -29919,9 +29880,10 @@
         "bench": "no",
         "bin": "no",
         "routes": [
-          5738483
+          5738483,
+          19969548
         ],
-        "route_count": 1,
+        "route_count": 2,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -29942,8 +29904,11 @@
         "lit": "no",
         "bench": "no",
         "bin": "no",
-        "routes": [],
-        "route_count": 0,
+        "routes": [
+          5737866,
+          5738490
+        ],
+        "route_count": 2,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -29964,8 +29929,10 @@
         "lit": "no",
         "bench": "no",
         "bin": "no",
-        "routes": [],
-        "route_count": 0,
+        "routes": [
+          4807425
+        ],
+        "route_count": 1,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -29986,8 +29953,11 @@
         "lit": "no",
         "bench": "no",
         "bin": "no",
-        "routes": [],
-        "route_count": 0,
+        "routes": [
+          5737858,
+          5738484
+        ],
+        "route_count": 2,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -30008,8 +29978,10 @@
         "lit": "yes",
         "bench": "no",
         "bin": "no",
-        "routes": [],
-        "route_count": 0,
+        "routes": [
+          4807425
+        ],
+        "route_count": 1,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -30030,8 +30002,10 @@
         "lit": "no",
         "bench": "no",
         "bin": "no",
-        "routes": [],
-        "route_count": 0,
+        "routes": [
+          4807424
+        ],
+        "route_count": 1,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -30053,11 +30027,10 @@
         "bench": "yes",
         "bin": null,
         "routes": [
-          5738485,
           19969540,
           19969547
         ],
-        "route_count": 3,
+        "route_count": 2,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -30078,8 +30051,13 @@
         "lit": "no",
         "bench": "no",
         "bin": "no",
-        "routes": [],
-        "route_count": 0,
+        "routes": [
+          4807425,
+          5737866,
+          5738490,
+          18799368
+        ],
+        "route_count": 4,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -30161,6 +30139,239 @@
           20067289
         ],
         "route_count": 4,
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5426689,
+          -6.8804666
+        ]
+      },
+      "properties": {
+        "id": 13449811406,
+        "name": "Kodim Cimahi",
+        "shelter": "yes",
+        "pole": "traffic_sign",
+        "lit": "no",
+        "bench": "yes",
+        "bin": "no",
+        "routes": [
+          4817618,
+          4818342,
+          4818569,
+          5738483,
+          17830973,
+          18782468,
+          18782469,
+          19969544,
+          19969547
+        ],
+        "route_count": 9,
+        "category": "5_shelter_yes_pole_sign"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5378999,
+          -6.8816713
+        ]
+      },
+      "properties": {
+        "id": 13449811408,
+        "name": "Sriwijaya 1",
+        "shelter": "yes",
+        "pole": "traffic_sign",
+        "lit": "no",
+        "bench": "yes",
+        "bin": "no",
+        "routes": [
+          4817618,
+          4818341,
+          4818568,
+          4820221,
+          4820363,
+          5737855,
+          5737856,
+          5737858,
+          18782468
+        ],
+        "route_count": 9,
+        "category": "5_shelter_yes_pole_sign"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5356092,
+          -6.9014432
+        ]
+      },
+      "properties": {
+        "id": 13449811410,
+        "name": "Kantor Kecamatan Cimahi Selatan",
+        "shelter": "yes",
+        "pole": "no",
+        "lit": "no",
+        "bench": "yes",
+        "bin": null,
+        "routes": [
+          4820221,
+          5737855,
+          5737856,
+          5737858
+        ],
+        "route_count": 4,
+        "category": "1_shelter_yes_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5355531,
+          -6.9013426
+        ]
+      },
+      "properties": {
+        "id": 13449811412,
+        "name": "Seberang Kantor Kecamatan Cimahi Selatan",
+        "shelter": "yes",
+        "pole": "no",
+        "lit": "no",
+        "bench": "yes",
+        "bin": null,
+        "routes": [
+          4820225,
+          5737853,
+          5737854,
+          5737866
+        ],
+        "route_count": 4,
+        "category": "1_shelter_yes_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5043372,
+          -6.8637043
+        ]
+      },
+      "properties": {
+        "id": 13449811415,
+        "name": "Timur Simpang Cimareme",
+        "shelter": "no",
+        "pole": "no",
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
+        "routes": [
+          4816517,
+          4817613,
+          5737865,
+          5738483,
+          19969548
+        ],
+        "route_count": 5,
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.556488,
+          -6.8895494
+        ]
+      },
+      "properties": {
+        "id": 13449811417,
+        "name": "Jalan Buni Sugih",
+        "shelter": "no",
+        "pole": "no",
+        "lit": null,
+        "bench": "no",
+        "bin": "no",
+        "routes": [
+          4816517,
+          4817613,
+          4817618,
+          18782468,
+          18797951,
+          19969548
+        ],
+        "route_count": 6,
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5387509,
+          -6.8807414
+        ]
+      },
+      "properties": {
+        "id": 13450003706,
+        "name": "Depan Pasar Antri",
+        "shelter": "yes",
+        "pole": "no",
+        "lit": "no",
+        "bench": "yes",
+        "bin": "no",
+        "routes": [
+          4817598,
+          4820225,
+          4820367,
+          5737853,
+          5737854,
+          5737857,
+          5737865,
+          5737866,
+          5738485,
+          18782467
+        ],
+        "route_count": 10,
+        "category": "1_shelter_yes_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6962303,
+          -6.8248159
+        ]
+      },
+      "properties": {
+        "id": 13450339794,
+        "name": "SD Negeri 1 Suntenjaya",
+        "shelter": "no",
+        "pole": "no",
+        "lit": "no",
+        "bench": "no",
+        "bin": null,
+        "routes": [
+          20078465,
+          20078466
+        ],
+        "route_count": 2,
         "category": "8_shelter_none_pole_none"
       }
     }
