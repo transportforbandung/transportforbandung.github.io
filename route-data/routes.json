@@ -1180,74 +1180,114 @@
       "name": "Angkot Kabupaten Bandung Barat",
       "routes": [
         {
-          "name": "Padalarang → Cikalong Wetan → Cipeundeuy",
+          "name": "A01: Padalarang → Cikalong Wetan → Cipeundeuy",
+          "ref" : "A01",
           "relationId": "18793035",
           "color": "#F7ED38",
           "type": "ways"
         },
         {
-          "name": "Cipeundeuy → Cikalong Wetan → Padalarang",
+          "name": "A01: Cipeundeuy → Cikalong Wetan → Padalarang",
+          "ref" : "A01",
           "relationId": "18793036",
           "color": "#F7ED38",
           "type": "ways"
         },
         {
-          "name": "Padalarang → Rajamandala",
-          "relationId": "5738488",
-          "color": "#F7ED38",
-          "type": "ways"
-        },
-        {
-          "name": "Rajamandala → Padalarang",
-          "relationId": "5738489",
-          "color": "#F7ED38",
-          "type": "ways"
-        },
-        {
-          "name": "Padalarang → Gunung Bentang",
+          "name": "A02: Padalarang → Gunung Bentang",
+          "ref" : "A02",
           "relationId": "5742517",
           "color": "#156635",
           "type": "ways"
         },
         {
-          "name": "Gunung Bentang → Padalarang",
+          "name": "A02: Gunung Bentang → Padalarang",
+          "ref" : "A02",
           "relationId": "5742516",
           "color": "#156635",
           "type": "ways"
         },
         {
-          "name": "Padalarang → Parongpong",
+          "name": "A04: Padalarang → Parongpong",
+          "ref" : "A04",
           "relationId": "18792719",
           "color": "#FFF200",
           "type": "ways"
         },
         {
-          "name": "Parongpong → Padalarang",
+          "name": "A04: Parongpong → Padalarang",
+          "ref" : "A04",
           "relationId": "4421032",
           "color": "#FFF200",
           "type": "ways"
         },
         {
-          "name": "Cisarua → Lembang",
-          "relationId": "18400714",
+          "name": "A05: Padalarang → Rajamandala",
+          "ref" : "A05",
+          "relationId": "5738488",
           "color": "#F7ED38",
           "type": "ways"
         },
         {
-          "name": "Lembang → Cisarua",
-          "relationId": "4421033",
+          "name": "A05: Rajamandala → Padalarang",
+          "ref" : "A05",
+          "relationId": "5738489",
           "color": "#F7ED38",
           "type": "ways"
         },
         {
-          "name": "Cikole → Lembang",
+          "name": "A08: Cipeundeuy → Plered",
+          "ref" : "A08",
+          "relationId": "20072379",
+          "color": "#F7ED38",
+          "type": "ways"
+        },
+        {
+          "name": "A05: Plered → Cipeundeuy",
+          "ref" : "A08",
+          "relationId": "20072390",
+          "color": "#F7ED38",
+          "type": "ways"
+        },
+        {
+          "name": "C01: Lembang → Maribaya → Cibodas",
+          "ref" : "C01",
+          "relationId": "",
+          "color": "#F7ED38",
+          "type": "ways"
+        },
+        {
+          "name": "C01: Cibodas → Maribaya → Lembang",
+          "ref" : "C01",
+          "relationId": "",
+          "color": "#F7ED38",
+          "type": "ways"
+        },
+        {
+          "name": "C03: Cikole → Lembang",
+          "ref" : "C03",
           "relationId": "19218927",
           "color": "#F7ED38",
           "type": "ways"
         },
         {
-          "name": "Lembang → Cikole",
+          "name": "C03: Lembang → Cikole",
+          "ref" : "C03",
           "relationId": "19218928",
+          "color": "#F7ED38",
+          "type": "ways"
+        },
+        {
+          "name": "C06: Cisarua → Lembang",
+          "ref" : "C06",
+          "relationId": "18400714",
+          "color": "#F7ED38",
+          "type": "ways"
+        },
+        {
+          "name": "C06: Lembang → Cisarua",
+          "ref" : "C06",
+          "relationId": "4421033",
           "color": "#F7ED38",
           "type": "ways"
         }
