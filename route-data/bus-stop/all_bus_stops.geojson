@@ -199,72 +199,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.5745306,
-          -6.8657384
-        ]
-      },
-      "properties": {
-        "id": 306901700,
-        "name": "Ciwaruga",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5697717,
-          -6.8687273
-        ]
-      },
-      "properties": {
-        "id": 306901747,
-        "name": "Lembur Tengah",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5971615,
-          -7.0180016
-        ]
-      },
-      "properties": {
-        "id": 549732638,
-        "name": "Asem Pameungpeuk",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           107.5820477,
           -6.8029839
         ]
@@ -570,52 +504,6 @@
         ],
         "route_count": 3,
         "category": "6_shelter_yes_pole_totem"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5717143,
-          -6.8643513
-        ]
-      },
-      "properties": {
-        "id": 1679237611,
-        "name": "Sariwangi",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5649768,
-          -6.8609608
-        ]
-      },
-      "properties": {
-        "id": 1679237616,
-        "name": "Cihanjuang",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          4818569
-        ],
-        "route_count": 1,
-        "category": "8_shelter_none_pole_none"
       }
     },
     {
@@ -1656,14 +1544,13 @@
         "bench": "no",
         "bin": null,
         "routes": [
-          4817598,
           4817618,
           4818341,
           4818568,
           5737865,
           18782468
         ],
-        "route_count": 6,
+        "route_count": 5,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -1749,31 +1636,6 @@
           18793035
         ],
         "route_count": 3,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5509334,
-          -6.9257384
-        ]
-      },
-      "properties": {
-        "id": 3110266609,
-        "name": "Jl. Dirgantara",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          5737859,
-          5737862
-        ],
-        "route_count": 2,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -1918,28 +1780,6 @@
           5738545
         ],
         "route_count": 2,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.4983345,
-          -6.8444689
-        ]
-      },
-      "properties": {
-        "id": 3115002514,
-        "name": "Underpass Padalarang",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -5489,24 +5329,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.5510134,
-          -6.9257317
+          107.5508136,
+          -6.9325142
         ]
       },
       "properties": {
-        "id": 3385219356,
-        "name": "Jl. Dirgantara",
-        "shelter": null,
+        "id": 3385219354,
+        "name": "Terminal Bumi Asri",
+        "shelter": "yes",
         "pole": null,
         "lit": null,
-        "bench": null,
+        "bench": "no",
         "bin": null,
         "routes": [
-          5737859,
-          5737862
+          4650909,
+          4650925
         ],
         "route_count": 2,
-        "category": "8_shelter_none_pole_none"
+        "category": "1_shelter_yes_pole_none"
       }
     },
     {
@@ -5706,6 +5546,31 @@
         "bin": null,
         "routes": [],
         "route_count": 0,
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5747759,
+          -6.9717362
+        ]
+      },
+      "properties": {
+        "id": 3464313655,
+        "name": "Pangkalan Angkot Sayati",
+        "shelter": null,
+        "pole": null,
+        "lit": null,
+        "bench": null,
+        "bin": null,
+        "routes": [
+          5736616,
+          5736617
+        ],
+        "route_count": 2,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -5945,8 +5810,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.5380542,
-          -6.8806832
+          107.5380339,
+          -6.8807014
         ]
       },
       "properties": {
@@ -6074,32 +5939,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.4971931,
-          -6.8433132
-        ]
-      },
-      "properties": {
-        "id": 3468494613,
-        "name": "Stasiun KAI Padalarang",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          4816517,
-          4817613,
-          5737865
-        ],
-        "route_count": 3,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           107.562907,
           -6.8640968
         ]
@@ -6145,28 +5984,6 @@
           18782468
         ],
         "route_count": 8,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5745434,
-          -6.8657795
-        ]
-      },
-      "properties": {
-        "id": 3470095476,
-        "name": "Ciwaruga",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -6629,6 +6446,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          107.6171325,
+          -6.9738427
+        ]
+      },
+      "properties": {
+        "id": 3889011982,
+        "name": "Pangkalan Angkot Palasari",
+        "shelter": null,
+        "pole": null,
+        "lit": null,
+        "bench": null,
+        "bin": null,
+        "routes": [
+          5736616,
+          5736617
+        ],
+        "route_count": 2,
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           107.5602874,
           -6.8962167
         ]
@@ -6747,7 +6589,7 @@
         "name": "Stasiun Cimahi",
         "shelter": "yes",
         "pole": "traffic_sign",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
         "bin": null,
         "routes": [
@@ -8300,7 +8142,7 @@
         "shelter": "yes",
         "pole": "no",
         "lit": null,
-        "bench": null,
+        "bench": "yes",
         "bin": null,
         "routes": [
           4820221,
@@ -10609,7 +10451,7 @@
         "id": 10815698569,
         "name": "Taman Tegallega",
         "shelter": "no",
-        "pole": "totem",
+        "pole": "traffic_sign",
         "lit": null,
         "bench": "yes",
         "bin": null,
@@ -10623,7 +10465,7 @@
           18799378
         ],
         "route_count": 7,
-        "category": "3_shelter_none_pole_totem"
+        "category": "2_shelter_none_pole_sign"
       }
     },
     {
@@ -20024,8 +19866,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6089537,
-          -6.9111712
+          107.6090127,
+          -6.9111659
         ]
       },
       "properties": {
@@ -20453,7 +20295,7 @@
         "name": "Barat Simpang Imanuel",
         "shelter": "yes",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
         "bin": "no",
         "routes": [
@@ -22849,7 +22691,7 @@
         "shelter": "yes",
         "pole": "no",
         "lit": null,
-        "bench": null,
+        "bench": "yes",
         "bin": null,
         "routes": [
           4820225,
@@ -24179,16 +24021,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6036042,
-          -6.9292414
+          107.6036008,
+          -6.9294131
         ]
       },
       "properties": {
         "id": 13086077193,
-        "name": "Gang Iming",
+        "name": "Gang Jaya",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
+        "lit": "no",
         "bench": null,
         "bin": null,
         "routes": [
@@ -24250,9 +24092,9 @@
         "name": "Pusdiklat Geologi Cisitu",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4294474,
           16646484
@@ -26106,10 +25948,11 @@
         "routes": [
           4433069,
           4642211,
+          17771221,
           19664371,
           19664372
         ],
-        "route_count": 4,
+        "route_count": 5,
         "category": "3_shelter_none_pole_totem"
       }
     },
@@ -30222,7 +30065,7 @@
         "pole": "no",
         "lit": "no",
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4820221,
           5737855,
@@ -30249,7 +30092,7 @@
         "pole": "no",
         "lit": "no",
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4820225,
           5737853,
@@ -30373,6 +30216,146 @@
         ],
         "route_count": 2,
         "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5506382,
+          -6.8758635
+        ]
+      },
+      "properties": {
+        "id": 13455519847,
+        "name": "Diamond Fair Cimahi",
+        "shelter": "yes",
+        "pole": "no",
+        "lit": "no",
+        "bench": "yes",
+        "bin": "no",
+        "routes": [
+          4818341,
+          4818568
+        ],
+        "route_count": 2,
+        "category": "1_shelter_yes_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5357776,
+          -6.9011639
+        ]
+      },
+      "properties": {
+        "id": 13455630951,
+        "name": "Puskesmas Cimahi Selatan",
+        "shelter": "yes",
+        "pole": "no",
+        "lit": "no",
+        "bench": "yes",
+        "bin": "no",
+        "routes": [
+          4820221,
+          5737855,
+          5737856,
+          5737858
+        ],
+        "route_count": 4,
+        "category": "1_shelter_yes_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5391285,
+          -6.8804236
+        ]
+      },
+      "properties": {
+        "id": 13455868301,
+        "name": "Asrama Pusdikjas",
+        "shelter": "yes",
+        "pole": "no",
+        "lit": "no",
+        "bench": "yes",
+        "bin": "no",
+        "routes": [
+          4817598,
+          4820225,
+          4820367,
+          5737853,
+          5737854,
+          5737857,
+          5737865,
+          5737866,
+          5738485,
+          18782467
+        ],
+        "route_count": 10,
+        "category": "1_shelter_yes_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6041101,
+          -6.9214387
+        ]
+      },
+      "properties": {
+        "id": 13460109880,
+        "name": "Gang Kaum Tengah",
+        "shelter": "no",
+        "pole": "traffic_sign",
+        "lit": null,
+        "bench": "no",
+        "bin": null,
+        "routes": [
+          16634809,
+          16648408,
+          17771221,
+          17771223
+        ],
+        "route_count": 4,
+        "category": "2_shelter_none_pole_sign"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6039274,
+          -6.924181
+        ]
+      },
+      "properties": {
+        "id": 13460109882,
+        "name": "Simpang Kalipah Apo",
+        "shelter": "no",
+        "pole": "traffic_sign",
+        "lit": "no",
+        "bench": "no",
+        "bin": null,
+        "routes": [
+          4294474,
+          4647871,
+          16648408,
+          17771221,
+          17771223
+        ],
+        "route_count": 5,
+        "category": "2_shelter_none_pole_sign"
       }
     }
   ]
