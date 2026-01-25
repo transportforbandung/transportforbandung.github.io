@@ -40,12 +40,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5563903,
-            -6.9371305
-          ],
-          [
-            107.5552073,
-            -6.9377116
+            107.5550122,
+            -6.9378206
           ],
           [
             107.5534922,
@@ -606,7 +602,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "2",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -723,16 +719,20 @@
             -6.9449801
           ],
           [
-            107.593001,
-            -6.9448463
+            107.5930069,
+            -6.9448443
           ],
           [
-            107.5929292,
-            -6.9447046
+            107.5929431,
+            -6.9447144
           ],
           [
-            107.5928343,
-            -6.9445374
+            107.5928871,
+            -6.9446026
+          ],
+          [
+            107.5928323,
+            -6.9445079
           ],
           [
             107.5927511,
@@ -1103,7 +1103,7 @@
         "highway": "motorway",
         "lanes": "2",
         "motorcycle": "no",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -1118,8 +1118,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5472873,
-            -6.9432892
+            107.547289,
+            -6.94328
           ],
           [
             107.5468143,
@@ -1241,8 +1241,8 @@
             -6.9358831
           ],
           [
-            107.5578371,
-            -6.9364506
+            107.557835,
+            -6.9364571
           ],
           [
             107.5563903,
@@ -1255,7 +1255,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "2",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -1286,7 +1286,7 @@
         "highway": "motorway",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -1787,8 +1787,8 @@
             -6.9430106
           ],
           [
-            107.5472873,
-            -6.9432892
+            107.547289,
+            -6.94328
           ]
         ]
       },
@@ -2212,7 +2212,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "4",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -2257,7 +2257,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "4",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -4006,7 +4006,7 @@
         "highway": "motorway",
         "lanes": "3",
         "motorcycle": "no",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -4197,6 +4197,7 @@
         "highway": "motorway_link",
         "lanes": "1",
         "motorcycle": "no",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "toll": "yes"
       }
@@ -4461,8 +4462,8 @@
             -6.9438514
           ],
           [
-            107.5916379,
-            -6.9438582
+            107.5916419,
+            -6.9438523
           ]
         ]
       },
@@ -4488,8 +4489,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5916379,
-            -6.9438582
+            107.5916419,
+            -6.9438523
           ],
           [
             107.5910845,
@@ -4821,6 +4822,36 @@
         "lanes": "2",
         "motorcycle": "no",
         "name": "Jalan Tol Soreang–Pasirkoja",
+        "oneway": "yes",
+        "operator": "PT Citra Marga Lintas Jabar",
+        "ref": "4",
+        "short_name": "Jalan Tol Soroja",
+        "toll": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5563903,
+            -6.9371305
+          ],
+          [
+            107.5550122,
+            -6.9378206
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1467737854,
+        "avgspeed": "70",
+        "destination": "Soreang;Pasteur;Padalarang",
+        "highway": "motorway",
+        "lanes": "2",
+        "motorcycle": "no",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",

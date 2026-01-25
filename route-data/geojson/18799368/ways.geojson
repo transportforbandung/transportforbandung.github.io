@@ -46,7 +46,7 @@
         "highway": "motorway",
         "lanes": "2",
         "motorcycle": "no",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -104,8 +104,10 @@
       },
       "properties": {
         "id": 176011210,
+        "alt_name": "Jl. Cidalima",
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Cidalima",
         "oneway": "yes"
       }
     },
@@ -1231,8 +1233,8 @@
             -6.9446096
           ],
           [
-            107.5474048,
-            -6.9425754
+            107.5474078,
+            -6.9425753
           ]
         ]
       },
@@ -1284,8 +1286,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5570704,
-            -6.9366853
+            107.5570986,
+            -6.9366757
           ],
           [
             107.5602849,
@@ -1299,7 +1301,7 @@
         "highway": "motorway",
         "lanes": "2",
         "motorcycle": "no",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -1877,7 +1879,7 @@
         "highway": "motorway",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -1892,8 +1894,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5474048,
-            -6.9425754
+            107.5474078,
+            -6.9425753
           ],
           [
             107.5476405,
@@ -2082,7 +2084,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "7",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -2111,7 +2113,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "7",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -3779,40 +3781,24 @@
             -6.9455517
           ],
           [
-            107.5939996,
-            -6.9455089
+            107.5940056,
+            -6.9454851
           ],
           [
-            107.5939206,
-            -6.9454445
+            107.5939356,
+            -6.9453939
           ],
           [
-            107.5938304,
-            -6.9453934
+            107.5938407,
+            -6.9453373
           ],
           [
-            107.5937581,
-            -6.9453769
+            107.5937316,
+            -6.9453157
           ],
           [
-            107.5933092,
-            -6.9453113
-          ],
-          [
-            107.5932421,
-            -6.9453015
-          ],
-          [
-            107.5931905,
-            -6.9452829
-          ],
-          [
-            107.5931632,
-            -6.9452184
-          ],
-          [
-            107.5931481,
-            -6.9451822
+            107.5934986,
+            -6.9452867
           ]
         ]
       },
@@ -3825,7 +3811,7 @@
         "horse": "no",
         "motorcar": "no",
         "motorcycle": "no",
-        "name": "Jalur Bus AKDP",
+        "name": "Jalur Bus AKDP Terminal Leuwipanjang",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -4003,8 +3989,8 @@
             -6.9377145
           ],
           [
-            107.5570704,
-            -6.9366853
+            107.5570986,
+            -6.9366757
           ]
         ]
       },
@@ -4015,7 +4001,7 @@
         "highway": "motorway",
         "lanes": "2",
         "motorcycle": "no",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -4202,7 +4188,7 @@
         "highway": "motorway",
         "lanes": "3",
         "motorcycle": "no",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -4239,7 +4225,7 @@
         "highway": "motorway",
         "lanes": "3",
         "motorcycle": "no",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -4837,8 +4823,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5931481,
-            -6.9451822
+            107.5931649,
+            -6.9452261
           ],
           [
             107.5930651,
@@ -5006,6 +4992,59 @@
         "ref": "682",
         "surface": "concrete",
         "toll": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5934986,
+            -6.9452867
+          ],
+          [
+            107.59347,
+            -6.9453161
+          ],
+          [
+            107.5934218,
+            -6.9453234
+          ],
+          [
+            107.5933109,
+            -6.9453104
+          ],
+          [
+            107.5932611,
+            -6.9452989
+          ],
+          [
+            107.5932328,
+            -6.9452752
+          ],
+          [
+            107.5932131,
+            -6.9452464
+          ],
+          [
+            107.5931649,
+            -6.9452261
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1469503283,
+        "access": "no",
+        "bicycle": "no",
+        "bus": "designated",
+        "highway": "service",
+        "horse": "no",
+        "motorcar": "no",
+        "motorcycle": "no",
+        "name": "Jalur Bus AKDP Terminal Leuwipanjang",
+        "oneway": "yes",
+        "surface": "concrete"
       }
     }
   ]

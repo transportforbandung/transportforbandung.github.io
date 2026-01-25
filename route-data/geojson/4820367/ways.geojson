@@ -542,7 +542,8 @@
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -1059,7 +1060,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sisingamangaraja",
-        "oneway": "yes"
+        "oneway": "yes",
+        "width": "4"
       }
     },
     {
@@ -1337,6 +1339,10 @@
           [
             107.5390256,
             -6.8805614
+          ],
+          [
+            107.5391513,
+            -6.8804551
           ],
           [
             107.5392258,

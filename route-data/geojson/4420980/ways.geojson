@@ -451,16 +451,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5728132,
-            -6.8647975
-          ],
-          [
-            107.5727701,
-            -6.8648772
-          ],
-          [
-            107.5727579,
-            -6.8649326
+            107.5727584,
+            -6.8651284
           ],
           [
             107.5727586,
@@ -558,7 +550,7 @@
       },
       "properties": {
         "id": 272989131,
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "2",
         "motorcar": "yes",
         "motorcycle": "yes",
@@ -1545,6 +1537,68 @@
         "lanes": "1",
         "oneway": "yes",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5728132,
+            -6.8647975
+          ],
+          [
+            107.5727701,
+            -6.8648772
+          ],
+          [
+            107.5727579,
+            -6.8649326
+          ],
+          [
+            107.5727581,
+            -6.8650203
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1467240676,
+        "highway": "tertiary",
+        "lanes": "2",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
+        "width": "4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5727581,
+            -6.8650203
+          ],
+          [
+            107.5727584,
+            -6.8651284
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1467240677,
+        "bridge": "yes",
+        "highway": "tertiary",
+        "lanes": "2",
+        "layer": "1",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
+        "width": "4"
       }
     }
   ]

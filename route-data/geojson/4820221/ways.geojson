@@ -27,8 +27,8 @@
             -6.9009225
           ],
           [
-            107.5357528,
-            -6.9010791
+            107.5357295,
+            -6.9011324
           ],
           [
             107.5355893,
@@ -100,7 +100,8 @@
         "name": "Jalan Baros",
         "oneway": "no",
         "ref": "170",
-        "source": "Yahoo hires"
+        "source": "Yahoo hires",
+        "surface": "asphalt"
       }
     },
     {
@@ -736,7 +737,8 @@
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
         "oneway": "no",
-        "source": "Yahoo hires"
+        "source": "Yahoo hires",
+        "width": "7"
       }
     },
     {
@@ -745,12 +747,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5445549,
-            -6.9013504
+            107.5445559,
+            -6.9013531
           ],
           [
-            107.5446219,
-            -6.901329
+            107.5446226,
+            -6.9013317
           ],
           [
             107.5448339,
@@ -773,9 +775,10 @@
       "properties": {
         "id": 553702495,
         "highway": "secondary",
-        "lanes": "1",
+        "lanes": "2",
         "name": "Jalan Mahar Martanegara",
-        "oneway": "yes"
+        "oneway": "yes",
+        "width": "4"
       }
     },
     {
@@ -881,7 +884,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
-        "source": "Yahoo hires"
+        "source": "Yahoo hires",
+        "width": "7"
       }
     },
     {
@@ -924,8 +928,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.536747,
-            -6.8923588
+            107.536753,
+            -6.8923541
           ],
           [
             107.536762,
@@ -957,8 +961,9 @@
         "id": 572290195,
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Haji Mohammad S Mintaredja Sh",
-        "oneway": "yes"
+        "name": "Jalan H.M.S. Mintaredja SH",
+        "oneway": "yes",
+        "width": "6"
       }
     },
     {
@@ -995,8 +1000,8 @@
             -6.8897184
           ],
           [
-            107.5366404,
-            -6.8901434
+            107.536637,
+            -6.8901554
           ],
           [
             107.5366635,
@@ -1080,8 +1085,9 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "yes",
-        "name": "Jalan Haji Mohammad S Mintaredja Sh",
-        "oneway": "yes"
+        "name": "Jalan H.M.S. Mintaredja SH",
+        "oneway": "yes",
+        "width": "6"
       }
     },
     {
@@ -1107,8 +1113,9 @@
         "id": 763065988,
         "highway": "secondary",
         "lanes": "3",
-        "name": "Jalan Haji Mohammad S Mintaredja Sh",
-        "oneway": "yes"
+        "name": "Jalan H.M.S. Mintaredja SH",
+        "oneway": "yes",
+        "width": "6"
       }
     },
     {
@@ -1152,7 +1159,7 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "yes",
-        "name": "Jalan Haji Mohammad S Mintaredja Sh",
+        "name": "Jalan H.M.S. Mintaredja SH",
         "oneway": "yes"
       }
     },
@@ -1195,7 +1202,7 @@
         "id": 763065990,
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Haji Mohammad S Mintaredja Sh",
+        "name": "Jalan H.M.S. Mintaredja SH",
         "oneway": "yes"
       }
     },
@@ -1224,8 +1231,9 @@
         "highway": "secondary",
         "lanes": "3",
         "motorcycle": "yes",
-        "name": "Jalan Haji Mohammad S Mintaredja Sh",
-        "oneway": "yes"
+        "name": "Jalan H.M.S. Mintaredja SH",
+        "oneway": "yes",
+        "width": "6"
       }
     },
     {
@@ -1407,6 +1415,7 @@
         "highway": "primary",
         "junction": "roundabout",
         "lanes": "2",
+        "name": "Bundaran Leuwigajah",
         "oneway": "yes",
         "ref": "170",
         "roundabout": "yes"
@@ -1422,25 +1431,26 @@
             -6.9015233
           ],
           [
-            107.5442012,
-            -6.901461
+            107.5442015,
+            -6.901469
           ],
           [
             107.5443738,
-            -6.901407
+            -6.9014123
           ],
           [
-            107.5445549,
-            -6.9013504
+            107.5445559,
+            -6.9013531
           ]
         ]
       },
       "properties": {
         "id": 1085542567,
         "highway": "secondary",
-        "lanes": "1",
+        "lanes": "2",
         "name": "Jalan Mahar Martanegara",
-        "oneway": "yes"
+        "oneway": "yes",
+        "width": "4"
       }
     },
     {
@@ -1546,8 +1556,9 @@
         "id": 1111874208,
         "highway": "secondary",
         "lanes": "3",
-        "name": "Jalan Haji Mohammad S Mintaredja Sh",
-        "oneway": "yes"
+        "name": "Jalan H.M.S. Mintaredja SH",
+        "oneway": "yes",
+        "width": "6"
       }
     },
     {
@@ -1778,28 +1789,16 @@
             -6.8915316
           ],
           [
-            107.5367493,
-            -6.8916442
+            107.5367647,
+            -6.8916489
           ],
           [
-            107.5367506,
-            -6.8917428
+            107.5367687,
+            -6.8917448
           ],
           [
-            107.5367526,
-            -6.891844
-          ],
-          [
-            107.5367323,
-            -6.892259
-          ],
-          [
-            107.5367378,
-            -6.8923319
-          ],
-          [
-            107.536747,
-            -6.8923588
+            107.5367667,
+            -6.8918646
           ]
         ]
       },
@@ -1809,7 +1808,45 @@
         "lanes": "2",
         "name": "Jalan Baros",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "width": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5367667,
+            -6.8918646
+          ],
+          [
+            107.536772,
+            -6.8919878
+          ],
+          [
+            107.5367571,
+            -6.8922577
+          ],
+          [
+            107.5367526,
+            -6.8923219
+          ],
+          [
+            107.536753,
+            -6.8923541
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1468273931,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Baros",
+        "oneway": "yes",
+        "ref": "170",
+        "width": "6"
       }
     }
   ]

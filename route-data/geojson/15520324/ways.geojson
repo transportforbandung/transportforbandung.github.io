@@ -432,6 +432,9 @@
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
         "oneway": "yes",
+        "parking:both": "street_side",
+        "parking:left:orientation": "diagonal",
+        "parking:right:orientation": "parallel",
         "surface": "asphalt"
       }
     },

@@ -584,10 +584,10 @@
       },
       "properties": {
         "id": 42795877,
-        "alt_name": "Jalan Simpang Utara",
+        "alt_name": "Jl. Stasiun Timur",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Panaris",
+        "name": "Jalan Stasiun Timur",
         "oneway": "no",
         "ref": "10",
         "sidewalk:both": "separate",
@@ -2193,12 +2193,8 @@
             -6.8522828
           ],
           [
-            107.4976172,
-            -6.8525845
-          ],
-          [
-            107.4976105,
-            -6.8526293
+            107.4976114,
+            -6.852603
           ]
         ]
       },
@@ -2803,6 +2799,7 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "11"
       }
     },
@@ -3536,7 +3533,8 @@
         "motorcycle": "yes",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "width": "5"
       }
     },
     {
@@ -3892,7 +3890,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Cimareme",
+        "name": "Jalan Raya Caringin",
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "10;11",
@@ -3941,7 +3939,7 @@
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Cimareme",
+        "name": "Jalan Raya Simpang",
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "10;11",
@@ -4517,6 +4515,7 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "11"
       }
     },
@@ -4561,8 +4560,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.4976105,
-            -6.8526293
+            107.4976114,
+            -6.852603
           ],
           [
             107.4975965,
@@ -4576,7 +4575,7 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "1",
-        "name": "Jalan Raya Padalarang",
+        "name": "Jalan Raya Simpang",
         "oneway": "yes",
         "ref": "10;11"
       }
@@ -4948,7 +4947,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Cimareme",
+        "name": "Jalan Raya Caringin",
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "10;11",
@@ -5109,7 +5108,7 @@
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Cimareme",
+        "name": "Jalan Raya Caringin",
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "10;11",

@@ -193,6 +193,7 @@
         "highway": "motorway_link",
         "lanes": "3",
         "motorcycle": "yes",
+        "name": "Jalan Akses Tol Kopo",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -242,6 +243,7 @@
         "highway": "motorway_link",
         "lanes": "1",
         "motorcycle": "yes",
+        "name": "Jalan Akses Tol Kopo",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -803,9 +805,10 @@
       },
       "properties": {
         "id": 176009308,
+        "alt_name": "Jl. Raya Kopo Katapang",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Raya Bandung - Soreang",
+        "name": "Jalan Raya Kopo Katapang",
         "ref": "106",
         "surface": "asphalt"
       }
@@ -919,8 +922,10 @@
       },
       "properties": {
         "id": 176011210,
+        "alt_name": "Jl. Cidalima",
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Cidalima",
         "oneway": "yes"
       }
     },
@@ -1430,8 +1435,10 @@
       },
       "properties": {
         "id": 385643873,
+        "alt_name": "Jl. Pesantren Timur",
         "highway": "secondary",
         "lanes": "2",
+        "name": "Jalan Pesantren Timur",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1838,6 +1845,10 @@
             -6.9567891
           ],
           [
+            107.5822115,
+            -6.9567692
+          ],
+          [
             107.5822904,
             -6.9567101
           ]
@@ -1848,6 +1859,7 @@
         "destination": "Kopo;Bandung",
         "highway": "primary_link",
         "lanes": "1",
+        "name": "Jalan Akses Tol Kopo",
         "oneway": "yes"
       }
     },
@@ -1857,24 +1869,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5818664,
-            -6.9573206
+            107.5819373,
+            -6.9572181
           ],
           [
-            107.5818789,
-            -6.9572361
+            107.5819369,
+            -6.9571552
           ],
           [
-            107.5819042,
-            -6.9571207
+            107.5819338,
+            -6.9570923
           ],
           [
-            107.5818975,
-            -6.9570634
+            107.5819257,
+            -6.9570327
           ],
           [
-            107.5818859,
-            -6.9570246
+            107.5819011,
+            -6.9569731
           ],
           [
             107.581801,
@@ -1887,6 +1899,7 @@
         "destination": "Soroja;Pasteur;Padalarang;Moh. Toha;Buah Batu;Cileunyi",
         "highway": "primary_link",
         "lanes": "2",
+        "name": "Jalan Akses Tol Kopo",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2502,6 +2515,14 @@
             -6.9562561
           ],
           [
+            107.5815228,
+            -6.9564829
+          ],
+          [
+            107.58165,
+            -6.956582
+          ],
+          [
             107.5819029,
             -6.9567719
           ]
@@ -2514,6 +2535,7 @@
         "highway": "motorway_link",
         "lanes": "3",
         "motorcycle": "yes",
+        "name": "Jalan Akses Tol Kopo",
         "oneway": "yes"
       }
     },
@@ -3097,10 +3119,6 @@
           [
             107.5817846,
             -6.957429
-          ],
-          [
-            107.5818664,
-            -6.9573206
           ]
         ]
       },
@@ -3463,6 +3481,32 @@
         "lanes": "2",
         "name": "Jalan Kopo Sayati",
         "ref": "106"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5817846,
+            -6.957429
+          ],
+          [
+            107.5819373,
+            -6.9572181
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1467679873,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kopo Sayati",
+        "oneway": "yes",
+        "ref": "106",
+        "reg_ref": "22-00-106-11K"
       }
     }
   ]

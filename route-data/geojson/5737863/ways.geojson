@@ -1134,7 +1134,8 @@
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
         "oneway": "no",
-        "source": "Yahoo hires"
+        "source": "Yahoo hires",
+        "width": "7"
       }
     },
     {
@@ -1143,12 +1144,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5445549,
-            -6.9013504
+            107.5445559,
+            -6.9013531
           ],
           [
-            107.5446219,
-            -6.901329
+            107.5446226,
+            -6.9013317
           ],
           [
             107.5448339,
@@ -1171,9 +1172,10 @@
       "properties": {
         "id": 553702495,
         "highway": "secondary",
-        "lanes": "1",
+        "lanes": "2",
         "name": "Jalan Mahar Martanegara",
-        "oneway": "yes"
+        "oneway": "yes",
+        "width": "4"
       }
     },
     {
@@ -1614,8 +1616,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5351648,
-            -6.9031848
+            107.5351608,
+            -6.9032048
           ],
           [
             107.5352868,
@@ -1681,6 +1683,7 @@
         "highway": "primary",
         "junction": "roundabout",
         "lanes": "2",
+        "name": "Bundaran Leuwigajah",
         "oneway": "yes",
         "ref": "170",
         "roundabout": "yes",
@@ -1766,7 +1769,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
-        "source": "Yahoo hires"
+        "source": "Yahoo hires",
+        "width": "7"
       }
     },
     {
@@ -2836,8 +2840,8 @@
             -6.9032969
           ],
           [
-            107.5351648,
-            -6.9031848
+            107.5351608,
+            -6.9032048
           ]
         ]
       },
@@ -2939,6 +2943,7 @@
         "highway": "primary",
         "junction": "roundabout",
         "lanes": "2",
+        "name": "Bundaran Leuwigajah",
         "oneway": "yes",
         "ref": "170",
         "roundabout": "yes"
@@ -2954,25 +2959,26 @@
             -6.9015233
           ],
           [
-            107.5442012,
-            -6.901461
+            107.5442015,
+            -6.901469
           ],
           [
             107.5443738,
-            -6.901407
+            -6.9014123
           ],
           [
-            107.5445549,
-            -6.9013504
+            107.5445559,
+            -6.9013531
           ]
         ]
       },
       "properties": {
         "id": 1085542567,
         "highway": "secondary",
-        "lanes": "1",
+        "lanes": "2",
         "name": "Jalan Mahar Martanegara",
-        "oneway": "yes"
+        "oneway": "yes",
+        "width": "4"
       }
     },
     {

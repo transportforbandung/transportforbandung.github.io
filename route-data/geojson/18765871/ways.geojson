@@ -46,7 +46,7 @@
         "highway": "motorway",
         "lanes": "2",
         "motorcycle": "no",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -523,8 +523,8 @@
             -6.9446096
           ],
           [
-            107.5474048,
-            -6.9425754
+            107.5474078,
+            -6.9425753
           ]
         ]
       },
@@ -576,8 +576,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5570704,
-            -6.9366853
+            107.5570986,
+            -6.9366757
           ],
           [
             107.5602849,
@@ -591,7 +591,7 @@
         "highway": "motorway",
         "lanes": "2",
         "motorcycle": "no",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -1096,7 +1096,7 @@
         "highway": "motorway",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -1111,8 +1111,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5474048,
-            -6.9425754
+            107.5474078,
+            -6.9425753
           ],
           [
             107.5476405,
@@ -1273,7 +1273,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "7",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -1302,7 +1302,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "7",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -1679,8 +1679,8 @@
             -6.9377145
           ],
           [
-            107.5570704,
-            -6.9366853
+            107.5570986,
+            -6.9366757
           ]
         ]
       },
@@ -1691,7 +1691,7 @@
         "highway": "motorway",
         "lanes": "2",
         "motorcycle": "no",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -1855,7 +1855,7 @@
         "highway": "motorway",
         "lanes": "3",
         "motorcycle": "no",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -1892,7 +1892,7 @@
         "highway": "motorway",
         "lanes": "3",
         "motorcycle": "no",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -1955,12 +1955,40 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5936738,
-            -6.9459456
+            107.5938141,
+            -6.9457411
           ],
           [
-            107.5932396,
-            -6.9458755
+            107.593784,
+            -6.9457712
+          ],
+          [
+            107.5937535,
+            -6.9458066
+          ],
+          [
+            107.5937307,
+            -6.9458374
+          ],
+          [
+            107.5937192,
+            -6.9458627
+          ],
+          [
+            107.5937098,
+            -6.9458851
+          ],
+          [
+            107.5936877,
+            -6.9458986
+          ],
+          [
+            107.5936574,
+            -6.9459061
+          ],
+          [
+            107.593264,
+            -6.9458573
           ]
         ]
       },
@@ -1973,7 +2001,7 @@
         "horse": "no",
         "motorcar": "no",
         "motorcycle": "no",
-        "name": "Jalur Bus Kota",
+        "name": "Jalur Bus Kota Terminal Leuwipanjang",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -2289,101 +2317,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5937479,
-            -6.9458174
-          ],
-          [
-            107.5937354,
-            -6.9458345
-          ],
-          [
-            107.5937192,
-            -6.9458627
-          ],
-          [
-            107.5937098,
-            -6.9458851
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1245234204,
-        "access": "no",
-        "bicycle": "no",
-        "bus": "designated",
-        "highway": "service",
-        "horse": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
-        "name": "Jalur Bus Kota",
-        "oneway": "yes",
-        "surface": "concrete"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5937098,
-            -6.9458851
-          ],
-          [
-            107.5936967,
-            -6.9459132
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1245234205,
-        "access": "no",
-        "bicycle": "no",
-        "bus": "designated",
-        "highway": "service",
-        "horse": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
-        "name": "Jalur Bus Kota",
-        "oneway": "yes",
-        "surface": "concrete"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5936967,
-            -6.9459132
-          ],
-          [
-            107.5936738,
-            -6.9459456
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1245234206,
-        "access": "no",
-        "bicycle": "no",
-        "bus": "designated",
-        "highway": "service",
-        "horse": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
-        "name": "Jalur Bus Kota",
-        "oneway": "yes",
-        "surface": "concrete"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5940315,
             -6.9457129
           ],
@@ -2403,46 +2336,6 @@
         "motorcar": "no",
         "motorcycle": "no",
         "name": "Jalur Bus Kota dan AKAP",
-        "oneway": "yes",
-        "surface": "concrete"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5939798,
-            -6.9457037
-          ],
-          [
-            107.5938573,
-            -6.9457504
-          ],
-          [
-            107.5938167,
-            -6.9457793
-          ],
-          [
-            107.5937687,
-            -6.9458089
-          ],
-          [
-            107.5937479,
-            -6.9458174
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1245234216,
-        "access": "no",
-        "bicycle": "no",
-        "bus": "designated",
-        "highway": "service",
-        "horse": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -2626,6 +2519,35 @@
         "short_name": "Jalan Tol Soroja",
         "source": "Bing",
         "toll": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5939798,
+            -6.9457037
+          ],
+          [
+            107.5938141,
+            -6.9457411
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1469503285,
+        "access": "no",
+        "bicycle": "no",
+        "bus": "designated",
+        "highway": "service",
+        "horse": "no",
+        "motorcar": "no",
+        "motorcycle": "no",
+        "name": "Jalur Bus Kota",
+        "oneway": "yes",
+        "surface": "concrete"
       }
     }
   ]

@@ -1172,8 +1172,8 @@
             -6.8717381
           ],
           [
-            107.5385757,
-            -6.8724322
+            107.5386112,
+            -6.8724568
           ]
         ]
       },
@@ -1181,7 +1181,10 @@
         "id": 175262810,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Sisinga Mangaraja"
+        "name": "Jalan Sisinga Mangaraja",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -1412,7 +1415,8 @@
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -1451,7 +1455,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sisingamangaraja",
-        "oneway": "yes"
+        "oneway": "yes",
+        "width": "4"
       }
     },
     {
@@ -1514,20 +1519,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5385757,
-            -6.8724322
+            107.5386112,
+            -6.8724568
           ],
           [
-            107.5382966,
-            -6.8728953
+            107.5384424,
+            -6.8727065
+          ],
+          [
+            107.538312,
+            -6.872906
+          ],
+          [
+            107.5380946,
+            -6.8732152
           ],
           [
             107.5379377,
             -6.8734636
           ],
           [
-            107.5377021,
-            -6.8737945
+            107.5377142,
+            -6.8738045
           ],
           [
             107.5374411,
@@ -1597,9 +1610,13 @@
       },
       "properties": {
         "id": 385643859,
+        "alt_name": "Jl. Pojok Utara",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Sisinga Mangaraja"
+        "name": "Jalan Pojok Utara",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -2188,8 +2205,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5382941,
-            -6.8772397
+            107.5383018,
+            -6.8772177
           ],
           [
             107.5385903,
@@ -2274,24 +2291,24 @@
             -6.8764606
           ],
           [
-            107.5374618,
-            -6.8768222
+            107.5374675,
+            -6.8768096
           ],
           [
-            107.5376835,
-            -6.8769297
+            107.5376889,
+            -6.8769157
           ],
           [
-            107.5378753,
-            -6.8770296
+            107.5379246,
+            -6.8770329
           ],
           [
-            107.5382255,
-            -6.877207
+            107.5382366,
+            -6.877185
           ],
           [
-            107.5382394,
-            -6.877213
+            107.5382615,
+            -6.8771977
           ]
         ]
       },
@@ -2299,7 +2316,10 @@
         "id": 553202373,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Sisingamangaraja"
+        "name": "Jalan Sisingamangaraja",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "6"
       }
     },
     {
@@ -2319,11 +2339,12 @@
       },
       "properties": {
         "id": 553202374,
-        "bridge": "yes",
         "highway": "tertiary",
         "lanes": "2",
-        "layer": "1",
-        "name": "Jalan Sisingamangaraja"
+        "name": "Jalan Sisingamangaraja",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "6"
       }
     },
     {
@@ -2551,7 +2572,10 @@
         "id": 561399069,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Sisingamangaraja"
+        "name": "Jalan Sisingamangaraja",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "6"
       }
     },
     {
@@ -2584,12 +2608,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5382394,
-            -6.877213
+            107.5382615,
+            -6.8771977
           ],
           [
-            107.5382941,
-            -6.8772397
+            107.5383018,
+            -6.8772177
           ]
         ]
       },
@@ -3839,7 +3863,8 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "no",
-        "ref": "11"
+        "ref": "11",
+        "width": "8"
       }
     },
     {
@@ -4078,6 +4103,10 @@
             -6.8805614
           ],
           [
+            107.5391513,
+            -6.8804551
+          ],
+          [
             107.5392258,
             -6.8803921
           ],
@@ -4118,7 +4147,10 @@
         "id": 951976166,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Sisingamangaraja"
+        "name": "Jalan Sisingamangaraja",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "6"
       }
     },
     {

@@ -111,11 +111,10 @@
       },
       "properties": {
         "id": 162108532,
-        "highway": "trunk",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Kota Baru Parahyangan",
         "oneway": "yes",
-        "ref": "10;11",
         "source": "GPS",
         "surface": "asphalt"
       }
@@ -130,8 +129,8 @@
             -6.8717381
           ],
           [
-            107.5385757,
-            -6.8724322
+            107.5386112,
+            -6.8724568
           ]
         ]
       },
@@ -139,7 +138,10 @@
         "id": 175262810,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Sisinga Mangaraja"
+        "name": "Jalan Sisinga Mangaraja",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -351,54 +353,6 @@
           [
             107.4963507,
             -6.8510217
-          ],
-          [
-            107.4963301,
-            -6.8510254
-          ],
-          [
-            107.4963132,
-            -6.8510299
-          ],
-          [
-            107.4962963,
-            -6.8510362
-          ],
-          [
-            107.4962787,
-            -6.8510449
-          ],
-          [
-            107.4962614,
-            -6.8510578
-          ],
-          [
-            107.4962484,
-            -6.8510712
-          ],
-          [
-            107.4962343,
-            -6.85109
-          ],
-          [
-            107.4962221,
-            -6.8511106
-          ],
-          [
-            107.4962098,
-            -6.8511338
-          ],
-          [
-            107.4961976,
-            -6.8511597
-          ],
-          [
-            107.4961619,
-            -6.8512443
-          ],
-          [
-            107.4961444,
-            -6.8512857
           ]
         ]
       },
@@ -474,7 +428,7 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "1",
-        "name": "Jalan Raya Padalarang",
+        "name": "Jalan Raya Simpang",
         "oneway": "yes",
         "ref": "10;11"
       }
@@ -619,7 +573,8 @@
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -658,7 +613,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sisingamangaraja",
-        "oneway": "yes"
+        "oneway": "yes",
+        "width": "4"
       }
     },
     {
@@ -721,20 +677,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5385757,
-            -6.8724322
+            107.5386112,
+            -6.8724568
           ],
           [
-            107.5382966,
-            -6.8728953
+            107.5384424,
+            -6.8727065
+          ],
+          [
+            107.538312,
+            -6.872906
+          ],
+          [
+            107.5380946,
+            -6.8732152
           ],
           [
             107.5379377,
             -6.8734636
           ],
           [
-            107.5377021,
-            -6.8737945
+            107.5377142,
+            -6.8738045
           ],
           [
             107.5374411,
@@ -804,9 +768,13 @@
       },
       "properties": {
         "id": 385643859,
+        "alt_name": "Jl. Pojok Utara",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Sisinga Mangaraja"
+        "name": "Jalan Pojok Utara",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -1109,12 +1077,11 @@
       },
       "properties": {
         "id": 492893650,
-        "highway": "trunk",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "60",
         "name": "Jalan Layang Kota Baru Parahyangan",
         "oneway": "yes",
-        "ref": "10;11",
         "surface": "asphalt"
       }
     },
@@ -1174,36 +1141,36 @@
             -6.8503346
           ],
           [
-            107.495285,
-            -6.850311
+            107.4952808,
+            -6.8503091
           ],
           [
-            107.4952911,
-            -6.8503001
+            107.4952861,
+            -6.8502932
           ],
           [
-            107.4952959,
-            -6.8502869
+            107.4952909,
+            -6.85028
           ],
           [
-            107.4952985,
-            -6.8502746
+            107.4952935,
+            -6.8502677
           ],
           [
-            107.4952982,
-            -6.8502625
+            107.4952932,
+            -6.8502556
           ],
           [
-            107.4952957,
-            -6.8502507
+            107.4952907,
+            -6.8502438
           ],
           [
-            107.4952908,
-            -6.8502392
+            107.4952858,
+            -6.8502323
           ],
           [
-            107.4952832,
-            -6.8502273
+            107.4952782,
+            -6.8502204
           ],
           [
             107.4952748,
@@ -1409,8 +1376,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5382941,
-            -6.8772397
+            107.5383018,
+            -6.8772177
           ],
           [
             107.5385903,
@@ -1495,24 +1462,24 @@
             -6.8764606
           ],
           [
-            107.5374618,
-            -6.8768222
+            107.5374675,
+            -6.8768096
           ],
           [
-            107.5376835,
-            -6.8769297
+            107.5376889,
+            -6.8769157
           ],
           [
-            107.5378753,
-            -6.8770296
+            107.5379246,
+            -6.8770329
           ],
           [
-            107.5382255,
-            -6.877207
+            107.5382366,
+            -6.877185
           ],
           [
-            107.5382394,
-            -6.877213
+            107.5382615,
+            -6.8771977
           ]
         ]
       },
@@ -1520,7 +1487,10 @@
         "id": 553202373,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Sisingamangaraja"
+        "name": "Jalan Sisingamangaraja",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "6"
       }
     },
     {
@@ -1540,11 +1510,12 @@
       },
       "properties": {
         "id": 553202374,
-        "bridge": "yes",
         "highway": "tertiary",
         "lanes": "2",
-        "layer": "1",
-        "name": "Jalan Sisingamangaraja"
+        "name": "Jalan Sisingamangaraja",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "6"
       }
     },
     {
@@ -1566,7 +1537,10 @@
         "id": 561399069,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Sisingamangaraja"
+        "name": "Jalan Sisingamangaraja",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "6"
       }
     },
     {
@@ -1599,12 +1573,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5382394,
-            -6.877213
+            107.5382615,
+            -6.8771977
           ],
           [
-            107.5382941,
-            -6.8772397
+            107.5383018,
+            -6.8772177
           ]
         ]
       },
@@ -2104,7 +2078,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Cimareme",
+        "name": "Jalan Raya Caringin",
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "10;11",
@@ -2153,7 +2127,7 @@
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Cimareme",
+        "name": "Jalan Raya Simpang",
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "10;11",
@@ -2279,7 +2253,8 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "no",
-        "ref": "11"
+        "ref": "11",
+        "width": "8"
       }
     },
     {
@@ -2324,6 +2299,10 @@
           [
             107.5390256,
             -6.8805614
+          ],
+          [
+            107.5391513,
+            -6.8804551
           ],
           [
             107.5392258,
@@ -2460,7 +2439,10 @@
         "id": 951976166,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Sisingamangaraja"
+        "name": "Jalan Sisingamangaraja",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "6"
       }
     },
     {
@@ -2592,11 +2574,10 @@
       },
       "properties": {
         "id": 964576874,
-        "highway": "trunk",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Kota Baru Parahyangan",
-        "oneway": "yes",
-        "ref": "10;11"
+        "oneway": "yes"
       }
     },
     {
@@ -2652,7 +2633,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Cimareme",
+        "name": "Jalan Raya Caringin",
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "10;11",
@@ -2813,7 +2794,7 @@
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Cimareme",
+        "name": "Jalan Raya Caringin",
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "10;11",
@@ -2903,11 +2884,10 @@
         "id": 1079383333,
         "cycleway:left": "lane",
         "cycleway:right": "no",
-        "highway": "trunk",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Kota Baru Parahyangan",
         "oneway": "yes",
-        "ref": "10;11",
         "sidewalk:left": "separate",
         "source": "GPS",
         "surface": "asphalt"
@@ -3014,11 +2994,10 @@
       },
       "properties": {
         "id": 1279109528,
-        "highway": "trunk",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Kota Baru Parahyangan",
         "oneway": "yes",
-        "ref": "10;11",
         "source": "GPS",
         "surface": "asphalt"
       }
@@ -3052,11 +3031,10 @@
       },
       "properties": {
         "id": 1279109530,
-        "highway": "trunk",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Kota Baru Parahyangan",
         "oneway": "yes",
-        "ref": "10;11",
         "source": "GPS",
         "surface": "asphalt"
       }
@@ -3321,6 +3299,73 @@
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4963507,
+            -6.8510217
+          ],
+          [
+            107.4963301,
+            -6.8510254
+          ],
+          [
+            107.4963132,
+            -6.8510299
+          ],
+          [
+            107.4962963,
+            -6.8510362
+          ],
+          [
+            107.4962787,
+            -6.8510449
+          ],
+          [
+            107.4962614,
+            -6.8510578
+          ],
+          [
+            107.4962484,
+            -6.8510712
+          ],
+          [
+            107.4962343,
+            -6.85109
+          ],
+          [
+            107.4962221,
+            -6.8511106
+          ],
+          [
+            107.4962098,
+            -6.8511338
+          ],
+          [
+            107.4961976,
+            -6.8511597
+          ],
+          [
+            107.4961619,
+            -6.8512443
+          ],
+          [
+            107.4961444,
+            -6.8512857
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1469968347,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Kota Baru Parahyangan",
+        "oneway": "yes"
       }
     }
   ]

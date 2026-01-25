@@ -407,6 +407,10 @@
             -6.875944
           ],
           [
+            107.5506797,
+            -6.8758817
+          ],
+          [
             107.5507398,
             -6.8757722
           ],
@@ -557,6 +561,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cihanjuang",
+        "official_name": "Jalan Daeng Muhammad Ariwinata",
         "oneway": "no",
         "surface": "asphalt"
       }
@@ -1302,6 +1307,7 @@
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Cihanjuang",
+        "official_name": "Jalan Daeng Muhammad Ariwinata",
         "surface": "asphalt"
       }
     },
@@ -1548,7 +1554,9 @@
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
         "ref": "3",
-        "surface": "asphalt"
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -1600,7 +1608,9 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "smoothness": "good",
+        "width": "5"
       }
     },
     {
@@ -1885,6 +1895,7 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "11"
       }
     },
@@ -2064,6 +2075,7 @@
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Cihanjuang",
+        "official_name": "Jalan Daeng Muhammad Ariwinata",
         "oneway:conditional": "yes @ (06:00-08:00; 16:00-18:00)",
         "surface": "asphalt"
       }
@@ -2154,7 +2166,9 @@
         "motorcycle": "no",
         "name": "Jalan Gatot Subroto",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "surface": "asphalt",
+        "width": "3"
       }
     },
     {
@@ -2186,6 +2200,7 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "11"
       }
     },

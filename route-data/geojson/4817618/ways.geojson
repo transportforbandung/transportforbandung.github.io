@@ -169,7 +169,9 @@
         "lanes": "3",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
-        "ref": "3"
+        "ref": "3",
+        "surface": "asphalt",
+        "width": "7"
       }
     },
     {
@@ -1230,12 +1232,12 @@
             -6.8794301
           ],
           [
-            107.5402953,
-            -6.8793126
+            107.5402889,
+            -6.8793189
           ],
           [
-            107.5401369,
-            -6.8792361
+            107.5401392,
+            -6.8792514
           ]
         ]
       },
@@ -1245,7 +1247,8 @@
         "lanes": "2",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
-        "ref": "3"
+        "ref": "3",
+        "width": "6"
       }
     },
     {
@@ -1296,7 +1299,9 @@
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
         "ref": "3",
-        "surface": "asphalt"
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -1458,7 +1463,9 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "smoothness": "good",
+        "width": "5"
       }
     },
     {
@@ -1559,6 +1566,9 @@
         "lanes": "2",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "ref": "3",
         "surface": "asphalt"
       }
@@ -1569,8 +1579,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5401369,
-            -6.8792361
+            107.5401392,
+            -6.8792514
           ],
           [
             107.5400249,
@@ -1680,6 +1690,7 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "11"
       }
     },
@@ -1988,7 +1999,8 @@
         "motorcycle": "yes",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "width": "5"
       }
     },
     {
@@ -2244,6 +2256,7 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "11"
       }
     },

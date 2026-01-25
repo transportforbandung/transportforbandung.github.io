@@ -458,7 +458,7 @@
             -6.8664634
           ],
           [
-            107.4685268,
+            107.4685657,
             -6.8664582
           ],
           [
@@ -623,7 +623,9 @@
         "lanes": "3",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
-        "ref": "3"
+        "ref": "3",
+        "surface": "asphalt",
+        "width": "7"
       }
     },
     {
@@ -969,6 +971,9 @@
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
         "oneway": "yes",
+        "parking:both": "street_side",
+        "parking:left:orientation": "diagonal",
+        "parking:right:orientation": "parallel",
         "surface": "asphalt"
       }
     },
@@ -1248,54 +1253,6 @@
           [
             107.4963507,
             -6.8510217
-          ],
-          [
-            107.4963301,
-            -6.8510254
-          ],
-          [
-            107.4963132,
-            -6.8510299
-          ],
-          [
-            107.4962963,
-            -6.8510362
-          ],
-          [
-            107.4962787,
-            -6.8510449
-          ],
-          [
-            107.4962614,
-            -6.8510578
-          ],
-          [
-            107.4962484,
-            -6.8510712
-          ],
-          [
-            107.4962343,
-            -6.85109
-          ],
-          [
-            107.4962221,
-            -6.8511106
-          ],
-          [
-            107.4962098,
-            -6.8511338
-          ],
-          [
-            107.4961976,
-            -6.8511597
-          ],
-          [
-            107.4961619,
-            -6.8512443
-          ],
-          [
-            107.4961444,
-            -6.8512857
           ]
         ]
       },
@@ -1437,7 +1394,8 @@
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
         "ref": "11",
-        "source": "Yahoo hires"
+        "source": "Yahoo hires",
+        "width": "5"
       }
     },
     {
@@ -1530,7 +1488,7 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "1",
-        "name": "Jalan Raya Padalarang",
+        "name": "Jalan Raya Simpang",
         "oneway": "yes",
         "ref": "10;11"
       }
@@ -1545,12 +1503,12 @@
             -6.8794301
           ],
           [
-            107.5402953,
-            -6.8793126
+            107.5402889,
+            -6.8793189
           ],
           [
-            107.5401369,
-            -6.8792361
+            107.5401392,
+            -6.8792514
           ]
         ]
       },
@@ -1560,7 +1518,8 @@
         "lanes": "2",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
-        "ref": "3"
+        "ref": "3",
+        "width": "6"
       }
     },
     {
@@ -1652,7 +1611,9 @@
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -1678,7 +1639,9 @@
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
         "ref": "3",
-        "surface": "asphalt"
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -1969,7 +1932,9 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "smoothness": "good",
+        "width": "5"
       }
     },
     {
@@ -2025,6 +1990,7 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "11"
       }
     },
@@ -2126,6 +2092,9 @@
         "lanes": "2",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "ref": "3",
         "surface": "asphalt"
       }
@@ -2136,8 +2105,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5401369,
-            -6.8792361
+            107.5401392,
+            -6.8792514
           ],
           [
             107.5400249,
@@ -2284,12 +2253,11 @@
       },
       "properties": {
         "id": 492893650,
-        "highway": "trunk",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "60",
         "name": "Jalan Layang Kota Baru Parahyangan",
         "oneway": "yes",
-        "ref": "10;11",
         "surface": "asphalt"
       }
     },
@@ -2531,6 +2499,7 @@
         "layer": "1",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "11"
       }
     },
@@ -2571,6 +2540,7 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "11"
       }
     },
@@ -2599,7 +2569,8 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "width": "5"
       }
     },
     {
@@ -2627,7 +2598,8 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "width": "5"
       }
     },
     {
@@ -2664,7 +2636,8 @@
         "lanes": "4",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "no",
-        "ref": "11"
+        "ref": "11",
+        "width": "10"
       }
     },
     {
@@ -2707,7 +2680,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Jend. H. Amir Machmud",
-        "ref": "11"
+        "ref": "11",
+        "width": "10"
       }
     },
     {
@@ -3833,7 +3807,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Cimareme",
+        "name": "Jalan Raya Caringin",
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "10;11",
@@ -3882,7 +3856,7 @@
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Cimareme",
+        "name": "Jalan Raya Simpang",
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "10;11",
@@ -4031,7 +4005,8 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "no",
-        "ref": "11"
+        "ref": "11",
+        "width": "8"
       }
     },
     {
@@ -4134,6 +4109,7 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "11",
         "source": "Yahoo hires"
       }
@@ -4347,11 +4323,10 @@
       },
       "properties": {
         "id": 964576874,
-        "highway": "trunk",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Kota Baru Parahyangan",
-        "oneway": "yes",
-        "ref": "10;11"
+        "oneway": "yes"
       }
     },
     {
@@ -4516,8 +4491,8 @@
             -6.8767142
           ],
           [
-            107.5452953,
-            -6.8771817
+            107.5453107,
+            -6.8771677
           ],
           [
             107.5452289,
@@ -4543,7 +4518,8 @@
         "lanes": "3",
         "name": "Jalan Gatot Subroto",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "surface": "asphalt"
       }
     },
     {
@@ -4596,7 +4572,8 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "width": "5"
       }
     },
     {
@@ -4623,7 +4600,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Cimareme",
+        "name": "Jalan Raya Caringin",
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "10;11",
@@ -4784,7 +4761,7 @@
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Cimareme",
+        "name": "Jalan Raya Caringin",
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "10;11",
@@ -5503,11 +5480,10 @@
       },
       "properties": {
         "id": 1279109528,
-        "highway": "trunk",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Kota Baru Parahyangan",
         "oneway": "yes",
-        "ref": "10;11",
         "source": "GPS",
         "surface": "asphalt"
       }
@@ -5610,72 +5586,72 @@
             -6.8662533
           ],
           [
-            107.4671848,
-            -6.8662728
+            107.4672043,
+            -6.866271
           ],
           [
-            107.4671602,
-            -6.8662878
+            107.4671832,
+            -6.8662966
           ],
           [
-            107.4671432,
-            -6.8662981
+            107.4671795,
+            -6.8663113
           ],
           [
-            107.4671218,
-            -6.8663247
+            107.4671714,
+            -6.866338
           ],
           [
-            107.4671191,
-            -6.8663647
+            107.4671687,
+            -6.866378
           ],
           [
-            107.4671285,
-            -6.8664033
+            107.4671781,
+            -6.8664166
           ],
           [
-            107.4671406,
-            -6.8664352
+            107.4671902,
+            -6.8664485
           ],
           [
-            107.4671469,
-            -6.8664581
+            107.4671965,
+            -6.8664714
           ],
           [
-            107.4671446,
-            -6.8664817
+            107.4671942,
+            -6.866495
           ],
           [
-            107.467134,
-            -6.866503
+            107.4671836,
+            -6.8665163
           ],
           [
-            107.4671164,
-            -6.8665191
+            107.467166,
+            -6.8665324
           ],
           [
-            107.4670963,
-            -6.8665275
+            107.4671459,
+            -6.8665408
           ],
           [
-            107.4670746,
-            -6.8665289
+            107.4671242,
+            -6.8665422
           ],
           [
-            107.4670536,
-            -6.8665233
+            107.4671032,
+            -6.8665366
           ],
           [
-            107.4670356,
-            -6.8665111
+            107.4670852,
+            -6.8665244
           ],
           [
-            107.4670225,
-            -6.8664938
+            107.4670641,
+            -6.8665084
           ],
           [
-            107.4670038,
-            -6.8664659
+            107.4670346,
+            -6.8664792
           ],
           [
             107.4669716,
@@ -5684,10 +5660,6 @@
           [
             107.4669139,
             -6.866398
-          ],
-          [
-            107.4668718,
-            -6.8663791
           ],
           [
             107.4668097,
@@ -6087,6 +6059,73 @@
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4963507,
+            -6.8510217
+          ],
+          [
+            107.4963301,
+            -6.8510254
+          ],
+          [
+            107.4963132,
+            -6.8510299
+          ],
+          [
+            107.4962963,
+            -6.8510362
+          ],
+          [
+            107.4962787,
+            -6.8510449
+          ],
+          [
+            107.4962614,
+            -6.8510578
+          ],
+          [
+            107.4962484,
+            -6.8510712
+          ],
+          [
+            107.4962343,
+            -6.85109
+          ],
+          [
+            107.4962221,
+            -6.8511106
+          ],
+          [
+            107.4962098,
+            -6.8511338
+          ],
+          [
+            107.4961976,
+            -6.8511597
+          ],
+          [
+            107.4961619,
+            -6.8512443
+          ],
+          [
+            107.4961444,
+            -6.8512857
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1469968347,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Kota Baru Parahyangan",
+        "oneway": "yes"
       }
     }
   ]

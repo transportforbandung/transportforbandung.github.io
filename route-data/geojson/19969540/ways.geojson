@@ -2225,7 +2225,9 @@
       },
       "properties": {
         "id": 42808153,
+        "alt_name": "Jl. Raya Bobojong",
         "highway": "secondary",
+        "name": "Jalan Raya Bobojong",
         "source": "Yahoo hires"
       }
     },
@@ -3046,12 +3048,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5563903,
-            -6.9371305
-          ],
-          [
-            107.5552073,
-            -6.9377116
+            107.5550122,
+            -6.9378206
           ],
           [
             107.5534922,
@@ -3841,7 +3839,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "2",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -3931,40 +3929,52 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5930468,
-            -6.9458246
+            107.593264,
+            -6.9458573
           ],
           [
-            107.593035,
-            -6.9458155
+            107.5931318,
+            -6.9458342
           ],
           [
-            107.5929973,
-            -6.9457608
+            107.5930863,
+            -6.9458135
           ],
           [
-            107.5929755,
-            -6.9457199
+            107.5930568,
+            -6.9457799
           ],
           [
-            107.5929507,
-            -6.9456673
+            107.593037,
+            -6.9457202
           ],
           [
-            107.5929085,
-            -6.9455455
+            107.5930171,
+            -6.9456587
           ],
           [
-            107.5928332,
-            -6.9452993
+            107.5929963,
+            -6.9455941
           ],
           [
-            107.5928224,
-            -6.9452146
+            107.5929662,
+            -6.9454896
           ],
           [
-            107.5928394,
-            -6.9450646
+            107.5929405,
+            -6.9454085
+          ],
+          [
+            107.592872,
+            -6.945188
+          ],
+          [
+            107.5928791,
+            -6.9451113
+          ],
+          [
+            107.5928976,
+            -6.9450391
           ]
         ]
       },
@@ -3977,7 +3987,7 @@
         "horse": "no",
         "motorcar": "no",
         "motorcycle": "no",
-        "name": "Jalur Bus Kota",
+        "name": "Jalur Bus Kota Terminal Leuwipanjang",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -4156,16 +4166,16 @@
             -6.9357593
           ],
           [
-            107.5926711,
-            -6.9356089
+            107.5927019,
+            -6.9356135
           ],
           [
-            107.5926348,
-            -6.9355874
+            107.5926471,
+            -6.9355782
           ],
           [
-            107.5923246,
-            -6.9353626
+            107.5923292,
+            -6.9353611
           ],
           [
             107.5919994,
@@ -4279,32 +4289,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5928649,
-            -6.9448811
+            107.5928874,
+            -6.9447537
           ],
           [
-            107.5928452,
-            -6.9447709
+            107.5928309,
+            -6.944637
           ],
           [
-            107.5927744,
-            -6.9446004
+            107.5927594,
+            -6.9445111
           ],
           [
-            107.5927602,
-            -6.9445782
+            107.5926774,
+            -6.944414
           ],
           [
-            107.5926579,
-            -6.9444185
+            107.5924868,
+            -6.9442651
           ],
           [
-            107.5924688,
-            -6.9442725
-          ],
-          [
-            107.5920765,
-            -6.9440744
+            107.592084,
+            -6.9440521
           ]
         ]
       },
@@ -4994,7 +5000,7 @@
         "highway": "motorway",
         "lanes": "2",
         "motorcycle": "no",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -5082,8 +5088,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5472873,
-            -6.9432892
+            107.547289,
+            -6.94328
           ],
           [
             107.5468143,
@@ -5471,8 +5477,8 @@
             -6.9358831
           ],
           [
-            107.5578371,
-            -6.9364506
+            107.557835,
+            -6.9364571
           ],
           [
             107.5563903,
@@ -5485,7 +5491,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "2",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -5516,7 +5522,7 @@
         "highway": "motorway",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -5831,12 +5837,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.591821,
-            -6.9439456
+            107.5918309,
+            -6.9439338
           ],
           [
-            107.5916379,
-            -6.9438582
+            107.5916419,
+            -6.9438523
           ]
         ]
       },
@@ -5862,12 +5868,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5920765,
-            -6.9440744
+            107.592084,
+            -6.9440521
           ],
           [
-            107.591821,
-            -6.9439456
+            107.5918309,
+            -6.9439338
           ]
         ]
       },
@@ -6035,8 +6041,8 @@
             -6.9430106
           ],
           [
-            107.5472873,
-            -6.9432892
+            107.547289,
+            -6.94328
           ]
         ]
       },
@@ -6287,7 +6293,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "4",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -6332,7 +6338,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "4",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -7330,7 +7336,7 @@
         "highway": "motorway",
         "lanes": "3",
         "motorcycle": "no",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -7643,8 +7649,10 @@
       },
       "properties": {
         "id": 1203894248,
+        "alt_name": "Jl. Pameuntasan",
         "highway": "tertiary",
-        "lanes": "2"
+        "lanes": "2",
+        "name": "Jalan Pameuntasan"
       }
     },
     {
@@ -7785,7 +7793,7 @@
         "highway": "motorway",
         "lanes": "2",
         "motorcycle": "no",
-        "name": "Jalan Tol Soreang–Pasirkoja",
+        "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
         "ref": "4",
@@ -7800,37 +7808,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5928394,
-            -6.9450646
-          ],
-          [
-            107.5928649,
-            -6.9448811
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1245234226,
-        "access": "no",
-        "bicycle": "no",
-        "bus": "designated",
-        "highway": "service",
-        "horse": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
-        "name": "Jalur Bus Kota",
-        "oneway": "yes",
-        "surface": "concrete"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5916379,
-            -6.9438582
+            107.5916419,
+            -6.9438523
           ],
           [
             107.5910845,
@@ -7854,39 +7833,6 @@
         "motorcar": "no",
         "motorcycle": "no",
         "name": "Jalan Keluar Terminal Leuwipanjang",
-        "oneway": "yes",
-        "surface": "concrete"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5932396,
-            -6.9458755
-          ],
-          [
-            107.5931227,
-            -6.9458554
-          ],
-          [
-            107.5930468,
-            -6.9458246
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1296465484,
-        "access": "no",
-        "bicycle": "no",
-        "bus": "designated",
-        "highway": "service",
-        "horse": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
-        "name": "Jalur Bus Kota",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -8454,6 +8400,75 @@
         "highway": "secondary",
         "motorcycle": "yes",
         "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5563903,
+            -6.9371305
+          ],
+          [
+            107.5550122,
+            -6.9378206
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1467737854,
+        "avgspeed": "70",
+        "destination": "Soreang;Pasteur;Padalarang",
+        "highway": "motorway",
+        "lanes": "2",
+        "motorcycle": "no",
+        "name": "Jalan Akses Tol Pasirkoja",
+        "oneway": "yes",
+        "operator": "PT Citra Marga Lintas Jabar",
+        "ref": "4",
+        "short_name": "Jalan Tol Soroja",
+        "toll": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5928976,
+            -6.9450391
+          ],
+          [
+            107.5929024,
+            -6.9449731
+          ],
+          [
+            107.5929037,
+            -6.9449075
+          ],
+          [
+            107.5928874,
+            -6.9447537
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1469503282,
+        "access": "no",
+        "bicycle": "no",
+        "bus": "designated",
+        "covered": "no",
+        "highway": "service",
+        "horse": "no",
+        "motor_vehicle": "no",
+        "motorcar": "no",
+        "motorcycle": "no",
+        "name": "Jalan Keluar Terminal Leuwipanjang",
+        "oneway": "yes",
+        "surface": "concrete"
       }
     }
   ]

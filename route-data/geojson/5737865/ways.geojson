@@ -149,10 +149,10 @@
       },
       "properties": {
         "id": 42795877,
-        "alt_name": "Jalan Simpang Utara",
+        "alt_name": "Jl. Stasiun Timur",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Panaris",
+        "name": "Jalan Stasiun Timur",
         "oneway": "no",
         "ref": "10",
         "sidewalk:both": "separate",
@@ -705,7 +705,8 @@
         "lanes": "1",
         "name": "Jalan Gatot Subroto",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "width": "3"
       }
     },
     {
@@ -731,7 +732,8 @@
         "id": 257234286,
         "highway": "residential",
         "lanes": "2",
-        "name": "Jalan Kalidam"
+        "name": "Jalan Kalidam",
+        "width": "4"
       }
     },
     {
@@ -1555,7 +1557,9 @@
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -1588,7 +1592,8 @@
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -1627,7 +1632,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sisingamangaraja",
-        "oneway": "yes"
+        "oneway": "yes",
+        "width": "4"
       }
     },
     {
@@ -1698,12 +1704,8 @@
             -6.8522828
           ],
           [
-            107.4976172,
-            -6.8525845
-          ],
-          [
-            107.4976105,
-            -6.8526293
+            107.4976114,
+            -6.852603
           ]
         ]
       },
@@ -2671,8 +2673,8 @@
             -6.8897184
           ],
           [
-            107.5366404,
-            -6.8901434
+            107.536637,
+            -6.8901554
           ],
           [
             107.5366635,
@@ -3064,7 +3066,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Cimareme",
+        "name": "Jalan Raya Caringin",
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "10;11",
@@ -3113,7 +3115,7 @@
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Cimareme",
+        "name": "Jalan Raya Simpang",
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "10;11",
@@ -3438,6 +3440,10 @@
             -6.8805614
           ],
           [
+            107.5391513,
+            -6.8804551
+          ],
+          [
             107.5392258,
             -6.8803921
           ],
@@ -3484,8 +3490,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.4976105,
-            -6.8526293
+            107.4976114,
+            -6.852603
           ],
           [
             107.4975965,
@@ -3499,7 +3505,7 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "1",
-        "name": "Jalan Raya Padalarang",
+        "name": "Jalan Raya Simpang",
         "oneway": "yes",
         "ref": "10;11"
       }
@@ -3630,8 +3636,8 @@
             -6.8767142
           ],
           [
-            107.5452953,
-            -6.8771817
+            107.5453107,
+            -6.8771677
           ],
           [
             107.5452289,
@@ -3657,7 +3663,8 @@
         "lanes": "3",
         "name": "Jalan Gatot Subroto",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "surface": "asphalt"
       }
     },
     {
@@ -3792,7 +3799,7 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Raya Cimareme",
+        "name": "Jalan Raya Caringin",
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "10;11",
@@ -3953,7 +3960,7 @@
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Cimareme",
+        "name": "Jalan Raya Caringin",
         "official_name": "Jalan KH. Abdurrahman Wahid",
         "oneway": "no",
         "ref": "10;11",

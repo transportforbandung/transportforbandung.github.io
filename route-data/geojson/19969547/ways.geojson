@@ -2225,7 +2225,9 @@
       },
       "properties": {
         "id": 42808153,
+        "alt_name": "Jl. Raya Bobojong",
         "highway": "secondary",
+        "name": "Jalan Raya Bobojong",
         "source": "Yahoo hires"
       }
     },
@@ -3550,7 +3552,9 @@
         "lanes": "3",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
-        "ref": "3"
+        "ref": "3",
+        "surface": "asphalt",
+        "width": "7"
       }
     },
     {
@@ -3884,7 +3888,8 @@
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
         "ref": "11",
-        "source": "Yahoo hires"
+        "source": "Yahoo hires",
+        "width": "5"
       }
     },
     {
@@ -3966,12 +3971,12 @@
             -6.8794301
           ],
           [
-            107.5402953,
-            -6.8793126
+            107.5402889,
+            -6.8793189
           ],
           [
-            107.5401369,
-            -6.8792361
+            107.5401392,
+            -6.8792514
           ]
         ]
       },
@@ -3981,7 +3986,8 @@
         "lanes": "2",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
-        "ref": "3"
+        "ref": "3",
+        "width": "6"
       }
     },
     {
@@ -4073,7 +4079,9 @@
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -4099,7 +4107,9 @@
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
         "ref": "3",
-        "surface": "asphalt"
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -4777,7 +4787,9 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "smoothness": "good",
+        "width": "5"
       }
     },
     {
@@ -4833,6 +4845,7 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "11"
       }
     },
@@ -4934,6 +4947,9 @@
         "lanes": "2",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "ref": "3",
         "surface": "asphalt"
       }
@@ -4944,8 +4960,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5401369,
-            -6.8792361
+            107.5401392,
+            -6.8792514
           ],
           [
             107.5400249,
@@ -8257,6 +8273,7 @@
         "layer": "1",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "11"
       }
     },
@@ -8297,6 +8314,7 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "11"
       }
     },
@@ -8325,7 +8343,8 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "width": "5"
       }
     },
     {
@@ -8353,7 +8372,8 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "width": "5"
       }
     },
     {
@@ -8390,7 +8410,8 @@
         "lanes": "4",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "no",
-        "ref": "11"
+        "ref": "11",
+        "width": "10"
       }
     },
     {
@@ -8433,7 +8454,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Jend. H. Amir Machmud",
-        "ref": "11"
+        "ref": "11",
+        "width": "10"
       }
     },
     {
@@ -13674,7 +13696,8 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "no",
-        "ref": "11"
+        "ref": "11",
+        "width": "8"
       }
     },
     {
@@ -13707,6 +13730,7 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "11",
         "source": "Yahoo hires"
       }
@@ -15527,8 +15551,8 @@
             -6.8767142
           ],
           [
-            107.5452953,
-            -6.8771817
+            107.5453107,
+            -6.8771677
           ],
           [
             107.5452289,
@@ -15554,7 +15578,8 @@
         "lanes": "3",
         "name": "Jalan Gatot Subroto",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "surface": "asphalt"
       }
     },
     {
@@ -15607,7 +15632,8 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "width": "5"
       }
     },
     {
