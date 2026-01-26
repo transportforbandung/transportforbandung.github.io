@@ -3499,9 +3499,10 @@
           17556157,
           17771221,
           17772447,
+          18766208,
           18771223
         ],
-        "route_count": 13,
+        "route_count": 14,
         "category": "6_shelter_yes_pole_totem"
       }
     },
@@ -4606,17 +4607,16 @@
       },
       "properties": {
         "id": 3380452739,
-        "name": "ITB Ganesha B",
+        "name": "Lapangan Seni Rupa",
         "shelter": "yes",
         "pole": "no",
         "lit": "no",
         "bench": "yes",
         "bin": "no",
         "routes": [
-          4646137,
-          14364569
+          4646137
         ],
-        "route_count": 2,
+        "route_count": 1,
         "category": "1_shelter_yes_pole_none"
       }
     },
@@ -20689,6 +20689,28 @@
       },
       "properties": {
         "id": 12813237914,
+        "name": "Masjid Salman ITB",
+        "shelter": "yes",
+        "pole": "no",
+        "lit": "no",
+        "bench": "yes",
+        "bin": "no",
+        "routes": [],
+        "route_count": 0,
+        "category": "1_shelter_yes_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6095893,
+          -6.8934125
+        ]
+      },
+      "properties": {
+        "id": 12813237925,
         "name": "ITB Ganesha A",
         "shelter": "yes",
         "pole": "no",
@@ -20707,44 +20729,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6095893,
-          -6.8934125
-        ]
-      },
-      "properties": {
-        "id": 12813237925,
-        "name": "Klinik Pratama ITB",
-        "shelter": "yes",
-        "pole": "no",
-        "lit": "no",
-        "bench": "yes",
-        "bin": "no",
-        "routes": [],
-        "route_count": 0,
-        "category": "1_shelter_yes_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           107.6094548,
           -6.8933053
         ]
       },
       "properties": {
         "id": 12813237927,
-        "name": "Lapangan Sipil",
+        "name": "ITB Ganesha B",
         "shelter": "yes",
         "pole": "no",
         "lit": "no",
         "bench": "yes",
         "bin": "no",
         "routes": [
-          4646137
+          4646137,
+          14364569
         ],
-        "route_count": 1,
+        "route_count": 2,
         "category": "1_shelter_yes_pole_none"
       }
     },
