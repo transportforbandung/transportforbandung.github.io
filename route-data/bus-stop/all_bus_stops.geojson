@@ -2386,11 +2386,10 @@
           4284600,
           4292372,
           4423238,
-          4631469,
           4634057,
           4648025
         ],
-        "route_count": 6,
+        "route_count": 5,
         "category": "1_shelter_yes_pole_none"
       }
     },
@@ -2583,7 +2582,6 @@
           4283719,
           4294191,
           4308300,
-          4631469,
           4635390,
           4635842,
           4636013,
@@ -2605,7 +2603,7 @@
           16677557,
           16677558
         ],
-        "route_count": 25,
+        "route_count": 24,
         "category": "6_shelter_yes_pole_totem"
       }
     },
@@ -2648,8 +2646,8 @@
         "shelter": "no",
         "pole": "totem",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4284600,
           4643109
@@ -23130,9 +23128,9 @@
         "name": "Dago Asri A",
         "shelter": "no",
         "pole": "traffic_sign",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4283719,
           4292372,
