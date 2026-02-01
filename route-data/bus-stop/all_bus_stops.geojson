@@ -437,8 +437,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6128839,
-          -6.8944726
+          107.6129282,
+          -6.8944686
         ]
       },
       "properties": {
@@ -3483,7 +3483,7 @@
         "name": "Pasar Kembang Wastukencana",
         "shelter": "yes",
         "pole": "totem",
-        "lit": "no",
+        "lit": "yes",
         "bench": "yes",
         "bin": "no",
         "routes": [
@@ -7833,8 +7833,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6130663,
-          -6.8942835
+          107.613073,
+          -6.8942995
         ]
       },
       "properties": {
@@ -10806,8 +10806,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6129699,
-          -6.8955452
+          107.6129933,
+          -6.8955412
         ]
       },
       "properties": {
@@ -12870,7 +12870,7 @@
         "pole": "totem",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4425938,
           16644061,
@@ -17493,10 +17493,11 @@
           18793035,
           18793036,
           19969544,
+          19969545,
           20072379,
           20072380
         ],
-        "route_count": 5,
+        "route_count": 6,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -20714,7 +20715,7 @@
         "name": "ITB Ganesha A",
         "shelter": "yes",
         "pole": "no",
-        "lit": "no",
+        "lit": "yes",
         "bench": "yes",
         "bin": "no",
         "routes": [
@@ -26539,7 +26540,7 @@
         "pole": "totem",
         "lit": null,
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4635842,
           4636013,
@@ -26589,7 +26590,7 @@
         "name": "Simpang Veteran -Sunda",
         "shelter": "no",
         "pole": null,
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
