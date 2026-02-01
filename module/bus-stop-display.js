@@ -514,30 +514,6 @@ function initializeBusStopControls() {
             </label>
         </div>
         <small class="text-muted d-block mt-1" style="font-size: 0.75rem;">Klik halte untuk melihat rute</small>
-        
-        <!-- Compact legend -->
-        <div class="bus-stop-legend mt-2" style="font-size: 0.65rem;">
-            <div class="legend-item mb-1">
-                <span class="legend-color" style="background-color: #2ecc71;"></span>
-                Halte
-            </div>
-            <div class="legend-item mb-1">
-                <span class="legend-color" style="background-color: #3498db;"></span>
-                Rambu
-            </div>
-            <div class="legend-item mb-1">
-                <span class="legend-color" style="background-color: #e74c3c;"></span>
-                Totem
-            </div>
-            <div class="legend-item mb-1">
-                <span class="legend-color" style="background-color: #f39c12;"></span>
-                Flag
-            </div>
-            <div class="legend-item mb-1">
-                <span class="legend-color" style="background-color: #95a5a6;"></span>
-                Virtual
-            </div>
-        </div>
     `;
     
     routeContainer.insertBefore(busStopControl, routeContainer.firstChild);
