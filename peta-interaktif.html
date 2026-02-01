@@ -77,64 +77,49 @@
     <!-- Navbar -->
     <div id="header"></div>
 
-    <!--Hero section-->
-    <div style="background-color:#00a64f; padding: 1rem 0 1rem">
-        <div class="wide-content" style="padding: 40px 40px 0px; ">
-            <div class="wide-content" style="padding-right: 0px; padding-left: 0px;">
-                <div class="mb-4">
-                    <h2 style="color: #FFFFFF">Peta Interaktif</h2>
-                    <p style="color: #FFFFFF">Kenali ratusan rute kereta api perkotaan, bus kota, dan angkot di Bandung Raya secara langsung di peta berikut.</p>
-                    <p class="alert alert-info small"><i class="bi bi-info-circle fs-5 me-2"></i> Klik <i class="bi bi-list"></i> pilih rute yang ingin Anda ketahui, kemudian tunggu beberapa saat hingga rute muncul di peta. Lihat peta dengan layar penuh dan lacak lokasi Anda saat ini melalui tombol di kiri atas.</p>
+    <!--Hero section-->           
+    <div class="card overflow-hidden">
+        <!-- Map -->
+        <div class="col-lg-12">
+            <div id="map" class="w-100" style="height: 83vh; border-radius: 0;"></div>
+        </div>
+        <!-- Sidebar -->
+        <div id="sidebar-map" class="col-lg-4 border-start bg-white rounded shadow d-none">
+            <div class="sidebar-content d-md-flex flex-column h-100 p-3">
+                
+                <!-- Title -->
+                <div class="fw-bold bg-primary text-white rounded py-2 px-3 mb-2">Pilih Rute</div>
+                
+                <!-- Accordion container -->
+                <div id="route-container" class="flex-grow-1 overflow-auto" style="min-height: 0;">
                 </div>
-            
-                <div class="card overflow-hidden mb-3">
-                    <!-- Map -->
-                    <div class="col-lg-12">
-                        <div id="map" class="w-100" style="height: 83vh;"></div>
-                    </div>
-                    <!-- Sidebar -->
-                    <div id="sidebar-map" class="col-lg-4 border-start bg-white rounded shadow d-none">
-                        <div class="sidebar-content d-md-flex flex-column h-100 p-3">
-                        
-                            <!-- Title -->
-                            <div class="fw-bold bg-primary text-white rounded py-2 px-3 mb-2">Pilih Rute</div>
-                        
-                            <!-- Accordion container -->
-                            <div id="route-container" class="flex-grow-1 overflow-auto" style="min-height: 0;">
-                            </div>
-                        
-                            <!-- Footer -->
-                            <div class="text-muted opacity-75 mt-2" style="font-size: .6rem;">
-                                <i class="bi bi-database"></i>&nbsp;Terdapat masalah data? Diskusikan di <a href="https://t.me/fdtbandung"><b>grup Telegram FDTB</b></a>.
-                            </div>
-                            <div class="text-muted opacity-75 mt-2" style="font-size: .6rem;">
-                                Kunjungi peta di <a href="https://dishub.bandung.go.id/page/peta-transportasi"><b>situs web Dishub Kota Bandung</b></a> jika laman ini bermasalah.
-                            </div>
-                            <div class="text-muted opacity-75 mt-2" style="font-size: .6rem;">
-                                Data terakhir diperbaharui pada 20 Oktober 2025.
-                            </div>
-                        </div>
-                    </div>
+                
+                <!-- Footer -->
+                <div class="text-muted opacity-75 mt-2" style="font-size: .6rem;">
+                    <i class="bi bi-database"></i>&nbsp;Terdapat masalah data? Diskusikan di <a href="https://t.me/fdtbandung"><b>grup Telegram FDTB</b></a>.
                 </div>
-                <!--JS for map-->
-                <script defer="" src="./module/osm-basemap.js"></script>
-                <script>
-                    window.routeConfig = {
-                    localRouteBasePath: 'route-data/geojson',
-                    routesDataUrl: 'route-data/routes.json'
-                    };
-                </script>
-                <script defer="" src="./module/intermap-display.js"></script>
-                <script defer="" src="./module/bus-stop-display.js"></script>
+                <div class="text-muted opacity-75 mt-2" style="font-size: .6rem;">
+                    Kunjungi peta di <a href="https://dishub.bandung.go.id/page/peta-transportasi"><b>situs web Dishub Kota Bandung</b></a> jika laman ini bermasalah.
+                </div>
             </div>
-        </section>
+        </div>
     </div>
+    <!--JS for map-->
+    <script defer="" src="./module/osm-basemap.js"></script>
+    <script>
+        window.routeConfig = {
+            localRouteBasePath: 'route-data/geojson',
+            routesDataUrl: 'route-data/routes.json'
+        };
+    </script>
+    <script defer="" src="./module/intermap-display.js"></script>
+    <script defer="" src="./module/bus-stop-display.js"></script>
     
     <script src="./module/fetch-script.js" defer></script>
     <script src="./module/main.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="application/ld+json">
-    {
+        {
         "@context": "https://schema.org",
         "@type": "Article",
         "mainEntityOfPage": {
