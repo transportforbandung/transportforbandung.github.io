@@ -689,7 +689,10 @@
       },
       "properties": {
         "id": 174269785,
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "yes",
+        "lanes": "1",
         "name": "Jalan Embong",
         "oneway": "yes",
         "surface": "asphalt"
@@ -825,6 +828,7 @@
       "properties": {
         "id": 174269821,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong|Naripan;Asia Afrika;Lengkong",
         "highway": "tertiary",
         "lanes": "3",
@@ -3414,6 +3418,7 @@
       "properties": {
         "id": 555601275,
         "avgspeed": "30",
+        "cycleway:both": "no",
         "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Naripan;Asia Afrika;Lengkong|Naripan;Asia Afrika;Lengkong",
         "highway": "tertiary",
         "lanes": "2",
