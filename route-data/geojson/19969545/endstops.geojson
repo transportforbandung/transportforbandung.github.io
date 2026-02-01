@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4971931,
+          -6.8433132
+        ]
+      },
+      "properties": {
+        "id": 3468494613,
+        "bus": "yes",
+        "name": "Stasiun KAI Padalarang",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.3616016,
+          -6.7394024
+        ]
+      },
+      "properties": {
+        "id": 7349739720,
+        "bus": "yes",
+        "name": "Pasar Cipeundeuy",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5876606,
+          -6.9139712
+        ]
+      },
+      "properties": {
+        "id": 5648631825,
+        "bus": "yes",
+        "name": "Terminal Ciroyom",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
+}
