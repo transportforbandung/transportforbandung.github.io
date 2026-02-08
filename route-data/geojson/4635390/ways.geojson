@@ -178,8 +178,8 @@
             -6.93268
           ],
           [
-            107.6257918,
-            -6.9326592
+            107.6258093,
+            -6.9326685
           ],
           [
             107.625745,
@@ -197,6 +197,7 @@
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
         "oneway": "yes",
+        "sidewalk:left": "separate",
         "surface": "asphalt",
         "turn:lanes": "slight_right|right"
       }
@@ -1720,8 +1721,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6272027,
-            -6.9330478
+            107.6272158,
+            -6.9330278
           ],
           [
             107.6277229,
@@ -3709,8 +3710,8 @@
             -6.9338668
           ],
           [
-            107.6342951,
-            -6.9335453
+            107.6342774,
+            -6.9335348
           ],
           [
             107.6345227,
@@ -4149,6 +4150,7 @@
         "lanes": "3",
         "name": "Jalan Raden Adipati Aria Martanegara",
         "oneway": "yes",
+        "sidewalk:left": "separate",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_right|right"
       }
@@ -4302,28 +4304,24 @@
             -6.9327732
           ],
           [
-            107.6263377,
-            -6.9328065
+            107.6264059,
+            -6.9328203
           ],
           [
-            107.6264074,
-            -6.9328264
-          ],
-          [
-            107.6264955,
-            -6.9328495
+            107.626494,
+            -6.9328449
           ],
           [
             107.6266861,
-            -6.9328994
+            -6.9328918
           ],
           [
-            107.6267581,
-            -6.9329183
+            107.6267628,
+            -6.9329091
           ],
           [
-            107.6272027,
-            -6.9330478
+            107.6272158,
+            -6.9330278
           ]
         ]
       },
@@ -4338,6 +4336,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
+        "sidewalk:both": "separate",
         "surface": "asphalt",
         "turn:lanes:backward": "slight_left|slight_right|right",
         "turn:lanes:forward": "through|right"
@@ -5496,6 +5495,10 @@
           [
             107.6358294,
             -6.9281885
+          ],
+          [
+            107.6359524,
+            -6.9277105
           ],
           [
             107.635966,

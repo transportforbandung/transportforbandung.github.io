@@ -599,14 +599,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5894312,
-            -6.9459422
-          ],
-          [
-            107.5893766,
-            -6.9460274
-          ],
-          [
             107.5892156,
             -6.9462748
           ],
@@ -2378,6 +2370,36 @@
         "lanes": "2",
         "name": "Jalan Mahmud",
         "ref": "173"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5894312,
+            -6.9459422
+          ],
+          [
+            107.5893766,
+            -6.9460274
+          ],
+          [
+            107.5892156,
+            -6.9462748
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1475164108,
+        "alt_name": "Jalan Kopo",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Kyai Haji Wahid Hasyim",
+        "ref": "106",
+        "reg_ref": "22-00-106-11K",
+        "turn:lanes:forward": "slight_left;through|through;right"
       }
     }
   ]

@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5922455,
+          -6.9804729
+        ]
+      },
+      "properties": {
+        "id": 710308338,
+        "bench": "no",
+        "bus": "yes",
+        "name": "Jembatan Citarum Lama Rancamanyar",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5892156,
+          -6.9462748
+        ]
+      },
+      "properties": {
+        "id": 3272542985,
+        "bus": "yes",
+        "name": "Puskesmas Kopo",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.592997,
+          -6.9469193
+        ]
+      },
+      "properties": {
+        "id": 3277891129,
+        "bus": "yes",
+        "name": "Seberang Terminal Leuwipanjang",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
+}

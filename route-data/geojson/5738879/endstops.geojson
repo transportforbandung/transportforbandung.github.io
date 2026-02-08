@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6392468,
+          -6.9552162
+        ]
+      },
+      "properties": {
+        "id": 13240134419,
+        "bus": "yes",
+        "name": "Kordon",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6270195,
+          -6.9861916
+        ]
+      },
+      "properties": {
+        "id": 305891839,
+        "bus": "yes",
+        "name": "Dayeuh Kolot",
+        "public_transport": "stop_position",
+        "ref": "Dayeuh Kolot"
+      }
+    }
+  ]
+}
