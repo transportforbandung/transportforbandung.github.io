@@ -294,57 +294,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.5922349,
-          -6.9806262
-        ]
-      },
-      "properties": {
-        "id": 710308338,
-        "name": "Jl. Sayuran",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          4649704,
-          4649705,
-          5736614,
-          5736615,
-          5738875,
-          5738880
-        ],
-        "route_count": 6,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5963606,
-          -6.9848701
-        ]
-      },
-      "properties": {
-        "id": 710309612,
-        "name": "Rancamanyar",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           107.607149,
           -6.9212854
         ]
@@ -635,62 +584,6 @@
         "bin": null,
         "routes": [],
         "route_count": 0,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5908461,
-          -6.9727951
-        ]
-      },
-      "properties": {
-        "id": 1911749068,
-        "name": "Cangkuang/Cibaduyut",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          4649704,
-          4649705,
-          5736614,
-          5736615,
-          5736616,
-          5736617,
-          5738875,
-          5738880
-        ],
-        "route_count": 8,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.6156089,
-          -6.9879481
-        ]
-      },
-      "properties": {
-        "id": 1912924849,
-        "name": "Andir, Baleendah",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          5738877,
-          5738888
-        ],
-        "route_count": 2,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -1619,32 +1512,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.4850025,
-          -6.8425857
-        ]
-      },
-      "properties": {
-        "id": 3046973756,
-        "name": "Simpang Pasar Tagog",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          5738489,
-          5742516,
-          18793035
-        ],
-        "route_count": 3,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           107.5580796,
           -6.9299747
         ]
@@ -2120,31 +1987,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.593435,
-          -6.9627318
-        ]
-      },
-      "properties": {
-        "id": 3248927104,
-        "name": "Cibaduyut",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          4649704,
-          4649705
-        ],
-        "route_count": 2,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           107.5995862,
           -6.8907401
         ]
@@ -2387,9 +2229,10 @@
           4292372,
           4423238,
           4634057,
+          4642250,
           4648025
         ],
-        "route_count": 5,
+        "route_count": 6,
         "category": "1_shelter_yes_pole_none"
       }
     },
@@ -2438,9 +2281,10 @@
         "bin": null,
         "routes": [
           4284600,
+          4642250,
           4643109
         ],
-        "route_count": 2,
+        "route_count": 3,
         "category": "3_shelter_none_pole_totem"
       }
     },
@@ -2625,9 +2469,10 @@
         "bench": "no",
         "bin": "no",
         "routes": [
+          4642250,
           4643109
         ],
-        "route_count": 1,
+        "route_count": 2,
         "category": "3_shelter_none_pole_totem"
       }
     },
@@ -2650,9 +2495,10 @@
         "bin": "no",
         "routes": [
           4284600,
+          4642250,
           4643109
         ],
-        "route_count": 2,
+        "route_count": 3,
         "category": "3_shelter_none_pole_totem"
       }
     },
@@ -4761,18 +4607,20 @@
         "name": "Puskesmas Kopo",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": null,
         "bin": null,
         "routes": [
           4294473,
           4423238,
+          4649704,
+          4649705,
           4807424,
           16646697,
           17834085,
           17834106
         ],
-        "route_count": 6,
+        "route_count": 8,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -5129,6 +4977,61 @@
         ],
         "route_count": 5,
         "category": "3_shelter_none_pole_totem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5934879,
+          -6.9627863
+        ]
+      },
+      "properties": {
+        "id": 3384625409,
+        "name": "Underpass Cibaduyut",
+        "shelter": "no",
+        "pole": "no",
+        "lit": null,
+        "bench": null,
+        "bin": null,
+        "routes": [
+          4649705,
+          5736614,
+          5736615,
+          5738875,
+          5738880
+        ],
+        "route_count": 5,
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5922209,
+          -6.9804749
+        ]
+      },
+      "properties": {
+        "id": 3384625410,
+        "name": "Jembatan Citarum Lama Rancamanyar",
+        "shelter": "no",
+        "pole": "no",
+        "lit": "no",
+        "bench": "no",
+        "bin": null,
+        "routes": [
+          4649704,
+          4649705,
+          5736614,
+          5738875
+        ],
+        "route_count": 4,
+        "category": "8_shelter_none_pole_none"
       }
     },
     {
@@ -5524,28 +5427,6 @@
         ],
         "route_count": 1,
         "category": "5_shelter_yes_pole_sign"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5735848,
-          -6.9715961
-        ]
-      },
-      "properties": {
-        "id": 3464313654,
-        "name": "Sayati",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
-        "category": "8_shelter_none_pole_none"
       }
     },
     {
@@ -5963,37 +5844,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.5363587,
-          -6.8852969
-        ]
-      },
-      "properties": {
-        "id": 3470022239,
-        "name": "Stasiun Cimahi",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          4817618,
-          4818341,
-          4820221,
-          4820363,
-          5737855,
-          5737856,
-          5737858,
-          18782468
-        ],
-        "route_count": 8,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           107.5747486,
           -6.8720507
         ]
@@ -6040,28 +5890,6 @@
           5737856
         ],
         "route_count": 4,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5234617,
-          -6.8858533
-        ]
-      },
-      "properties": {
-        "id": 3471717638,
-        "name": "UNJANI, Cimahi",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -6717,6 +6545,31 @@
         "routes": [
           5738654,
           5738655
+        ],
+        "route_count": 2,
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6260263,
+          -6.9914064
+        ]
+      },
+      "properties": {
+        "id": 3890313807,
+        "name": "Simpang Jembatan Dayeuhkolot",
+        "shelter": "no",
+        "pole": "no",
+        "lit": "no",
+        "bench": null,
+        "bin": null,
+        "routes": [
+          5738877,
+          5738888
         ],
         "route_count": 2,
         "category": "8_shelter_none_pole_none"
@@ -7528,10 +7381,10 @@
       "properties": {
         "id": 7835804493,
         "name": "Stasiun Hall",
-        "shelter": "no",
+        "shelter": "yes",
         "pole": "traffic_sign",
         "lit": null,
-        "bench": "no",
+        "bench": "yes",
         "bin": "no",
         "routes": [
           4308299,
@@ -7559,7 +7412,7 @@
           19757704
         ],
         "route_count": 23,
-        "category": "2_shelter_none_pole_sign"
+        "category": "5_shelter_yes_pole_sign"
       }
     },
     {
@@ -7843,8 +7696,10 @@
         "lit": "no",
         "bench": "no",
         "bin": "no",
-        "routes": [],
-        "route_count": 0,
+        "routes": [
+          4642250
+        ],
+        "route_count": 1,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -9184,7 +9039,7 @@
         "id": 10771913955,
         "name": "Hotel Horison B",
         "shelter": "no",
-        "pole": "totem",
+        "pole": "no",
         "lit": "no",
         "bench": "no",
         "bin": "no",
@@ -9196,7 +9051,7 @@
           17771073
         ],
         "route_count": 5,
-        "category": "3_shelter_none_pole_totem"
+        "category": "8_shelter_none_pole_none"
       }
     },
     {
@@ -9373,7 +9228,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6127393,
+          107.6127527,
           -6.8975222
         ]
       },
@@ -9414,12 +9269,13 @@
         "routes": [
           4308300,
           4432470,
+          4642250,
           4643109,
           15555900,
           18770906,
           18771223
         ],
-        "route_count": 6,
+        "route_count": 7,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -9446,13 +9302,14 @@
           4433069,
           4639769,
           4642211,
+          4642250,
           15555900,
           18766207,
           18770906,
           18771223,
           19664372
         ],
-        "route_count": 10,
+        "route_count": 11,
         "category": "5_shelter_yes_pole_sign"
       }
     },
@@ -9477,6 +9334,7 @@
           4425938,
           4433069,
           4642211,
+          4642250,
           4652460,
           17329177,
           17350725,
@@ -9484,7 +9342,7 @@
           18770906,
           18771223
         ],
-        "route_count": 9,
+        "route_count": 10,
         "category": "5_shelter_yes_pole_sign"
       }
     },
@@ -9548,6 +9406,7 @@
           4420962,
           4425938,
           4642211,
+          4642250,
           4652511,
           4802258,
           16646484,
@@ -9561,7 +9420,7 @@
           18782469,
           19757705
         ],
-        "route_count": 18,
+        "route_count": 19,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -10817,9 +10676,10 @@
         "bench": "yes",
         "bin": "no",
         "routes": [
+          4642250,
           4643109
         ],
-        "route_count": 1,
+        "route_count": 2,
         "category": "3_shelter_none_pole_totem"
       }
     },
@@ -10841,10 +10701,11 @@
         "bench": "no",
         "bin": "no",
         "routes": [
+          4642250,
           4643109,
           18770906
         ],
-        "route_count": 2,
+        "route_count": 3,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -10891,9 +10752,10 @@
         "bench": "no",
         "bin": "no",
         "routes": [
+          4642250,
           4643109
         ],
-        "route_count": 1,
+        "route_count": 2,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -13178,10 +13040,11 @@
           4433069,
           4639769,
           4642211,
+          4642250,
           15555900,
           18771223
         ],
-        "route_count": 7,
+        "route_count": 8,
         "category": "3_shelter_none_pole_totem"
       }
     },
@@ -13229,11 +13092,12 @@
         "bench": "no",
         "bin": "no",
         "routes": [
+          4642250,
           4643109,
           18770906,
           19664371
         ],
-        "route_count": 3,
+        "route_count": 4,
         "category": "4_shelter_none_pole_flag"
       }
     },
@@ -13974,11 +13838,9 @@
         "bench": null,
         "bin": null,
         "routes": [
-          5738877,
-          5738888,
           18766207
         ],
-        "route_count": 3,
+        "route_count": 1,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -14218,8 +14080,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.631839,
-          -6.9906535
+          107.6318553,
+          -6.9905445
         ]
       },
       "properties": {
@@ -14227,8 +14089,8 @@
         "name": "SPBU Bojongsoang",
         "shelter": "no",
         "pole": "traffic_sign",
-        "lit": null,
-        "bench": null,
+        "lit": "no",
+        "bench": "no",
         "bin": null,
         "routes": [
           18799379
@@ -16044,10 +15906,11 @@
         "bench": "no",
         "bin": "no",
         "routes": [
+          4642250,
           4643109,
           18770906
         ],
-        "route_count": 2,
+        "route_count": 3,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -16448,6 +16311,7 @@
         "bin": "no",
         "routes": [
           4308486,
+          4649704,
           4807424,
           4817598,
           16646697,
@@ -16458,7 +16322,7 @@
           17834106,
           18768805
         ],
-        "route_count": 10,
+        "route_count": 11,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -17102,10 +16966,11 @@
         "bench": null,
         "bin": null,
         "routes": [
+          4649705,
           5517546,
           16677494
         ],
-        "route_count": 2,
+        "route_count": 3,
         "category": "1_shelter_yes_pole_none"
       }
     },
@@ -19282,9 +19147,10 @@
           17771075,
           17771076,
           18768804,
-          18799376
+          18799376,
+          18799379
         ],
-        "route_count": 5,
+        "route_count": 6,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -20291,9 +20157,10 @@
         "bench": null,
         "bin": null,
         "routes": [
+          4649705,
           5517546
         ],
-        "route_count": 1,
+        "route_count": 2,
         "category": "1_shelter_yes_pole_none"
       }
     },
@@ -21389,9 +21256,10 @@
         "bin": null,
         "routes": [
           4284600,
+          4642250,
           4643109
         ],
-        "route_count": 2,
+        "route_count": 3,
         "category": "3_shelter_none_pole_totem"
       }
     },
@@ -21603,9 +21471,10 @@
           4433069,
           4639769,
           4642211,
+          4642250,
           18771223
         ],
-        "route_count": 6,
+        "route_count": 7,
         "category": "3_shelter_none_pole_totem"
       }
     },
@@ -22928,11 +22797,10 @@
         "bench": null,
         "bin": null,
         "routes": [
-          5738877,
           5738878,
           18799376
         ],
-        "route_count": 3,
+        "route_count": 2,
         "category": "5_shelter_yes_pole_sign"
       }
     },
@@ -24902,15 +24770,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6051319,
-          -6.9147208
+          107.6051306,
+          -6.9147461
         ]
       },
       "properties": {
         "id": 13118762476,
         "name": "Masjid Saifuddaulah",
         "shelter": "no",
-        "pole": "totem",
+        "pole": "no",
         "lit": "no",
         "bench": "no",
         "bin": "no",
@@ -24932,7 +24800,7 @@
           18782469
         ],
         "route_count": 15,
-        "category": "3_shelter_none_pole_totem"
+        "category": "8_shelter_none_pole_none"
       }
     },
     {
@@ -25937,8 +25805,8 @@
         "shelter": "no",
         "pole": "totem",
         "lit": "no",
-        "bench": null,
-        "bin": null,
+        "bench": "yes",
+        "bin": "no",
         "routes": [
           19664371,
           19664372
@@ -25967,11 +25835,12 @@
         "routes": [
           4433069,
           4642211,
+          4642250,
           17771221,
           19664371,
           19664372
         ],
-        "route_count": 5,
+        "route_count": 6,
         "category": "3_shelter_none_pole_totem"
       }
     },
@@ -25994,6 +25863,7 @@
         "bin": null,
         "routes": [
           4642211,
+          4642250,
           4652511,
           16650512,
           17771221,
@@ -26001,7 +25871,7 @@
           19664371,
           19757705
         ],
-        "route_count": 7,
+        "route_count": 8,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -30384,6 +30254,35 @@
         ],
         "route_count": 5,
         "category": "2_shelter_none_pole_sign"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6072386,
+          -6.9480595
+        ]
+      },
+      "properties": {
+        "id": 13523033304,
+        "name": "SPBU Karasak Utara",
+        "shelter": "no",
+        "pole": "totem",
+        "lit": "no",
+        "bench": "no",
+        "bin": null,
+        "routes": [
+          4649692,
+          17771075,
+          17771076,
+          18768804,
+          18799376,
+          18799379
+        ],
+        "route_count": 6,
+        "category": "3_shelter_none_pole_totem"
       }
     }
   ]
