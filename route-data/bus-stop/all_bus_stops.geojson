@@ -114,7 +114,7 @@
       },
       "properties": {
         "id": 29380445,
-        "name": "Gempol Sari",
+        "name": "Perumnas Cijerah",
         "shelter": null,
         "pole": null,
         "lit": null,
@@ -1085,8 +1085,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6138388,
-          -6.9124701
+          107.613865,
+          -6.9124464
         ]
       },
       "properties": {
@@ -1383,10 +1383,12 @@
         "bin": null,
         "routes": [
           4626701,
+          4644899,
           4808667,
+          17565369,
           17771076
         ],
-        "route_count": 3,
+        "route_count": 5,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -1505,28 +1507,6 @@
         ],
         "route_count": 6,
         "category": "2_shelter_none_pole_sign"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.5580796,
-          -6.9299747
-        ]
-      },
-      "properties": {
-        "id": 3110267088,
-        "name": "Gempol Sari",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
-        "category": "8_shelter_none_pole_none"
       }
     },
     {
@@ -2807,7 +2787,7 @@
         "name": "Simpang Supratman - Ahmad Yani",
         "shelter": "no",
         "pole": "flag",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -2844,7 +2824,7 @@
         "pole": "totem",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4422442,
           4634057,
@@ -2977,7 +2957,7 @@
         "pole": "no",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4635390,
           19757705
@@ -3546,7 +3526,7 @@
         "type": "Point",
         "coordinates": [
           107.6095652,
-          -6.8970841
+          -6.8970569
         ]
       },
       "properties": {
@@ -4420,21 +4400,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.7004467,
-          -6.914024
+          107.7027758,
+          -6.9140518
         ]
       },
       "properties": {
         "id": 3380407832,
-        "name": "Ujung Berung",
+        "name": "Terminal Ujungberung",
         "shelter": null,
         "pole": null,
         "lit": null,
         "bench": null,
         "bin": null,
         "routes": [
-          17771219,
-          19452155
+          19452155,
+          19452156
         ],
         "route_count": 2,
         "category": "8_shelter_none_pole_none"
@@ -4573,15 +4553,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.5589291,
-          -6.9298384
+          107.5589175,
+          -6.9298246
         ]
       },
       "properties": {
         "id": 3382120577,
-        "name": "Gempol Sari",
-        "shelter": null,
-        "pole": null,
+        "name": "Perumnas Cijerah",
+        "shelter": "no",
+        "pole": "no",
         "lit": null,
         "bench": null,
         "bin": null,
@@ -6846,9 +6826,9 @@
         "name": "Monumen 0 KM Kota Bandung",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "yes",
+        "bench": "yes",
+        "bin": "no",
         "routes": [
           15520324,
           15555900,
@@ -7385,7 +7365,7 @@
         "pole": "traffic_sign",
         "lit": null,
         "bench": "yes",
-        "bin": "no",
+        "bin": "yes",
         "routes": [
           4308299,
           4420961,
@@ -7507,9 +7487,9 @@
         "name": "Ditjen Bina Konstruksi Kementerian PU",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4284600,
           4642502
@@ -7582,9 +7562,9 @@
         "name": "SDN Babakan Tarogong",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4425956,
           16677494,
@@ -7614,9 +7594,9 @@
         "name": "Festival Citylink",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "yes",
         "routes": [
           14365267,
           16677494,
@@ -9207,9 +9187,9 @@
         "name": "Kantor Pos Banceuy",
         "shelter": "yes",
         "pole": "traffic_sign",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4652511,
           16634809,
@@ -9396,7 +9376,7 @@
         "name": "Stasiun Timur",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -9564,8 +9544,8 @@
         "shelter": "no",
         "pole": "totem",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           15555900,
           16646484,
@@ -9712,9 +9692,10 @@
         "bench": null,
         "bin": null,
         "routes": [
+          4644899,
           17771223
         ],
-        "route_count": 1,
+        "route_count": 2,
         "category": "1_shelter_yes_pole_none"
       }
     },
@@ -10294,7 +10275,7 @@
         "pole": "no",
         "lit": null,
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           5517528,
           5517546,
@@ -10357,7 +10338,7 @@
         "pole": "traffic_sign",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4425956,
           5517528,
@@ -10523,14 +10504,13 @@
         "bench": null,
         "bin": null,
         "routes": [
-          4644899,
           4808667,
           16650576,
           17565369,
           18768804,
           18768805
         ],
-        "route_count": 6,
+        "route_count": 5,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -11020,9 +11000,9 @@
         "name": "GOR KONI",
         "shelter": "yes",
         "pole": "no",
-        "lit": null,
+        "lit": "yes",
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           3415464,
           4422442,
@@ -11241,7 +11221,7 @@
         "pole": "totem",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -11265,7 +11245,7 @@
         "pole": "totem",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4433069,
           17770945,
@@ -11291,7 +11271,7 @@
         "pole": "totem",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           15555901,
           16634809,
@@ -11422,7 +11402,7 @@
         "pole": "no",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           5517546,
           15555901,
@@ -11537,8 +11517,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.541221,
-          -7.0305054
+          107.5411976,
+          -7.0305982
         ]
       },
       "properties": {
@@ -11619,9 +11599,9 @@
         "name": "Hotel Soreang A",
         "shelter": "no",
         "pole": "traffic_sign",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           14365267,
           18799367
@@ -11644,9 +11624,9 @@
         "name": "Hotel Soreang B",
         "shelter": "no",
         "pole": "traffic_sign",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           14365267,
           18765871,
@@ -12158,10 +12138,9 @@
         "bin": "no",
         "routes": [
           15660998,
-          17565369,
           17771076
         ],
-        "route_count": 3,
+        "route_count": 2,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -12889,8 +12868,8 @@
         "shelter": "no",
         "pole": "traffic_sign",
         "lit": "no",
-        "bench": null,
-        "bin": null,
+        "bench": "yes",
+        "bin": "no",
         "routes": [
           15520324,
           17771223,
@@ -13031,7 +13010,7 @@
         "name": "Taman Sejarah Balai Kota Bandung",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
+        "lit": "yes",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -13182,7 +13161,7 @@
         "pole": "no",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           5738878,
           5738883,
@@ -13294,9 +13273,9 @@
         "name": "Bumi Kopo Kencana",
         "shelter": "no",
         "pole": "traffic_sign",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           14365267,
           16677494,
@@ -13320,9 +13299,9 @@
         "name": "Simpang Pasir Koja",
         "shelter": "no",
         "pole": "traffic_sign",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4423238,
           14365267,
@@ -13347,8 +13326,8 @@
         "shelter": "no",
         "pole": "traffic_sign",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4423238,
           14365267,
@@ -15068,10 +15047,9 @@
         "bench": null,
         "bin": null,
         "routes": [
-          5747408,
-          17771073
+          5747408
         ],
-        "route_count": 2,
+        "route_count": 1,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -15093,10 +15071,9 @@
         "bench": null,
         "bin": null,
         "routes": [
-          5747408,
-          17771073
+          5747408
         ],
-        "route_count": 2,
+        "route_count": 1,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -15118,10 +15095,9 @@
         "bench": null,
         "bin": null,
         "routes": [
-          5747408,
-          17771073
+          5747408
         ],
-        "route_count": 2,
+        "route_count": 1,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -15143,10 +15119,9 @@
         "bench": null,
         "bin": null,
         "routes": [
-          5747408,
-          17771073
+          5747408
         ],
-        "route_count": 2,
+        "route_count": 1,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -15155,68 +15130,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.7506218,
-          -6.9401277
-        ]
-      },
-      "properties": {
-        "id": 11883722660,
-        "name": "Galumpit/VBI",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          4644899,
-          4808667,
-          17565369
-        ],
-        "route_count": 3,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.7412103,
-          -6.9410336
-        ]
-      },
-      "properties": {
-        "id": 11883722661,
-        "name": "Bumi Panyawangan",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          4644899,
-          17565369
-        ],
-        "route_count": 2,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.7310086,
-          -6.9371788
+          107.7321093,
+          -6.9376817
         ]
       },
       "properties": {
         "id": 11883722662,
-        "name": "Borma Cinunuk",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
+        "name": "Permata Biru Cinunuk",
+        "shelter": "yes",
+        "pole": "no",
+        "lit": "no",
+        "bench": "no",
         "bin": null,
         "routes": [
           4644899,
@@ -15224,57 +15148,7 @@
           17565369
         ],
         "route_count": 3,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.7281238,
-          -6.9344183
-        ]
-      },
-      "properties": {
-        "id": 11883722663,
-        "name": "Ciguruwik",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          4808667,
-          17565369
-        ],
-        "route_count": 2,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.7239827,
-          -6.9331019
-        ]
-      },
-      "properties": {
-        "id": 11883722664,
-        "name": "Sindangreret",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [
-          4808667,
-          17565369
-        ],
-        "route_count": 2,
-        "category": "8_shelter_none_pole_none"
+        "category": "1_shelter_yes_pole_none"
       }
     },
     {
@@ -15954,9 +15828,9 @@
         "name": "Terminal Leuwipanjang",
         "shelter": "yes",
         "pole": "traffic_sign",
-        "lit": null,
+        "lit": "yes",
         "bench": "yes",
-        "bin": null,
+        "bin": "yes",
         "routes": [
           14298213,
           14365267,
@@ -16108,10 +15982,11 @@
         "bench": null,
         "bin": null,
         "routes": [
+          4644899,
           17771219,
           17771223
         ],
-        "route_count": 2,
+        "route_count": 3,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -16576,9 +16451,9 @@
         "name": "RSUD Bandung Kiwari",
         "shelter": "no",
         "pole": "traffic_sign",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           15555901,
           17771221,
@@ -20382,8 +20257,8 @@
         "shelter": "no",
         "pole": "flag",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "yes",
+        "bin": "no",
         "routes": [
           4422442,
           4432470,
@@ -20408,8 +20283,8 @@
         "shelter": "no",
         "pole": "flag",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4284600,
           4642502
@@ -21385,7 +21260,7 @@
         "pole": "totem",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4283719,
           4308300,
@@ -21706,7 +21581,7 @@
         "pole": "totem",
         "lit": null,
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           3415464,
           16650513
@@ -23744,7 +23619,7 @@
         "pole": "totem",
         "lit": null,
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [],
         "route_count": 0,
         "category": "6_shelter_yes_pole_totem"
@@ -23953,7 +23828,7 @@
         "name": "Pasar Selatan",
         "shelter": "no",
         "pole": "traffic_sign",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -24031,7 +23906,7 @@
         "pole": "no",
         "lit": "no",
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4283719,
           4308300,
@@ -24706,9 +24581,10 @@
         "routes": [
           4422549,
           4642924,
-          17771219
+          17771219,
+          19452155
         ],
-        "route_count": 3,
+        "route_count": 4,
         "category": "4_shelter_none_pole_flag"
       }
     },
@@ -24889,7 +24765,7 @@
         "name": "Jalan Kasim",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -25235,7 +25111,7 @@
         "pole": "no",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4433069,
           19664371
@@ -25587,7 +25463,7 @@
         "name": "Simpang Cilaki - Cimanuk",
         "shelter": "no",
         "pole": "traffic_sign",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -25684,7 +25560,7 @@
         "name": "Simpang Sultan Tirtayasa - Trunojoyo 1",
         "shelter": "no",
         "pole": null,
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -25889,9 +25765,9 @@
         "name": "Pasar Baru ABC",
         "shelter": "no",
         "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19664371,
           19664372,
@@ -25916,8 +25792,8 @@
         "shelter": "no",
         "pole": null,
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           16634809,
           17771073,
@@ -25943,9 +25819,9 @@
         "name": "Polrestabes Bandung 2",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "yes",
+        "bin": "no",
         "routes": [
           19664372
         ],
@@ -25982,8 +25858,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6124932,
-          -6.9113315
+          107.6125214,
+          -6.9113208
         ]
       },
       "properties": {
@@ -25992,8 +25868,8 @@
         "shelter": "no",
         "pole": "totem",
         "lit": "no",
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4283719,
           4433069,
@@ -26019,9 +25895,9 @@
         "name": "Dinas Arsip dan Perpustakaan Kota Bandung",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4283719,
           19664372
@@ -26044,9 +25920,9 @@
         "name": "Jalan Trunojoyo Riau Junction",
         "shelter": "no",
         "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19664372
         ],
@@ -26068,7 +25944,7 @@
         "name": "Simpang Sultan Tirtayasa - Trunojoyo 2",
         "shelter": "no",
         "pole": null,
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -26922,8 +26798,13 @@
         "lit": null,
         "bench": "no",
         "bin": null,
-        "routes": [],
-        "route_count": 0,
+        "routes": [
+          4422550,
+          4644899,
+          17771223,
+          19452156
+        ],
+        "route_count": 4,
         "category": "4_shelter_none_pole_flag"
       }
     },
@@ -27386,7 +27267,7 @@
         "name": "Trans Studio Mall",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -27534,9 +27415,9 @@
         "name": "Taman Tri G",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -27558,9 +27439,9 @@
         "name": "Jalan RH Hasan Saputra Raya",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -27582,9 +27463,9 @@
         "name": "Salendro Utara - Salendro Raya",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -27607,7 +27488,7 @@
         "shelter": "no",
         "pole": "no",
         "lit": null,
-        "bench": null,
+        "bench": "no",
         "bin": null,
         "routes": [
           19757705
@@ -27630,9 +27511,9 @@
         "name": "Nayaga - Bongo",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -27654,9 +27535,9 @@
         "name": "Asmarandana - Reog",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -27678,9 +27559,9 @@
         "name": "Asmarandana - Gamelan",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -27702,9 +27583,9 @@
         "name": "Asmarandana - Guntur Madu",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -27726,9 +27607,9 @@
         "name": "Simpang Asmarandana - Maskumambang 2",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19757705
         ],
@@ -27800,9 +27681,9 @@
         "name": "Pasar Bunga Palasari 1",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4635390,
           19757705
@@ -27899,8 +27780,8 @@
         "shelter": "no",
         "pole": "no",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           16650513,
           19757705
@@ -27947,9 +27828,9 @@
         "name": "Gedung Merdeka",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "yes",
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           15520324,
           15555900,
@@ -27976,9 +27857,9 @@
         "name": "Banceuy - Pecinan Lama",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4652511,
           16650512,
@@ -28954,7 +28835,7 @@
         "name": "Gang Sasak Gantung IV",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -28978,7 +28859,7 @@
         "name": "Monumen Pertempuran Lengkong Besar",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -29236,7 +29117,7 @@
         "name": "Golkar Jawa Barat",
         "shelter": "no",
         "pole": "flag",
-        "lit": null,
+        "lit": "yes",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -29282,7 +29163,7 @@
       "properties": {
         "id": 13334663516,
         "name": "SMA Negeri 20 Bandung",
-        "shelter": null,
+        "shelter": "yes",
         "pole": null,
         "lit": "yes",
         "bench": "yes",
@@ -29291,7 +29172,7 @@
           4425938
         ],
         "route_count": 1,
-        "category": "8_shelter_none_pole_none"
+        "category": "1_shelter_yes_pole_none"
       }
     },
     {
@@ -29388,8 +29269,10 @@
         "lit": "no",
         "bench": "no",
         "bin": null,
-        "routes": [],
-        "route_count": 0,
+        "routes": [
+          17565369
+        ],
+        "route_count": 1,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -29410,8 +29293,10 @@
         "lit": "no",
         "bench": "no",
         "bin": null,
-        "routes": [],
-        "route_count": 0,
+        "routes": [
+          17771073
+        ],
+        "route_count": 1,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -30283,6 +30168,30 @@
         ],
         "route_count": 6,
         "category": "3_shelter_none_pole_totem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6239515,
+          -6.9098128
+        ]
+      },
+      "properties": {
+        "id": 13551084801,
+        "name": "Simpang Aceh Tongkeng",
+        "shelter": "no",
+        "pole": "flag",
+        "lit": null,
+        "bench": "no",
+        "bin": null,
+        "routes": [
+          4636155
+        ],
+        "route_count": 1,
+        "category": "4_shelter_none_pole_flag"
       }
     }
   ]
