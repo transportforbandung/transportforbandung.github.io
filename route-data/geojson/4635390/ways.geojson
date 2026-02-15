@@ -197,6 +197,7 @@
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk:left": "separate",
         "surface": "asphalt",
         "turn:lanes": "slight_right|right"
@@ -222,7 +223,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -735,6 +738,9 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Lodaya",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1061,6 +1067,9 @@
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_left|slight_right|slight_right",
         "width": "8"
@@ -1788,6 +1797,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -2169,10 +2179,6 @@
           [
             107.6442746,
             -6.9193256
-          ],
-          [
-            107.6442841,
-            -6.9195309
           ]
         ]
       },
@@ -3565,6 +3571,7 @@
         "lanes": "2",
         "name": "Jalan Lodaya",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -3744,7 +3751,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -4082,7 +4091,8 @@
         "lanes": "2",
         "name": "Jalan H. Ibrahim Adjie",
         "old_name": "Jalan Kiaracondong",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -4150,6 +4160,7 @@
         "lanes": "3",
         "name": "Jalan Raden Adipati Aria Martanegara",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk:left": "separate",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_right|right"
@@ -4291,6 +4302,9 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
+        "parking:left": "no",
+        "parking:right": "on_kerb",
+        "parking:right:orientation": "perpendicular",
         "surface": "asphalt"
       }
     },
@@ -4336,6 +4350,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
+        "parking:both": "no",
         "sidewalk:both": "separate",
         "surface": "asphalt",
         "turn:lanes:backward": "slight_left|slight_right|right",
@@ -5227,6 +5242,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Lodaya",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -5274,7 +5290,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -5305,7 +5323,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -5332,7 +5352,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -5355,7 +5377,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -5382,7 +5406,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -5405,7 +5431,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -5436,7 +5464,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -5472,6 +5502,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Turangga",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -5511,7 +5542,34 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6442746,
+            -6.9193256
+          ],
+          [
+            107.6442841,
+            -6.9195309
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1476755142,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes"
       }
     }
   ]

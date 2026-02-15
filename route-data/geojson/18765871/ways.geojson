@@ -45,6 +45,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "2",
+        "maxheight": "4.2",
         "motorcycle": "no",
         "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
@@ -533,6 +534,7 @@
         "avgspeed": "40",
         "highway": "motorway",
         "lanes": "2",
+        "maxheight": "4.2",
         "name": "Jalan Tol Soreang–Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
@@ -590,6 +592,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "2",
+        "maxheight": "4.2",
         "motorcycle": "no",
         "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
@@ -1027,6 +1030,7 @@
         "highway": "motorway",
         "lanes": "1",
         "layer": "1",
+        "maxheight": "4.2",
         "motorcycle": "no",
         "name": "Jalan Tol Soreang–Pasirkoja",
         "oneway": "yes",
@@ -1336,6 +1340,7 @@
         "covered": "yes",
         "highway": "motorway",
         "lanes": "7",
+        "maxheight": "4.2",
         "motorcycle": "no",
         "name": "Jalan Tol Soreang–Pasirkoja",
         "oneway": "yes",
@@ -1549,6 +1554,7 @@
         "avgspeed": "40",
         "highway": "motorway",
         "lanes": "2",
+        "maxheight": "4.2",
         "motorcycle": "no",
         "name": "Jalan Tol Soreang–Pasirkoja",
         "oneway": "yes",
@@ -1854,6 +1860,7 @@
         "destination:lanes": "Holis;Cibeureum;Garuda;Cimahi|Jamika;Peta;Babakan Ciparay;Astana Anyar|Caringin;Kopo;Leuwipanjang;Cibaduyut",
         "highway": "motorway",
         "lanes": "3",
+        "maxheight": "4.2",
         "motorcycle": "no",
         "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
@@ -2409,36 +2416,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5307636,
-            -7.0141651
-          ],
-          [
-            107.5308629,
-            -7.0138585
-          ],
-          [
-            107.5312233,
-            -7.0128581
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1363661395,
-        "highway": "secondary",
-        "lanes": "3",
-        "name": "Jalan Akses Tol Soreang",
-        "oneway": "yes",
-        "ref": "682",
-        "surface": "concrete",
-        "toll": "no"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5823106,
             -6.941111
           ],
@@ -2548,6 +2525,74 @@
         "name": "Jalur Bus Kota",
         "oneway": "yes",
         "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5311458,
+            -7.0130733
+          ],
+          [
+            107.5312233,
+            -7.0128581
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1477364133,
+        "highway": "secondary",
+        "lanes": "3",
+        "name": "Jalan Akses Tol Soreang",
+        "oneway": "yes",
+        "ref": "682",
+        "surface": "concrete",
+        "toll": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5307352,
+            -7.0141665
+          ],
+          [
+            107.530765,
+            -7.0140612
+          ],
+          [
+            107.5310163,
+            -7.0133201
+          ],
+          [
+            107.5310544,
+            -7.0132039
+          ],
+          [
+            107.5310924,
+            -7.0131198
+          ],
+          [
+            107.5311458,
+            -7.0130733
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1477364134,
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Akses Tol Soreang",
+        "oneway": "yes",
+        "ref": "682",
+        "surface": "concrete",
+        "toll": "no"
       }
     }
   ]

@@ -438,6 +438,9 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cikawao",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "surface": "asphalt"
       }
     },
@@ -950,7 +953,9 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cikawao",
-        "oneway": "yes"
+        "oneway": "yes",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -1283,6 +1288,7 @@
         "lanes": "2",
         "name": "Jalan Sadakeling",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },

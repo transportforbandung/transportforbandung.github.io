@@ -55,6 +55,7 @@
         "destination": "Soreang;Pasteur;Padalarang",
         "highway": "motorway",
         "lanes": "2",
+        "maxheight": "4.2",
         "motorcycle": "no",
         "name": "Jalan Tol Soreang–Pasirkoja",
         "oneway": "yes",
@@ -602,6 +603,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "2",
+        "maxheight": "4.2",
         "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
@@ -715,36 +717,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5930651,
-            -6.9449801
+            107.5930712,
+            -6.9449781
           ],
           [
-            107.5930069,
-            -6.9448443
+            107.593015,
+            -6.9448403
           ],
           [
-            107.5929431,
-            -6.9447144
+            107.5929533,
+            -6.9447063
           ],
           [
-            107.5928871,
-            -6.9446026
+            107.5928942,
+            -6.9445945
           ],
           [
-            107.5928323,
-            -6.9445079
+            107.5928516,
+            -6.9445099
           ],
           [
-            107.5927511,
-            -6.9443886
+            107.5927633,
+            -6.9443785
           ],
           [
             107.5926206,
-            -6.9442708
+            -6.9442577
           ],
           [
-            107.5923835,
-            -6.9441238
+            107.5924038,
+            -6.9441248
           ],
           [
             107.5921208,
@@ -1102,6 +1104,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "2",
+        "maxheight": "4.2",
         "motorcycle": "no",
         "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
@@ -1219,6 +1222,7 @@
         "id": 505549733,
         "highway": "motorway",
         "lanes": "2",
+        "maxheight": "4.2",
         "name": "Jalan Tol Soreang–Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
@@ -1255,6 +1259,7 @@
         "avgspeed": "70",
         "highway": "motorway",
         "lanes": "2",
+        "maxheight": "4.2",
         "name": "Jalan Akses Tol Pasirkoja",
         "oneway": "yes",
         "operator": "PT Citra Marga Lintas Jabar",
@@ -1534,39 +1539,47 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5312469,
-            -7.0132552
+            107.5312345,
+            -7.0132534
           ],
           [
-            107.5309391,
-            -7.0141236
+            107.531077,
+            -7.0136696
           ],
           [
-            107.5307558,
-            -7.014719
+            107.5309645,
+            -7.0139735
           ],
           [
-            107.5305135,
-            -7.0153678
+            107.5309133,
+            -7.0141203
+          ],
+          [
+            107.5308219,
+            -7.0144529
+          ],
+          [
+            107.5307413,
+            -7.0147106
+          ],
+          [
+            107.5305005,
+            -7.0153522
           ],
           [
             107.5304271,
-            -7.0156232
+            -7.01557
           ],
           [
-            107.5302233,
-            -7.0163702
-          ],
-          [
-            107.5300075,
-            -7.0170395
+            107.5304077,
+            -7.0156404
           ]
         ]
       },
       "properties": {
         "id": 562361874,
         "highway": "secondary",
-        "lanes": "3",
+        "lanes": "2",
         "name": "Jalan Akses Tol Soreang",
         "oneway": "yes",
         "ref": "682",
@@ -4532,8 +4545,8 @@
             -7.0129491
           ],
           [
-            107.5312469,
-            -7.0132552
+            107.5312345,
+            -7.0132534
           ]
         ]
       },
@@ -4554,31 +4567,31 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5300075,
-            -7.0170395
+            107.5299861,
+            -7.0170364
           ],
           [
-            107.5293912,
-            -7.0188618
+            107.5293789,
+            -7.0188557
           ],
           [
-            107.5293184,
-            -7.0190782
+            107.5293527,
+            -7.0189368
           ],
           [
-            107.5291163,
-            -7.0196757
+            107.5293353,
+            -7.0189894
           ],
           [
-            107.5290841,
-            -7.0197549
+            107.529314,
+            -7.0190738
           ]
         ]
       },
       "properties": {
         "id": 1278586392,
         "highway": "secondary",
-        "lanes": "3",
+        "lanes": "2",
         "name": "Jalan Akses Tol Soreang",
         "oneway": "yes",
         "ref": "682",
@@ -4792,6 +4805,7 @@
         "id": 1464539188,
         "highway": "motorway",
         "lanes": "2",
+        "maxheight": "4.2",
         "motorcycle": "no",
         "name": "Jalan Tol Soreang–Pasirkoja",
         "oneway": "yes",
@@ -4857,6 +4871,70 @@
         "ref": "4",
         "short_name": "Jalan Tol Soroja",
         "toll": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.529314,
+            -7.0190738
+          ],
+          [
+            107.5291163,
+            -7.0196757
+          ],
+          [
+            107.5290841,
+            -7.0197549
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1477365981,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Akses Tol Soreang",
+        "oneway": "yes",
+        "ref": "682",
+        "surface": "concrete",
+        "toll": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5304077,
+            -7.0156404
+          ],
+          [
+            107.5303679,
+            -7.0157813
+          ],
+          [
+            107.5302048,
+            -7.0163702
+          ],
+          [
+            107.5299861,
+            -7.0170364
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1477770845,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Akses Tol Soreang",
+        "oneway": "yes",
+        "ref": "682",
+        "surface": "concrete",
+        "toll": "no"
       }
     }
   ]

@@ -200,6 +200,9 @@
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_left|slight_right|slight_right",
         "width": "8"

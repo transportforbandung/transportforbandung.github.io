@@ -67,7 +67,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Burangrang",
-        "oneway": "no"
+        "oneway": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -378,6 +379,7 @@
         "lanes": "2",
         "name": "Jalan Cikawao",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -596,6 +598,9 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cikawao",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "surface": "asphalt"
       }
     },
@@ -874,10 +879,6 @@
           [
             107.6442746,
             -6.9193256
-          ],
-          [
-            107.6442841,
-            -6.9195309
           ]
         ]
       },
@@ -1258,6 +1259,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sadakeling",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -1448,7 +1450,8 @@
         "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Burangrang",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1476,7 +1479,9 @@
         "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Sadakeling",
-        "oneway": "yes"
+        "oneway": "yes",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -1588,6 +1593,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -2252,6 +2258,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -2487,7 +2494,8 @@
         "lanes": "2",
         "name": "Jalan H. Ibrahim Adjie",
         "old_name": "Jalan Kiaracondong",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2569,7 +2577,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Talaga Bodas",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -3524,7 +3533,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Burangrang",
-        "oneway": "no"
+        "oneway": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -3556,7 +3566,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Burangrang",
-        "oneway": "no"
+        "oneway": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -3579,6 +3590,32 @@
         "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Burangrang",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6442746,
+            -6.9193256
+          ],
+          [
+            107.6442841,
+            -6.9195309
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1476755142,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
         "oneway": "yes"
       }
     }

@@ -557,6 +557,9 @@
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -657,7 +660,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Burangrang",
-        "oneway": "no"
+        "oneway": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -685,7 +689,9 @@
         "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Lodaya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -721,6 +727,7 @@
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk:left": "separate",
         "surface": "asphalt",
         "turn:lanes": "slight_right|right"
@@ -746,7 +753,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -796,7 +805,8 @@
         "id": 124818041,
         "highway": "residential",
         "name": "Jalan Nayaga",
-        "source": "Bing"
+        "source": "Bing",
+        "surface": "asphalt"
       }
     },
     {
@@ -1187,6 +1197,9 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Lodaya",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1235,6 +1248,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Lodaya",
+        "parking:both": "lane",
+        "parking:both:orientation": "parallel",
         "surface": "asphalt"
       }
     },
@@ -1996,6 +2011,7 @@
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -2165,7 +2181,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Kaca Kaca Wetan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2686,6 +2703,7 @@
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -2810,6 +2828,10 @@
             -6.9186602
           ],
           [
+            107.6314309,
+            -6.9187001
+          ],
+          [
             107.6311398,
             -6.9198103
           ],
@@ -2907,7 +2929,10 @@
       "properties": {
         "id": 559631927,
         "highway": "tertiary",
-        "name": "Jalan Salendro"
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Jalan Salendro",
+        "surface": "asphalt"
       }
     },
     {
@@ -2946,7 +2971,8 @@
         "highway": "residential",
         "name": "Jalan Asmarandana",
         "oneway": "no",
-        "source": "Bing"
+        "source": "Bing",
+        "surface": "asphalt"
       }
     },
     {
@@ -2996,7 +3022,8 @@
         "id": 619372370,
         "highway": "tertiary_link",
         "lanes": "2",
-        "oneway": "no"
+        "oneway": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -3063,7 +3090,9 @@
         "avgspeed": "20",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Lodaya"
+        "name": "Jalan Lodaya",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -3091,7 +3120,8 @@
         "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Burangrang",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -3202,6 +3232,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -3492,6 +3523,7 @@
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -3540,6 +3572,7 @@
         "lanes": "2",
         "name": "Jalan Lodaya",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -3764,6 +3797,9 @@
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -3828,7 +3864,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -3852,6 +3890,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -4294,6 +4333,7 @@
         "lanes": "3",
         "name": "Jalan Raden Adipati Aria Martanegara",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk:left": "separate",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_right|right"
@@ -4377,6 +4417,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
+        "parking:both": "no",
         "sidewalk:both": "separate",
         "surface": "asphalt",
         "turn:lanes:backward": "slight_left|slight_right|right",
@@ -4595,7 +4636,8 @@
         "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Burangrang",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -4624,7 +4666,8 @@
       "properties": {
         "id": 1222053567,
         "highway": "tertiary",
-        "name": "Jalan Raden Adipati Aria Martanegara"
+        "name": "Jalan Raden Adipati Aria Martanegara",
+        "surface": "asphalt"
       }
     },
     {
@@ -4723,7 +4766,10 @@
       "properties": {
         "id": 1222359800,
         "highway": "tertiary",
-        "name": "Jalan Salendro"
+        "lane_markings": "yes",
+        "lanes": "2",
+        "name": "Jalan Salendro",
+        "surface": "asphalt"
       }
     },
     {
@@ -4738,6 +4784,10 @@
           [
             107.6320334,
             -6.9183683
+          ],
+          [
+            107.6315787,
+            -6.9185925
           ],
           [
             107.6314414,
@@ -5289,6 +5339,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Lodaya",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -5358,6 +5409,8 @@
       "properties": {
         "id": 1445396304,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5380,6 +5433,8 @@
       "properties": {
         "id": 1445396305,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5402,6 +5457,8 @@
       "properties": {
         "id": 1445396306,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5424,6 +5481,8 @@
       "properties": {
         "id": 1445396307,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5446,6 +5505,8 @@
       "properties": {
         "id": 1445396308,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5476,6 +5537,8 @@
       "properties": {
         "id": 1445396309,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5524,6 +5587,8 @@
       "properties": {
         "id": 1445396311,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5546,6 +5611,8 @@
       "properties": {
         "id": 1445396312,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5572,6 +5639,8 @@
       "properties": {
         "id": 1445396313,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5599,7 +5668,8 @@
         "id": 1445396314,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Emong"
+        "name": "Jalan Emong",
+        "surface": "asphalt"
       }
     },
     {
@@ -5621,7 +5691,8 @@
         "id": 1445396315,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Emong"
+        "name": "Jalan Emong",
+        "surface": "asphalt"
       }
     },
     {
@@ -5659,7 +5730,8 @@
         "id": 1445396316,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Emong"
+        "name": "Jalan Emong",
+        "surface": "asphalt"
       }
     },
     {
@@ -5685,7 +5757,8 @@
         "id": 1445396317,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Emong"
+        "name": "Jalan Emong",
+        "surface": "asphalt"
       }
     },
     {
@@ -5813,6 +5886,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -6165,7 +6239,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Burangrang",
-        "oneway": "no"
+        "oneway": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -6512,6 +6587,7 @@
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -6542,6 +6618,7 @@
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -6580,6 +6657,7 @@
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -6618,6 +6696,7 @@
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -6652,6 +6731,7 @@
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -6997,7 +7077,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Lodaya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -7020,7 +7101,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -7051,7 +7134,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -7078,7 +7163,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -7101,7 +7188,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -7128,7 +7217,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -7151,7 +7242,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -7182,7 +7275,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -7218,6 +7313,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Turangga",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -7257,7 +7353,9 @@
         "avgspeed": "30",
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Turangga"
+        "name": "Jalan Turangga",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -7331,7 +7429,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Lodaya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -7367,7 +7466,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Lodaya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     }
   ]

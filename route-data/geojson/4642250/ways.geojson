@@ -1553,6 +1553,9 @@
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }

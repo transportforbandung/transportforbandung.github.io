@@ -504,6 +504,9 @@
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -2111,8 +2114,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5991415,
-            -6.9003667
+            107.5988975,
+            -6.9003711
           ],
           [
             107.5988453,
@@ -2633,6 +2636,9 @@
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -2793,8 +2799,8 @@
             -6.9003613
           ],
           [
-            107.5991415,
-            -6.9003667
+            107.5988975,
+            -6.9003711
           ]
         ]
       },
@@ -3272,6 +3278,10 @@
           [
             107.6038148,
             -6.8806505
+          ],
+          [
+            107.603801,
+            -6.8806045
           ],
           [
             107.6037812,

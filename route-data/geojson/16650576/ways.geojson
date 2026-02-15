@@ -530,10 +530,6 @@
           [
             107.6442746,
             -6.9193256
-          ],
-          [
-            107.6442841,
-            -6.9195309
           ]
         ]
       },
@@ -1988,7 +1984,8 @@
         "lanes": "2",
         "name": "Jalan H. Ibrahim Adjie",
         "old_name": "Jalan Kiaracondong",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -3937,6 +3934,31 @@
         "name:en": "Soekarno Hatta Frontage Boulevard",
         "oneway": "yes",
         "turn:lanes": "through|through;slight_right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6442746,
+            -6.9193256
+          ],
+          [
+            107.6442841,
+            -6.9195309
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1476755142,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes"
       }
     }
   ]

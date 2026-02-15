@@ -455,6 +455,7 @@
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk:left": "separate",
         "surface": "asphalt",
         "turn:lanes": "slight_right|right"
@@ -663,20 +664,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6144635,
-            -6.9121644
+            107.6144696,
+            -6.9121614
+          ],
+          [
+            107.6143524,
+            -6.9122063
+          ],
+          [
+            107.6142314,
+            -6.9122519
           ],
           [
             107.6140321,
             -6.912327
           ],
           [
-            107.6138205,
-            -6.9124068
+            107.6138475,
+            -6.9123969
           ],
           [
-            107.6137465,
-            -6.9124347
+            107.6138154,
+            -6.9124084
+          ],
+          [
+            107.6137534,
+            -6.9124309
           ],
           [
             107.6134164,
@@ -697,6 +710,8 @@
         "oneway": "yes",
         "ref": "2046",
         "reg_ref": "22-10-2046",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },
@@ -927,6 +942,8 @@
       "properties": {
         "id": 187362390,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -1129,8 +1146,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6144635,
-            -6.9121644
+            107.6144696,
+            -6.9121614
+          ],
+          [
+            107.6145774,
+            -6.9121243
           ],
           [
             107.6148569,
@@ -1165,8 +1186,8 @@
             -6.9116314
           ],
           [
-            107.6161406,
-            -6.9116105
+            107.6161546,
+            -6.9116221
           ]
         ]
       },
@@ -1551,8 +1572,8 @@
             -6.9100873
           ],
           [
-            107.6124292,
-            -6.91003
+            107.6124394,
+            -6.910028
           ]
         ]
       },
@@ -1565,6 +1586,8 @@
         "oneway": "yes",
         "ref": "2359",
         "reg_ref": "22-10-2359",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },
@@ -1590,8 +1613,8 @@
             -6.9120862
           ],
           [
-            107.6161406,
-            -6.9116105
+            107.6161546,
+            -6.9116221
           ]
         ]
       },
@@ -4022,28 +4045,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6124292,
-            -6.91003
+            107.6124394,
+            -6.910028
           ],
           [
-            107.6124063,
-            -6.9099768
+            107.612417,
+            -6.9099758
           ],
           [
-            107.6123808,
-            -6.9099276
+            107.6124105,
+            -6.9099613
           ],
           [
-            107.6123573,
-            -6.909884
+            107.6123879,
+            -6.909913
           ],
           [
-            107.6123285,
-            -6.9098557
+            107.6123659,
+            -6.9098744
           ],
           [
-            107.6122737,
-            -6.9098176
+            107.6123326,
+            -6.9098375
+          ],
+          [
+            107.61229,
+            -6.909804
           ],
           [
             107.6121344,
@@ -4060,6 +4087,8 @@
         "oneway": "yes",
         "ref": "2359",
         "reg_ref": "22-10-2359",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },
@@ -4569,6 +4598,7 @@
         "lanes": "3",
         "name": "Jalan Raden Adipati Aria Martanegara",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk:left": "separate",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_right|right"
@@ -5154,6 +5184,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
+        "parking:both": "no",
         "sidewalk:both": "separate",
         "surface": "asphalt",
         "turn:lanes:backward": "slight_left|slight_right|right",
@@ -5680,6 +5711,8 @@
       "properties": {
         "id": 1445396304,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5702,6 +5735,8 @@
       "properties": {
         "id": 1445396305,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5724,6 +5759,8 @@
       "properties": {
         "id": 1445396306,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5746,6 +5783,8 @@
       "properties": {
         "id": 1445396307,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5768,6 +5807,8 @@
       "properties": {
         "id": 1445396308,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5798,6 +5839,8 @@
       "properties": {
         "id": 1445396309,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5846,6 +5889,8 @@
       "properties": {
         "id": 1445396311,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5868,6 +5913,8 @@
       "properties": {
         "id": 1445396312,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }
@@ -5894,6 +5941,8 @@
       "properties": {
         "id": 1445396313,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Maskumambang",
         "surface": "asphalt"
       }

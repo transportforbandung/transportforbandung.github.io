@@ -1792,6 +1792,9 @@
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_left|slight_right|slight_right",
         "width": "8"
@@ -2543,10 +2546,6 @@
           [
             107.6442746,
             -6.9193256
-          ],
-          [
-            107.6442841,
-            -6.9195309
           ]
         ]
       },
@@ -4810,7 +4809,8 @@
         "lanes": "2",
         "name": "Jalan H. Ibrahim Adjie",
         "old_name": "Jalan Kiaracondong",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -6920,6 +6920,31 @@
         "name": "Jalan Riung Tineung",
         "name:en": "Riung Tineung Way",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6442746,
+            -6.9193256
+          ],
+          [
+            107.6442841,
+            -6.9195309
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1476755142,
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H. Ibrahim Adjie",
+        "old_name": "Jalan Kiaracondong",
+        "oneway": "yes"
       }
     }
   ]

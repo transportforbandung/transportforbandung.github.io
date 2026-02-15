@@ -333,6 +333,9 @@
         "old_name": "Jalan Arab Bumiputera Cina",
         "old_name:nl": "Arabieren Boemipoetra und Chinezen Straat",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -2080,6 +2083,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Aceh",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },
@@ -2149,8 +2154,8 @@
             -6.9100873
           ],
           [
-            107.6124292,
-            -6.91003
+            107.6124394,
+            -6.910028
           ]
         ]
       },
@@ -2163,6 +2168,8 @@
         "oneway": "yes",
         "ref": "2359",
         "reg_ref": "22-10-2359",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },
@@ -2172,24 +2179,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6126071,
-            -6.9098172
+            107.6126151,
+            -6.9098105
           ],
           [
-            107.6129452,
-            -6.9099668
+            107.6127279,
+            -6.909855
           ],
           [
-            107.6131491,
-            -6.910066
+            107.6131518,
+            -6.9100607
           ],
           [
-            107.6137066,
-            -6.9103532
+            107.6137485,
+            -6.9103432
           ],
           [
-            107.6137687,
-            -6.9103802
+            107.6137788,
+            -6.9103556
           ]
         ]
       },
@@ -2708,6 +2715,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -3269,8 +3277,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6124292,
-            -6.91003
+            107.6124394,
+            -6.910028
+          ],
+          [
+            107.612464,
+            -6.909959
           ],
           [
             107.6124801,
@@ -3285,8 +3297,8 @@
             -6.9098668
           ],
           [
-            107.6126071,
-            -6.9098172
+            107.6126151,
+            -6.9098105
           ]
         ]
       },
@@ -3298,6 +3310,8 @@
         "oneway": "yes",
         "ref": "2359",
         "reg_ref": "22-10-2359",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },
@@ -3350,16 +3364,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6137687,
-            -6.9103802
+            107.6137788,
+            -6.9103556
           ],
           [
             107.6138875,
             -6.9103443
           ],
           [
-            107.6139571,
-            -6.9103224
+            107.6139685,
+            -6.9103244
           ],
           [
             107.6140557,
@@ -3948,6 +3962,8 @@
         "cycleway:left": "no",
         "cycleway:right": "shared_lane",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Trunojoyo",
         "ref": "2409",
         "reg_ref": "22-10-2409",
@@ -4273,6 +4289,7 @@
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk:left": "separate",
         "surface": "asphalt"
       }
@@ -4929,6 +4946,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
+        "parking:both": "no",
         "sidewalk:both": "separate",
         "surface": "asphalt",
         "turn:lanes:backward": "slight_left|slight_right|right",
@@ -6454,8 +6472,8 @@
             -6.9181188
           ],
           [
-            107.6094536,
-            -6.9179266
+            107.6094502,
+            -6.9179086
           ]
         ]
       },
@@ -6478,8 +6496,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6094536,
-            -6.9179266
+            107.6094502,
+            -6.9179086
           ],
           [
             107.6094304,

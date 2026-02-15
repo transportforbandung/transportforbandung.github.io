@@ -314,6 +314,9 @@
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1024,20 +1027,20 @@
             -6.9115105
           ],
           [
-            107.6177335,
-            -6.9114927
+            107.617735,
+            -6.9114851
           ],
           [
-            107.6179033,
-            -6.9114839
+            107.6179079,
+            -6.9114701
           ],
           [
-            107.6180734,
-            -6.9114842
+            107.6180518,
+            -6.9114643
           ],
           [
-            107.6182432,
-            -6.9114936
+            107.6182447,
+            -6.9114798
           ],
           [
             107.6183415,
@@ -2130,7 +2133,8 @@
         "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Lombok",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {

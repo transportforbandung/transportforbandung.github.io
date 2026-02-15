@@ -267,6 +267,9 @@
         "old_name": "Jalan Arab Bumiputera Cina",
         "old_name:nl": "Arabieren Boemipoetra und Chinezen Straat",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -392,6 +395,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1362,6 +1366,7 @@
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1612,6 +1617,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -3192,6 +3198,7 @@
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk:left": "separate",
         "surface": "asphalt"
       }
@@ -3815,6 +3822,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Raden Adipati Aria Martanegara",
+        "parking:both": "no",
         "sidewalk:both": "separate",
         "surface": "asphalt",
         "turn:lanes:backward": "slight_left|slight_right|right",
@@ -4448,6 +4456,7 @@
         "lanes": "2",
         "name": "Jalan Asia Afrika",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }

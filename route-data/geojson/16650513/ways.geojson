@@ -101,7 +101,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Burangrang",
-        "oneway": "no"
+        "oneway": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -521,6 +522,9 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cikawao",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "surface": "asphalt"
       }
     },
@@ -746,6 +750,9 @@
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_left|slight_right|slight_right",
         "width": "8"
@@ -1192,7 +1199,9 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cikawao",
-        "oneway": "yes"
+        "oneway": "yes",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -1605,6 +1614,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sadakeling",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -1633,6 +1643,7 @@
         "lanes": "2",
         "name": "Jalan Sadakeling",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -1876,7 +1887,8 @@
         "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Burangrang",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1911,7 +1923,9 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sadakeling",
-        "oneway": "yes"
+        "oneway": "yes",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -1967,6 +1981,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -2706,6 +2721,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -3237,6 +3253,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -3461,7 +3478,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Burangrang",
-        "oneway": "no"
+        "oneway": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -3493,7 +3511,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Burangrang",
-        "oneway": "no"
+        "oneway": "no",
+        "surface": "asphalt"
       }
     }
   ]
