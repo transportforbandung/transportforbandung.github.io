@@ -177,28 +177,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.7628289,
-          -7.0490188
-        ]
-      },
-      "properties": {
-        "id": 198463451,
-        "name": "Sambilalu Majalaya",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           107.5820477,
           -6.8029839
         ]
@@ -240,28 +218,6 @@
           18799373
         ],
         "route_count": 4,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.758379,
-          -7.0491327
-        ]
-      },
-      "properties": {
-        "id": 690561515,
-        "name": "Majalaya",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -1039,28 +995,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.7614608,
-          -7.0498864
-        ]
-      },
-      "properties": {
-        "id": 2008937287,
-        "name": "Alun-alun Majalaya",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           107.5918925,
           -6.9085147
         ]
@@ -1611,8 +1545,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.5183359,
-          -6.8498358
+          107.5183483,
+          -6.8498381
         ]
       },
       "properties": {
@@ -2550,13 +2484,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6439192,
-          -6.9310246
+          107.6440355,
+          -6.9303632
         ]
       },
       "properties": {
         "id": 3375689661,
-        "name": "Honda Daya Motor Kiaracondong",
+        "name": "Pegadaian Kiaracondong",
         "shelter": "no",
         "pole": "totem",
         "lit": "no",
@@ -7354,8 +7288,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6024308,
-          -6.9160648
+          107.602443,
+          -6.9160396
         ]
       },
       "properties": {
@@ -12630,8 +12564,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.5996179,
-          -6.9161873
+          107.599586,
+          -6.9161651
         ]
       },
       "properties": {
@@ -13316,8 +13250,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.579333,
-          -6.9292427
+          107.579296,
+          -6.9292794
         ]
       },
       "properties": {
@@ -15835,7 +15769,6 @@
           14298213,
           14365267,
           15555901,
-          17770945,
           17771219,
           17771220,
           17771221,
@@ -15847,7 +15780,7 @@
           19969540,
           19969541
         ],
-        "route_count": 14,
+        "route_count": 13,
         "category": "5_shelter_yes_pole_sign"
       }
     },
@@ -16190,6 +16123,7 @@
           4807424,
           4817598,
           16646697,
+          17770945,
           17772429,
           17772430,
           17830973,
@@ -16197,7 +16131,7 @@
           17834106,
           18768805
         ],
-        "route_count": 11,
+        "route_count": 12,
         "category": "8_shelter_none_pole_none"
       }
     },
@@ -27172,9 +27106,10 @@
         "bench": "no",
         "bin": "no",
         "routes": [
+          17770945,
           19757704
         ],
-        "route_count": 1,
+        "route_count": 2,
         "category": "8_shelter_none_pole_none"
       }
     },
