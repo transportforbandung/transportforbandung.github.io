@@ -1948,6 +1948,47 @@
           "type": "ways"
         }
       ]
+    },
+    {
+      "name": "Shuttle Berjadwal",
+      "routes": [
+        {
+          "name": "KBP: Bumi Hejo → Stasiun Padalarang",
+          "relationId": "20273295",
+          "color": "#2c49a5",
+          "type": "ways"
+        },
+        {
+          "name": "KBP: Stasiun Padalarang → Bumi Hejo",
+          "relationId": "20273294",
+          "color": "#2c49a5",
+          "type": "ways"
+        },
+        {
+          "name": "KBP: EV",
+          "relationId": "20273307",
+          "color": "#2c49a5",
+          "type": "ways"
+        },
+        {
+          "name": "Summarecon: Summarecon Mall Bandung → Stasiun Tegalluar",
+          "relationId": "20273154",
+          "color": "#2c49a5",
+          "type": "ways"
+        },
+        {
+          "name": "Summarecon: Stasiun Tegalluar → Summarecon Mall Bandung",
+          "relationId": "20273153",
+          "color": "#2c49a5",
+          "type": "ways"
+        },
+        {
+          "name": "Summarecon: Shuttle Cluster Kawasan",
+          "relationId": "20273145",
+          "color": "#2c49a5",
+          "type": "ways"
+        }
+      ]
     }
   ]
 }
