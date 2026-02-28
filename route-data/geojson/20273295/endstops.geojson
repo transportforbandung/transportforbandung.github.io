@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4649146,
+          -6.8667302
+        ]
+      },
+      "properties": {
+        "id": 11687705122,
+        "bus": "yes",
+        "name": "Bumi Hejo",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4965807,
+          -6.8426422
+        ]
+      },
+      "properties": {
+        "id": 9852282406,
+        "bus": "yes",
+        "name": "Shuttle Stasiun Padalarang",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
+}

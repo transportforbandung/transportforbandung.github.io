@@ -201,6 +201,10 @@
             -6.9162099
           ],
           [
+            107.6007548,
+            -6.9162056
+          ],
+          [
             107.6010558,
             -6.9162013
           ],
@@ -224,6 +228,7 @@
         "lanes": "2",
         "name": "Jalan Kebon Jati",
         "oneway": "yes",
+        "sidewalk:both": "yes",
         "surface": "asphalt"
       }
     },
@@ -1031,8 +1036,8 @@
             -6.9262659
           ],
           [
-            107.6333823,
-            -6.9262548
+            107.6333707,
+            -6.9262479
           ],
           [
             107.6326707,
@@ -1643,8 +1648,8 @@
             -6.9161432
           ],
           [
-            107.6025166,
-            -6.916137
+            107.6025481,
+            -6.9161309
           ],
           [
             107.6027081,
@@ -2335,7 +2340,7 @@
         "id": 330544293,
         "highway": "tertiary",
         "lanes": "1",
-        "name": "Jalan Balong Gede",
+        "name": "Jalan Balonggede",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2616,9 +2621,10 @@
         "id": 555346579,
         "highway": "tertiary",
         "lanes": "1",
+        "name": "Jalan Alun-alun Timur",
         "oneway": "yes",
         "parking:both": "no",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },

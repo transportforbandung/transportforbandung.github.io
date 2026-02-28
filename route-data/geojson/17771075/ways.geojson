@@ -2104,10 +2104,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.695518,
-            -6.9565498
-          ],
-          [
             107.6956096,
             -6.9565743
           ],
@@ -5046,6 +5042,36 @@
         "ref": "11113",
         "reg_ref": "22-10-11113",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.695518,
+            -6.9565498
+          ],
+          [
+            107.6956096,
+            -6.9565743
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1484108022,
+        "destination:lanes": "Bulevar Timur;Bulevar Teknopolis;Sinpasa;Flora|Xandari",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Grand Bulevar",
+        "oneway": "yes",
+        "ref": "11113",
+        "reg_ref": "22-10-11113",
+        "sidewalk": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through;reverse"
       }
     }
   ]

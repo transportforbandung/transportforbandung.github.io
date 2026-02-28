@@ -4695,10 +4695,6 @@
           [
             107.7002127,
             -6.9552171
-          ],
-          [
-            107.7003144,
-            -6.9551651
           ]
         ]
       },
@@ -4785,18 +4781,6 @@
           [
             107.7006183,
             -6.9554167
-          ],
-          [
-            107.7005368,
-            -6.9554183
-          ],
-          [
-            107.7004588,
-            -6.9553945
-          ],
-          [
-            107.7003921,
-            -6.9553478
           ]
         ]
       },
@@ -5471,6 +5455,71 @@
         "ref": "11",
         "surface": "asphalt",
         "turn:lanes": "left;through||"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.7002127,
+            -6.9552171
+          ],
+          [
+            107.7003144,
+            -6.9551651
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1484108014,
+        "destination": "Bulevar Raya",
+        "destination:lanes": "Bulevar Teknopolis;Sinpasa|Flora;Bulevar Selatan;Dayana;Rancasagatan",
+        "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Grand Bulevar",
+        "name:en": "Grand Boulevard",
+        "oneway": "yes",
+        "ref": "11113",
+        "reg_ref": "22-10-11113",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.7006183,
+            -6.9554167
+          ],
+          [
+            107.7005368,
+            -6.9554183
+          ],
+          [
+            107.7004588,
+            -6.9553945
+          ],
+          [
+            107.7003921,
+            -6.9553478
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1484121753,
+        "destination:lanes": "Xandari;Mall;Bulevar Barat|Bulevar Teknopolis;Sinpasa;Sentra Niaga",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "name": "Bunderan Grand Bulevar",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|slight_right"
       }
     }
   ]

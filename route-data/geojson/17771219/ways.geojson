@@ -338,9 +338,10 @@
         "id": 87148697,
         "highway": "tertiary",
         "lanes": "2",
+        "name": "Jalan Alun-alun Timur",
         "oneway": "yes",
         "parking:both": "no",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -4349,8 +4350,16 @@
             -6.9179466
           ],
           [
-            107.7062089,
-            -6.9174711
+            107.7065296,
+            -6.9177637
+          ],
+          [
+            107.7064347,
+            -6.9176769
+          ],
+          [
+            107.7062418,
+            -6.9175011
           ],
           [
             107.7061287,
@@ -4369,9 +4378,12 @@
       "properties": {
         "id": 1193678232,
         "avgspeed": "30",
+        "destination:backward": "Ciporeat;Ciléngkrang;Cibiru|Gempol;Pamekar",
+        "destination:forward": "Ujungberung;Cicaheum|",
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
+        "name:en": "Abdul Haris Nasution Avenue",
         "oneway": "no",
         "turn:lanes:backward": "left;through|through;slight_right",
         "turn:lanes:forward": "through|through;right"
@@ -4383,8 +4395,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7068733,
-            -6.9180884
+            107.7068787,
+            -6.9180851
           ],
           [
             107.7067293,
@@ -4395,9 +4407,12 @@
       "properties": {
         "id": 1193678233,
         "avgspeed": "30",
+        "destination:backward": "Cilengkrang;Cibiru|Gempol;Panghegar",
+        "destination:forward": "Ujungberung;Cicaheum|Maruyung;Pasanggrahan",
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
+        "name:en": "Abdul Haris Nasution Avenue",
         "oneway": "no",
         "turn:lanes:backward": "through|through;slight_right",
         "turn:lanes:forward": "through|through;right"
@@ -4417,17 +4432,19 @@
             -6.9188223
           ],
           [
-            107.7068733,
-            -6.9180884
+            107.7068787,
+            -6.9180851
           ]
         ]
       },
       "properties": {
         "id": 1193678234,
         "avgspeed": "30",
+        "destination:forward": "Gempol;Panghegar|Ujungberung;Cicaheum",
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
+        "name:en": "Abdul Haris Nasution Avenue",
         "oneway": "no",
         "turn:lanes:forward": "sharp_left;through|through;right"
       }

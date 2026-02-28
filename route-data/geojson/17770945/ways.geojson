@@ -66,6 +66,100 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5895751,
+            -6.9456911
+          ],
+          [
+            107.5897088,
+            -6.945521
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4637816,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Kyai Haji Wahid Hasyim",
+        "oneway": "yes",
+        "ref": "106",
+        "reg_ref": "22-00-106-11K",
+        "turn:lanes": "through|through|right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5899199,
+            -6.9452949
+          ],
+          [
+            107.5899683,
+            -6.9452286
+          ],
+          [
+            107.5900352,
+            -6.9451237
+          ],
+          [
+            107.5901553,
+            -6.9449353
+          ],
+          [
+            107.5903058,
+            -6.9446993
+          ],
+          [
+            107.5904884,
+            -6.944413
+          ],
+          [
+            107.5905391,
+            -6.9443334
+          ],
+          [
+            107.5905904,
+            -6.944253
+          ],
+          [
+            107.590768,
+            -6.9439758
+          ],
+          [
+            107.5908061,
+            -6.9439147
+          ],
+          [
+            107.5908631,
+            -6.9438253
+          ],
+          [
+            107.5910269,
+            -6.9435481
+          ]
+        ]
+      },
+      "properties": {
+        "id": 172898301,
+        "alt_name": "Jalan Kopo",
+        "flood_prone": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kyai Haji Wahid Hasyim",
+        "oneway": "no",
+        "ref": "106",
+        "reg_ref": "22-00-106-11K"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6227233,
             -6.9368982
           ],
@@ -816,75 +910,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.593264,
-            -6.9458573
-          ],
-          [
-            107.5931318,
-            -6.9458342
-          ],
-          [
-            107.5930863,
-            -6.9458135
-          ],
-          [
-            107.5930568,
-            -6.9457799
-          ],
-          [
-            107.593037,
-            -6.9457202
-          ],
-          [
-            107.5930171,
-            -6.9456587
-          ],
-          [
-            107.5929963,
-            -6.9455941
-          ],
-          [
-            107.5929662,
-            -6.9454896
-          ],
-          [
-            107.5929405,
-            -6.9454085
-          ],
-          [
-            107.592872,
-            -6.945188
-          ],
-          [
-            107.5928791,
-            -6.9451113
-          ],
-          [
-            107.5928976,
-            -6.9450391
-          ]
-        ]
-      },
-      "properties": {
-        "id": 321073717,
-        "access": "no",
-        "bicycle": "no",
-        "bus": "designated",
-        "highway": "service",
-        "horse": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
-        "name": "Jalur Bus Kota Terminal Leuwipanjang",
-        "oneway": "yes",
-        "surface": "concrete"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5920724,
             -6.9418438
           ],
@@ -1143,45 +1168,94 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5928874,
-            -6.9447537
+            107.589865,
+            -6.9458161
           ],
           [
-            107.5928309,
-            -6.944637
+            107.5897183,
+            -6.9457513
           ],
           [
-            107.5927594,
-            -6.9445111
-          ],
-          [
-            107.5926774,
-            -6.944414
-          ],
-          [
-            107.5924868,
-            -6.9442651
-          ],
-          [
-            107.592084,
-            -6.9440521
+            107.5896397,
+            -6.9457186
           ]
         ]
       },
       "properties": {
-        "id": 340400250,
-        "access": "no",
-        "bicycle": "no",
-        "bus": "designated",
-        "covered": "no",
-        "highway": "service",
-        "horse": "no",
-        "motor_vehicle": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
-        "name": "Jalan Keluar Terminal Leuwipanjang",
+        "id": 331405575,
+        "destination:lanes": "Caringin;Pasir Koja;Holis;Cibeureum|Caringin;Pasir Koja;Holis;Cibeureum|Peta;Panjunan;Astana Anyar",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Soekarno-Hatta",
         "oneway": "yes",
-        "surface": "concrete"
+        "ref": "11",
+        "turn:lanes": "through|through|right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.592997,
+            -6.9469193
+          ],
+          [
+            107.5924922,
+            -6.9467783
+          ],
+          [
+            107.5921516,
+            -6.9466864
+          ],
+          [
+            107.5920068,
+            -6.9466455
+          ],
+          [
+            107.5918917,
+            -6.946617
+          ],
+          [
+            107.5916708,
+            -6.9465388
+          ],
+          [
+            107.5913956,
+            -6.9464414
+          ],
+          [
+            107.5913385,
+            -6.9464212
+          ],
+          [
+            107.5911782,
+            -6.9463589
+          ],
+          [
+            107.5909136,
+            -6.9462527
+          ],
+          [
+            107.5906079,
+            -6.9461252
+          ],
+          [
+            107.5904505,
+            -6.9460588
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331405577,
+        "destination:lanes": "||Terminal Leuwipanjang;Peta;Astana Anyar",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Soekarno-Hatta",
+        "oneway": "yes",
+        "ref": "11",
+        "turn:lanes": "slight_left;through|through|right;reverse"
       }
     },
     {
@@ -1546,70 +1620,6 @@
         "ref": "377",
         "smoothness": "good",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5918309,
-            -6.9439338
-          ],
-          [
-            107.5916419,
-            -6.9438523
-          ]
-        ]
-      },
-      "properties": {
-        "id": 570204820,
-        "access": "no",
-        "bicycle": "no",
-        "bus": "designated",
-        "covered": "no",
-        "highway": "service",
-        "horse": "no",
-        "motor_vehicle": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
-        "name": "Jalan Keluar Terminal Leuwipanjang",
-        "oneway": "yes",
-        "surface": "concrete"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.592084,
-            -6.9440521
-          ],
-          [
-            107.5918309,
-            -6.9439338
-          ]
-        ]
-      },
-      "properties": {
-        "id": 570204821,
-        "access": "no",
-        "bicycle": "no",
-        "bridge": "yes",
-        "bus": "designated",
-        "covered": "no",
-        "highway": "service",
-        "horse": "no",
-        "layer": "1",
-        "motor_vehicle": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
-        "name": "Jalan Keluar Terminal Leuwipanjang",
-        "oneway": "yes",
-        "surface": "concrete"
       }
     },
     {
@@ -2688,6 +2698,40 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5904505,
+            -6.9460588
+          ],
+          [
+            107.5903535,
+            -6.9460161
+          ],
+          [
+            107.5901033,
+            -6.9459059
+          ],
+          [
+            107.589865,
+            -6.9458161
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1197845691,
+        "destination:lanes": "Purbaleunyi;Kopo Sayati;Lapangan Udara Sulaiman|Caringin;Pasir Koja;Holis;Cibeureum|Peta;Panjunan;Astana Anyar",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Soekarno-Hatta",
+        "oneway": "yes",
+        "ref": "11",
+        "turn:lanes": "slight_left;through|through|through;right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6272923,
             -6.9262116
           ],
@@ -2979,33 +3023,56 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5916419,
-            -6.9438523
+            107.5897088,
+            -6.945521
           ],
           [
-            107.5910845,
-            -6.9435862
+            107.5897357,
+            -6.9454843
           ],
           [
-            107.5910269,
-            -6.9435481
+            107.5898634,
+            -6.9453375
           ]
         ]
       },
       "properties": {
-        "id": 1245234227,
-        "access": "no",
-        "bicycle": "no",
-        "bus": "designated",
-        "covered": "no",
-        "highway": "service",
-        "horse": "no",
-        "motor_vehicle": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
-        "name": "Jalan Keluar Terminal Leuwipanjang",
+        "id": 1226049787,
+        "alt_name": "Jalan Kopo",
+        "destination": "Peta;Panjunan;Astana Anyar",
+        "destination:ref": "106",
+        "flood_prone": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kyai Haji Wahid Hasyim",
         "oneway": "yes",
-        "surface": "concrete"
+        "ref": "106",
+        "reg_ref": "22-00-106-11K"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5896397,
+            -6.9457186
+          ],
+          [
+            107.5895751,
+            -6.9456911
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1227189878,
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Jalan Soekarno-Hatta",
+        "oneway": "yes",
+        "ref": "11",
+        "turn:lanes": "slight_left;through|through|right"
       }
     },
     {
@@ -3029,6 +3096,34 @@
         "lanes": "2",
         "name": "Jalan Jakarta",
         "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5898634,
+            -6.9453375
+          ],
+          [
+            107.5899199,
+            -6.9452949
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1301231966,
+        "alt_name": "Jalan Kopo",
+        "destination": "Peta;Panjunan;Astana Anyar",
+        "destination:ref": "106",
+        "flood_prone": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kyai Haji Wahid Hasyim",
+        "oneway": "yes",
+        "ref": "106"
       }
     },
     {
@@ -3174,45 +3269,6 @@
         "ref": "106",
         "reg_ref": "22-00-106-11K",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5928976,
-            -6.9450391
-          ],
-          [
-            107.5929024,
-            -6.9449731
-          ],
-          [
-            107.5929037,
-            -6.9449075
-          ],
-          [
-            107.5928874,
-            -6.9447537
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1469503282,
-        "access": "no",
-        "bicycle": "no",
-        "bus": "designated",
-        "covered": "no",
-        "highway": "service",
-        "horse": "no",
-        "motor_vehicle": "no",
-        "motorcar": "no",
-        "motorcycle": "no",
-        "name": "Jalan Keluar Terminal Leuwipanjang",
-        "oneway": "yes",
-        "surface": "concrete"
       }
     }
   ]

@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6965642,
+          -6.9553172
+        ]
+      },
+      "properties": {
+        "id": 13608060606,
+        "bus": "yes",
+        "name": "Shuttle Summarecon Mall Bandung",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.715309,
+          -6.964515
+        ]
+      },
+      "properties": {
+        "id": 13608083184,
+        "bus": "yes",
+        "name": "Stasiun Tegalluar",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
+}

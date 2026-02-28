@@ -1105,10 +1105,6 @@
             -7.0494876
           ],
           [
-            107.7583793,
-            -7.0491518
-          ],
-          [
             107.758379,
             -7.0491327
           ]
@@ -2965,6 +2961,7 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
+        "ref": "106",
         "surface": "asphalt"
       }
     },
@@ -5287,6 +5284,7 @@
         "id": 1206691759,
         "bicycle": "no",
         "bus": "yes",
+        "foot": "no",
         "highway": "service",
         "horse": "no",
         "motorcar": "no",
@@ -5598,7 +5596,7 @@
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
         "oneway": "yes",
-        "ref": "106-11K",
+        "ref": "106",
         "turn:lanes": "through|through;right"
       }
     },

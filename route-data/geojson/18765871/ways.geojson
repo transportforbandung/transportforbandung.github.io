@@ -2105,6 +2105,7 @@
         "id": 1206691759,
         "bicycle": "no",
         "bus": "yes",
+        "foot": "no",
         "highway": "service",
         "horse": "no",
         "motorcar": "no",
@@ -2563,7 +2564,7 @@
             -7.0141665
           ],
           [
-            107.530765,
+            107.5307721,
             -7.0140612
           ],
           [
@@ -2591,6 +2592,8 @@
         "name": "Jalan Akses Tol Soreang",
         "oneway": "yes",
         "ref": "682",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "concrete",
         "toll": "no"
       }

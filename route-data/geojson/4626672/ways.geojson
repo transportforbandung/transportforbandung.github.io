@@ -11831,8 +11831,8 @@
             -6.9465979
           ],
           [
-            107.7002978,
-            -6.9446073
+            107.7039779,
+            -6.9459422
           ]
         ]
       },
@@ -12341,6 +12341,64 @@
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
         "railway": "rail",
+        "usage": "main",
+        "wikidata": "Q25630218",
+        "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.7039191,
+            -6.9459216
+          ],
+          [
+            107.7002978,
+            -6.9446073
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1479502995,
+        "electrified": "no",
+        "gauge": "1067",
+        "maxspeed": "110",
+        "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "railway": "rail",
+        "source": "Yahoo hires",
+        "usage": "main",
+        "wikidata": "Q25630218",
+        "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.7039779,
+            -6.9459422
+          ],
+          [
+            107.7039191,
+            -6.9459216
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1479502996,
+        "bridge": "yes",
+        "electrified": "no",
+        "gauge": "1067",
+        "layer": "1",
+        "maxspeed": "110",
+        "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "railway": "rail",
+        "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"

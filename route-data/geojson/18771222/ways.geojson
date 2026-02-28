@@ -878,126 +878,6 @@
           [
             107.4813933,
             -6.8614119
-          ],
-          [
-            107.4813249,
-            -6.8614742
-          ],
-          [
-            107.4811969,
-            -6.8615991
-          ],
-          [
-            107.4810131,
-            -6.8617692
-          ],
-          [
-            107.4808213,
-            -6.8619538
-          ],
-          [
-            107.4806464,
-            -6.8621116
-          ],
-          [
-            107.4805321,
-            -6.862234
-          ],
-          [
-            107.4804538,
-            -6.8623138
-          ],
-          [
-            107.4803884,
-            -6.8623796
-          ],
-          [
-            107.4802647,
-            -6.862522
-          ],
-          [
-            107.4801983,
-            -6.8626059
-          ],
-          [
-            107.4801124,
-            -6.8627206
-          ],
-          [
-            107.4800417,
-            -6.8628164
-          ],
-          [
-            107.4798985,
-            -6.8630117
-          ],
-          [
-            107.4797441,
-            -6.8632278
-          ],
-          [
-            107.4795511,
-            -6.8634814
-          ],
-          [
-            107.4793841,
-            -6.8637028
-          ],
-          [
-            107.4793117,
-            -6.8637987
-          ],
-          [
-            107.479096,
-            -6.8640963
-          ],
-          [
-            107.4787391,
-            -6.8645886
-          ],
-          [
-            107.4786469,
-            -6.8647061
-          ],
-          [
-            107.4783619,
-            -6.8650692
-          ],
-          [
-            107.4782844,
-            -6.865168
-          ],
-          [
-            107.4781795,
-            -6.8652971
-          ],
-          [
-            107.4780592,
-            -6.8654451
-          ],
-          [
-            107.4779735,
-            -6.8655351
-          ],
-          [
-            107.4779258,
-            -6.8655758
-          ],
-          [
-            107.4777507,
-            -6.8656956
-          ],
-          [
-            107.4775943,
-            -6.8657819
-          ],
-          [
-            107.4772526,
-            -6.8659122
-          ],
-          [
-            107.4770978,
-            -6.8659503
           ]
         ]
       },
@@ -2901,18 +2781,6 @@
           [
             107.4667984,
             -6.8717498
-          ],
-          [
-            107.4662245,
-            -6.8717582
-          ],
-          [
-            107.4661759,
-            -6.8717589
-          ],
-          [
-            107.4659014,
-            -6.8717545
           ]
         ]
       },
@@ -4478,40 +4346,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.4652055,
-            -6.8656256
-          ],
-          [
-            107.4651998,
-            -6.8660037
-          ],
-          [
-            107.4651899,
-            -6.8665505
-          ],
-          [
             107.4651877,
             -6.8666654
           ],
           [
             107.4651865,
             -6.8667329
-          ],
-          [
-            107.4651827,
-            -6.8673566
-          ],
-          [
-            107.4651837,
-            -6.867474
-          ],
-          [
-            107.465183,
-            -6.8677427
-          ],
-          [
-            107.4651824,
-            -6.8680042
           ]
         ]
       },
@@ -6271,6 +6111,451 @@
         "junction": "roundabout",
         "name": "Jalan Lokal",
         "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4652055,
+            -6.8656256
+          ],
+          [
+            107.4651998,
+            -6.8660037
+          ],
+          [
+            107.4651899,
+            -6.8665505
+          ],
+          [
+            107.4651877,
+            -6.8666654
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1484131844,
+        "highway": "tertiary",
+        "lanes": "4",
+        "lit": "yes",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4667984,
+            -6.8717498
+          ],
+          [
+            107.4662245,
+            -6.8717582
+          ],
+          [
+            107.4661759,
+            -6.8717589
+          ],
+          [
+            107.4659014,
+            -6.8717545
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1484132876,
+        "highway": "tertiary",
+        "name": "Jalan Guru Gantangan",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4813933,
+            -6.8614119
+          ],
+          [
+            107.4813249,
+            -6.8614742
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1484134904,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Parahyangan",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4813249,
+            -6.8614742
+          ],
+          [
+            107.4811969,
+            -6.8615991
+          ],
+          [
+            107.4810131,
+            -6.8617692
+          ],
+          [
+            107.4808213,
+            -6.8619538
+          ],
+          [
+            107.4806464,
+            -6.8621116
+          ],
+          [
+            107.4805321,
+            -6.862234
+          ],
+          [
+            107.4804538,
+            -6.8623138
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1484134905,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Parahyangan",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4804538,
+            -6.8623138
+          ],
+          [
+            107.4803884,
+            -6.8623796
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1484134906,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Parahyangan",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4803884,
+            -6.8623796
+          ],
+          [
+            107.4802647,
+            -6.862522
+          ],
+          [
+            107.4801983,
+            -6.8626059
+          ],
+          [
+            107.4801124,
+            -6.8627206
+          ],
+          [
+            107.4800417,
+            -6.8628164
+          ],
+          [
+            107.4798985,
+            -6.8630117
+          ],
+          [
+            107.4797441,
+            -6.8632278
+          ],
+          [
+            107.4795511,
+            -6.8634814
+          ],
+          [
+            107.4793841,
+            -6.8637028
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1484134907,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Parahyangan",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4793841,
+            -6.8637028
+          ],
+          [
+            107.4793117,
+            -6.8637987
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1484134908,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Parahyangan",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4793117,
+            -6.8637987
+          ],
+          [
+            107.479096,
+            -6.8640963
+          ],
+          [
+            107.4787391,
+            -6.8645886
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1484134909,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Parahyangan",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4787391,
+            -6.8645886
+          ],
+          [
+            107.4786469,
+            -6.8647061
+          ],
+          [
+            107.4783619,
+            -6.8650692
+          ],
+          [
+            107.4782844,
+            -6.865168
+          ],
+          [
+            107.4781795,
+            -6.8652971
+          ],
+          [
+            107.4780592,
+            -6.8654451
+          ],
+          [
+            107.4779735,
+            -6.8655351
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1484134910,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Parahyangan",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4779735,
+            -6.8655351
+          ],
+          [
+            107.4779258,
+            -6.8655758
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1484134911,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Parahyangan",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4779258,
+            -6.8655758
+          ],
+          [
+            107.4777507,
+            -6.8656956
+          ],
+          [
+            107.4775943,
+            -6.8657819
+          ],
+          [
+            107.4772526,
+            -6.8659122
+          ],
+          [
+            107.4770978,
+            -6.8659503
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1484134912,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Parahyangan",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4651865,
+            -6.8667329
+          ],
+          [
+            107.4651827,
+            -6.8673566
+          ],
+          [
+            107.4651837,
+            -6.867474
+          ],
+          [
+            107.465183,
+            -6.8677427
+          ],
+          [
+            107.4651824,
+            -6.8680042
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1484134925,
+        "highway": "tertiary",
+        "lanes": "4",
+        "lit": "yes",
+        "oneway": "no",
+        "sidewalk": "separate",
+        "surface": "asphalt"
       }
     }
   ]
