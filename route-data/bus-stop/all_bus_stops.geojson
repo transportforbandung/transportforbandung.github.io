@@ -368,28 +368,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.5602213,
-          -6.8953145
-        ]
-      },
-      "properties": {
-        "id": 1666231924,
-        "name": "Pangkalan Angkot Cimindi",
-        "shelter": null,
-        "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
-        "category": "8_shelter_none_pole_none"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           107.6306984,
           -6.9079995
         ]
@@ -1924,6 +1902,31 @@
         ],
         "route_count": 7,
         "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5602144,
+          -6.8953708
+        ]
+      },
+      "properties": {
+        "id": 3249461528,
+        "name": "Pangkalan Angkot Cimindi",
+        "shelter": "no",
+        "pole": "flag",
+        "lit": null,
+        "bench": null,
+        "bin": "np",
+        "routes": [
+          4321908,
+          4649915
+        ],
+        "route_count": 2,
+        "category": "4_shelter_none_pole_flag"
       }
     },
     {
@@ -8262,9 +8265,11 @@
         "bin": "no",
         "routes": [
           18766206,
-          18771223
+          18771223,
+          20273295,
+          20273307
         ],
-        "route_count": 2,
+        "route_count": 4,
         "category": "5_shelter_yes_pole_sign"
       }
     },
@@ -8287,9 +8292,11 @@
         "bin": "yes",
         "routes": [
           18766205,
-          18771222
+          18771222,
+          20273294,
+          20273307
         ],
-        "route_count": 2,
+        "route_count": 4,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -8312,9 +8319,10 @@
         "bin": "yes",
         "routes": [
           18766206,
-          18771223
+          18771223,
+          20273295
         ],
-        "route_count": 2,
+        "route_count": 3,
         "category": "5_shelter_yes_pole_sign"
       }
     },
@@ -8337,9 +8345,11 @@
         "bin": null,
         "routes": [
           18766206,
-          18771223
+          18771223,
+          20273295,
+          20273307
         ],
-        "route_count": 2,
+        "route_count": 4,
         "category": "5_shelter_yes_pole_sign"
       }
     },
@@ -8362,9 +8372,11 @@
         "bin": "yes",
         "routes": [
           18766206,
-          18771223
+          18771223,
+          20273295,
+          20273307
         ],
-        "route_count": 2,
+        "route_count": 4,
         "category": "5_shelter_yes_pole_sign"
       }
     },
@@ -8412,9 +8424,10 @@
         "bin": "yes",
         "routes": [
           18766206,
-          18771223
+          18771223,
+          20273295
         ],
-        "route_count": 2,
+        "route_count": 3,
         "category": "5_shelter_yes_pole_sign"
       }
     },
@@ -11368,8 +11381,12 @@
         "lit": null,
         "bench": null,
         "bin": null,
-        "routes": [],
-        "route_count": 0,
+        "routes": [
+          20273145,
+          20273153,
+          20273154
+        ],
+        "route_count": 3,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -15679,21 +15696,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6879677,
-          -6.9568982
+          107.6879972,
+          -6.9568639
         ]
       },
       "properties": {
         "id": 11942615915,
-        "name": "Magna Raya",
+        "name": "Magna",
         "shelter": "yes",
-        "pole": "yes",
+        "pole": "stop_pole",
         "lit": null,
         "bench": null,
-        "bin": null,
-        "routes": [],
-        "route_count": 0,
-        "category": "5_shelter_yes_pole_sign"
+        "bin": "yes",
+        "routes": [
+          20273145
+        ],
+        "route_count": 1,
+        "category": "1_shelter_yes_pole_none"
       }
     },
     {
@@ -16153,9 +16172,11 @@
         "bench": "yes",
         "bin": "no",
         "routes": [
-          18766206
+          18766206,
+          20273295,
+          20273307
         ],
-        "route_count": 1,
+        "route_count": 3,
         "category": "5_shelter_yes_pole_sign"
       }
     },
@@ -16211,21 +16232,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.70215,
-          -6.9628794
+          107.7021527,
+          -6.9629584
         ]
       },
       "properties": {
         "id": 12327092497,
         "name": "Dayana",
         "shelter": "no",
-        "pole": "yes",
+        "pole": "stop_pole",
         "lit": null,
         "bench": "no",
         "bin": null,
-        "routes": [],
-        "route_count": 0,
-        "category": "2_shelter_none_pole_sign"
+        "routes": [
+          20273145
+        ],
+        "route_count": 1,
+        "category": "8_shelter_none_pole_none"
       }
     },
     {
@@ -16241,13 +16264,13 @@
         "id": 12327092498,
         "name": "Pasar Sinpasa",
         "shelter": "no",
-        "pole": "yes",
+        "pole": "stop_pole",
         "lit": null,
         "bench": null,
         "bin": null,
         "routes": [],
         "route_count": 0,
-        "category": "2_shelter_none_pole_sign"
+        "category": "8_shelter_none_pole_none"
       }
     },
     {
@@ -16255,8 +16278,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.4551996,
-          -6.8674027
+          107.4552613,
+          -6.8673454
         ]
       },
       "properties": {
@@ -16267,8 +16290,11 @@
         "lit": "yes",
         "bench": "no",
         "bin": "no",
-        "routes": [],
-        "route_count": 0,
+        "routes": [
+          20273295,
+          20273307
+        ],
+        "route_count": 2,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -16290,9 +16316,11 @@
         "bench": null,
         "bin": null,
         "routes": [
-          18771222
+          18771222,
+          20273294,
+          20273307
         ],
-        "route_count": 1,
+        "route_count": 3,
         "category": "5_shelter_yes_pole_sign"
       }
     },
@@ -16314,9 +16342,11 @@
         "bench": "yes",
         "bin": null,
         "routes": [
-          18771222
+          18771222,
+          20273294,
+          20273307
         ],
-        "route_count": 1,
+        "route_count": 3,
         "category": "5_shelter_yes_pole_sign"
       }
     },
@@ -17949,8 +17979,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.706167,
-          -6.9173388
+          107.7062374,
+          -6.9174054
         ]
       },
       "properties": {
@@ -23061,20 +23091,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.4648493,
-          -6.8667825
+          107.4648551,
+          -6.866775
         ]
       },
       "properties": {
         "id": 13057979621,
-        "name": "Hejo Square",
+        "name": "Bumi Hejo",
         "shelter": "no",
         "pole": "yes",
         "lit": "no",
         "bench": "no",
         "bin": "no",
-        "routes": [],
-        "route_count": 0,
+        "routes": [
+          20273294,
+          20273295,
+          20273307
+        ],
+        "route_count": 3,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -30127,6 +30161,128 @@
         ],
         "route_count": 1,
         "category": "4_shelter_none_pole_flag"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.697241,
+          -6.9622672
+        ]
+      },
+      "properties": {
+        "id": 13608012298,
+        "name": "Emily Cynthia",
+        "shelter": "no",
+        "pole": "stop_pole",
+        "lit": null,
+        "bench": "no",
+        "bin": null,
+        "routes": [
+          20273145
+        ],
+        "route_count": 1,
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6927478,
+          -6.9590098
+        ]
+      },
+      "properties": {
+        "id": 13608012299,
+        "name": "Amanda Btari",
+        "shelter": "no",
+        "pole": "stop_pole",
+        "lit": null,
+        "bench": "no",
+        "bin": null,
+        "routes": [
+          20273145
+        ],
+        "route_count": 1,
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7031192,
+          -6.9570551
+        ]
+      },
+      "properties": {
+        "id": 13608060605,
+        "name": "Flora",
+        "shelter": "no",
+        "pole": "stop_pole",
+        "lit": null,
+        "bench": "no",
+        "bin": null,
+        "routes": [
+          20273145
+        ],
+        "route_count": 1,
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7152819,
+          -6.9644705
+        ]
+      },
+      "properties": {
+        "id": 13608083185,
+        "name": "Stasiun Tegalluar",
+        "shelter": "no",
+        "pole": "no",
+        "lit": null,
+        "bench": null,
+        "bin": null,
+        "routes": [
+          20273153,
+          20273154
+        ],
+        "route_count": 2,
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4966091,
+          -6.8426255
+        ]
+      },
+      "properties": {
+        "id": 13608216792,
+        "name": "Shuttle Stasiun Padalarang",
+        "shelter": "no",
+        "pole": "no",
+        "lit": null,
+        "bench": null,
+        "bin": null,
+        "routes": [
+          20273294,
+          20273295
+        ],
+        "route_count": 2,
+        "category": "8_shelter_none_pole_none"
       }
     }
   ]
