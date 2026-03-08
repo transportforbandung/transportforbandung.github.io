@@ -1350,7 +1350,7 @@
         "pole": "traffic_sign",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4817618,
           4818341,
@@ -11433,7 +11433,7 @@
         "bench": null,
         "bin": null,
         "routes": [
-          14365267
+          18765871
         ],
         "route_count": 1,
         "category": "2_shelter_none_pole_sign"
@@ -11457,7 +11457,7 @@
         "bench": null,
         "bin": null,
         "routes": [
-          14365267
+          18765871
         ],
         "route_count": 1,
         "category": "2_shelter_none_pole_sign"
@@ -11474,16 +11474,14 @@
       },
       "properties": {
         "id": 11341347371,
-        "name": "Pasar Ikan Modern",
+        "name": "Kantor Desa Cingcin",
         "shelter": "no",
         "pole": "traffic_sign",
         "lit": null,
         "bench": null,
         "bin": null,
-        "routes": [
-          14365267
-        ],
-        "route_count": 1,
+        "routes": [],
+        "route_count": 0,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -11579,11 +11577,34 @@
         "bench": "no",
         "bin": "no",
         "routes": [
-          14365267,
           18765871,
           18799368
         ],
-        "route_count": 3,
+        "route_count": 2,
+        "category": "2_shelter_none_pole_sign"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5302882,
+          -7.0164614
+        ]
+      },
+      "properties": {
+        "id": 11341347403,
+        "name": "Sagala Raos",
+        "shelter": "no",
+        "pole": "traffic_sign",
+        "lit": "no",
+        "bench": "no",
+        "bin": null,
+        "routes": [
+          18765871
+        ],
+        "route_count": 1,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -11843,7 +11864,7 @@
       },
       "properties": {
         "id": 11549842568,
-        "name": "Stasiun Cimekar",
+        "name": "Stasiun Cimekar 2",
         "shelter": "yes",
         "pole": "traffic_sign",
         "lit": null,
@@ -12497,9 +12518,9 @@
         "name": "SMA Trinitas",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4648025,
           16644187,
@@ -12525,9 +12546,9 @@
         "name": "Rumah Sakit Kebon Jati",
         "shelter": "no",
         "pole": "traffic_sign",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4648025,
           16644187,
@@ -12792,7 +12813,7 @@
         "shelter": "yes",
         "pole": "totem",
         "lit": null,
-        "bench": null,
+        "bench": "yes",
         "bin": null,
         "routes": [
           4433069,
@@ -13306,7 +13327,7 @@
         "bench": null,
         "bin": null,
         "routes": [
-          14365267
+          18765871
         ],
         "route_count": 1,
         "category": "2_shelter_none_pole_sign"
@@ -21543,7 +21564,7 @@
         "name": "JPO Cibangkong",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -23049,8 +23070,8 @@
         "shelter": "no",
         "pole": "totem",
         "lit": "no",
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4648025,
           16644187,
@@ -25128,9 +25149,9 @@
         "name": "Seberang SD Al-Azhar 36 Bandung",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4433069,
           16644187,
@@ -25154,9 +25175,9 @@
         "name": "Taman Pers Malabar 1",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4433069,
           16644187,
@@ -25233,7 +25254,7 @@
         "name": "SPBU Jalan Sunda",
         "shelter": "no",
         "pole": null,
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -25673,7 +25694,7 @@
         "name": "Suniaraja Braga",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -26153,9 +26174,9 @@
         "name": "Simpang Menado - Belitung",
         "shelter": "no",
         "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19664372
         ],
@@ -26177,9 +26198,9 @@
         "name": "Simpang Menado - Gudang Utara",
         "shelter": "no",
         "pole": "traffic_sign",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4639769,
           19664372
@@ -26202,9 +26223,9 @@
         "name": "Simpang Jawa - Sunda",
         "shelter": "no",
         "pole": "traffic_sign",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           19664372
         ],
@@ -29335,7 +29356,7 @@
       "properties": {
         "id": 13382601417,
         "name": "Terminal Ciroyom",
-        "shelter": null,
+        "shelter": "yes",
         "pole": null,
         "lit": null,
         "bench": null,
@@ -29345,7 +29366,7 @@
           19969545
         ],
         "route_count": 2,
-        "category": "8_shelter_none_pole_none"
+        "category": "1_shelter_yes_pole_none"
       }
     },
     {
@@ -30275,11 +30296,146 @@
         "shelter": "no",
         "pole": "no",
         "lit": null,
-        "bench": null,
+        "bench": "no",
         "bin": null,
         "routes": [
           20273294,
           20273295
+        ],
+        "route_count": 2,
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7137188,
+          -6.9592224
+        ]
+      },
+      "properties": {
+        "id": 13621023161,
+        "name": "Gerbang Merah GBLA 1",
+        "shelter": "yes",
+        "pole": "totem",
+        "lit": null,
+        "bench": "yes",
+        "bin": null,
+        "routes": [],
+        "route_count": 0,
+        "category": "6_shelter_yes_pole_totem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7127751,
+          -6.9590337
+        ]
+      },
+      "properties": {
+        "id": 13621023163,
+        "name": "Gerbang Merah GBLA 2",
+        "shelter": "yes",
+        "pole": "totem",
+        "lit": null,
+        "bench": "yes",
+        "bin": null,
+        "routes": [],
+        "route_count": 0,
+        "category": "6_shelter_yes_pole_totem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7105907,
+          -6.9569784
+        ]
+      },
+      "properties": {
+        "id": 13621023169,
+        "name": "Gerbang Biru GBLA 1",
+        "shelter": "yes",
+        "pole": "totem",
+        "lit": null,
+        "bench": "yes",
+        "bin": null,
+        "routes": [],
+        "route_count": 0,
+        "category": "6_shelter_yes_pole_totem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7107862,
+          -6.9569173
+        ]
+      },
+      "properties": {
+        "id": 13621023171,
+        "name": "Gerbang Biru GBLA 2",
+        "shelter": "yes",
+        "pole": "totem",
+        "lit": null,
+        "bench": "yes",
+        "bin": null,
+        "routes": [],
+        "route_count": 0,
+        "category": "6_shelter_yes_pole_totem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7099149,
+          -6.9484268
+        ]
+      },
+      "properties": {
+        "id": 13621023181,
+        "name": "Stasiun Cimekar 1",
+        "shelter": "yes",
+        "pole": "totem",
+        "lit": null,
+        "bench": "yes",
+        "bin": null,
+        "routes": [],
+        "route_count": 0,
+        "category": "6_shelter_yes_pole_totem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5404719,
+          -7.0314744
+        ]
+      },
+      "properties": {
+        "id": 13623613977,
+        "name": "Pasar Ikan Modern",
+        "shelter": null,
+        "pole": "no",
+        "lit": null,
+        "bench": null,
+        "bin": null,
+        "routes": [
+          14365267,
+          18765871
         ],
         "route_count": 2,
         "category": "8_shelter_none_pole_none"
