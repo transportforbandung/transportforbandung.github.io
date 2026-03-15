@@ -200,8 +200,11 @@
         "alt_name": "Jalan Halimun",
         "avgspeed": "20",
         "highway": "residential",
+        "lane_markings": "yes",
+        "lanes": "1",
         "name": "Jalan Terusan Halimun",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -229,7 +232,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Malabar",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -278,6 +282,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Malabar",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -2472,6 +2477,7 @@
         "lanes": "2",
         "name": "Jalan Malabar",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -3557,6 +3563,10 @@
           [
             107.5983386,
             -6.9201181
+          ],
+          [
+            107.5983407,
+            -6.92014
           ],
           [
             107.5983508,

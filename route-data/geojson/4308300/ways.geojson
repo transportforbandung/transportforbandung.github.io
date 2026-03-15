@@ -160,8 +160,8 @@
             -6.9065285
           ],
           [
-            107.6044125,
-            -6.9064803
+            107.6044055,
+            -6.9062288
           ],
           [
             107.6044014,
@@ -3490,7 +3490,8 @@
         "name": "Jalan Sunda",
         "oneway": "yes",
         "ref": "1269",
-        "reg_ref": "22-10-1269"
+        "reg_ref": "22-10-1269",
+        "surface": "asphalt"
       }
     },
     {
@@ -3867,6 +3868,7 @@
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "1269",
         "reg_ref": "22-10-1269",
         "surface": "asphalt",

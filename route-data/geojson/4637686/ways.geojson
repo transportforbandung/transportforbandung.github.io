@@ -276,7 +276,8 @@
         "name": "Jalan Ciroyom",
         "oneway": "no",
         "ref": "1082",
-        "reg_ref": "22-10-1082"
+        "reg_ref": "22-10-1082",
+        "surface": "asphalt"
       }
     },
     {
@@ -406,6 +407,10 @@
           [
             107.637183,
             -6.8984713
+          ],
+          [
+            107.6373036,
+            -6.8984993
           ],
           [
             107.63734,
@@ -3057,10 +3062,13 @@
         "id": 555629087,
         "avgspeed": "15",
         "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Arjuna",
         "oneway": "yes",
         "ref": "1007",
-        "reg_ref": "22-10-1007"
+        "reg_ref": "22-10-1007",
+        "surface": "asphalt"
       }
     },
     {
@@ -4053,7 +4061,8 @@
         "name": "Jalan Ciroyom",
         "oneway": "yes",
         "ref": "1082",
-        "reg_ref": "22-10-1082"
+        "reg_ref": "22-10-1082",
+        "surface": "asphalt"
       }
     },
     {
@@ -4121,6 +4130,10 @@
             -6.8978256
           ],
           [
+            107.6345958,
+            -6.8978604
+          ],
+          [
             107.6349905,
             -6.8979512
           ],
@@ -4171,6 +4184,10 @@
           [
             107.6369418,
             -6.8984148
+          ],
+          [
+            107.6369918,
+            -6.8984267
           ],
           [
             107.6370818,
@@ -4355,6 +4372,8 @@
       "properties": {
         "id": 1220556373,
         "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Layang Ciroyom",
         "surface": "asphalt"
       }
@@ -4377,6 +4396,8 @@
       "properties": {
         "id": 1220556374,
         "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Layang Ciroyom",
         "surface": "asphalt"
       }
@@ -4452,6 +4473,8 @@
         "id": 1220556375,
         "bridge": "yes",
         "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "layer": "1",
         "name": "Jalan Layang Ciroyom",
         "surface": "asphalt"
@@ -4805,7 +4828,8 @@
         "name": "Jalan Ciroyom",
         "oneway": "yes",
         "ref": "1082",
-        "reg_ref": "22-10-1082"
+        "reg_ref": "22-10-1082",
+        "surface": "asphalt"
       }
     },
     {

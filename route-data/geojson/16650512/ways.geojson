@@ -962,7 +962,8 @@
         "highway": "secondary",
         "name": "Jalan Ciroyom",
         "ref": "1082",
-        "reg_ref": "22-10-1082"
+        "reg_ref": "22-10-1082",
+        "surface": "asphalt"
       }
     },
     {
@@ -2121,6 +2122,8 @@
       "properties": {
         "id": 1220556373,
         "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Layang Ciroyom",
         "surface": "asphalt"
       }
@@ -2143,6 +2146,8 @@
       "properties": {
         "id": 1220556374,
         "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Layang Ciroyom",
         "surface": "asphalt"
       }
@@ -2218,6 +2223,8 @@
         "id": 1220556375,
         "bridge": "yes",
         "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "layer": "1",
         "name": "Jalan Layang Ciroyom",
         "surface": "asphalt"

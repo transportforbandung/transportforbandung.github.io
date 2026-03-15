@@ -40,6 +40,10 @@
             -6.8984713
           ],
           [
+            107.6373036,
+            -6.8984993
+          ],
+          [
             107.63734,
             -6.8985077
           ],
@@ -1237,6 +1241,8 @@
       },
       "properties": {
         "id": 299086504,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Aceh",
@@ -1527,6 +1533,8 @@
       },
       "properties": {
         "id": 318486206,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Aceh",
@@ -2279,6 +2287,7 @@
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "2359",
         "reg_ref": "22-10-2359",
         "surface": "asphalt"
@@ -2479,10 +2488,13 @@
       },
       "properties": {
         "id": 739859983,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Menado",
         "oneway": "no",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -2719,6 +2731,10 @@
             -6.8978256
           ],
           [
+            107.6345958,
+            -6.8978604
+          ],
+          [
             107.6349905,
             -6.8979512
           ],
@@ -2769,6 +2785,10 @@
           [
             107.6369418,
             -6.8984148
+          ],
+          [
+            107.6369918,
+            -6.8984267
           ],
           [
             107.6370818,

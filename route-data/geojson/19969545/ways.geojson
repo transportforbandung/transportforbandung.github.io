@@ -85,7 +85,8 @@
         "name": "Jalan Ciroyom",
         "oneway": "no",
         "ref": "1082",
-        "reg_ref": "22-10-1082"
+        "reg_ref": "22-10-1082",
+        "surface": "asphalt"
       }
     },
     {
@@ -2038,7 +2039,8 @@
         "highway": "secondary",
         "name": "Jalan Ciroyom",
         "ref": "1082",
-        "reg_ref": "22-10-1082"
+        "reg_ref": "22-10-1082",
+        "surface": "asphalt"
       }
     },
     {
@@ -3050,8 +3052,8 @@
             -6.8717381
           ],
           [
-            107.539235,
-            -6.8718115
+            107.5392617,
+            -6.8718268
           ],
           [
             107.5393459,
@@ -3153,10 +3155,13 @@
         "id": 555629087,
         "avgspeed": "15",
         "highway": "secondary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Arjuna",
         "oneway": "yes",
         "ref": "1007",
-        "reg_ref": "22-10-1007"
+        "reg_ref": "22-10-1007",
+        "surface": "asphalt"
       }
     },
     {
@@ -8695,16 +8700,16 @@
             -6.8711086
           ],
           [
-            107.5381494,
-            -6.8711877
+            107.5381559,
+            -6.8711974
           ],
           [
             107.5382103,
-            -6.8712215
+            -6.8712287
           ],
           [
-            107.5383816,
-            -6.8713181
+            107.5383378,
+            -6.871298
           ],
           [
             107.538881,
@@ -9100,7 +9105,8 @@
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
         "ref": "11",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {

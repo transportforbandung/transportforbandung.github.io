@@ -7,8 +7,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5547435,
-            -6.8714669
+            107.5547301,
+            -6.8714476
+          ],
+          [
+            107.5547525,
+            -6.8714897
           ],
           [
             107.5550142,
@@ -50,8 +54,10 @@
         "lanes": "2",
         "name": "Jalan Raden Demang Hardjakusumah",
         "oneway": "no",
+        "smoothness": "good",
         "source": "Local knowledge",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -333,8 +339,8 @@
             -6.8750543
           ],
           [
-            107.558408,
-            -6.8751269
+            107.558414,
+            -6.8751316
           ],
           [
             107.558565,
@@ -369,7 +375,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Kecamatan",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "6"
       }
     },
     {
@@ -398,16 +405,16 @@
             -6.8610581
           ],
           [
-            107.5568632,
-            -6.8611899
+            107.5568847,
+            -6.8611393
           ],
           [
             107.5568285,
             -6.8612625
           ],
           [
-            107.5568145,
-            -6.8612917
+            107.5567635,
+            -6.8614062
           ],
           [
             107.5567199,
@@ -426,8 +433,8 @@
             -6.8620147
           ],
           [
-            107.5564615,
-            -6.8620693
+            107.5564588,
+            -6.862081
           ],
           [
             107.5564621,
@@ -510,7 +517,9 @@
       "properties": {
         "id": 299058972,
         "highway": "tertiary",
-        "name": "Jalan Sukarasa"
+        "lanes": "2",
+        "name": "Jalan Sukarasa",
+        "width": "4"
       }
     },
     {
@@ -551,15 +560,15 @@
             -6.8645592
           ],
           [
-            107.555514,
-            -6.864651
+            107.5555247,
+            -6.8646364
           ],
           [
-            107.5554684,
-            -6.8647556
+            107.5554778,
+            -6.8647343
           ],
           [
-            107.555447,
+            107.555445,
             -6.8648045
           ],
           [
@@ -667,7 +676,11 @@
       "properties": {
         "id": 299058973,
         "highway": "tertiary",
-        "name": "Jalan Ciawitali"
+        "lanes": "2",
+        "name": "Jalan Ciawitali",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "4"
       }
     },
     {
@@ -745,7 +758,8 @@
         "id": 299063952,
         "highway": "tertiary",
         "lanes": "2",
-        "name": "Jalan Permana Timur"
+        "name": "Jalan Permana Timur",
+        "width": "4"
       }
     },
     {
@@ -766,16 +780,12 @@
             -6.8570522
           ],
           [
-            107.5510618,
-            -6.8571403
-          ],
-          [
             107.551137,
             -6.8571696
           ],
           [
-            107.551189,
-            -6.8571865
+            107.5511905,
+            -6.8571902
           ],
           [
             107.5515158,
@@ -786,20 +796,8 @@
             -6.8573368
           ],
           [
-            107.5517777,
-            -6.8574263
-          ],
-          [
-            107.5520174,
-            -6.8575216
-          ],
-          [
-            107.5520486,
-            -6.8575303
-          ],
-          [
-            107.5521304,
-            -6.8575635
+            107.5520167,
+            -6.8575298
           ],
           [
             107.5523301,
@@ -814,8 +812,8 @@
             -6.8579094
           ],
           [
-            107.5532525,
-            -6.8580469
+            107.5532659,
+            -6.8580389
           ],
           [
             107.5534234,
@@ -834,7 +832,9 @@
       "properties": {
         "id": 306570250,
         "highway": "residential",
-        "name": "Jalan Permana Barat"
+        "lanes": "1",
+        "name": "Jalan Permana Barat",
+        "width": "3"
       }
     },
     {
@@ -1063,8 +1063,10 @@
         "layer": "1",
         "name": "Jalan Raden Demang Hardjakusumah",
         "oneway": "no",
+        "smoothness": "good",
         "source": "Local knowledge",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -1073,8 +1075,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5524511,
-            -6.8694376
+            107.5524506,
+            -6.8694403
           ],
           [
             107.5529227,
@@ -1100,8 +1102,10 @@
         "lanes": "2",
         "name": "Jalan Raden Demang Hardjakusumah",
         "oneway": "no",
+        "smoothness": "good",
         "source": "Local knowledge",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -1112,6 +1116,10 @@
           [
             107.5533431,
             -6.8667629
+          ],
+          [
+            107.5533694,
+            -6.8667769
           ],
           [
             107.5535852,
@@ -1129,7 +1137,8 @@
         "lanes": "2",
         "name": "Jalan Ciawitali",
         "oneway": "no",
-        "source": "Local knowledge"
+        "source": "Local knowledge",
+        "width": "4"
       }
     },
     {
@@ -1187,8 +1196,8 @@
             -6.8714146
           ],
           [
-            107.5547435,
-            -6.8714669
+            107.5547301,
+            -6.8714476
           ]
         ]
       },
@@ -1199,7 +1208,8 @@
         "name": "Jalan Raden Demang Hardjakusumah",
         "oneway": "no",
         "source": "Local knowledge",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -1231,7 +1241,9 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Jati Serut",
-        "surface": "asphalt"
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -1240,16 +1252,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5522635,
-            -6.8692593
+            107.5522443,
+            -6.8692927
           ],
           [
-            107.5523671,
-            -6.8693325
+            107.5523505,
+            -6.8693638
           ],
           [
-            107.5524511,
-            -6.8694376
+            107.5524506,
+            -6.8694403
           ]
         ]
       },
@@ -1284,8 +1296,8 @@
             -6.8573677
           ],
           [
-            107.5497324,
-            -6.8575668
+            107.5497283,
+            -6.8575746
           ],
           [
             107.5496732,
@@ -1336,24 +1348,16 @@
             -6.8598942
           ],
           [
-            107.5486094,
-            -6.8601163
+            107.548582,
+            -6.8601958
           ],
           [
-            107.5485672,
-            -6.8601978
+            107.5484795,
+            -6.8604429
           ],
           [
-            107.548504,
-            -6.8603363
-          ],
-          [
-            107.5484613,
-            -6.8604242
-          ],
-          [
-            107.5482928,
-            -6.8607804
+            107.548311,
+            -6.8607891
           ],
           [
             107.5481366,
@@ -1365,7 +1369,8 @@
         "id": 1111125520,
         "highway": "residential",
         "lanes": "2",
-        "name": "Jalan Kamarung"
+        "name": "Jalan Kamarung",
+        "width": "4"
       }
     },
     {
@@ -1374,12 +1379,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5516726,
-            -6.8688863
+            107.5516475,
+            -6.8689218
           ],
           [
-            107.5522635,
-            -6.8692593
+            107.5522443,
+            -6.8692927
           ]
         ]
       },
@@ -1389,7 +1394,8 @@
         "lanes": "2",
         "name": "Jalan Raden Demang Hardjakusumah",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "4"
       }
     },
     {
@@ -1448,14 +1454,6 @@
           [
             107.5518073,
             -6.8686925
-          ],
-          [
-            107.5517729,
-            -6.8687421
-          ],
-          [
-            107.5516726,
-            -6.8688863
           ]
         ]
       },
@@ -1467,7 +1465,8 @@
         "motorcycle": "yes",
         "name": "Jalan Margaluyu",
         "oneway": "no",
-        "source": "Local knowledge"
+        "source": "Local knowledge",
+        "width": "4"
       }
     },
     {
@@ -1718,8 +1717,8 @@
             -6.8612637
           ],
           [
-            107.5440503,
-            -6.8612584
+            107.5441063,
+            -6.8612576
           ],
           [
             107.544598,
@@ -1733,7 +1732,8 @@
         "lanes": "2",
         "name": "Jalan Sangkuriang",
         "oneway": "no",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -1873,7 +1873,8 @@
         "lanes": "2",
         "name": "Jalan Encep Kartawiria",
         "oneway": "no",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "6"
       }
     },
     {
@@ -2074,6 +2075,37 @@
         "name": "Bundaran Jati",
         "oneway": "yes",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5518073,
+            -6.8686925
+          ],
+          [
+            107.5517729,
+            -6.8687421
+          ],
+          [
+            107.5516475,
+            -6.8689218
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1485866423,
+        "alt_name": "Jalan Margamulya",
+        "highway": "secondary",
+        "lanes": "2",
+        "motorcycle": "yes",
+        "name": "Jalan Margaluyu",
+        "oneway": "no",
+        "source": "Local knowledge",
+        "width": "6"
       }
     }
   ]

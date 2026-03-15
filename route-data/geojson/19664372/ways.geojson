@@ -546,6 +546,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Malabar",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -659,6 +660,7 @@
         "id": 174269781,
         "highway": "tertiary",
         "name": "Jalan Menado",
+        "parking:both": "no",
         "ref": "2243",
         "reg_ref": "22-10-2243"
       }
@@ -698,6 +700,7 @@
         "lanes": "1",
         "name": "Jalan Embong",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -729,6 +732,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Gudang Utara",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -776,6 +780,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Menado",
+        "parking:both": "no",
         "ref": "2243",
         "reg_ref": "22-10-2243",
         "surface": "asphalt"
@@ -887,6 +892,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Menado",
+        "parking:both": "no",
         "ref": "2243",
         "reg_ref": "22-10-2243",
         "surface": "asphalt"
@@ -1070,6 +1076,9 @@
         "lanes": "2",
         "name": "Jalan Cisangkuy",
         "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "ref": "385",
         "surface": "asphalt"
       }
@@ -1135,6 +1144,9 @@
         "lane_markings": "no",
         "name": "Jalan Taman Cibeunying Utara",
         "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "surface": "asphalt",
         "width": "6"
       }
@@ -1750,6 +1762,9 @@
         "lanes:backward": "1",
         "lanes:forward": "3",
         "name": "Jalan Jenderal Gatot Subroto",
+        "parking:left": "no",
+        "parking:right": "on_kerb",
+        "parking:right:orientation": "perpendicular",
         "surface": "asphalt"
       }
     },
@@ -1837,6 +1852,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cihapit",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -2476,6 +2492,9 @@
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "surface": "asphalt",
         "turn:lanes": "through|through|through"
       }
@@ -2601,6 +2620,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -2823,6 +2843,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cihapit",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -2932,6 +2953,7 @@
         "lanes": "2",
         "name": "Jalan Bangka",
         "oneway": "no",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -3015,7 +3037,10 @@
       "properties": {
         "id": 330594999,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Menado",
+        "parking:both": "no",
         "ref": "2243",
         "reg_ref": "22-10-2243",
         "surface": "asphalt"
@@ -3438,6 +3463,7 @@
         "lanes": "2",
         "name": "Jalan Sumatra",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "2359",
         "reg_ref": "22-10-2359",
         "surface": "asphalt"
@@ -3465,7 +3491,8 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Bangka",
-        "oneway": "no"
+        "oneway": "no",
+        "parking:both": "no"
       }
     },
     {
@@ -3488,7 +3515,9 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Bangka",
-        "oneway": "no"
+        "oneway": "no",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -3531,6 +3560,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cihapit",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -3585,6 +3615,7 @@
         "lanes": "2",
         "name": "Jalan Malabar",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -3617,6 +3648,7 @@
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -3766,6 +3798,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -3786,10 +3819,13 @@
       },
       "properties": {
         "id": 739859983,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Menado",
         "oneway": "no",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -3859,6 +3895,7 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
+        "surface": "asphalt",
         "turn": "sharp_left"
       }
     },
@@ -3885,6 +3922,9 @@
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "ref": "378",
         "surface": "asphalt",
         "turn:lanes": "left|through|through|right"
@@ -4180,6 +4220,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Naripan",
+        "parking:both": "lane",
+        "parking:both:orientation": "parallel",
         "surface": "asphalt"
       }
     },
@@ -4401,6 +4443,9 @@
         "lanes": "1",
         "name": "Jalan Cihapit",
         "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "surface": "asphalt"
       }
     },
@@ -4622,6 +4667,7 @@
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "1269",
         "reg_ref": "22-10-1269",
         "surface": "asphalt",
@@ -4900,6 +4946,9 @@
         "lanes": "3",
         "name": "Jalan Veteran",
         "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "surface": "asphalt",
         "turn:lanes": "left|left;right|right"
       }
@@ -5088,7 +5137,10 @@
       "properties": {
         "id": 1227226590,
         "highway": "tertiary_link",
-        "oneway": "yes"
+        "lane_markings": "yes",
+        "lanes": "1",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -5190,6 +5242,9 @@
         "lanes": "3",
         "name": "Jalan Veteran",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "surface": "asphalt"
       }
     },
@@ -5349,6 +5404,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Gudang Utara",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -5397,6 +5453,9 @@
         "lanes": "2",
         "name": "Jalan Cilaki",
         "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "ref": "385",
         "surface": "asphalt"
       }
@@ -5438,6 +5497,9 @@
         "lanes": "2",
         "name": "Jalan Cilaki",
         "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "ref": "385",
         "surface": "asphalt"
       }
@@ -6312,6 +6374,7 @@
         "motor_vehicle": "yes",
         "name": "Jalan Jawa",
         "oneway": "no",
+        "parking:both": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "width": "6 m"
@@ -6355,6 +6418,7 @@
         "motor_vehicle": "yes",
         "name": "Jalan Jawa",
         "oneway": "no",
+        "parking:both": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "width": "6 m"
@@ -6406,6 +6470,7 @@
         "motor_vehicle": "yes",
         "name": "Jalan Jawa",
         "oneway": "no",
+        "parking:both": "no",
         "sidewalk": "both",
         "surface": "asphalt",
         "width": "6 m"
@@ -6453,6 +6518,9 @@
         "motor_vehicle": "yes",
         "name": "Jalan Jawa",
         "oneway": "no",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "sidewalk": "both",
         "surface": "asphalt",
         "width": "6 m"

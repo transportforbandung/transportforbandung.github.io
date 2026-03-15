@@ -811,6 +811,8 @@
       },
       "properties": {
         "id": 299086504,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Aceh",
@@ -1390,6 +1392,8 @@
       },
       "properties": {
         "id": 318486206,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Aceh",
@@ -2574,10 +2578,13 @@
       },
       "properties": {
         "id": 739859983,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Menado",
         "oneway": "no",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -2693,7 +2700,8 @@
         "name": "Jalan Sunda",
         "oneway": "yes",
         "ref": "1269",
-        "reg_ref": "22-10-1269"
+        "reg_ref": "22-10-1269",
+        "surface": "asphalt"
       }
     },
     {
@@ -2906,6 +2914,7 @@
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "1269",
         "reg_ref": "22-10-1269",
         "surface": "asphalt",

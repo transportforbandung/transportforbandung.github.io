@@ -2528,6 +2528,9 @@
         "lanes": "3",
         "name": "Jalan Veteran",
         "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "surface": "asphalt",
         "turn:lanes": "left|left;right|right"
       }
@@ -2616,6 +2619,9 @@
         "lanes": "3",
         "name": "Jalan Veteran",
         "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
         "surface": "asphalt"
       }
     },

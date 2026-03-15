@@ -593,8 +593,11 @@
         "alt_name": "Jalan Halimun",
         "avgspeed": "20",
         "highway": "residential",
+        "lane_markings": "yes",
+        "lanes": "1",
         "name": "Jalan Terusan Halimun",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -622,7 +625,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Malabar",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -672,6 +676,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Malabar",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -747,6 +752,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Menado",
+        "parking:both": "no",
         "ref": "2243",
         "reg_ref": "22-10-2243",
         "surface": "asphalt"
@@ -843,6 +849,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Menado",
+        "parking:both": "no",
         "ref": "2243",
         "reg_ref": "22-10-2243",
         "surface": "asphalt"
@@ -1610,6 +1617,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cihapit",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -2000,6 +2008,9 @@
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "surface": "asphalt",
         "turn:lanes": "through|through|through"
       }
@@ -2216,6 +2227,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cihapit",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -2759,6 +2771,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cihapit",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -2903,6 +2916,7 @@
         "lanes": "2",
         "name": "Jalan Malabar",
         "oneway": "yes",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -2923,10 +2937,13 @@
       },
       "properties": {
         "id": 739859983,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Menado",
         "oneway": "no",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -3087,6 +3104,7 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
+        "surface": "asphalt",
         "turn": "sharp_right"
       }
     },
@@ -3113,6 +3131,9 @@
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "ref": "378",
         "surface": "asphalt",
         "turn:lanes": "left|through|through|right"
@@ -4245,6 +4266,7 @@
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "1269",
         "reg_ref": "22-10-1269",
         "surface": "asphalt",

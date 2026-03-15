@@ -3842,6 +3842,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Naripan",
+        "parking:both": "lane",
+        "parking:both:orientation": "parallel",
         "surface": "asphalt"
       }
     },
@@ -5353,6 +5355,7 @@
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
+        "parking:both": "no",
         "ref": "1269",
         "reg_ref": "22-10-1269",
         "surface": "asphalt",
@@ -5598,6 +5601,9 @@
         "lanes": "3",
         "name": "Jalan Veteran",
         "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "surface": "asphalt",
         "turn:lanes": "left|left;right|right"
       }

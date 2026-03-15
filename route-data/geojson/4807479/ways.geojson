@@ -1300,18 +1300,6 @@
           [
             107.5408746,
             -7.0318558
-          ],
-          [
-            107.5409402,
-            -7.0315904
-          ],
-          [
-            107.5410099,
-            -7.0313548
-          ],
-          [
-            107.5412032,
-            -7.0307741
           ]
         ]
       },
@@ -1363,6 +1351,88 @@
       },
       "properties": {
         "id": 1365080707,
+        "alt_name": "Jalan Cingcin-Parungserab",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Gading Tutuka",
+        "oneway": "yes",
+        "ref": "552",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5408746,
+            -7.0318558
+          ],
+          [
+            107.5409402,
+            -7.0315904
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1486127347,
+        "alt_name": "Jalan Cingcin-Parungserab",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Gading Tutuka",
+        "oneway": "yes",
+        "ref": "552",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5409402,
+            -7.0315904
+          ],
+          [
+            107.5410099,
+            -7.0313548
+          ],
+          [
+            107.541164,
+            -7.030892
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1486127348,
+        "alt_name": "Jalan Cingcin-Parungserab",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Gading Tutuka",
+        "oneway": "yes",
+        "ref": "552",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.541164,
+            -7.030892
+          ],
+          [
+            107.5412032,
+            -7.0307741
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1486127349,
         "alt_name": "Jalan Cingcin-Parungserab",
         "highway": "secondary",
         "lanes": "2",
