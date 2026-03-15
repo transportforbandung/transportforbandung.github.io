@@ -2435,7 +2435,7 @@
         "pole": "no",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4283719,
           4292372,
@@ -3201,15 +3201,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6043586,
-          -6.9065179
+          107.6043014,
+          -6.9062374
         ]
       },
       "properties": {
         "id": 3376669070,
         "name": "STHB",
         "shelter": "no",
-        "pole": "flag",
+        "pole": "flag;traffic_sign",
         "lit": "yes",
         "bench": "no",
         "bin": "no",
@@ -3227,7 +3227,7 @@
           18771222
         ],
         "route_count": 11,
-        "category": "4_shelter_none_pole_flag"
+        "category": "2_shelter_none_pole_sign"
       }
     },
     {
@@ -6985,8 +6985,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6692718,
-          -6.9388666
+          107.6693348,
+          -6.9388706
         ]
       },
       "properties": {
@@ -8331,8 +8331,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.4782629,
-          -6.8648004
+          107.4778403,
+          -6.864836
         ]
       },
       "properties": {
@@ -10675,7 +10675,7 @@
         "name": "Superindo Dago",
         "shelter": "no",
         "pole": "flag;traffic_sign",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -10700,7 +10700,7 @@
         "name": "Seberang Superindo Dago",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
         "bin": "no",
         "routes": [
@@ -10744,7 +10744,7 @@
       },
       "properties": {
         "id": 11132622842,
-        "name": "Barat Simpang Gedebage",
+        "name": "Simpang Gedebage",
         "shelter": "no",
         "pole": "totem;traffic_sign",
         "lit": null,
@@ -15244,7 +15244,7 @@
       },
       "properties": {
         "id": 11883812970,
-        "name": "SMKN 6 Bandung",
+        "name": "Ranca Mekar",
         "shelter": "yes",
         "pole": "no",
         "lit": null,
@@ -15274,7 +15274,7 @@
       },
       "properties": {
         "id": 11883812971,
-        "name": "Aria Graha",
+        "name": "Komplek Aria Graha",
         "shelter": "no",
         "pole": "totem",
         "lit": null,
@@ -15297,13 +15297,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6665641,
-          -6.9390762
+          107.6666635,
+          -6.9390576
         ]
       },
       "properties": {
         "id": 11883812973,
-        "name": "Metro",
+        "name": "Metro Soekarno Hatta",
         "shelter": "yes",
         "pole": "traffic_sign",
         "lit": null,
@@ -18694,13 +18694,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6775348,
-          -6.9379414
+          107.677595,
+          -6.9379563
         ]
       },
       "properties": {
         "id": 12806868617,
-        "name": "Cisaranten Kulon",
+        "name": "Guruminda",
         "shelter": "yes",
         "pole": "no",
         "lit": null,
@@ -30421,8 +30421,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.5404719,
-          -7.0314744
+          107.5406,
+          -7.0307501
         ]
       },
       "properties": {
@@ -30438,6 +30438,50 @@
           18765871
         ],
         "route_count": 2,
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6857831,
+          -6.9373619
+        ]
+      },
+      "properties": {
+        "id": 13648280514,
+        "name": "Damri Bandung",
+        "shelter": null,
+        "pole": null,
+        "lit": null,
+        "bench": null,
+        "bin": null,
+        "routes": [],
+        "route_count": 0,
+        "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6859132,
+          -6.9376858
+        ]
+      },
+      "properties": {
+        "id": 13648280516,
+        "name": "Dinas Koperasi Provinsi Jawa Barat",
+        "shelter": null,
+        "pole": null,
+        "lit": null,
+        "bench": null,
+        "bin": null,
+        "routes": [],
+        "route_count": 0,
         "category": "8_shelter_none_pole_none"
       }
     }
