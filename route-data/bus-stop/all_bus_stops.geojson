@@ -8331,8 +8331,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.4778403,
-          -6.864836
+          107.4782629,
+          -6.8648004
         ]
       },
       "properties": {
@@ -11868,7 +11868,7 @@
         "shelter": "yes",
         "pole": "traffic_sign",
         "lit": null,
-        "bench": null,
+        "bench": "yes",
         "bin": null,
         "routes": [],
         "route_count": 0,
@@ -12733,9 +12733,9 @@
         "name": "Kantor Pos Kosambi",
         "shelter": "no",
         "pole": "traffic_sign",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4433069,
           15520324,
@@ -12785,9 +12785,9 @@
         "name": "Katapang Kaler",
         "shelter": "no",
         "pole": "totem",
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           16644061,
           17329177,
@@ -12812,9 +12812,9 @@
         "name": "Katapang Kaler 1",
         "shelter": "yes",
         "pole": "totem",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4433069,
           15520324,
@@ -17555,7 +17555,7 @@
         "pole": "no",
         "lit": null,
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4283719,
           4308300,
@@ -20193,7 +20193,7 @@
         "pole": "totem",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4308300,
           4425938,
@@ -20520,7 +20520,7 @@
         "pole": "totem",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4291189,
           4294473,
@@ -21541,7 +21541,7 @@
         "pole": "no",
         "lit": null,
         "bench": "yes",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4635842,
           4642211
@@ -23730,7 +23730,7 @@
         "pole": "totem",
         "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4433069,
           15520324,
@@ -25226,9 +25226,9 @@
         "name": "Simpang Naripan Sunda",
         "shelter": "no",
         "pole": null,
-        "lit": null,
-        "bench": null,
-        "bin": null,
+        "lit": "no",
+        "bench": "no",
+        "bin": "no",
         "routes": [
           4283719,
           4308300,
