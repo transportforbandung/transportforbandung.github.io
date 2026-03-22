@@ -453,6 +453,8 @@
         "id": 174269829,
         "avgspeed": "20",
         "highway": "residential",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Lombok",
         "oneway": "yes",
         "surface": "asphalt"
@@ -532,6 +534,8 @@
       "properties": {
         "id": 175069456,
         "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "foot": "yes",
         "highway": "tertiary",
         "lanes": "2",
@@ -1051,6 +1055,7 @@
       "properties": {
         "id": 318052005,
         "avgspeed": "20",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Belitung",

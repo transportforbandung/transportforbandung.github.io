@@ -231,6 +231,7 @@
       "properties": {
         "id": 4279872,
         "avgspeed": "20",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "lit": "no",
@@ -317,6 +318,7 @@
       "properties": {
         "id": 4279885,
         "avgspeed": "15",
+        "cycleway:both": "no",
         "highway": "residential",
         "lanes": "1",
         "name": "Jalan Cibeunying Selatan",
@@ -372,7 +374,12 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Malabar",
-        "oneway": "yes"
+        "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -749,6 +756,7 @@
       },
       "properties": {
         "id": 174269806,
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Menado",
@@ -846,6 +854,7 @@
       },
       "properties": {
         "id": 174269822,
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Menado",
@@ -1078,6 +1087,8 @@
       "properties": {
         "id": 175069456,
         "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "foot": "yes",
         "highway": "tertiary",
         "lanes": "2",
@@ -1614,6 +1625,7 @@
       },
       "properties": {
         "id": 299086505,
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cihapit",
@@ -1762,6 +1774,7 @@
       "properties": {
         "id": 317743188,
         "avgspeed": "20",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Belitung",
@@ -1847,6 +1860,7 @@
       "properties": {
         "id": 318052005,
         "avgspeed": "20",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Belitung",
@@ -1895,6 +1909,7 @@
         "id": 318052006,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "primary",
         "lanes": "4",
@@ -1935,6 +1950,8 @@
       "properties": {
         "id": 318478994,
         "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "foot": "yes",
         "highway": "tertiary",
         "lanes": "2",
@@ -1972,6 +1989,7 @@
       "properties": {
         "id": 318486207,
         "avgspeed": "20",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Belitung",
@@ -2173,6 +2191,7 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "yes",
         "sidewalk:right": "separate",
@@ -2224,6 +2243,7 @@
       },
       "properties": {
         "id": 320424104,
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cihapit",
@@ -2768,6 +2788,7 @@
       },
       "properties": {
         "id": 556906862,
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Cihapit",
@@ -3203,6 +3224,7 @@
         "id": 786140042,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway:both": "no",
         "foot": "yes",
         "highway": "primary",
         "lanes": "4",
@@ -4025,6 +4047,7 @@
       "properties": {
         "id": 1111831569,
         "avgspeed": "20",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "1",
         "name": "Jalan Cilaki",
@@ -4237,6 +4260,7 @@
         "lane_markings": "no",
         "name": "Jalan Trunojoyo",
         "oneway": "no",
+        "parking:both": "no",
         "ref": "2409",
         "reg_ref": "22-10-2409",
         "sidewalk:both": "separate",
@@ -4639,6 +4663,7 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "yes",
         "sidewalk:right": "separate",
@@ -4668,6 +4693,7 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "yes",
         "sidewalk:right": "separate",
@@ -4697,6 +4723,7 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "parking:both": "no",
         "ref": "381",
         "surface": "asphalt"
       }
