@@ -6,14 +6,12 @@ const { mkdirp } = require('mkdirp');
 // Enhanced file loading with validation
 function loadRouteData() {
   const routesPath = path.join(__dirname, '..', 'route-data', 'routes.json');
-  
   try {
     const fileContent = fs.readFileSync(routesPath, 'utf-8');
     const routesData = JSON.parse(fileContent);
 
     // Extract routes from categories
     const allRoutes = routesData.categories.flatMap(category => category.routes);
-
     if (!Array.isArray(allRoutes)) {
       throw new Error('No routes found in categories array');
     }
@@ -50,14 +48,12 @@ console.log(`Loaded ${uniqueRoutes.length} valid routes`);
 // Overpass API query with retry logic
 async function overpassQuery(query, retries = 3, delay = 2000) {
   const url = `https://overpass-api.de/api/interpreter?data=${encodeURIComponent(query)}`;
-  
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
       if (attempt > 1) {
         console.log(`Retrying query (attempt ${attempt}/${retries})...`);
         await new Promise(resolve => setTimeout(resolve, delay * (attempt - 1)));
       }
-
       const response = await axios.get(url, { timeout: 15000 });
       return response.data.elements;
     } catch (error) {
@@ -68,10 +64,27 @@ async function overpassQuery(query, retries = 3, delay = 2000) {
   }
 }
 
-// Process OSM ways into GeoJSON
-function processWays(elements) {
-  const features = elements
-    .filter(el => el.type === 'way')
+// Process OSM ways into GeoJSON, preserving relation member order.
+//
+// Requires two inputs:
+//   orderedIds — array of way IDs in relation member sequence (from Query 1)
+//   wayElements — array of way elements with full tags + geometry (from Query 2)
+//
+// Ways that appear in the relation but are missing from wayElements (e.g. ways
+// with no geometry returned by Overpass) are silently skipped so the output
+// doesn't contain null features.
+function processWays(orderedIds, wayElements) {
+  // Build a lookup map: way ID → element
+  const wayMap = new Map(
+    wayElements
+      .filter(el => el.type === 'way')
+      .map(way => [way.id, way])
+  );
+
+  // Re-order according to relation member sequence, drop any missing ways
+  const features = orderedIds
+    .map(id => wayMap.get(id))
+    .filter(Boolean)
     .map(way => ({
       type: 'Feature',
       geometry: {
@@ -84,13 +97,10 @@ function processWays(elements) {
       }
     }));
 
-  return {
-    type: 'FeatureCollection',
-    features
-  };
+  return { type: 'FeatureCollection', features };
 }
 
-// Process OSM nodes into GeoJSON
+// Process OSM nodes into GeoJSON (unchanged)
 function processNodes(elements) {
   const features = elements
     .filter(el => el.type === 'node')
@@ -106,41 +116,65 @@ function processNodes(elements) {
       }
     }));
 
-  return {
-    type: 'FeatureCollection',
-    features
-  };
+  return { type: 'FeatureCollection', features };
 }
 
 // Process a single route
 async function processRoute(route) {
   const { relationId, type } = route;
   const dir = path.join(__dirname, '..', 'route-data', 'geojson', relationId);
-  
+
   try {
     await mkdirp(dir);
     console.log(`Processing route ${relationId} (${type})...`);
 
-    // Process ways data
-    const waysQuery = `[out:json]; relation(${relationId}); way(r); out geom;`;
-    const waysData = await overpassQuery(waysQuery);
-    const waysGeoJSON = processWays(waysData);
+    // ── Query 1: fetch relation member order (no geometry needed) ──────────
+    // `out;` returns the relation element only, including its ordered members
+    // array, without downloading way/node geometry (fast, lightweight).
+    const relationQuery = `[out:json]; relation(${relationId}); out;`;
+    const relationElements = await overpassQuery(relationQuery);
+
+    const relation = relationElements.find(el => el.type === 'relation');
+    if (!relation) {
+      throw new Error(`Relation ${relationId} not found in Overpass response`);
+    }
+
+    // Extract way IDs in relation member order, filtering out non-way members
+    // (platforms, stop_positions, etc.) which have roles like "platform" or
+    // "stop". Ways used as route paths typically have role "" or "route".
+    const orderedWayIds = relation.members
+      .filter(m => m.type === 'way' && m.role !== 'platform')
+      .map(m => m.ref);
+
+    console.log(`  → ${orderedWayIds.length} ordered way IDs found for relation ${relationId}`);
+
+    // ── Query 2: fetch all ways with full tags + geometry ──────────────────
+    // `way(r)` returns all way members; `out geom tags;` includes both
+    // coordinates for every node and the full OSM tag set.
+    const waysQuery = `[out:json]; relation(${relationId}); way(r); out geom tags;`;
+    const waysElements = await overpassQuery(waysQuery);
+
+    const waysGeoJSON = processWays(orderedWayIds, waysElements);
+
     fs.writeFileSync(
       path.join(dir, 'ways.geojson'),
-      JSON.stringify(waysGeoJSON, null, 2) // Pretty print JSON
+      JSON.stringify(waysGeoJSON, null, 2)
     );
 
-    // Process stops data based on route type
+    console.log(`  → ${waysGeoJSON.features.length} ways written to ways.geojson`);
+
+    // ── Stops (unchanged logic) ────────────────────────────────────────────
     const stopsQuery = type === 'ways_with_points'
       ? `[out:json];relation(${relationId});node(r:"stop");out geom;relation(${relationId});node(r:"stop_entry_only");out geom;relation(${relationId});node(r:"stop_exit_only");out geom;`
       : `[out:json];relation(${relationId});node(r:"stop_entry_only");out geom;relation(${relationId});node(r:"stop_exit_only");out geom;`;
-    
+
     const stopsData = await overpassQuery(stopsQuery);
     const stopsGeoJSON = processNodes(stopsData);
+
     const fileName = type === 'ways_with_points' ? 'stops.geojson' : 'endstops.geojson';
     fs.writeFileSync(
       path.join(dir, fileName),
-      JSON.stringify(stopsGeoJSON, null, 2) // Pretty print JSON
+      JSON.stringify(stopsGeoJSON, null, 2)
     );
 
     console.log(`Successfully processed route ${relationId}`);
@@ -171,7 +205,6 @@ async function processRoute(route) {
         }
       }
     }
-
     console.log('All routes processed successfully!');
   } catch (error) {
     console.error('Fatal error in main execution:', error.message);
