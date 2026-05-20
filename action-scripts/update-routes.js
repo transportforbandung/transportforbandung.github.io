@@ -54,7 +54,7 @@ async function overpassQuery(query, retries = 3, delay = 2000) {
         console.log(`Retrying query (attempt ${attempt}/${retries})...`);
         await new Promise(resolve => setTimeout(resolve, delay * (attempt - 1)));
       }
-      const response = await axios.get(url, { timeout: 15000 });
+      const response = await axios.get(url, { timeout: 30000 });
       return response.data.elements;
     } catch (error) {
       if (attempt === retries) {
@@ -66,22 +66,25 @@ async function overpassQuery(query, retries = 3, delay = 2000) {
 
 // Process OSM ways into GeoJSON, preserving relation member order.
 //
-// Requires two inputs:
-//   orderedIds — array of way IDs in relation member sequence (from Query 1)
-//   wayElements — array of way elements with full tags + geometry (from Query 2)
-//
-// Ways that appear in the relation but are missing from wayElements (e.g. ways
-// with no geometry returned by Overpass) are silently skipped so the output
-// doesn't contain null features.
-function processWays(orderedIds, wayElements) {
-  // Build a lookup map: way ID → element
+// Accepts the full combined elements array (relation + ways mixed together).
+// Extracts the relation's ordered member list, then maps ways in that sequence.
+// Ways missing from the geometry response are silently skipped.
+function processWays(elements) {
+  const relation = elements.find(el => el.type === 'relation');
+  if (!relation) return { type: 'FeatureCollection', features: [] };
+
+  // Ordered way IDs from relation members, excluding platform ways
+  const orderedIds = relation.members
+    .filter(m => m.type === 'way' && m.role !== 'platform')
+    .map(m => m.ref);
+
+  // Build lookup: way ID → element (with geometry + tags)
   const wayMap = new Map(
-    wayElements
+    elements
       .filter(el => el.type === 'way')
       .map(way => [way.id, way])
   );
 
-  // Re-order according to relation member sequence, drop any missing ways
   const features = orderedIds
     .map(id => wayMap.get(id))
     .filter(Boolean)
@@ -128,42 +131,34 @@ async function processRoute(route) {
     await mkdirp(dir);
     console.log(`Processing route ${relationId} (${type})...`);
 
-    // ── Query 1: fetch relation member order (no geometry needed) ──────────
-    // `out;` returns the relation element only, including its ordered members
-    // array, without downloading way/node geometry (fast, lightweight).
-    const relationQuery = `[out:json]; relation(${relationId}); out;`;
-    const relationElements = await overpassQuery(relationQuery);
+    // Polite delay between routes to avoid Overpass rate limiting.
+    // 283 routes × 1s = ~5 min total, well within GitHub Actions limits.
+    await new Promise(resolve => setTimeout(resolve, 1000));
 
-    const relation = relationElements.find(el => el.type === 'relation');
-    if (!relation) {
-      throw new Error(`Relation ${relationId} not found in Overpass response`);
-    }
+    // ── Combined query: relation (for member order) + ways (geometry + tags) ──
+    // Both statements run in a single Overpass request. The relation element
+    // carries the ordered members array; way elements carry full geometry and
+    // tags. processWays() joins them internally.
+    const waysQuery = `[out:json];
+relation(${relationId});
+out;
+way(r);
+out geom tags;`;
 
-    // Extract way IDs in relation member order, filtering out non-way members
-    // (platforms, stop_positions, etc.) which have roles like "platform" or
-    // "stop". Ways used as route paths typically have role "" or "route".
-    const orderedWayIds = relation.members
-      .filter(m => m.type === 'way' && m.role !== 'platform')
-      .map(m => m.ref);
-
-    console.log(`  → ${orderedWayIds.length} ordered way IDs found for relation ${relationId}`);
-
-    // ── Query 2: fetch all ways with full tags + geometry ──────────────────
-    // `way(r)` returns all way members; `out geom tags;` includes both
-    // coordinates for every node and the full OSM tag set.
-    const waysQuery = `[out:json]; relation(${relationId}); way(r); out geom tags;`;
     const waysElements = await overpassQuery(waysQuery);
+    const waysGeoJSON = processWays(waysElements);
 
-    const waysGeoJSON = processWays(orderedWayIds, waysElements);
+    const wayCount = waysGeoJSON.features.length;
+    const relation = waysElements.find(el => el.type === 'relation');
+    const orderedCount = (relation?.members || []).filter(m => m.type === 'way' && m.role !== 'platform').length;
+    console.log(`  → ${wayCount}/${orderedCount} ordered ways written to ways.geojson`);
 
     fs.writeFileSync(
       path.join(dir, 'ways.geojson'),
       JSON.stringify(waysGeoJSON, null, 2)
     );
 
-    console.log(`  → ${waysGeoJSON.features.length} ways written to ways.geojson`);
-
-    // ── Stops (unchanged logic) ────────────────────────────────────────────
+    // ── Stops ──────────────────────────────────────────────────────────────
     const stopsQuery = type === 'ways_with_points'
       ? `[out:json];relation(${relationId});node(r:"stop");out geom;relation(${relationId});node(r:"stop_entry_only");out geom;relation(${relationId});node(r:"stop_exit_only");out geom;`
       : `[out:json];relation(${relationId});node(r:"stop_entry_only");out geom;relation(${relationId});node(r:"stop_exit_only");out geom;`;
@@ -177,10 +172,11 @@ async function processRoute(route) {
       JSON.stringify(stopsGeoJSON, null, 2)
     );
 
+    console.log(`  → ${stopsGeoJSON.features.length} stops written to ${fileName}`);
     console.log(`Successfully processed route ${relationId}`);
   } catch (error) {
     console.error(`Failed to process route ${relationId}:`, error.message);
-    throw error; // Re-throw for retry logic
+    throw error;
   }
 }
 
