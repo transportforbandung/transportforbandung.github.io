@@ -6,12 +6,14 @@ const { mkdirp } = require('mkdirp');
 // Enhanced file loading with validation
 function loadRouteData() {
   const routesPath = path.join(__dirname, '..', 'route-data', 'routes.json');
+  
   try {
     const fileContent = fs.readFileSync(routesPath, 'utf-8');
     const routesData = JSON.parse(fileContent);
 
     // Extract routes from categories
     const allRoutes = routesData.categories.flatMap(category => category.routes);
+
     if (!Array.isArray(allRoutes)) {
       throw new Error('No routes found in categories array');
     }
@@ -47,14 +49,16 @@ console.log(`Loaded ${uniqueRoutes.length} valid routes`);
 
 // Overpass API query with retry logic
 async function overpassQuery(query, retries = 3, delay = 2000) {
-  const url = `https://overpass.private.coffee/api/interpreter?data=${encodeURIComponent(query)}`;
+  const url = `https://overpass-api.de/api/interpreter?data=${encodeURIComponent(query)}`;
+  
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
       if (attempt > 1) {
         console.log(`Retrying query (attempt ${attempt}/${retries})...`);
         await new Promise(resolve => setTimeout(resolve, delay * (attempt - 1)));
       }
-      const response = await axios.get(url, { timeout: 30000 });
+
+      const response = await axios.get(url, { timeout: 15000 });
       return response.data.elements;
     } catch (error) {
       if (attempt === retries) {
@@ -64,30 +68,10 @@ async function overpassQuery(query, retries = 3, delay = 2000) {
   }
 }
 
-// Process OSM ways into GeoJSON, preserving relation member order.
-//
-// Accepts the full combined elements array (relation + ways mixed together).
-// Extracts the relation's ordered member list, then maps ways in that sequence.
-// Ways missing from the geometry response are silently skipped.
+// Process OSM ways into GeoJSON
 function processWays(elements) {
-  const relation = elements.find(el => el.type === 'relation');
-  if (!relation) return { type: 'FeatureCollection', features: [] };
-
-  // Ordered way IDs from relation members, excluding platform ways
-  const orderedIds = relation.members
-    .filter(m => m.type === 'way' && m.role !== 'platform')
-    .map(m => m.ref);
-
-  // Build lookup: way ID → element (with geometry + tags)
-  const wayMap = new Map(
-    elements
-      .filter(el => el.type === 'way')
-      .map(way => [way.id, way])
-  );
-
-  const features = orderedIds
-    .map(id => wayMap.get(id))
-    .filter(Boolean)
+  const features = elements
+    .filter(el => el.type === 'way')
     .map(way => ({
       type: 'Feature',
       geometry: {
@@ -100,10 +84,13 @@ function processWays(elements) {
       }
     }));
 
-  return { type: 'FeatureCollection', features };
+  return {
+    type: 'FeatureCollection',
+    features
+  };
 }
 
-// Process OSM nodes into GeoJSON (unchanged)
+// Process OSM nodes into GeoJSON
 function processNodes(elements) {
   const features = elements
     .filter(el => el.type === 'node')
@@ -119,64 +106,47 @@ function processNodes(elements) {
       }
     }));
 
-  return { type: 'FeatureCollection', features };
+  return {
+    type: 'FeatureCollection',
+    features
+  };
 }
 
 // Process a single route
 async function processRoute(route) {
   const { relationId, type } = route;
   const dir = path.join(__dirname, '..', 'route-data', 'geojson', relationId);
-
+  
   try {
     await mkdirp(dir);
     console.log(`Processing route ${relationId} (${type})...`);
 
-    // Polite delay between routes to avoid Overpass rate limiting.
-    // 283 routes × 1s = ~5 min total, well within GitHub Actions limits.
-    await new Promise(resolve => setTimeout(resolve, 1000));
-
-    // ── Combined query: relation (for member order) + ways (geometry + tags) ──
-    // Both statements run in a single Overpass request. The relation element
-    // carries the ordered members array; way elements carry full geometry and
-    // tags. processWays() joins them internally.
-    const waysQuery = `[out:json];
-relation(${relationId});
-out;
-way(r);
-out geom tags;`;
-
-    const waysElements = await overpassQuery(waysQuery);
-    const waysGeoJSON = processWays(waysElements);
-
-    const wayCount = waysGeoJSON.features.length;
-    const relation = waysElements.find(el => el.type === 'relation');
-    const orderedCount = (relation?.members || []).filter(m => m.type === 'way' && m.role !== 'platform').length;
-    console.log(`  → ${wayCount}/${orderedCount} ordered ways written to ways.geojson`);
-
+    // Process ways data
+    const waysQuery = `[out:json]; relation(${relationId}); way(r); out geom;`;
+    const waysData = await overpassQuery(waysQuery);
+    const waysGeoJSON = processWays(waysData);
     fs.writeFileSync(
       path.join(dir, 'ways.geojson'),
-      JSON.stringify(waysGeoJSON, null, 2)
+      JSON.stringify(waysGeoJSON, null, 2) // Pretty print JSON
     );
 
-    // ── Stops ──────────────────────────────────────────────────────────────
+    // Process stops data based on route type
     const stopsQuery = type === 'ways_with_points'
       ? `[out:json];relation(${relationId});node(r:"stop");out geom;relation(${relationId});node(r:"stop_entry_only");out geom;relation(${relationId});node(r:"stop_exit_only");out geom;`
       : `[out:json];relation(${relationId});node(r:"stop_entry_only");out geom;relation(${relationId});node(r:"stop_exit_only");out geom;`;
-
+    
     const stopsData = await overpassQuery(stopsQuery);
     const stopsGeoJSON = processNodes(stopsData);
-
     const fileName = type === 'ways_with_points' ? 'stops.geojson' : 'endstops.geojson';
     fs.writeFileSync(
       path.join(dir, fileName),
-      JSON.stringify(stopsGeoJSON, null, 2)
+      JSON.stringify(stopsGeoJSON, null, 2) // Pretty print JSON
     );
 
-    console.log(`  → ${stopsGeoJSON.features.length} stops written to ${fileName}`);
     console.log(`Successfully processed route ${relationId}`);
   } catch (error) {
     console.error(`Failed to process route ${relationId}:`, error.message);
-    throw error;
+    throw error; // Re-throw for retry logic
   }
 }
 
@@ -201,6 +171,7 @@ out geom tags;`;
         }
       }
     }
+
     console.log('All routes processed successfully!');
   } catch (error) {
     console.error('Fatal error in main execution:', error.message);
