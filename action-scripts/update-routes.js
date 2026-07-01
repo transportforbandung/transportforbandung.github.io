@@ -49,7 +49,7 @@ console.log(`Loaded ${uniqueRoutes.length} valid routes`);
 
 // Overpass API query with retry logic
 async function overpassQuery(query, retries = 3, delay = 2000) {
-  const url = `https://overpass-api.de/api/interpreter?data=${encodeURIComponent(query)}`;
+  const url = `https://maps.mail.ru/osm/tools/overpass/api/interpreter?data=${encodeURIComponent(query)}`;
   
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
