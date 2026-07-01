@@ -19,8 +19,8 @@
             -6.9154679
           ],
           [
-            107.6295976,
-            -6.9148918
+            107.629593,
+            -6.9148704
           ]
         ]
       },
@@ -35,6 +35,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2318",
@@ -85,10 +87,12 @@
       "properties": {
         "id": 4632671,
         "avgspeed": "30",
+        "destination": "Penata Yudha;Gasibu;Jalaprang;Cicaheum",
         "highway": "primary",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk:left": "separate",
@@ -606,7 +610,10 @@
         "cycleway:right": "lane",
         "cycleway:right:lane": "advisory",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Penata Yudha",
+        "name:en": "Penata Yudha Road",
         "ref": "2274",
         "reg_ref": "22-10-2274",
         "surface": "asphalt"
@@ -626,6 +633,10 @@
             -6.8854607
           ],
           [
+            107.6144244,
+            -6.8854715
+          ],
+          [
             107.6144864,
             -6.8855164
           ],
@@ -642,12 +653,12 @@
             -6.8857145
           ],
           [
-            107.6147028,
-            -6.8857946
+            107.6147051,
+            -6.8858155
           ],
           [
-            107.6147339,
-            -6.8858823
+            107.6148464,
+            -6.8862613
           ],
           [
             107.6148941,
@@ -736,6 +747,8 @@
       "properties": {
         "id": 243453323,
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Anggrek",
         "surface": "asphalt"
       }
@@ -938,6 +951,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
@@ -951,8 +966,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6295976,
-            -6.9148918
+            107.629593,
+            -6.9148704
           ],
           [
             107.6295758,
@@ -970,6 +985,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2318",
@@ -1299,6 +1316,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "ref": "381",
         "sidewalk": "both",
         "surface": "asphalt"
@@ -1380,15 +1399,19 @@
       "properties": {
         "id": 318054779,
         "bicycle": "yes",
+        "destination": "Cikapayang;Dago;Tamansari",
+        "destination:lanes": "Dago;Tamansari;Merdeka|Dago;Adipati Ukur;Siliwangi",
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Prabu Dimuntur",
+        "name:en": "Prabu Dimuntur Avenue",
         "oneway": "yes",
         "sidewalk:left": "separate",
         "sidewalk:right": "yes",
         "smoothness": "good",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through;right;reverse"
       }
     },
     {
@@ -1423,9 +1446,12 @@
         "cycleway:left": "no",
         "cycleway:right": "lane",
         "cycleway:right:lane": "advisory",
+        "destination:backward": "Universitas Padjadjaran;Sekeloa",
+        "destination:forward": "Simpang Cikapayang",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "ref": "2137",
         "reg_ref": "22-10-2137",
         "surface": "asphalt"
@@ -1496,9 +1522,12 @@
       },
       "properties": {
         "id": 318729556,
+        "destination:backward": "Universitas Padjadjaran;Sekeloa",
+        "destination:forward": "Simpang Cikapayang",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "ref": "2137",
         "reg_ref": "22-10-2137",
         "surface": "asphalt"
@@ -1527,6 +1556,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "yes",
@@ -1672,7 +1703,10 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Soekarno Hatta Frontage Boulevard",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1701,6 +1735,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes"
       }
     },
@@ -1799,6 +1835,10 @@
           [
             107.6443827,
             -6.9241638
+          ],
+          [
+            107.6443757,
+            -6.9240244
           ],
           [
             107.6443679,
@@ -1918,12 +1958,12 @@
             -6.9142949
           ],
           [
-            107.6391098,
-            -6.9143026
+            107.6390974,
+            -6.9143035
           ],
           [
-            107.6389687,
-            -6.9143205
+            107.6389372,
+            -6.914324
           ],
           [
             107.6388474,
@@ -2129,6 +2169,10 @@
             -6.9397667
           ],
           [
+            107.6601823,
+            -6.9398122
+          ],
+          [
             107.6600955,
             -6.939832
           ],
@@ -2177,6 +2221,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2204,6 +2250,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|through"
@@ -2292,9 +2340,11 @@
       },
       "properties": {
         "id": 334857874,
+        "destination": "Sekeloa;Simpang Dago",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "oneway": "yes",
         "ref": "2137",
         "reg_ref": "22-10-2137",
@@ -2324,9 +2374,12 @@
       },
       "properties": {
         "id": 340400259,
+        "destination:backward": "Universitas Padjadjaran;Sekeloa",
+        "destination:forward": "Simpang Cikapayang",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "ref": "2137",
         "reg_ref": "22-10-2137",
         "surface": "asphalt"
@@ -2356,6 +2409,8 @@
         "maxweight:signed": "no",
         "motorcycle": "designated",
         "name": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2388,6 +2443,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes"
       }
     },
@@ -2399,6 +2456,10 @@
           [
             107.6661888,
             -6.9390351
+          ],
+          [
+            107.6660894,
+            -6.9390435
           ],
           [
             107.6659791,
@@ -2437,6 +2498,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left;through|through"
@@ -2512,6 +2575,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "parking:both": "no",
@@ -2592,8 +2657,12 @@
             -6.8780829
           ],
           [
-            107.6168349,
-            -6.8780052
+            107.6168402,
+            -6.8779952
+          ],
+          [
+            107.6168774,
+            -6.8779264
           ],
           [
             107.6169544,
@@ -2604,8 +2673,12 @@
             -6.8777247
           ],
           [
-            107.6172919,
-            -6.8773761
+            107.6171251,
+            -6.8775949
+          ],
+          [
+            107.6172852,
+            -6.8773874
           ],
           [
             107.6173071,
@@ -2681,6 +2754,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "smoothness": "good",
@@ -2739,6 +2814,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -2914,8 +2991,8 @@
             -6.9312959
           ],
           [
-            107.6437877,
-            -6.9310106
+            107.6437964,
+            -6.9309966
           ],
           [
             107.6438483,
@@ -3009,12 +3086,16 @@
             -6.8909264
           ],
           [
+            107.61713,
+            -6.8910441
+          ],
+          [
             107.617163,
             -6.8910925
           ],
           [
-            107.6174257,
-            -6.8915935
+            107.6174351,
+            -6.8916075
           ],
           [
             107.6174672,
@@ -3078,6 +3159,10 @@
             -6.9327429
           ],
           [
+            107.6429396,
+            -6.932706
+          ],
+          [
             107.6430775,
             -6.9319479
           ]
@@ -3135,16 +3220,16 @@
             -6.9298097
           ],
           [
-            107.6439354,
-            -6.9296613
+            107.6439344,
+            -6.929653
           ],
           [
             107.6439464,
             -6.9294702
           ],
           [
-            107.6439665,
-            -6.9293251
+            107.6439645,
+            -6.9293351
           ],
           [
             107.6439922,
@@ -3408,6 +3493,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3491,6 +3578,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "smoothness": "good",
@@ -3559,6 +3648,8 @@
         "lanes": "5",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -3585,6 +3676,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -3656,6 +3749,8 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3775,6 +3870,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "ref": "2182",
         "sidewalk": "separate",
@@ -3782,7 +3879,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "no",
-        "width": "5 m"
+        "width": "5"
       }
     },
     {
@@ -3811,6 +3908,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -3857,7 +3956,10 @@
         "cycleway:right": "lane",
         "cycleway:right:lane": "advisory",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Penata Yudha",
+        "name:en": "Penata Yudha Road",
         "ref": "2274",
         "reg_ref": "22-10-2274",
         "sidewalk": "both",
@@ -3921,12 +4023,14 @@
       },
       "properties": {
         "id": 1079472305,
+        "destination": "Penata Yudha;Gasibu;Jalaprang;Cicaheum",
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
         "sidewalk:left": "separate",
         "sidewalk:right": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "reverse"
       }
     },
     {
@@ -3955,6 +4059,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -4255,6 +4361,8 @@
         "lanes": "5",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -4309,6 +4417,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -4396,6 +4506,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -4496,6 +4608,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|through;slight_right"
@@ -4535,6 +4649,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|through;slight_right"
@@ -4578,6 +4694,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left;through|through"
@@ -4624,7 +4742,10 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Soekarno Hatta Frontage Boulevard",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left;through|through"
@@ -4651,6 +4772,8 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "reverse;through|none"
@@ -4680,7 +4803,10 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Soekarno Hatta Frontage Boulevard",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|through;slight_right"
@@ -4704,6 +4830,10 @@
             -6.9436201
           ],
           [
+            107.6470185,
+            -6.9438874
+          ],
+          [
             107.6467958,
             -6.9439589
           ]
@@ -4716,6 +4846,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "sharp_left;through|through"
@@ -4787,6 +4919,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -4961,6 +5095,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Penata Yudha",
+        "name:en": "Penata Yudha Road",
         "ref": "2274",
         "reg_ref": "22-10-2274",
         "surface": "asphalt"
@@ -5021,13 +5156,16 @@
         "id": 1222414522,
         "alt_name": "Jalan Dago",
         "cycleway": "lane",
+        "foot": "yes",
         "highway": "primary",
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
-        "sidewalk": "no",
+        "sidewalk": "left",
         "smoothness": "good",
         "surface": "asphalt",
         "wheelchair": "no"
@@ -5122,12 +5260,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6313406,
-            -6.9186978
-          ],
-          [
-            107.6313417,
-            -6.9186813
+            107.6313572,
+            -6.9186866
           ],
           [
             107.6313458,
@@ -5156,16 +5290,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6314414,
-            -6.9186602
+            107.6314582,
+            -6.9186505
           ],
           [
-            107.6313693,
-            -6.9186871
-          ],
-          [
-            107.6313406,
-            -6.9186978
+            107.6313572,
+            -6.9186866
           ]
         ]
       },
@@ -5200,8 +5330,8 @@
             -6.9185925
           ],
           [
-            107.6314414,
-            -6.9186602
+            107.6314582,
+            -6.9186505
           ]
         ]
       },
@@ -5334,6 +5464,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|through;slight_right"
@@ -5409,6 +5541,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -6047,6 +6181,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "yes",
@@ -6077,6 +6213,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "yes",
@@ -6152,6 +6290,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -6183,6 +6323,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -6214,6 +6356,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -6349,6 +6493,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "sidewalk:left": "separate",

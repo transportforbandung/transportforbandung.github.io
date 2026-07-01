@@ -293,6 +293,10 @@
             -6.8995517
           ],
           [
+            107.6305872,
+            -6.8993785
+          ],
+          [
             107.6307582,
             -6.8992701
           ]
@@ -301,10 +305,15 @@
       "properties": {
         "id": 153483321,
         "avgspeed": "30",
+        "destination:backward": "Simpang PUSDAI",
+        "destination:forward": "Simpang Jalaprang",
+        "destination:lanes:backward": "Supratman;Diponegoro|Gagak;Gasibu;Pasupati",
+        "destination:lanes:forward": "Jalaprang|Pahlawan;Cikutra;Cicaheum",
         "highway": "trunk",
         "lanes": "4",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt"
@@ -340,10 +349,12 @@
       "properties": {
         "id": 153517384,
         "avgspeed": "30",
+        "destination": "Gasibu;Jalaprang;Pahlawan;Cicaheum",
         "highway": "trunk",
         "lanes": "3",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "sidewalk": "left",
         "surface": "asphalt"
@@ -374,6 +385,7 @@
         "lane_markings": "yes",
         "lanes": "2",
         "name": "Jalan Pagergunung",
+        "name:en": "Pager Gunung Parkway",
         "surface": "asphalt"
       }
     },
@@ -430,7 +442,10 @@
         "cycleway:right": "lane",
         "cycleway:right:lane": "advisory",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Penata Yudha",
+        "name:en": "Penata Yudha Road",
         "ref": "2274",
         "reg_ref": "22-10-2274",
         "surface": "asphalt"
@@ -454,10 +469,13 @@
       "properties": {
         "id": 241791694,
         "avgspeed": "30",
+        "destination:backward": "PUSDAI;Jalaprang;Pahlawan;Cicaheum",
+        "destination:forward": "Gasibu;Dago;Cikapayang;Pasupati",
         "highway": "trunk",
         "lanes": "4",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no",
         "surface": "asphalt"
       }
@@ -479,9 +497,12 @@
       },
       "properties": {
         "id": 317745761,
+        "destination:backward": "Universitas Padjadjaran;Sekeloa",
+        "destination:forward": "Simpang Cikapayang",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "ref": "2137",
         "reg_ref": "22-10-2137",
         "surface": "asphalt"
@@ -517,10 +538,12 @@
       "properties": {
         "id": 318051977,
         "avgspeed": "30",
+        "destination": "Gasibu;Jalaprang;Pahlawan;Cicaheum",
         "highway": "primary",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "sidewalk": "left",
         "surface": "asphalt"
@@ -548,10 +571,12 @@
       "properties": {
         "id": 318051978,
         "avgspeed": "30",
+        "destination": "Jalaprang;Pahlawan;Cikutra;Cicaheum",
         "highway": "trunk",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -574,10 +599,12 @@
       "properties": {
         "id": 318100673,
         "avgspeed": "30",
+        "destination": "Jalaprang;Pahlawan;Cikutra;Cicaheum",
         "highway": "trunk",
         "lanes": "1",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -616,12 +643,16 @@
       "properties": {
         "id": 318102033,
         "avgspeed": "30",
+        "destination": "Jalaprang;Pahlawan;Cikutra;Cicaheum",
+        "destination:lanes": "PUSDAI;Jalaprang;Pahlawan|Diponegoro;Gedung Sate;Citarum|Diponegoro;Gedung Sate;Citarum",
         "highway": "trunk",
         "lanes": "3",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "through|right|right"
       }
     },
     {
@@ -755,6 +786,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "smoothness": "good",
         "surface": "asphalt",
@@ -843,6 +876,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no"
       }
     },
@@ -1351,6 +1386,7 @@
         "lanes:forward": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "turn:lanes:backward": "through|through;right",
         "turn:lanes:forward": "slight_left;slight_right|slight_right;sharp_right"
       }
@@ -1554,6 +1590,8 @@
         "lanes": "4",
         "layer": "1",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no"
       }
     },
@@ -1702,6 +1740,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "width": "8"
       }
@@ -1734,6 +1774,8 @@
         "lanes": "4",
         "layer": "1",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:backward": "left;through|through",
         "turn:lanes:forward": "through|through;right"
@@ -1793,6 +1835,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:backward": "left;through|through",
         "turn:lanes:forward": "through|through;right"
@@ -1817,11 +1861,16 @@
         "id": 551834876,
         "avgspeed": "30",
         "bridge": "yes",
+        "destination:backward": "Simpang PUSDAI",
+        "destination:forward": "Simpang Jalaprang",
+        "destination:lanes:backward": "Supratman;Diponegoro|Gagak;Gasibu;Pasupati",
+        "destination:lanes:forward": "Jalaprang|Pahlawan;Cikutra;Cicaheum",
         "highway": "trunk",
         "lanes": "4",
         "layer": "1",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no"
       }
     },
@@ -1867,12 +1916,17 @@
       "properties": {
         "id": 551834879,
         "avgspeed": "30",
+        "destination:backward": "Simpang PUSDAI",
+        "destination:forward": "Simpang Jalaprang",
+        "destination:lanes:backward": "Supratman;Diponegoro|Gagak;Gasibu;Pasupati",
+        "destination:lanes:forward": "Jalaprang|Pahlawan;Cikutra;Cicaheum",
         "highway": "trunk",
         "lanes": "4",
         "lanes:backward": "2",
         "lanes:forward": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no",
         "turn:lanes:forward": "left;through|through"
       }
@@ -1922,6 +1976,8 @@
         "lanes": "4",
         "layer": "1",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no"
       }
     },
@@ -2027,6 +2083,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:forward": "left;through|through;slight_right"
       }
@@ -2075,7 +2133,9 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "4",
-        "name": "Jalan Abdul Haris Nasution"
+        "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution"
       }
     },
     {
@@ -2110,7 +2170,9 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Abdul Haris Nasution",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "turn:lanes": "through|through;right"
       }
@@ -2135,7 +2197,9 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Abdul Haris Nasution",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "turn:lanes": "left;through|through;right"
       }
@@ -2162,7 +2226,9 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Abdul Haris Nasution",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "yes"
       }
     },
@@ -2190,7 +2256,9 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Abdul Haris Nasution",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes"
       }
     },
@@ -2223,6 +2291,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no"
       }
     },
@@ -2322,6 +2392,8 @@
         "lanes:backward": "2",
         "lanes:forward": "2",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:backward": "left;through|through"
       }
@@ -2356,6 +2428,8 @@
         "lanes:forward": "2",
         "layer": "1",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:forward": "left;through|through"
       }
@@ -2385,11 +2459,10 @@
       },
       "properties": {
         "id": 734028484,
-        "alt_name": "Jalan Suci",
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan PH. H. Mustofa",
+        "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes"
       }
     },
@@ -2446,7 +2519,9 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Abdul Haris Nasution",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes"
       }
     },
@@ -2474,7 +2549,9 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Abdul Haris Nasution",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes"
       }
     },
@@ -2577,7 +2654,10 @@
         "cycleway:right": "lane",
         "cycleway:right:lane": "advisory",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Penata Yudha",
+        "name:en": "Penata Yudha Road",
         "ref": "2274",
         "reg_ref": "22-10-2274",
         "sidewalk": "both",
@@ -2604,7 +2684,9 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Abdul Haris Nasution",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "turn:lanes": "left;through|through"
       }
@@ -2617,6 +2699,10 @@
           [
             107.6993869,
             -6.9140921
+          ],
+          [
+            107.6993878,
+            -6.9141639
           ],
           [
             107.6993906,
@@ -2702,6 +2788,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:backward": "through|through;right"
       }
@@ -2726,7 +2814,9 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Abdul Haris Nasution",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes"
       }
     },
@@ -2819,6 +2909,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "smoothness": "good",
         "surface": "asphalt",
@@ -2859,8 +2951,8 @@
             -6.9047453
           ],
           [
-            107.6760109,
-            -6.9047365
+            107.6760408,
+            -6.9047386
           ],
           [
             107.6759315,
@@ -2893,6 +2985,8 @@
         "lanes:backward": "2",
         "lanes:forward": "2",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "smoothness": "good",
         "surface": "asphalt",
@@ -2984,6 +3078,8 @@
         "lanes:backward": "2",
         "lanes:forward": "2",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:backward": "left;through|through",
         "turn:lanes:forward": "left;through|through",
@@ -3036,6 +3132,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "smoothness": "good",
         "surface": "asphalt",
@@ -3070,6 +3168,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:backward": "left;through|through",
         "turn:lanes:forward": "through|through;right"
@@ -3083,6 +3183,10 @@
           [
             107.6853357,
             -6.9069314
+          ],
+          [
+            107.6843353,
+            -6.9065056
           ],
           [
             107.6841297,
@@ -3128,6 +3232,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:backward": "sharp_left;through|through;right",
         "turn:lanes:forward": "through|through;right"
@@ -3171,6 +3277,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:backward": "sharp_left;through|through",
         "turn:lanes:forward": "left;through|through"
@@ -3208,6 +3316,8 @@
         "lanes:backward": "2",
         "lanes:forward": "2",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:forward": "through|through;right"
       }
@@ -3237,6 +3347,8 @@
         "lanes:backward": "2",
         "lanes:forward": "2",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:backward": "slight_left|slight_left;slight_right",
         "turn:lanes:forward": "through|through;right"
@@ -3266,6 +3378,8 @@
         "lanes:backward": "2",
         "lanes:forward": "2",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:forward": "left;slight_right|slight_right"
       }
@@ -3302,6 +3416,8 @@
         "lanes:backward": "2",
         "lanes:forward": "2",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:forward": "left;through|through"
       }
@@ -3433,6 +3549,8 @@
         "lanes:backward": "2",
         "lanes:forward": "2",
         "name": "Jalan Abdul Haris Nasution",
+        "name:etymology:wikidata": "Q317291",
+        "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "oneway": "no",
         "turn:lanes:backward": "left;through|through"
       }
@@ -3464,9 +3582,12 @@
         "id": 1222381629,
         "avgspeed": "20",
         "cycleway:both": "no",
+        "destination:backward": "Universitas Padjadjaran;Adipati Ukur",
+        "destination:forward": "Rumah Sakit Borromeus;Ganesha",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Jalan Hasanudin",
+        "name:en": "Hasannudin Parkway",
         "parking:left": "no",
         "parking:right": "half_on_kerb",
         "parking:right:orientation": "parallel",
@@ -3543,10 +3664,13 @@
       "properties": {
         "id": 1222381630,
         "avgspeed": "30",
+        "destination:backward": "PUSDAI;Jalaprang;Pahlawan;Cicaheum",
+        "destination:forward": "Gasibu;Dago;Cikapayang;Pasupati",
         "highway": "trunk",
         "lanes": "4",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt"
@@ -3575,6 +3699,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Penata Yudha",
+        "name:en": "Penata Yudha Road",
         "ref": "2274",
         "reg_ref": "22-10-2274",
         "surface": "asphalt"
@@ -3876,10 +4001,13 @@
       "properties": {
         "id": 1384073984,
         "avgspeed": "30",
+        "destination:backward": "PUSDAI;Jalaprang;Pahlawan;Cicaheum",
+        "destination:forward": "Gasibu;Dago;Cikapayang;Pasupati",
         "highway": "trunk",
         "lanes": "4",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt"
@@ -3936,11 +4064,10 @@
       },
       "properties": {
         "id": 1430454716,
-        "alt_name": "Jalan Suci",
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan PH. H. Mustofa",
+        "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes"
       }
     }

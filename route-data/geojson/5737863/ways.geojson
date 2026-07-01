@@ -677,6 +677,10 @@
             -6.9323638
           ],
           [
+            107.5397154,
+            -6.9325683
+          ],
+          [
             107.5397025,
             -6.9326214
           ],
@@ -837,9 +841,11 @@
       "properties": {
         "id": 385643860,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
+        "ref": "82",
         "source": "Yahoo hires"
       }
     },
@@ -865,10 +871,12 @@
       "properties": {
         "id": 390344973,
         "avgspeed": "20",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
         "oneway": "yes",
+        "ref": "82",
         "source": "Yahoo hires"
       }
     },
@@ -1058,8 +1066,8 @@
             -6.8999069
           ],
           [
-            107.5485491,
-            -6.9001557
+            107.5485685,
+            -6.9001477
           ],
           [
             107.5484291,
@@ -1070,8 +1078,8 @@
             -6.9002452
           ],
           [
-            107.5480695,
-            -6.900295
+            107.5480702,
+            -6.9003017
           ],
           [
             107.5479602,
@@ -1130,12 +1138,14 @@
       "properties": {
         "id": 553702494,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
         "oneway": "no",
+        "ref": "82",
         "source": "Yahoo hires",
-        "width": "7"
+        "width": "6"
       }
     },
     {
@@ -1171,10 +1181,12 @@
       },
       "properties": {
         "id": 553702495,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
         "oneway": "yes",
+        "ref": "82",
         "width": "4"
       }
     },
@@ -1604,6 +1616,7 @@
       "properties": {
         "id": 555078350,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Nanjung",
@@ -1639,6 +1652,7 @@
       },
       "properties": {
         "id": 555334367,
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Nanjung",
@@ -1680,6 +1694,7 @@
       "properties": {
         "id": 555334371,
         "avgspeed": "20",
+        "designation": "provincial_road",
         "highway": "primary",
         "junction": "roundabout",
         "lanes": "2",
@@ -1709,10 +1724,12 @@
         "id": 569884943,
         "avgspeed": "30",
         "bridge": "yes",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Mahar Martanegara",
+        "ref": "82",
         "source": "Yahoo hires"
       }
     },
@@ -1766,9 +1783,11 @@
       "properties": {
         "id": 569884946,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
+        "ref": "82",
         "source": "Yahoo hires",
         "width": "7"
       }
@@ -1905,6 +1924,10 @@
             -6.9316918
           ],
           [
+            107.5399737,
+            -6.9316636
+          ],
+          [
             107.5400797,
             -6.9313899
           ],
@@ -1991,6 +2014,10 @@
           [
             107.5414177,
             -6.9270732
+          ],
+          [
+            107.5414143,
+            -6.9268422
           ],
           [
             107.5414113,
@@ -2297,8 +2324,8 @@
             -6.9357332
           ],
           [
-            107.5384407,
-            -6.9359235
+            107.5384462,
+            -6.9359313
           ],
           [
             107.5383755,
@@ -2445,36 +2472,36 @@
             -6.9499996
           ],
           [
-            107.5220863,
-            -6.9498415
+            107.522099,
+            -6.9498342
           ],
           [
-            107.5220199,
-            -6.949743
+            107.5220353,
+            -6.9497323
           ],
           [
-            107.5219462,
-            -6.9496112
+            107.5219623,
+            -6.9495986
           ],
           [
-            107.5218609,
-            -6.9494426
+            107.5218797,
+            -6.9494346
           ],
           [
-            107.5217725,
-            -6.9492984
+            107.5217826,
+            -6.9492784
           ],
           [
-            107.5217008,
-            -6.9491985
+            107.5217142,
+            -6.9491765
           ],
           [
-            107.5216283,
-            -6.9490973
+            107.5216384,
+            -6.949072
           ],
           [
-            107.5215479,
-            -6.9489882
+            107.5215566,
+            -6.9489736
           ],
           [
             107.5214218,
@@ -2739,7 +2766,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Batujajar-Soreang",
-        "ref": "10"
+        "ref": "10",
+        "width": "5"
       }
     },
     {
@@ -2784,9 +2812,11 @@
       "properties": {
         "id": 939807607,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
+        "ref": "82",
         "source": "Yahoo hires"
       }
     },
@@ -2820,6 +2850,7 @@
       "properties": {
         "id": 1059257073,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Nanjung",
@@ -2848,6 +2879,7 @@
       },
       "properties": {
         "id": 1059257075,
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Nanjung",
@@ -2874,6 +2906,7 @@
         "id": 1059257076,
         "avgspeed": "30",
         "bridge": "yes",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
@@ -2908,6 +2941,7 @@
       "properties": {
         "id": 1059257077,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Nanjung",
@@ -2941,6 +2975,7 @@
       "properties": {
         "id": 1059257079,
         "avgspeed": "20",
+        "designation": "provincial_road",
         "highway": "primary",
         "junction": "roundabout",
         "lanes": "2",
@@ -2975,10 +3010,12 @@
       },
       "properties": {
         "id": 1085542567,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
         "oneway": "yes",
+        "ref": "82",
         "width": "4"
       }
     },
@@ -3117,6 +3154,7 @@
       "properties": {
         "id": 1205707544,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Nanjung",
@@ -3247,6 +3285,10 @@
             -6.952454
           ],
           [
+            107.5242323,
+            -6.9524599
+          ],
+          [
             107.5241481,
             -6.9524849
           ],
@@ -3360,9 +3402,11 @@
       "properties": {
         "id": 1267042537,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Mahar Martanegara"
+        "name": "Jalan Mahar Martanegara",
+        "ref": "82"
       }
     },
     {
@@ -3384,10 +3428,12 @@
         "id": 1267042538,
         "avgspeed": "30",
         "bridge": "yes",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Mahar Martanegara"
+        "name": "Jalan Mahar Martanegara",
+        "ref": "82"
       }
     },
     {
@@ -3467,9 +3513,11 @@
       "properties": {
         "id": 1364319051,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
+        "ref": "82",
         "source": "Yahoo hires"
       }
     },
@@ -3554,6 +3602,7 @@
       "properties": {
         "id": 1408925351,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Nanjung",

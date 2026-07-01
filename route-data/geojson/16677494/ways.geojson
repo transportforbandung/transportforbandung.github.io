@@ -22,6 +22,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -339,8 +341,16 @@
             -6.9289677
           ],
           [
+            107.5877514,
+            -6.9297245
+          ],
+          [
             107.5878209,
             -6.9298432
+          ],
+          [
+            107.5879133,
+            -6.929976
           ],
           [
             107.5880867,
@@ -471,8 +481,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6059561,
-            -6.9375043
+            107.6059434,
+            -6.9375062
           ],
           [
             107.6060215,
@@ -611,6 +621,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "ref": "106",
         "reg_ref": "22-00-106-11K",
         "surface": "asphalt"
@@ -896,6 +908,10 @@
             -6.958195
           ],
           [
+            107.5932729,
+            -6.9582559
+          ],
+          [
             107.5932835,
             -6.9582848
           ],
@@ -1055,36 +1071,32 @@
             -6.936498
           ],
           [
-            107.5938034,
-            -6.9363309
+            107.5938061,
+            -6.9363242
           ],
           [
-            107.5937173,
-            -6.9362775
+            107.5936556,
+            -6.9362262
           ],
           [
-            107.5936387,
-            -6.9362255
+            107.5935951,
+            -6.9361842
           ],
           [
-            107.5934112,
-            -6.9360768
+            107.5934206,
+            -6.9360675
           ],
           [
-            107.5929253,
-            -6.9357593
+            107.5929263,
+            -6.9357476
           ],
           [
-            107.5927019,
-            -6.9356135
+            107.5926841,
+            -6.9355767
           ],
           [
-            107.5926471,
-            -6.9355782
-          ],
-          [
-            107.5923292,
-            -6.9353611
+            107.5923469,
+            -6.9353519
           ],
           [
             107.5919994,
@@ -1642,11 +1654,13 @@
       },
       "properties": {
         "id": 1073714000,
+        "designation": "city_road",
         "destination:lanes": "Terminal Leuwipanjang|",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Leuwi Panjang",
         "oneway": "yes",
+        "ref": "4118",
         "turn:lanes": "left;through|through"
       }
     },
@@ -1656,12 +1670,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6030002,
-            -6.9372376
+            107.6030015,
+            -6.937215
           ],
           [
-            107.60308,
-            -6.9372447
+            107.603088,
+            -6.9372221
           ]
         ]
       },
@@ -1680,16 +1694,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.60308,
-            -6.9372447
+            107.603088,
+            -6.9372221
           ],
           [
-            107.6031763,
-            -6.9372532
+            107.6031857,
+            -6.9372292
           ],
           [
-            107.603309,
-            -6.9372649
+            107.6033103,
+            -6.9372436
           ]
         ]
       },
@@ -1726,11 +1740,13 @@
       },
       "properties": {
         "id": 1107619195,
+        "designation": "city_road",
         "destination": "Terminal Leuwipanjang;Peta;Astana Anyar",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Leuwi Panjang",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "4118"
       }
     },
     {
@@ -1768,12 +1784,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6045674,
-            -6.937378
+            107.6047707,
+            -6.9373901
           ],
           [
-            107.6059561,
-            -6.9375043
+            107.6059434,
+            -6.9375062
           ]
         ]
       },
@@ -1795,20 +1811,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.603309,
-            -6.9372649
+            107.6033103,
+            -6.9372436
           ],
           [
-            107.6039363,
-            -6.9373127
+            107.6039376,
+            -6.9372954
           ],
           [
-            107.6043789,
-            -6.9373611
+            107.6044053,
+            -6.9373359
           ],
           [
-            107.6045674,
-            -6.937378
+            107.6046074,
+            -6.9373654
+          ],
+          [
+            107.6047707,
+            -6.9373901
           ]
         ]
       },
@@ -1834,16 +1854,16 @@
             -6.9371945
           ],
           [
-            107.6028669,
-            -6.9372273
+            107.6028615,
+            -6.9372127
           ],
           [
-            107.6028903,
-            -6.9372279
+            107.602893,
+            -6.9372146
           ],
           [
-            107.6030002,
-            -6.9372376
+            107.6030015,
+            -6.937215
           ]
         ]
       },
@@ -1905,10 +1925,12 @@
       },
       "properties": {
         "id": 1213180956,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Raya Cibaduyut",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "4118"
       }
     },
     {
@@ -2166,6 +2188,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -2199,6 +2223,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -2224,6 +2250,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -2249,6 +2277,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -2274,6 +2304,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -2299,6 +2331,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2324,6 +2358,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2353,6 +2389,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2378,6 +2416,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2456,6 +2496,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "ref": "106",
         "reg_ref": "22-00-106-11K",
         "surface": "asphalt"

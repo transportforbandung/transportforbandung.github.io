@@ -79,6 +79,10 @@
             -6.9104032
           ],
           [
+            107.6040795,
+            -6.910612
+          ],
+          [
             107.6040749,
             -6.9106747
           ],
@@ -156,6 +160,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "oneway": "yes",
         "ref": "2318",
         "reg_ref": "22-10-2318",
@@ -183,6 +189,10 @@
           [
             107.6071035,
             -6.9074752
+          ],
+          [
+            107.6070242,
+            -6.9074318
           ],
           [
             107.6068765,
@@ -288,7 +298,7 @@
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_left;slight_right|slight_right",
         "wheelchair": "no",
-        "width": "3 m"
+        "width": "3"
       }
     },
     {
@@ -542,6 +552,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -853,6 +865,10 @@
           [
             107.6376092,
             -6.9670029
+          ],
+          [
+            107.6375979,
+            -6.9670536
           ],
           [
             107.6375686,
@@ -1289,6 +1305,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -1350,6 +1368,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -1378,6 +1398,8 @@
         "lanes": "3",
         "layer": "1",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "left;through|through|through"
@@ -1404,6 +1426,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "left;through|through|through"
@@ -1689,6 +1713,8 @@
         "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1925,6 +1951,8 @@
         "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1956,7 +1984,7 @@
           ],
           [
             107.6090523,
-            -6.912686
+            -6.9126675
           ],
           [
             107.6090858,
@@ -2024,7 +2052,7 @@
           ],
           [
             107.6061721,
-            -6.9375296
+            -6.9375256
           ]
         ]
       },
@@ -2143,6 +2171,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "right|right"
@@ -2282,6 +2312,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -2305,6 +2337,7 @@
       "properties": {
         "id": 318899772,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
@@ -2407,6 +2440,7 @@
       "properties": {
         "id": 318899775,
         "cycleway:both": "no",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
@@ -2514,6 +2548,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2875,6 +2911,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -2902,6 +2940,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -3129,7 +3169,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "no",
-        "width": "3 m"
+        "width": "3"
       }
     },
     {
@@ -3201,6 +3241,7 @@
       "properties": {
         "id": 340403803,
         "avgspeed": "30",
+        "designation": "city_road",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
@@ -3311,6 +3352,10 @@
           [
             107.6326896,
             -6.9868137
+          ],
+          [
+            107.6326529,
+            -6.987015
           ],
           [
             107.6324776,
@@ -3424,6 +3469,7 @@
         "id": 556619988,
         "avgspeed": "30",
         "cycleway:both": "no",
+        "designation": "city_road",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
@@ -3568,7 +3614,7 @@
         "coordinates": [
           [
             107.6061721,
-            -6.9375296
+            -6.9375256
           ],
           [
             107.6061838,
@@ -3596,6 +3642,10 @@
           [
             107.6065499,
             -6.9154703
+          ],
+          [
+            107.6064784,
+            -6.9154686
           ],
           [
             107.6063683,
@@ -4000,6 +4050,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "left;through|through|through"
@@ -4049,8 +4101,8 @@
             -6.9157548
           ],
           [
-            107.6045263,
-            -6.9155905
+            107.6045273,
+            -6.915589
           ],
           [
             107.604546,
@@ -4064,6 +4116,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -4117,6 +4171,7 @@
       "properties": {
         "id": 1079472294,
         "cycleway:both": "no",
+        "designation": "city_road",
         "destination:backward": "Inhoftank;Cibaduyut;Leuwipanjang;Kopo|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot",
         "destination:forward": "Kurdi;Tegallega;Lingkar Selatan;Inggit Ganarsih",
         "destination:ref:lanes:backward": "11|161;4;;|161;4;;",
@@ -4222,12 +4277,20 @@
             -6.9701783
           ],
           [
-            107.636772,
-            -6.9706398
+            107.6368245,
+            -6.9704403
+          ],
+          [
+            107.6367566,
+            -6.9706618
           ],
           [
             107.6367317,
             -6.9707871
+          ],
+          [
+            107.6366699,
+            -6.9710324
           ],
           [
             107.6366614,
@@ -4236,6 +4299,10 @@
           [
             107.6365939,
             -6.9713026
+          ],
+          [
+            107.6365819,
+            -6.9713462
           ],
           [
             107.6365553,
@@ -4579,6 +4646,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -4831,6 +4900,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -4870,6 +4941,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -4914,6 +4987,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -4950,6 +5025,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -5165,6 +5242,7 @@
         "id": 1212464431,
         "avgspeed": "30",
         "cycleway:both": "no",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
@@ -5271,6 +5349,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -5351,6 +5431,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -5540,6 +5622,7 @@
       "properties": {
         "id": 1234195272,
         "cycleway:both": "no",
+        "designation": "city_road",
         "destination:lanes:backward": "Batununggal;Buahbatu;Kiaracondong;Cibiru|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot|Inhoftank;Cibaduyut;Leuwipanjang;Kopo",
         "destination:ref:lanes:backward": "11|161;4;;|11",
         "highway": "primary",
@@ -5607,6 +5690,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -7492,6 +7577,14 @@
           [
             107.6000477,
             -6.9068645
+          ],
+          [
+            107.6001281,
+            -6.9068699
+          ],
+          [
+            107.6004436,
+            -6.9068911
           ],
           [
             107.6006155,

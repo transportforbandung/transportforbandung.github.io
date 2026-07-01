@@ -245,6 +245,7 @@
         "highway": "secondary",
         "lanes": "3",
         "layer": "1",
+        "maxweight:signed": "no",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
@@ -338,6 +339,7 @@
         "highway": "secondary",
         "lanes": "3",
         "layer": "1",
+        "maxweight:signed": "no",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
@@ -535,9 +537,14 @@
       },
       "properties": {
         "id": 412599695,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Guru Gantangan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -545,22 +552,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            107.4651824,
-            -6.8680042
-          ],
-          [
-            107.4651845,
-            -6.8682629
-          ],
-          [
-            107.4651852,
-            -6.8683459
-          ],
-          [
-            107.4651854,
-            -6.8686619
-          ],
           [
             107.4652031,
             -6.86882
@@ -613,7 +604,10 @@
       },
       "properties": {
         "id": 573413082,
-        "highway": "tertiary"
+        "cycleway:both": "lane",
+        "highway": "tertiary",
+        "lit": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -957,9 +951,14 @@
       },
       "properties": {
         "id": 701746308,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Guru Gantangan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1547,8 +1546,11 @@
       },
       "properties": {
         "id": 1452692000,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "tertiary",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2735,7 +2737,63 @@
         "lanes": "4",
         "lit": "yes",
         "oneway": "no",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4651824,
+            -6.8680042
+          ],
+          [
+            107.4651845,
+            -6.8682629
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1528744716,
+        "cycleway:both": "lane",
+        "highway": "tertiary",
+        "lit": "yes",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4651845,
+            -6.8682629
+          ],
+          [
+            107.4651852,
+            -6.8683459
+          ],
+          [
+            107.4651854,
+            -6.8686619
+          ],
+          [
+            107.4652031,
+            -6.86882
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1528744717,
+        "cycleway:both": "lane",
+        "highway": "tertiary",
+        "lit": "yes",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     }

@@ -277,11 +277,11 @@
           ],
           [
             107.6090001,
-            -6.9151232
+            -6.9151162
           ],
           [
-            107.6090001,
-            -6.9151605
+            107.6089998,
+            -6.9151478
           ],
           [
             107.6089988,
@@ -534,6 +534,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -793,10 +795,10 @@
       },
       "properties": {
         "id": 42795877,
-        "alt_name": "Jl. Stasiun Timur",
+        "alt_name": "Jalan Simpang Utara",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Stasiun Timur",
+        "name": "Jalan Panaris",
         "oneway": "no",
         "ref": "10",
         "sidewalk:both": "separate",
@@ -1176,6 +1178,7 @@
         "highway": "secondary",
         "lanes": "3",
         "layer": "1",
+        "maxweight:signed": "no",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
@@ -1740,6 +1743,10 @@
             -6.9116592
           ],
           [
+            107.5723261,
+            -6.9117833
+          ],
+          [
             107.5725782,
             -6.9118819
           ],
@@ -1938,6 +1945,10 @@
           [
             107.5862132,
             -6.9160211
+          ],
+          [
+            107.5867708,
+            -6.9160926
           ],
           [
             107.5869745,
@@ -3691,8 +3702,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5531885,
-            -6.8843128
+            107.5532991,
+            -6.8845055
+          ],
+          [
+            107.5532758,
+            -6.8844655
+          ],
+          [
+            107.5532307,
+            -6.8843827
           ],
           [
             107.5531006,
@@ -3739,28 +3758,32 @@
             -6.8827206
           ],
           [
-            107.5520817,
-            -6.8824713
+            107.5520864,
+            -6.8824613
           ],
           [
-            107.5519439,
-            -6.8822442
+            107.5519526,
+            -6.8822389
           ],
           [
-            107.5518178,
-            -6.8820536
+            107.5518285,
+            -6.882035
           ],
           [
-            107.5515938,
-            -6.8816947
+            107.5516065,
+            -6.8816734
           ],
           [
-            107.5515007,
-            -6.8815314
+            107.5515108,
+            -6.8815261
           ],
           [
-            107.5513132,
-            -6.8812126
+            107.5513286,
+            -6.8812206
+          ],
+          [
+            107.5513112,
+            -6.8811893
           ],
           [
             107.5510818,
@@ -3828,10 +3851,14 @@
         "id": 572985687,
         "avgspeed": "30",
         "highway": "trunk",
+        "lane_markings": "yes",
         "lanes": "4",
         "name": "Jalan Jend. H. Amir Machmud",
         "ref": "11",
-        "source": "Yahoo hires"
+        "smoothness": "good",
+        "source": "Yahoo hires",
+        "surface": "asphalt",
+        "width": "10"
       }
     },
     {
@@ -3844,16 +3871,16 @@
             -6.8879517
           ],
           [
-            107.5557192,
-            -6.888343
+            107.5557165,
+            -6.8883377
           ],
           [
-            107.5559388,
-            -6.8886859
+            107.5559126,
+            -6.8886546
           ],
           [
-            107.5559992,
-            -6.8887802
+            107.5559962,
+            -6.8887905
           ],
           [
             107.5562442,
@@ -4031,7 +4058,10 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -4901,11 +4931,14 @@
       },
       "properties": {
         "id": 886929888,
+        "alt_name": "Jalan Simpang Utara",
         "highway": "trunk",
         "lanes": "1",
-        "name": "Jalan Simpang",
+        "name": "Jalan Panaris",
         "oneway": "yes",
-        "ref": "10"
+        "ref": "10",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -5012,16 +5045,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5531885,
-            -6.8843128
+            107.5532991,
+            -6.8845055
           ],
           [
-            107.5532749,
-            -6.8843897
-          ],
-          [
-            107.5533095,
-            -6.8844555
+            107.5533598,
+            -6.88455
           ],
           [
             107.5536834,
@@ -5053,7 +5082,8 @@
         "motorcycle": "yes",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "width": "5"
       }
     },
     {
@@ -5691,8 +5721,8 @@
             -6.9157548
           ],
           [
-            107.6045263,
-            -6.9155905
+            107.6045273,
+            -6.915589
           ],
           [
             107.604546,
@@ -5706,6 +5736,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -6014,6 +6046,10 @@
             -6.9147967
           ],
           [
+            107.5825508,
+            -6.9148106
+          ],
+          [
             107.5828928,
             -6.9149105
           ],
@@ -6272,6 +6308,10 @@
           [
             107.5729282,
             -6.9120185
+          ],
+          [
+            107.5729439,
+            -6.9120247
           ],
           [
             107.573014,
@@ -7635,6 +7675,10 @@
           [
             107.6101457,
             -6.9215112
+          ],
+          [
+            107.6100483,
+            -6.9214995
           ],
           [
             107.6099811,

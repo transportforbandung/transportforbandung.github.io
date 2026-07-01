@@ -31,6 +31,10 @@
             -6.9603107
           ],
           [
+            107.6133311,
+            -6.9600175
+          ],
+          [
             107.6133004,
             -6.9599258
           ],
@@ -59,8 +63,8 @@
             -6.9590893
           ],
           [
-            107.6129626,
-            -6.9589186
+            107.6129458,
+            -6.9588707
           ],
           [
             107.6129406,
@@ -71,8 +75,8 @@
             -6.9586348
           ],
           [
-            107.6128341,
-            -6.9585353
+            107.6128314,
+            -6.9585167
           ],
           [
             107.612791,
@@ -107,6 +111,10 @@
             -6.9570425
           ],
           [
+            107.61232,
+            -6.9570018
+          ],
+          [
             107.6123085,
             -6.9569675
           ],
@@ -135,6 +143,7 @@
       "properties": {
         "id": 4627168,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Mohammad Toha",
@@ -350,6 +359,10 @@
           [
             107.6215211,
             -6.9837918
+          ],
+          [
+            107.6214896,
+            -6.9837387
           ],
           [
             107.6214512,
@@ -771,6 +784,10 @@
           [
             107.6504174,
             -7.0150446
+          ],
+          [
+            107.6506411,
+            -7.0151482
           ],
           [
             107.6506759,
@@ -1263,7 +1280,7 @@
           ],
           [
             107.6061721,
-            -6.9375296
+            -6.9375256
           ]
         ]
       },
@@ -1373,6 +1390,7 @@
       "properties": {
         "id": 318899775,
         "cycleway:both": "no",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
@@ -1544,6 +1562,7 @@
       "properties": {
         "id": 340403802,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "lit": "yes",
@@ -1580,6 +1599,7 @@
       "properties": {
         "id": 340403803,
         "avgspeed": "30",
+        "designation": "city_road",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
@@ -1704,6 +1724,14 @@
             -6.9516206
           ],
           [
+            107.6104355,
+            -6.951364
+          ],
+          [
+            107.6103879,
+            -6.9512162
+          ],
+          [
             107.6103079,
             -6.9509754
           ],
@@ -1724,6 +1752,7 @@
       "properties": {
         "id": 340405402,
         "cycleway:both": "no",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "lit": "no",
@@ -2183,6 +2212,10 @@
             -6.9868137
           ],
           [
+            107.6326529,
+            -6.987015
+          ],
+          [
             107.6324776,
             -6.987975
           ],
@@ -2305,7 +2338,7 @@
             -7.0238691
           ],
           [
-            107.6626192,
+            107.6626337,
             -7.0238764
           ],
           [
@@ -2329,6 +2362,10 @@
             -7.0238825
           ],
           [
+            107.6632997,
+            -7.0238887
+          ],
+          [
             107.6633187,
             -7.0238895
           ],
@@ -2345,7 +2382,7 @@
             -7.0238994
           ],
           [
-            107.6638252,
+            107.6638759,
             -7.0238988
           ],
           [
@@ -2387,6 +2424,10 @@
           [
             107.6652125,
             -7.0236047
+          ],
+          [
+            107.6653341,
+            -7.0235742
           ],
           [
             107.6654319,
@@ -2597,6 +2638,7 @@
         "id": 556619988,
         "avgspeed": "30",
         "cycleway:both": "no",
+        "designation": "city_road",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
@@ -2685,6 +2727,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -2768,6 +2812,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -3378,7 +3424,7 @@
         "coordinates": [
           [
             107.6061721,
-            -6.9375296
+            -6.9375256
           ],
           [
             107.6061838,
@@ -3420,6 +3466,7 @@
       "properties": {
         "id": 685849478,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "lit": "yes",
@@ -3465,6 +3512,7 @@
       "properties": {
         "id": 685849479,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "lit": "yes",
@@ -3931,6 +3979,7 @@
       "properties": {
         "id": 859329416,
         "cycleway:both": "no",
+        "designation": "city_road",
         "destination:lanes:forward": "Inhoftank;Cibaduyut;Leuwipanjang;Kopo|Batununggal;Buahbatu;Kiaracondong;Cibiru",
         "highway": "primary",
         "lanes": "4",
@@ -4274,6 +4323,7 @@
       "properties": {
         "id": 1079472303,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "lit": "yes",
@@ -4682,6 +4732,7 @@
         "id": 1212464431,
         "avgspeed": "30",
         "cycleway:both": "no",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
@@ -4747,6 +4798,7 @@
       "properties": {
         "id": 1219269820,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Dayeuhkolot",
@@ -4841,6 +4893,7 @@
       "properties": {
         "id": 1234195272,
         "cycleway:both": "no",
+        "designation": "city_road",
         "destination:lanes:backward": "Batununggal;Buahbatu;Kiaracondong;Cibiru|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot|Inhoftank;Cibaduyut;Leuwipanjang;Kopo",
         "destination:ref:lanes:backward": "11|161;4;;|11",
         "highway": "primary",
@@ -4881,6 +4934,7 @@
       "properties": {
         "id": 1246218997,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "lit": "yes",
@@ -5904,6 +5958,7 @@
       "properties": {
         "id": 1436608601,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Mohammad Toha",

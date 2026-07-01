@@ -41,6 +41,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|right"
@@ -175,6 +177,7 @@
       "properties": {
         "id": 4623252,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sindang Sirna",
@@ -219,22 +222,6 @@
           [
             107.5954305,
             -6.8808929
-          ],
-          [
-            107.5955126,
-            -6.8809055
-          ],
-          [
-            107.5957873,
-            -6.8809429
-          ],
-          [
-            107.5962171,
-            -6.8809471
-          ],
-          [
-            107.5963984,
-            -6.8809341
           ]
         ]
       },
@@ -278,6 +265,8 @@
         "lanes": "2",
         "loc_name": "Jalan Dr. Setiabudhi",
         "name": "Jalan Dokter Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
         "oneway": "yes",
         "short_name": "Jalan Dr. Setiabudhi"
       }
@@ -290,6 +279,10 @@
           [
             107.5998881,
             -6.8900645
+          ],
+          [
+            107.6001927,
+            -6.8892748
           ],
           [
             107.6004083,
@@ -540,7 +533,7 @@
       "properties": {
         "id": 55783893,
         "avgspeed": "15",
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "2",
         "width": "5"
       }
@@ -811,7 +804,7 @@
       },
       "properties": {
         "id": 143954415,
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sarimanah",
         "width": "5"
@@ -1153,6 +1146,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|right"
@@ -1548,6 +1543,8 @@
         "loc_name": "Jalan Pasir Kaliki",
         "maxspeed:type": "ID:urban",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -1680,7 +1677,7 @@
       "properties": {
         "id": 318670709,
         "avgspeed": "15",
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sariwangi",
         "width": "3"
@@ -1867,6 +1864,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "no",
         "surface": "asphalt",
         "turn:lanes:forward": "through|through;right"
@@ -1917,7 +1916,7 @@
       },
       "properties": {
         "id": 331425546,
-        "highway": "residential",
+        "highway": "tertiary",
         "name": "Jalan Sarimanah"
       }
     },
@@ -2057,6 +2056,7 @@
       "properties": {
         "id": 416065819,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sindang Sirna",
@@ -2080,6 +2080,10 @@
             -6.8780131
           ],
           [
+            107.5926464,
+            -6.8780071
+          ],
+          [
             107.5924065,
             -6.8780015
           ],
@@ -2100,6 +2104,7 @@
       "properties": {
         "id": 416065820,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sindang Sirna",
@@ -2352,6 +2357,7 @@
       "properties": {
         "id": 621075010,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sindang Sirna",
@@ -2379,6 +2385,7 @@
         "id": 621075011,
         "avgspeed": "30",
         "bridge": "yes",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
@@ -2424,6 +2431,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt",
@@ -2961,6 +2970,8 @@
         "loc_name": "Jalan Pasir Kaliki",
         "maxspeed:type": "ID:urban",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "no",
         "parking:both": "on_kerb",
         "parking:both:orientation": "perpendicular",
@@ -3251,6 +3262,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
         "oneway": "yes",
         "ref": "2340",
         "reg_ref": "22-10-2340",
@@ -3409,7 +3422,7 @@
       "properties": {
         "id": 1220608945,
         "avgspeed": "15",
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "2",
         "width": "5"
       }
@@ -3807,7 +3820,7 @@
       },
       "properties": {
         "id": 1424957988,
-        "highway": "residential",
+        "highway": "tertiary",
         "name": "Jalan Sarimanah"
       }
     },
@@ -3850,8 +3863,8 @@
             -6.9132166
           ],
           [
-            107.5864102,
-            -6.9130448
+            107.586425,
+            -6.9130541
           ]
         ]
       },
@@ -3871,8 +3884,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5864102,
-            -6.9130448
+            107.586425,
+            -6.9130541
           ],
           [
             107.5860843,
@@ -3913,6 +3926,42 @@
         "oneway": "yes",
         "ref": "1007",
         "reg_ref": "22-10-1007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5954305,
+            -6.8808929
+          ],
+          [
+            107.5955126,
+            -6.8809055
+          ],
+          [
+            107.5957873,
+            -6.8809429
+          ],
+          [
+            107.5962171,
+            -6.8809471
+          ],
+          [
+            107.5963984,
+            -6.8809341
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1503248626,
+        "avgspeed": "15",
+        "highway": "residential",
+        "name": "Jalan Sirna Galih",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     }
   ]

@@ -556,6 +556,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -719,15 +721,18 @@
       },
       "properties": {
         "id": 4637821,
+        "alt_name": "Jalan Martanegara",
         "avgspeed": "30",
+        "designation": "city_road",
         "destination:lanes": "Palasari;Sadakeling;Burangrang|Talaga Bodas;Gatot Subroto;Laswi",
         "destination:ref:lanes": "|376",
         "foot": "no",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Raden Adipati Aria Martanegara",
+        "name": "Jalan R.A.A. Martanegara",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "3395",
         "sidewalk:left": "separate",
         "surface": "asphalt",
         "turn:lanes": "slight_right|right"
@@ -745,16 +750,62 @@
           [
             107.6349144,
             -6.9317675
+          ],
+          [
+            107.6349593,
+            -6.9315874
+          ],
+          [
+            107.6349787,
+            -6.9315093
+          ],
+          [
+            107.6349977,
+            -6.9314343
+          ],
+          [
+            107.6350129,
+            -6.931374
+          ],
+          [
+            107.6350713,
+            -6.9311431
+          ],
+          [
+            107.6350864,
+            -6.931084
+          ],
+          [
+            107.6351532,
+            -6.9308208
+          ],
+          [
+            107.6352273,
+            -6.9305365
+          ],
+          [
+            107.6353063,
+            -6.9302285
+          ],
+          [
+            107.635324,
+            -6.930155
+          ],
+          [
+            107.6353583,
+            -6.9300131
           ]
         ]
       },
       "properties": {
         "id": 4639547,
         "avgspeed": "30",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Turangga",
         "parking:both": "no",
+        "ref": "3686",
         "surface": "asphalt"
       }
     },
@@ -911,8 +962,8 @@
             -6.9104109
           ],
           [
-            107.6083153,
-            -6.9103794
+            107.6082804,
+            -6.9103861
           ],
           [
             107.6083655,
@@ -1013,8 +1064,12 @@
             -6.9255282
           ],
           [
-            107.6323472,
-            -6.9256467
+            107.6323215,
+            -6.9256449
+          ],
+          [
+            107.6324003,
+            -6.9256695
           ],
           [
             107.6324746,
@@ -1048,6 +1103,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "parking:both": "no",
         "surface": "asphalt"
@@ -1445,6 +1502,10 @@
             -6.9093468
           ],
           [
+            107.5786212,
+            -6.9095084
+          ],
+          [
             107.5785977,
             -6.9096065
           ],
@@ -1651,7 +1712,7 @@
           ],
           [
             107.6090523,
-            -6.912686
+            -6.9126675
           ],
           [
             107.6090858,
@@ -2192,12 +2253,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6278443,
-            -6.9243306
+            107.627857,
+            -6.9243366
           ],
           [
-            107.6278544,
-            -6.9243867
+            107.6278685,
+            -6.924388
           ],
           [
             107.6278814,
@@ -2304,12 +2365,12 @@
             -6.9142949
           ],
           [
-            107.6391098,
-            -6.9143026
+            107.6390974,
+            -6.9143035
           ],
           [
-            107.6389687,
-            -6.9143205
+            107.6389372,
+            -6.914324
           ],
           [
             107.6388474,
@@ -2441,6 +2502,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -2573,56 +2636,56 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6288476,
-            -6.9230097
+            107.6288628,
+            -6.9229966
           ],
           [
-            107.6286858,
+            107.6287051,
             -6.9231187
           ],
           [
-            107.628583,
-            -6.9231971
+            107.6285911,
+            -6.9232001
           ],
           [
-            107.628492,
-            -6.9232749
+            107.6284961,
+            -6.9232789
           ],
           [
-            107.6283685,
-            -6.9233848
+            107.6283736,
+            -6.9233878
           ],
           [
-            107.6282265,
-            -6.9235462
+            107.6282195,
+            -6.9235671
           ],
           [
-            107.6282093,
-            -6.9235674
-          ],
-          [
-            107.6281279,
+            107.6281442,
             -6.9236677
           ],
           [
-            107.6280852,
-            -6.9237354
+            107.6280945,
+            -6.9237366
           ],
           [
-            107.6280376,
+            107.6280446,
             -6.9238171
           ],
           [
-            107.6279805,
+            107.6279922,
             -6.9239465
           ],
           [
-            107.6279159,
-            -6.9241069
+            107.6279346,
+            -6.9241057
           ],
           [
-            107.6278443,
-            -6.9243306
+            107.6278761,
+            -6.92428
+          ],
+          [
+            107.627857,
+            -6.9243366
           ]
         ]
       },
@@ -2794,12 +2857,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6306365,
-            -6.921787
+            107.6306517,
+            -6.921792
           ],
           [
-            107.6305761,
-            -6.9219243
+            107.6306076,
+            -6.9219152
           ]
         ]
       },
@@ -2825,48 +2888,52 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6314414,
-            -6.9186602
+            107.6314582,
+            -6.9186505
           ],
           [
-            107.6314309,
-            -6.9187001
+            107.6314521,
+            -6.9187098
           ],
           [
-            107.6311398,
-            -6.9198103
+            107.6311743,
+            -6.9198076
           ],
           [
-            107.6310928,
-            -6.9199846
+            107.6311548,
+            -6.9198845
           ],
           [
-            107.6310829,
-            -6.9200235
+            107.6311255,
+            -6.9199916
           ],
           [
-            107.6310462,
-            -6.9201628
+            107.6311165,
+            -6.9200314
           ],
           [
-            107.6308494,
-            -6.9209038
+            107.6310834,
+            -6.9201567
           ],
           [
-            107.6307725,
-            -6.921235
+            107.6310196,
+            -6.9203743
           ],
           [
-            107.6307652,
-            -6.9212784
+            107.6308919,
+            -6.9209029
           ],
           [
-            107.6307509,
-            -6.9213397
+            107.6307944,
+            -6.9212635
           ],
           [
-            107.6306365,
-            -6.921787
+            107.6307757,
+            -6.9213371
+          ],
+          [
+            107.6306517,
+            -6.921792
           ]
         ]
       },
@@ -3135,6 +3202,10 @@
             -6.9154703
           ],
           [
+            107.6064784,
+            -6.9154686
+          ],
+          [
             107.6063683,
             -6.9154661
           ],
@@ -3232,6 +3303,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "parking:both": "no",
         "surface": "asphalt"
@@ -3651,13 +3724,15 @@
       },
       "properties": {
         "id": 991848812,
-        "alt_name": "Jalan Lodaya",
+        "alt_name": "Jalan Martanegara",
+        "designation": "city_road",
         "destination": "Palasari;Burangrang;Karapitan",
         "foot": "no",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Raden Adipati Aria Martanegara",
+        "name": "Jalan R.A.A. Martanegara",
         "oneway": "yes",
+        "ref": "3395",
         "surface": "asphalt"
       }
     },
@@ -3682,6 +3757,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "parking:both": "no",
         "surface": "asphalt"
@@ -3783,8 +3860,8 @@
             -6.9157548
           ],
           [
-            107.6045263,
-            -6.9155905
+            107.6045273,
+            -6.915589
           ],
           [
             107.604546,
@@ -3798,6 +3875,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -3864,10 +3943,12 @@
       "properties": {
         "id": 1111159975,
         "avgspeed": "30",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Turangga",
         "parking:both": "no",
+        "ref": "3686",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
@@ -3893,6 +3974,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "parking:both": "no",
         "surface": "asphalt"
@@ -3933,8 +4016,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6292923,
-            -6.9227879
+            107.6292933,
+            -6.9227899
           ],
           [
             107.6291685,
@@ -3945,8 +4028,8 @@
             -6.9229361
           ],
           [
-            107.6288476,
-            -6.9230097
+            107.6288628,
+            -6.9229966
           ]
         ]
       },
@@ -3969,12 +4052,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6305761,
-            -6.9219243
+            107.6306076,
+            -6.9219152
           ],
           [
-            107.6305225,
-            -6.9220301
+            107.6305418,
+            -6.9220442
           ],
           [
             107.6304603,
@@ -3994,11 +4077,11 @@
           ],
           [
             107.6295282,
-            -6.9226745
+            -6.9226765
           ],
           [
-            107.6292923,
-            -6.9227879
+            107.6292933,
+            -6.9227899
           ]
         ]
       },
@@ -4328,16 +4411,19 @@
       },
       "properties": {
         "id": 1211273257,
+        "alt_name": "Jalan Martanegara",
         "avgspeed": "30",
+        "designation": "city_road",
         "destination": "Simpang Martanegara",
         "destination:lanes": "Buahbatu;BKR;Tegallega|Palasari;Sadakeling;Burangrang|Talaga Bodas;Gatot Subroto;Laswi",
         "destination:ref:lanes": "376||376",
         "foot": "no",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "3",
-        "name": "Jalan Raden Adipati Aria Martanegara",
+        "name": "Jalan R.A.A. Martanegara",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "3395",
         "sidewalk:left": "separate",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_right|right"
@@ -4412,16 +4498,19 @@
       },
       "properties": {
         "id": 1220202125,
+        "alt_name": "Jalan Martanegara",
         "avgspeed": "30",
+        "designation": "city_road",
         "destination:backward": "Simpang Martanegara",
         "destination:forward": "Turangga",
         "destination:lanes:backward": "Buahbatu;BKR;Tegallega|Palasari;Sadakeling;Burangrang|Talaga Bodas;Gatot Subroto;Laswi",
         "destination:lanes:forward": "Turangga;Reog|Solontongan;Kliningan",
         "destination:ref:lanes:backward": "376||376",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Raden Adipati Aria Martanegara",
+        "name": "Jalan R.A.A. Martanegara",
         "parking:both": "no",
+        "ref": "3395",
         "sidewalk:both": "separate",
         "surface": "asphalt",
         "turn:lanes:backward": "slight_left|slight_right|right",
@@ -4564,6 +4653,10 @@
             -6.9120185
           ],
           [
+            107.5729439,
+            -6.9120247
+          ],
+          [
             107.573014,
             -6.9120524
           ],
@@ -4676,7 +4769,7 @@
       "properties": {
         "id": 1222053567,
         "highway": "tertiary",
-        "name": "Jalan Raden Adipati Aria Martanegara",
+        "name": "Jalan R.A.A/ Martanegara",
         "surface": "asphalt"
       }
     },
@@ -4800,8 +4893,8 @@
             -6.9185925
           ],
           [
-            107.6314414,
-            -6.9186602
+            107.6314582,
+            -6.9186505
           ]
         ]
       },
@@ -5895,6 +5988,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "parking:both": "no",
         "surface": "asphalt"
@@ -5920,6 +6015,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -5948,6 +6045,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -5972,6 +6071,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -5996,6 +6097,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -6024,6 +6127,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -6048,6 +6153,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -6072,6 +6179,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -6096,6 +6205,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -6267,8 +6378,8 @@
             -6.9132166
           ],
           [
-            107.5864102,
-            -6.9130448
+            107.586425,
+            -6.9130541
           ]
         ]
       },
@@ -6288,8 +6399,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5864102,
-            -6.9130448
+            107.586425,
+            -6.9130541
           ],
           [
             107.5860843,
@@ -7004,6 +7115,10 @@
             -6.9215112
           ],
           [
+            107.6100483,
+            -6.9214995
+          ],
+          [
             107.6099811,
             -6.9214915
           ]
@@ -7101,172 +7216,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6349144,
-            -6.9317675
-          ],
-          [
-            107.6349787,
-            -6.9315093
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1450888849,
-        "avgspeed": "30",
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Turangga",
-        "parking:both": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6349787,
-            -6.9315093
-          ],
-          [
-            107.6349977,
-            -6.9314343
-          ],
-          [
-            107.6350129,
-            -6.931374
-          ],
-          [
-            107.6350713,
-            -6.9311431
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1450888850,
-        "avgspeed": "30",
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Turangga",
-        "parking:both": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6350713,
-            -6.9311431
-          ],
-          [
-            107.6350864,
-            -6.931084
-          ],
-          [
-            107.6351532,
-            -6.9308208
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1450888851,
-        "avgspeed": "30",
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Turangga",
-        "parking:both": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6351532,
-            -6.9308208
-          ],
-          [
-            107.6352273,
-            -6.9305365
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1450888852,
-        "avgspeed": "30",
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Turangga",
-        "parking:both": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6352273,
-            -6.9305365
-          ],
-          [
-            107.6353063,
-            -6.9302285
-          ],
-          [
-            107.635324,
-            -6.930155
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1450888853,
-        "avgspeed": "30",
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Turangga",
-        "parking:both": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.635324,
-            -6.930155
-          ],
-          [
-            107.6353583,
-            -6.9300131
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1450888854,
-        "avgspeed": "30",
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Turangga",
-        "parking:both": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6353583,
             -6.9300131
           ],
@@ -7278,29 +7227,6 @@
             107.6354571,
             -6.9296186
           ],
-          [
-            107.6355016,
-            -6.9294512
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1450888855,
-        "avgspeed": "30",
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Turangga",
-        "parking:both": "no",
-        "sidewalk:left": "separate",
-        "sidewalk:right": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [
             107.6355016,
             -6.9294512
@@ -7324,12 +7250,14 @@
         ]
       },
       "properties": {
-        "id": 1450888856,
+        "id": 1450888855,
         "avgspeed": "30",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Turangga",
         "parking:both": "no",
+        "ref": "3686",
         "sidewalk:left": "separate",
         "sidewalk:right": "yes",
         "surface": "asphalt"
@@ -7369,10 +7297,12 @@
       "properties": {
         "id": 1450888857,
         "avgspeed": "30",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Turangga",
         "parking:both": "no",
+        "ref": "3686",
         "sidewalk:left": "separate",
         "sidewalk:right": "yes",
         "surface": "asphalt"

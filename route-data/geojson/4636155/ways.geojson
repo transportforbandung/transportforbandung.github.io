@@ -493,6 +493,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
         "surface": "asphalt"
       }
     },
@@ -548,6 +550,14 @@
           [
             107.6143118,
             -6.9323443
+          ],
+          [
+            107.6141925,
+            -6.932314
+          ],
+          [
+            107.6137848,
+            -6.9322069
           ],
           [
             107.6137396,
@@ -740,7 +750,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6211747,
+            107.6211862,
             -6.9092178
           ],
           [
@@ -820,6 +830,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Aceh",
+        "oneway": "no",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -856,6 +868,8 @@
         "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1069,8 +1083,8 @@
             -6.8956408
           ],
           [
-            107.6431237,
-            -6.8954477
+            107.6431331,
+            -6.895462
           ],
           [
             107.6429808,
@@ -1338,6 +1352,8 @@
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "380",
@@ -1390,7 +1406,7 @@
             -6.9092725
           ],
           [
-            107.6211354,
+            107.6211274,
             -6.9093568
           ]
         ]
@@ -1402,6 +1418,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Aceh",
+        "oneway": "no",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -1779,6 +1797,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
         "surface": "asphalt"
       }
     },
@@ -1834,6 +1854,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
         "surface": "asphalt"
       }
     },
@@ -1903,7 +1925,8 @@
         "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Aceh 108",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1948,6 +1971,10 @@
             -6.9269957
           ],
           [
+            107.6170453,
+            -6.9265058
+          ],
+          [
             107.6170698,
             -6.926403
           ],
@@ -1956,12 +1983,16 @@
             -6.9261533
           ],
           [
-            107.6171409,
-            -6.9260783
+            107.6171516,
+            -6.9260424
           ],
           [
             107.6171976,
             -6.9258111
+          ],
+          [
+            107.6172158,
+            -6.92572
           ],
           [
             107.6173169,
@@ -2376,7 +2407,9 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Abdul Haris Nasution",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "turn:lanes": "through|through;right"
       }
@@ -2401,7 +2434,9 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Abdul Haris Nasution",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "turn:lanes": "left;through|through;right"
       }
@@ -2506,7 +2541,9 @@
         "id": 561411466,
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Brigjend. Katamso"
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo"
       }
     },
     {
@@ -2530,7 +2567,9 @@
         "highway": "secondary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Brigjend. Katamso"
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo"
       }
     },
     {
@@ -2558,11 +2597,10 @@
       },
       "properties": {
         "id": 734028484,
-        "alt_name": "Jalan Suci",
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan PH. H. Mustofa",
+        "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes"
       }
     },
@@ -2572,11 +2610,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6211354,
+            107.6211274,
             -6.9093568
           ],
           [
-            107.6211747,
+            107.6211862,
             -6.9092178
           ]
         ]
@@ -2587,7 +2625,7 @@
         "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Menado",
+        "name": "Jalan Aceh",
         "oneway": "no",
         "parking:both": "no",
         "surface": "asphalt"
@@ -2806,6 +2844,8 @@
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "oneway": "yes",
         "ref": "2228",
         "reg_ref": "22-10-2228",
@@ -2892,7 +2932,9 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Abdul Haris Nasution",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes"
       }
     },
@@ -3037,6 +3079,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3082,6 +3126,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3158,6 +3204,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3183,11 +3231,10 @@
       },
       "properties": {
         "id": 1430454716,
-        "alt_name": "Jalan Suci",
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan PH. H. Mustofa",
+        "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes"
       }
     },

@@ -1764,22 +1764,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.8329377,
-            -6.9814167
-          ],
-          [
-            107.8330956,
-            -6.9816325
-          ],
-          [
-            107.8332121,
-            -6.9818006
-          ],
-          [
-            107.8333005,
-            -6.9819165
-          ],
-          [
             107.8333217,
             -6.9819363
           ],
@@ -3265,6 +3249,41 @@
         "highway": "residential",
         "name": "Jalan Stasiun Cicalengka",
         "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.8329377,
+            -6.9814167
+          ],
+          [
+            107.8330956,
+            -6.9816325
+          ],
+          [
+            107.8332121,
+            -6.9818006
+          ],
+          [
+            107.8333005,
+            -6.9819165
+          ],
+          [
+            107.8333217,
+            -6.9819363
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1507907861,
+        "highway": "residential",
+        "name": "Jalan Stasiun Cicalengka",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate"
       }
     }
   ]

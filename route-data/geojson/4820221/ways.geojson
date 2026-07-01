@@ -95,6 +95,7 @@
       "properties": {
         "id": 42796894,
         "avgspeed": "20",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
@@ -219,13 +220,14 @@
           ],
           [
             107.536695,
-            -6.892527
+            -6.8925331
           ]
         ]
       },
       "properties": {
         "id": 42796908,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
@@ -250,6 +252,7 @@
       "properties": {
         "id": 42796909,
         "bridge": "yes",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
@@ -274,11 +277,13 @@
       },
       "properties": {
         "id": 339694302,
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Baros",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "surface": "asphalt"
       }
     },
     {
@@ -338,11 +343,13 @@
       },
       "properties": {
         "id": 339790390,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Stasiun",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "30"
       }
     },
     {
@@ -379,11 +386,15 @@
       "properties": {
         "id": 385643848,
         "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "surface": "asphalt"
       }
     },
     {
@@ -504,9 +515,11 @@
       "properties": {
         "id": 385643860,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
+        "ref": "82",
         "source": "Yahoo hires"
       }
     },
@@ -532,10 +545,12 @@
       "properties": {
         "id": 390344973,
         "avgspeed": "20",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
         "oneway": "yes",
+        "ref": "82",
         "source": "Yahoo hires"
       }
     },
@@ -661,8 +676,8 @@
             -6.8999069
           ],
           [
-            107.5485491,
-            -6.9001557
+            107.5485685,
+            -6.9001477
           ],
           [
             107.5484291,
@@ -673,8 +688,8 @@
             -6.9002452
           ],
           [
-            107.5480695,
-            -6.900295
+            107.5480702,
+            -6.9003017
           ],
           [
             107.5479602,
@@ -733,12 +748,14 @@
       "properties": {
         "id": 553702494,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
         "oneway": "no",
+        "ref": "82",
         "source": "Yahoo hires",
-        "width": "7"
+        "width": "6"
       }
     },
     {
@@ -774,10 +791,12 @@
       },
       "properties": {
         "id": 553702495,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
         "oneway": "yes",
+        "ref": "82",
         "width": "4"
       }
     },
@@ -824,10 +843,12 @@
         "id": 569884943,
         "avgspeed": "30",
         "bridge": "yes",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Mahar Martanegara",
+        "ref": "82",
         "source": "Yahoo hires"
       }
     },
@@ -881,9 +902,11 @@
       "properties": {
         "id": 569884946,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
+        "ref": "82",
         "source": "Yahoo hires",
         "width": "7"
       }
@@ -914,6 +937,7 @@
       "properties": {
         "id": 569885047,
         "avgspeed": "20",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
@@ -959,10 +983,13 @@
       },
       "properties": {
         "id": 572290195,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan H.M.S. Mintaredja SH",
         "oneway": "yes",
+        "ref": "93",
+        "surface": "asphalt",
         "width": "6"
       }
     },
@@ -1027,11 +1054,15 @@
       },
       "properties": {
         "id": 575479819,
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
         "oneway": "yes",
-        "ref": "170"
+        "parking:both": "no",
+        "ref": "170",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -1070,23 +1101,21 @@
             -6.8925069
           ],
           [
-            107.5378661,
-            -6.8925216
-          ],
-          [
-            107.5378029,
-            -6.8925225
+            107.5378456,
+            -6.8925336
           ]
         ]
       },
       "properties": {
         "id": 763065987,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan H.M.S. Mintaredja SH",
         "oneway": "yes",
+        "ref": "93",
         "width": "6"
       }
     },
@@ -1111,10 +1140,13 @@
       },
       "properties": {
         "id": 763065988,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "3",
         "name": "Jalan H.M.S. Mintaredja SH",
         "oneway": "yes",
+        "ref": "93",
+        "surface": "asphalt",
         "width": "6"
       }
     },
@@ -1124,24 +1156,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5398425,
-            -6.8924637
+            107.5394234,
+            -6.8924498
           ],
           [
-            107.5397456,
-            -6.8924937
+            107.539365,
+            -6.8924786
           ],
           [
-            107.5396528,
-            -6.8924973
+            107.5393296,
+            -6.8924911
           ],
           [
-            107.5395012,
-            -6.8924992
-          ],
-          [
-            107.5393338,
-            -6.8925012
+            107.5392696,
+            -6.8924989
           ],
           [
             107.5390697,
@@ -1156,11 +1184,14 @@
       "properties": {
         "id": 763065989,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan H.M.S. Mintaredja SH",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "93",
+        "surface": "asphalt"
       }
     },
     {
@@ -1173,37 +1204,32 @@
             -6.8924181
           ],
           [
-            107.5393348,
-            -6.8924179
+            107.5392379,
+            -6.8924144
           ],
           [
-            107.5394727,
-            -6.8924179
+            107.5393006,
+            -6.8924174
           ],
           [
-            107.539528,
-            -6.8924179
+            107.5393496,
+            -6.8924231
           ],
           [
-            107.5396507,
-            -6.8924178
-          ],
-          [
-            107.5397411,
-            -6.8924266
-          ],
-          [
-            107.5398425,
-            -6.8924637
+            107.5394234,
+            -6.8924498
           ]
         ]
       },
       "properties": {
         "id": 763065990,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan H.M.S. Mintaredja SH",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "93",
+        "surface": "asphalt"
       }
     },
     {
@@ -1212,27 +1238,30 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5378029,
-            -6.8925225
+            107.5378456,
+            -6.8925336
           ],
           [
-            107.5368721,
-            -6.8925279
+            107.5367649,
+            -6.8925364
           ],
           [
             107.536695,
-            -6.892527
+            -6.8925331
           ]
         ]
       },
       "properties": {
         "id": 774161636,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "3",
         "motorcycle": "yes",
         "name": "Jalan H.M.S. Mintaredja SH",
         "oneway": "yes",
+        "ref": "93",
+        "surface": "asphalt",
         "width": "6"
       }
     },
@@ -1254,9 +1283,12 @@
       "properties": {
         "id": 892172995,
         "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "ref": "170"
       }
@@ -1279,9 +1311,12 @@
       "properties": {
         "id": 909519329,
         "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "ref": "170"
       }
@@ -1328,9 +1363,11 @@
       "properties": {
         "id": 939807607,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
+        "ref": "82",
         "source": "Yahoo hires"
       }
     },
@@ -1355,11 +1392,13 @@
       },
       "properties": {
         "id": 975117502,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Stasiun",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "30"
       }
     },
     {
@@ -1379,11 +1418,13 @@
       },
       "properties": {
         "id": 975117503,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Stasiun",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "30"
       }
     },
     {
@@ -1412,6 +1453,7 @@
       "properties": {
         "id": 1059257079,
         "avgspeed": "20",
+        "designation": "provincial_road",
         "highway": "primary",
         "junction": "roundabout",
         "lanes": "2",
@@ -1446,10 +1488,12 @@
       },
       "properties": {
         "id": 1085542567,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
         "oneway": "yes",
+        "ref": "82",
         "width": "4"
       }
     },
@@ -1470,7 +1514,7 @@
       },
       "properties": {
         "id": 1109715772,
-        "highway": "secondary_link",
+        "highway": "primary_link",
         "lanes": "2",
         "oneway": "yes"
       }
@@ -1496,10 +1540,12 @@
       },
       "properties": {
         "id": 1109759245,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -1519,10 +1565,12 @@
       },
       "properties": {
         "id": 1110056393,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -1554,10 +1602,12 @@
       },
       "properties": {
         "id": 1111874208,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "3",
         "name": "Jalan H.M.S. Mintaredja SH",
         "oneway": "yes",
+        "ref": "93",
         "width": "6"
       }
     },
@@ -1648,9 +1698,11 @@
       "properties": {
         "id": 1267042537,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Mahar Martanegara"
+        "name": "Jalan Mahar Martanegara",
+        "ref": "82"
       }
     },
     {
@@ -1672,10 +1724,12 @@
         "id": 1267042538,
         "avgspeed": "30",
         "bridge": "yes",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Mahar Martanegara"
+        "name": "Jalan Mahar Martanegara",
+        "ref": "82"
       }
     },
     {
@@ -1696,9 +1750,11 @@
       "properties": {
         "id": 1364319051,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
+        "ref": "82",
         "source": "Yahoo hires"
       }
     },
@@ -1731,10 +1787,12 @@
       },
       "properties": {
         "id": 1364573708,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -1804,11 +1862,14 @@
       },
       "properties": {
         "id": 1364573711,
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
         "oneway": "yes",
         "ref": "170",
+        "sidewalk": "left",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -1841,11 +1902,13 @@
       },
       "properties": {
         "id": 1468273931,
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
         "oneway": "yes",
         "ref": "170",
+        "surface": "asphalt",
         "width": "6"
       }
     }

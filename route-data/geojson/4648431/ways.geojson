@@ -63,9 +63,11 @@
       "properties": {
         "id": 318490789,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "width": "4.5"
       }
     },
@@ -626,10 +628,12 @@
         "id": 703837308,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "width": "4"
       }
     },
@@ -651,8 +655,10 @@
       "properties": {
         "id": 807117137,
         "avgspeed": "25",
-        "highway": "tertiary",
-        "name": "Jalan Marga Cinta"
+        "designation": "city_road",
+        "highway": "primary",
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -693,9 +699,11 @@
       "properties": {
         "id": 1271974938,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "width": "4"
       }
     },
@@ -718,10 +726,12 @@
         "id": 1271974939,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "width": "4"
       }
     },
@@ -743,10 +753,12 @@
       "properties": {
         "id": 1364319039,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Marga Cinta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "6080"
       }
     }
   ]

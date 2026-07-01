@@ -111,6 +111,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "oneway": "yes",
         "ref": "2318",
         "reg_ref": "22-10-2318",
@@ -214,11 +216,11 @@
           ],
           [
             107.6090001,
-            -6.9151232
+            -6.9151162
           ],
           [
-            107.6090001,
-            -6.9151605
+            107.6089998,
+            -6.9151478
           ],
           [
             107.6089988,
@@ -283,8 +285,12 @@
             -6.9139315
           ],
           [
-            107.6091984,
-            -6.9138697
+            107.6096401,
+            -6.9139177
+          ],
+          [
+            107.6091737,
+            -6.9138665
           ],
           [
             107.609095,
@@ -920,6 +926,7 @@
         "highway": "secondary",
         "lanes": "3",
         "layer": "1",
+        "maxweight:signed": "no",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
@@ -1441,7 +1448,7 @@
           ],
           [
             107.6104424,
-            -6.912768
+            -6.9127679
           ],
           [
             107.6103525,
@@ -1581,6 +1588,8 @@
         "lanes": "3",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "oneway": "yes",
         "ref": "2318",
         "reg_ref": "22-10-2318",
@@ -2031,7 +2040,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "no",
-        "width": "3 m"
+        "width": "3"
       }
     },
     {
@@ -2886,6 +2895,8 @@
         "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
         "sidewalk": "separate",
@@ -3948,9 +3959,14 @@
       },
       "properties": {
         "id": 886057644,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Guru Gantangan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -4046,9 +4062,14 @@
       },
       "properties": {
         "id": 886057645,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Guru Gantangan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -6645,6 +6666,10 @@
           [
             107.6101457,
             -6.9215112
+          ],
+          [
+            107.6100483,
+            -6.9214995
           ],
           [
             107.6099811,

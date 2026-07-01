@@ -42,8 +42,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6030002,
-            -6.9372376
+            107.6030015,
+            -6.937215
           ],
           [
             107.6030097,
@@ -84,6 +84,8 @@
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -205,6 +207,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "slight_right|right"
@@ -411,6 +415,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -439,6 +445,8 @@
         "lanes": "3",
         "layer": "1",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "left;through|through|through"
@@ -465,6 +473,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "left;through|through|through"
@@ -557,6 +567,10 @@
           [
             107.6018666,
             -6.9314246
+          ],
+          [
+            107.6018436,
+            -6.9313556
           ],
           [
             107.6017942,
@@ -761,6 +775,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left;through|slight_right"
@@ -852,7 +868,10 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Soekarno Hatta Frontage Boulevard",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -881,6 +900,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes"
       }
     },
@@ -924,7 +945,10 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Soekarno Hatta Frontage Boulevard",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -953,6 +977,8 @@
         "maxweight:signed": "no",
         "motorcycle": "designated",
         "name": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -993,7 +1019,10 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Soekarno Hatta Frontage Boulevard",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes"
       }
     },
@@ -1067,6 +1096,8 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes"
       }
     },
@@ -1132,6 +1163,10 @@
             -6.9397667
           ],
           [
+            107.6601823,
+            -6.9398122
+          ],
+          [
             107.6600955,
             -6.939832
           ],
@@ -1180,6 +1215,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1207,6 +1244,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|through"
@@ -1539,16 +1578,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.604469,
-            -6.9374642
+            107.6044934,
+            -6.9374561
           ],
           [
-            107.6043625,
-            -6.9374545
+            107.604396,
+            -6.9374454
           ],
           [
             107.6036889,
-            -6.9373934
+            -6.9373854
           ],
           [
             107.6032992,
@@ -1635,6 +1674,8 @@
         "maxweight:signed": "no",
         "motorcycle": "designated",
         "name": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1667,6 +1708,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes"
       }
     },
@@ -1678,6 +1721,10 @@
           [
             107.6661888,
             -6.9390351
+          ],
+          [
+            107.6660894,
+            -6.9390435
           ],
           [
             107.6659791,
@@ -1716,6 +1763,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left;through|through"
@@ -1744,6 +1793,8 @@
         "layer": "1",
         "motorcycle": "designated",
         "name": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes"
       }
     },
@@ -1761,6 +1812,10 @@
             -6.9377377
           ],
           [
+            107.6843619,
+            -6.9377506
+          ],
+          [
             107.6824446,
             -6.9378809
           ]
@@ -1771,7 +1826,10 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Soekarno Hatta Frontage Boulevard",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2181,6 +2239,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2199,8 +2259,24 @@
             -6.9267271
           ],
           [
-            107.5970516,
-            -6.9266063
+            107.5976669,
+            -6.9266732
+          ],
+          [
+            107.5969993,
+            -6.9266036
+          ],
+          [
+            107.5967868,
+            -6.92658
+          ],
+          [
+            107.5965542,
+            -6.9265542
+          ],
+          [
+            107.5964512,
+            -6.9265428
           ],
           [
             107.5960199,
@@ -2272,8 +2348,8 @@
             -6.9373294
           ],
           [
-            107.6030002,
-            -6.9372376
+            107.6030015,
+            -6.937215
           ]
         ]
       },
@@ -2282,6 +2358,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2315,6 +2393,8 @@
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left|slight_left;through|through"
@@ -2350,6 +2430,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -2380,6 +2462,8 @@
         "layer": "1",
         "maxweight:signed": "no",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -2422,6 +2506,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -2473,6 +2559,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -2512,6 +2600,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -2552,6 +2642,8 @@
         "lanes": "3",
         "lit": "yes",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -2617,6 +2709,8 @@
         "lanes": "3",
         "lit": "yes",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -2648,6 +2742,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -2770,6 +2866,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2805,6 +2903,8 @@
         "lanes": "5",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -2831,6 +2931,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -2869,6 +2971,8 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2926,6 +3030,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "left;through|through|through"
@@ -3333,12 +3439,16 @@
             -6.9375586
           ],
           [
-            107.604578,
-            -6.9374741
+            107.6046591,
+            -6.9374791
           ],
           [
-            107.604469,
-            -6.9374642
+            107.604578,
+            -6.9374674
+          ],
+          [
+            107.6044934,
+            -6.9374561
           ]
         ]
       },
@@ -3386,6 +3496,8 @@
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3410,6 +3522,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -3541,6 +3655,8 @@
         "lanes": "5",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -3585,6 +3701,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -3621,6 +3739,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -3724,6 +3844,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|through;slight_right"
@@ -3763,6 +3885,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|through;slight_right"
@@ -3806,6 +3930,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left;through|through"
@@ -3852,7 +3978,10 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Soekarno Hatta Frontage Boulevard",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left;through|through"
@@ -3879,6 +4008,8 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "reverse;through|none"
@@ -3908,7 +4039,10 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Soekarno Hatta Frontage Boulevard",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|through;slight_right"
@@ -3935,6 +4069,8 @@
         "lanes": "2",
         "motorcycle": "designated",
         "name": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|through"
@@ -3958,6 +4094,10 @@
             -6.9436201
           ],
           [
+            107.6470185,
+            -6.9438874
+          ],
+          [
             107.6467958,
             -6.9439589
           ]
@@ -3970,6 +4110,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "sharp_left;through|through"
@@ -4041,6 +4183,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -4065,7 +4209,10 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Soekarno Hatta Frontage Boulevard",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes"
       }
     },
@@ -4093,6 +4240,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -4126,6 +4275,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -4164,6 +4315,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -4360,6 +4513,10 @@
             -6.9460282
           ],
           [
+            107.6398251,
+            -6.9460936
+          ],
+          [
             107.63913,
             -6.9463163
           ]
@@ -4371,6 +4528,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -4423,6 +4582,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -4464,6 +4625,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|through;slight_right"
@@ -4539,6 +4702,8 @@
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
         "name:en": "Soekarno Hatta Frontage Boulevard",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -4596,6 +4761,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -4633,6 +4800,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|slight_right"
@@ -4652,12 +4821,12 @@
             -6.9184389
           ],
           [
-            107.5840062,
-            -6.9184165
+            107.5840139,
+            -6.918418
           ],
           [
-            107.5839549,
-            -6.918411
+            107.5839721,
+            -6.918413
           ],
           [
             107.583604,
@@ -4690,6 +4859,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -4715,6 +4886,8 @@
         "highway": "primary_link",
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes"
       }
     },
@@ -4819,6 +4992,10 @@
             -6.9459124
           ],
           [
+            107.6404497,
+            -6.9459144
+          ],
+          [
             107.6404414,
             -6.9459162
           ]
@@ -4831,6 +5008,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",

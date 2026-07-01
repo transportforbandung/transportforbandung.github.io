@@ -79,6 +79,10 @@
             -6.9104032
           ],
           [
+            107.6040795,
+            -6.910612
+          ],
+          [
             107.6040749,
             -6.9106747
           ],
@@ -199,6 +203,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "oneway": "yes",
         "ref": "2318",
         "reg_ref": "22-10-2318",
@@ -310,6 +316,10 @@
           [
             107.6071035,
             -6.9074752
+          ],
+          [
+            107.6070242,
+            -6.9074318
           ],
           [
             107.6068765,
@@ -685,11 +695,14 @@
       "properties": {
         "id": 153312971,
         "bicycle": "yes",
+        "destination": "Cikapayang;Pasupati;Pasteur;Djundjunan",
+        "destination:lanes": "Cikapayang;Dago;Tamansari|Pasupati;Pasteur;Djundjunan",
         "foot": "no",
         "highway": "trunk",
         "lanes": "3",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -712,13 +725,17 @@
       "properties": {
         "id": 153315564,
         "bicycle": "yes",
+        "destination": "Gasibu;Aria Jipang;Pasupati;Djundjunan",
+        "destination:lanes": "Diponegoro;Gedung Sate;Citarum|Aria Jipang;Cikapayang;Pasupati",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "1",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through|through"
       }
     },
     {
@@ -795,6 +812,10 @@
             -6.8995517
           ],
           [
+            107.6305872,
+            -6.8993785
+          ],
+          [
             107.6307582,
             -6.8992701
           ]
@@ -803,10 +824,15 @@
       "properties": {
         "id": 153483321,
         "avgspeed": "30",
+        "destination:backward": "Simpang PUSDAI",
+        "destination:forward": "Simpang Jalaprang",
+        "destination:lanes:backward": "Supratman;Diponegoro|Gagak;Gasibu;Pasupati",
+        "destination:lanes:forward": "Jalaprang|Pahlawan;Cikutra;Cicaheum",
         "highway": "trunk",
         "lanes": "4",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt"
@@ -1325,6 +1351,8 @@
         "lanes": "3",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt",
@@ -1376,10 +1404,13 @@
       "properties": {
         "id": 241791694,
         "avgspeed": "30",
+        "destination:backward": "PUSDAI;Jalaprang;Pahlawan;Cicaheum",
+        "destination:forward": "Gasibu;Dago;Cikapayang;Pasupati",
         "highway": "trunk",
         "lanes": "4",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no",
         "surface": "asphalt"
       }
@@ -1436,6 +1467,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -1618,15 +1651,19 @@
       "properties": {
         "id": 318054779,
         "bicycle": "yes",
+        "destination": "Cikapayang;Dago;Tamansari",
+        "destination:lanes": "Dago;Tamansari;Merdeka|Dago;Adipati Ukur;Siliwangi",
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Prabu Dimuntur",
+        "name:en": "Prabu Dimuntur Avenue",
         "oneway": "yes",
         "sidewalk:left": "separate",
         "sidewalk:right": "yes",
         "smoothness": "good",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through;right;reverse"
       }
     },
     {
@@ -1739,6 +1776,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through;reverse"
@@ -2080,6 +2119,10 @@
             -6.8721764
           ],
           [
+            107.6224855,
+            -6.8720303
+          ],
+          [
             107.6224959,
             -6.8719861
           ],
@@ -2221,6 +2264,10 @@
           [
             107.6300217,
             -6.888319
+          ],
+          [
+            107.63,
+            -6.888245
           ],
           [
             107.6299922,
@@ -2413,6 +2460,10 @@
             -6.9191162
           ],
           [
+            107.5899932,
+            -6.9191
+          ],
+          [
             107.5889992,
             -6.9189879
           ],
@@ -2460,6 +2511,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2476,6 +2529,10 @@
           [
             107.5862132,
             -6.9160211
+          ],
+          [
+            107.5867708,
+            -6.9160926
           ],
           [
             107.5869745,
@@ -2701,6 +2758,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -2980,6 +3039,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -3007,6 +3068,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -3191,6 +3254,7 @@
         "lanes:forward": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "turn:lanes:backward": "through|through;right",
         "turn:lanes:forward": "slight_left;slight_right|slight_right;sharp_right"
       }
@@ -3235,6 +3299,10 @@
           [
             107.5763049,
             -6.9313117
+          ],
+          [
+            107.5764914,
+            -6.9319172
           ],
           [
             107.5765033,
@@ -3373,6 +3441,10 @@
             -6.9397265
           ],
           [
+            107.5815443,
+            -6.9401906
+          ],
+          [
             107.5815743,
             -6.9402311
           ],
@@ -3400,6 +3472,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -3451,13 +3525,17 @@
       "properties": {
         "id": 331309155,
         "bicycle": "yes",
+        "destination": "Gasibu;Aria Jipang;Pasupati;Djundjunan",
+        "destination:lanes": "Diponegoro;Gedung Sate;Citarum|Aria Jipang;Cikapayang;Pasupati",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through|through"
       }
     },
     {
@@ -3485,6 +3563,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "ref": "106",
         "reg_ref": "22-00-106-11K",
         "turn:lanes:forward": "slight_left;through|through;right"
@@ -3563,14 +3643,18 @@
       "properties": {
         "id": 340405404,
         "bicycle": "yes",
+        "destination": "Aria Jipang;Cikapayang;Pasupati;Djundjunan",
+        "destination:lanes": "Aria Jipang;Cikapayang|Pasupati;Djundjunan",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "sidewalk": "no",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "slight_left;through|through"
       }
     },
     {
@@ -3688,6 +3772,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "no"
       }
@@ -3728,6 +3814,10 @@
           [
             107.5904657,
             -6.9183674
+          ],
+          [
+            107.5903014,
+            -6.9184759
           ],
           [
             107.5902547,
@@ -3882,11 +3972,16 @@
         "id": 551834876,
         "avgspeed": "30",
         "bridge": "yes",
+        "destination:backward": "Simpang PUSDAI",
+        "destination:forward": "Simpang Jalaprang",
+        "destination:lanes:backward": "Supratman;Diponegoro|Gagak;Gasibu;Pasupati",
+        "destination:lanes:forward": "Jalaprang|Pahlawan;Cikutra;Cicaheum",
         "highway": "trunk",
         "lanes": "4",
         "layer": "1",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no"
       }
     },
@@ -3932,12 +4027,17 @@
       "properties": {
         "id": 551834879,
         "avgspeed": "30",
+        "destination:backward": "Simpang PUSDAI",
+        "destination:forward": "Simpang Jalaprang",
+        "destination:lanes:backward": "Supratman;Diponegoro|Gagak;Gasibu;Pasupati",
+        "destination:lanes:forward": "Jalaprang|Pahlawan;Cikutra;Cicaheum",
         "highway": "trunk",
         "lanes": "4",
         "lanes:backward": "2",
         "lanes:forward": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no",
         "turn:lanes:forward": "left;through|through"
       }
@@ -4082,6 +4182,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "no",
         "surface": "asphalt"
@@ -4146,6 +4248,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "no",
         "surface": "asphalt"
@@ -4218,6 +4322,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "no"
       }
@@ -4271,6 +4377,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "sharp_left|through|through"
@@ -4304,6 +4412,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -4443,16 +4553,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5860408,
-            -6.9219918
-          ],
-          [
             107.5860074,
             -6.9222428
           ],
           [
             107.5858937,
             -6.9228972
+          ],
+          [
+            107.5858209,
+            -6.9235226
           ],
           [
             107.5858172,
@@ -4638,10 +4748,12 @@
       "properties": {
         "id": 718657214,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Caringin",
         "oneway": "yes",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -4877,13 +4989,17 @@
       "properties": {
         "id": 1000979251,
         "bicycle": "yes",
+        "destination": "Aria Jipang;Cikapayang;Pasupati;Djundjunan",
+        "destination:lanes": "Aria Jipang;Cikapayang|Pasupati;Djundjunan",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "slight_left;through|through"
       }
     },
     {
@@ -4912,6 +5028,8 @@
       "properties": {
         "id": 1079472306,
         "bicycle": "yes",
+        "destination": "Cikapayang;Dago;Tamansari",
+        "destination:lanes": "Dago;Tamansari;Merdeka|Dago;Adipati Ukur;Siliwangi",
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
@@ -4919,7 +5037,8 @@
         "oneway": "yes",
         "sidewalk:left": "separate",
         "sidewalk:right": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through;right"
       }
     },
     {
@@ -4975,6 +5094,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through|right"
@@ -5014,6 +5135,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -5083,13 +5206,17 @@
       "properties": {
         "id": 1111831566,
         "bicycle": "yes",
+        "destination": "Gasibu;Aria Jipang;Pasupati;Djundjunan",
+        "destination:lanes": "Diponegoro;Gedung Sate;Citarum|Aria Jipang;Cikapayang;Pasupati",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through|through"
       }
     },
     {
@@ -5195,6 +5322,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left|slight_left|through|through"
@@ -5499,6 +5628,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left;through|through|right"
@@ -5954,10 +6085,13 @@
       "properties": {
         "id": 1222381630,
         "avgspeed": "30",
+        "destination:backward": "PUSDAI;Jalaprang;Pahlawan;Cicaheum",
+        "destination:forward": "Gasibu;Dago;Cikapayang;Pasupati",
         "highway": "trunk",
         "lanes": "4",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt"
@@ -6001,10 +6135,12 @@
       "properties": {
         "id": 1222414518,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Caringin",
         "oneway": "yes",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -6035,6 +6171,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "oneway": "yes",
         "ref": "106",
         "reg_ref": "22-00-106-11K"
@@ -6061,6 +6199,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "oneway": "yes",
         "ref": "106",
         "reg_ref": "22-00-106-11K",
@@ -6087,6 +6227,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -6128,6 +6270,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left|slight_left;through|through"
@@ -6153,6 +6297,10 @@
           [
             107.5774475,
             -6.9299361
+          ],
+          [
+            107.5766146,
+            -6.93025
           ],
           [
             107.5763738,
@@ -6282,6 +6430,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "oneway": "yes",
         "ref": "106",
         "reg_ref": "22-00-106-11K"
@@ -6337,10 +6487,12 @@
       "properties": {
         "id": 1308268698,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Caringin",
         "oneway": "yes",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -6363,11 +6515,13 @@
         "id": 1308268699,
         "avgspeed": "20",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Caringin",
         "oneway": "yes",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -6481,6 +6635,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -6518,6 +6674,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "sharp_left|through|through"
@@ -6629,10 +6787,13 @@
       "properties": {
         "id": 1384073984,
         "avgspeed": "30",
+        "destination:backward": "PUSDAI;Jalaprang;Pahlawan;Cicaheum",
+        "destination:forward": "Gasibu;Dago;Cikapayang;Pasupati",
         "highway": "trunk",
         "lanes": "4",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt"
@@ -6672,6 +6833,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -6703,6 +6866,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -6734,6 +6899,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -6761,15 +6928,19 @@
       "properties": {
         "id": 1391905039,
         "bicycle": "yes",
+        "destination": "Aria Jipang;Cikapayang;Pasupati;Djundjunan",
+        "destination:lanes": "Aria Jipang;Cikapayang|Pasupati;Djundjunan",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "slight_left;through|through"
       }
     },
     {
@@ -6938,8 +7109,8 @@
             -6.9132166
           ],
           [
-            107.5864102,
-            -6.9130448
+            107.586425,
+            -6.9130541
           ]
         ]
       },
@@ -6959,8 +7130,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5864102,
-            -6.9130448
+            107.586425,
+            -6.9130541
           ],
           [
             107.5860843,
@@ -7349,9 +7520,34 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "ref": "106",
         "reg_ref": "22-00-106-11K",
         "turn:lanes:forward": "slight_left;through|through;right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5860408,
+            -6.9219918
+          ],
+          [
+            107.5860074,
+            -6.9222428
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1526726770,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Jamika",
+        "oneway": "yes"
       }
     }
   ]

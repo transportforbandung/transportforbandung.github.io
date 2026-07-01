@@ -92,8 +92,8 @@
             -6.9154679
           ],
           [
-            107.6295976,
-            -6.9148918
+            107.629593,
+            -6.9148704
           ]
         ]
       },
@@ -108,6 +108,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2318",
@@ -226,6 +228,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -434,6 +438,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
@@ -447,8 +453,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6295976,
-            -6.9148918
+            107.629593,
+            -6.9148704
           ],
           [
             107.6295758,
@@ -466,6 +472,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2318",
@@ -609,7 +617,7 @@
           ],
           [
             107.6104424,
-            -6.912768
+            -6.9127679
           ],
           [
             107.6103525,
@@ -728,6 +736,8 @@
         "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
         "sidewalk": "separate",
@@ -796,6 +806,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
@@ -863,8 +875,8 @@
             -6.9205571
           ],
           [
-            107.6018937,
-            -6.9205368
+            107.6018968,
+            -6.9205382
           ],
           [
             107.6018076,
@@ -875,8 +887,8 @@
             -6.9204588
           ],
           [
-            107.6009586,
-            -6.9204246
+            107.6009581,
+            -6.9204271
           ],
           [
             107.6006489,
@@ -898,6 +910,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -1000,6 +1014,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
         "sidewalk": "separate",
@@ -1120,6 +1136,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
         "sidewalk": "separate",
@@ -1186,6 +1204,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
@@ -1203,8 +1223,8 @@
             -6.9210818
           ],
           [
-            107.6059289,
-            -6.9210206
+            107.6059291,
+            -6.9210188
           ],
           [
             107.6050735,
@@ -1291,7 +1311,10 @@
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -1312,8 +1335,8 @@
             -6.9132911
           ],
           [
-            107.6458038,
-            -6.9134826
+            107.6457985,
+            -6.9134589
           ],
           [
             107.6453416,
@@ -1328,7 +1351,10 @@
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -1336,18 +1362,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            107.6518998,
-            -6.9126808
-          ],
-          [
-            107.6518089,
-            -6.9126922
-          ],
-          [
-            107.6516097,
-            -6.9127171
-          ],
           [
             107.6512126,
             -6.9127667
@@ -1359,6 +1373,10 @@
           [
             107.6497949,
             -6.912944
+          ],
+          [
+            107.6494126,
+            -6.9129917
           ],
           [
             107.6492727,
@@ -1393,7 +1411,10 @@
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -1421,6 +1442,7 @@
         "oneway": "yes",
         "ref": "3836",
         "reg_ref": "22-10-3836",
+        "surface": "asphalt",
         "turn:lanes": "through|through;reverse"
       }
     },
@@ -1783,12 +1805,12 @@
             -6.9142949
           ],
           [
-            107.6391098,
-            -6.9143026
+            107.6390974,
+            -6.9143035
           ],
           [
-            107.6389687,
-            -6.9143205
+            107.6389372,
+            -6.914324
           ],
           [
             107.6388474,
@@ -1954,6 +1976,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
         "sidewalk": "separate",
@@ -2210,6 +2234,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
         "sidewalk": "separate",
@@ -2217,7 +2243,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "yes",
-        "width": "4 m"
+        "width": "4"
       }
     },
     {
@@ -2291,10 +2317,12 @@
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
+        "maxweight:signed": "no",
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "surface": "asphalt"
       }
     },
     {
@@ -2428,6 +2456,9 @@
         "oneway": "yes",
         "ref": "3836",
         "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
         "turn:lanes": "slight_left;through|through;reverse"
       }
     },
@@ -2584,7 +2615,9 @@
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -2606,13 +2639,16 @@
         "id": 824490740,
         "bridge": "yes",
         "bridge:name": "Jalan Layang Jaksa Agung R. Soeprapto",
+        "foot": "no",
         "highway": "primary",
         "lanes": "1",
         "layer": "1",
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -3260,6 +3296,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -3271,12 +3309,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6313406,
-            -6.9186978
-          ],
-          [
-            107.6313417,
-            -6.9186813
+            107.6313572,
+            -6.9186866
           ],
           [
             107.6313458,
@@ -3305,16 +3339,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6314414,
-            -6.9186602
+            107.6314582,
+            -6.9186505
           ],
           [
-            107.6313693,
-            -6.9186871
-          ],
-          [
-            107.6313406,
-            -6.9186978
+            107.6313572,
+            -6.9186866
           ]
         ]
       },
@@ -3349,8 +3379,8 @@
             -6.9185925
           ],
           [
-            107.6314414,
-            -6.9186602
+            107.6314582,
+            -6.9186505
           ]
         ]
       },
@@ -3444,6 +3474,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
         "sidewalk": "separate",
@@ -3491,6 +3523,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
         "sidewalk": "separate",
@@ -3697,6 +3731,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -3731,6 +3767,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -3775,7 +3813,7 @@
           ],
           [
             107.6102025,
-            -6.915307
+            -6.9152943
           ],
           [
             107.6101984,
@@ -3840,6 +3878,8 @@
         "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
         "sidewalk": "separate",
@@ -3878,6 +3918,8 @@
         "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
         "sidewalk": "separate",
@@ -3912,6 +3954,8 @@
         "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
         "sidewalk": "separate",
@@ -3950,6 +3994,8 @@
         "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
         "sidewalk": "separate",
@@ -4512,6 +4558,10 @@
             -6.9215112
           ],
           [
+            107.6100483,
+            -6.9214995
+          ],
+          [
             107.6099811,
             -6.9214915
           ]
@@ -4563,6 +4613,40 @@
         "name": "Jalan Asia Afrika",
         "oneway": "yes",
         "sidewalk": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6518998,
+            -6.9126808
+          ],
+          [
+            107.6518089,
+            -6.9126922
+          ],
+          [
+            107.6516097,
+            -6.9127171
+          ],
+          [
+            107.6512126,
+            -6.9127667
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1501285695,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Jakarta",
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
         "surface": "asphalt"
       }
     }

@@ -148,6 +148,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "ref": "2182",
         "sidewalk": "separate",
@@ -179,6 +181,10 @@
             -6.8840166
           ],
           [
+            107.6140088,
+            -6.8843693
+          ],
+          [
             107.6139972,
             -6.884404
           ],
@@ -208,6 +214,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "parking:both": "no",
@@ -247,10 +255,13 @@
         "id": 4623282,
         "avgspeed": "20",
         "cycleway:both": "no",
+        "destination:backward": "Universitas Padjadjaran;Adipati Ukur",
+        "destination:forward": "Rumah Sakit Borromeus;Ganesha",
         "highway": "tertiary",
         "lane_markings": "yes",
         "lanes": "2",
         "name": "Jalan Hasanudin",
+        "name:en": "Hasannudin Parkway",
         "parking:both": "on_kerb",
         "parking:both:orientation": "perpendicular",
         "sidewalk": "no",
@@ -267,15 +278,19 @@
             -6.8925877
           ],
           [
-            107.6180071,
-            -6.8928368
+            107.6180206,
+            -6.89264
           ],
           [
-            107.6180341,
-            -6.8934132
+            107.6180283,
+            -6.8926971
           ],
           [
-            107.6180361,
+            107.6180394,
+            -6.8934141
+          ],
+          [
+            107.6180405,
             -6.8934568
           ]
         ]
@@ -283,9 +298,11 @@
       "properties": {
         "id": 4623302,
         "avgspeed": "15",
+        "destination": "Simpang Cikapayang",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "oneway": "yes",
         "ref": "2137",
         "reg_ref": "22-10-2137",
@@ -315,6 +332,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -513,6 +532,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -897,6 +918,10 @@
             -6.9122063
           ],
           [
+            107.614276,
+            -6.9122351
+          ],
+          [
             107.6142314,
             -6.9122519
           ],
@@ -946,12 +971,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6180383,
-            -6.8938553
+            107.6180243,
+            -6.8939028
           ],
           [
-            107.6179971,
-            -6.8939395
+            107.6180053,
+            -6.8939499
+          ],
+          [
+            107.6178924,
+            -6.8941229
           ],
           [
             107.6178302,
@@ -971,12 +1000,14 @@
         "id": 175071632,
         "access": "yes",
         "bicycle": "yes",
+        "destination": "Simpang Cikapayang",
         "foot": "yes",
         "highway": "secondary",
         "horse": "yes",
         "lanes": "2",
         "motor_vehicle": "yes",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "oneway": "yes",
         "ref": "2137",
         "reg_ref": "22-10-2137",
@@ -1084,6 +1115,10 @@
             -6.8854607
           ],
           [
+            107.6144244,
+            -6.8854715
+          ],
+          [
             107.6144864,
             -6.8855164
           ],
@@ -1100,12 +1135,12 @@
             -6.8857145
           ],
           [
-            107.6147028,
-            -6.8857946
+            107.6147051,
+            -6.8858155
           ],
           [
-            107.6147339,
-            -6.8858823
+            107.6148464,
+            -6.8862613
           ],
           [
             107.6148941,
@@ -1343,7 +1378,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "yes",
-        "width": "4 m"
+        "width": "4"
       }
     },
     {
@@ -1401,6 +1436,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "smoothness": "good",
@@ -1427,11 +1464,13 @@
       "properties": {
         "id": 318729557,
         "bicycle": "yes",
+        "destination": "Simpang Cikapayang",
         "foot": "yes",
         "highway": "secondary",
         "horse": "yes",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "oneway": "yes",
         "ref": "2137",
         "reg_ref": "22-10-2137",
@@ -1473,9 +1512,12 @@
         "id": 318732962,
         "avgspeed": "20",
         "cycleway:both": "no",
+        "destination:backward": "Ganesha;Institut Teknologi Bandung",
+        "destination:forward": "Universitas Padjadjaran;Adipati Ukur",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Jalan Hasanudin",
+        "name:en": "Hasannudin Parkway",
         "parking:left": "no",
         "parking:right": "lane",
         "parking:right:orientation": "parallel",
@@ -1553,6 +1595,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2182",
@@ -1561,7 +1605,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "no",
-        "width": "5 m"
+        "width": "5"
       }
     },
     {
@@ -1663,6 +1707,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "ref": "2182",
         "sidewalk": "separate",
@@ -1678,25 +1724,35 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6180361,
+            107.6180405,
             -6.8934568
           ],
           [
-            107.6180362,
-            -6.8934861
+            107.6180406,
+            -6.8934879
           ],
           [
-            107.6180383,
-            -6.8938553
+            107.6180471,
+            -6.8937485
+          ],
+          [
+            107.6180433,
+            -6.8938273
+          ],
+          [
+            107.6180243,
+            -6.8939028
           ]
         ]
       },
       "properties": {
         "id": 330996293,
         "avgspeed": "15",
+        "destination": "Simpang Cikapayang",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "oneway": "yes",
         "ref": "2137",
         "reg_ref": "22-10-2137",
@@ -1871,9 +1927,12 @@
       },
       "properties": {
         "id": 340400259,
+        "destination:backward": "Universitas Padjadjaran;Sekeloa",
+        "destination:forward": "Simpang Cikapayang",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "ref": "2137",
         "reg_ref": "22-10-2137",
         "surface": "asphalt"
@@ -1994,6 +2053,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "no"
       }
@@ -2110,6 +2171,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "no",
         "surface": "asphalt"
@@ -2174,6 +2237,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "no",
         "surface": "asphalt"
@@ -2246,6 +2311,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "no"
       }
@@ -2277,6 +2344,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "ref": "2182",
         "sidewalk": "separate",
@@ -2373,6 +2442,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -2404,6 +2475,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "ref": "2182",
         "sidewalk": "separate",
@@ -2471,6 +2544,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "ref": "2182",
         "sidewalk": "separate",
@@ -2512,6 +2587,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "ref": "2182",
         "sidewalk": "separate",
@@ -2541,12 +2618,16 @@
             -6.8909264
           ],
           [
+            107.61713,
+            -6.8910441
+          ],
+          [
             107.617163,
             -6.8910925
           ],
           [
-            107.6174257,
-            -6.8915935
+            107.6174351,
+            -6.8916075
           ],
           [
             107.6174672,
@@ -2706,6 +2787,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "ref": "2182",
         "sidewalk": "separate",
@@ -2737,6 +2820,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -2768,6 +2853,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -2807,6 +2894,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -2880,6 +2969,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "ref": "2182",
         "sidewalk": "separate",
@@ -2909,6 +3000,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2955,6 +3048,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -2992,6 +3087,10 @@
           [
             107.6181983,
             -6.8763036
+          ],
+          [
+            107.6181247,
+            -6.8764036
           ],
           [
             107.6178937,
@@ -3082,6 +3181,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -3118,7 +3219,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "yes",
-        "width": "4 m"
+        "width": "4"
       }
     },
     {
@@ -3175,9 +3276,12 @@
         "id": 1222381629,
         "avgspeed": "20",
         "cycleway:both": "no",
+        "destination:backward": "Universitas Padjadjaran;Adipati Ukur",
+        "destination:forward": "Rumah Sakit Borromeus;Ganesha",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Jalan Hasanudin",
+        "name:en": "Hasannudin Parkway",
         "parking:left": "no",
         "parking:right": "half_on_kerb",
         "parking:right:orientation": "parallel",
@@ -3207,9 +3311,12 @@
         "id": 1222381635,
         "avgspeed": "20",
         "cycleway:both": "no",
+        "destination:backward": "Ganesha;Institut Teknologi Bandung",
+        "destination:forward": "Universitas Padjadjaran;Adipati Ukur",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Jalan Hasanudin",
+        "name:en": "Hasannudin Parkway",
         "parking:both": "no",
         "surface": "asphalt"
       }
@@ -3244,6 +3351,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "ref": "2182",
         "sidewalk": "separate",
@@ -3300,6 +3409,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -3366,6 +3477,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3399,6 +3512,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3424,6 +3539,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3449,6 +3566,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3474,6 +3593,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3499,6 +3620,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3524,6 +3647,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3553,6 +3678,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3578,6 +3705,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3604,6 +3733,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "surface": "asphalt"
@@ -3719,9 +3850,12 @@
         "id": 1390136500,
         "avgspeed": "20",
         "cycleway:both": "no",
+        "destination:backward": "Universitas Padjadjaran;Adipati Ukur",
+        "destination:forward": "Rumah Sakit Borromeus;Ganesha",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Jalan Hasanudin",
+        "name:en": "Hasannudin Parkway",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
         "parking:right": "no",
@@ -3759,6 +3893,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "ref": "2182",
         "sidewalk": "separate",

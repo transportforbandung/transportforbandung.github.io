@@ -23,6 +23,7 @@
       "properties": {
         "id": 42796831,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Nanjung",
@@ -49,6 +50,7 @@
         "id": 42796853,
         "avgspeed": "30",
         "bridge": "yes",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
@@ -151,6 +153,7 @@
       "properties": {
         "id": 42796894,
         "avgspeed": "20",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
@@ -275,13 +278,14 @@
           ],
           [
             107.536695,
-            -6.892527
+            -6.8925331
           ]
         ]
       },
       "properties": {
         "id": 42796908,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
@@ -306,6 +310,7 @@
       "properties": {
         "id": 42796909,
         "bridge": "yes",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
@@ -1562,8 +1567,8 @@
             -6.9538466
           ],
           [
-            107.5238854,
-            -6.9538129
+            107.523872,
+            -6.9537969
           ],
           [
             107.5238153,
@@ -1918,11 +1923,13 @@
       },
       "properties": {
         "id": 339694302,
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Baros",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "surface": "asphalt"
       }
     },
     {
@@ -1982,11 +1989,13 @@
       },
       "properties": {
         "id": 339790390,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Stasiun",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "30"
       }
     },
     {
@@ -2023,11 +2032,15 @@
       "properties": {
         "id": 385643848,
         "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "surface": "asphalt"
       }
     },
     {
@@ -2138,6 +2151,10 @@
           [
             107.539765,
             -6.9323638
+          ],
+          [
+            107.5397154,
+            -6.9325683
           ],
           [
             107.5397025,
@@ -2256,6 +2273,7 @@
       },
       "properties": {
         "id": 390344975,
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Nanjung",
@@ -2753,6 +2771,7 @@
       "properties": {
         "id": 555078350,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Nanjung",
@@ -2913,6 +2932,7 @@
       "properties": {
         "id": 569885047,
         "avgspeed": "20",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
@@ -3053,6 +3073,10 @@
             -6.9316918
           ],
           [
+            107.5399737,
+            -6.9316636
+          ],
+          [
             107.5400797,
             -6.9313899
           ],
@@ -3139,6 +3163,10 @@
           [
             107.5414177,
             -6.9270732
+          ],
+          [
+            107.5414143,
+            -6.9268422
           ],
           [
             107.5414113,
@@ -3360,10 +3388,13 @@
       },
       "properties": {
         "id": 572290195,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan H.M.S. Mintaredja SH",
         "oneway": "yes",
+        "ref": "93",
+        "surface": "asphalt",
         "width": "6"
       }
     },
@@ -3428,11 +3459,15 @@
       },
       "properties": {
         "id": 575479819,
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
         "oneway": "yes",
-        "ref": "170"
+        "parking:both": "no",
+        "ref": "170",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -3655,8 +3690,8 @@
             -7.0100981
           ],
           [
-            107.525493,
-            -7.0096292
+            107.5255004,
+            -7.0096299
           ],
           [
             107.5254959,
@@ -4160,8 +4195,8 @@
             -6.9357332
           ],
           [
-            107.5384407,
-            -6.9359235
+            107.5384462,
+            -6.9359313
           ],
           [
             107.5383755,
@@ -4260,23 +4295,21 @@
             -6.8925069
           ],
           [
-            107.5378661,
-            -6.8925216
-          ],
-          [
-            107.5378029,
-            -6.8925225
+            107.5378456,
+            -6.8925336
           ]
         ]
       },
       "properties": {
         "id": 763065987,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan H.M.S. Mintaredja SH",
         "oneway": "yes",
+        "ref": "93",
         "width": "6"
       }
     },
@@ -4301,10 +4334,13 @@
       },
       "properties": {
         "id": 763065988,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "3",
         "name": "Jalan H.M.S. Mintaredja SH",
         "oneway": "yes",
+        "ref": "93",
+        "surface": "asphalt",
         "width": "6"
       }
     },
@@ -4314,24 +4350,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5398425,
-            -6.8924637
+            107.5394234,
+            -6.8924498
           ],
           [
-            107.5397456,
-            -6.8924937
+            107.539365,
+            -6.8924786
           ],
           [
-            107.5396528,
-            -6.8924973
+            107.5393296,
+            -6.8924911
           ],
           [
-            107.5395012,
-            -6.8924992
-          ],
-          [
-            107.5393338,
-            -6.8925012
+            107.5392696,
+            -6.8924989
           ],
           [
             107.5390697,
@@ -4346,11 +4378,14 @@
       "properties": {
         "id": 763065989,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan H.M.S. Mintaredja SH",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "93",
+        "surface": "asphalt"
       }
     },
     {
@@ -4363,37 +4398,32 @@
             -6.8924181
           ],
           [
-            107.5393348,
-            -6.8924179
+            107.5392379,
+            -6.8924144
           ],
           [
-            107.5394727,
-            -6.8924179
+            107.5393006,
+            -6.8924174
           ],
           [
-            107.539528,
-            -6.8924179
+            107.5393496,
+            -6.8924231
           ],
           [
-            107.5396507,
-            -6.8924178
-          ],
-          [
-            107.5397411,
-            -6.8924266
-          ],
-          [
-            107.5398425,
-            -6.8924637
+            107.5394234,
+            -6.8924498
           ]
         ]
       },
       "properties": {
         "id": 763065990,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan H.M.S. Mintaredja SH",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "93",
+        "surface": "asphalt"
       }
     },
     {
@@ -4402,27 +4432,30 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5378029,
-            -6.8925225
+            107.5378456,
+            -6.8925336
           ],
           [
-            107.5368721,
-            -6.8925279
+            107.5367649,
+            -6.8925364
           ],
           [
             107.536695,
-            -6.892527
+            -6.8925331
           ]
         ]
       },
       "properties": {
         "id": 774161636,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "3",
         "motorcycle": "yes",
         "name": "Jalan H.M.S. Mintaredja SH",
         "oneway": "yes",
+        "ref": "93",
+        "surface": "asphalt",
         "width": "6"
       }
     },
@@ -4475,9 +4508,12 @@
       "properties": {
         "id": 892172995,
         "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "ref": "170"
       }
@@ -4531,9 +4567,12 @@
       "properties": {
         "id": 909519329,
         "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "ref": "170"
       }
@@ -4559,11 +4598,13 @@
       },
       "properties": {
         "id": 975117502,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Stasiun",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "30"
       }
     },
     {
@@ -4583,11 +4624,13 @@
       },
       "properties": {
         "id": 975117503,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Stasiun",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "30"
       }
     },
     {
@@ -4624,6 +4667,7 @@
       "properties": {
         "id": 1059257074,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Nanjung",
@@ -4661,6 +4705,7 @@
       "properties": {
         "id": 1059257078,
         "avgspeed": "20",
+        "designation": "provincial_road",
         "highway": "primary",
         "junction": "roundabout",
         "lanes": "2",
@@ -4696,6 +4741,7 @@
       "properties": {
         "id": 1059257079,
         "avgspeed": "20",
+        "designation": "provincial_road",
         "highway": "primary",
         "junction": "roundabout",
         "lanes": "2",
@@ -4735,6 +4781,7 @@
       "properties": {
         "id": 1059257080,
         "avgspeed": "20",
+        "designation": "provincial_road",
         "highway": "primary",
         "junction": "roundabout",
         "lanes": "2",
@@ -4761,7 +4808,7 @@
       },
       "properties": {
         "id": 1109715772,
-        "highway": "secondary_link",
+        "highway": "primary_link",
         "lanes": "2",
         "oneway": "yes"
       }
@@ -4787,10 +4834,12 @@
       },
       "properties": {
         "id": 1109759245,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -4810,10 +4859,12 @@
       },
       "properties": {
         "id": 1110056393,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -5155,8 +5206,8 @@
             -6.9753748
           ],
           [
-            107.533717,
-            -6.9753156
+            107.5337183,
+            -6.975303
           ],
           [
             107.5337465,
@@ -5268,10 +5319,12 @@
       },
       "properties": {
         "id": 1111874208,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "3",
         "name": "Jalan H.M.S. Mintaredja SH",
         "oneway": "yes",
+        "ref": "93",
         "width": "6"
       }
     },
@@ -5385,6 +5438,7 @@
       "properties": {
         "id": 1205707544,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Nanjung",
@@ -5515,6 +5569,10 @@
             -6.952454
           ],
           [
+            107.5242323,
+            -6.9524599
+          ],
+          [
             107.5241481,
             -6.9524849
           ],
@@ -5570,10 +5628,12 @@
       },
       "properties": {
         "id": 1364573708,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -5643,11 +5703,14 @@
       },
       "properties": {
         "id": 1364573711,
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
         "oneway": "yes",
         "ref": "170",
+        "sidewalk": "left",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -5717,8 +5780,8 @@
             -6.9734067
           ],
           [
-            107.5340308,
-            -6.9733912
+            107.5340187,
+            -6.9733559
           ],
           [
             107.53401,
@@ -5763,11 +5826,13 @@
       },
       "properties": {
         "id": 1468273931,
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
         "oneway": "yes",
         "ref": "170",
+        "surface": "asphalt",
         "width": "6"
       }
     }

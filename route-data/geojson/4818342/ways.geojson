@@ -239,11 +239,12 @@
       },
       "properties": {
         "id": 175262809,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "3",
-        "name": "Jalan Gandawijaya",
+        "name": "Jalan Gedung Empat",
         "oneway": "yes",
-        "ref": "3",
+        "ref": "2",
         "surface": "asphalt",
         "width": "7"
       }
@@ -433,11 +434,16 @@
       },
       "properties": {
         "id": 241740055,
-        "highway": "tertiary",
+        "alt_name": "Jalan Cihanjuang",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Cihanjuang",
-        "official_name": "Jalan Daeng Muhammad Ariwinata",
+        "name": "Jalan Daeng Muhammad Ardiwinata",
+        "name:en": "Daeng Ardiwinata Road",
+        "official_name": "Jalan Daeng M. Ardiwinata",
+        "old_name": "Jalan Cihanjuang",
         "oneway": "no",
+        "ref": "50",
         "surface": "asphalt",
         "width": "6"
       }
@@ -522,11 +528,12 @@
       },
       "properties": {
         "id": 254609690,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Gandawijaya",
+        "name": "Jalan Gedung Empat",
         "oneway": "yes",
-        "ref": "3",
+        "ref": "2",
         "surface": "asphalt"
       }
     },
@@ -598,6 +605,10 @@
           [
             107.5743406,
             -6.8661791
+          ],
+          [
+            107.5743129,
+            -6.8661783
           ],
           [
             107.5742602,
@@ -961,11 +972,12 @@
       },
       "properties": {
         "id": 339798647,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Gandawijaya",
+        "name": "Jalan Gedung Empat",
         "oneway": "yes",
-        "ref": "3",
+        "ref": "2",
         "width": "6"
       }
     },
@@ -1168,7 +1180,7 @@
         "id": 339798648,
         "access:conditional": "no@(06:00-08:00)",
         "avgspeed": "25",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Cihanjuang",
@@ -1263,9 +1275,13 @@
       },
       "properties": {
         "id": 339798651,
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "ref": "170",
         "surface": "asphalt",
@@ -1305,10 +1321,14 @@
       },
       "properties": {
         "id": 369620131,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sisingamangaraja",
+        "name:etymology:wikidata": "Q983499",
+        "name:etymology:wikipedia": "id:Sisingamangaraja XII",
         "oneway": "yes",
+        "ref": "39",
         "width": "4"
       }
     },
@@ -1436,10 +1456,14 @@
       },
       "properties": {
         "id": 447131658,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Sisingamangaraja",
-        "oneway": "yes"
+        "name:etymology:wikidata": "Q983499",
+        "name:etymology:wikipedia": "id:Sisingamangaraja XII",
+        "oneway": "yes",
+        "ref": "39"
       }
     },
     {
@@ -1613,6 +1637,10 @@
             -6.865952
           ],
           [
+            107.5750427,
+            -6.8659067
+          ],
+          [
             107.5748331,
             -6.8658362
           ],
@@ -1751,8 +1779,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5555973,
-            -6.8729564
+            107.5553742,
+            -6.8730825
+          ],
+          [
+            107.5554959,
+            -6.8730191
+          ],
+          [
+            107.5556509,
+            -6.8729311
           ],
           [
             107.5559964,
@@ -1842,16 +1878,19 @@
       },
       "properties": {
         "id": 709891269,
+        "alt_name": "Jalan Cihanjuang",
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
-        "motorcycle": "yes",
-        "name": "Jalan Cihanjuang",
-        "official_name": "Jalan Daeng Muhammad Ariwinata",
-        "oneway:conditional": "yes@(06:00-08:00;16:00-18:00)",
+        "name": "Jalan Daeng Muhammad Ardiwinata",
+        "name:en": "Daeng Ardiwinata Road",
+        "official_name": "Jalan Daeng M. Ardiwinata",
+        "old_name": "Jalan Cihanjuang",
+        "oneway:conditional": "yes@(06:00-08:00; 16:00-18:00)",
+        "ref": "50",
         "smoothness": "good",
-        "surface": "asphalt",
-        "width": "4"
+        "surface": "asphalt"
       }
     },
     {
@@ -2046,11 +2085,15 @@
       },
       "properties": {
         "id": 1034398537,
-        "alt_name": "Cihanjuang",
-        "highway": "tertiary",
+        "alt_name": "Jalan Cihanjuang",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Cihanjuang",
+        "name": "Jalan Daeng Muhammad Ardiwinata",
+        "name:en": "Daeng Ardiwinata Road",
+        "old_name": "Jalan Cihanjuang",
         "oneway": "no",
+        "ref": "50",
         "surface": "asphalt"
       }
     },
@@ -2121,9 +2164,13 @@
       },
       "properties": {
         "id": 1035987690,
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "ref": "170",
         "surface": "asphalt"
@@ -2180,10 +2227,14 @@
       },
       "properties": {
         "id": 1109715778,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Sisingamangaraja",
+        "name:etymology:wikidata": "Q983499",
+        "name:etymology:wikipedia": "id:Sisingamangaraja XII",
         "oneway": "yes",
+        "ref": "39",
         "surface": "asphalt"
       }
     },
@@ -2193,34 +2244,27 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5555973,
-            -6.8729564
+            107.5553742,
+            -6.8730825
           ],
           [
-            107.5555351,
-            -6.8730144
-          ],
-          [
-            107.555453,
-            -6.8730719
-          ],
-          [
-            107.5553649,
-            -6.8731092
-          ],
-          [
-            107.5552863,
-            -6.8731239
+            107.5552743,
+            -6.8731258
           ]
         ]
       },
       "properties": {
         "id": 1111631324,
-        "highway": "tertiary",
+        "alt_name": "Jalan Cihanjuang",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "1",
-        "name": "Jalan Cihanjuang",
-        "official_name": "Jalan Daeng Muhammad Ariwinata",
+        "name": "Jalan Daeng Muhammad Ardiwinata",
+        "name:en": "Daeng Ardiwinata Road",
+        "official_name": "Jalan Daeng M. Ardiwinata",
+        "old_name": "Jalan Cihanjuang",
         "oneway": "yes",
+        "ref": "50",
         "surface": "asphalt"
       }
     },
@@ -2230,12 +2274,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5552863,
-            -6.8731239
+            107.5552743,
+            -6.8731258
           ],
           [
-            107.5552368,
-            -6.8731162
+            107.5552333,
+            -6.8731116
           ],
           [
             107.5551684,
@@ -2253,11 +2297,16 @@
       },
       "properties": {
         "id": 1111631325,
-        "highway": "tertiary",
+        "alt_name": "Jalan Cihanjuang",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "1",
-        "name": "Jalan Cihanjuang",
-        "official_name": "Jalan Daeng Muhammad Ariwinata",
+        "name": "Jalan Daeng Muhammad Ardiwinata",
+        "name:en": "Daeng Ardiwinata Road",
+        "official_name": "Jalan Daeng M. Ardiwinata",
+        "old_name": "Jalan Cihanjuang",
         "oneway": "yes",
+        "ref": "50",
         "surface": "asphalt"
       }
     },
@@ -2447,11 +2496,15 @@
       },
       "properties": {
         "id": 1365625450,
-        "highway": "tertiary",
+        "alt_name": "Jalan Cihanjuang",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Cihanjuang",
-        "official_name": "Jalan Daeng Muhammad Ariwinata",
+        "name": "Jalan Daeng Muhammad Ardiwinata",
+        "name:en": "Daeng Ardiwinata Road",
+        "old_name": "Jalan Cihanjuang",
         "oneway": "yes",
+        "ref": "50",
         "surface": "asphalt"
       }
     },
@@ -2654,7 +2707,7 @@
       },
       "properties": {
         "id": 1426375725,
-        "highway": "tertiary",
+        "highway": "secondary",
         "junction": "roundabout",
         "motorcycle": "yes",
         "name": "Bundaran Jati",

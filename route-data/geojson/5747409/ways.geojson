@@ -513,7 +513,9 @@
       "properties": {
         "id": 183168595,
         "highway": "tertiary",
-        "name": "Jalan Cut Nyak Dien"
+        "name": "Jalan Cut Nyak Dien",
+        "name:etymology:wikidata": "Q2183970",
+        "name:etymology:wikipedia": "id:Cut Nyak Dhien"
       }
     },
     {
@@ -1111,6 +1113,7 @@
       },
       "properties": {
         "id": 255641086,
+        "bicycle": "yes",
         "highway": "trunk",
         "lanes": "2",
         "ref": "11"
@@ -2466,6 +2469,7 @@
       },
       "properties": {
         "id": 316907701,
+        "bicycle": "yes",
         "highway": "trunk",
         "lanes": "2",
         "ref": "11",
@@ -3116,6 +3120,7 @@
       },
       "properties": {
         "id": 339351212,
+        "bicycle": "yes",
         "cycleway:both": "no",
         "foot": "yes",
         "highway": "trunk",
@@ -3308,16 +3313,16 @@
             -6.8887491
           ],
           [
-            107.8405941,
-            -6.8887081
+            107.8408838,
+            -6.8885949
           ],
           [
-            107.8410026,
-            -6.8885602
+            107.8409563,
+            -6.8885709
           ],
           [
-            107.8411289,
-            -6.8885117
+            107.8411329,
+            -6.8885044
           ],
           [
             107.8415409,
@@ -3404,8 +3409,8 @@
             -6.8869801
           ],
           [
-            107.8420249,
-            -6.886973
+            107.8420571,
+            -6.8869743
           ],
           [
             107.8422286,
@@ -6879,6 +6884,7 @@
       },
       "properties": {
         "id": 1415933091,
+        "bicycle": "yes",
         "cycleway:both": "no",
         "foot": "yes",
         "highway": "trunk",
@@ -6917,11 +6923,13 @@
       },
       "properties": {
         "id": 1415933092,
+        "bicycle": "yes",
         "cycleway:both": "no",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "lit": "no",
+        "motor_vehicle": "yes",
         "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
@@ -6955,6 +6963,7 @@
       },
       "properties": {
         "id": 1415933093,
+        "bicycle": "yes",
         "cycleway:both": "no",
         "foot": "yes",
         "highway": "trunk",
@@ -7386,6 +7395,10 @@
             -6.9347916
           ],
           [
+            107.7684122,
+            -6.9348046
+          ],
+          [
             107.7683791,
             -6.9348137
           ]
@@ -7414,6 +7427,10 @@
           [
             107.7683791,
             -6.9348137
+          ],
+          [
+            107.7682156,
+            -6.9348589
           ],
           [
             107.7682046,

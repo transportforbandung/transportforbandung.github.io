@@ -156,11 +156,11 @@
           ],
           [
             107.6090001,
-            -6.9151232
+            -6.9151162
           ],
           [
-            107.6090001,
-            -6.9151605
+            107.6089998,
+            -6.9151478
           ],
           [
             107.6089988,
@@ -372,6 +372,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -387,7 +389,7 @@
         "coordinates": [
           [
             107.6440016,
-            -6.9136167
+            -6.9136097
           ],
           [
             107.6451746,
@@ -399,11 +401,14 @@
         "id": 32360498,
         "avgspeed": "30",
         "highway": "primary",
-        "lanes": "1",
+        "lanes": "2",
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -427,6 +432,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "ref": "378",
         "surface": "asphalt"
@@ -542,6 +549,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -573,6 +582,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "parking:both": "no",
         "surface": "asphalt",
@@ -643,6 +654,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "ref": "378",
         "surface": "asphalt"
@@ -668,12 +681,15 @@
         "avgspeed": "30",
         "bridge": "yes",
         "highway": "primary",
-        "lanes": "1",
+        "lanes": "2",
         "layer": "1",
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -698,8 +714,8 @@
             -6.9134024
           ],
           [
-            107.6456652,
-            -6.9133866
+            107.645674,
+            -6.9133848
           ],
           [
             107.6457263,
@@ -735,7 +751,10 @@
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -901,6 +920,10 @@
             -6.9101578
           ],
           [
+            107.6407295,
+            -6.9100475
+          ],
+          [
             107.6411552,
             -6.9098264
           ],
@@ -930,6 +953,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -1055,6 +1080,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "right|right"
@@ -1139,6 +1166,8 @@
         "lanes:backward": "1",
         "lanes:forward": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no",
         "surface": "asphalt"
       }
@@ -1166,7 +1195,7 @@
           ],
           [
             107.6440016,
-            -6.9136167
+            -6.9136097
           ]
         ]
       },
@@ -1176,7 +1205,8 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
-        "sidewalk": "left"
+        "sidewalk": "left",
+        "surface": "asphalt"
       }
     },
     {
@@ -1203,7 +1233,10 @@
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -1386,6 +1419,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no",
         "parking:both": "no",
         "ref": "378",
@@ -1410,8 +1445,8 @@
             -6.9164526
           ],
           [
-            107.6284048,
-            -6.9166173
+            107.6284373,
+            -6.9165951
           ],
           [
             107.6281205,
@@ -1430,6 +1465,8 @@
         "lanes": "4",
         "mapillary": "1466903270562717",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no",
         "surface": "asphalt"
       }
@@ -1511,6 +1548,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1542,7 +1581,8 @@
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "surface": "asphalt"
       }
     },
     {
@@ -1700,10 +1740,12 @@
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
+        "maxweight:signed": "no",
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "surface": "asphalt"
       }
     },
     {
@@ -1714,6 +1756,10 @@
           [
             107.6520413,
             -6.9125783
+          ],
+          [
+            107.6527713,
+            -6.9124901
           ],
           [
             107.6532925,
@@ -1773,6 +1819,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "378",
@@ -1806,6 +1854,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "slight_left;through|through|right"
@@ -1832,6 +1882,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1900,6 +1952,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "ref": "378",
         "surface": "asphalt"
@@ -1956,16 +2010,28 @@
             -6.913006
           ],
           [
+            107.6487403,
+            -6.9129985
+          ],
+          [
             107.6491094,
             -6.9129518
           ],
           [
-            107.6492277,
-            -6.9129369
+            107.6492213,
+            -6.9129363
+          ],
+          [
+            107.6494016,
+            -6.9129145
           ],
           [
             107.6495005,
             -6.9129025
+          ],
+          [
+            107.6496503,
+            -6.9128835
           ],
           [
             107.6497399,
@@ -2001,7 +2067,10 @@
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -2157,8 +2226,8 @@
             -6.9157548
           ],
           [
-            107.6045263,
-            -6.9155905
+            107.6045273,
+            -6.915589
           ],
           [
             107.604546,
@@ -2172,6 +2241,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -2245,11 +2316,14 @@
         "id": 1109715494,
         "avgspeed": "30",
         "highway": "primary",
-        "lanes": "1",
+        "lanes": "2",
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -2277,6 +2351,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "ref": "378",
         "surface": "asphalt"
@@ -2434,6 +2510,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "378",
@@ -2578,6 +2656,8 @@
         "lanes:backward": "1",
         "lanes:forward": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no",
         "surface": "asphalt"
       }

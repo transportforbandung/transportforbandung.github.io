@@ -79,6 +79,10 @@
             -6.9104032
           ],
           [
+            107.6040795,
+            -6.910612
+          ],
+          [
             107.6040749,
             -6.9106747
           ],
@@ -210,6 +214,8 @@
         "lanes": "1",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -476,6 +482,8 @@
         "layer": "1",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -589,10 +597,10 @@
       },
       "properties": {
         "id": 42795877,
-        "alt_name": "Jl. Stasiun Timur",
+        "alt_name": "Jalan Simpang Utara",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Stasiun Timur",
+        "name": "Jalan Panaris",
         "oneway": "no",
         "ref": "10",
         "sidewalk:both": "separate",
@@ -959,10 +967,12 @@
       },
       "properties": {
         "id": 177527668,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sangkuriang",
         "oneway": "no",
+        "ref": "75",
         "surface": "asphalt",
         "width": "6"
       }
@@ -1056,10 +1066,12 @@
       },
       "properties": {
         "id": 179273659,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Encep Kartawiria",
         "oneway": "no",
+        "ref": "76",
         "surface": "asphalt",
         "width": "5"
       }
@@ -1106,6 +1118,14 @@
             -6.9074213
           ],
           [
+            107.584189,
+            -6.9074748
+          ],
+          [
+            107.583989,
+            -6.9075077
+          ],
+          [
             107.5838295,
             -6.9075339
           ],
@@ -1130,6 +1150,10 @@
             -6.9076608
           ],
           [
+            107.5824393,
+            -6.9076623
+          ],
+          [
             107.5822772,
             -6.9076634
           ],
@@ -1148,6 +1172,8 @@
         "highway": "trunk",
         "lanes": "1",
         "name": "Jalan Abdul Rahman Saleh",
+        "name:etymology:wikidata": "Q12470581",
+        "name:etymology:wikipedia": "id:Abdulrachman Saleh",
         "oneway": "no"
       }
     },
@@ -1465,9 +1491,11 @@
       },
       "properties": {
         "id": 278473460,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Encep Kartawiria",
+        "ref": "76",
         "width": "6"
       }
     },
@@ -1532,10 +1560,12 @@
       },
       "properties": {
         "id": 289516679,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan M. K. Wiganda Sasmita",
         "oneway": "yes",
+        "ref": "1",
         "width": "5"
       }
     },
@@ -1693,6 +1723,10 @@
           [
             107.5720087,
             -6.9116592
+          ],
+          [
+            107.5723261,
+            -6.9117833
           ],
           [
             107.5725782,
@@ -2867,6 +2901,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Abdul Rahman Saleh",
+        "name:etymology:wikidata": "Q12470581",
+        "name:etymology:wikipedia": "id:Abdulrachman Saleh",
         "oneway": "yes"
       }
     },
@@ -3327,8 +3363,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5531885,
-            -6.8843128
+            107.5532991,
+            -6.8845055
+          ],
+          [
+            107.5532758,
+            -6.8844655
+          ],
+          [
+            107.5532307,
+            -6.8843827
           ],
           [
             107.5531006,
@@ -3375,28 +3419,32 @@
             -6.8827206
           ],
           [
-            107.5520817,
-            -6.8824713
+            107.5520864,
+            -6.8824613
           ],
           [
-            107.5519439,
-            -6.8822442
+            107.5519526,
+            -6.8822389
           ],
           [
-            107.5518178,
-            -6.8820536
+            107.5518285,
+            -6.882035
           ],
           [
-            107.5515938,
-            -6.8816947
+            107.5516065,
+            -6.8816734
           ],
           [
-            107.5515007,
-            -6.8815314
+            107.5515108,
+            -6.8815261
           ],
           [
-            107.5513132,
-            -6.8812126
+            107.5513286,
+            -6.8812206
+          ],
+          [
+            107.5513112,
+            -6.8811893
           ],
           [
             107.5510818,
@@ -3464,10 +3512,14 @@
         "id": 572985687,
         "avgspeed": "30",
         "highway": "trunk",
+        "lane_markings": "yes",
         "lanes": "4",
         "name": "Jalan Jend. H. Amir Machmud",
         "ref": "11",
-        "source": "Yahoo hires"
+        "smoothness": "good",
+        "source": "Yahoo hires",
+        "surface": "asphalt",
+        "width": "10"
       }
     },
     {
@@ -3480,16 +3532,16 @@
             -6.8879517
           ],
           [
-            107.5557192,
-            -6.888343
+            107.5557165,
+            -6.8883377
           ],
           [
-            107.5559388,
-            -6.8886859
+            107.5559126,
+            -6.8886546
           ],
           [
-            107.5559992,
-            -6.8887802
+            107.5559962,
+            -6.8887905
           ],
           [
             107.5562442,
@@ -3593,7 +3645,10 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -3701,10 +3756,12 @@
       },
       "properties": {
         "id": 686636117,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Encep Kartawiria",
         "oneway": "no",
+        "ref": "76",
         "surface": "asphalt",
         "width": "5"
       }
@@ -3798,10 +3855,12 @@
       },
       "properties": {
         "id": 686636118,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Encep Kartawiria",
         "oneway": "no",
+        "ref": "76",
         "surface": "asphalt",
         "width": "5"
       }
@@ -4094,6 +4153,10 @@
             -6.9065206
           ],
           [
+            107.596056,
+            -6.9065146
+          ],
+          [
             107.596066,
             -6.9065114
           ],
@@ -4200,6 +4263,8 @@
         "lit": "yes",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -4509,6 +4574,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "surface": "asphalt"
       }
     },
@@ -4576,6 +4643,8 @@
         "lanes": "1",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -4696,9 +4765,11 @@
       },
       "properties": {
         "id": 909490720,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan M. K. Wiganda Sasmita",
+        "ref": "1",
         "width": "5"
       }
     },
@@ -4809,16 +4880,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5531885,
-            -6.8843128
+            107.5532991,
+            -6.8845055
           ],
           [
-            107.5532749,
-            -6.8843897
-          ],
-          [
-            107.5533095,
-            -6.8844555
+            107.5533598,
+            -6.88455
           ],
           [
             107.5536834,
@@ -4850,7 +4917,8 @@
         "motorcycle": "yes",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "width": "5"
       }
     },
     {
@@ -4943,11 +5011,14 @@
       },
       "properties": {
         "id": 1042818641,
+        "alt_name": "Jalan Simpang Utara",
         "highway": "trunk",
         "lanes": "1",
-        "name": "Jalan Simpang",
+        "name": "Jalan Panaris",
         "oneway": "yes",
-        "ref": "10"
+        "ref": "10",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -5323,6 +5394,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -5350,6 +5423,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "surface": "asphalt"
       }
     },
@@ -5526,6 +5601,10 @@
           [
             107.5729282,
             -6.9120185
+          ],
+          [
+            107.5729439,
+            -6.9120247
           ],
           [
             107.573014,
@@ -5753,10 +5832,12 @@
       },
       "properties": {
         "id": 1270827080,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Encep Kartawiria",
         "oneway": "no",
+        "ref": "76",
         "surface": "asphalt"
       }
     },
@@ -5778,11 +5859,13 @@
       "properties": {
         "id": 1270827081,
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Encep Kartawiria",
         "oneway": "no",
+        "ref": "76",
         "surface": "asphalt"
       }
     },
@@ -5817,6 +5900,8 @@
         "lanes": "1",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -5976,10 +6061,12 @@
       },
       "properties": {
         "id": 1365625446,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sangkuriang",
         "oneway": "no",
+        "ref": "75",
         "surface": "asphalt",
         "width": "5"
       }
@@ -6009,10 +6096,12 @@
       },
       "properties": {
         "id": 1365625447,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sangkuriang",
         "oneway": "no",
+        "ref": "75",
         "surface": "asphalt"
       }
     },
@@ -6117,10 +6206,12 @@
       },
       "properties": {
         "id": 1365625448,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Encep Kartawiria",
         "oneway": "no",
+        "ref": "76",
         "surface": "asphalt",
         "width": "6"
       }
@@ -6325,6 +6416,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Abdul Rahman Saleh",
+        "name:etymology:wikidata": "Q12470581",
+        "name:etymology:wikipedia": "id:Abdulrachman Saleh",
         "oneway": "no",
         "surface": "asphalt"
       }
@@ -6794,6 +6887,14 @@
           [
             107.6000477,
             -6.9068645
+          ],
+          [
+            107.6001281,
+            -6.9068699
+          ],
+          [
+            107.6004436,
+            -6.9068911
           ],
           [
             107.6006155,

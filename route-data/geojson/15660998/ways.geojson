@@ -58,10 +58,13 @@
         "id": 4623282,
         "avgspeed": "20",
         "cycleway:both": "no",
+        "destination:backward": "Universitas Padjadjaran;Adipati Ukur",
+        "destination:forward": "Rumah Sakit Borromeus;Ganesha",
         "highway": "tertiary",
         "lane_markings": "yes",
         "lanes": "2",
         "name": "Jalan Hasanudin",
+        "name:en": "Hasannudin Parkway",
         "parking:both": "on_kerb",
         "parking:both:orientation": "perpendicular",
         "sidewalk": "no",
@@ -110,10 +113,12 @@
       "properties": {
         "id": 4632671,
         "avgspeed": "30",
+        "destination": "Penata Yudha;Gasibu;Jalaprang;Cicaheum",
         "highway": "primary",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk:left": "separate",
@@ -837,10 +842,12 @@
       "properties": {
         "id": 153517384,
         "avgspeed": "30",
+        "destination": "Gasibu;Jalaprang;Pahlawan;Cicaheum",
         "highway": "trunk",
         "lanes": "3",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "sidewalk": "left",
         "surface": "asphalt"
@@ -1369,12 +1376,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6180383,
-            -6.8938553
+            107.6180243,
+            -6.8939028
           ],
           [
-            107.6179971,
-            -6.8939395
+            107.6180053,
+            -6.8939499
+          ],
+          [
+            107.6178924,
+            -6.8941229
           ],
           [
             107.6178302,
@@ -1394,12 +1405,14 @@
         "id": 175071632,
         "access": "yes",
         "bicycle": "yes",
+        "destination": "Simpang Cikapayang",
         "foot": "yes",
         "highway": "secondary",
         "horse": "yes",
         "lanes": "2",
         "motor_vehicle": "yes",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "oneway": "yes",
         "ref": "2137",
         "reg_ref": "22-10-2137",
@@ -1518,6 +1531,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "ref": "381",
         "sidewalk": "left",
@@ -1607,6 +1622,8 @@
         "lit": "no",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "380",
@@ -1635,6 +1652,8 @@
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "ref": "2228",
         "reg_ref": "22-10-2228",
         "surface": "asphalt"
@@ -1650,8 +1669,8 @@
             -6.9147576
           ],
           [
-            107.629671,
-            -6.9148582
+            107.6296602,
+            -6.9148398
           ]
         ]
       },
@@ -1665,6 +1684,8 @@
         "lanes": "3",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2318",
@@ -1748,6 +1769,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
@@ -1815,6 +1838,7 @@
       },
       "properties": {
         "id": 269468423,
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "lit": "yes",
@@ -1891,10 +1915,12 @@
       "properties": {
         "id": 318051977,
         "avgspeed": "30",
+        "destination": "Gasibu;Jalaprang;Pahlawan;Cicaheum",
         "highway": "primary",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "sidewalk": "left",
         "surface": "asphalt"
@@ -1962,6 +1988,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
@@ -2020,6 +2048,8 @@
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "380",
@@ -2061,12 +2091,16 @@
       "properties": {
         "id": 318102033,
         "avgspeed": "30",
+        "destination": "Jalaprang;Pahlawan;Cikutra;Cicaheum",
+        "destination:lanes": "PUSDAI;Jalaprang;Pahlawan|Diponegoro;Gedung Sate;Citarum|Diponegoro;Gedung Sate;Citarum",
         "highway": "trunk",
         "lanes": "3",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "through|right|right"
       }
     },
     {
@@ -2159,6 +2193,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2182",
@@ -2167,7 +2203,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "no",
-        "width": "5 m"
+        "width": "5"
       }
     },
     {
@@ -2205,9 +2241,12 @@
         "id": 318732962,
         "avgspeed": "20",
         "cycleway:both": "no",
+        "destination:backward": "Ganesha;Institut Teknologi Bandung",
+        "destination:forward": "Universitas Padjadjaran;Adipati Ukur",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Jalan Hasanudin",
+        "name:en": "Hasannudin Parkway",
         "parking:left": "no",
         "parking:right": "lane",
         "parking:right:orientation": "parallel",
@@ -2298,6 +2337,7 @@
       "properties": {
         "id": 318899772,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
@@ -2400,6 +2440,7 @@
       "properties": {
         "id": 318899775,
         "cycleway:both": "no",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
@@ -2434,6 +2475,8 @@
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "380",
@@ -2605,6 +2648,10 @@
             -6.9381955
           ],
           [
+            107.6187901,
+            -6.93818
+          ],
+          [
             107.6187806,
             -6.9381795
           ],
@@ -2740,6 +2787,8 @@
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2228",
@@ -2771,6 +2820,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -2808,6 +2859,8 @@
         "lanes": "3",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2318",
@@ -2918,6 +2971,8 @@
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "380",
@@ -3173,25 +3228,35 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6180361,
+            107.6180405,
             -6.8934568
           ],
           [
-            107.6180362,
-            -6.8934861
+            107.6180406,
+            -6.8934879
           ],
           [
-            107.6180383,
-            -6.8938553
+            107.6180471,
+            -6.8937485
+          ],
+          [
+            107.6180433,
+            -6.8938273
+          ],
+          [
+            107.6180243,
+            -6.8939028
           ]
         ]
       },
       "properties": {
         "id": 330996293,
         "avgspeed": "15",
+        "destination": "Simpang Cikapayang",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "oneway": "yes",
         "ref": "2137",
         "reg_ref": "22-10-2137",
@@ -3379,9 +3444,12 @@
       },
       "properties": {
         "id": 340400259,
+        "destination:backward": "Universitas Padjadjaran;Sekeloa",
+        "destination:forward": "Simpang Cikapayang",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "ref": "2137",
         "reg_ref": "22-10-2137",
         "surface": "asphalt"
@@ -3501,6 +3569,14 @@
             -6.9516206
           ],
           [
+            107.6104355,
+            -6.951364
+          ],
+          [
+            107.6103879,
+            -6.9512162
+          ],
+          [
             107.6103079,
             -6.9509754
           ],
@@ -3521,6 +3597,7 @@
       "properties": {
         "id": 340405402,
         "cycleway:both": "no",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "lit": "no",
@@ -3559,6 +3636,7 @@
         "id": 556619982,
         "avgspeed": "30",
         "cycleway:both": "no",
+        "designation": "city_road",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
@@ -3578,12 +3656,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6306365,
-            -6.921787
+            107.6306517,
+            -6.921792
           ],
           [
-            107.6305761,
-            -6.9219243
+            107.6306076,
+            -6.9219152
           ]
         ]
       },
@@ -3609,48 +3687,52 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6314414,
-            -6.9186602
+            107.6314582,
+            -6.9186505
           ],
           [
-            107.6314309,
-            -6.9187001
+            107.6314521,
+            -6.9187098
           ],
           [
-            107.6311398,
-            -6.9198103
+            107.6311743,
+            -6.9198076
           ],
           [
-            107.6310928,
-            -6.9199846
+            107.6311548,
+            -6.9198845
           ],
           [
-            107.6310829,
-            -6.9200235
+            107.6311255,
+            -6.9199916
           ],
           [
-            107.6310462,
-            -6.9201628
+            107.6311165,
+            -6.9200314
           ],
           [
-            107.6308494,
-            -6.9209038
+            107.6310834,
+            -6.9201567
           ],
           [
-            107.6307725,
-            -6.921235
+            107.6310196,
+            -6.9203743
           ],
           [
-            107.6307652,
-            -6.9212784
+            107.6308919,
+            -6.9209029
           ],
           [
-            107.6307509,
-            -6.9213397
+            107.6307944,
+            -6.9212635
           ],
           [
-            107.6306365,
-            -6.921787
+            107.6307757,
+            -6.9213371
+          ],
+          [
+            107.6306517,
+            -6.921792
           ]
         ]
       },
@@ -4482,6 +4564,7 @@
       "properties": {
         "id": 859329415,
         "cycleway:both": "no",
+        "designation": "city_road",
         "destination:backward": "Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot",
         "destination:lanes:forward": "Kurdi;Tegallega;Lingkar Selatan;Inggit Ganarsih|Batununggal;Buahbatu;Kiaracondong;Cibiru",
         "destination:ref:lanes:forward": "161|11",
@@ -4531,6 +4614,7 @@
       "properties": {
         "id": 859329416,
         "cycleway:both": "no",
+        "designation": "city_road",
         "destination:lanes:forward": "Inhoftank;Cibaduyut;Leuwipanjang;Kopo|Batununggal;Buahbatu;Kiaracondong;Cibiru",
         "highway": "primary",
         "lanes": "4",
@@ -4828,6 +4912,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "ref": "381",
         "surface": "asphalt"
@@ -4998,39 +5084,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6272761,
-            -6.9262788
+            107.6273607,
+            -6.9260252
           ],
           [
-            107.6272923,
-            -6.9262116
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1071541846,
-        "alt_name": "Flyover Laswi - Pelajar Pejuang 45",
-        "bicycle": "no",
-        "foot": "no",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Layang Laswi - Pelajar Pejuang 45",
-        "name:en": "Laswi - Pelajar Pejuang 45 Flyover",
-        "ref": "376",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6272761,
-            -6.9262788
-          ],
-          [
-            107.627255,
+            107.6272692,
             -6.9266332
           ]
         ]
@@ -5111,6 +5169,7 @@
       "properties": {
         "id": 1079472294,
         "cycleway:both": "no",
+        "designation": "city_road",
         "destination:backward": "Inhoftank;Cibaduyut;Leuwipanjang;Kopo|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot",
         "destination:forward": "Kurdi;Tegallega;Lingkar Selatan;Inggit Ganarsih",
         "destination:ref:lanes:backward": "11|161;4;;|161;4;;",
@@ -5152,10 +5211,12 @@
       "properties": {
         "id": 1079472307,
         "avgspeed": "30",
+        "destination": "Penata Yudha;Gasibu;Jalaprang;Cicaheum",
         "highway": "primary",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -5166,40 +5227,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6286213,
-            -6.9230879
+            107.6288628,
+            -6.9229966
           ],
           [
-            107.6286654,
-            -6.9230633
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1111168893,
-        "alt_name": "Flyover Laswi - Pelajar Pejuang 45",
-        "bicycle": "no",
-        "foot": "no",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Layang Laswi - Pelajar Pejuang 45",
-        "name:en": "Laswi - Pelajar Pejuang 45 Flyover",
-        "ref": "377",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6288476,
-            -6.9230097
-          ],
-          [
-            107.6286654,
-            -6.9230633
+            107.6285299,
+            -6.9231566
           ]
         ]
       },
@@ -5250,8 +5283,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6292923,
-            -6.9227879
+            107.6292933,
+            -6.9227899
           ],
           [
             107.6291685,
@@ -5262,8 +5295,8 @@
             -6.9229361
           ],
           [
-            107.6288476,
-            -6.9230097
+            107.6288628,
+            -6.9229966
           ]
         ]
       },
@@ -5286,12 +5319,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6305761,
-            -6.9219243
+            107.6306076,
+            -6.9219152
           ],
           [
-            107.6305225,
-            -6.9220301
+            107.6305418,
+            -6.9220442
           ],
           [
             107.6304603,
@@ -5311,11 +5344,11 @@
           ],
           [
             107.6295282,
-            -6.9226745
+            -6.9226765
           ],
           [
-            107.6292923,
-            -6.9227879
+            107.6292933,
+            -6.9227899
           ]
         ]
       },
@@ -5339,8 +5372,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.629671,
-            -6.9148582
+            107.6296602,
+            -6.9148398
           ],
           [
             107.6299139,
@@ -5358,6 +5391,8 @@
         "lanes": "3",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2318",
@@ -5504,12 +5539,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.627255,
+            107.6272692,
             -6.9266332
-          ],
-          [
-            107.6271945,
-            -6.9268751
           ],
           [
             107.6270688,
@@ -5537,10 +5568,6 @@
           [
             107.6270688,
             -6.9273448
-          ],
-          [
-            107.627064,
-            -6.9273638
           ],
           [
             107.6265339,
@@ -5889,48 +5916,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6272923,
-            -6.9262116
+            107.6273607,
+            -6.9260252
           ],
           [
             107.6276211,
             -6.9249504
           ],
           [
-            107.6277982,
-            -6.9242181
-          ],
-          [
-            107.6278758,
-            -6.9239774
-          ],
-          [
-            107.6279698,
-            -6.9237575
-          ],
-          [
-            107.628065,
-            -6.9236058
-          ],
-          [
-            107.628179,
-            -6.9234647
-          ],
-          [
-            107.6283029,
-            -6.9233416
-          ],
-          [
-            107.6284403,
-            -6.9232203
-          ],
-          [
-            107.6285451,
-            -6.9231425
-          ],
-          [
-            107.6286213,
-            -6.9230879
+            107.6276616,
+            -6.9247914
           ]
         ]
       },
@@ -5938,17 +5933,15 @@
         "id": 1206655959,
         "alt_name": "Flyover Laswi - Pelajar Pejuang 45",
         "bicycle": "no",
-        "bridge": "yes",
         "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
-        "layer": "1",
         "lit": "yes",
         "name": "Jalan Layang Laswi - Pelajar Pejuang 45",
         "name:en": "Laswi - Pelajar Pejuang 45 Flyover",
         "parking:both": "no",
-        "ref": "376;377",
+        "ref": "376",
         "sidewalk": "no",
         "surface": "asphalt"
       }
@@ -6191,6 +6184,7 @@
         "id": 1212464431,
         "avgspeed": "30",
         "cycleway:both": "no",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
@@ -6232,6 +6226,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -6261,6 +6257,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "ref": "381",
         "surface": "asphalt"
@@ -6324,9 +6322,12 @@
         "id": 1222381629,
         "avgspeed": "20",
         "cycleway:both": "no",
+        "destination:backward": "Universitas Padjadjaran;Adipati Ukur",
+        "destination:forward": "Rumah Sakit Borromeus;Ganesha",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Jalan Hasanudin",
+        "name:en": "Hasannudin Parkway",
         "parking:left": "no",
         "parking:right": "half_on_kerb",
         "parking:right:orientation": "parallel",
@@ -6356,9 +6357,12 @@
         "id": 1222381635,
         "avgspeed": "20",
         "cycleway:both": "no",
+        "destination:backward": "Ganesha;Institut Teknologi Bandung",
+        "destination:forward": "Universitas Padjadjaran;Adipati Ukur",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Jalan Hasanudin",
+        "name:en": "Hasannudin Parkway",
         "parking:both": "no",
         "surface": "asphalt"
       }
@@ -6401,8 +6405,8 @@
             -6.9185784
           ],
           [
-            107.6314414,
-            -6.9186602
+            107.6314582,
+            -6.9186505
           ]
         ]
       },
@@ -6475,6 +6479,7 @@
       "properties": {
         "id": 1234195272,
         "cycleway:both": "no",
+        "designation": "city_road",
         "destination:lanes:backward": "Batununggal;Buahbatu;Kiaracondong;Cibiru|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot|Inhoftank;Cibaduyut;Leuwipanjang;Kopo",
         "destination:ref:lanes:backward": "11|161;4;;|11",
         "highway": "primary",
@@ -6772,8 +6777,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6119014,
-            -6.955675
+            107.6118947,
+            -6.9556604
           ],
           [
             107.611923,
@@ -6787,6 +6792,7 @@
       },
       "properties": {
         "id": 1246218999,
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "lit": "yes",
@@ -6807,13 +6813,14 @@
             -6.9556394
           ],
           [
-            107.6119014,
-            -6.955675
+            107.6118947,
+            -6.9556604
           ]
         ]
       },
       "properties": {
         "id": 1246219000,
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
@@ -6840,6 +6847,7 @@
       },
       "properties": {
         "id": 1246219001,
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "lit": "yes",
@@ -7019,9 +7027,12 @@
         "id": 1390136500,
         "avgspeed": "20",
         "cycleway:both": "no",
+        "destination:backward": "Universitas Padjadjaran;Adipati Ukur",
+        "destination:forward": "Rumah Sakit Borromeus;Ganesha",
         "highway": "tertiary",
         "lane_markings": "no",
         "name": "Jalan Hasanudin",
+        "name:en": "Hasannudin Parkway",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
         "parking:right": "no",
@@ -7280,6 +7291,7 @@
       },
       "properties": {
         "id": 1414572261,
+        "bicycle": "yes",
         "cycleway:both": "no",
         "destination:lanes": "Loji;Unpad;Kiarapayung|Cikeruh;Tanjungsari;Sumedang|↗️ Pangkalan DAMRI;Caringin;Cileunyi",
         "highway": "trunk",
@@ -7381,6 +7393,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -7411,6 +7425,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -7441,6 +7457,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -7471,6 +7489,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -7501,6 +7521,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -7531,6 +7553,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -7561,6 +7585,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -7595,6 +7621,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -7625,11 +7653,103 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6278076,
+            -6.9242181
+          ],
+          [
+            107.6278825,
+            -6.9239774
+          ],
+          [
+            107.6279805,
+            -6.9237628
+          ],
+          [
+            107.6280744,
+            -6.9236111
+          ],
+          [
+            107.6281851,
+            -6.9234637
+          ],
+          [
+            107.62831,
+            -6.9233456
+          ],
+          [
+            107.6284342,
+            -6.9232324
+          ],
+          [
+            107.6285299,
+            -6.9231566
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1509524788,
+        "alt_name": "Flyover Laswi - Pelajar Pejuang 45",
+        "bicycle": "no",
+        "cycleway:both": "no",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Layang Laswi - Pelajar Pejuang 45",
+        "name:en": "Laswi - Pelajar Pejuang 45 Flyover",
+        "parking:both": "no",
+        "ref": "377",
+        "sidewalk": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6276616,
+            -6.9247914
+          ],
+          [
+            107.6278076,
+            -6.9242181
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1509524789,
+        "alt_name": "Flyover Laswi - Pelajar Pejuang 45",
+        "bicycle": "no",
+        "bridge": "yes",
+        "cycleway:both": "no",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "yes",
+        "name": "Jalan Layang Laswi - Pelajar Pejuang 45",
+        "name:en": "Laswi - Pelajar Pejuang 45 Flyover",
+        "parking:both": "no",
+        "ref": "376;377",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     }

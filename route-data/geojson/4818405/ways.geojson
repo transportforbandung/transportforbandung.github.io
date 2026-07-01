@@ -361,8 +361,8 @@
             -6.8779132
           ],
           [
-            107.5592495,
-            -6.8780404
+            107.5592468,
+            -6.8780507
           ],
           [
             107.5590598,
@@ -457,32 +457,32 @@
             -6.8838837
           ],
           [
-            107.5573307,
-            -6.8840151
+            107.5573374,
+            -6.8839858
           ],
           [
-            107.5572478,
-            -6.8843869
+            107.5572572,
+            -6.8843882
           ],
           [
-            107.5571923,
-            -6.8846358
+            107.5572037,
+            -6.8846212
           ],
           [
-            107.5571805,
-            -6.8846886
+            107.5571865,
+            -6.8846913
           ],
           [
-            107.5571117,
-            -6.8849972
+            107.5571258,
+            -6.8849852
           ],
           [
             107.5570163,
             -6.8853633
           ],
           [
-            107.5569193,
-            -6.8856168
+            107.5569267,
+            -6.8856048
           ],
           [
             107.5568246,
@@ -529,11 +529,15 @@
       "properties": {
         "id": 190691083,
         "alt_name": "Jalan Pesantren",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Pasantren",
         "oneway": "no",
-        "surface": "asphalt"
+        "ref": "55",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "4"
       }
     },
     {
@@ -777,12 +781,15 @@
       },
       "properties": {
         "id": 318672564,
+        "alt_name": "Jalan Pesantren",
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "motorcar": "yes",
         "motorcycle": "yes",
         "name": "Jalan Pasantren",
+        "ref": "55",
         "smoothness": "good",
         "surface": "asphalt",
         "width": "4"

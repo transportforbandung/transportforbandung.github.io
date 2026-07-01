@@ -251,6 +251,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through;reverse"
@@ -301,6 +303,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -327,6 +331,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -423,6 +429,10 @@
           [
             107.5763049,
             -6.9313117
+          ],
+          [
+            107.5764914,
+            -6.9319172
           ],
           [
             107.5765033,
@@ -561,6 +571,10 @@
             -6.9397265
           ],
           [
+            107.5815443,
+            -6.9401906
+          ],
+          [
             107.5815743,
             -6.9402311
           ],
@@ -588,6 +602,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -1661,6 +1677,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "sharp_left|through|through"
@@ -2003,24 +2021,120 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.528828,
-            -7.0199473
+            107.5265997,
+            -7.018774
           ],
           [
-            107.5288837,
-            -7.0198274
+            107.5266828,
+            -7.0187906
+          ],
+          [
+            107.527552,
+            -7.0189493
+          ],
+          [
+            107.528486,
+            -7.0190907
+          ],
+          [
+            107.5285377,
+            -7.0191053
+          ],
+          [
+            107.5285766,
+            -7.0191246
+          ],
+          [
+            107.5286075,
+            -7.0191492
+          ],
+          [
+            107.5286562,
+            -7.0192325
+          ],
+          [
+            107.5287345,
+            -7.0194279
+          ],
+          [
+            107.5287867,
+            -7.0195608
           ]
         ]
       },
       "properties": {
-        "id": 838879653,
-        "highway": "secondary",
-        "lanes": "1",
-        "name": "Jalan Akses Tol Soreang",
+        "id": 838879651,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Al-Fathu",
         "oneway": "yes",
-        "ref": "682",
-        "surface": "concrete",
-        "toll": "no"
+        "ref": "10",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5286986,
+            -7.019602
+          ],
+          [
+            107.5286465,
+            -7.0194643
+          ],
+          [
+            107.5285759,
+            -7.0192842
+          ],
+          [
+            107.5285524,
+            -7.0192431
+          ],
+          [
+            107.5285122,
+            -7.0192011
+          ],
+          [
+            107.5284695,
+            -7.0191801
+          ],
+          [
+            107.5275362,
+            -7.0190196
+          ],
+          [
+            107.5269762,
+            -7.0189208
+          ],
+          [
+            107.5268966,
+            -7.0189067
+          ],
+          [
+            107.5266582,
+            -7.018866
+          ],
+          [
+            107.5265568,
+            -7.0188458
+          ]
+        ]
+      },
+      "properties": {
+        "id": 838879652,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Al-Fathu",
+        "oneway": "yes",
+        "ref": "10",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -2053,6 +2167,56 @@
         "ref": "4",
         "short_name": "Jalan Tol Soroja",
         "toll": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.528828,
+            -7.0199473
+          ],
+          [
+            107.5287341,
+            -7.0196866
+          ]
+        ]
+      },
+      "properties": {
+        "id": 892167027,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Al-Fathu",
+        "oneway": "yes",
+        "ref": "10",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5287341,
+            -7.0196866
+          ],
+          [
+            107.5286986,
+            -7.019602
+          ]
+        ]
+      },
+      "properties": {
+        "id": 897897409,
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Al-Fathu",
+        "oneway": "yes",
+        "ref": "10",
+        "surface": "asphalt"
       }
     },
     {
@@ -2110,6 +2274,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -2155,11 +2321,13 @@
       },
       "properties": {
         "id": 1073714000,
+        "designation": "city_road",
         "destination:lanes": "Terminal Leuwipanjang|",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Leuwi Panjang",
         "oneway": "yes",
+        "ref": "4118",
         "turn:lanes": "left;through|through"
       }
     },
@@ -2238,6 +2406,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -2268,9 +2438,34 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through|right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5265997,
+            -7.018774
+          ],
+          [
+            107.5265568,
+            -7.0188458
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1110408783,
+        "highway": "trunk",
+        "lanes": "2",
+        "ref": "10",
+        "surface": "asphalt"
       }
     },
     {
@@ -2439,6 +2634,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left|slight_left|through|through"
@@ -2577,6 +2774,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left;through|through|right"
@@ -2683,6 +2882,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through|through;reverse"
@@ -2717,6 +2918,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -2741,6 +2944,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -2782,6 +2987,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left|slight_left;through|through"
@@ -2840,6 +3047,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through|through;reverse"
@@ -2969,6 +3178,45 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.5287867,
+            -7.0195608
+          ],
+          [
+            107.5288233,
+            -7.0195646
+          ],
+          [
+            107.5288723,
+            -7.019559
+          ],
+          [
+            107.5289214,
+            -7.0195344
+          ],
+          [
+            107.5289613,
+            -7.0194943
+          ],
+          [
+            107.5290759,
+            -7.0193315
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1356545907,
+        "highway": "secondary_link",
+        "name": "Jalan Akses Tol Soreang",
+        "oneway": "yes",
+        "ref": "682"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.5823106,
             -6.941111
           ],
@@ -2996,35 +3244,11 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "sharp_left|through|through"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5288837,
-            -7.0198274
-          ],
-          [
-            107.5290759,
-            -7.0193315
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1365732654,
-        "highway": "secondary",
-        "lanes": "3",
-        "name": "Jalan Akses Tol Soreang",
-        "oneway": "yes",
-        "ref": "682",
-        "surface": "concrete",
-        "toll": "no"
       }
     },
     {

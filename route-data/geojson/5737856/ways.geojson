@@ -23,6 +23,7 @@
       "properties": {
         "id": 42796831,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Nanjung",
@@ -49,6 +50,7 @@
         "id": 42796853,
         "avgspeed": "30",
         "bridge": "yes",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
@@ -151,6 +153,7 @@
       "properties": {
         "id": 42796894,
         "avgspeed": "20",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
@@ -275,13 +278,14 @@
           ],
           [
             107.536695,
-            -6.892527
+            -6.8925331
           ]
         ]
       },
       "properties": {
         "id": 42796908,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
@@ -306,6 +310,7 @@
       "properties": {
         "id": 42796909,
         "bridge": "yes",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
@@ -386,10 +391,12 @@
       },
       "properties": {
         "id": 161964082,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kerkof",
-        "oneway": "no"
+        "oneway": "no",
+        "ref": "92"
       }
     },
     {
@@ -724,6 +731,1199 @@
           [
             107.5233088,
             -6.8984975
+          ]
+        ]
+      },
+      "properties": {
+        "id": 166894823,
+        "designation": "city_road",
+        "fixme": "Resurvey whether \"Sadarmanah\" and \"Ibu Sangki\" are for two separate sections of this highway or alternative names for the same street",
+        "highway": "secondary",
+        "name": "Jalan Sadarmanah",
+        "ref": "104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.53735,
+            -6.8878165
+          ],
+          [
+            107.5372378,
+            -6.8880721
+          ]
+        ]
+      },
+      "properties": {
+        "id": 339694302,
+        "designation": "provincial_road",
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Baros",
+        "oneway": "yes",
+        "ref": "170",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5352159,
+            -6.8840014
+          ],
+          [
+            107.5352209,
+            -6.8840374
+          ],
+          [
+            107.5354964,
+            -6.8843363
+          ],
+          [
+            107.5358223,
+            -6.8846929
+          ],
+          [
+            107.5359468,
+            -6.884833
+          ],
+          [
+            107.536025,
+            -6.8849146
+          ],
+          [
+            107.5361708,
+            -6.8850816
+          ],
+          [
+            107.5362818,
+            -6.8852088
+          ],
+          [
+            107.5363587,
+            -6.8852969
+          ],
+          [
+            107.5364702,
+            -6.8854248
+          ],
+          [
+            107.5365382,
+            -6.8855033
+          ],
+          [
+            107.5367348,
+            -6.8857305
+          ]
+        ]
+      },
+      "properties": {
+        "id": 339790390,
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "2",
+        "motorcycle": "yes",
+        "name": "Jalan Stasiun",
+        "oneway": "yes",
+        "ref": "30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5376749,
+            -6.8868524
+          ],
+          [
+            107.5375407,
+            -6.8872834
+          ],
+          [
+            107.5375078,
+            -6.8873908
+          ],
+          [
+            107.5374921,
+            -6.8874379
+          ],
+          [
+            107.5374798,
+            -6.8874708
+          ],
+          [
+            107.5374648,
+            -6.8875121
+          ]
+        ]
+      },
+      "properties": {
+        "id": 385643848,
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
+        "oneway": "yes",
+        "ref": "170",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5355935,
+            -6.9030515
+          ],
+          [
+            107.5354973,
+            -6.9031145
+          ],
+          [
+            107.5350808,
+            -6.9033831
+          ],
+          [
+            107.535052,
+            -6.9034019
+          ]
+        ]
+      },
+      "properties": {
+        "id": 390344975,
+        "designation": "provincial_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Nanjung",
+        "oneway": "yes",
+        "ref": "170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.538273,
+            -6.8810675
+          ],
+          [
+            107.5383206,
+            -6.8811231
+          ]
+        ]
+      },
+      "properties": {
+        "id": 561400534,
+        "bridge": "yes",
+        "highway": "residential",
+        "lanes": "2",
+        "layer": "1",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5350645,
+            -6.9027288
+          ],
+          [
+            107.5351976,
+            -6.9027588
+          ],
+          [
+            107.5353156,
+            -6.9027674
+          ],
+          [
+            107.535529,
+            -6.9027704
+          ]
+        ]
+      },
+      "properties": {
+        "id": 569885047,
+        "avgspeed": "20",
+        "designation": "provincial_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Baros",
+        "oneway": "yes",
+        "ref": "170",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.536753,
+            -6.8923541
+          ],
+          [
+            107.536762,
+            -6.8923872
+          ],
+          [
+            107.5367801,
+            -6.8924058
+          ],
+          [
+            107.5368022,
+            -6.8924214
+          ],
+          [
+            107.5368357,
+            -6.8924344
+          ],
+          [
+            107.5368726,
+            -6.8924411
+          ],
+          [
+            107.5370111,
+            -6.8924386
+          ]
+        ]
+      },
+      "properties": {
+        "id": 572290195,
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H.M.S. Mintaredja SH",
+        "oneway": "yes",
+        "ref": "93",
+        "surface": "asphalt",
+        "width": "6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5342212,
+            -6.9040005
+          ],
+          [
+            107.5341365,
+            -6.9039528
+          ]
+        ]
+      },
+      "properties": {
+        "id": 575445682,
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kerkof",
+        "oneway": "yes",
+        "ref": "92"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5372378,
+            -6.8880721
+          ],
+          [
+            107.5371821,
+            -6.8882052
+          ],
+          [
+            107.5369394,
+            -6.8887796
+          ],
+          [
+            107.5366629,
+            -6.8894348
+          ],
+          [
+            107.5366353,
+            -6.8895225
+          ],
+          [
+            107.5366216,
+            -6.8896125
+          ],
+          [
+            107.5366128,
+            -6.8897184
+          ],
+          [
+            107.536637,
+            -6.8901554
+          ],
+          [
+            107.5366635,
+            -6.8904132
+          ],
+          [
+            107.5366757,
+            -6.8906933
+          ],
+          [
+            107.5366796,
+            -6.8907688
+          ],
+          [
+            107.5366818,
+            -6.8908514
+          ],
+          [
+            107.536685,
+            -6.8909739
+          ]
+        ]
+      },
+      "properties": {
+        "id": 575479819,
+        "designation": "provincial_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Baros",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "170",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5383206,
+            -6.8811231
+          ],
+          [
+            107.5383466,
+            -6.8811511
+          ]
+        ]
+      },
+      "properties": {
+        "id": 686847815,
+        "highway": "residential",
+        "lanes": "2",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.539009,
+            -6.8925053
+          ],
+          [
+            107.5388984,
+            -6.8925069
+          ],
+          [
+            107.5378456,
+            -6.8925336
+          ]
+        ]
+      },
+      "properties": {
+        "id": 763065987,
+        "avgspeed": "30",
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "2",
+        "motorcycle": "yes",
+        "name": "Jalan H.M.S. Mintaredja SH",
+        "oneway": "yes",
+        "ref": "93",
+        "width": "6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5382728,
+            -6.8924268
+          ],
+          [
+            107.5387944,
+            -6.8924206
+          ],
+          [
+            107.5390107,
+            -6.8924181
+          ]
+        ]
+      },
+      "properties": {
+        "id": 763065988,
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H.M.S. Mintaredja SH",
+        "oneway": "yes",
+        "ref": "93",
+        "surface": "asphalt",
+        "width": "6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5394234,
+            -6.8924498
+          ],
+          [
+            107.539365,
+            -6.8924786
+          ],
+          [
+            107.5393296,
+            -6.8924911
+          ],
+          [
+            107.5392696,
+            -6.8924989
+          ],
+          [
+            107.5390697,
+            -6.8925045
+          ],
+          [
+            107.539009,
+            -6.8925053
+          ]
+        ]
+      },
+      "properties": {
+        "id": 763065989,
+        "avgspeed": "30",
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "2",
+        "motorcycle": "yes",
+        "name": "Jalan H.M.S. Mintaredja SH",
+        "oneway": "yes",
+        "ref": "93",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5390107,
+            -6.8924181
+          ],
+          [
+            107.5392379,
+            -6.8924144
+          ],
+          [
+            107.5393006,
+            -6.8924174
+          ],
+          [
+            107.5393496,
+            -6.8924231
+          ],
+          [
+            107.5394234,
+            -6.8924498
+          ]
+        ]
+      },
+      "properties": {
+        "id": 763065990,
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan H.M.S. Mintaredja SH",
+        "oneway": "yes",
+        "ref": "93",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5378456,
+            -6.8925336
+          ],
+          [
+            107.5367649,
+            -6.8925364
+          ],
+          [
+            107.536695,
+            -6.8925331
+          ]
+        ]
+      },
+      "properties": {
+        "id": 774161636,
+        "avgspeed": "30",
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "3",
+        "motorcycle": "yes",
+        "name": "Jalan H.M.S. Mintaredja SH",
+        "oneway": "yes",
+        "ref": "93",
+        "surface": "asphalt",
+        "width": "6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5374242,
+            -6.8876162
+          ],
+          [
+            107.53735,
+            -6.8878165
+          ]
+        ]
+      },
+      "properties": {
+        "id": 892172995,
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
+        "oneway": "yes",
+        "ref": "170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5374648,
+            -6.8875121
+          ],
+          [
+            107.5374242,
+            -6.8876162
+          ]
+        ]
+      },
+      "properties": {
+        "id": 909519329,
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
+        "oneway": "yes",
+        "ref": "170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5368837,
+            -6.8859294
+          ],
+          [
+            107.5373146,
+            -6.886461
+          ],
+          [
+            107.5376749,
+            -6.8868524
+          ]
+        ]
+      },
+      "properties": {
+        "id": 975117502,
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "2",
+        "motorcycle": "yes",
+        "name": "Jalan Stasiun",
+        "oneway": "yes",
+        "ref": "30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5367348,
+            -6.8857305
+          ],
+          [
+            107.5368837,
+            -6.8859294
+          ]
+        ]
+      },
+      "properties": {
+        "id": 975117503,
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "2",
+        "motorcycle": "yes",
+        "name": "Jalan Stasiun",
+        "oneway": "yes",
+        "ref": "30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5356551,
+            -6.9027794
+          ],
+          [
+            107.5356947,
+            -6.9028121
+          ],
+          [
+            107.5357205,
+            -6.9028563
+          ],
+          [
+            107.5357293,
+            -6.9029067
+          ],
+          [
+            107.5357201,
+            -6.902957
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1059257078,
+        "avgspeed": "20",
+        "designation": "provincial_road",
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "name": "Bundaran Leuwigajah",
+        "oneway": "yes",
+        "ref": "170",
+        "roundabout": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.535529,
+            -6.9027704
+          ],
+          [
+            107.5355713,
+            -6.9027608
+          ],
+          [
+            107.5356146,
+            -6.9027639
+          ],
+          [
+            107.5356551,
+            -6.9027794
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1059257079,
+        "avgspeed": "20",
+        "designation": "provincial_road",
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "name": "Bundaran Leuwigajah",
+        "oneway": "yes",
+        "ref": "170",
+        "roundabout": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5357201,
+            -6.902957
+          ],
+          [
+            107.5357002,
+            -6.9029933
+          ],
+          [
+            107.5356707,
+            -6.9030227
+          ],
+          [
+            107.5356342,
+            -6.9030426
+          ],
+          [
+            107.5355935,
+            -6.9030515
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1059257080,
+        "avgspeed": "20",
+        "designation": "provincial_road",
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "2",
+        "name": "Bundaran Leuwigajah",
+        "oneway": "yes",
+        "ref": "170",
+        "roundabout": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5383466,
+            -6.8811511
+          ],
+          [
+            107.5383917,
+            -6.8811994
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1109715772,
+        "highway": "primary_link",
+        "lanes": "2",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5369174,
+            -6.8824826
+          ],
+          [
+            107.5352331,
+            -6.8839737
+          ],
+          [
+            107.5352159,
+            -6.8840014
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1109759245,
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Sriwijaya Raya",
+        "oneway": "yes",
+        "ref": "20"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5372164,
+            -6.8822192
+          ],
+          [
+            107.5369174,
+            -6.8824826
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1110056393,
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sriwijaya Raya",
+        "oneway": "yes",
+        "ref": "20"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5341365,
+            -6.9039528
+          ],
+          [
+            107.5340333,
+            -6.9038971
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1111568227,
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kerkof",
+        "oneway": "yes",
+        "ref": "92"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5370111,
+            -6.8924386
+          ],
+          [
+            107.5373742,
+            -6.892437
+          ],
+          [
+            107.5377917,
+            -6.8924335
+          ],
+          [
+            107.5378677,
+            -6.8924315
+          ],
+          [
+            107.5382728,
+            -6.8924268
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1111874208,
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan H.M.S. Mintaredja SH",
+        "oneway": "yes",
+        "ref": "93",
+        "width": "6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5340333,
+            -6.9038971
+          ],
+          [
+            107.5338928,
+            -6.9038324
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1172312806,
+        "bridge": "yes",
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Jalan Kerkof",
+        "oneway": "yes",
+        "ref": "92"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5383917,
+            -6.8811994
+          ],
+          [
+            107.5379606,
+            -6.8815735
+          ],
+          [
+            107.5378852,
+            -6.8816389
+          ],
+          [
+            107.5374338,
+            -6.8820306
+          ],
+          [
+            107.5372164,
+            -6.8822192
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1364573708,
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sriwijaya Raya",
+        "oneway": "yes",
+        "ref": "20"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5379919,
+            -6.8807505
+          ],
+          [
+            107.538199,
+            -6.8809854
+          ],
+          [
+            107.538273,
+            -6.8810675
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1364573709,
+        "highway": "residential",
+        "lanes": "1",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.536685,
+            -6.8909739
+          ],
+          [
+            107.5366934,
+            -6.8911966
+          ],
+          [
+            107.5367027,
+            -6.8913159
+          ],
+          [
+            107.5367144,
+            -6.8913999
+          ],
+          [
+            107.5367383,
+            -6.8915316
+          ],
+          [
+            107.5367647,
+            -6.8916489
+          ],
+          [
+            107.5367687,
+            -6.8917448
+          ],
+          [
+            107.5367667,
+            -6.8918646
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1364573711,
+        "designation": "provincial_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Baros",
+        "oneway": "yes",
+        "ref": "170",
+        "sidewalk": "left",
+        "surface": "asphalt",
+        "width": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5192444,
+            -6.8971369
+          ],
+          [
+            107.5192037,
+            -6.8971958
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1365102232,
+        "designation": "city_road",
+        "highway": "secondary",
+        "name": "Jalan Ciseupan",
+        "ref": "84"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5338928,
+            -6.9038324
+          ],
+          [
+            107.533869,
+            -6.9038109
+          ],
+          [
+            107.5338492,
+            -6.9037866
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1408925348,
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Kerkof",
+        "oneway": "yes",
+        "ref": "92"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5367667,
+            -6.8918646
+          ],
+          [
+            107.536772,
+            -6.8919878
+          ],
+          [
+            107.5367571,
+            -6.8922577
+          ],
+          [
+            107.5367526,
+            -6.8923219
+          ],
+          [
+            107.536753,
+            -6.8923541
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1468273931,
+        "designation": "provincial_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Baros",
+        "oneway": "yes",
+        "ref": "170",
+        "surface": "asphalt",
+        "width": "6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5233088,
+            -6.8984975
           ],
           [
             107.5231967,
@@ -808,1131 +2008,13 @@
         ]
       },
       "properties": {
-        "id": 166894823,
+        "id": 1523972431,
         "alt_name": "Jl. Ibu Sangki",
-        "highway": "tertiary",
-        "name": "Jalan Ibu Sangki"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.53735,
-            -6.8878165
-          ],
-          [
-            107.5372378,
-            -6.8880721
-          ]
-        ]
-      },
-      "properties": {
-        "id": 339694302,
-        "highway": "primary",
-        "lanes": "1",
-        "name": "Jalan Baros",
-        "oneway": "yes",
-        "ref": "170"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5352159,
-            -6.8840014
-          ],
-          [
-            107.5352209,
-            -6.8840374
-          ],
-          [
-            107.5354964,
-            -6.8843363
-          ],
-          [
-            107.5358223,
-            -6.8846929
-          ],
-          [
-            107.5359468,
-            -6.884833
-          ],
-          [
-            107.536025,
-            -6.8849146
-          ],
-          [
-            107.5361708,
-            -6.8850816
-          ],
-          [
-            107.5362818,
-            -6.8852088
-          ],
-          [
-            107.5363587,
-            -6.8852969
-          ],
-          [
-            107.5364702,
-            -6.8854248
-          ],
-          [
-            107.5365382,
-            -6.8855033
-          ],
-          [
-            107.5367348,
-            -6.8857305
-          ]
-        ]
-      },
-      "properties": {
-        "id": 339790390,
+        "designation": "city_road",
+        "fixme": "Resurvey whether \"Sadarmanah\" and \"Ibu Sangki\" are for two separate sections of this highway or alternative names for the same street",
         "highway": "secondary",
-        "lanes": "2",
-        "motorcycle": "yes",
-        "name": "Jalan Stasiun",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5376749,
-            -6.8868524
-          ],
-          [
-            107.5375407,
-            -6.8872834
-          ],
-          [
-            107.5375078,
-            -6.8873908
-          ],
-          [
-            107.5374921,
-            -6.8874379
-          ],
-          [
-            107.5374798,
-            -6.8874708
-          ],
-          [
-            107.5374648,
-            -6.8875121
-          ]
-        ]
-      },
-      "properties": {
-        "id": 385643848,
-        "alt_name": "Jalan Baros",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Gatot Subroto",
-        "oneway": "yes",
-        "ref": "170"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5355935,
-            -6.9030515
-          ],
-          [
-            107.5354973,
-            -6.9031145
-          ],
-          [
-            107.5350808,
-            -6.9033831
-          ],
-          [
-            107.535052,
-            -6.9034019
-          ]
-        ]
-      },
-      "properties": {
-        "id": 390344975,
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Nanjung",
-        "oneway": "yes",
-        "ref": "170"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.538273,
-            -6.8810675
-          ],
-          [
-            107.5383206,
-            -6.8811231
-          ]
-        ]
-      },
-      "properties": {
-        "id": 561400534,
-        "bridge": "yes",
-        "highway": "residential",
-        "lanes": "2",
-        "layer": "1",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5350645,
-            -6.9027288
-          ],
-          [
-            107.5351976,
-            -6.9027588
-          ],
-          [
-            107.5353156,
-            -6.9027674
-          ],
-          [
-            107.535529,
-            -6.9027704
-          ]
-        ]
-      },
-      "properties": {
-        "id": 569885047,
-        "avgspeed": "20",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Baros",
-        "oneway": "yes",
-        "ref": "170",
-        "source": "Yahoo hires"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.536753,
-            -6.8923541
-          ],
-          [
-            107.536762,
-            -6.8923872
-          ],
-          [
-            107.5367801,
-            -6.8924058
-          ],
-          [
-            107.5368022,
-            -6.8924214
-          ],
-          [
-            107.5368357,
-            -6.8924344
-          ],
-          [
-            107.5368726,
-            -6.8924411
-          ],
-          [
-            107.5370111,
-            -6.8924386
-          ]
-        ]
-      },
-      "properties": {
-        "id": 572290195,
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan H.M.S. Mintaredja SH",
-        "oneway": "yes",
-        "width": "6"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5342212,
-            -6.9040005
-          ],
-          [
-            107.5341365,
-            -6.9039528
-          ]
-        ]
-      },
-      "properties": {
-        "id": 575445682,
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Kerkof",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5372378,
-            -6.8880721
-          ],
-          [
-            107.5371821,
-            -6.8882052
-          ],
-          [
-            107.5369394,
-            -6.8887796
-          ],
-          [
-            107.5366629,
-            -6.8894348
-          ],
-          [
-            107.5366353,
-            -6.8895225
-          ],
-          [
-            107.5366216,
-            -6.8896125
-          ],
-          [
-            107.5366128,
-            -6.8897184
-          ],
-          [
-            107.536637,
-            -6.8901554
-          ],
-          [
-            107.5366635,
-            -6.8904132
-          ],
-          [
-            107.5366757,
-            -6.8906933
-          ],
-          [
-            107.5366796,
-            -6.8907688
-          ],
-          [
-            107.5366818,
-            -6.8908514
-          ],
-          [
-            107.536685,
-            -6.8909739
-          ]
-        ]
-      },
-      "properties": {
-        "id": 575479819,
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Baros",
-        "oneway": "yes",
-        "ref": "170"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5383206,
-            -6.8811231
-          ],
-          [
-            107.5383466,
-            -6.8811511
-          ]
-        ]
-      },
-      "properties": {
-        "id": 686847815,
-        "highway": "residential",
-        "lanes": "2",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.539009,
-            -6.8925053
-          ],
-          [
-            107.5388984,
-            -6.8925069
-          ],
-          [
-            107.5378661,
-            -6.8925216
-          ],
-          [
-            107.5378029,
-            -6.8925225
-          ]
-        ]
-      },
-      "properties": {
-        "id": 763065987,
-        "avgspeed": "30",
-        "highway": "secondary",
-        "lanes": "2",
-        "motorcycle": "yes",
-        "name": "Jalan H.M.S. Mintaredja SH",
-        "oneway": "yes",
-        "width": "6"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5382728,
-            -6.8924268
-          ],
-          [
-            107.5387944,
-            -6.8924206
-          ],
-          [
-            107.5390107,
-            -6.8924181
-          ]
-        ]
-      },
-      "properties": {
-        "id": 763065988,
-        "highway": "secondary",
-        "lanes": "3",
-        "name": "Jalan H.M.S. Mintaredja SH",
-        "oneway": "yes",
-        "width": "6"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5398425,
-            -6.8924637
-          ],
-          [
-            107.5397456,
-            -6.8924937
-          ],
-          [
-            107.5396528,
-            -6.8924973
-          ],
-          [
-            107.5395012,
-            -6.8924992
-          ],
-          [
-            107.5393338,
-            -6.8925012
-          ],
-          [
-            107.5390697,
-            -6.8925045
-          ],
-          [
-            107.539009,
-            -6.8925053
-          ]
-        ]
-      },
-      "properties": {
-        "id": 763065989,
-        "avgspeed": "30",
-        "highway": "secondary",
-        "lanes": "2",
-        "motorcycle": "yes",
-        "name": "Jalan H.M.S. Mintaredja SH",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5390107,
-            -6.8924181
-          ],
-          [
-            107.5393348,
-            -6.8924179
-          ],
-          [
-            107.5394727,
-            -6.8924179
-          ],
-          [
-            107.539528,
-            -6.8924179
-          ],
-          [
-            107.5396507,
-            -6.8924178
-          ],
-          [
-            107.5397411,
-            -6.8924266
-          ],
-          [
-            107.5398425,
-            -6.8924637
-          ]
-        ]
-      },
-      "properties": {
-        "id": 763065990,
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan H.M.S. Mintaredja SH",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5378029,
-            -6.8925225
-          ],
-          [
-            107.5368721,
-            -6.8925279
-          ],
-          [
-            107.536695,
-            -6.892527
-          ]
-        ]
-      },
-      "properties": {
-        "id": 774161636,
-        "avgspeed": "30",
-        "highway": "secondary",
-        "lanes": "3",
-        "motorcycle": "yes",
-        "name": "Jalan H.M.S. Mintaredja SH",
-        "oneway": "yes",
-        "width": "6"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5374242,
-            -6.8876162
-          ],
-          [
-            107.53735,
-            -6.8878165
-          ]
-        ]
-      },
-      "properties": {
-        "id": 892172995,
-        "alt_name": "Jalan Baros",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Gatot Subroto",
-        "oneway": "yes",
-        "ref": "170"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5374648,
-            -6.8875121
-          ],
-          [
-            107.5374242,
-            -6.8876162
-          ]
-        ]
-      },
-      "properties": {
-        "id": 909519329,
-        "alt_name": "Jalan Baros",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Gatot Subroto",
-        "oneway": "yes",
-        "ref": "170"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5368837,
-            -6.8859294
-          ],
-          [
-            107.5373146,
-            -6.886461
-          ],
-          [
-            107.5376749,
-            -6.8868524
-          ]
-        ]
-      },
-      "properties": {
-        "id": 975117502,
-        "highway": "secondary",
-        "lanes": "2",
-        "motorcycle": "yes",
-        "name": "Jalan Stasiun",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5367348,
-            -6.8857305
-          ],
-          [
-            107.5368837,
-            -6.8859294
-          ]
-        ]
-      },
-      "properties": {
-        "id": 975117503,
-        "highway": "secondary",
-        "lanes": "2",
-        "motorcycle": "yes",
-        "name": "Jalan Stasiun",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5356551,
-            -6.9027794
-          ],
-          [
-            107.5356947,
-            -6.9028121
-          ],
-          [
-            107.5357205,
-            -6.9028563
-          ],
-          [
-            107.5357293,
-            -6.9029067
-          ],
-          [
-            107.5357201,
-            -6.902957
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1059257078,
-        "avgspeed": "20",
-        "highway": "primary",
-        "junction": "roundabout",
-        "lanes": "2",
-        "name": "Bundaran Leuwigajah",
-        "oneway": "yes",
-        "ref": "170",
-        "roundabout": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.535529,
-            -6.9027704
-          ],
-          [
-            107.5355713,
-            -6.9027608
-          ],
-          [
-            107.5356146,
-            -6.9027639
-          ],
-          [
-            107.5356551,
-            -6.9027794
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1059257079,
-        "avgspeed": "20",
-        "highway": "primary",
-        "junction": "roundabout",
-        "lanes": "2",
-        "name": "Bundaran Leuwigajah",
-        "oneway": "yes",
-        "ref": "170",
-        "roundabout": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5357201,
-            -6.902957
-          ],
-          [
-            107.5357002,
-            -6.9029933
-          ],
-          [
-            107.5356707,
-            -6.9030227
-          ],
-          [
-            107.5356342,
-            -6.9030426
-          ],
-          [
-            107.5355935,
-            -6.9030515
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1059257080,
-        "avgspeed": "20",
-        "highway": "primary",
-        "junction": "roundabout",
-        "lanes": "2",
-        "name": "Bundaran Leuwigajah",
-        "oneway": "yes",
-        "ref": "170",
-        "roundabout": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5383466,
-            -6.8811511
-          ],
-          [
-            107.5383917,
-            -6.8811994
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1109715772,
-        "highway": "secondary_link",
-        "lanes": "2",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5369174,
-            -6.8824826
-          ],
-          [
-            107.5352331,
-            -6.8839737
-          ],
-          [
-            107.5352159,
-            -6.8840014
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1109759245,
-        "highway": "secondary",
-        "lanes": "1",
-        "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5372164,
-            -6.8822192
-          ],
-          [
-            107.5369174,
-            -6.8824826
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1110056393,
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5341365,
-            -6.9039528
-          ],
-          [
-            107.5340333,
-            -6.9038971
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1111568227,
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Kerkof",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5370111,
-            -6.8924386
-          ],
-          [
-            107.5373742,
-            -6.892437
-          ],
-          [
-            107.5377917,
-            -6.8924335
-          ],
-          [
-            107.5378677,
-            -6.8924315
-          ],
-          [
-            107.5382728,
-            -6.8924268
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1111874208,
-        "highway": "secondary",
-        "lanes": "3",
-        "name": "Jalan H.M.S. Mintaredja SH",
-        "oneway": "yes",
-        "width": "6"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5340333,
-            -6.9038971
-          ],
-          [
-            107.5338928,
-            -6.9038324
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1172312806,
-        "bridge": "yes",
-        "highway": "secondary",
-        "lanes": "2",
-        "layer": "1",
-        "name": "Jalan Kerkof",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5383917,
-            -6.8811994
-          ],
-          [
-            107.5379606,
-            -6.8815735
-          ],
-          [
-            107.5378852,
-            -6.8816389
-          ],
-          [
-            107.5374338,
-            -6.8820306
-          ],
-          [
-            107.5372164,
-            -6.8822192
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1364573708,
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5379919,
-            -6.8807505
-          ],
-          [
-            107.538199,
-            -6.8809854
-          ],
-          [
-            107.538273,
-            -6.8810675
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1364573709,
-        "highway": "residential",
-        "lanes": "1",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.536685,
-            -6.8909739
-          ],
-          [
-            107.5366934,
-            -6.8911966
-          ],
-          [
-            107.5367027,
-            -6.8913159
-          ],
-          [
-            107.5367144,
-            -6.8913999
-          ],
-          [
-            107.5367383,
-            -6.8915316
-          ],
-          [
-            107.5367647,
-            -6.8916489
-          ],
-          [
-            107.5367687,
-            -6.8917448
-          ],
-          [
-            107.5367667,
-            -6.8918646
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1364573711,
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Baros",
-        "oneway": "yes",
-        "ref": "170",
-        "width": "5"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5192444,
-            -6.8971369
-          ],
-          [
-            107.5192037,
-            -6.8971958
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1365102232,
-        "highway": "tertiary"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5338928,
-            -6.9038324
-          ],
-          [
-            107.533869,
-            -6.9038109
-          ],
-          [
-            107.5338492,
-            -6.9037866
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1408925348,
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan Kerkof",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5367667,
-            -6.8918646
-          ],
-          [
-            107.536772,
-            -6.8919878
-          ],
-          [
-            107.5367571,
-            -6.8922577
-          ],
-          [
-            107.5367526,
-            -6.8923219
-          ],
-          [
-            107.536753,
-            -6.8923541
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1468273931,
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Baros",
-        "oneway": "yes",
-        "ref": "170",
-        "width": "6"
+        "name": "Jalan Ibu Sangki",
+        "ref": "104"
       }
     }
   ]

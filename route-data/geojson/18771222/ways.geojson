@@ -23,6 +23,10 @@
             -6.9074752
           ],
           [
+            107.6070242,
+            -6.9074318
+          ],
+          [
             107.6068765,
             -6.907351
           ],
@@ -126,7 +130,7 @@
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_left;slight_right|slight_right",
         "wheelchair": "no",
-        "width": "3 m"
+        "width": "3"
       }
     },
     {
@@ -342,6 +346,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -1090,6 +1096,7 @@
         "highway": "secondary",
         "lanes": "3",
         "layer": "1",
+        "maxweight:signed": "no",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
@@ -1892,7 +1899,7 @@
           ],
           [
             107.6090523,
-            -6.912686
+            -6.9126675
           ],
           [
             107.6090858,
@@ -2786,9 +2793,14 @@
       },
       "properties": {
         "id": 412599695,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Guru Gantangan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2889,8 +2901,16 @@
             -6.8963655
           ],
           [
+            107.5901004,
+            -6.8961571
+          ],
+          [
             107.5897867,
             -6.8959903
+          ],
+          [
+            107.5897258,
+            -6.8959579
           ],
           [
             107.5896528,
@@ -3099,7 +3119,9 @@
       },
       "properties": {
         "id": 492893648,
-        "highway": "secondary",
+        "bicycle": "no",
+        "foot": "no",
+        "highway": "motorway_link",
         "lanes": "2",
         "motorcycle": "no",
         "name": "KBP East Entrance",
@@ -3644,7 +3666,9 @@
       },
       "properties": {
         "id": 573054117,
-        "highway": "secondary",
+        "bicycle": "no",
+        "foot": "no",
+        "highway": "motorway_link",
         "lanes": "2",
         "maxspeed": "60",
         "motorcycle": "no",
@@ -3658,10 +3682,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            107.4651824,
-            -6.8680042
-          ],
           [
             107.4654346,
             -6.8679999
@@ -3719,7 +3739,7 @@
         "lanes": "4",
         "lit": "yes",
         "oneway": "no",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -3869,7 +3889,9 @@
       },
       "properties": {
         "id": 688462267,
-        "highway": "secondary",
+        "bicycle": "no",
+        "foot": "no",
+        "highway": "motorway_link",
         "lanes": "2",
         "maxspeed": "60",
         "motorcycle": "no",
@@ -3959,9 +3981,14 @@
       },
       "properties": {
         "id": 701746308,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Guru Gantangan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -3972,6 +3999,10 @@
           [
             107.6065499,
             -6.9154703
+          ],
+          [
+            107.6064784,
+            -6.9154686
           ],
           [
             107.6063683,
@@ -4406,8 +4437,10 @@
       },
       "properties": {
         "id": 990624292,
+        "bicycle": "no",
         "bridge": "yes",
-        "highway": "secondary",
+        "foot": "no",
+        "highway": "motorway_link",
         "lanes": "2",
         "layer": "1",
         "maxspeed": "60",
@@ -4645,7 +4678,9 @@
       },
       "properties": {
         "id": 1071187435,
-        "highway": "secondary",
+        "bicycle": "no",
+        "foot": "no",
+        "highway": "motorway_link",
         "lanes": "2",
         "motorcycle": "no",
         "name": "KBP East Entrance",
@@ -4697,8 +4732,8 @@
             -6.9157548
           ],
           [
-            107.6045263,
-            -6.9155905
+            107.6045273,
+            -6.915589
           ],
           [
             107.604546,
@@ -4712,6 +4747,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -5014,6 +5051,10 @@
           [
             107.5955089,
             -6.9001209
+          ],
+          [
+            107.5953998,
+            -6.9000642
           ],
           [
             107.5952214,
@@ -6171,9 +6212,14 @@
       },
       "properties": {
         "id": 1484132876,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Guru Gantangan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -6554,7 +6600,33 @@
         "lanes": "4",
         "lit": "yes",
         "oneway": "no",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4651824,
+            -6.8680042
+          ],
+          [
+            107.4654346,
+            -6.8679999
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1528744715,
+        "cycleway:both": "lane",
+        "highway": "tertiary",
+        "lanes": "4",
+        "lit": "yes",
+        "oneway": "no",
+        "sidewalk:left": "separate",
         "surface": "asphalt"
       }
     }

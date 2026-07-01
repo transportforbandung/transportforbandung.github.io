@@ -22,6 +22,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -50,6 +52,10 @@
           [
             107.5969439,
             -6.9230582
+          ],
+          [
+            107.5968697,
+            -6.9230503
           ],
           [
             107.5967869,
@@ -154,6 +160,10 @@
           [
             107.5897321,
             -6.9222979
+          ],
+          [
+            107.5893924,
+            -6.9222659
           ],
           [
             107.5890351,
@@ -374,6 +384,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -398,6 +410,10 @@
           [
             107.6035394,
             -6.9293944
+          ],
+          [
+            107.603531,
+            -6.9295081
           ],
           [
             107.6035279,
@@ -434,6 +450,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -450,6 +468,10 @@
           [
             107.6041575,
             -6.931522
+          ],
+          [
+            107.6048366,
+            -6.9316106
           ],
           [
             107.6054273,
@@ -695,6 +717,10 @@
             -6.9235073
           ],
           [
+            107.5816788,
+            -6.9233194
+          ],
+          [
             107.581944,
             -6.9231038
           ],
@@ -909,6 +935,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -918,14 +946,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            107.5860408,
-            -6.9219918
-          ],
-          [
-            107.5859995,
-            -6.9219879
-          ],
           [
             107.5859557,
             -6.9219839
@@ -1106,6 +1126,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -1139,6 +1161,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -1164,6 +1188,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -1189,6 +1215,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -1214,6 +1242,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -1239,6 +1269,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1264,6 +1296,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1293,6 +1327,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1318,8 +1354,38 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5860408,
+            -6.9219918
+          ],
+          [
+            107.5859995,
+            -6.9219879
+          ],
+          [
+            107.5859557,
+            -6.9219839
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1526896479,
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Pagarsih Barat",
+        "oneway": "no",
+        "source": "Bing"
       }
     }
   ]

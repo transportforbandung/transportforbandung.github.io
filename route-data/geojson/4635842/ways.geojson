@@ -22,6 +22,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -400,6 +402,8 @@
         "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -849,6 +853,10 @@
             -6.9122063
           ],
           [
+            107.614276,
+            -6.9122351
+          ],
+          [
             107.6142314,
             -6.9122519
           ],
@@ -984,7 +992,9 @@
         "destination:lanes": "Cicadas|Padasuka;Cikutra",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Abdul Haris Nasution",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "turn:lanes": "slight_left;through|through"
       }
@@ -1010,6 +1020,8 @@
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "ref": "2228",
         "reg_ref": "22-10-2228",
         "surface": "asphalt"
@@ -1043,7 +1055,10 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Laksamana Laut Raden Eddy Martadinata",
-        "oneway": "yes"
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1166,7 +1181,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6211747,
+            107.6211862,
             -6.9092178
           ],
           [
@@ -1246,6 +1261,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Aceh",
+        "oneway": "no",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -1442,6 +1459,8 @@
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "380",
@@ -1528,7 +1547,7 @@
             -6.9092725
           ],
           [
-            107.6211354,
+            107.6211274,
             -6.9093568
           ]
         ]
@@ -1540,6 +1559,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Aceh",
+        "oneway": "no",
+        "parking:both": "no",
         "surface": "asphalt"
       }
     },
@@ -1665,6 +1686,8 @@
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "380",
@@ -1897,6 +1920,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo",
         "surface": "asphalt"
       }
     },
@@ -1955,6 +1980,8 @@
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2228",
@@ -2411,7 +2438,9 @@
         "id": 561411466,
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Brigjend. Katamso"
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo"
       }
     },
     {
@@ -2435,7 +2464,9 @@
         "highway": "secondary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Brigjend. Katamso"
+        "name": "Jalan Brigjend. Katamso",
+        "name:etymology:wikidata": "Q6375087",
+        "name:etymology:wikipedia": "id:Katamso Darmokusumo"
       }
     },
     {
@@ -2479,11 +2510,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6211354,
+            107.6211274,
             -6.9093568
           ],
           [
-            107.6211747,
+            107.6211862,
             -6.9092178
           ]
         ]
@@ -2494,7 +2525,7 @@
         "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Menado",
+        "name": "Jalan Aceh",
         "oneway": "no",
         "parking:both": "no",
         "surface": "asphalt"
@@ -2677,7 +2708,8 @@
         "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Aceh",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2705,12 +2737,11 @@
       },
       "properties": {
         "id": 1193893092,
-        "alt_name": "Jalan Suci",
         "avgspeed": "30",
         "destination": "Padasuka;Cikutra;Surapati;Gedung Sate",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan PH. H. Mustofa",
+        "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
         "turn:lanes": "through|through"
       }
@@ -3028,6 +3059,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3061,6 +3094,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3086,6 +3121,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3111,6 +3148,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3136,6 +3175,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3161,6 +3202,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3186,6 +3229,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3215,6 +3260,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3240,6 +3287,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }

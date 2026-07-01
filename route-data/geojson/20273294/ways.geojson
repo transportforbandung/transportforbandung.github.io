@@ -149,10 +149,10 @@
       },
       "properties": {
         "id": 42795877,
-        "alt_name": "Jl. Stasiun Timur",
+        "alt_name": "Jalan Simpang Utara",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Stasiun Timur",
+        "name": "Jalan Panaris",
         "oneway": "no",
         "ref": "10",
         "sidewalk:both": "separate",
@@ -408,6 +408,7 @@
         "highway": "secondary",
         "lanes": "3",
         "layer": "1",
+        "maxweight:signed": "no",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
@@ -710,9 +711,14 @@
       },
       "properties": {
         "id": 412599695,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Guru Gantangan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -953,22 +959,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.4651824,
-            -6.8680042
-          ],
-          [
-            107.4651845,
-            -6.8682629
-          ],
-          [
-            107.4651852,
-            -6.8683459
-          ],
-          [
-            107.4651854,
-            -6.8686619
-          ],
-          [
             107.4652031,
             -6.86882
           ],
@@ -1020,7 +1010,10 @@
       },
       "properties": {
         "id": 573413082,
-        "highway": "tertiary"
+        "cycleway:both": "lane",
+        "highway": "tertiary",
+        "lit": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1192,9 +1185,14 @@
       },
       "properties": {
         "id": 701746308,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Guru Gantangan",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1427,11 +1425,14 @@
       },
       "properties": {
         "id": 1042818641,
+        "alt_name": "Jalan Simpang Utara",
         "highway": "trunk",
         "lanes": "1",
-        "name": "Jalan Simpang",
+        "name": "Jalan Panaris",
         "oneway": "yes",
-        "ref": "10"
+        "ref": "10",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -1681,8 +1682,8 @@
             -6.8678404
           ],
           [
-            107.4649164,
-            -6.8678403
+            107.4649248,
+            -6.8678406
           ],
           [
             107.4649741,
@@ -2028,8 +2029,11 @@
       },
       "properties": {
         "id": 1452692000,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "tertiary",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -2254,7 +2258,7 @@
         "highway": "tertiary",
         "lanes": "4",
         "oneway": "no",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -2278,7 +2282,7 @@
         "highway": "tertiary",
         "lanes": "4",
         "oneway": "no",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -2624,6 +2628,62 @@
         "oneway": "yes",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4651824,
+            -6.8680042
+          ],
+          [
+            107.4651845,
+            -6.8682629
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1528744716,
+        "cycleway:both": "lane",
+        "highway": "tertiary",
+        "lit": "yes",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.4651845,
+            -6.8682629
+          ],
+          [
+            107.4651852,
+            -6.8683459
+          ],
+          [
+            107.4651854,
+            -6.8686619
+          ],
+          [
+            107.4652031,
+            -6.86882
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1528744717,
+        "cycleway:both": "lane",
+        "highway": "tertiary",
+        "lit": "yes",
+        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     }

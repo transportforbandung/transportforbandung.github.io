@@ -42,6 +42,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -52,8 +54,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.60308,
-            -6.9372447
+            107.603088,
+            -6.9372221
           ],
           [
             107.6030687,
@@ -66,6 +68,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -263,6 +267,10 @@
             -6.9293944
           ],
           [
+            107.603531,
+            -6.9295081
+          ],
+          [
             107.6035279,
             -6.9295503
           ],
@@ -297,6 +305,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -326,6 +336,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -370,6 +382,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -622,6 +636,10 @@
           [
             107.593256,
             -6.958195
+          ],
+          [
+            107.5932729,
+            -6.9582559
           ],
           [
             107.5932835,
@@ -960,10 +978,12 @@
       },
       "properties": {
         "id": 340400255,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Leuwi Panjang",
         "oneway": "yes",
+        "ref": "4118",
         "surface": "asphalt"
       }
     },
@@ -996,11 +1016,13 @@
       },
       "properties": {
         "id": 340400265,
+        "designation": "city_road",
         "destination:lanes": "Inhoftank;Mohammad Toha;Batununggal;Cibiru|Cibaduyut;Cangkuang;Rancamanyar|Kopo;Caringin;Pasir Koja",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "name": "Jalan Leuwi Panjang",
         "oneway": "yes",
+        "ref": "4118",
         "turn:lanes": "slight_left;through|through|right"
       }
     },
@@ -1182,8 +1204,8 @@
             -6.9371305
           ],
           [
-            107.60308,
-            -6.9372447
+            107.603088,
+            -6.9372221
           ]
         ]
       },
@@ -1193,6 +1215,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1218,11 +1242,13 @@
       },
       "properties": {
         "id": 1107619194,
+        "designation": "city_road",
         "destination:lanes": "Cibaduyut;Cangkuang;Rancamanyar|Cibaduyut;Cangkuang;Rancamanyar|Kopo;Caringin;Pasir Koja",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "name": "Jalan Leuwi Panjang",
         "oneway": "yes",
+        "ref": "4118",
         "turn:lanes": "through|through|right"
       }
     },
@@ -1255,6 +1281,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1284,6 +1312,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1313,6 +1343,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1334,10 +1366,12 @@
       },
       "properties": {
         "id": 1111540811,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Leuwi Panjang",
         "oneway": "yes",
+        "ref": "4118",
         "surface": "asphalt"
       }
     },
@@ -1358,10 +1392,12 @@
       },
       "properties": {
         "id": 1213181248,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Leuwi Panjang",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "4118"
       }
     },
     {
@@ -1386,6 +1422,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1431,6 +1469,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1456,6 +1496,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }

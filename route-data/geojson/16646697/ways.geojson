@@ -27,6 +27,10 @@
             -6.9472937
           ],
           [
+            107.6416203,
+            -6.9474631
+          ],
+          [
             107.641608,
             -6.9475383
           ],
@@ -205,16 +209,16 @@
             -6.9644606
           ],
           [
-            107.6812118,
-            -6.9645134
+            107.6811991,
+            -6.9645121
           ],
           [
-            107.681242,
-            -6.9645139
+            107.6812467,
+            -6.9645182
           ],
           [
-            107.6812592,
-            -6.9645164
+            107.6812957,
+            -6.9645254
           ],
           [
             107.6817916,
@@ -235,6 +239,10 @@
           [
             107.6826274,
             -6.9647276
+          ],
+          [
+            107.6826435,
+            -6.9647306
           ],
           [
             107.6827153,
@@ -333,9 +341,11 @@
       "properties": {
         "id": 43550021,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Derwati",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -438,9 +448,11 @@
       "properties": {
         "id": 271678841,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Marga Cinta"
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -462,11 +474,13 @@
         "id": 271678842,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "maxweight:signed": "no",
         "name": "Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -522,6 +536,10 @@
           [
             107.655958,
             -6.9564205
+          ],
+          [
+            107.6560645,
+            -6.9565329
           ],
           [
             107.6562501,
@@ -592,9 +610,11 @@
       "properties": {
         "id": 271678843,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -644,9 +664,11 @@
       "properties": {
         "id": 271678844,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -1188,6 +1210,10 @@
             -6.9514576
           ],
           [
+            107.5857381,
+            -6.9515503
+          ],
+          [
             107.5857155,
             -6.9515817
           ],
@@ -1239,6 +1265,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "ref": "106",
         "reg_ref": "22-00-106-11K"
       }
@@ -1393,9 +1421,11 @@
       "properties": {
         "id": 318490789,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "width": "4.5"
       }
     },
@@ -1529,6 +1559,10 @@
           [
             107.6190662,
             -6.9381955
+          ],
+          [
+            107.6187901,
+            -6.93818
           ],
           [
             107.6187806,
@@ -1716,9 +1750,11 @@
       "properties": {
         "id": 331312466,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "width": "5"
       }
     },
@@ -1747,6 +1783,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "ref": "106",
         "reg_ref": "22-00-106-11K",
         "turn:lanes:forward": "slight_left;through|through;right"
@@ -1788,6 +1826,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -1853,6 +1893,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left;through|through|right;reverse"
@@ -2049,10 +2091,12 @@
       },
       "properties": {
         "id": 340400255,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Leuwi Panjang",
         "oneway": "yes",
+        "ref": "4118",
         "surface": "asphalt"
       }
     },
@@ -2085,11 +2129,13 @@
       },
       "properties": {
         "id": 340400265,
+        "designation": "city_road",
         "destination:lanes": "Inhoftank;Mohammad Toha;Batununggal;Cibiru|Cibaduyut;Cangkuang;Rancamanyar|Kopo;Caringin;Pasir Koja",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "name": "Jalan Leuwi Panjang",
         "oneway": "yes",
+        "ref": "4118",
         "turn:lanes": "slight_left;through|through|right"
       }
     },
@@ -2133,16 +2179,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.604469,
-            -6.9374642
+            107.6044934,
+            -6.9374561
           ],
           [
-            107.6043625,
-            -6.9374545
+            107.604396,
+            -6.9374454
           ],
           [
             107.6036889,
-            -6.9373934
+            -6.9373854
           ],
           [
             107.6032992,
@@ -2324,10 +2370,12 @@
         "id": 561408354,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Derwati"
+        "name": "Jalan Derwati",
+        "ref": "6080"
       }
     },
     {
@@ -2356,7 +2404,7 @@
             -6.9638334
           ],
           [
-            107.6742333,
+            107.674242,
             -6.9638681
           ],
           [
@@ -2384,9 +2432,11 @@
       "properties": {
         "id": 561408355,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Derwati",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -2474,9 +2524,11 @@
       "properties": {
         "id": 681842541,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Derwati",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -2499,11 +2551,13 @@
         "id": 682446269,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "maxweight:signed": "no",
-        "name": "Jalan Marga Cinta"
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -2612,9 +2666,11 @@
       "properties": {
         "id": 684297069,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -2637,10 +2693,12 @@
         "id": 684297070,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -2663,10 +2721,12 @@
         "id": 686749273,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Marga Cinta"
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -2785,9 +2845,11 @@
       "properties": {
         "id": 703822674,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -2809,9 +2871,11 @@
       "properties": {
         "id": 703822888,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Derwati"
+        "name": "Jalan Derwati",
+        "ref": "6080"
       }
     },
     {
@@ -2833,10 +2897,12 @@
         "id": 703822958,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Derwati"
+        "name": "Jalan Derwati",
+        "ref": "6080"
       }
     },
     {
@@ -2857,9 +2923,11 @@
       "properties": {
         "id": 703822959,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Derwati",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -2882,10 +2950,12 @@
         "id": 703837308,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "width": "4"
       }
     },
@@ -2907,8 +2977,10 @@
       "properties": {
         "id": 807117137,
         "avgspeed": "25",
-        "highway": "tertiary",
-        "name": "Jalan Marga Cinta"
+        "designation": "city_road",
+        "highway": "primary",
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -3019,6 +3091,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -3049,6 +3123,8 @@
         "layer": "1",
         "maxweight:signed": "no",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -3091,6 +3167,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -3142,6 +3220,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -3181,6 +3261,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -3221,6 +3303,8 @@
         "lanes": "3",
         "lit": "yes",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -3286,6 +3370,8 @@
         "lanes": "3",
         "lit": "yes",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -3438,6 +3524,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "ref": "106",
         "reg_ref": "22-00-106-11K"
       }
@@ -3566,9 +3654,11 @@
       "properties": {
         "id": 1013045574,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Marga Cinta"
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -3590,10 +3680,12 @@
         "id": 1013045575,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Marga Cinta"
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -3626,9 +3718,11 @@
       "properties": {
         "id": 1013644695,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Marga Cinta"
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -3650,10 +3744,12 @@
         "id": 1013644696,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Marga Cinta"
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -3686,9 +3782,11 @@
       "properties": {
         "id": 1016502553,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -3711,10 +3809,12 @@
         "id": 1016502554,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -3740,10 +3840,12 @@
       "properties": {
         "id": 1046801505,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Marga Cinta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "6080"
       }
     },
     {
@@ -3790,9 +3892,11 @@
       "properties": {
         "id": 1080501573,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -3817,11 +3921,13 @@
       },
       "properties": {
         "id": 1107619194,
+        "designation": "city_road",
         "destination:lanes": "Cibaduyut;Cangkuang;Rancamanyar|Cibaduyut;Cangkuang;Rancamanyar|Kopo;Caringin;Pasir Koja",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "name": "Jalan Leuwi Panjang",
         "oneway": "yes",
+        "ref": "4118",
         "turn:lanes": "through|through|right"
       }
     },
@@ -3842,10 +3948,12 @@
       },
       "properties": {
         "id": 1111540811,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Leuwi Panjang",
         "oneway": "yes",
+        "ref": "4118",
         "surface": "asphalt"
       }
     },
@@ -3981,12 +4089,16 @@
             -6.9375586
           ],
           [
-            107.604578,
-            -6.9374741
+            107.6046591,
+            -6.9374791
           ],
           [
-            107.604469,
-            -6.9374642
+            107.604578,
+            -6.9374674
+          ],
+          [
+            107.6044934,
+            -6.9374561
           ]
         ]
       },
@@ -4123,6 +4235,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left;through|through|through;right"
@@ -4187,10 +4301,12 @@
       },
       "properties": {
         "id": 1213181248,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Leuwi Panjang",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "4118"
       }
     },
     {
@@ -4285,9 +4401,11 @@
       "properties": {
         "id": 1220676212,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -4345,6 +4463,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -4397,6 +4517,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -4415,6 +4537,10 @@
             -6.9460282
           ],
           [
+            107.6398251,
+            -6.9460936
+          ],
+          [
             107.63913,
             -6.9463163
           ]
@@ -4426,6 +4552,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -4460,6 +4588,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -4502,9 +4632,11 @@
       "properties": {
         "id": 1268059056,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -4527,10 +4659,12 @@
         "id": 1268059057,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -4552,9 +4686,11 @@
       "properties": {
         "id": 1270785072,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Derwati"
+        "name": "Jalan Derwati",
+        "ref": "6080"
       }
     },
     {
@@ -4595,9 +4731,11 @@
       "properties": {
         "id": 1271974938,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "width": "4"
       }
     },
@@ -4620,10 +4758,12 @@
         "id": 1271974939,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "width": "4"
       }
     },
@@ -4650,6 +4790,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "oneway": "yes",
         "ref": "106",
         "reg_ref": "22-00-106-11K"
@@ -4673,10 +4815,12 @@
       "properties": {
         "id": 1364319039,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Marga Cinta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "6080"
       }
     },
     {
@@ -4988,6 +5132,10 @@
             -6.9459124
           ],
           [
+            107.6404497,
+            -6.9459144
+          ],
+          [
             107.6404414,
             -6.9459162
           ]
@@ -5000,6 +5148,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -5031,6 +5181,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "ref": "106",
         "reg_ref": "22-00-106-11K",
         "turn:lanes:forward": "slight_left;through|through;right"

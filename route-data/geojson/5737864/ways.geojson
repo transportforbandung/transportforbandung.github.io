@@ -79,12 +79,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5504603,
-            -6.9254109
+            107.5505381,
+            -6.9254502
           ],
           [
-            107.5506136,
-            -6.9255267
+            107.5506257,
+            -6.9255107
           ]
         ]
       },
@@ -92,7 +92,9 @@
         "id": 306181117,
         "bridge": "yes",
         "highway": "tertiary",
-        "layer": "1"
+        "lanes": "2",
+        "layer": "1",
+        "width": "4"
       }
     },
     {
@@ -165,8 +167,8 @@
             -6.9298134
           ],
           [
-            107.5492509,
-            -6.929828
+            107.5492288,
+            -6.9298403
           ],
           [
             107.5491793,
@@ -175,6 +177,10 @@
           [
             107.5490994,
             -6.9299089
+          ],
+          [
+            107.5490888,
+            -6.9299149
           ],
           [
             107.5490114,
@@ -375,12 +381,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5506136,
-            -6.9255267
+            107.5506257,
+            -6.9255107
           ],
           [
-            107.5506506,
-            -6.9255508
+            107.550662,
+            -6.9255382
           ],
           [
             107.5508262,
@@ -394,7 +400,9 @@
       },
       "properties": {
         "id": 306181129,
-        "highway": "tertiary"
+        "highway": "tertiary",
+        "lanes": "2",
+        "width": "4"
       }
     },
     {
@@ -923,8 +931,8 @@
             -6.9142482
           ],
           [
-            107.5500305,
-            -6.9144647
+            107.5500359,
+            -6.9144674
           ],
           [
             107.5499538,
@@ -956,7 +964,10 @@
         "id": 306250236,
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Cibaligo"
+        "name": "Jalan Cibaligo",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -1054,7 +1065,10 @@
         "id": 321011042,
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Cibaligo"
+        "name": "Jalan Cibaligo",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "6"
       }
     },
     {
@@ -1063,18 +1077,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5500507,
-            -6.9250922
+            107.5500624,
+            -6.9250719
           ],
           [
-            107.5500369,
-            -6.925116
+            107.550047,
+            -6.9250987
           ]
         ]
       },
       "properties": {
         "id": 337427436,
-        "highway": "tertiary"
+        "highway": "tertiary",
+        "lanes": "2",
+        "width": "4"
       }
     },
     {
@@ -1087,8 +1103,8 @@
             -6.9250254
           ],
           [
-            107.5500507,
-            -6.9250922
+            107.5500624,
+            -6.9250719
           ]
         ]
       },
@@ -1096,7 +1112,9 @@
         "id": 337427469,
         "bridge": "yes",
         "highway": "tertiary",
-        "layer": "1"
+        "lanes": "2",
+        "layer": "1",
+        "width": "4"
       }
     },
     {
@@ -1113,8 +1131,8 @@
             -6.9231761
           ],
           [
-            107.5509985,
-            -6.9233788
+            107.5509871,
+            -6.9234114
           ],
           [
             107.5507682,
@@ -1149,7 +1167,10 @@
       "properties": {
         "id": 337427594,
         "highway": "tertiary",
-        "lanes": "2"
+        "lanes": "2",
+        "smoothness": "good",
+        "surface": "concrete",
+        "width": "4"
       }
     },
     {
@@ -1407,12 +1428,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5504603,
-            -6.9254109
+            107.5505381,
+            -6.9254502
           ],
           [
-            107.5500369,
-            -6.925116
+            107.5502944,
+            -6.9252679
+          ],
+          [
+            107.550047,
+            -6.9250987
           ]
         ]
       },
@@ -1420,7 +1445,9 @@
         "id": 571885526,
         "avgspeed": "15",
         "highway": "tertiary",
-        "source": "Yahoo hires"
+        "lanes": "2",
+        "source": "Yahoo hires",
+        "width": "4"
       }
     },
     {
@@ -1509,9 +1536,11 @@
       "properties": {
         "id": 939807607,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
+        "ref": "82",
         "source": "Yahoo hires"
       }
     },
@@ -1622,9 +1651,11 @@
       "properties": {
         "id": 1267042537,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Mahar Martanegara"
+        "name": "Jalan Mahar Martanegara",
+        "ref": "82"
       }
     },
     {
@@ -1646,10 +1677,12 @@
         "id": 1267042538,
         "avgspeed": "30",
         "bridge": "yes",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Mahar Martanegara"
+        "name": "Jalan Mahar Martanegara",
+        "ref": "82"
       }
     },
     {
@@ -1670,9 +1703,11 @@
       "properties": {
         "id": 1364319051,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
+        "ref": "82",
         "source": "Yahoo hires"
       }
     }

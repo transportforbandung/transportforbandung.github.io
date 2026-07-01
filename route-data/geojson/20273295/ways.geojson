@@ -110,10 +110,10 @@
       },
       "properties": {
         "id": 42795877,
-        "alt_name": "Jl. Stasiun Timur",
+        "alt_name": "Jalan Simpang Utara",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Stasiun Timur",
+        "name": "Jalan Panaris",
         "oneway": "no",
         "ref": "10",
         "sidewalk:both": "separate",
@@ -388,6 +388,7 @@
         "highway": "secondary",
         "lanes": "3",
         "layer": "1",
+        "maxweight:signed": "no",
         "name": "Jalan Parahyangan",
         "oneway": "yes",
         "sidewalk:left": "separate",
@@ -1169,11 +1170,14 @@
       },
       "properties": {
         "id": 886929888,
+        "alt_name": "Jalan Simpang Utara",
         "highway": "trunk",
         "lanes": "1",
-        "name": "Jalan Simpang",
+        "name": "Jalan Panaris",
         "oneway": "yes",
-        "ref": "10"
+        "ref": "10",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
       }
     },
     {

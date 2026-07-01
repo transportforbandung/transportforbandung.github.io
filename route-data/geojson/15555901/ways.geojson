@@ -63,6 +63,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "oneway": "no",
         "ref": "106",
         "reg_ref": "22-00-106-11K"
@@ -246,6 +248,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -670,6 +674,10 @@
             -6.9381955
           ],
           [
+            107.6187901,
+            -6.93818
+          ],
+          [
             107.6187806,
             -6.9381795
           ],
@@ -798,6 +806,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "ref": "106",
         "reg_ref": "22-00-106-11K",
         "surface": "asphalt"
@@ -877,12 +887,12 @@
             -6.9142949
           ],
           [
-            107.6391098,
-            -6.9143026
+            107.6390974,
+            -6.9143035
           ],
           [
-            107.6389687,
-            -6.9143205
+            107.6389372,
+            -6.914324
           ],
           [
             107.6388474,
@@ -1166,16 +1176,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.604469,
-            -6.9374642
+            107.6044934,
+            -6.9374561
           ],
           [
-            107.6043625,
-            -6.9374545
+            107.604396,
+            -6.9374454
           ],
           [
             107.6036889,
-            -6.9373934
+            -6.9373854
           ],
           [
             107.6032992,
@@ -1417,12 +1427,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6306365,
-            -6.921787
+            107.6306517,
+            -6.921792
           ],
           [
-            107.6305761,
-            -6.9219243
+            107.6306076,
+            -6.9219152
           ]
         ]
       },
@@ -1448,48 +1458,52 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6314414,
-            -6.9186602
+            107.6314582,
+            -6.9186505
           ],
           [
-            107.6314309,
-            -6.9187001
+            107.6314521,
+            -6.9187098
           ],
           [
-            107.6311398,
-            -6.9198103
+            107.6311743,
+            -6.9198076
           ],
           [
-            107.6310928,
-            -6.9199846
+            107.6311548,
+            -6.9198845
           ],
           [
-            107.6310829,
-            -6.9200235
+            107.6311255,
+            -6.9199916
           ],
           [
-            107.6310462,
-            -6.9201628
+            107.6311165,
+            -6.9200314
           ],
           [
-            107.6308494,
-            -6.9209038
+            107.6310834,
+            -6.9201567
           ],
           [
-            107.6307725,
-            -6.921235
+            107.6310196,
+            -6.9203743
           ],
           [
-            107.6307652,
-            -6.9212784
+            107.6308919,
+            -6.9209029
           ],
           [
-            107.6307509,
-            -6.9213397
+            107.6307944,
+            -6.9212635
           ],
           [
-            107.6306365,
-            -6.921787
+            107.6307757,
+            -6.9213371
+          ],
+          [
+            107.6306517,
+            -6.921792
           ]
         ]
       },
@@ -1748,39 +1762,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6272761,
-            -6.9262788
+            107.6273607,
+            -6.9260252
           ],
           [
-            107.6272923,
-            -6.9262116
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1071541846,
-        "alt_name": "Flyover Laswi - Pelajar Pejuang 45",
-        "bicycle": "no",
-        "foot": "no",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Layang Laswi - Pelajar Pejuang 45",
-        "name:en": "Laswi - Pelajar Pejuang 45 Flyover",
-        "ref": "376",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6272761,
-            -6.9262788
-          ],
-          [
-            107.627255,
+            107.6272692,
             -6.9266332
           ]
         ]
@@ -1866,11 +1852,13 @@
       },
       "properties": {
         "id": 1073714000,
+        "designation": "city_road",
         "destination:lanes": "Terminal Leuwipanjang|",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Leuwi Panjang",
         "oneway": "yes",
+        "ref": "4118",
         "turn:lanes": "left;through|through"
       }
     },
@@ -1880,40 +1868,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6286213,
-            -6.9230879
+            107.6288628,
+            -6.9229966
           ],
           [
-            107.6286654,
-            -6.9230633
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1111168893,
-        "alt_name": "Flyover Laswi - Pelajar Pejuang 45",
-        "bicycle": "no",
-        "foot": "no",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Layang Laswi - Pelajar Pejuang 45",
-        "name:en": "Laswi - Pelajar Pejuang 45 Flyover",
-        "ref": "377",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6288476,
-            -6.9230097
-          ],
-          [
-            107.6286654,
-            -6.9230633
+            107.6285299,
+            -6.9231566
           ]
         ]
       },
@@ -1996,8 +1956,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6292923,
-            -6.9227879
+            107.6292933,
+            -6.9227899
           ],
           [
             107.6291685,
@@ -2008,8 +1968,8 @@
             -6.9229361
           ],
           [
-            107.6288476,
-            -6.9230097
+            107.6288628,
+            -6.9229966
           ]
         ]
       },
@@ -2032,12 +1992,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6305761,
-            -6.9219243
+            107.6306076,
+            -6.9219152
           ],
           [
-            107.6305225,
-            -6.9220301
+            107.6305418,
+            -6.9220442
           ],
           [
             107.6304603,
@@ -2057,11 +2017,11 @@
           ],
           [
             107.6295282,
-            -6.9226745
+            -6.9226765
           ],
           [
-            107.6292923,
-            -6.9227879
+            107.6292933,
+            -6.9227899
           ]
         ]
       },
@@ -2130,12 +2090,16 @@
             -6.9375586
           ],
           [
-            107.604578,
-            -6.9374741
+            107.6046591,
+            -6.9374791
           ],
           [
-            107.604469,
-            -6.9374642
+            107.604578,
+            -6.9374674
+          ],
+          [
+            107.6044934,
+            -6.9374561
           ]
         ]
       },
@@ -2157,12 +2121,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.627255,
+            107.6272692,
             -6.9266332
-          ],
-          [
-            107.6271945,
-            -6.9268751
           ],
           [
             107.6270688,
@@ -2190,10 +2150,6 @@
           [
             107.6270688,
             -6.9273448
-          ],
-          [
-            107.627064,
-            -6.9273638
           ],
           [
             107.6265339,
@@ -2424,48 +2380,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6272923,
-            -6.9262116
+            107.6273607,
+            -6.9260252
           ],
           [
             107.6276211,
             -6.9249504
           ],
           [
-            107.6277982,
-            -6.9242181
-          ],
-          [
-            107.6278758,
-            -6.9239774
-          ],
-          [
-            107.6279698,
-            -6.9237575
-          ],
-          [
-            107.628065,
-            -6.9236058
-          ],
-          [
-            107.628179,
-            -6.9234647
-          ],
-          [
-            107.6283029,
-            -6.9233416
-          ],
-          [
-            107.6284403,
-            -6.9232203
-          ],
-          [
-            107.6285451,
-            -6.9231425
-          ],
-          [
-            107.6286213,
-            -6.9230879
+            107.6276616,
+            -6.9247914
           ]
         ]
       },
@@ -2473,17 +2397,15 @@
         "id": 1206655959,
         "alt_name": "Flyover Laswi - Pelajar Pejuang 45",
         "bicycle": "no",
-        "bridge": "yes",
         "cycleway:both": "no",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
-        "layer": "1",
         "lit": "yes",
         "name": "Jalan Layang Laswi - Pelajar Pejuang 45",
         "name:en": "Laswi - Pelajar Pejuang 45 Flyover",
         "parking:both": "no",
-        "ref": "376;377",
+        "ref": "376",
         "sidewalk": "no",
         "surface": "asphalt"
       }
@@ -2772,6 +2694,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through|through;reverse"
@@ -2806,6 +2730,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -2887,8 +2813,8 @@
             -6.9185925
           ],
           [
-            107.6314414,
-            -6.9186602
+            107.6314582,
+            -6.9186505
           ]
         ]
       },
@@ -2974,6 +2900,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "oneway": "yes",
         "ref": "106",
         "turn:lanes": "through|through;right"
@@ -3032,6 +2960,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through|through;reverse"
@@ -3476,6 +3406,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "ref": "106",
         "reg_ref": "22-00-106-11K",
         "surface": "asphalt"
@@ -3508,6 +3440,96 @@
         "name": "Jalur Bus Kota",
         "oneway": "yes",
         "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6278076,
+            -6.9242181
+          ],
+          [
+            107.6278825,
+            -6.9239774
+          ],
+          [
+            107.6279805,
+            -6.9237628
+          ],
+          [
+            107.6280744,
+            -6.9236111
+          ],
+          [
+            107.6281851,
+            -6.9234637
+          ],
+          [
+            107.62831,
+            -6.9233456
+          ],
+          [
+            107.6284342,
+            -6.9232324
+          ],
+          [
+            107.6285299,
+            -6.9231566
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1509524788,
+        "alt_name": "Flyover Laswi - Pelajar Pejuang 45",
+        "bicycle": "no",
+        "cycleway:both": "no",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan Layang Laswi - Pelajar Pejuang 45",
+        "name:en": "Laswi - Pelajar Pejuang 45 Flyover",
+        "parking:both": "no",
+        "ref": "377",
+        "sidewalk": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6276616,
+            -6.9247914
+          ],
+          [
+            107.6278076,
+            -6.9242181
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1509524789,
+        "alt_name": "Flyover Laswi - Pelajar Pejuang 45",
+        "bicycle": "no",
+        "bridge": "yes",
+        "cycleway:both": "no",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "yes",
+        "name": "Jalan Layang Laswi - Pelajar Pejuang 45",
+        "name:en": "Laswi - Pelajar Pejuang 45 Flyover",
+        "parking:both": "no",
+        "ref": "376;377",
+        "sidewalk": "no",
+        "surface": "asphalt"
       }
     }
   ]

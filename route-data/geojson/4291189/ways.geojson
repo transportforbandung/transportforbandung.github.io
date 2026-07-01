@@ -113,6 +113,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|right"
@@ -377,10 +379,12 @@
       "properties": {
         "id": 4632671,
         "avgspeed": "30",
+        "destination": "Penata Yudha;Gasibu;Jalaprang;Cicaheum",
         "highway": "primary",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk:left": "separate",
@@ -752,11 +756,14 @@
       "properties": {
         "id": 153312971,
         "bicycle": "yes",
+        "destination": "Cikapayang;Pasupati;Pasteur;Djundjunan",
+        "destination:lanes": "Cikapayang;Dago;Tamansari|Pasupati;Pasteur;Djundjunan",
         "foot": "no",
         "highway": "trunk",
         "lanes": "3",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -779,13 +786,17 @@
       "properties": {
         "id": 153315564,
         "bicycle": "yes",
+        "destination": "Gasibu;Aria Jipang;Pasupati;Djundjunan",
+        "destination:lanes": "Diponegoro;Gedung Sate;Citarum|Aria Jipang;Cikapayang;Pasupati",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "1",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through|through"
       }
     },
     {
@@ -971,6 +982,10 @@
             -6.8995517
           ],
           [
+            107.6305872,
+            -6.8993785
+          ],
+          [
             107.6307582,
             -6.8992701
           ]
@@ -979,10 +994,15 @@
       "properties": {
         "id": 153483321,
         "avgspeed": "30",
+        "destination:backward": "Simpang PUSDAI",
+        "destination:forward": "Simpang Jalaprang",
+        "destination:lanes:backward": "Supratman;Diponegoro|Gagak;Gasibu;Pasupati",
+        "destination:lanes:forward": "Jalaprang|Pahlawan;Cikutra;Cicaheum",
         "highway": "trunk",
         "lanes": "4",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt"
@@ -1229,7 +1249,10 @@
         "cycleway:right": "lane",
         "cycleway:right:lane": "advisory",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Penata Yudha",
+        "name:en": "Penata Yudha Road",
         "ref": "2274",
         "reg_ref": "22-10-2274",
         "surface": "asphalt"
@@ -1343,6 +1366,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|right"
@@ -1423,6 +1448,10 @@
             -6.8854607
           ],
           [
+            107.6144244,
+            -6.8854715
+          ],
+          [
             107.6144864,
             -6.8855164
           ],
@@ -1439,12 +1468,12 @@
             -6.8857145
           ],
           [
-            107.6147028,
-            -6.8857946
+            107.6147051,
+            -6.8858155
           ],
           [
-            107.6147339,
-            -6.8858823
+            107.6148464,
+            -6.8862613
           ],
           [
             107.6148941,
@@ -1559,7 +1588,9 @@
         "destination:lanes": "Cicadas|Padasuka;Cikutra",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Abdul Haris Nasution",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "turn:lanes": "slight_left;through|through"
       }
@@ -1582,10 +1613,13 @@
       "properties": {
         "id": 241791694,
         "avgspeed": "30",
+        "destination:backward": "PUSDAI;Jalaprang;Pahlawan;Cicaheum",
+        "destination:forward": "Gasibu;Dago;Cikapayang;Pasupati",
         "highway": "trunk",
         "lanes": "4",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no",
         "surface": "asphalt"
       }
@@ -1743,15 +1777,19 @@
       "properties": {
         "id": 318054779,
         "bicycle": "yes",
+        "destination": "Cikapayang;Dago;Tamansari",
+        "destination:lanes": "Dago;Tamansari;Merdeka|Dago;Adipati Ukur;Siliwangi",
         "foot": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Prabu Dimuntur",
+        "name:en": "Prabu Dimuntur Avenue",
         "oneway": "yes",
         "sidewalk:left": "separate",
         "sidewalk:right": "yes",
         "smoothness": "good",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through;right;reverse"
       }
     },
     {
@@ -1835,8 +1873,12 @@
             -6.8877565
           ],
           [
-            107.603973,
-            -6.8881564
+            107.6039743,
+            -6.8881464
+          ],
+          [
+            107.6039772,
+            -6.8881744
           ],
           [
             107.6039991,
@@ -1851,8 +1893,8 @@
             -6.8885821
           ],
           [
-            107.6040229,
-            -6.8885923
+            107.6040236,
+            -6.8886013
           ],
           [
             107.6040387,
@@ -1861,6 +1903,10 @@
           [
             107.6040455,
             -6.8887679
+          ],
+          [
+            107.6041808,
+            -6.8898823
           ],
           [
             107.604194,
@@ -1877,6 +1923,14 @@
           [
             107.6042285,
             -6.8909117
+          ],
+          [
+            107.6042314,
+            -6.8912099
+          ],
+          [
+            107.6042338,
+            -6.8914499
           ],
           [
             107.6042355,
@@ -1929,9 +1983,12 @@
         "cycleway:left": "no",
         "cycleway:right": "lane",
         "cycleway:right:lane": "advisory",
+        "destination:backward": "Universitas Padjadjaran;Sekeloa",
+        "destination:forward": "Simpang Cikapayang",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "ref": "2137",
         "reg_ref": "22-10-2137",
         "surface": "asphalt"
@@ -2031,6 +2088,8 @@
         "loc_name": "Jalan Pasir Kaliki",
         "maxspeed:type": "ID:urban",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -2203,9 +2262,12 @@
       },
       "properties": {
         "id": 318729556,
+        "destination:backward": "Universitas Padjadjaran;Sekeloa",
+        "destination:forward": "Simpang Cikapayang",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "ref": "2137",
         "reg_ref": "22-10-2137",
         "surface": "asphalt"
@@ -2614,6 +2676,7 @@
         "lanes:forward": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "turn:lanes:backward": "through|through;right",
         "turn:lanes:forward": "slight_left;slight_right|slight_right;sharp_right"
       }
@@ -2665,13 +2728,17 @@
       "properties": {
         "id": 331309155,
         "bicycle": "yes",
+        "destination": "Gasibu;Aria Jipang;Pasupati;Djundjunan",
+        "destination:lanes": "Diponegoro;Gedung Sate;Citarum|Aria Jipang;Cikapayang;Pasupati",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through|through"
       }
     },
     {
@@ -2718,6 +2785,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "no",
         "surface": "asphalt",
         "turn:lanes:forward": "through|through;right"
@@ -2890,9 +2959,11 @@
       },
       "properties": {
         "id": 334857874,
+        "destination": "Sekeloa;Simpang Dago",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "oneway": "yes",
         "ref": "2137",
         "reg_ref": "22-10-2137",
@@ -2922,9 +2993,12 @@
       },
       "properties": {
         "id": 340400259,
+        "destination:backward": "Universitas Padjadjaran;Sekeloa",
+        "destination:forward": "Simpang Cikapayang",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Dipatiukur",
+        "name:en": "Adipati Ukur Avenue",
         "ref": "2137",
         "reg_ref": "22-10-2137",
         "surface": "asphalt"
@@ -2960,14 +3034,18 @@
       "properties": {
         "id": 340405404,
         "bicycle": "yes",
+        "destination": "Aria Jipang;Cikapayang;Pasupati;Djundjunan",
+        "destination:lanes": "Aria Jipang;Cikapayang|Pasupati;Djundjunan",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "sidewalk": "no",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "slight_left;through|through"
       }
     },
     {
@@ -3042,11 +3120,16 @@
         "id": 551834876,
         "avgspeed": "30",
         "bridge": "yes",
+        "destination:backward": "Simpang PUSDAI",
+        "destination:forward": "Simpang Jalaprang",
+        "destination:lanes:backward": "Supratman;Diponegoro|Gagak;Gasibu;Pasupati",
+        "destination:lanes:forward": "Jalaprang|Pahlawan;Cikutra;Cicaheum",
         "highway": "trunk",
         "lanes": "4",
         "layer": "1",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no"
       }
     },
@@ -3092,12 +3175,17 @@
       "properties": {
         "id": 551834879,
         "avgspeed": "30",
+        "destination:backward": "Simpang PUSDAI",
+        "destination:forward": "Simpang Jalaprang",
+        "destination:lanes:backward": "Supratman;Diponegoro|Gagak;Gasibu;Pasupati",
+        "destination:lanes:forward": "Jalaprang|Pahlawan;Cikutra;Cicaheum",
         "highway": "trunk",
         "lanes": "4",
         "lanes:backward": "2",
         "lanes:forward": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no",
         "turn:lanes:forward": "left;through|through"
       }
@@ -3429,6 +3517,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt",
@@ -3698,12 +3788,16 @@
             -6.8909264
           ],
           [
+            107.61713,
+            -6.8910441
+          ],
+          [
             107.617163,
             -6.8910925
           ],
           [
-            107.6174257,
-            -6.8915935
+            107.6174351,
+            -6.8916075
           ],
           [
             107.6174672,
@@ -4032,13 +4126,17 @@
       "properties": {
         "id": 1000979251,
         "bicycle": "yes",
+        "destination": "Aria Jipang;Cikapayang;Pasupati;Djundjunan",
+        "destination:lanes": "Aria Jipang;Cikapayang|Pasupati;Djundjunan",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "slight_left;through|through"
       }
     },
     {
@@ -4062,7 +4160,10 @@
         "cycleway:right": "lane",
         "cycleway:right:lane": "advisory",
         "highway": "tertiary",
+        "lane_markings": "yes",
+        "lanes": "2",
         "name": "Jalan Penata Yudha",
+        "name:en": "Penata Yudha Road",
         "ref": "2274",
         "reg_ref": "22-10-2274",
         "sidewalk": "both",
@@ -4126,12 +4227,14 @@
       },
       "properties": {
         "id": 1079472305,
+        "destination": "Penata Yudha;Gasibu;Jalaprang;Cicaheum",
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes",
         "sidewalk:left": "separate",
         "sidewalk:right": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "reverse"
       }
     },
     {
@@ -4152,13 +4255,17 @@
       "properties": {
         "id": 1111831566,
         "bicycle": "yes",
+        "destination": "Gasibu;Aria Jipang;Pasupati;Djundjunan",
+        "destination:lanes": "Diponegoro;Gedung Sate;Citarum|Aria Jipang;Cikapayang;Pasupati",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through|through"
       }
     },
     {
@@ -4251,12 +4358,11 @@
       },
       "properties": {
         "id": 1193893092,
-        "alt_name": "Jalan Suci",
         "avgspeed": "30",
         "destination": "Padasuka;Cikutra;Surapati;Gedung Sate",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan PH. H. Mustofa",
+        "name": "Jalan Jenderal Ahmad Yani",
         "oneway": "yes",
         "turn:lanes": "through|through"
       }
@@ -4392,6 +4498,8 @@
         "loc_name": "Jalan Pasir Kaliki",
         "maxspeed:type": "ID:urban",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "no",
         "parking:both": "on_kerb",
         "parking:both:orientation": "perpendicular",
@@ -4950,10 +5058,13 @@
       "properties": {
         "id": 1222381630,
         "avgspeed": "30",
+        "destination:backward": "PUSDAI;Jalaprang;Pahlawan;Cicaheum",
+        "destination:forward": "Gasibu;Dago;Cikapayang;Pasupati",
         "highway": "trunk",
         "lanes": "4",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt"
@@ -4982,6 +5093,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Penata Yudha",
+        "name:en": "Penata Yudha Road",
         "ref": "2274",
         "reg_ref": "22-10-2274",
         "surface": "asphalt"
@@ -5449,10 +5561,13 @@
       "properties": {
         "id": 1384073984,
         "avgspeed": "30",
+        "destination:backward": "PUSDAI;Jalaprang;Pahlawan;Cicaheum",
+        "destination:forward": "Gasibu;Dago;Cikapayang;Pasupati",
         "highway": "trunk",
         "lanes": "4",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt"
@@ -5567,15 +5682,19 @@
       "properties": {
         "id": 1391905039,
         "bicycle": "yes",
+        "destination": "Aria Jipang;Cikapayang;Pasupati;Djundjunan",
+        "destination:lanes": "Aria Jipang;Cikapayang|Pasupati;Djundjunan",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes": "slight_left;through|through"
       }
     },
     {
@@ -5588,8 +5707,8 @@
             -6.9132166
           ],
           [
-            107.5864102,
-            -6.9130448
+            107.586425,
+            -6.9130541
           ]
         ]
       },
@@ -5609,8 +5728,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5864102,
-            -6.9130448
+            107.586425,
+            -6.9130541
           ],
           [
             107.5860843,

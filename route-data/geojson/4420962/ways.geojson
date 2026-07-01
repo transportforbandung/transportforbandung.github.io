@@ -85,6 +85,7 @@
       "properties": {
         "id": 4623249,
         "alt_name": "Jalan Surya Sumantri",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Prof. Dr. Surya Soemantri",
@@ -105,8 +106,12 @@
             -6.8824391
           ],
           [
-            107.5812123,
-            -6.882427
+            107.581356,
+            -6.8824411
+          ],
+          [
+            107.581211,
+            -6.8824357
           ],
           [
             107.5809806,
@@ -184,12 +189,16 @@
       },
       "properties": {
         "id": 4623250,
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Lemah Neundeut",
         "oneway": "yes",
         "ref": "1419",
-        "reg_ref": "22-10-1419"
+        "reg_ref": "22-10-1419",
+        "smoothness": "intermediate",
+        "surface": "concrete",
+        "width": "5"
       }
     },
     {
@@ -276,6 +285,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -290,8 +301,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.578241,
-            -6.8817133
+            107.5782765,
+            -6.8817046
           ],
           [
             107.5779359,
@@ -314,7 +325,7 @@
       "properties": {
         "id": 55780163,
         "avgspeed": "15",
-        "highway": "residential",
+        "highway": "tertiary",
         "lane_markings": "yes",
         "lanes": "2",
         "name": "Jalan Sariwangi",
@@ -448,6 +459,8 @@
         "lanes": "3",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt",
@@ -496,6 +509,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -558,6 +573,8 @@
         "loc_name": "Jalan Pasir Kaliki",
         "maxspeed:type": "ID:urban",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk": "left",
@@ -626,6 +643,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -1094,7 +1113,7 @@
       "properties": {
         "id": 318670709,
         "avgspeed": "15",
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sariwangi",
         "width": "3"
@@ -1157,6 +1176,8 @@
         "loc_name": "Jalan Pasir Kaliki",
         "maxspeed:type": "ID:urban",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk": "left",
@@ -1220,6 +1241,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -1247,6 +1270,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -1278,6 +1303,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1326,6 +1353,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "no",
         "surface": "asphalt",
         "turn:lanes:forward": "through|through;right"
@@ -1376,7 +1405,7 @@
       },
       "properties": {
         "id": 331425546,
-        "highway": "residential",
+        "highway": "tertiary",
         "name": "Jalan Sarimanah"
       }
     },
@@ -1518,8 +1547,16 @@
             -6.8963655
           ],
           [
+            107.5901004,
+            -6.8961571
+          ],
+          [
             107.5897867,
             -6.8959903
+          ],
+          [
+            107.5897258,
+            -6.8959579
           ],
           [
             107.5896528,
@@ -1662,6 +1699,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt",
@@ -1748,8 +1787,8 @@
             -6.9157548
           ],
           [
-            107.6045263,
-            -6.9155905
+            107.6045273,
+            -6.915589
           ],
           [
             107.604546,
@@ -1763,6 +1802,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -1826,6 +1867,10 @@
           [
             107.5955089,
             -6.9001209
+          ],
+          [
+            107.5953998,
+            -6.9000642
           ],
           [
             107.5952214,
@@ -1974,6 +2019,8 @@
         "loc_name": "Jalan Pasir Kaliki",
         "maxspeed:type": "ID:urban",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "no",
         "parking:both": "on_kerb",
         "parking:both:orientation": "perpendicular",
@@ -1999,6 +2046,7 @@
       "properties": {
         "id": 1200669553,
         "alt_name": "Jalan Surya Sumantri",
+        "designation": "city_road",
         "highway": "primary",
         "name": "Jalan Prof. Dr. Surya Soemantri",
         "oneway": "yes",
@@ -2054,7 +2102,7 @@
       },
       "properties": {
         "id": 1220608943,
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "2",
         "surface": "asphalt",
         "width": "5"
@@ -2132,7 +2180,7 @@
       "properties": {
         "id": 1280131986,
         "avgspeed": "15",
-        "highway": "residential",
+        "highway": "tertiary",
         "lane_markings": "yes",
         "lanes": "2",
         "name": "Jalan Sariwangi",
@@ -2167,16 +2215,24 @@
             -6.9136374
           ],
           [
+            107.6046392,
+            -6.9136785
+          ],
+          [
             107.6046344,
             -6.913774
+          ],
+          [
+            107.6046298,
+            -6.9138408
           ],
           [
             107.604621,
             -6.913968
           ],
           [
-            107.6045882,
-            -6.9143401
+            107.6045855,
+            -6.9143581
           ],
           [
             107.6045878,
@@ -2201,6 +2257,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -2275,56 +2333,64 @@
             -6.8879565
           ],
           [
-            107.5813217,
-            -6.8867366
+            107.5813505,
+            -6.8867339
           ],
           [
-            107.5813253,
-            -6.8866119
+            107.5813528,
+            -6.8866146
           ],
           [
-            107.5813368,
-            -6.8861865
+            107.5813616,
+            -6.8861952
           ],
           [
-            107.5813431,
-            -6.8860494
+            107.5813659,
+            -6.8860587
           ],
           [
-            107.5813504,
-            -6.8858882
+            107.5813672,
+            -6.8858902
           ],
           [
-            107.5813547,
-            -6.8857246
+            107.5813681,
+            -6.8857286
           ],
           [
-            107.5813605,
-            -6.8855876
+            107.5813706,
+            -6.8855823
           ],
           [
-            107.5813629,
-            -6.885381
+            107.581379,
+            -6.8853863
           ],
           [
-            107.5813773,
-            -6.8848706
+            107.5814028,
+            -6.8848779
           ],
           [
-            107.5813906,
-            -6.8835685
+            107.5814476,
+            -6.8835698
           ],
           [
-            107.5814041,
-            -6.8831411
+            107.5814618,
+            -6.8831418
           ],
           [
-            107.5814114,
-            -6.8828062
+            107.5814758,
+            -6.8828162
           ],
           [
-            107.581419,
-            -6.8824624
+            107.5814871,
+            -6.8825779
+          ],
+          [
+            107.5814764,
+            -6.882514
+          ],
+          [
+            107.5814579,
+            -6.8824704
           ],
           [
             107.5814195,
@@ -2335,14 +2401,17 @@
       "properties": {
         "id": 1339489083,
         "alt_name": "Jalan Surya Sumantri",
+        "designation": "city_road",
         "highway": "primary",
+        "lane_markings": "yes",
         "lanes": "2",
         "name": "Jalan Prof. Dr. Surya Soemantri",
         "oneway": "yes",
         "ref": "1367",
         "reg_ref": "22-10-1367",
         "short_name": "Jalan Surya Soemantri",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -2355,15 +2424,15 @@
             -6.881656
           ],
           [
-            107.578241,
-            -6.8817133
+            107.5782765,
+            -6.8817046
           ]
         ]
       },
       "properties": {
         "id": 1363877061,
         "avgspeed": "15",
-        "highway": "residential",
+        "highway": "tertiary",
         "lane_markings": "yes",
         "lanes": "2",
         "name": "Jalan Sariwangi",
@@ -2390,7 +2459,7 @@
       "properties": {
         "id": 1424957987,
         "avgspeed": "15",
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sariwangi",
         "width": "3"

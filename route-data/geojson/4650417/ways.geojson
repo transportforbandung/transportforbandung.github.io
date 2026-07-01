@@ -79,6 +79,10 @@
             -6.9104032
           ],
           [
+            107.6040795,
+            -6.910612
+          ],
+          [
             107.6040749,
             -6.9106747
           ],
@@ -191,6 +195,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|right"
@@ -255,6 +261,8 @@
         "lanes": "1",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -368,12 +376,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5786824,
-            -6.8807486
+            107.5786717,
+            -6.8807526
           ],
           [
-            107.5787293,
-            -6.8807375
+            107.5787548,
+            -6.8807282
           ],
           [
             107.5789373,
@@ -435,13 +443,17 @@
       },
       "properties": {
         "id": 4623276,
+        "designation": "city_road",
         "highway": "primary",
+        "lane_markings": "yes",
         "lanes": "2",
         "name": "Jalan Terusan Prof. Dr. Ir. Sutami",
         "oneway": "yes",
         "ref": "1608",
         "reg_ref": "22-10-1608",
-        "short_name": "Jalan Terusan Sutami"
+        "short_name": "Jalan Terusan Sutami",
+        "surface": "asphalt",
+        "width": "6"
       }
     },
     {
@@ -469,6 +481,8 @@
         "layer": "1",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -479,8 +493,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.578241,
-            -6.8817133
+            107.5782765,
+            -6.8817046
           ],
           [
             107.5779359,
@@ -503,7 +517,7 @@
       "properties": {
         "id": 55780163,
         "avgspeed": "15",
-        "highway": "residential",
+        "highway": "tertiary",
         "lane_markings": "yes",
         "lanes": "2",
         "name": "Jalan Sariwangi",
@@ -606,112 +620,104 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5815019,
-            -6.8825945
+            107.5815555,
+            -6.8825799
           ],
           [
-            107.5814904,
-            -6.8833982
+            107.5815192,
+            -6.8833929
           ],
           [
-            107.5814786,
-            -6.8839443
+            107.5815074,
+            -6.883939
           ],
           [
-            107.5814485,
-            -6.8847186
+            107.5814773,
+            -6.8847133
           ],
           [
-            107.5814266,
-            -6.8853171
+            107.5814554,
+            -6.8853118
           ],
           [
-            107.5814238,
-            -6.8853811
+            107.5814526,
+            -6.8853758
           ],
           [
-            107.5814133,
-            -6.8855902
+            107.5814421,
+            -6.8855849
           ],
           [
-            107.5814072,
-            -6.8859048
+            107.581436,
+            -6.8858995
           ],
           [
-            107.5814036,
-            -6.8860449
+            107.5814324,
+            -6.8860396
           ],
           [
-            107.5813999,
-            -6.8861879
+            107.5814287,
+            -6.8861826
           ],
           [
-            107.5813907,
-            -6.8867402
+            107.5814195,
+            -6.8867349
           ],
           [
-            107.5813589,
-            -6.8877142
+            107.5813877,
+            -6.8877089
           ],
           [
-            107.5813583,
-            -6.887919
+            107.5813871,
+            -6.8879137
           ],
           [
-            107.5813576,
-            -6.8880195
+            107.5813864,
+            -6.8880142
           ],
           [
-            107.5813843,
-            -6.8883613
+            107.5814131,
+            -6.888356
           ],
           [
-            107.5814338,
-            -6.888877
+            107.5814626,
+            -6.8888717
           ],
           [
-            107.5814405,
-            -6.8889659
+            107.5814693,
+            -6.8889606
           ],
           [
-            107.581455,
-            -6.8891335
+            107.5814838,
+            -6.8891282
           ],
           [
-            107.5814679,
-            -6.8892716
+            107.5814967,
+            -6.8892663
           ],
           [
-            107.5814772,
-            -6.8893664
+            107.581506,
+            -6.8893611
           ],
           [
-            107.5815325,
-            -6.889874
+            107.5815613,
+            -6.8898687
           ],
           [
-            107.5815279,
-            -6.8901585
+            107.5815567,
+            -6.8901532
           ],
           [
-            107.5815265,
-            -6.8902367
+            107.5815553,
+            -6.8902314
           ],
           [
-            107.5815229,
-            -6.8902955
+            107.5815517,
+            -6.8902902
           ],
           [
-            107.5814478,
-            -6.8910752
-          ],
-          [
-            107.5814307,
-            -6.8912883
-          ],
-          [
-            107.581406,
-            -6.8915163
+            107.5814766,
+            -6.8910699
           ]
         ]
       },
@@ -719,14 +725,16 @@
         "id": 153106229,
         "alt_name": "Jalan Surya Sumantri",
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
+        "lane_markings": "yes",
         "lanes": "2",
         "name": "Jalan Prof. Dr. Surya Soemantri",
         "oneway": "yes",
         "ref": "1367",
         "reg_ref": "22-10-1367",
         "short_name": "Jalan Surya Soemantri",
-        "turn:lanes": "slight_left;through|through"
+        "width": "5"
       }
     },
     {
@@ -808,6 +816,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|right"
@@ -969,6 +979,8 @@
         "loc_name": "Jalan Pasir Kaliki",
         "maxspeed:type": "ID:urban",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -1188,6 +1200,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "249",
         "surface": "asphalt"
@@ -1215,7 +1229,7 @@
       "properties": {
         "id": 318670709,
         "avgspeed": "15",
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sariwangi",
         "width": "3"
@@ -1305,24 +1319,32 @@
             -6.8813034
           ],
           [
-            107.5787007,
-            -6.8810232
+            107.5787235,
+            -6.8810086
           ],
           [
-            107.5786824,
-            -6.8807486
+            107.5787084,
+            -6.880859
+          ],
+          [
+            107.5786717,
+            -6.8807526
           ]
         ]
       },
       "properties": {
         "id": 331425544,
         "avgspeed": "20",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Lemah Neundeut",
         "oneway": "yes",
         "ref": "1419",
-        "reg_ref": "22-10-1419"
+        "reg_ref": "22-10-1419",
+        "smoothness": "good",
+        "surface": "concrete",
+        "width": "5"
       }
     },
     {
@@ -1369,6 +1391,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "no",
         "surface": "asphalt",
         "turn:lanes:forward": "through|through;right"
@@ -1419,7 +1443,7 @@
       },
       "properties": {
         "id": 331425546,
-        "highway": "residential",
+        "highway": "tertiary",
         "name": "Jalan Sarimanah"
       }
     },
@@ -1675,6 +1699,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt",
@@ -1765,6 +1791,8 @@
         "lit": "yes",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1824,6 +1852,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "surface": "asphalt"
       }
     },
@@ -1858,6 +1888,8 @@
         "lanes": "1",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1922,6 +1954,8 @@
         "lit": "yes",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -1965,12 +1999,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5814902,
-            -6.8824034
+            107.5815311,
+            -6.8823681
           ],
           [
-            107.5815019,
-            -6.8825945
+            107.5815555,
+            -6.8825799
           ]
         ]
       },
@@ -1978,13 +2012,15 @@
         "id": 1111201237,
         "alt_name": "Jalan Surya Sumantri",
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Prof. Dr. Surya Soemantri",
         "oneway": "yes",
         "ref": "1367",
         "reg_ref": "22-10-1367",
-        "short_name": "Jalan Surya Soemantri"
+        "short_name": "Jalan Surya Soemantri",
+        "width": "5"
       }
     },
     {
@@ -2108,6 +2144,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -2135,6 +2173,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "surface": "asphalt"
       }
     },
@@ -2169,6 +2209,8 @@
         "loc_name": "Jalan Pasir Kaliki",
         "maxspeed:type": "ID:urban",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "no",
         "parking:both": "on_kerb",
         "parking:both:orientation": "perpendicular",
@@ -2254,7 +2296,7 @@
       },
       "properties": {
         "id": 1220608943,
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "2",
         "surface": "asphalt",
         "width": "5"
@@ -2278,7 +2320,7 @@
       "properties": {
         "id": 1280131986,
         "avgspeed": "15",
-        "highway": "residential",
+        "highway": "tertiary",
         "lane_markings": "yes",
         "lanes": "2",
         "name": "Jalan Sariwangi",
@@ -2297,15 +2339,15 @@
             -6.881656
           ],
           [
-            107.578241,
-            -6.8817133
+            107.5782765,
+            -6.8817046
           ]
         ]
       },
       "properties": {
         "id": 1363877061,
         "avgspeed": "15",
-        "highway": "residential",
+        "highway": "tertiary",
         "lane_markings": "yes",
         "lanes": "2",
         "name": "Jalan Sariwangi",
@@ -2345,6 +2387,8 @@
         "lanes": "1",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2391,7 +2435,7 @@
       "properties": {
         "id": 1424957987,
         "avgspeed": "15",
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Sariwangi",
         "width": "3"
@@ -2411,34 +2455,35 @@
             -6.8813815
           ],
           [
-            107.5814902,
-            -6.8817497
+            107.5815076,
+            -6.881745
           ],
           [
-            107.5814989,
-            -6.88186
+            107.5815277,
+            -6.881876
           ],
           [
-            107.5814977,
-            -6.8819468
+            107.5815373,
+            -6.8819894
           ],
           [
-            107.5814944,
-            -6.8821984
+            107.5815346,
+            -6.8821971
           ],
           [
-            107.5814936,
-            -6.8822618
+            107.5815338,
+            -6.8822838
           ],
           [
-            107.5814902,
-            -6.8824034
+            107.5815311,
+            -6.8823681
           ]
         ]
       },
       "properties": {
         "id": 1437011794,
         "alt_name": "Jalan Surya Sumantri",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Prof. Dr. Surya Soemantri",
@@ -2758,6 +2803,14 @@
             -6.9068645
           ],
           [
+            107.6001281,
+            -6.9068699
+          ],
+          [
+            107.6004436,
+            -6.9068911
+          ],
+          [
             107.6006155,
             -6.9069026
           ]
@@ -2866,6 +2919,40 @@
         "oneway": "yes",
         "ref": "371",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5814766,
+            -6.8910699
+          ],
+          [
+            107.581447,
+            -6.8912883
+          ],
+          [
+            107.581406,
+            -6.8915163
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1497622763,
+        "alt_name": "Jalan Surya Sumantri",
+        "avgspeed": "30",
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Prof. Dr. Surya Soemantri",
+        "oneway": "yes",
+        "ref": "1367",
+        "reg_ref": "22-10-1367",
+        "short_name": "Jalan Surya Soemantri",
+        "turn:lanes": "slight_left;through|through"
       }
     }
   ]

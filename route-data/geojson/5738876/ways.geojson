@@ -22,6 +22,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -56,6 +58,10 @@
             -6.9603107
           ],
           [
+            107.6133311,
+            -6.9600175
+          ],
+          [
             107.6133004,
             -6.9599258
           ],
@@ -84,8 +90,8 @@
             -6.9590893
           ],
           [
-            107.6129626,
-            -6.9589186
+            107.6129458,
+            -6.9588707
           ],
           [
             107.6129406,
@@ -96,8 +102,8 @@
             -6.9586348
           ],
           [
-            107.6128341,
-            -6.9585353
+            107.6128314,
+            -6.9585167
           ],
           [
             107.612791,
@@ -132,6 +138,10 @@
             -6.9570425
           ],
           [
+            107.61232,
+            -6.9570018
+          ],
+          [
             107.6123085,
             -6.9569675
           ],
@@ -160,6 +170,7 @@
       "properties": {
         "id": 4627168,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Mohammad Toha",
@@ -377,6 +388,10 @@
             -6.9837918
           ],
           [
+            107.6214896,
+            -6.9837387
+          ],
+          [
             107.6214512,
             -6.9836741
           ],
@@ -591,7 +606,7 @@
           ],
           [
             107.6061721,
-            -6.9375296
+            -6.9375256
           ]
         ]
       },
@@ -625,6 +640,7 @@
       "properties": {
         "id": 318899772,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
@@ -727,6 +743,7 @@
       "properties": {
         "id": 318899775,
         "cycleway:both": "no",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
@@ -769,6 +786,7 @@
       "properties": {
         "id": 340403802,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "lit": "yes",
@@ -805,6 +823,7 @@
       "properties": {
         "id": 340403803,
         "avgspeed": "30",
+        "designation": "city_road",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
@@ -929,6 +948,14 @@
             -6.9516206
           ],
           [
+            107.6104355,
+            -6.951364
+          ],
+          [
+            107.6103879,
+            -6.9512162
+          ],
+          [
             107.6103079,
             -6.9509754
           ],
@@ -949,6 +976,7 @@
       "properties": {
         "id": 340405402,
         "cycleway:both": "no",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "lit": "no",
@@ -1195,12 +1223,12 @@
             -6.9972296
           ],
           [
-            107.6226115,
-            -6.9970893
-          ],
-          [
             107.6225987,
             -6.9970799
+          ],
+          [
+            107.6225949,
+            -6.9970771
           ],
           [
             107.6224138,
@@ -1244,6 +1272,7 @@
         "id": 556619988,
         "avgspeed": "30",
         "cycleway:both": "no",
+        "designation": "city_road",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
@@ -1424,8 +1453,8 @@
             -6.9872074
           ],
           [
-            107.6264794,
-            -6.9871667
+            107.6264797,
+            -6.9871672
           ],
           [
             107.6264985,
@@ -1495,7 +1524,7 @@
         "coordinates": [
           [
             107.6061721,
-            -6.9375296
+            -6.9375256
           ],
           [
             107.6061838,
@@ -1537,6 +1566,7 @@
       "properties": {
         "id": 685849478,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "lit": "yes",
@@ -1582,6 +1612,7 @@
       "properties": {
         "id": 685849479,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "lit": "yes",
@@ -1643,6 +1674,7 @@
       "properties": {
         "id": 859329415,
         "cycleway:both": "no",
+        "designation": "city_road",
         "destination:backward": "Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot",
         "destination:lanes:forward": "Kurdi;Tegallega;Lingkar Selatan;Inggit Ganarsih|Batununggal;Buahbatu;Kiaracondong;Cibiru",
         "destination:ref:lanes:forward": "161|11",
@@ -1692,6 +1724,7 @@
       "properties": {
         "id": 859329416,
         "cycleway:both": "no",
+        "designation": "city_road",
         "destination:lanes:forward": "Inhoftank;Cibaduyut;Leuwipanjang;Kopo|Batununggal;Buahbatu;Kiaracondong;Cibiru",
         "highway": "primary",
         "lanes": "4",
@@ -1802,6 +1835,7 @@
       "properties": {
         "id": 1079472294,
         "cycleway:both": "no",
+        "designation": "city_road",
         "destination:backward": "Inhoftank;Cibaduyut;Leuwipanjang;Kopo|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot",
         "destination:forward": "Kurdi;Tegallega;Lingkar Selatan;Inggit Ganarsih",
         "destination:ref:lanes:backward": "11|161;4;;|161;4;;",
@@ -1839,6 +1873,7 @@
       "properties": {
         "id": 1079472303,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "lit": "yes",
@@ -2170,6 +2205,7 @@
         "id": 1212464431,
         "avgspeed": "30",
         "cycleway:both": "no",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "lanes:backward": "2",
@@ -2235,6 +2271,7 @@
       "properties": {
         "id": 1219269820,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Dayeuhkolot",
@@ -2329,6 +2366,7 @@
       "properties": {
         "id": 1234195272,
         "cycleway:both": "no",
+        "designation": "city_road",
         "destination:lanes:backward": "Batununggal;Buahbatu;Kiaracondong;Cibiru|Mekarwangi;Purbaleunyi;Mengger;Dayeuh Kolot|Inhoftank;Cibaduyut;Leuwipanjang;Kopo",
         "destination:ref:lanes:backward": "11|161;4;;|11",
         "highway": "primary",
@@ -2369,6 +2407,7 @@
       "properties": {
         "id": 1246218997,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "2",
         "lit": "yes",
@@ -2464,6 +2503,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -2497,6 +2538,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -2522,6 +2565,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -2547,6 +2592,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -2572,6 +2619,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -2597,6 +2646,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2622,6 +2673,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2651,6 +2704,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2676,6 +2731,8 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Dewi Sartika",
+        "name:etymology:wikidata": "Q3140305",
+        "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3028,6 +3085,7 @@
       "properties": {
         "id": 1436608601,
         "avgspeed": "30",
+        "designation": "city_road",
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Mohammad Toha",

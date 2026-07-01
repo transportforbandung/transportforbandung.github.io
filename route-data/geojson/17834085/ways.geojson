@@ -42,6 +42,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -52,8 +54,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.60308,
-            -6.9372447
+            107.603088,
+            -6.9372221
           ],
           [
             107.6030687,
@@ -66,6 +68,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -646,8 +650,8 @@
             -6.9445297
           ],
           [
-            107.5763107,
-            -6.9445007
+            107.576288,
+            -6.9445109
           ],
           [
             107.5763286,
@@ -701,10 +705,12 @@
       },
       "properties": {
         "id": 306586869,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "motorcycle": "yes",
-        "name": "Jalan Caringin"
+        "name": "Jalan Caringin",
+        "ref": "4022"
       }
     },
     {
@@ -974,8 +980,16 @@
             -6.9452453
           ],
           [
+            107.5827966,
+            -6.9453145
+          ],
+          [
             107.5828684,
             -6.9453402
+          ],
+          [
+            107.583021,
+            -6.9453948
           ],
           [
             107.5830978,
@@ -1006,9 +1020,11 @@
       "properties": {
         "id": 331188291,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Caringin",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -1037,6 +1053,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "ref": "106",
         "reg_ref": "22-00-106-11K",
         "turn:lanes:forward": "slight_left;through|through;right"
@@ -1078,6 +1096,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -1143,6 +1163,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left;through|through|right;reverse"
@@ -1339,10 +1361,12 @@
       },
       "properties": {
         "id": 340400255,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Leuwi Panjang",
         "oneway": "yes",
+        "ref": "4118",
         "surface": "asphalt"
       }
     },
@@ -1375,11 +1399,13 @@
       },
       "properties": {
         "id": 340400265,
+        "designation": "city_road",
         "destination:lanes": "Inhoftank;Mohammad Toha;Batununggal;Cibiru|Cibaduyut;Cangkuang;Rancamanyar|Kopo;Caringin;Pasir Koja",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "name": "Jalan Leuwi Panjang",
         "oneway": "yes",
+        "ref": "4118",
         "turn:lanes": "slight_left;through|through|right"
       }
     },
@@ -2675,11 +2701,13 @@
       "properties": {
         "id": 686617327,
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "motorcycle": "yes",
-        "name": "Jalan Caringin"
+        "name": "Jalan Caringin",
+        "ref": "4022"
       }
     },
     {
@@ -2711,10 +2739,12 @@
       },
       "properties": {
         "id": 686617328,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "motorcycle": "yes",
-        "name": "Jalan Caringin"
+        "name": "Jalan Caringin",
+        "ref": "4022"
       }
     },
     {
@@ -2766,8 +2796,10 @@
       },
       "properties": {
         "id": 704439103,
-        "highway": "tertiary",
-        "lanes": "2"
+        "designation": "city_road",
+        "highway": "secondary",
+        "lanes": "2",
+        "ref": "4118"
       }
     },
     {
@@ -2816,8 +2848,10 @@
       "properties": {
         "id": 704452948,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "name": "Jalan Caringin",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -2891,10 +2925,12 @@
       "properties": {
         "id": 718657214,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Caringin",
         "oneway": "yes",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -2912,8 +2948,8 @@
             -6.9371305
           ],
           [
-            107.60308,
-            -6.9372447
+            107.603088,
+            -6.9372221
           ]
         ]
       },
@@ -2923,6 +2959,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3020,11 +3058,13 @@
       },
       "properties": {
         "id": 1107619194,
+        "designation": "city_road",
         "destination:lanes": "Cibaduyut;Cangkuang;Rancamanyar|Cibaduyut;Cangkuang;Rancamanyar|Kopo;Caringin;Pasir Koja",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "name": "Jalan Leuwi Panjang",
         "oneway": "yes",
+        "ref": "4118",
         "turn:lanes": "through|through|right"
       }
     },
@@ -3057,6 +3097,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3086,6 +3128,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3115,6 +3159,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -3136,10 +3182,12 @@
       },
       "properties": {
         "id": 1111540811,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Leuwi Panjang",
         "oneway": "yes",
+        "ref": "4118",
         "surface": "asphalt"
       }
     },
@@ -3395,6 +3443,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left;through|through|through;right"
@@ -3417,10 +3467,12 @@
       },
       "properties": {
         "id": 1213181248,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Leuwi Panjang",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "4118"
       }
     },
     {
@@ -3448,6 +3500,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -3490,10 +3544,12 @@
       "properties": {
         "id": 1222414518,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Caringin",
         "oneway": "yes",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -3517,6 +3573,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -3549,6 +3607,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -3600,6 +3660,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "oneway": "yes",
         "ref": "106",
         "reg_ref": "22-00-106-11K"
@@ -3801,8 +3863,8 @@
             -6.9493835
           ],
           [
-            107.5654266,
-            -6.94943
+            107.5654286,
+            -6.949452
           ],
           [
             107.5654127,
@@ -3908,10 +3970,12 @@
       "properties": {
         "id": 1308268698,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Caringin",
         "oneway": "yes",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -3934,11 +3998,13 @@
         "id": 1308268699,
         "avgspeed": "20",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Caringin",
         "oneway": "yes",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -4043,6 +4109,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "ref": "106",
         "reg_ref": "22-00-106-11K",
         "turn:lanes:forward": "slight_left;through|through;right"

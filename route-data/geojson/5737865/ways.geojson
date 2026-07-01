@@ -149,10 +149,10 @@
       },
       "properties": {
         "id": 42795877,
-        "alt_name": "Jl. Stasiun Timur",
+        "alt_name": "Jalan Simpang Utara",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Stasiun Timur",
+        "name": "Jalan Panaris",
         "oneway": "no",
         "ref": "10",
         "sidewalk:both": "separate",
@@ -253,12 +253,18 @@
       "properties": {
         "id": 172898441,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Jenderal Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
-        "ref": "170"
+        "parking:both": "no",
+        "ref": "28",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -474,10 +480,12 @@
       },
       "properties": {
         "id": 177527668,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sangkuriang",
         "oneway": "no",
+        "ref": "75",
         "surface": "asphalt",
         "width": "6"
       }
@@ -571,10 +579,12 @@
       },
       "properties": {
         "id": 179273659,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Encep Kartawiria",
         "oneway": "no",
+        "ref": "76",
         "surface": "asphalt",
         "width": "5"
       }
@@ -649,8 +659,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5348509,
-            -6.8842249
+            107.5350132,
+            -6.8840951
           ],
           [
             107.5351713,
@@ -672,9 +682,12 @@
       },
       "properties": {
         "id": 254609693,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Sriwijaya Raya",
+        "name": "Jalan Underpass Ir. Soekarno",
+        "name:etymology:wikidata": "Q76127",
+        "name:etymology:wikipedia": "id:Sukarno",
         "oneway": "yes"
       }
     },
@@ -710,6 +723,8 @@
         "highway": "primary_link",
         "lanes": "1",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "ref": "170",
         "surface": "asphalt",
@@ -739,7 +754,6 @@
         "id": 257234286,
         "highway": "residential",
         "lanes": "2",
-        "name": "Jalan Kalidam",
         "surface": "asphalt",
         "width": "4"
       }
@@ -971,9 +985,11 @@
       },
       "properties": {
         "id": 278473460,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Encep Kartawiria",
+        "ref": "76",
         "width": "6"
       }
     },
@@ -1038,10 +1054,12 @@
       },
       "properties": {
         "id": 289516679,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan M. K. Wiganda Sasmita",
         "oneway": "yes",
+        "ref": "1",
         "width": "5"
       }
     },
@@ -1299,11 +1317,13 @@
       },
       "properties": {
         "id": 339694302,
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Baros",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "surface": "asphalt"
       }
     },
     {
@@ -1335,9 +1355,13 @@
       },
       "properties": {
         "id": 339694303,
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "ref": "170",
         "surface": "asphalt"
@@ -1368,10 +1392,12 @@
       },
       "properties": {
         "id": 339694304,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -1451,11 +1477,14 @@
       },
       "properties": {
         "id": 339790388,
-        "alt_name": "Baros",
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "4",
         "motorcycle": "yes",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "ref": "170",
         "surface": "asphalt"
       }
@@ -1477,11 +1506,15 @@
       },
       "properties": {
         "id": 339798650,
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "ref": "170",
         "surface": "asphalt"
       }
@@ -1571,9 +1604,13 @@
       },
       "properties": {
         "id": 339798651,
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "ref": "170",
         "surface": "asphalt",
@@ -1606,9 +1643,8 @@
       "properties": {
         "id": 339798652,
         "foot": "designated",
-        "highway": "tertiary",
+        "highway": "primary_link",
         "lanes": "2",
-        "name": "Jalan Sriwijaya Raya",
         "oneway": "yes",
         "surface": "asphalt",
         "width": "5"
@@ -1647,10 +1683,14 @@
       },
       "properties": {
         "id": 369620131,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sisingamangaraja",
+        "name:etymology:wikidata": "Q983499",
+        "name:etymology:wikipedia": "id:Sisingamangaraja XII",
         "oneway": "yes",
+        "ref": "39",
         "width": "4"
       }
     },
@@ -1768,11 +1808,15 @@
       "properties": {
         "id": 385643848,
         "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "surface": "asphalt"
       }
     },
     {
@@ -2149,10 +2193,15 @@
       },
       "properties": {
         "id": 546227459,
+        "designation": "city_road",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Urip Soemohardjo",
-        "oneway": "yes"
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "31",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -2645,13 +2694,17 @@
       },
       "properties": {
         "id": 573047226,
-        "alt_name": "Baros",
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "surface": "asphalt"
       }
     },
     {
@@ -2715,11 +2768,15 @@
       },
       "properties": {
         "id": 575479819,
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
         "oneway": "yes",
-        "ref": "170"
+        "parking:both": "no",
+        "ref": "170",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -2827,10 +2884,12 @@
       },
       "properties": {
         "id": 686636117,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Encep Kartawiria",
         "oneway": "no",
+        "ref": "76",
         "surface": "asphalt",
         "width": "5"
       }
@@ -2924,10 +2983,12 @@
       },
       "properties": {
         "id": 686636118,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Encep Kartawiria",
         "oneway": "no",
+        "ref": "76",
         "surface": "asphalt",
         "width": "5"
       }
@@ -3060,7 +3121,9 @@
         "id": 687572117,
         "highway": "primary_link",
         "lanes": "1",
-        "oneway": "yes"
+        "oneway": "yes",
+        "parking:both": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -3477,10 +3540,12 @@
       },
       "properties": {
         "id": 830683775,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -3500,10 +3565,12 @@
       },
       "properties": {
         "id": 830683776,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -3550,9 +3617,12 @@
       "properties": {
         "id": 892172995,
         "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "ref": "170"
       }
@@ -3610,9 +3680,11 @@
       },
       "properties": {
         "id": 909490720,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan M. K. Wiganda Sasmita",
+        "ref": "1",
         "width": "5"
       }
     },
@@ -3634,9 +3706,12 @@
       "properties": {
         "id": 909519329,
         "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "ref": "170"
       }
@@ -3682,9 +3757,13 @@
       },
       "properties": {
         "id": 1035987690,
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "ref": "170",
         "surface": "asphalt"
@@ -3756,11 +3835,14 @@
       },
       "properties": {
         "id": 1042818641,
+        "alt_name": "Jalan Simpang Utara",
         "highway": "trunk",
         "lanes": "1",
-        "name": "Jalan Simpang",
+        "name": "Jalan Panaris",
         "oneway": "yes",
-        "ref": "10"
+        "ref": "10",
+        "sidewalk:both": "separate",
+        "surface": "asphalt"
       }
     },
     {
@@ -3792,10 +3874,14 @@
       },
       "properties": {
         "id": 1052122006,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "3",
-        "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "name": "Jalan Dustira",
+        "oneway": "yes",
+        "ref": "19",
+        "sidewalk": "left",
+        "surface": "asphalt"
       }
     },
     {
@@ -4030,17 +4116,20 @@
             -6.8843934
           ],
           [
-            107.5348509,
-            -6.8842249
+            107.5350132,
+            -6.8840951
           ]
         ]
       },
       "properties": {
         "id": 1110056391,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "-1",
-        "name": "Jalan Sriwijaya Raya",
+        "name": "Jalan Underpass Ir. Soekarno",
+        "name:etymology:wikidata": "Q76127",
+        "name:etymology:wikipedia": "id:Sukarno",
         "oneway": "yes",
         "tunnel": "yes"
       }
@@ -4090,9 +4179,12 @@
       },
       "properties": {
         "id": 1110089525,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Sriwijaya Raya",
+        "name": "Jalan Underpass Ir. Soekarno",
+        "name:etymology:wikidata": "Q76127",
+        "name:etymology:wikipedia": "id:Sukarno",
         "oneway": "yes"
       }
     },
@@ -4177,10 +4269,12 @@
       },
       "properties": {
         "id": 1270827080,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Encep Kartawiria",
         "oneway": "no",
+        "ref": "76",
         "surface": "asphalt"
       }
     },
@@ -4202,11 +4296,13 @@
       "properties": {
         "id": 1270827081,
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Encep Kartawiria",
         "oneway": "no",
+        "ref": "76",
         "surface": "asphalt"
       }
     },
@@ -4294,10 +4390,12 @@
       },
       "properties": {
         "id": 1365625446,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sangkuriang",
         "oneway": "no",
+        "ref": "75",
         "surface": "asphalt",
         "width": "5"
       }
@@ -4327,10 +4425,12 @@
       },
       "properties": {
         "id": 1365625447,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sangkuriang",
         "oneway": "no",
+        "ref": "75",
         "surface": "asphalt"
       }
     },
@@ -4435,10 +4535,12 @@
       },
       "properties": {
         "id": 1365625448,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Encep Kartawiria",
         "oneway": "no",
+        "ref": "76",
         "surface": "asphalt",
         "width": "6"
       }

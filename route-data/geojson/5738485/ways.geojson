@@ -1179,9 +1179,12 @@
       },
       "properties": {
         "id": 175262810,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sisinga Mangaraja",
+        "official_name": "Jalan Sisingamangaraja",
+        "ref": "39",
         "smoothness": "good",
         "surface": "asphalt",
         "width": "5"
@@ -1412,9 +1415,8 @@
       "properties": {
         "id": 339798652,
         "foot": "designated",
-        "highway": "tertiary",
+        "highway": "primary_link",
         "lanes": "2",
-        "name": "Jalan Sriwijaya Raya",
         "oneway": "yes",
         "surface": "asphalt",
         "width": "5"
@@ -1453,10 +1455,14 @@
       },
       "properties": {
         "id": 369620131,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sisingamangaraja",
+        "name:etymology:wikidata": "Q983499",
+        "name:etymology:wikipedia": "id:Sisingamangaraja XII",
         "oneway": "yes",
+        "ref": "39",
         "width": "4"
       }
     },
@@ -1612,9 +1618,12 @@
       "properties": {
         "id": 385643859,
         "alt_name": "Jl. Pojok Utara",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Pojok Utara",
+        "official_name": "Jalan Sisingamangaraja",
+        "ref": "39",
         "smoothness": "good",
         "surface": "asphalt",
         "width": "5"
@@ -2274,9 +2283,13 @@
       },
       "properties": {
         "id": 552297813,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Sisingamangaraja"
+        "name": "Jalan Sisingamangaraja",
+        "name:etymology:wikidata": "Q983499",
+        "name:etymology:wikipedia": "id:Sisingamangaraja XII",
+        "ref": "39"
       }
     },
     {
@@ -2316,9 +2329,13 @@
       },
       "properties": {
         "id": 553202373,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sisingamangaraja",
+        "name:etymology:wikidata": "Q983499",
+        "name:etymology:wikipedia": "id:Sisingamangaraja XII",
+        "ref": "39",
         "smoothness": "good",
         "surface": "asphalt",
         "width": "6"
@@ -2341,9 +2358,14 @@
       },
       "properties": {
         "id": 553202374,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sisingamangaraja",
+        "name:etymology:wikidata": "Q983499",
+        "name:etymology:wikipedia": "id:Sisingamangaraja XII",
+        "official_name": "Jalan Sisingamangaraja",
+        "ref": "39",
         "smoothness": "good",
         "surface": "asphalt",
         "width": "6"
@@ -2572,9 +2594,14 @@
       },
       "properties": {
         "id": 561399069,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sisingamangaraja",
+        "name:etymology:wikidata": "Q983499",
+        "name:etymology:wikipedia": "id:Sisingamangaraja XII",
+        "official_name": "Jalan Sisingamangaraja",
+        "ref": "39",
         "smoothness": "good",
         "surface": "asphalt",
         "width": "6"
@@ -2622,10 +2649,14 @@
       "properties": {
         "id": 561400535,
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Sisingamangaraja"
+        "name": "Jalan Sisingamangaraja",
+        "name:etymology:wikidata": "Q983499",
+        "name:etymology:wikipedia": "id:Sisingamangaraja XII",
+        "ref": "39"
       }
     },
     {
@@ -4120,10 +4151,12 @@
       },
       "properties": {
         "id": 830683775,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -4147,9 +4180,14 @@
       },
       "properties": {
         "id": 951976166,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sisingamangaraja",
+        "name:etymology:wikidata": "Q983499",
+        "name:etymology:wikipedia": "id:Sisingamangaraja XII",
+        "official_name": "Jalan Sisingamangaraja",
+        "ref": "39",
         "smoothness": "good",
         "surface": "asphalt",
         "width": "6"
@@ -4462,10 +4500,6 @@
           [
             107.5037644,
             -6.8709529
-          ],
-          [
-            107.5037478,
-            -6.8709177
           ],
           [
             107.5036753,

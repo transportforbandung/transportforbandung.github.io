@@ -3548,11 +3548,12 @@
       },
       "properties": {
         "id": 175262809,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "3",
-        "name": "Jalan Gandawijaya",
+        "name": "Jalan Gedung Empat",
         "oneway": "yes",
-        "ref": "3",
+        "ref": "2",
         "surface": "asphalt",
         "width": "7"
       }
@@ -3628,11 +3629,12 @@
       },
       "properties": {
         "id": 254609690,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Gandawijaya",
+        "name": "Jalan Gedung Empat",
         "oneway": "yes",
-        "ref": "3",
+        "ref": "2",
         "surface": "asphalt"
       }
     },
@@ -3872,12 +3874,12 @@
             -6.8891389
           ],
           [
-            107.5556811,
-            -6.8884444
+            107.5556898,
+            -6.8884357
           ],
           [
-            107.555643,
-            -6.8883823
+            107.5556524,
+            -6.888377
           ]
         ]
       },
@@ -3984,11 +3986,12 @@
       },
       "properties": {
         "id": 339798647,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Gandawijaya",
+        "name": "Jalan Gedung Empat",
         "oneway": "yes",
-        "ref": "3",
+        "ref": "2",
         "width": "6"
       }
     },
@@ -4077,9 +4080,13 @@
       },
       "properties": {
         "id": 339798651,
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "ref": "170",
         "surface": "asphalt",
@@ -4103,8 +4110,9 @@
       },
       "properties": {
         "id": 369620412,
+        "designation": "city_road",
         "foot": "designated",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
@@ -4945,8 +4953,9 @@
       },
       "properties": {
         "id": 447131657,
+        "designation": "city_road",
         "foot": "designated",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
@@ -4998,7 +5007,8 @@
       },
       "properties": {
         "id": 447131659,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
@@ -9015,8 +9025,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5531885,
-            -6.8843128
+            107.5532991,
+            -6.8845055
+          ],
+          [
+            107.5532758,
+            -6.8844655
+          ],
+          [
+            107.5532307,
+            -6.8843827
           ],
           [
             107.5531006,
@@ -9063,28 +9081,32 @@
             -6.8827206
           ],
           [
-            107.5520817,
-            -6.8824713
+            107.5520864,
+            -6.8824613
           ],
           [
-            107.5519439,
-            -6.8822442
+            107.5519526,
+            -6.8822389
           ],
           [
-            107.5518178,
-            -6.8820536
+            107.5518285,
+            -6.882035
           ],
           [
-            107.5515938,
-            -6.8816947
+            107.5516065,
+            -6.8816734
           ],
           [
-            107.5515007,
-            -6.8815314
+            107.5515108,
+            -6.8815261
           ],
           [
-            107.5513132,
-            -6.8812126
+            107.5513286,
+            -6.8812206
+          ],
+          [
+            107.5513112,
+            -6.8811893
           ],
           [
             107.5510818,
@@ -9152,10 +9174,14 @@
         "id": 572985687,
         "avgspeed": "30",
         "highway": "trunk",
+        "lane_markings": "yes",
         "lanes": "4",
         "name": "Jalan Jend. H. Amir Machmud",
         "ref": "11",
-        "source": "Yahoo hires"
+        "smoothness": "good",
+        "source": "Yahoo hires",
+        "surface": "asphalt",
+        "width": "10"
       }
     },
     {
@@ -9201,7 +9227,10 @@
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
         "ref": "11",
-        "source": "Yahoo hires"
+        "smoothness": "good",
+        "source": "Yahoo hires",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -9209,74 +9238,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            107.5689887,
-            -6.9104164
-          ],
-          [
-            107.5689617,
-            -6.9103691
-          ],
-          [
-            107.5688997,
-            -6.9102637
-          ],
-          [
-            107.5688731,
-            -6.910217
-          ],
-          [
-            107.5688157,
-            -6.9101246
-          ],
-          [
-            107.5686493,
-            -6.9098587
-          ],
-          [
-            107.5683186,
-            -6.9093322
-          ],
-          [
-            107.5676739,
-            -6.9082679
-          ],
-          [
-            107.5674722,
-            -6.9079333
-          ],
-          [
-            107.5673325,
-            -6.9077024
-          ],
-          [
-            107.5672438,
-            -6.907556
-          ],
-          [
-            107.5668478,
-            -6.9069015
-          ],
-          [
-            107.5666139,
-            -6.9065148
-          ],
-          [
-            107.5664877,
-            -6.9063062
-          ],
-          [
-            107.5663055,
-            -6.9060051
-          ],
-          [
-            107.5659443,
-            -6.9054074
-          ],
-          [
-            107.565924,
-            -6.9053734
-          ],
           [
             107.565673,
             -6.9049534
@@ -15398,8 +15359,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.555643,
-            -6.8883823
+            107.5556524,
+            -6.888377
           ],
           [
             107.5554234,
@@ -15452,7 +15413,8 @@
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
         "ref": "11",
-        "source": "Yahoo hires"
+        "source": "Yahoo hires",
+        "width": "5"
       }
     },
     {
@@ -15481,20 +15443,12 @@
             -6.8850994
           ],
           [
-            107.5532727,
-            -6.8845289
+            107.5533096,
+            -6.8845788
           ],
           [
-            107.5532466,
-            -6.8844891
-          ],
-          [
-            107.5532098,
-            -6.8844243
-          ],
-          [
-            107.5531885,
-            -6.8843128
+            107.5532991,
+            -6.8845055
           ]
         ]
       },
@@ -15507,7 +15461,8 @@
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
         "ref": "11",
-        "source": "Yahoo hires"
+        "source": "Yahoo hires",
+        "width": "5"
       }
     },
     {
@@ -15577,9 +15532,13 @@
       },
       "properties": {
         "id": 1035987690,
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "ref": "170",
         "surface": "asphalt"
@@ -15656,8 +15615,9 @@
       },
       "properties": {
         "id": 1110112339,
+        "designation": "city_road",
         "foot": "designated",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
@@ -15927,10 +15887,6 @@
           [
             107.5037644,
             -6.8709529
-          ],
-          [
-            107.5037478,
-            -6.8709177
           ],
           [
             107.5036753,
@@ -16689,6 +16645,96 @@
         "id": 1466052085,
         "highway": "secondary",
         "motorcycle": "yes",
+        "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5689887,
+            -6.9104164
+          ],
+          [
+            107.5689617,
+            -6.9103691
+          ],
+          [
+            107.5688997,
+            -6.9102637
+          ],
+          [
+            107.5688731,
+            -6.910217
+          ],
+          [
+            107.5688157,
+            -6.9101246
+          ],
+          [
+            107.5686493,
+            -6.9098587
+          ],
+          [
+            107.5683186,
+            -6.9093322
+          ],
+          [
+            107.5676739,
+            -6.9082679
+          ],
+          [
+            107.5674722,
+            -6.9079333
+          ],
+          [
+            107.5673325,
+            -6.9077024
+          ],
+          [
+            107.5672438,
+            -6.907556
+          ],
+          [
+            107.5668478,
+            -6.9069015
+          ],
+          [
+            107.5666139,
+            -6.9065148
+          ],
+          [
+            107.5664877,
+            -6.9063062
+          ],
+          [
+            107.5663055,
+            -6.9060051
+          ],
+          [
+            107.5659443,
+            -6.9054074
+          ],
+          [
+            107.565924,
+            -6.9053734
+          ],
+          [
+            107.565673,
+            -6.9049534
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1501298925,
+        "avgspeed": "30",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Jalan Jend. H. Amir Machmud",
+        "oneway": "yes",
+        "ref": "11",
         "source": "Yahoo hires"
       }
     }

@@ -79,6 +79,10 @@
             -6.9104032
           ],
           [
+            107.6040795,
+            -6.910612
+          ],
+          [
             107.6040749,
             -6.9106747
           ],
@@ -199,6 +203,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "oneway": "yes",
         "ref": "2318",
         "reg_ref": "22-10-2318",
@@ -310,6 +316,10 @@
           [
             107.6071035,
             -6.9074752
+          ],
+          [
+            107.6070242,
+            -6.9074318
           ],
           [
             107.6068765,
@@ -486,6 +496,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -512,6 +524,10 @@
           [
             107.6141263,
             -6.8840166
+          ],
+          [
+            107.6140088,
+            -6.8843693
           ],
           [
             107.6139972,
@@ -543,6 +559,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "parking:both": "no",
@@ -1784,6 +1802,8 @@
         "lanes": "3",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt",
@@ -1873,6 +1893,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -1920,6 +1942,14 @@
             -6.9074213
           ],
           [
+            107.584189,
+            -6.9074748
+          ],
+          [
+            107.583989,
+            -6.9075077
+          ],
+          [
             107.5838295,
             -6.9075339
           ],
@@ -1944,6 +1974,10 @@
             -6.9076608
           ],
           [
+            107.5824393,
+            -6.9076623
+          ],
+          [
             107.5822772,
             -6.9076634
           ],
@@ -1962,6 +1996,8 @@
         "highway": "trunk",
         "lanes": "1",
         "name": "Jalan Abdul Rahman Saleh",
+        "name:etymology:wikidata": "Q12470581",
+        "name:etymology:wikipedia": "id:Abdulrachman Saleh",
         "oneway": "no"
       }
     },
@@ -2108,6 +2144,10 @@
             -6.9386026
           ],
           [
+            107.5692252,
+            -6.9389339
+          ],
+          [
             107.5692213,
             -6.9389447
           ],
@@ -2118,6 +2158,10 @@
           [
             107.5690029,
             -6.9392668
+          ],
+          [
+            107.5689722,
+            -6.9393147
           ],
           [
             107.5687314,
@@ -2314,8 +2358,8 @@
             -6.9445297
           ],
           [
-            107.5763107,
-            -6.9445007
+            107.576288,
+            -6.9445109
           ],
           [
             107.5763286,
@@ -2369,10 +2413,12 @@
       },
       "properties": {
         "id": 306586869,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "motorcycle": "yes",
-        "name": "Jalan Caringin"
+        "name": "Jalan Caringin",
+        "ref": "4022"
       }
     },
     {
@@ -3002,6 +3048,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|slight_left|slight_left"
@@ -3119,6 +3167,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through;reverse"
@@ -3373,6 +3423,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -3400,6 +3452,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -3491,8 +3545,16 @@
             -6.9452453
           ],
           [
+            107.5827966,
+            -6.9453145
+          ],
+          [
             107.5828684,
             -6.9453402
+          ],
+          [
+            107.583021,
+            -6.9453948
           ],
           [
             107.5830978,
@@ -3523,9 +3585,11 @@
       "properties": {
         "id": 331188291,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Caringin",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -3559,6 +3623,7 @@
         "name": "Jalan Sadang Serang",
         "oneway": "no",
         "sidewalk": "both",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -3611,6 +3676,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "ref": "106",
         "reg_ref": "22-00-106-11K",
         "turn:lanes:forward": "slight_left;through|through;right"
@@ -3747,6 +3814,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Abdul Rahman Saleh",
+        "name:etymology:wikidata": "Q12470581",
+        "name:etymology:wikipedia": "id:Abdulrachman Saleh",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -4069,11 +4138,13 @@
       "properties": {
         "id": 686617327,
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "motorcycle": "yes",
-        "name": "Jalan Caringin"
+        "name": "Jalan Caringin",
+        "ref": "4022"
       }
     },
     {
@@ -4105,10 +4176,12 @@
       },
       "properties": {
         "id": 686617328,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "motorcycle": "yes",
-        "name": "Jalan Caringin"
+        "name": "Jalan Caringin",
+        "ref": "4022"
       }
     },
     {
@@ -4157,8 +4230,10 @@
       "properties": {
         "id": 704452948,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "name": "Jalan Caringin",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -4520,6 +4595,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "ref": "2182",
         "sidewalk": "separate",
@@ -4583,6 +4660,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through|right"
@@ -4721,6 +4800,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left|slight_left|through|through"
@@ -5039,6 +5120,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left;through|through|right"
@@ -5335,10 +5418,12 @@
       "properties": {
         "id": 1222414518,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Caringin",
         "oneway": "yes",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -5369,6 +5454,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "oneway": "yes",
         "ref": "106",
         "reg_ref": "22-00-106-11K"
@@ -5395,6 +5482,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "oneway": "yes",
         "ref": "106",
         "reg_ref": "22-00-106-11K",
@@ -5421,6 +5510,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -5462,6 +5553,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left|slight_left;through|through"
@@ -5716,6 +5809,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "oneway": "yes",
         "ref": "106",
         "reg_ref": "22-00-106-11K"
@@ -5843,6 +5938,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -5879,6 +5976,7 @@
         "name": "Jalan Sadang Serang",
         "oneway": "no",
         "sidewalk": "both",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -5908,6 +6006,7 @@
         "name": "Jalan Sadang Serang",
         "oneway": "no",
         "sidewalk": "both",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -5941,6 +6040,7 @@
         "name": "Jalan Sadang Serang",
         "oneway": "no",
         "sidewalk": "both",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -6007,6 +6107,7 @@
         "name": "Jalan Sadang Serang",
         "oneway": "no",
         "sidewalk": "both",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -6036,6 +6137,7 @@
         "name": "Jalan Sadang Serang",
         "oneway": "no",
         "sidewalk": "both",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -6071,6 +6173,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Abdul Rahman Saleh",
+        "name:etymology:wikidata": "Q12470581",
+        "name:etymology:wikipedia": "id:Abdulrachman Saleh",
         "oneway": "no",
         "surface": "asphalt"
       }
@@ -6574,6 +6678,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Kyai Haji Wahid Hasyim",
+        "name:etymology:wikidata": "Q981398",
+        "name:etymology:wikipedia": "id:Abdul Wahid Hasyim",
         "ref": "106",
         "reg_ref": "22-00-106-11K",
         "turn:lanes:forward": "slight_left;through|through;right"

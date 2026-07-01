@@ -1199,6 +1199,14 @@
             -6.9074213
           ],
           [
+            107.584189,
+            -6.9074748
+          ],
+          [
+            107.583989,
+            -6.9075077
+          ],
+          [
             107.5838295,
             -6.9075339
           ],
@@ -1223,6 +1231,10 @@
             -6.9076608
           ],
           [
+            107.5824393,
+            -6.9076623
+          ],
+          [
             107.5822772,
             -6.9076634
           ],
@@ -1241,6 +1253,8 @@
         "highway": "trunk",
         "lanes": "1",
         "name": "Jalan Abdul Rahman Saleh",
+        "name:etymology:wikidata": "Q12470581",
+        "name:etymology:wikipedia": "id:Abdulrachman Saleh",
         "oneway": "no"
       }
     },
@@ -1362,6 +1376,10 @@
             -6.9386026
           ],
           [
+            107.5692252,
+            -6.9389339
+          ],
+          [
             107.5692213,
             -6.9389447
           ],
@@ -1372,6 +1390,10 @@
           [
             107.5690029,
             -6.9392668
+          ],
+          [
+            107.5689722,
+            -6.9393147
           ],
           [
             107.5687314,
@@ -1568,8 +1590,8 @@
             -6.9445297
           ],
           [
-            107.5763107,
-            -6.9445007
+            107.576288,
+            -6.9445109
           ],
           [
             107.5763286,
@@ -1623,10 +1645,12 @@
       },
       "properties": {
         "id": 306586869,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "motorcycle": "yes",
-        "name": "Jalan Caringin"
+        "name": "Jalan Caringin",
+        "ref": "4022"
       }
     },
     {
@@ -2167,6 +2191,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "smoothness": "good",
@@ -2215,6 +2241,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2182",
@@ -2223,7 +2251,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "no",
-        "width": "5 m"
+        "width": "5"
       }
     },
     {
@@ -2286,6 +2314,10 @@
           [
             107.5720087,
             -6.9116592
+          ],
+          [
+            107.5723261,
+            -6.9117833
           ],
           [
             107.5725782,
@@ -2428,6 +2460,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2182",
@@ -2436,7 +2470,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "no",
-        "width": "5 m"
+        "width": "5"
       }
     },
     {
@@ -2646,6 +2680,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "ref": "11"
       }
@@ -2736,8 +2772,16 @@
             -6.9452453
           ],
           [
+            107.5827966,
+            -6.9453145
+          ],
+          [
             107.5828684,
             -6.9453402
+          ],
+          [
+            107.583021,
+            -6.9453948
           ],
           [
             107.5830978,
@@ -2768,9 +2812,11 @@
       "properties": {
         "id": 331188291,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Caringin",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -2804,6 +2850,7 @@
         "name": "Jalan Sadang Serang",
         "oneway": "no",
         "sidewalk": "both",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -2890,7 +2937,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "no",
-        "width": "3 m"
+        "width": "3"
       }
     },
     {
@@ -3004,6 +3051,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Abdul Rahman Saleh",
+        "name:etymology:wikidata": "Q12470581",
+        "name:etymology:wikipedia": "id:Abdulrachman Saleh",
         "oneway": "yes"
       }
     },
@@ -3174,6 +3223,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "ref": "11"
       }
@@ -3221,6 +3272,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "parking:both": "no",
@@ -3277,11 +3330,13 @@
       "properties": {
         "id": 686617327,
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "motorcycle": "yes",
-        "name": "Jalan Caringin"
+        "name": "Jalan Caringin",
+        "ref": "4022"
       }
     },
     {
@@ -3313,10 +3368,12 @@
       },
       "properties": {
         "id": 686617328,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "motorcycle": "yes",
-        "name": "Jalan Caringin"
+        "name": "Jalan Caringin",
+        "ref": "4022"
       }
     },
     {
@@ -3379,6 +3436,8 @@
         "lanes": "1",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2182",
@@ -3435,8 +3494,10 @@
       "properties": {
         "id": 704452948,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "name": "Jalan Caringin",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -3456,6 +3517,10 @@
           [
             107.5960368,
             -6.9065206
+          ],
+          [
+            107.596056,
+            -6.9065146
           ],
           [
             107.596066,
@@ -3550,10 +3615,12 @@
       "properties": {
         "id": 718657214,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Caringin",
         "oneway": "yes",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -3589,6 +3656,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2182",
@@ -3597,7 +3666,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "no",
-        "width": "5 m"
+        "width": "5"
       }
     },
     {
@@ -3624,6 +3693,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "ref": "11"
       }
@@ -3873,6 +3944,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2182",
@@ -3881,7 +3954,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "no",
-        "width": "5 m"
+        "width": "5"
       }
     },
     {
@@ -3945,6 +4018,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Jendral Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "ref": "11"
       }
@@ -3973,6 +4048,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "ref": "2182",
         "sidewalk": "separate",
@@ -3980,7 +4057,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "no",
-        "width": "5 m"
+        "width": "5"
       }
     },
     {
@@ -4019,6 +4096,8 @@
         "lanes": "1",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2182",
@@ -4357,6 +4436,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk": "separate",
@@ -4364,7 +4445,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "no",
-        "width": "5 m"
+        "width": "5"
       }
     },
     {
@@ -4399,6 +4480,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2182",
@@ -4407,7 +4490,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "no",
-        "width": "5 m"
+        "width": "5"
       }
     },
     {
@@ -4662,6 +4745,10 @@
           [
             107.5729282,
             -6.9120185
+          ],
+          [
+            107.5729439,
+            -6.9120247
           ],
           [
             107.573014,
@@ -4930,13 +5017,16 @@
         "id": 1222414522,
         "alt_name": "Jalan Dago",
         "cycleway": "lane",
+        "foot": "yes",
         "highway": "primary",
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
-        "sidewalk": "no",
+        "sidewalk": "left",
         "smoothness": "good",
         "surface": "asphalt",
         "wheelchair": "no"
@@ -4970,6 +5060,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2182",
@@ -4978,7 +5070,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "no",
-        "width": "5 m"
+        "width": "5"
       }
     },
     {
@@ -5419,10 +5511,12 @@
       "properties": {
         "id": 1308268698,
         "avgspeed": "20",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Caringin",
         "oneway": "yes",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -5445,11 +5539,13 @@
         "id": 1308268699,
         "avgspeed": "20",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Caringin",
         "oneway": "yes",
+        "ref": "4022",
         "source": "Bing"
       }
     },
@@ -5592,6 +5688,7 @@
         "name": "Jalan Sadang Serang",
         "oneway": "no",
         "sidewalk": "both",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -5621,6 +5718,7 @@
         "name": "Jalan Sadang Serang",
         "oneway": "no",
         "sidewalk": "both",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -5654,6 +5752,7 @@
         "name": "Jalan Sadang Serang",
         "oneway": "no",
         "sidewalk": "both",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -5720,6 +5819,7 @@
         "name": "Jalan Sadang Serang",
         "oneway": "no",
         "sidewalk": "both",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -5749,6 +5849,7 @@
         "name": "Jalan Sadang Serang",
         "oneway": "no",
         "sidewalk": "both",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -5980,6 +6081,7 @@
         "name": "Jalan Sadang Serang",
         "oneway": "no",
         "sidewalk": "both",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -6021,6 +6123,7 @@
         "name": "Jalan Sadang Serang",
         "oneway": "no",
         "sidewalk": "both",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -6054,6 +6157,7 @@
         "name": "Jalan Sadang Serang",
         "oneway": "no",
         "sidewalk": "both",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -6100,6 +6204,8 @@
         "lanes": "2",
         "lit": "yes",
         "name": "Jalan Ir. H. Djuanda",
+        "name:etymology:wikidata": "Q2670453",
+        "name:etymology:wikipedia": "id:Djuanda Kartawidjaja",
         "official_name": "Jalan Insinyur Haji Djuanda",
         "oneway": "yes",
         "sidewalk:left": "separate",
@@ -6141,6 +6247,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Abdul Rahman Saleh",
+        "name:etymology:wikidata": "Q12470581",
+        "name:etymology:wikipedia": "id:Abdulrachman Saleh",
         "oneway": "no",
         "surface": "asphalt"
       }

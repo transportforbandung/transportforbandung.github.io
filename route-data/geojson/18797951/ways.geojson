@@ -50,10 +50,13 @@
       },
       "properties": {
         "id": 177529894,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Raden Demang Hardjakusumah",
+        "name:en": "Raden Demang Hardjakusumah Avenue",
         "oneway": "no",
+        "ref": "67",
         "smoothness": "good",
         "source": "Local knowledge",
         "surface": "asphalt",
@@ -102,8 +105,8 @@
             -6.8779132
           ],
           [
-            107.5592495,
-            -6.8780404
+            107.5592468,
+            -6.8780507
           ],
           [
             107.5590598,
@@ -198,32 +201,32 @@
             -6.8838837
           ],
           [
-            107.5573307,
-            -6.8840151
+            107.5573374,
+            -6.8839858
           ],
           [
-            107.5572478,
-            -6.8843869
+            107.5572572,
+            -6.8843882
           ],
           [
-            107.5571923,
-            -6.8846358
+            107.5572037,
+            -6.8846212
           ],
           [
-            107.5571805,
-            -6.8846886
+            107.5571865,
+            -6.8846913
           ],
           [
-            107.5571117,
-            -6.8849972
+            107.5571258,
+            -6.8849852
           ],
           [
             107.5570163,
             -6.8853633
           ],
           [
-            107.5569193,
-            -6.8856168
+            107.5569267,
+            -6.8856048
           ],
           [
             107.5568246,
@@ -270,11 +273,15 @@
       "properties": {
         "id": 190691083,
         "alt_name": "Jalan Pesantren",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Pasantren",
         "oneway": "no",
-        "surface": "asphalt"
+        "ref": "55",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "4"
       }
     },
     {
@@ -370,13 +377,19 @@
       },
       "properties": {
         "id": 241740056,
-        "alt_name": "Jl. Kecamatan",
+        "alt_name": "Jalan Jatiserut;Jalan Jati Serut",
         "avgspeed": "25",
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Kecamatan",
-        "surface": "asphalt",
-        "width": "6"
+        "designation": "city_road",
+        "destination:backward": "Bunderan Jati",
+        "destination:forward": "Pesantren",
+        "highway": "secondary",
+        "lanes": "4",
+        "name": "Jalan Soedarna Tresna Manggala",
+        "name:en": "Soedarna Tresna Manggala Avenue",
+        "old_name": "Jalan Kecamatan",
+        "ref": "56",
+        "smoothness": "good",
+        "surface": "asphalt"
       }
     },
     {
@@ -858,10 +871,12 @@
       },
       "properties": {
         "id": 385643865,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Mahar Martanegara",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "82"
       }
     },
     {
@@ -928,16 +943,16 @@
             -6.8879517
           ],
           [
-            107.5557192,
-            -6.888343
+            107.5557165,
+            -6.8883377
           ],
           [
-            107.5559388,
-            -6.8886859
+            107.5559126,
+            -6.8886546
           ],
           [
-            107.5559992,
-            -6.8887802
+            107.5559962,
+            -6.8887905
           ],
           [
             107.5562442,
@@ -1058,11 +1073,13 @@
       "properties": {
         "id": 686097771,
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Raden Demang Hardjakusumah",
         "oneway": "no",
+        "ref": "67",
         "smoothness": "good",
         "source": "Local knowledge",
         "surface": "asphalt",
@@ -1098,10 +1115,12 @@
       },
       "properties": {
         "id": 686097772,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Raden Demang Hardjakusumah",
         "oneway": "no",
+        "ref": "67",
         "smoothness": "good",
         "source": "Local knowledge",
         "surface": "asphalt",
@@ -1203,45 +1222,13 @@
       },
       "properties": {
         "id": 960948627,
+        "designation": "city_road",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Raden Demang Hardjakusumah",
         "oneway": "no",
+        "ref": "67",
         "source": "Local knowledge",
-        "surface": "asphalt",
-        "width": "5"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5554174,
-            -6.8731989
-          ],
-          [
-            107.5557454,
-            -6.8735052
-          ],
-          [
-            107.5559994,
-            -6.8737184
-          ],
-          [
-            107.5562531,
-            -6.8738788
-          ]
-        ]
-      },
-      "properties": {
-        "id": 985007796,
-        "avgspeed": "25",
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Jati Serut",
-        "smoothness": "good",
         "surface": "asphalt",
         "width": "5"
       }
@@ -1267,10 +1254,12 @@
       },
       "properties": {
         "id": 1013942994,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Raden Demang Hardjakusumah",
         "oneway": "yes",
+        "ref": "67",
         "surface": "asphalt"
       }
     },
@@ -1390,10 +1379,12 @@
       },
       "properties": {
         "id": 1111594160,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Raden Demang Hardjakusumah",
         "oneway": "yes",
+        "ref": "67",
         "surface": "asphalt",
         "width": "4"
       }
@@ -1460,11 +1451,13 @@
       "properties": {
         "id": 1111601471,
         "alt_name": "Jalan Margamulya",
+        "designation": "city_road",
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Margaluyu",
         "oneway": "no",
+        "ref": "51",
         "source": "Local knowledge",
         "width": "4"
       }
@@ -1620,9 +1613,11 @@
       "properties": {
         "id": 1364319050,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Mahar Martanegara",
+        "ref": "82",
         "source": "Yahoo hires"
       }
     },
@@ -1684,10 +1679,12 @@
       "properties": {
         "id": 1365313036,
         "alt_name": "Jalan Pesantren",
+        "designation": "city_road",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Pasantren",
         "oneway": "no",
+        "ref": "55",
         "surface": "asphalt"
       }
     },
@@ -1728,10 +1725,12 @@
       },
       "properties": {
         "id": 1365625446,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sangkuriang",
         "oneway": "no",
+        "ref": "75",
         "surface": "asphalt",
         "width": "5"
       }
@@ -1761,10 +1760,12 @@
       },
       "properties": {
         "id": 1365625447,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sangkuriang",
         "oneway": "no",
+        "ref": "75",
         "surface": "asphalt"
       }
     },
@@ -1869,10 +1870,12 @@
       },
       "properties": {
         "id": 1365625448,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Encep Kartawiria",
         "oneway": "no",
+        "ref": "76",
         "surface": "asphalt",
         "width": "6"
       }
@@ -1982,10 +1985,13 @@
       },
       "properties": {
         "id": 1426370639,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Raden Demang Hardjakusumah",
+        "name:en": "Raden Demang Hardjakusumah Avenue",
         "oneway": "yes",
+        "ref": "67",
         "source": "Local knowledge",
         "surface": "asphalt"
       }
@@ -1996,16 +2002,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5552558,
-            -6.872908
+            107.5553742,
+            -6.8730825
           ],
           [
-            107.5552833,
-            -6.8729635
-          ],
-          [
-            107.5553649,
-            -6.8731092
+            107.5554007,
+            -6.8731332
           ],
           [
             107.5554174,
@@ -2015,11 +2017,16 @@
       },
       "properties": {
         "id": 1426370640,
+        "alt_name": "Jalan Jatiserut;Jalan Jati Serut",
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Jati Serut",
+        "name": "Jalan Soedarna Tresna Manggala",
+        "name:en": "Soedarna Tresna Manggala Avenue",
+        "old_name": "Jalan Kecamatan",
         "oneway": "yes",
+        "ref": "56",
         "surface": "asphalt"
       }
     },
@@ -2044,32 +2051,7 @@
       },
       "properties": {
         "id": 1426375729,
-        "highway": "tertiary",
-        "junction": "roundabout",
-        "motorcycle": "yes",
-        "name": "Bundaran Jati",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5552484,
-            -6.8728516
-          ],
-          [
-            107.5552558,
-            -6.872908
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1426375730,
-        "highway": "tertiary",
+        "highway": "secondary",
         "junction": "roundabout",
         "motorcycle": "yes",
         "name": "Bundaran Jati",
@@ -2099,13 +2081,90 @@
       "properties": {
         "id": 1485866423,
         "alt_name": "Jalan Margamulya",
+        "designation": "city_road",
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Margaluyu",
         "oneway": "no",
+        "ref": "51",
         "source": "Local knowledge",
         "width": "6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5552484,
+            -6.8728516
+          ],
+          [
+            107.5552935,
+            -6.8729343
+          ],
+          [
+            107.5553742,
+            -6.8730825
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1523448394,
+        "alt_name": "Jalan Cihanjuang",
+        "avgspeed": "25",
+        "designation": "city_road",
+        "highway": "secondary",
+        "lanes": "1",
+        "name": "Jalan Daeng Muhammad Ardiwinata",
+        "name:en": "Daeng Ardiwinata Road",
+        "official_name": "Jalan Daeng M. Ardiwinata",
+        "old_name": "Jalan Cihanjuang",
+        "oneway": "yes",
+        "ref": "50",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5554174,
+            -6.8731989
+          ],
+          [
+            107.5557454,
+            -6.8735052
+          ],
+          [
+            107.5559994,
+            -6.8737184
+          ],
+          [
+            107.5562531,
+            -6.8738788
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1530535873,
+        "alt_name": "Jalan Jatiserut;Jalan Jati Serut",
+        "avgspeed": "25",
+        "designation": "city_road",
+        "destination:backward": "Bunderan Jati",
+        "destination:forward": "Pesantren",
+        "highway": "secondary",
+        "lanes": "4",
+        "name": "Jalan Soedarna Tresna Manggala",
+        "name:en": "Soedarna Tresna Manggala Avenue",
+        "old_name": "Jalan Kecamatan",
+        "ref": "56",
+        "smoothness": "good",
+        "surface": "asphalt"
       }
     }
   ]

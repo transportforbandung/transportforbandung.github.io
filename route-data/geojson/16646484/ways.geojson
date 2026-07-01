@@ -54,7 +54,7 @@
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_left;slight_right|slight_right",
         "wheelchair": "no",
-        "width": "3 m"
+        "width": "3"
       }
     },
     {
@@ -472,6 +472,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -914,6 +916,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -1349,6 +1353,10 @@
             -6.9314246
           ],
           [
+            107.6018436,
+            -6.9313556
+          ],
+          [
             107.6017942,
             -6.9312076
           ]
@@ -1571,6 +1579,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "right|right"
@@ -1802,6 +1812,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -1829,6 +1841,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -2425,8 +2439,8 @@
             -6.9157548
           ],
           [
-            107.6045263,
-            -6.9155905
+            107.6045273,
+            -6.915589
           ],
           [
             107.604546,
@@ -2440,6 +2454,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
         "parking:left": "lane",
         "parking:left:orientation": "parallel",
@@ -3518,16 +3534,24 @@
             -6.9136374
           ],
           [
+            107.6046392,
+            -6.9136785
+          ],
+          [
             107.6046344,
             -6.913774
+          ],
+          [
+            107.6046298,
+            -6.9138408
           ],
           [
             107.604621,
             -6.913968
           ],
           [
-            107.6045882,
-            -6.9143401
+            107.6045855,
+            -6.9143581
           ],
           [
             107.6045878,
@@ -3552,6 +3576,8 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -3954,6 +3980,14 @@
           [
             107.6000477,
             -6.9068645
+          ],
+          [
+            107.6001281,
+            -6.9068699
+          ],
+          [
+            107.6004436,
+            -6.9068911
           ],
           [
             107.6006155,

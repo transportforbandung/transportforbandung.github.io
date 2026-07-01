@@ -79,6 +79,10 @@
             -6.9104032
           ],
           [
+            107.6040795,
+            -6.910612
+          ],
+          [
             107.6040749,
             -6.9106747
           ],
@@ -139,6 +143,10 @@
           [
             107.6071035,
             -6.9074752
+          ],
+          [
+            107.6070242,
+            -6.9074318
           ],
           [
             107.6068765,
@@ -295,8 +303,12 @@
             -6.9139315
           ],
           [
-            107.6091984,
-            -6.9138697
+            107.6096401,
+            -6.9139177
+          ],
+          [
+            107.6091737,
+            -6.9138665
           ],
           [
             107.609095,
@@ -455,6 +467,10 @@
             -6.9122063
           ],
           [
+            107.614276,
+            -6.9122351
+          ],
+          [
             107.6142314,
             -6.9122519
           ],
@@ -573,6 +589,8 @@
         "lanes": "3",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt",
@@ -747,6 +765,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -886,7 +906,7 @@
           ],
           [
             107.6104424,
-            -6.912768
+            -6.9127679
           ],
           [
             107.6103525,
@@ -1258,7 +1278,7 @@
           ],
           [
             107.6090523,
-            -6.912686
+            -6.9126675
           ],
           [
             107.6090858,
@@ -1337,7 +1357,10 @@
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -1358,8 +1381,8 @@
             -6.9132911
           ],
           [
-            107.6458038,
-            -6.9134826
+            107.6457985,
+            -6.9134589
           ],
           [
             107.6453416,
@@ -1374,7 +1397,10 @@
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -1382,18 +1408,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            107.6518998,
-            -6.9126808
-          ],
-          [
-            107.6518089,
-            -6.9126922
-          ],
-          [
-            107.6516097,
-            -6.9127171
-          ],
           [
             107.6512126,
             -6.9127667
@@ -1405,6 +1419,10 @@
           [
             107.6497949,
             -6.912944
+          ],
+          [
+            107.6494126,
+            -6.9129917
           ],
           [
             107.6492727,
@@ -1439,7 +1457,10 @@
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -1467,6 +1488,7 @@
         "oneway": "yes",
         "ref": "3836",
         "reg_ref": "22-10-3836",
+        "surface": "asphalt",
         "turn:lanes": "through|through;reverse"
       }
     },
@@ -1908,12 +1930,12 @@
             -6.9142949
           ],
           [
-            107.6391098,
-            -6.9143026
+            107.6390974,
+            -6.9143035
           ],
           [
-            107.6389687,
-            -6.9143205
+            107.6389372,
+            -6.914324
           ],
           [
             107.6388474,
@@ -2041,8 +2063,8 @@
             -6.9164526
           ],
           [
-            107.6284048,
-            -6.9166173
+            107.6284373,
+            -6.9165951
           ],
           [
             107.6281205,
@@ -2061,6 +2083,8 @@
         "lanes": "4",
         "mapillary": "1466903270562717",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no",
         "surface": "asphalt"
       }
@@ -2122,6 +2146,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -2149,6 +2175,8 @@
         "lanes": "2",
         "loc_name": "Jalan Pasir Kaliki",
         "name": "Jalan HOS. Cokroaminoto",
+        "name:etymology:wikidata": "Q2603591",
+        "name:etymology:wikipedia": "id:Oemar Said Tjokroaminoto",
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
@@ -2424,10 +2452,12 @@
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
+        "maxweight:signed": "no",
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "surface": "asphalt"
       }
     },
     {
@@ -2666,6 +2696,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -2698,6 +2730,9 @@
         "oneway": "yes",
         "ref": "3836",
         "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt",
         "turn:lanes": "slight_left;through|through;reverse"
       }
     },
@@ -2998,7 +3033,9 @@
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -3020,13 +3057,16 @@
         "id": 824490740,
         "bridge": "yes",
         "bridge:name": "Jalan Layang Jaksa Agung R. Soeprapto",
+        "foot": "no",
         "highway": "primary",
         "lanes": "1",
         "layer": "1",
         "name": "Jalan Terusan Jakarta",
         "oneway": "yes",
         "ref": "3836",
-        "reg_ref": "22-10-3836"
+        "reg_ref": "22-10-3836",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -3821,12 +3861,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6313406,
-            -6.9186978
-          ],
-          [
-            107.6313417,
-            -6.9186813
+            107.6313572,
+            -6.9186866
           ],
           [
             107.6313458,
@@ -3855,16 +3891,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6314414,
-            -6.9186602
+            107.6314582,
+            -6.9186505
           ],
           [
-            107.6313693,
-            -6.9186871
-          ],
-          [
-            107.6313406,
-            -6.9186978
+            107.6313572,
+            -6.9186866
           ]
         ]
       },
@@ -3899,8 +3931,8 @@
             -6.9185925
           ],
           [
-            107.6314414,
-            -6.9186602
+            107.6314582,
+            -6.9186505
           ]
         ]
       },
@@ -4065,6 +4097,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -4785,6 +4819,40 @@
         "name": "Jalan Kebon Kawung",
         "oneway": "yes",
         "ref": "370",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6518998,
+            -6.9126808
+          ],
+          [
+            107.6518089,
+            -6.9126922
+          ],
+          [
+            107.6516097,
+            -6.9127171
+          ],
+          [
+            107.6512126,
+            -6.9127667
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1501285695,
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Terusan Jakarta",
+        "oneway": "yes",
+        "ref": "3836",
+        "reg_ref": "22-10-3836",
         "surface": "asphalt"
       }
     }

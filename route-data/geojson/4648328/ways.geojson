@@ -27,6 +27,10 @@
             -6.9472937
           ],
           [
+            107.6416203,
+            -6.9474631
+          ],
+          [
             107.641608,
             -6.9475383
           ],
@@ -205,16 +209,16 @@
             -6.9644606
           ],
           [
-            107.6812118,
-            -6.9645134
+            107.6811991,
+            -6.9645121
           ],
           [
-            107.681242,
-            -6.9645139
+            107.6812467,
+            -6.9645182
           ],
           [
-            107.6812592,
-            -6.9645164
+            107.6812957,
+            -6.9645254
           ],
           [
             107.6817916,
@@ -235,6 +239,10 @@
           [
             107.6826274,
             -6.9647276
+          ],
+          [
+            107.6826435,
+            -6.9647306
           ],
           [
             107.6827153,
@@ -333,9 +341,11 @@
       "properties": {
         "id": 43550021,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Derwati",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -377,6 +387,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "ref": "381",
         "sidewalk:left": "separate",
@@ -492,6 +504,8 @@
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "oneway": "yes",
         "ref": "380",
         "surface": "asphalt"
@@ -515,9 +529,11 @@
       "properties": {
         "id": 271678841,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Marga Cinta"
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -539,11 +555,13 @@
         "id": 271678842,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "maxweight:signed": "no",
         "name": "Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -599,6 +617,10 @@
           [
             107.655958,
             -6.9564205
+          ],
+          [
+            107.6560645,
+            -6.9565329
           ],
           [
             107.6562501,
@@ -669,9 +691,11 @@
       "properties": {
         "id": 271678843,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -721,9 +745,11 @@
       "properties": {
         "id": 271678844,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -794,6 +820,8 @@
         "lanes": "2",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "380",
@@ -862,9 +890,11 @@
       "properties": {
         "id": 318490789,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "width": "4.5"
       }
     },
@@ -891,6 +921,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -1065,6 +1097,10 @@
             -6.9241638
           ],
           [
+            107.6443757,
+            -6.9240244
+          ],
+          [
             107.6443679,
             -6.9238694
           ],
@@ -1163,6 +1199,8 @@
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "2228",
@@ -1246,12 +1284,12 @@
             -6.9142949
           ],
           [
-            107.6391098,
-            -6.9143026
+            107.6390974,
+            -6.9143035
           ],
           [
-            107.6389687,
-            -6.9143205
+            107.6389372,
+            -6.914324
           ],
           [
             107.6388474,
@@ -1379,6 +1417,8 @@
         "lit": "no",
         "name": "Jalan Supratman",
         "name:en": "Supratman Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "380",
@@ -1633,9 +1673,11 @@
       "properties": {
         "id": 331312466,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "width": "5"
       }
     },
@@ -1711,10 +1753,12 @@
         "id": 561408354,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Derwati"
+        "name": "Jalan Derwati",
+        "ref": "6080"
       }
     },
     {
@@ -1743,7 +1787,7 @@
             -6.9638334
           ],
           [
-            107.6742333,
+            107.674242,
             -6.9638681
           ],
           [
@@ -1771,9 +1815,11 @@
       "properties": {
         "id": 561408355,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Derwati",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -1841,6 +1887,8 @@
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "oneway": "yes",
         "ref": "2228",
         "reg_ref": "22-10-2228",
@@ -1894,9 +1942,11 @@
       "properties": {
         "id": 681842541,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Derwati",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -1919,11 +1969,13 @@
         "id": 682446269,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "maxweight:signed": "no",
-        "name": "Jalan Marga Cinta"
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -2032,9 +2084,11 @@
       "properties": {
         "id": 684297069,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -2057,10 +2111,12 @@
         "id": 684297070,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -2083,10 +2139,12 @@
         "id": 686749273,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Marga Cinta"
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -2205,9 +2263,11 @@
       "properties": {
         "id": 703822674,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -2229,9 +2289,11 @@
       "properties": {
         "id": 703822888,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Derwati"
+        "name": "Jalan Derwati",
+        "ref": "6080"
       }
     },
     {
@@ -2253,10 +2315,12 @@
         "id": 703822958,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Derwati"
+        "name": "Jalan Derwati",
+        "ref": "6080"
       }
     },
     {
@@ -2277,9 +2341,11 @@
       "properties": {
         "id": 703822959,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Derwati",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -2302,10 +2368,12 @@
         "id": 703837308,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "width": "4"
       }
     },
@@ -2416,8 +2484,8 @@
             -6.9312959
           ],
           [
-            107.6437877,
-            -6.9310106
+            107.6437964,
+            -6.9309966
           ],
           [
             107.6438483,
@@ -2478,6 +2546,10 @@
             -6.9327429
           ],
           [
+            107.6429396,
+            -6.932706
+          ],
+          [
             107.6430775,
             -6.9319479
           ]
@@ -2514,6 +2586,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -2540,8 +2614,10 @@
       "properties": {
         "id": 807117137,
         "avgspeed": "25",
-        "highway": "tertiary",
-        "name": "Jalan Marga Cinta"
+        "designation": "city_road",
+        "highway": "primary",
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -2558,16 +2634,16 @@
             -6.9298097
           ],
           [
-            107.6439354,
-            -6.9296613
+            107.6439344,
+            -6.929653
           ],
           [
             107.6439464,
             -6.9294702
           ],
           [
-            107.6439665,
-            -6.9293251
+            107.6439645,
+            -6.9293351
           ],
           [
             107.6439922,
@@ -2709,12 +2785,12 @@
       },
       "properties": {
         "id": 872152158,
-        "alt_name": "Jalan Jakarta",
+        "alt_name": "Jalan Layang Ahmad Yani - Supratman",
         "bridge": "yes",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Layang Ahmad Yani - Supratman",
+        "name": "Jalan Jakarta",
         "oneway": "yes",
         "short_name": "Flyover Ahmad Yani",
         "surface": "asphalt"
@@ -2772,6 +2848,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "ref": "381",
         "surface": "asphalt"
@@ -2913,9 +2991,11 @@
       "properties": {
         "id": 1013045574,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Marga Cinta"
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -2937,10 +3017,12 @@
         "id": 1013045575,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Marga Cinta"
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -2973,9 +3055,11 @@
       "properties": {
         "id": 1013644695,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Marga Cinta"
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -2997,10 +3081,12 @@
         "id": 1013644696,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Marga Cinta"
+        "name": "Jalan Marga Cinta",
+        "ref": "6080"
       }
     },
     {
@@ -3033,9 +3119,11 @@
       "properties": {
         "id": 1016502553,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -3058,10 +3146,12 @@
         "id": 1016502554,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -3087,10 +3177,12 @@
       "properties": {
         "id": 1046801505,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Marga Cinta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "6080"
       }
     },
     {
@@ -3150,6 +3242,8 @@
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
         "oneway": "yes",
         "ref": "2228",
         "reg_ref": "22-10-2228",
@@ -3174,9 +3268,11 @@
       "properties": {
         "id": 1080501573,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -3286,6 +3382,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "ref": "381",
         "surface": "asphalt"
@@ -3563,6 +3661,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -3666,9 +3766,11 @@
       "properties": {
         "id": 1220676212,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -3793,9 +3895,11 @@
       "properties": {
         "id": 1268059056,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -3818,10 +3922,12 @@
         "id": 1268059057,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "surface": "asphalt"
       }
     },
@@ -3843,9 +3949,11 @@
       "properties": {
         "id": 1270785072,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Derwati"
+        "name": "Jalan Derwati",
+        "ref": "6080"
       }
     },
     {
@@ -3886,9 +3994,11 @@
       "properties": {
         "id": 1271974938,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "width": "4"
       }
     },
@@ -3911,10 +4021,12 @@
         "id": 1271974939,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Marga Cinta",
+        "ref": "6080",
         "width": "4"
       }
     },
@@ -3959,10 +4071,12 @@
       "properties": {
         "id": 1364319039,
         "avgspeed": "25",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Marga Cinta",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "6080"
       }
     },
     {
@@ -4549,6 +4663,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -4584,6 +4700,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -4615,6 +4733,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -4646,6 +4766,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -4677,6 +4799,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -4708,6 +4832,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -4739,6 +4865,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -4770,6 +4898,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -4801,6 +4931,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -4832,6 +4964,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -4863,6 +4997,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -4894,6 +5030,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -4929,6 +5067,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -4960,6 +5100,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -4991,6 +5133,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5022,6 +5166,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5057,6 +5203,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5088,6 +5236,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5119,6 +5269,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5150,6 +5302,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5181,6 +5335,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5216,6 +5372,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5251,6 +5409,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",

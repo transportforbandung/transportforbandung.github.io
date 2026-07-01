@@ -162,9 +162,11 @@
       },
       "properties": {
         "id": 141637077,
-        "highway": "tertiary",
-        "name": "Jalan Warung Contong",
-        "oneway": "no"
+        "designation": "city_road",
+        "highway": "secondary",
+        "name": "Jalan Ibu Ganirah",
+        "oneway": "no",
+        "ref": "41"
       }
     },
     {
@@ -352,7 +354,10 @@
       },
       "properties": {
         "id": 166894825,
-        "highway": "tertiary"
+        "designation": "city_road",
+        "highway": "secondary",
+        "name": "Jalan Ibu Ganirah",
+        "ref": "41"
       }
     },
     {
@@ -361,8 +366,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5348509,
-            -6.8842249
+            107.5350132,
+            -6.8840951
           ],
           [
             107.5351713,
@@ -384,9 +389,12 @@
       },
       "properties": {
         "id": 254609693,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Sriwijaya Raya",
+        "name": "Jalan Underpass Ir. Soekarno",
+        "name:etymology:wikidata": "Q76127",
+        "name:etymology:wikipedia": "id:Sukarno",
         "oneway": "yes"
       }
     },
@@ -451,10 +459,12 @@
       },
       "properties": {
         "id": 306316117,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "motorcycle": "yes",
-        "name": "Jalan Warung Contong",
-        "oneway": "no"
+        "name": "Jalan Ibu Ganirah",
+        "oneway": "no",
+        "ref": "41"
       }
     },
     {
@@ -475,10 +485,12 @@
       "properties": {
         "id": 306316118,
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "layer": "1",
-        "name": "Jalan Warung Contong",
-        "oneway": "no"
+        "name": "Jalan Ibu Ganirah",
+        "oneway": "no",
+        "ref": "41"
       }
     },
     {
@@ -506,10 +518,12 @@
       },
       "properties": {
         "id": 339694304,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -538,9 +552,8 @@
       "properties": {
         "id": 339798652,
         "foot": "designated",
-        "highway": "tertiary",
+        "highway": "primary_link",
         "lanes": "2",
-        "name": "Jalan Sriwijaya Raya",
         "oneway": "yes",
         "surface": "asphalt",
         "width": "5"
@@ -915,11 +928,13 @@
       },
       "properties": {
         "id": 339977634,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "motorcycle": "yes",
-        "name": "Jalan Warung Contong",
-        "oneway": "no"
+        "name": "Jalan Ibu Ganirah",
+        "oneway": "no",
+        "ref": "41"
       }
     },
     {
@@ -943,7 +958,10 @@
       },
       "properties": {
         "id": 339977635,
-        "highway": "tertiary"
+        "designation": "city_road",
+        "highway": "secondary",
+        "name": "Jalan Ibu Ganirah",
+        "ref": "41"
       }
     },
     {
@@ -1019,9 +1037,10 @@
       },
       "properties": {
         "id": 339977636,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Jenderal Sudirman"
+        "name": "Jalan Warung Contong",
+        "ref": "49"
       }
     },
     {
@@ -1057,10 +1076,14 @@
       },
       "properties": {
         "id": 369620131,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sisingamangaraja",
+        "name:etymology:wikidata": "Q983499",
+        "name:etymology:wikipedia": "id:Sisingamangaraja XII",
         "oneway": "yes",
+        "ref": "39",
         "width": "4"
       }
     },
@@ -1147,10 +1170,15 @@
       },
       "properties": {
         "id": 546227459,
+        "designation": "city_road",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Urip Soemohardjo",
-        "oneway": "yes"
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "31",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -1220,11 +1248,13 @@
       },
       "properties": {
         "id": 686685085,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "motorcycle": "yes",
-        "name": "Jalan Warung Contong",
-        "oneway": "no"
+        "name": "Jalan Ibu Ganirah",
+        "oneway": "no",
+        "ref": "41"
       }
     },
     {
@@ -1245,12 +1275,14 @@
       "properties": {
         "id": 686685086,
         "bridge": "yes",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "motorcycle": "yes",
-        "name": "Jalan Warung Contong",
-        "oneway": "no"
+        "name": "Jalan Ibu Ganirah",
+        "oneway": "no",
+        "ref": "41"
       }
     },
     {
@@ -1271,10 +1303,11 @@
       "properties": {
         "id": 687563158,
         "bridge": "yes",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jalan Jenderal Sudirman"
+        "name": "Jalan Warung Contong",
+        "ref": "49"
       }
     },
     {
@@ -1318,9 +1351,13 @@
       },
       "properties": {
         "id": 687563160,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Jenderal Sudirman"
+        "name": "Jalan Jenderal Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
+        "ref": "28"
       }
     },
     {
@@ -1356,10 +1393,12 @@
       },
       "properties": {
         "id": 830683775,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -1379,10 +1418,12 @@
       },
       "properties": {
         "id": 830683776,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -1435,10 +1476,15 @@
       "properties": {
         "id": 832727039,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
-        "name": "Jalan Jenderal Sudirman"
+        "name": "Jalan Jenderal Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
+        "ref": "28",
+        "sidewalk": "both"
       }
     },
     {
@@ -1474,11 +1520,13 @@
       },
       "properties": {
         "id": 910286254,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "motorcycle": "yes",
-        "name": "Jalan Warung Contong",
-        "oneway": "no"
+        "name": "Jalan Ibu Ganirah",
+        "oneway": "no",
+        "ref": "41"
       }
     },
     {
@@ -1522,9 +1570,10 @@
       },
       "properties": {
         "id": 1022504276,
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Jenderal Sudirman"
+        "name": "Jalan Warung Contong",
+        "ref": "49"
       }
     },
     {
@@ -1556,10 +1605,14 @@
       },
       "properties": {
         "id": 1052122006,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "3",
-        "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "name": "Jalan Dustira",
+        "oneway": "yes",
+        "ref": "19",
+        "sidewalk": "left",
+        "surface": "asphalt"
       }
     },
     {
@@ -1602,17 +1655,20 @@
             -6.8843934
           ],
           [
-            107.5348509,
-            -6.8842249
+            107.5350132,
+            -6.8840951
           ]
         ]
       },
       "properties": {
         "id": 1110056391,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "-1",
-        "name": "Jalan Sriwijaya Raya",
+        "name": "Jalan Underpass Ir. Soekarno",
+        "name:etymology:wikidata": "Q76127",
+        "name:etymology:wikipedia": "id:Sukarno",
         "oneway": "yes",
         "tunnel": "yes"
       }
@@ -1662,9 +1718,12 @@
       },
       "properties": {
         "id": 1110089525,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Sriwijaya Raya",
+        "name": "Jalan Underpass Ir. Soekarno",
+        "name:etymology:wikidata": "Q76127",
+        "name:etymology:wikipedia": "id:Sukarno",
         "oneway": "yes"
       }
     },
@@ -1685,8 +1744,10 @@
       },
       "properties": {
         "id": 1229171319,
-        "highway": "tertiary",
-        "name": "Jalan Warung Contong"
+        "designation": "city_road",
+        "highway": "secondary",
+        "name": "Jalan Ibu Ganirah",
+        "ref": "41"
       }
     },
     {
@@ -1706,7 +1767,10 @@
       },
       "properties": {
         "id": 1365102232,
-        "highway": "tertiary"
+        "designation": "city_road",
+        "highway": "secondary",
+        "name": "Jalan Ciseupan",
+        "ref": "84"
       }
     }
   ]

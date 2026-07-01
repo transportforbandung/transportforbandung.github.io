@@ -95,6 +95,7 @@
       "properties": {
         "id": 42796894,
         "avgspeed": "20",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
@@ -219,13 +220,14 @@
           ],
           [
             107.536695,
-            -6.892527
+            -6.8925331
           ]
         ]
       },
       "properties": {
         "id": 42796908,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
@@ -250,6 +252,7 @@
       "properties": {
         "id": 42796909,
         "bridge": "yes",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
@@ -330,10 +333,12 @@
       },
       "properties": {
         "id": 161964082,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Kerkof",
-        "oneway": "no"
+        "oneway": "no",
+        "ref": "92"
       }
     },
     {
@@ -668,94 +673,16 @@
           [
             107.5233088,
             -6.8984975
-          ],
-          [
-            107.5231967,
-            -6.8984411
-          ],
-          [
-            107.5230569,
-            -6.8983757
-          ],
-          [
-            107.5229493,
-            -6.8983439
-          ],
-          [
-            107.5228695,
-            -6.8983246
-          ],
-          [
-            107.522502,
-            -6.8982507
-          ],
-          [
-            107.5224195,
-            -6.898232
-          ],
-          [
-            107.5222009,
-            -6.8981848
-          ],
-          [
-            107.5220848,
-            -6.8981515
-          ],
-          [
-            107.521928,
-            -6.8981009
-          ],
-          [
-            107.521586,
-            -6.8979937
-          ],
-          [
-            107.521329,
-            -6.8978976
-          ],
-          [
-            107.5211995,
-            -6.8978541
-          ],
-          [
-            107.5210036,
-            -6.8977778
-          ],
-          [
-            107.5204327,
-            -6.8975555
-          ],
-          [
-            107.5204065,
-            -6.8975444
-          ],
-          [
-            107.5201504,
-            -6.8974325
-          ],
-          [
-            107.5200833,
-            -6.8974099
-          ],
-          [
-            107.5198144,
-            -6.8973267
-          ],
-          [
-            107.5195091,
-            -6.8972204
-          ],
-          [
-            107.5192444,
-            -6.8971369
           ]
         ]
       },
       "properties": {
         "id": 166894823,
-        "alt_name": "Jl. Ibu Sangki",
-        "highway": "tertiary",
-        "name": "Jalan Ibu Sangki"
+        "designation": "city_road",
+        "fixme": "Resurvey whether \"Sadarmanah\" and \"Ibu Sangki\" are for two separate sections of this highway or alternative names for the same street",
+        "highway": "secondary",
+        "name": "Jalan Sadarmanah",
+        "ref": "104"
       }
     },
     {
@@ -816,12 +743,18 @@
       "properties": {
         "id": 172898441,
         "avgspeed": "30",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Jenderal Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
-        "ref": "170"
+        "parking:both": "no",
+        "ref": "28",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -830,8 +763,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5348509,
-            -6.8842249
+            107.5350132,
+            -6.8840951
           ],
           [
             107.5351713,
@@ -853,9 +786,12 @@
       },
       "properties": {
         "id": 254609693,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Sriwijaya Raya",
+        "name": "Jalan Underpass Ir. Soekarno",
+        "name:etymology:wikidata": "Q76127",
+        "name:etymology:wikipedia": "id:Sukarno",
         "oneway": "yes"
       }
     },
@@ -884,10 +820,12 @@
       },
       "properties": {
         "id": 339694304,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -916,9 +854,8 @@
       "properties": {
         "id": 339798652,
         "foot": "designated",
-        "highway": "tertiary",
+        "highway": "primary_link",
         "lanes": "2",
-        "name": "Jalan Sriwijaya Raya",
         "oneway": "yes",
         "surface": "asphalt",
         "width": "5"
@@ -957,10 +894,14 @@
       },
       "properties": {
         "id": 369620131,
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sisingamangaraja",
+        "name:etymology:wikidata": "Q983499",
+        "name:etymology:wikipedia": "id:Sisingamangaraja XII",
         "oneway": "yes",
+        "ref": "39",
         "width": "4"
       }
     },
@@ -1047,10 +988,15 @@
       },
       "properties": {
         "id": 546227459,
+        "designation": "city_road",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Urip Soemohardjo",
-        "oneway": "yes"
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "31",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -1108,10 +1054,12 @@
       },
       "properties": {
         "id": 830683775,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -1131,10 +1079,12 @@
       },
       "properties": {
         "id": 830683776,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -1166,10 +1116,14 @@
       },
       "properties": {
         "id": 1052122006,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "3",
-        "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "name": "Jalan Dustira",
+        "oneway": "yes",
+        "ref": "19",
+        "sidewalk": "left",
+        "surface": "asphalt"
       }
     },
     {
@@ -1231,6 +1185,7 @@
       },
       "properties": {
         "id": 1059257075,
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Nanjung",
@@ -1257,6 +1212,7 @@
         "id": 1059257076,
         "avgspeed": "30",
         "bridge": "yes",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
@@ -1305,17 +1261,20 @@
             -6.8843934
           ],
           [
-            107.5348509,
-            -6.8842249
+            107.5350132,
+            -6.8840951
           ]
         ]
       },
       "properties": {
         "id": 1110056391,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "layer": "-1",
-        "name": "Jalan Sriwijaya Raya",
+        "name": "Jalan Underpass Ir. Soekarno",
+        "name:etymology:wikidata": "Q76127",
+        "name:etymology:wikipedia": "id:Sukarno",
         "oneway": "yes",
         "tunnel": "yes"
       }
@@ -1365,9 +1324,12 @@
       },
       "properties": {
         "id": 1110089525,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Sriwijaya Raya",
+        "name": "Jalan Underpass Ir. Soekarno",
+        "name:etymology:wikidata": "Q76127",
+        "name:etymology:wikipedia": "id:Sukarno",
         "oneway": "yes"
       }
     },
@@ -1404,9 +1366,11 @@
       },
       "properties": {
         "id": 1171906242,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "name": "Jalan Kerkof",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "92"
       }
     },
     {
@@ -1459,12 +1423,17 @@
       "properties": {
         "id": 1364573712,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Jenderal Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
         "ref": "170",
+        "sidewalk": "left",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -1485,7 +1454,10 @@
       },
       "properties": {
         "id": 1365102232,
-        "highway": "tertiary"
+        "designation": "city_road",
+        "highway": "secondary",
+        "name": "Jalan Ciseupan",
+        "ref": "84"
       }
     },
     {
@@ -1506,10 +1478,12 @@
       "properties": {
         "id": 1408925349,
         "bridge": "yes",
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "layer": "1",
         "name": "Jalan Kerkof",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "92"
       }
     },
     {
@@ -1533,9 +1507,11 @@
       },
       "properties": {
         "id": 1408925350,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "name": "Jalan Kerkof",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "92"
       }
     },
     {
@@ -1560,6 +1536,7 @@
       "properties": {
         "id": 1408925351,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Nanjung",
@@ -1592,6 +1569,7 @@
       },
       "properties": {
         "id": 1408925352,
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Baros",
@@ -1606,7 +1584,7 @@
         "coordinates": [
           [
             107.536695,
-            -6.892527
+            -6.8925331
           ],
           [
             107.5366945,
@@ -1637,12 +1615,118 @@
       "properties": {
         "id": 1468273930,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Jenderal Sudirman",
+        "name:etymology:wikidata": "Q2367329",
+        "name:etymology:wikipedia": "id:Soedirman",
         "oneway": "yes",
-        "ref": "170"
+        "ref": "170",
+        "sidewalk": "left",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5233088,
+            -6.8984975
+          ],
+          [
+            107.5231967,
+            -6.8984411
+          ],
+          [
+            107.5230569,
+            -6.8983757
+          ],
+          [
+            107.5229493,
+            -6.8983439
+          ],
+          [
+            107.5228695,
+            -6.8983246
+          ],
+          [
+            107.522502,
+            -6.8982507
+          ],
+          [
+            107.5224195,
+            -6.898232
+          ],
+          [
+            107.5222009,
+            -6.8981848
+          ],
+          [
+            107.5220848,
+            -6.8981515
+          ],
+          [
+            107.521928,
+            -6.8981009
+          ],
+          [
+            107.521586,
+            -6.8979937
+          ],
+          [
+            107.521329,
+            -6.8978976
+          ],
+          [
+            107.5211995,
+            -6.8978541
+          ],
+          [
+            107.5210036,
+            -6.8977778
+          ],
+          [
+            107.5204327,
+            -6.8975555
+          ],
+          [
+            107.5204065,
+            -6.8975444
+          ],
+          [
+            107.5201504,
+            -6.8974325
+          ],
+          [
+            107.5200833,
+            -6.8974099
+          ],
+          [
+            107.5198144,
+            -6.8973267
+          ],
+          [
+            107.5195091,
+            -6.8972204
+          ],
+          [
+            107.5192444,
+            -6.8971369
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1523972431,
+        "alt_name": "Jl. Ibu Sangki",
+        "designation": "city_road",
+        "fixme": "Resurvey whether \"Sadarmanah\" and \"Ibu Sangki\" are for two separate sections of this highway or alternative names for the same street",
+        "highway": "secondary",
+        "name": "Jalan Ibu Sangki",
+        "ref": "104"
       }
     }
   ]

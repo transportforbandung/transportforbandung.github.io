@@ -165,11 +165,12 @@
       },
       "properties": {
         "id": 175262809,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "3",
-        "name": "Jalan Gandawijaya",
+        "name": "Jalan Gedung Empat",
         "oneway": "yes",
-        "ref": "3",
+        "ref": "2",
         "surface": "asphalt",
         "width": "7"
       }
@@ -294,6 +295,8 @@
         "id": 223676385,
         "highway": "trunk",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -327,10 +330,12 @@
       },
       "properties": {
         "id": 254609691,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "1",
-        "name": "Jalan Gandawijaya",
+        "name": "Jalan Gedung Empat",
         "oneway": "yes",
+        "ref": "2",
         "surface": "asphalt"
       }
     },
@@ -460,9 +465,13 @@
       },
       "properties": {
         "id": 257233127,
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "ref": "170",
         "surface": "asphalt"
       }
@@ -519,6 +528,8 @@
         "destination": "Simpang Pasir Koja",
         "highway": "trunk",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -585,6 +596,10 @@
             -6.9116592
           ],
           [
+            107.5723261,
+            -6.9117833
+          ],
+          [
             107.5725782,
             -6.9118819
           ],
@@ -649,6 +664,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through;reverse"
@@ -699,6 +716,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -725,6 +744,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -766,6 +787,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left;through|through;right|right"
@@ -787,6 +810,10 @@
           [
             107.5763049,
             -6.9313117
+          ],
+          [
+            107.5764914,
+            -6.9319172
           ],
           [
             107.5765033,
@@ -925,6 +952,10 @@
             -6.9397265
           ],
           [
+            107.5815443,
+            -6.9401906
+          ],
+          [
             107.5815743,
             -6.9402311
           ],
@@ -952,6 +983,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -1152,11 +1185,14 @@
       },
       "properties": {
         "id": 339790388,
-        "alt_name": "Baros",
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "4",
         "motorcycle": "yes",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "ref": "170",
         "surface": "asphalt"
       }
@@ -1218,11 +1254,13 @@
       },
       "properties": {
         "id": 339790390,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Stasiun",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "30"
       }
     },
     {
@@ -1246,11 +1284,12 @@
       },
       "properties": {
         "id": 339798647,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Gandawijaya",
+        "name": "Jalan Gedung Empat",
         "oneway": "yes",
-        "ref": "3",
+        "ref": "2",
         "width": "6"
       }
     },
@@ -1271,11 +1310,15 @@
       },
       "properties": {
         "id": 339798650,
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "ref": "170",
         "surface": "asphalt"
       }
@@ -1297,8 +1340,9 @@
       },
       "properties": {
         "id": 369620412,
+        "designation": "city_road",
         "foot": "designated",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
@@ -1565,8 +1609,9 @@
       },
       "properties": {
         "id": 447131657,
+        "designation": "city_road",
         "foot": "designated",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
@@ -1618,7 +1663,8 @@
       },
       "properties": {
         "id": 447131659,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
@@ -1782,8 +1828,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5531885,
-            -6.8843128
+            107.5532991,
+            -6.8845055
+          ],
+          [
+            107.5532758,
+            -6.8844655
+          ],
+          [
+            107.5532307,
+            -6.8843827
           ],
           [
             107.5531006,
@@ -1830,28 +1884,32 @@
             -6.8827206
           ],
           [
-            107.5520817,
-            -6.8824713
+            107.5520864,
+            -6.8824613
           ],
           [
-            107.5519439,
-            -6.8822442
+            107.5519526,
+            -6.8822389
           ],
           [
-            107.5518178,
-            -6.8820536
+            107.5518285,
+            -6.882035
           ],
           [
-            107.5515938,
-            -6.8816947
+            107.5516065,
+            -6.8816734
           ],
           [
-            107.5515007,
-            -6.8815314
+            107.5515108,
+            -6.8815261
           ],
           [
-            107.5513132,
-            -6.8812126
+            107.5513286,
+            -6.8812206
+          ],
+          [
+            107.5513112,
+            -6.8811893
           ],
           [
             107.5510818,
@@ -1919,10 +1977,14 @@
         "id": 572985687,
         "avgspeed": "30",
         "highway": "trunk",
+        "lane_markings": "yes",
         "lanes": "4",
         "name": "Jalan Jend. H. Amir Machmud",
         "ref": "11",
-        "source": "Yahoo hires"
+        "smoothness": "good",
+        "source": "Yahoo hires",
+        "surface": "asphalt",
+        "width": "10"
       }
     },
     {
@@ -1935,16 +1997,16 @@
             -6.8879517
           ],
           [
-            107.5557192,
-            -6.888343
+            107.5557165,
+            -6.8883377
           ],
           [
-            107.5559388,
-            -6.8886859
+            107.5559126,
+            -6.8886546
           ],
           [
-            107.5559992,
-            -6.8887802
+            107.5559962,
+            -6.8887905
           ],
           [
             107.5562442,
@@ -2028,11 +2090,13 @@
       },
       "properties": {
         "id": 573047229,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
-        "name": "Jalan Gatot Subroto",
-        "oneway": "yes"
+        "name": "Jalan Stasiun",
+        "oneway": "yes",
+        "ref": "30"
       }
     },
     {
@@ -2076,7 +2140,10 @@
         "lanes": "2",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -2149,6 +2216,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -2202,6 +2271,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "sharp_left|through|through"
@@ -2281,11 +2352,13 @@
       },
       "properties": {
         "id": 975117503,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Stasiun",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "30"
       }
     },
     {
@@ -2368,16 +2441,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5531885,
-            -6.8843128
+            107.5532991,
+            -6.8845055
           ],
           [
-            107.5532749,
-            -6.8843897
-          ],
-          [
-            107.5533095,
-            -6.8844555
+            107.5533598,
+            -6.88455
           ],
           [
             107.5536834,
@@ -2409,7 +2478,8 @@
         "motorcycle": "yes",
         "name": "Jalan Jend. H. Amir Machmud",
         "oneway": "yes",
-        "ref": "11"
+        "ref": "11",
+        "width": "5"
       }
     },
     {
@@ -2477,6 +2547,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through|through;reverse"
@@ -2541,6 +2613,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -2565,6 +2639,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -2595,6 +2671,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through|right"
@@ -2617,7 +2695,7 @@
       },
       "properties": {
         "id": 1109715772,
-        "highway": "secondary_link",
+        "highway": "primary_link",
         "lanes": "2",
         "oneway": "yes"
       }
@@ -2643,10 +2721,12 @@
       },
       "properties": {
         "id": 1109759245,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "1",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -2666,9 +2746,13 @@
       },
       "properties": {
         "id": 1109766418,
+        "alt_name": "Jalan Baros",
+        "designation": "provincial_road",
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "ref": "170",
         "surface": "asphalt"
@@ -2691,10 +2775,12 @@
       },
       "properties": {
         "id": 1110056393,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {
@@ -2714,8 +2800,9 @@
       },
       "properties": {
         "id": 1110112339,
+        "designation": "city_road",
         "foot": "designated",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Gandawijaya",
         "oneway": "yes",
@@ -2825,6 +2912,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left|slight_left|through|through"
@@ -2960,6 +3049,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left;through|through|right"
@@ -3006,6 +3097,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through|through;reverse"
@@ -3040,6 +3133,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -3125,6 +3220,10 @@
             -6.9120185
           ],
           [
+            107.5729439,
+            -6.9120247
+          ],
+          [
             107.573014,
             -6.9120524
           ],
@@ -3206,6 +3305,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -3247,6 +3348,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left|slight_left;through|through"
@@ -3273,6 +3376,8 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11"
       }
@@ -3303,6 +3408,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through;right|right"
@@ -3370,6 +3477,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "sharp_left|through|through"
@@ -3440,10 +3549,12 @@
       },
       "properties": {
         "id": 1364573708,
-        "highway": "secondary",
+        "designation": "city_road",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes"
+        "oneway": "yes",
+        "ref": "20"
       }
     },
     {

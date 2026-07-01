@@ -120,7 +120,7 @@
         "oneway": "yes",
         "sidewalk": "both",
         "surface": "asphalt",
-        "width": "6 m"
+        "width": "6"
       }
     },
     {
@@ -238,6 +238,10 @@
             -6.9190097
           ],
           [
+            107.6066534,
+            -6.9189807
+          ],
+          [
             107.6066712,
             -6.9189713
           ]
@@ -246,7 +250,7 @@
       "properties": {
         "id": 4627130,
         "avgspeed": "20",
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan ABC",
         "name:nl": "ABC Straat",
@@ -513,6 +517,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -770,7 +776,11 @@
             -6.9096202
           ],
           [
-            107.6211354,
+            107.6211132,
+            -6.9094082
+          ],
+          [
+            107.6211274,
             -6.9093568
           ]
         ]
@@ -1513,6 +1523,10 @@
             -6.9065756
           ],
           [
+            107.6126105,
+            -6.9065663
+          ],
+          [
             107.6127257,
             -6.90634
           ],
@@ -1686,6 +1700,8 @@
         "lanes": "3",
         "lit": "yes",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -1747,6 +1763,10 @@
             -6.9225442
           ],
           [
+            107.6185642,
+            -6.9225245
+          ],
+          [
             107.6183395,
             -6.9225035
           ],
@@ -1764,6 +1784,8 @@
         "lanes:backward": "1",
         "lanes:forward": "3",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "parking:left": "no",
         "parking:right": "on_kerb",
         "parking:right:orientation": "perpendicular",
@@ -1776,11 +1798,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6211747,
+            107.6211862,
             -6.9092178
           ],
           [
-            107.6211943,
+            107.6212073,
             -6.9091543
           ],
           [
@@ -1844,8 +1866,8 @@
             -6.9080673
           ],
           [
-            107.6226277,
-            -6.908024
+            107.6226557,
+            -6.9079997
           ]
         ]
       },
@@ -2049,7 +2071,7 @@
           ],
           [
             107.6104424,
-            -6.912768
+            -6.9127679
           ],
           [
             107.6103525,
@@ -2231,7 +2253,7 @@
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "yes",
-        "width": "4 m"
+        "width": "4"
       }
     },
     {
@@ -2258,6 +2280,8 @@
         "highway": "secondary",
         "lanes": "4",
         "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
         "sidewalk": "separate",
@@ -2284,6 +2308,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -2336,6 +2362,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "parking:both": "no",
         "ref": "381",
         "sidewalk:both": "separate",
@@ -2412,7 +2440,7 @@
           ],
           [
             107.6090523,
-            -6.912686
+            -6.9126675
           ],
           [
             107.6090858,
@@ -2495,6 +2523,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "parking:left": "no",
         "parking:right": "lane",
@@ -2586,6 +2616,14 @@
             -6.9230532
           ],
           [
+            107.6221612,
+            -6.9230203
+          ],
+          [
+            107.6220913,
+            -6.9230082
+          ],
+          [
             107.6219829,
             -6.9229895
           ],
@@ -2624,6 +2662,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "parking:both": "no",
         "surface": "asphalt"
       }
@@ -2735,11 +2775,14 @@
       },
       "properties": {
         "id": 319195727,
+        "alt_name": "Jalan Martanegara",
         "avgspeed": "30",
-        "highway": "tertiary",
+        "designation": "city_road",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Raden Adipati Aria Martanegara",
+        "name": "Jalan R.A.A. Martanegara",
         "parking:both": "no",
+        "ref": "3395",
         "surface": "asphalt"
       }
     },
@@ -2793,6 +2836,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "yes",
@@ -2925,6 +2970,8 @@
         "layer": "1",
         "maxweight:signed": "no",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -2985,6 +3032,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -3107,6 +3156,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -3188,7 +3239,7 @@
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt",
-        "width": "6 m"
+        "width": "6"
       }
     },
     {
@@ -3556,8 +3607,8 @@
             -6.9078403
           ],
           [
-            107.6226277,
-            -6.908024
+            107.6226557,
+            -6.9079997
           ]
         ]
       },
@@ -3654,6 +3705,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "parking:both": "no",
         "surface": "asphalt"
@@ -3805,6 +3858,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "parking:both": "no",
         "surface": "asphalt"
       }
@@ -3815,11 +3870,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6211354,
+            107.6211274,
             -6.9093568
           ],
           [
-            107.6211747,
+            107.6211862,
             -6.9092178
           ]
         ]
@@ -3830,7 +3885,7 @@
         "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Menado",
+        "name": "Jalan Aceh",
         "oneway": "no",
         "parking:both": "no",
         "surface": "asphalt"
@@ -3928,6 +3983,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
         "parking:left": "no",
         "parking:right": "lane",
@@ -3977,6 +4034,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "yes",
@@ -4132,6 +4191,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -4169,6 +4230,8 @@
         "highway": "trunk",
         "lanes": "5",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -4195,6 +4258,8 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -4212,6 +4277,10 @@
           [
             107.6171928,
             -6.9210666
+          ],
+          [
+            107.6166019,
+            -6.9209531
           ],
           [
             107.6159966,
@@ -4333,13 +4402,16 @@
       },
       "properties": {
         "id": 962141848,
+        "alt_name": "Jalan Martanegara",
         "avgspeed": "30",
+        "designation": "city_road",
         "foot": "no",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Raden Adipati Aria Martanegara",
+        "name": "Jalan R.A.A. Martanegara",
         "oneway": "yes",
         "parking:both": "no",
+        "ref": "3395",
         "sidewalk:left": "separate",
         "surface": "asphalt"
       }
@@ -4537,6 +4609,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes"
       }
     },
@@ -4804,7 +4878,7 @@
       "properties": {
         "id": 1216756086,
         "avgspeed": "20",
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan ABC",
         "name:nl": "ABC Straat",
@@ -4840,6 +4914,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -4995,16 +5071,19 @@
       },
       "properties": {
         "id": 1220202125,
+        "alt_name": "Jalan Martanegara",
         "avgspeed": "30",
+        "designation": "city_road",
         "destination:backward": "Simpang Martanegara",
         "destination:forward": "Turangga",
         "destination:lanes:backward": "Buahbatu;BKR;Tegallega|Palasari;Sadakeling;Burangrang|Talaga Bodas;Gatot Subroto;Laswi",
         "destination:lanes:forward": "Turangga;Reog|Solontongan;Kliningan",
         "destination:ref:lanes:backward": "376||376",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
-        "name": "Jalan Raden Adipati Aria Martanegara",
+        "name": "Jalan R.A.A. Martanegara",
         "parking:both": "no",
+        "ref": "3395",
         "sidewalk:both": "separate",
         "surface": "asphalt",
         "turn:lanes:backward": "slight_left|slight_right|right",
@@ -5035,6 +5114,8 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -5060,6 +5141,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Gatot Subroto",
+        "name:etymology:wikidata": "Q5261540",
+        "name:etymology:wikipedia": "id:Gatot Soebroto",
         "surface": "asphalt"
       }
     },
@@ -5083,6 +5166,8 @@
         "highway": "trunk",
         "lanes": "5",
         "name": "Jalan Soekarno-Hatta",
+        "name:etymology:wikidata": "Q76127;Q29050",
+        "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -5284,6 +5369,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "yes",
@@ -5314,6 +5401,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "parking:both": "no",
         "ref": "381",
         "sidewalk:left": "yes",
@@ -5344,6 +5433,8 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "parking:both": "no",
         "ref": "381",
         "surface": "asphalt"
@@ -5539,6 +5630,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5574,6 +5667,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5605,6 +5700,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5636,6 +5733,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5667,6 +5766,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5698,6 +5799,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5729,6 +5832,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5760,6 +5865,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5791,6 +5898,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5822,6 +5931,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5853,6 +5964,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5884,6 +5997,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5919,6 +6034,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5950,6 +6067,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -5980,6 +6099,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -6010,6 +6131,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -6040,6 +6163,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -6070,6 +6195,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -6100,6 +6227,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -6130,6 +6259,8 @@
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
@@ -6170,7 +6301,7 @@
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt",
-        "width": "6 m"
+        "width": "6"
       }
     },
     {
@@ -6213,7 +6344,7 @@
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt",
-        "width": "6 m"
+        "width": "6"
       }
     },
     {
@@ -6248,7 +6379,7 @@
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt",
-        "width": "6 m"
+        "width": "6"
       }
     },
     {
@@ -6283,7 +6414,7 @@
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt",
-        "width": "6 m"
+        "width": "6"
       }
     },
     {
@@ -6318,7 +6449,7 @@
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt",
-        "width": "6 m"
+        "width": "6"
       }
     },
     {
@@ -6353,7 +6484,7 @@
         "oneway": "no",
         "sidewalk": "both",
         "surface": "asphalt",
-        "width": "6 m"
+        "width": "6"
       }
     },
     {
@@ -6389,7 +6520,7 @@
         "parking:both": "no",
         "sidewalk": "both",
         "surface": "asphalt",
-        "width": "6 m"
+        "width": "6"
       }
     },
     {
@@ -6433,7 +6564,7 @@
         "parking:both": "no",
         "sidewalk": "both",
         "surface": "asphalt",
-        "width": "6 m"
+        "width": "6"
       }
     },
     {
@@ -6485,7 +6616,7 @@
         "parking:both": "no",
         "sidewalk": "both",
         "surface": "asphalt",
-        "width": "6 m"
+        "width": "6"
       }
     },
     {
@@ -6535,7 +6666,7 @@
         "parking:right:orientation": "parallel",
         "sidewalk": "both",
         "surface": "asphalt",
-        "width": "6 m"
+        "width": "6"
       }
     },
     {
