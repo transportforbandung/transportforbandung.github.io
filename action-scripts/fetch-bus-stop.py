@@ -9,7 +9,7 @@ BBOX = "-7.119970883040842,107.29935103886602,-6.7164372353137045,108.0052205633
 
 # Function to query Overpass API with rate limiting
 def fetch_overpass(query, retries=3, delay=2):
-    base_url = "https://overpass-api.de/api/interpreter"
+    base_url = "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
     
     for attempt in range(1, retries + 1):
         try:
