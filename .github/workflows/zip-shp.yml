@@ -1,11 +1,12 @@
-name: Build Shapefile ZIP
+name: Build Data ZIPs
 
 on:
   push:
     branches: [main]
     paths:
-      - 'route-data/shp-named-ungrouped/**'   # only trigger when SHP files change
-  workflow_dispatch:  # allows manual trigger from Actions tab
+      - 'route-data/shp-named-ungrouped/**'
+      - 'route-data/kml-named/**'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -17,15 +18,20 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Create ZIP of shapefiles
+      - name: Create ZIP of SHP files
         run: |
-          cd path/to/shapefile-folder
-          zip -r ../../downloads/shapefiles.zip .
+          cd route-data/shp-named-ungrouped
+          zip -r ../../downloads/route-shp.zip .
 
-      - name: Commit ZIP back to repo
+      - name: Create ZIP of KML files
+        run: |
+          cd route-data/kml-named
+          zip -r ../../downloads/route-kml.zip .
+
+      - name: Commit ZIPs back to repo
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add route-data/route-shp.zip
-          git diff --staged --quiet || git commit -m "Auto-update shapefiles.zip [skip ci]"
+          git add route-data/route-shp.zip route-data/route-kml.zip
+          git diff --staged --quiet || git commit -m "Auto-update data zips [skip ci]"
           git push
