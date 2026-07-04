@@ -1,0 +1,31 @@
+name: Build Shapefile ZIP
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'route-data/shp-named-ungrouped/**'   # only trigger when SHP files change
+  workflow_dispatch:  # allows manual trigger from Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  zip-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Create ZIP of shapefiles
+        run: |
+          cd path/to/shapefile-folder
+          zip -r ../../downloads/shapefiles.zip .
+
+      - name: Commit ZIP back to repo
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add downloads/shapefiles.zip
+          git diff --staged --quiet || git commit -m "Auto-update shapefiles.zip [skip ci]"
+          git push
