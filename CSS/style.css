@@ -1634,7 +1634,7 @@ tr:hover {
 }
 
 #downloadModal.is-open {
-  display: flex;
+  display: flex !important;
 }
 
 #downloadModal form {
