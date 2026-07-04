@@ -33,5 +33,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add route-data/tfb-route-shp.zip route-data/tfb-route-kml.zip
-          git diff --staged --quiet || git commit -m "Auto-update data zips [skip ci]"
+          git diff --staged --quiet || git commit -m "Auto-update data zips"
           git push
