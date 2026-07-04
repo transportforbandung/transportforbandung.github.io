@@ -331,6 +331,54 @@ function updateFnPositions() {
   });
 }
 
+// Data Request Form
+function openDownloadForm(fileName) {
+  document.getElementById('fileRequested').value = fileName;
+  document.getElementById('downloadModal').style.display = 'block';
+}
+
+function closeDownloadForm() {
+  document.getElementById('downloadModal').style.display = 'none';
+  document.getElementById('formStatus').textContent = '';
+}
+
+document.getElementById('downloadForm').addEventListener('submit', async function (e) {
+  e.preventDefault();
+  const status = document.getElementById('formStatus');
+  status.textContent = 'Memroses...';
+
+  const payload = {
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    institution: document.getElementById('institution').value,
+    purpose: document.getElementById('purpose').value,
+    fileRequested: document.getElementById('fileRequested').value
+  };
+
+  try {
+    await fetch('https://script.google.com/macros/s/AKfycbytr3bn9kWCOg9DE-_xfMxVOi2cS8m0iKNGcNDAAGiFQHFQtyBMBR1NoYAMpcrZhmI6/exec', {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'text/plain' },
+      body: JSON.stringify(payload)
+    });
+
+    const link = document.createElement('a');
+    link.href = '/route-data/' + payload.fileRequested;
+    link.download = payload.fileRequested;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+
+    status.textContent = 'Terima kasih, unduhan akan dimulai.';
+    e.target.reset();
+    setTimeout(closeDownloadForm, 2000);
+  } catch (err) {
+    status.textContent = 'Gagal mengirim formulir. Coba lagi.';
+    console.error(err);
+  }
+});
+
 // Hamburger Menu Function
 function initializeHamburger() {
   const hamburger = document.querySelector('.hamburger');
