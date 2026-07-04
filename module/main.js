@@ -334,11 +334,11 @@ function updateFnPositions() {
 // Data Request Form
 function openDownloadForm(fileName) {
   document.getElementById('fileRequested').value = fileName;
-  document.getElementById('downloadModal').style.display = 'block';
+  document.getElementById('downloadModal').classList.add('is-open');
 }
 
 function closeDownloadForm() {
-  document.getElementById('downloadModal').style.display = 'none';
+  document.getElementById('downloadModal').classList.remove('is-open');
   document.getElementById('formStatus').textContent = '';
 }
 

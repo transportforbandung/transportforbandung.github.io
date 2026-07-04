@@ -428,26 +428,36 @@
                 <script defer="" src="./module/intermap-display.js"></script>
                 <script defer="" src="./module/bus-stop-display.js"></script>
 
-                <div class="mini-hero-btn-flex">
-                    <button type="button" class="button-white" onclick="openDownloadForm('tfb-route-shp.zip')">Unduh
-                        SHP</button>
-                    <button type="button" class="button-white" onclick="openDownloadForm('tfb-route-kml.zip')">Unduh
-                        KML</button>
-                </div>
+                <div class="mb-4" style="margin-top: 2em">
+                    <h3 style="color: #FFFFFF">Unduh Data</h3>
+                    <p style="color: #FFFFFF">Unduh data rute transportasi umum dalam format SHP atau KML melalui tombol
+                        berikut. Data ini menggunakan lisensi <a href="https://opendatacommons.org/licenses/odbl/"
+                            target="_blank">Open Database License (ODbL)</a>. Pendistribusian ulang data ini maupun
+                        karya turunannya wajib menyantumkan atribusi kepada ©OpenStreetMap contributors dan Transport
+                        for Bandung.</p><br>
+                    <div class="mini-hero-btn-flex">
+                        <button type="button" class="button-white" onclick="openDownloadForm('tfb-route-shp.zip')">Unduh
+                            SHP</button>
+                        <button type="button" class="button-white" onclick="openDownloadForm('tfb-route-kml.zip')">Unduh
+                            KML</button>
+                    </div>
 
-                <!-- Simple modal-style form, hidden by default -->
-                <div id="downloadModal" style="display:none;">
-                    <form id="downloadForm">
-                        <input type="text" id="name" placeholder="Nama" required>
-                        <input type="email" id="email" placeholder="Email" required>
-                        <input type="text" id="institution" placeholder="Instansi/Organisasi" required>
-                        <textarea id="purpose" placeholder="Tujuan penggunaan data" required></textarea>
-                        <input type="hidden" id="fileRequested" value="">
-                        <p style="font-size: 0.85em; color: #555;">Data pribadi yang Anda masukkan hanya digunakan untuk keperluan pendataan dan tidak akan dibagikan kepada pihak lain. Data rute akan otomatis terunduh setelah formulir ini terkirim.</p>
-                        <button type="submit">Kirim & Unduh</button>
-                        <button type="button" onclick="closeDownloadForm()">Batal</button>
-                    </form>
-                    <p id="formStatus"></p>
+                    <!-- Simple modal-style form, hidden by default -->
+                    <div id="downloadModal" style="display:none;">
+                        <form id="downloadForm">
+                            <input type="text" id="name" placeholder="Nama" required>
+                            <input type="email" id="email" placeholder="Email" required>
+                            <input type="text" id="institution" placeholder="Instansi/Organisasi" required>
+                            <textarea id="purpose" placeholder="Tujuan penggunaan data" required></textarea>
+                            <input type="hidden" id="fileRequested" value="">
+                            <p style="font-size: 0.85em; color: #555;">Data pribadi yang Anda masukkan hanya digunakan
+                                untuk keperluan pendataan dan tidak akan dibagikan kepada pihak lain. Data rute akan
+                                otomatis terunduh setelah formulir ini terkirim.</p>
+                            <button type="submit">Kirim & Unduh</button>
+                            <button type="button" onclick="closeDownloadForm()">Batal</button>
+                        </form>
+                        <p id="formStatus"></p>
+                    </div>
                 </div>
             </div>
         </section>
