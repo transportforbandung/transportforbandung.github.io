@@ -445,18 +445,22 @@
                     <!-- Simple modal-style form, hidden by default -->
                     <div id="downloadModal">
                         <form id="downloadForm">
+                            <div class="download-form-header">
+                                <h3>Permintaan Unduhan Data</h3>
+                                <p>Isi formulir singkat ini untuk menerima file rute transportasi yang Anda pilih.</p>
+                            </div>
                             <input type="text" id="name" placeholder="Nama" required>
                             <input type="email" id="email" placeholder="Email" required>
                             <input type="text" id="institution" placeholder="Instansi/Organisasi" required>
                             <textarea id="purpose" placeholder="Tujuan penggunaan data" required></textarea>
                             <input type="hidden" id="fileRequested" value="">
-                            <p style="font-size: 0.85em; color: #555;">Data pribadi yang Anda masukkan hanya digunakan
-                                untuk keperluan pendataan dan tidak akan dibagikan kepada pihak lain. Data rute akan
-                                otomatis terunduh setelah formulir ini terkirim.</p>
-                            <button type="submit">Kirim & Unduh</button>
-                            <button type="button" onclick="closeDownloadForm()">Batal</button>
+                            <p class="download-form-note">Data pribadi yang Anda masukkan hanya digunakan untuk keperluan pendataan dan tidak akan dibagikan kepada pihak lain. Data rute akan otomatis terunduh setelah formulir ini terkirim.</p>
+                            <div class="download-form-actions">
+                                <button type="submit" class="download-form-submit">Kirim & Unduh</button>
+                                <button type="button" class="download-form-cancel" onclick="closeDownloadForm()">Batal</button>
+                            </div>
+                            <p id="formStatus" class="download-form-status"></p>
                         </form>
-                        <p id="formStatus"></p>
                     </div>
                 </div>
             </div>

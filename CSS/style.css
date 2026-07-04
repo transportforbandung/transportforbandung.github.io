@@ -1638,16 +1638,112 @@ tr:hover {
 }
 
 #downloadModal form {
-  background: #fff;
+  background: linear-gradient(145deg, #ffffff 0%, #f7fff9 100%);
   padding: 1.5rem;
-  border-radius: 8px;
-  max-width: 460px;
-  width: min(100%, 460px);
+  border-radius: 18px;
+  max-width: 480px;
+  width: min(100%, 480px);
   display: flex;
   flex-direction: column;
-  gap: 0.75em;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+  gap: 0.85rem;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
   margin: auto;
+  border: 1px solid rgba(0, 166, 79, 0.16);
+}
+
+#downloadModal .download-form-header {
+  margin-bottom: 0.25rem;
+}
+
+#downloadModal .download-form-header h3 {
+  margin: 0 0 0.35rem;
+  color: #005c2f;
+  font-size: 1.15rem;
+}
+
+#downloadModal .download-form-header p {
+  margin: 0;
+  color: #4f5f57;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+#downloadModal input,
+#downloadModal textarea {
+  width: 100%;
+  border: 1px solid #cfe4d8;
+  border-radius: 12px;
+  padding: 0.8rem 0.95rem;
+  font-size: 0.95rem;
+  color: #18352a;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#downloadModal textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+#downloadModal input:focus,
+#downloadModal textarea:focus {
+  outline: none;
+  border-color: #00A64F;
+  box-shadow: 0 0 0 3px rgba(0, 166, 79, 0.16);
+}
+
+#downloadModal .download-form-note {
+  margin: 0;
+  font-size: 0.85em;
+  color: #5f6f68;
+  line-height: 1.55;
+}
+
+#downloadModal .download-form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+#downloadModal .download-form-submit,
+#downloadModal .download-form-cancel {
+  border: none;
+  border-radius: 999px;
+  padding: 0.85rem 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+#downloadModal .download-form-submit {
+  background: linear-gradient(135deg, #00A64F 0%, #008d42 100%);
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 166, 79, 0.2);
+}
+
+#downloadModal .download-form-submit:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(0, 166, 79, 0.24);
+}
+
+#downloadModal .download-form-cancel {
+  background: #f2f8f4;
+  color: #0f5c35;
+  border: 1px solid #cfe4d8;
+}
+
+#downloadModal .download-form-cancel:hover {
+  background: #e7f4eb;
+  transform: translateY(-1px);
+}
+
+#downloadModal .download-form-status {
+  margin: 0;
+  min-height: 1.25rem;
+  color: #005c2f;
+  font-weight: 600;
 }
 
 /* Footer */
