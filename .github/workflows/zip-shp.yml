@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - 'route-data/shp-named-ungrouped/**'
-      - 'route-data/kml-named/**'
+      - 'route-data/kml-folder/**'
   workflow_dispatch:
 
 permissions:
@@ -21,12 +21,12 @@ jobs:
       - name: Create ZIP of SHP files
         run: |
           cd route-data/shp-named-ungrouped
-          zip -r ../../downloads/route-shp.zip .
+          zip -r ../route-shp.zip .
 
       - name: Create ZIP of KML files
         run: |
-          cd route-data/kml-named
-          zip -r ../../downloads/route-kml.zip .
+          cd route-data/kml-folder
+          zip -r ../route-kml.zip .
 
       - name: Commit ZIPs back to repo
         run: |
