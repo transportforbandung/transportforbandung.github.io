@@ -129,6 +129,32 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6193443,
+            -6.8992829
+          ],
+          [
+            107.6193457,
+            -6.8993497
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4569020,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sentot Alibasyah",
+        "oneway": "yes",
+        "ref": "387",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6099747,
             -6.9197157
           ],
@@ -350,6 +376,62 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6132841,
+            -6.8988423
+          ],
+          [
+            107.6135004,
+            -6.898852
+          ],
+          [
+            107.6140011,
+            -6.8988575
+          ],
+          [
+            107.6147331,
+            -6.8988511
+          ],
+          [
+            107.615213,
+            -6.8988527
+          ],
+          [
+            107.6156959,
+            -6.8989008
+          ],
+          [
+            107.6158827,
+            -6.8989216
+          ],
+          [
+            107.6160286,
+            -6.8989397
+          ]
+        ]
+      },
+      "properties": {
+        "id": 4632671,
+        "avgspeed": "30",
+        "destination": "Penata Yudha;Gasibu;Jalaprang;Cicaheum",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
+        "oneway": "yes",
+        "parking:both": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6262668,
             -6.9294503
           ],
@@ -499,31 +581,144 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6191671,
-            -6.9012515
+            107.6167125,
+            -6.8991863
           ],
           [
-            107.6192461,
-            -6.9012033
-          ],
-          [
-            107.6193024,
-            -6.9011929
+            107.6166576,
+            -6.8991786
           ]
         ]
       },
       "properties": {
-        "id": 154007023,
+        "id": 153312971,
+        "bicycle": "yes",
+        "destination": "Cikapayang;Pasupati;Pasteur;Djundjunan",
+        "destination:lanes": "Cikapayang;Dago;Tamansari|Pasupati;Pasteur;Djundjunan",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6180078,
+            -6.8994561
+          ],
+          [
+            107.6179691,
+            -6.8994428
+          ],
+          [
+            107.6175848,
+            -6.8993817
+          ],
+          [
+            107.6172942,
+            -6.899333
+          ],
+          [
+            107.6170304,
+            -6.8992912
+          ],
+          [
+            107.6169055,
+            -6.8992649
+          ],
+          [
+            107.6167897,
+            -6.89924
+          ],
+          [
+            107.6167125,
+            -6.8991863
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153319330,
+        "highway": "primary",
+        "lanes": "1",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6164572,
+            -6.8990452
+          ],
+          [
+            107.617751,
+            -6.8992613
+          ],
+          [
+            107.6179657,
+            -6.8992842
+          ],
+          [
+            107.6181219,
+            -6.8992936
+          ],
+          [
+            107.6184347,
+            -6.8992984
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153517384,
+        "avgspeed": "30",
+        "destination": "Gasibu;Jalaprang;Pahlawan;Cicaheum",
+        "highway": "trunk",
+        "lanes": "3",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
+        "oneway": "yes",
+        "sidewalk": "left",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6161849,
+            -6.8991228
+          ],
+          [
+            107.6158534,
+            -6.8991356
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153517385,
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Diponegoro",
-        "name:etymology:wikidata": "Q28899",
-        "name:etymology:wikipedia": "id:Diponegoro",
+        "name": "Jalan Prabudimuntur",
         "oneway": "yes",
-        "parking:both": "no",
-        "ref": "381",
-        "sidewalk:left": "separate",
-        "sidewalk:right": "no",
+        "sidewalk": "no",
         "surface": "asphalt"
       }
     },
@@ -2294,27 +2489,38 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6193024,
-            -6.9011929
+            107.6160286,
+            -6.8989397
           ],
           [
-            107.619419,
-            -6.9011883
+            107.6160918,
+            -6.8989527
+          ],
+          [
+            107.6161796,
+            -6.8989698
+          ],
+          [
+            107.6163593,
+            -6.8990187
+          ],
+          [
+            107.6164572,
+            -6.8990452
           ]
         ]
       },
       "properties": {
-        "id": 318051980,
+        "id": 318051977,
+        "avgspeed": "30",
+        "destination": "Gasibu;Jalaprang;Pahlawan;Cicaheum",
         "highway": "primary",
         "lanes": "2",
-        "name": "Jalan Diponegoro",
-        "name:etymology:wikidata": "Q28899",
-        "name:etymology:wikipedia": "id:Diponegoro",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
-        "parking:both": "no",
-        "ref": "381",
-        "sidewalk:left": "separate",
-        "sidewalk:right": "no",
+        "sidewalk": "left",
         "surface": "asphalt"
       }
     },
@@ -2324,50 +2530,89 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6180552,
-            -6.9012929
+            107.6158534,
+            -6.8991356
           ],
           [
-            107.618155,
-            -6.9012865
+            107.6148451,
+            -6.8991266
           ],
           [
-            107.6185187,
-            -6.9012713
+            107.6136829,
+            -6.8990999
           ],
           [
-            107.6187192,
-            -6.9012669
+            107.6131076,
+            -6.8990838
           ],
           [
-            107.6189805,
-            -6.9012612
-          ],
-          [
-            107.619124,
-            -6.9012543
-          ],
-          [
-            107.6191671,
-            -6.9012515
+            107.6130507,
+            -6.8990822
           ]
         ]
       },
       "properties": {
-        "id": 318052006,
-        "avgspeed": "30",
+        "id": 318054779,
         "bicycle": "yes",
-        "cycleway:both": "no",
+        "destination": "Cikapayang;Dago;Tamansari",
+        "destination:lanes": "Dago;Tamansari;Merdeka|Dago;Adipati Ukur;Siliwangi",
         "foot": "yes",
         "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Diponegoro",
-        "name:etymology:wikidata": "Q28899",
-        "name:etymology:wikipedia": "id:Diponegoro",
-        "parking:both": "no",
-        "ref": "381",
-        "sidewalk:both": "separate",
-        "surface": "asphalt"
+        "lanes": "2",
+        "name": "Jalan Prabu Dimuntur",
+        "name:en": "Prabu Dimuntur Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through;right;reverse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6184347,
+            -6.8992984
+          ],
+          [
+            107.6189625,
+            -6.8992907
+          ],
+          [
+            107.6189804,
+            -6.8992903
+          ],
+          [
+            107.6190876,
+            -6.8992881
+          ],
+          [
+            107.6192835,
+            -6.8992841
+          ],
+          [
+            107.6193443,
+            -6.8992829
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318102033,
+        "avgspeed": "30",
+        "destination": "Jalaprang;Pahlawan;Cikutra;Cicaheum",
+        "destination:lanes": "PUSDAI;Jalaprang;Pahlawan|Diponegoro;Gedung Sate;Citarum|Diponegoro;Gedung Sate;Citarum",
+        "highway": "trunk",
+        "lanes": "3",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
+        "oneway": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "through|right|right"
       }
     },
     {
@@ -3098,6 +3343,81 @@
         "parking:both": "no",
         "ref": "2243",
         "reg_ref": "22-10-2243",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6193536,
+            -6.8995642
+          ],
+          [
+            107.6193611,
+            -6.8998371
+          ],
+          [
+            107.6193648,
+            -6.89993
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331309153,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sentot Alibasyah",
+        "oneway": "yes",
+        "ref": "387",
+        "reg_ref": "22-00-387-12K",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6193648,
+            -6.89993
+          ],
+          [
+            107.6193767,
+            -6.9002364
+          ],
+          [
+            107.6194077,
+            -6.9010307
+          ],
+          [
+            107.6194103,
+            -6.9010674
+          ],
+          [
+            107.619419,
+            -6.9011883
+          ]
+        ]
+      },
+      "properties": {
+        "id": 331309154,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sentot Alibasyah",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "387",
+        "reg_ref": "22-00-387-12K",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -4422,6 +4742,33 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6193457,
+            -6.8993497
+          ],
+          [
+            107.6193483,
+            -6.8994321
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1000979252,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sentot Alibasyah",
+        "oneway": "yes",
+        "ref": "387",
+        "reg_ref": "22-00-387-12K",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6135246,
             -6.9053818
           ],
@@ -4472,6 +4819,73 @@
         "reg_ref": "22-10-2409",
         "sidewalk:both": "separate",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6130507,
+            -6.8990822
+          ],
+          [
+            107.6129909,
+            -6.8990718
+          ],
+          [
+            107.6129463,
+            -6.8990311
+          ],
+          [
+            107.6129308,
+            -6.8989728
+          ],
+          [
+            107.6129556,
+            -6.8989156
+          ],
+          [
+            107.6129902,
+            -6.89889
+          ],
+          [
+            107.6130429,
+            -6.8988772
+          ],
+          [
+            107.6131341,
+            -6.8988745
+          ],
+          [
+            107.6131975,
+            -6.8988744
+          ],
+          [
+            107.6132233,
+            -6.8988692
+          ],
+          [
+            107.6132555,
+            -6.8988522
+          ],
+          [
+            107.6132841,
+            -6.8988423
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1079472305,
+        "destination": "Penata Yudha;Gasibu;Jalaprang;Cicaheum",
+        "highway": "primary_link",
+        "lanes": "1",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "yes",
+        "surface": "asphalt",
+        "turn:lanes": "reverse"
       }
     },
     {
@@ -5437,6 +5851,74 @@
         "name:etymology:wikipedia": "id:Diponegoro",
         "parking:both": "no",
         "ref": "381",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6193483,
+            -6.8994321
+          ],
+          [
+            107.6193491,
+            -6.8994587
+          ],
+          [
+            107.6193536,
+            -6.8995642
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1384732951,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sentot Alibasyah",
+        "oneway": "yes",
+        "ref": "387",
+        "reg_ref": "22-00-387-12K",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6180552,
+            -6.9012929
+          ],
+          [
+            107.6180371,
+            -6.9001207
+          ],
+          [
+            107.6180279,
+            -6.8996167
+          ],
+          [
+            107.6180275,
+            -6.8994881
+          ],
+          [
+            107.6180078,
+            -6.8994561
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1416113527,
+        "highway": "primary",
+        "name": "Jalan Majapahit",
+        "oneway": "yes",
+        "ref": "387",
+        "reg_ref": "22-00-387-11K",
         "surface": "asphalt"
       }
     },
@@ -6838,6 +7320,40 @@
         "name": "Jalan Reog",
         "ref": "2322",
         "reg_ref": "22-10-2322",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6166576,
+            -6.8991786
+          ],
+          [
+            107.616386,
+            -6.8991446
+          ],
+          [
+            107.6161849,
+            -6.8991228
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1537036145,
+        "bicycle": "yes",
+        "destination": "Cikapayang;Pasupati;Pasteur;Djundjunan",
+        "destination:lanes": "Cikapayang;Dago;Tamansari|Pasupati;Pasteur;Djundjunan",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
+        "oneway": "yes",
         "surface": "asphalt"
       }
     }

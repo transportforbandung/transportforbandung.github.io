@@ -465,14 +465,6 @@
           [
             107.6166576,
             -6.8991786
-          ],
-          [
-            107.616386,
-            -6.8991446
-          ],
-          [
-            107.6161849,
-            -6.8991228
           ]
         ]
       },
@@ -1497,8 +1489,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.618078,
-            -6.8993781
+            107.6181567,
+            -6.899379
           ],
           [
             107.6180305,
@@ -3159,8 +3151,8 @@
             -6.8993576
           ],
           [
-            107.618078,
-            -6.8993781
+            107.6181567,
+            -6.899379
           ]
         ]
       },
@@ -3180,6 +3172,40 @@
         "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_left;through|through"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6166576,
+            -6.8991786
+          ],
+          [
+            107.616386,
+            -6.8991446
+          ],
+          [
+            107.6161849,
+            -6.8991228
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1537036145,
+        "bicycle": "yes",
+        "destination": "Cikapayang;Pasupati;Pasteur;Djundjunan",
+        "destination:lanes": "Cikapayang;Dago;Tamansari|Pasupati;Pasteur;Djundjunan",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     }
   ]
