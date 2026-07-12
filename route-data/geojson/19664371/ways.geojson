@@ -1853,47 +1853,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6192733,
-            -6.8999367
-          ],
-          [
-            107.6192643,
-            -6.8995771
-          ],
-          [
-            107.61926,
-            -6.89948
-          ],
-          [
-            107.6192595,
-            -6.8994625
-          ],
-          [
-            107.6192514,
-            -6.8994349
-          ]
-        ]
-      },
-      "properties": {
-        "id": 318051981,
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Sentot Alibasyah",
-        "oneway": "yes",
-        "ref": "387",
-        "reg_ref": "22-00-387-12K",
-        "sidewalk:left": "separate",
-        "sidewalk:right": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6175732,
             -6.9115105
           ],
@@ -4005,40 +3964,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6193024,
-            -6.9011929
-          ],
-          [
-            107.6192996,
-            -6.9010729
-          ],
-          [
-            107.6192733,
-            -6.8999367
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1109942070,
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Sentot Alibasyah",
-        "oneway": "yes",
-        "parking:both": "no",
-        "ref": "387",
-        "reg_ref": "22-00-387-12K",
-        "sidewalk:left": "separate",
-        "sidewalk:right": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6079775,
             -6.9160775
           ],
@@ -4401,12 +4326,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6181567,
-            -6.899379
+            107.6181352,
+            -6.899455
           ],
           [
-            107.6181386,
-            -6.8994467
+            107.6181359,
+            -6.8994792
           ],
           [
             107.6181363,
@@ -4429,7 +4354,6 @@
         "lanes": "1",
         "maxspeed": "20",
         "name": "Jalan Majapahit",
-        "note": "Temporarily opened due to roadworks in Jalan Diponegoro",
         "oneway": "yes",
         "parking": "no",
         "ref": "387",
@@ -4863,74 +4787,6 @@
         "parking:both": "no",
         "ref": "381",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6192514,
-            -6.8994349
-          ],
-          [
-            107.6192218,
-            -6.8994058
-          ],
-          [
-            107.6191325,
-            -6.8993561
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1384732950,
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Sentot Alibasyah",
-        "oneway": "yes",
-        "ref": "387",
-        "reg_ref": "22-00-387-12K",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6191325,
-            -6.8993561
-          ],
-          [
-            107.6190893,
-            -6.8993576
-          ],
-          [
-            107.6181567,
-            -6.899379
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1391905039,
-        "bicycle": "yes",
-        "destination": "Aria Jipang;Cikapayang;Pasupati;Djundjunan",
-        "destination:lanes": "Aria Jipang;Cikapayang|Pasupati;Djundjunan",
-        "foot": "yes",
-        "highway": "trunk",
-        "lanes": "2",
-        "loc_name": "Jalan Surapati",
-        "name": "Jalan Surapati",
-        "name:en": "Untung Surapati Avenue",
-        "oneway": "yes",
-        "sidewalk:left": "separate",
-        "sidewalk:right": "no",
-        "surface": "asphalt",
-        "turn:lanes": "slight_left;through|through"
       }
     },
     {
@@ -6025,6 +5881,95 @@
         "parking:both": "no",
         "ref": "381",
         "sidewalk:both": "separate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6193024,
+            -6.9011929
+          ],
+          [
+            107.6192571,
+            -6.901128
+          ],
+          [
+            107.6192209,
+            -6.9010711
+          ],
+          [
+            107.6192164,
+            -6.9010337
+          ],
+          [
+            107.6191825,
+            -6.8995577
+          ],
+          [
+            107.6191621,
+            -6.8994946
+          ],
+          [
+            107.6191472,
+            -6.8994665
+          ],
+          [
+            107.6191407,
+            -6.8994542
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1537271398,
+        "highway": "primary",
+        "name": "Jalan Sentot Alibasyah",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6191407,
+            -6.8994542
+          ],
+          [
+            107.6191029,
+            -6.8994309
+          ],
+          [
+            107.619089,
+            -6.8994281
+          ],
+          [
+            107.6190462,
+            -6.8994198
+          ],
+          [
+            107.6181352,
+            -6.899455
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1537271400,
+        "access": "yes",
+        "highway": "primary",
+        "lanes": "1",
+        "loc_name": "Jalan Surapati",
+        "maxspeed": "20",
+        "name": "Jalan Surapati",
+        "oneway": "yes",
+        "parking": "no",
+        "ref": "387",
+        "reg_ref": "22-00-387-11K",
         "surface": "asphalt"
       }
     }

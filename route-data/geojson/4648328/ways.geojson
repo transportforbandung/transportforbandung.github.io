@@ -3282,40 +3282,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6193024,
-            -6.9011929
-          ],
-          [
-            107.6192996,
-            -6.9010729
-          ],
-          [
-            107.6192733,
-            -6.8999367
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1109942070,
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Sentot Alibasyah",
-        "oneway": "yes",
-        "parking:both": "no",
-        "ref": "387",
-        "reg_ref": "22-00-387-12K",
-        "sidewalk:left": "separate",
-        "sidewalk:right": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.643757,
             -6.9146763
           ],
@@ -5414,6 +5380,40 @@
         "oneway": "yes",
         "parking:both": "no",
         "ref": "381",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6193024,
+            -6.9011929
+          ],
+          [
+            107.6192996,
+            -6.9010729
+          ],
+          [
+            107.6192733,
+            -6.8999367
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1537273629,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sentot Alibasyah",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "387",
+        "reg_ref": "22-00-387-12K",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
         "surface": "asphalt"
