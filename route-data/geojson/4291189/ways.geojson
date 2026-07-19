@@ -766,12 +766,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6198486,
-            -6.8992867
+            107.6199187,
+            -6.8992847
           ],
           [
             107.6198037,
-            -6.8993299
+            -6.8993127
           ]
         ]
       },
@@ -2704,16 +2704,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.619582,
-            -6.8993371
+            107.6196186,
+            -6.8993139
           ],
           [
-            107.6194327,
-            -6.8993448
+            107.6195284,
+            -6.899317
           ],
           [
-            107.6193457,
-            -6.8993497
+            107.6193467,
+            -6.8993194
           ]
         ]
       },
@@ -3002,12 +3002,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6181567,
-            -6.899379
+            107.6191372,
+            -6.8993236
           ],
           [
-            107.6180305,
-            -6.8993791
+            107.6190846,
+            -6.8993251
+          ],
+          [
+            107.618152,
+            -6.8993732
+          ],
+          [
+            107.6180165,
+            -6.8993687
           ],
           [
             107.6176554,
@@ -3036,6 +3044,8 @@
         "name:en": "Untung Surapati Avenue",
         "oneway": "yes",
         "sidewalk": "no",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_left;through|through"
       }
@@ -4032,8 +4042,8 @@
             -6.8992862
           ],
           [
-            107.6198486,
-            -6.8992867
+            107.6199187,
+            -6.8992847
           ]
         ]
       },
@@ -4110,12 +4120,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6193457,
-            -6.8993497
+            107.6193467,
+            -6.8993194
           ],
           [
-            107.6191325,
-            -6.8993561
+            107.6191372,
+            -6.8993236
           ]
         ]
       },
@@ -4240,11 +4250,11 @@
         "coordinates": [
           [
             107.6198037,
-            -6.8993299
+            -6.8993127
           ],
           [
-            107.619582,
-            -6.8993371
+            107.6196186,
+            -6.8993139
           ]
         ]
       },
@@ -5654,43 +5664,6 @@
         "sidewalk:left": "no",
         "sidewalk:right": "separate",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6191325,
-            -6.8993561
-          ],
-          [
-            107.6190893,
-            -6.8993576
-          ],
-          [
-            107.6181567,
-            -6.899379
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1391905039,
-        "bicycle": "yes",
-        "destination": "Aria Jipang;Cikapayang;Pasupati;Djundjunan",
-        "destination:lanes": "Aria Jipang;Cikapayang|Pasupati;Djundjunan",
-        "foot": "yes",
-        "highway": "trunk",
-        "lanes": "2",
-        "loc_name": "Jalan Surapati",
-        "name": "Jalan Surapati",
-        "name:en": "Untung Surapati Avenue",
-        "oneway": "yes",
-        "sidewalk:left": "separate",
-        "sidewalk:right": "no",
-        "surface": "asphalt",
-        "turn:lanes": "slight_left;through|through"
       }
     },
     {
