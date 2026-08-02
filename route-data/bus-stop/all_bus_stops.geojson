@@ -2329,8 +2329,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6058341,
-          -6.9276299
+          107.6058721,
+          -6.9276218
         ]
       },
       "properties": {
@@ -16336,8 +16336,8 @@
         "shelter": "no",
         "pole": "stop_pole",
         "lit": null,
-        "bench": null,
-        "bin": null,
+        "bench": "no",
+        "bin": "yes",
         "routes": [],
         "route_count": 0,
         "category": "8_shelter_none_pole_none"
@@ -25553,10 +25553,8 @@
         "lit": "yes",
         "bench": "no",
         "bin": "no",
-        "routes": [
-          19664371
-        ],
-        "route_count": 1,
+        "routes": [],
+        "route_count": 0,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -26033,10 +26031,8 @@
         "lit": "no",
         "bench": "no",
         "bin": "no",
-        "routes": [
-          19664372
-        ],
-        "route_count": 1,
+        "routes": [],
+        "route_count": 0,
         "category": "2_shelter_none_pole_sign"
       }
     },
@@ -31100,8 +31096,11 @@
         "lit": null,
         "bench": null,
         "bin": null,
-        "routes": [],
-        "route_count": 0,
+        "routes": [
+          18771772,
+          18771773
+        ],
+        "route_count": 2,
         "category": "8_shelter_none_pole_none"
       }
     }
