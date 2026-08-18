@@ -2,6 +2,8 @@ name: Convert GeoJSON to KML
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "10 1 * * 1"  # every Monday at 01:10 UTC
   push:
     paths:
       - 'route-data/geojson/**'
