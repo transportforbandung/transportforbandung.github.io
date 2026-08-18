@@ -200,8 +200,8 @@
             -6.9258274
           ],
           [
-            107.607029,
-            -6.9274996
+            107.6070558,
+            -6.9274889
           ]
         ]
       },
@@ -382,7 +382,7 @@
         "cycleway:left": "lane",
         "cycleway:right": "no",
         "foot": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sumbawa",
         "oneway": "yes",
@@ -671,24 +671,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6059177,
-            -6.9273911
+            107.6059454,
+            -6.9273849
           ],
           [
-            107.6059915,
-            -6.926739
+            107.6059791,
+            -6.9270185
           ],
           [
-            107.6060152,
-            -6.9265391
+            107.6059757,
+            -6.9268782
           ],
           [
-            107.6060307,
-            -6.9263876
+            107.6059805,
+            -6.9267319
           ],
           [
-            107.6060915,
-            -6.925705
+            107.6059951,
+            -6.9265345
+          ],
+          [
+            107.6060102,
+            -6.926383
+          ],
+          [
+            107.6060764,
+            -6.9256868
           ]
         ]
       },
@@ -765,7 +773,8 @@
         "id": 317743191,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
         "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "4",
@@ -774,7 +783,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -981,7 +990,7 @@
         "cycleway:left": "lane",
         "cycleway:right": "no",
         "foot": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sumbawa",
         "oneway": "yes",
@@ -1199,8 +1208,8 @@
             -6.927539
           ],
           [
-            107.607029,
-            -6.9274996
+            107.6070558,
+            -6.9274889
           ]
         ]
       },
@@ -1220,8 +1229,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6060915,
-            -6.925705
+            107.6060764,
+            -6.9256868
+          ],
+          [
+            107.6061459,
+            -6.9256988
           ],
           [
             107.6065589,
@@ -1749,7 +1762,7 @@
       "properties": {
         "id": 555601273,
         "avgspeed": "30",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
@@ -2290,7 +2303,7 @@
         "id": 769054482,
         "avgspeed": "30",
         "destination:lanes": "Braga|Jawa;Sumbawa;Bangka;Gudang|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
@@ -2315,7 +2328,7 @@
           ],
           [
             107.6176318,
-            -6.9224238
+            -6.9224085
           ]
         ]
       },
@@ -2338,7 +2351,7 @@
         "coordinates": [
           [
             107.6176318,
-            -6.9224238
+            -6.9224085
           ],
           [
             107.6176409,
@@ -2348,7 +2361,7 @@
       },
       "properties": {
         "id": 769054487,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sunda",
         "oneway": "yes",
@@ -2374,7 +2387,7 @@
       },
       "properties": {
         "id": 769054498,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sunda",
         "oneway": "yes",
@@ -2921,6 +2934,10 @@
             -6.9211858
           ],
           [
+            107.6177726,
+            -6.9211032
+          ],
+          [
             107.6178524,
             -6.9204334
           ]
@@ -2930,7 +2947,7 @@
         "id": 1193893116,
         "avgspeed": "30",
         "destination:lanes": "Jawa;Sumbawa;Bangka;Gudang|Jawa;Sumbawa;Bangka;Gudang|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
@@ -3343,12 +3360,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.605817,
-            -6.92756
+            107.6058386,
+            -6.9275637
           ],
           [
-            107.6058222,
-            -6.9274995
+            107.6058453,
+            -6.9274973
           ]
         ]
       },
@@ -3371,32 +3388,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6058222,
-            -6.9274995
+            107.6058453,
+            -6.9274973
           ],
           [
-            107.6058291,
-            -6.927479
+            107.6058559,
+            -6.9274746
           ],
           [
-            107.6058504,
-            -6.9274581
+            107.605878,
+            -6.9274596
           ],
           [
-            107.6058814,
-            -6.9274381
+            107.6059082,
+            -6.9274425
           ],
           [
-            107.6059038,
-            -6.9274217
+            107.6059305,
+            -6.9274223
           ],
           [
-            107.6059122,
-            -6.927408
+            107.6059373,
+            -6.9274102
           ],
           [
-            107.6059177,
-            -6.9273911
+            107.6059454,
+            -6.9273849
           ]
         ]
       },
@@ -3433,7 +3450,7 @@
       },
       "properties": {
         "id": 1304785726,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sunda",
         "oneway": "yes",
@@ -3482,12 +3499,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6058121,
-            -6.9276265
+            107.6058322,
+            -6.9276428
           ],
           [
-            107.605817,
-            -6.92756
+            107.6058386,
+            -6.9275637
           ]
         ]
       },
@@ -3699,7 +3716,8 @@
         "id": 1434389929,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
         "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "4",
@@ -3708,7 +3726,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -3732,67 +3750,11 @@
           [
             107.6113975,
             -6.9070401
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1434389930,
-        "alt_name": "Jalan Riau",
-        "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right:lane": "advisory",
-        "highway": "secondary",
-        "lanes": "4",
-        "name": "Jalan L.L. RE. Martadinata",
-        "name:etymology:wikidata": "Q5928807",
-        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
-        "ref": "2318",
-        "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6113975,
-            -6.9070401
           ],
           [
             107.6113747,
             -6.9070385
           ],
-          [
-            107.6111706,
-            -6.9070246
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1434389931,
-        "alt_name": "Jalan Riau",
-        "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right:lane": "advisory",
-        "highway": "secondary",
-        "lanes": "4",
-        "name": "Jalan L.L. RE. Martadinata",
-        "name:etymology:wikidata": "Q5928807",
-        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
-        "ref": "2318",
-        "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [
             107.6111706,
             -6.9070246
@@ -3812,10 +3774,11 @@
         ]
       },
       "properties": {
-        "id": 1434389932,
+        "id": 1434389930,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
         "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "4",
@@ -3824,7 +3787,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },

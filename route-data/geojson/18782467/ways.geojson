@@ -175,6 +175,10 @@
             -6.9147855
           ],
           [
+            107.6063544,
+            -6.9149336
+          ],
+          [
             107.6064066,
             -6.9149399
           ]
@@ -1642,13 +1646,11 @@
       },
       "properties": {
         "id": 339694302,
+        "construction": "primary",
         "designation": "provincial_road",
-        "highway": "primary",
-        "lanes": "1",
+        "highway": "construction",
         "name": "Jalan Baros",
-        "oneway": "yes",
-        "ref": "170",
-        "surface": "asphalt"
+        "oneway": "yes"
       }
     },
     {
@@ -2217,15 +2219,13 @@
       "properties": {
         "id": 385643848,
         "alt_name": "Jalan Baros",
+        "construction": "primary",
         "designation": "provincial_road",
-        "highway": "primary",
-        "lanes": "2",
+        "highway": "construction",
         "name": "Jalan Gatot Subroto",
         "name:etymology:wikidata": "Q5261540",
         "name:etymology:wikipedia": "id:Gatot Soebroto",
-        "oneway": "yes",
-        "ref": "170",
-        "surface": "asphalt"
+        "oneway": "yes"
       }
     },
     {
@@ -4267,16 +4267,14 @@
       "properties": {
         "id": 573047226,
         "alt_name": "Jalan Baros",
+        "construction": "primary",
         "designation": "provincial_road",
-        "highway": "primary",
-        "lanes": "2",
+        "highway": "construction",
         "motorcycle": "yes",
         "name": "Jalan Gatot Subroto",
         "name:etymology:wikidata": "Q5261540",
         "name:etymology:wikipedia": "id:Gatot Soebroto",
-        "oneway": "yes",
-        "ref": "170",
-        "surface": "asphalt"
+        "oneway": "yes"
       }
     },
     {
@@ -4444,18 +4442,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5372378,
-            -6.8880721
-          ],
-          [
-            107.5371821,
-            -6.8882052
-          ],
-          [
-            107.5369394,
-            -6.8887796
-          ],
-          [
             107.5366629,
             -6.8894348
           ],
@@ -4474,10 +4460,6 @@
           [
             107.536637,
             -6.8901554
-          ],
-          [
-            107.5366635,
-            -6.8904132
           ],
           [
             107.5366757,
@@ -4504,10 +4486,9 @@
         "lanes": "2",
         "name": "Jalan Baros",
         "oneway": "yes",
-        "parking:both": "no",
         "ref": "170",
-        "sidewalk": "both",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -5311,14 +5292,13 @@
       "properties": {
         "id": 892172995,
         "alt_name": "Jalan Baros",
+        "construction": "primary",
         "designation": "provincial_road",
-        "highway": "primary",
-        "lanes": "2",
+        "highway": "construction",
         "name": "Jalan Gatot Subroto",
         "name:etymology:wikidata": "Q5261540",
         "name:etymology:wikipedia": "id:Gatot Soebroto",
-        "oneway": "yes",
-        "ref": "170"
+        "oneway": "yes"
       }
     },
     {
@@ -5365,14 +5345,13 @@
       "properties": {
         "id": 909519329,
         "alt_name": "Jalan Baros",
+        "construction": "primary",
         "designation": "provincial_road",
-        "highway": "primary",
-        "lanes": "2",
+        "highway": "construction",
         "name": "Jalan Gatot Subroto",
         "name:etymology:wikidata": "Q5261540",
         "name:etymology:wikipedia": "id:Gatot Soebroto",
-        "oneway": "yes",
-        "ref": "170"
+        "oneway": "yes"
       }
     },
     {
@@ -6097,6 +6076,10 @@
           [
             107.60326,
             -6.9160638
+          ],
+          [
+            107.6040403,
+            -6.915928
           ],
           [
             107.6043695,
@@ -7062,36 +7045,36 @@
             -6.9127619
           ],
           [
-            107.6046653,
-            -6.9131773
+            107.6046613,
+            -6.913176
           ],
           [
-            107.6046562,
+            107.6046522,
             -6.9133158
           ],
           [
-            107.6046487,
-            -6.9134899
+            107.6046393,
+            -6.9134886
           ],
           [
-            107.6046413,
+            107.6046306,
             -6.9136374
           ],
           [
-            107.6046392,
+            107.6046271,
             -6.9136785
           ],
           [
-            107.6046344,
-            -6.913774
-          ],
-          [
-            107.6046298,
-            -6.9138408
-          ],
-          [
             107.604621,
-            -6.913968
+            -6.9137727
+          ],
+          [
+            107.6046177,
+            -6.9138395
+          ],
+          [
+            107.6046089,
+            -6.913972
           ],
           [
             107.6045855,
@@ -8048,6 +8031,38 @@
         "oneway": "yes",
         "ref": "11",
         "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5372378,
+            -6.8880721
+          ],
+          [
+            107.5371821,
+            -6.8882052
+          ],
+          [
+            107.5369394,
+            -6.8887796
+          ],
+          [
+            107.5366629,
+            -6.8894348
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1550652599,
+        "construction": "primary",
+        "designation": "provincial_road",
+        "highway": "construction",
+        "name": "Jalan Baros",
+        "oneway": "yes"
       }
     }
   ]

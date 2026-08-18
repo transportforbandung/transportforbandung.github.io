@@ -938,8 +938,8 @@
             -6.9691642
           ],
           [
-            107.7003715,
-            -6.9688969
+            107.7003608,
+            -6.9689155
           ],
           [
             107.7007549,
@@ -1121,6 +1121,10 @@
           [
             107.7048064,
             -6.967419
+          ],
+          [
+            107.7049627,
+            -6.9673439
           ],
           [
             107.7063273,
@@ -1612,6 +1616,10 @@
             -6.9061543
           ],
           [
+            107.6298346,
+            -6.9063292
+          ],
+          [
             107.6299279,
             -6.9064699
           ]
@@ -1681,6 +1689,9 @@
         "id": 244802255,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
         "destination:lanes": "Supratman;Cicadas;Cicaheum|Laswi;Lingkar Selatan;Gatot Subroto;Buahbatu|Cikudapateuh;Kosambi;Simpang Lima;Asia Afrika",
         "destination:ref:lanes": "378;377|377|",
         "highway": "secondary",
@@ -1693,7 +1704,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_left;through|through|right"
       }
@@ -1765,9 +1777,9 @@
         "id": 244802256,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right": "no",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
@@ -1777,7 +1789,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -1984,9 +1997,9 @@
         "id": 318052002,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right": "no",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
@@ -1996,7 +2009,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -2720,8 +2734,8 @@
             -6.9377801
           ],
           [
-            107.6062191,
-            -6.9378081
+            107.6062235,
+            -6.937809
           ]
         ]
       },
@@ -2856,6 +2870,7 @@
         "id": 330592465,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
+        "cycleway": "no",
         "destination:lanes": "Laswi;Lingkar Selatan;Gatot Subroto;Buahbatu|Laswi;Lingkar Selatan;Gatot Subroto;Buahbatu|Cikudapateuh;Kosambi;Simpang Lima;Asia Afrika",
         "destination:ref:lanes": "377|377|",
         "highway": "secondary",
@@ -2868,7 +2883,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "through|through|right"
       }
@@ -2960,6 +2976,10 @@
           [
             107.6299279,
             -6.9064699
+          ],
+          [
+            107.6300067,
+            -6.9065959
           ],
           [
             107.6301227,
@@ -3618,8 +3638,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6062191,
-            -6.9378081
+            107.6062235,
+            -6.937809
           ],
           [
             107.6061991,
@@ -5391,6 +5411,9 @@
         "id": 1111828375,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
         "destination:lanes": "Supratman;Cicadas;Cicaheum|Laswi;Lingkar Selatan;Gatot Subroto;Buahbatu|Cikudapateuh;Kosambi;Simpang Lima;Asia Afrika",
         "destination:ref:lanes": "378;377|377|",
         "highway": "secondary",
@@ -5403,7 +5426,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_left;through|through|right"
       }

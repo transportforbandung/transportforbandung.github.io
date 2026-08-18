@@ -7,8 +7,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6062653,
-            -6.9369218
+            107.6062697,
+            -6.9369192
           ],
           [
             107.6062734,
@@ -55,12 +55,8 @@
             -6.9329988
           ],
           [
-            107.6065797,
-            -6.9327947
-          ],
-          [
-            107.606653,
-            -6.9318519
+            107.6065733,
+            -6.9328659
           ]
         ]
       },
@@ -69,6 +65,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -1927,11 +1924,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6061633,
+            107.6061651,
             -6.9376173
           ],
           [
-            107.6061721,
+            107.6061748,
             -6.9375256
           ]
         ]
@@ -1939,8 +1936,9 @@
       "properties": {
         "id": 318482269,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "foot": "no",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
@@ -3257,7 +3255,7 @@
             -6.9376808
           ],
           [
-            107.6061633,
+            107.6061651,
             -6.9376173
           ]
         ]
@@ -3265,7 +3263,7 @@
       "properties": {
         "id": 340403803,
         "avgspeed": "30",
-        "designation": "city_road",
+        "designation": "provincial_road",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
@@ -3601,11 +3599,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6061721,
+            107.6061748,
             -6.9375256
           ],
           [
-            107.6061838,
+            107.6061856,
             -6.9374395
           ]
         ]
@@ -3742,8 +3740,8 @@
             -6.936943
           ],
           [
-            107.6062653,
-            -6.9369218
+            107.6062697,
+            -6.9369192
           ]
         ]
       },
@@ -3755,6 +3753,7 @@
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -6245,7 +6244,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6061838,
+            107.6061856,
             -6.9374395
           ],
           [
@@ -6822,7 +6821,7 @@
             -6.9317434
           ],
           [
-            107.6066942,
+            107.6066965,
             -6.9314375
           ],
           [
@@ -6834,8 +6833,8 @@
             -6.9307799
           ],
           [
-            107.6067877,
-            -6.9301452
+            107.6068239,
+            -6.9301306
           ]
         ]
       },
@@ -7948,6 +7947,33 @@
         "ref": "11",
         "surface": "asphalt",
         "turn:lanes": "left;through||"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6065733,
+            -6.9328659
+          ],
+          [
+            107.6065797,
+            -6.9327947
+          ],
+          [
+            107.606653,
+            -6.9318519
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1547321025,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mohammad Toha",
+        "surface": "asphalt"
       }
     }
   ]

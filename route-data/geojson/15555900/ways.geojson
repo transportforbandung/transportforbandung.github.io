@@ -80,14 +80,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6299627,
-            -6.9157488
-          ],
-          [
-            107.629917,
-            -6.9156449
-          ],
-          [
             107.629839,
             -6.9154679
           ],
@@ -102,7 +94,7 @@
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
         "cycleway:left": "lane",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:left:lane": "advisory",
         "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
@@ -114,7 +106,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -130,6 +123,10 @@
           [
             107.5986452,
             -6.9162913
+          ],
+          [
+            107.5986682,
+            -6.9162902
           ],
           [
             107.5987499,
@@ -201,24 +198,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6040992,
-            -6.9208034
+            107.6041077,
+            -6.920785
           ],
           [
-            107.6038238,
-            -6.9207677
+            107.6038284,
+            -6.9207532
           ],
           [
             107.6034762,
-            -6.9207227
+            -6.9207089
           ],
           [
-            107.6031329,
-            -6.9206812
+            107.603136,
+            -6.9206667
           ],
           [
-            107.6022243,
-            -6.92058
+            107.6022266,
+            -6.9205616
+          ],
+          [
+            107.6021366,
+            -6.9205489
           ]
         ]
       },
@@ -226,7 +227,7 @@
         "id": 4567664,
         "avgspeed": "30",
         "highway": "primary",
-        "lanes": "3",
+        "lanes": "2",
         "name": "Jalan Jendral Sudirman",
         "name:etymology:wikidata": "Q2367329",
         "name:etymology:wikipedia": "id:Soedirman",
@@ -261,8 +262,8 @@
             -6.92001
           ],
           [
-            107.5983386,
-            -6.9201181
+            107.5983366,
+            -6.920102
           ]
         ]
       },
@@ -307,8 +308,8 @@
             -6.9216096
           ],
           [
-            107.6120118,
-            -6.9217387
+            107.6120154,
+            -6.9217245
           ]
         ]
       },
@@ -431,9 +432,9 @@
         "id": 244802256,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right": "no",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
@@ -443,7 +444,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -466,7 +468,7 @@
         "id": 244802258,
         "alt_name": "Jalan Riau",
         "cycleway:left": "lane",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:left:lane": "advisory",
         "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
@@ -478,7 +480,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -731,7 +734,8 @@
         "id": 317743191,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
         "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "4",
@@ -740,7 +744,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -799,9 +803,9 @@
         "id": 318052002,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right": "no",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
@@ -811,7 +815,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -867,40 +872,56 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6021351,
-            -6.9205669
+            107.6021366,
+            -6.9205489
           ],
           [
-            107.6020569,
-            -6.9205571
+            107.6020691,
+            -6.9205405
           ],
           [
-            107.6018968,
-            -6.9205382
+            107.601895,
+            -6.920521
           ],
           [
-            107.6018076,
-            -6.9205271
+            107.6018084,
+            -6.9205114
           ],
           [
-            107.6012351,
-            -6.9204588
+            107.6012359,
+            -6.9204443
           ],
           [
-            107.6009581,
-            -6.9204271
+            107.6009589,
+            -6.9204087
           ],
           [
-            107.6006489,
-            -6.9203915
+            107.6006504,
+            -6.9203693
           ],
           [
-            107.6005032,
-            -6.9203759
+            107.6005045,
+            -6.9203533
           ],
           [
-            107.5997986,
-            -6.9202943
+            107.5998017,
+            -6.9202729
+          ],
+          [
+            107.5997457,
+            -6.9202665
+          ],
+          [
+            107.5985234,
+            -6.9201237
+          ],
+          [
+            107.5984985,
+            -6.9201204
+          ],
+          [
+            107.5983366,
+            -6.920102
           ]
         ]
       },
@@ -1005,8 +1026,8 @@
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
         "bicycle": "yes",
-        "cycleway": "lane",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
         "cycleway:right:lane": "advisory",
         "destination:backward": "Simpang Banda",
         "destination:forward": "Simpang Trunojoyo",
@@ -1018,7 +1039,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
         "surface": "asphalt",
@@ -1130,8 +1151,8 @@
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
         "bicycle": "yes",
-        "cycleway": "lane",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
         "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
@@ -1140,7 +1161,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
         "surface": "asphalt",
@@ -1198,9 +1219,9 @@
         "id": 319178847,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right": "no",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
@@ -1209,7 +1230,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -1219,28 +1241,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6064546,
-            -6.9210818
+            107.6064585,
+            -6.9210512
           ],
           [
-            107.6059291,
-            -6.9210188
+            107.6064357,
+            -6.9210487
           ],
           [
-            107.6050735,
-            -6.9209188
+            107.6059322,
+            -6.9209936
           ],
           [
-            107.6042519,
-            -6.9208229
+            107.605075,
+            -6.9208966
           ],
           [
-            107.6042261,
-            -6.9208199
+            107.6042658,
+            -6.9208061
           ],
           [
-            107.6040992,
-            -6.9208034
+            107.6042276,
+            -6.9208008
+          ],
+          [
+            107.6041077,
+            -6.920785
           ]
         ]
       },
@@ -1262,16 +1288,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6072035,
-            -6.9211727
+            107.607195,
+            -6.9211421
           ],
           [
-            107.6071663,
-            -6.9211679
+            107.6071709,
+            -6.9211388
           ],
           [
-            107.6071455,
-            -6.9211653
+            107.6071309,
+            -6.9211347
           ]
         ]
       },
@@ -1746,87 +1772,91 @@
           ],
           [
             107.6414919,
-            -6.9139998
+            -6.9139937
           ],
           [
-            107.641333,
-            -6.91402
+            107.641334,
+            -6.9140119
           ],
           [
-            107.6412294,
-            -6.9140332
+            107.6412274,
+            -6.9140241
           ],
           [
-            107.6410867,
-            -6.9140514
+            107.6410877,
+            -6.9140393
           ],
           [
-            107.6409986,
-            -6.9140626
+            107.6409956,
+            -6.9140515
           ],
           [
-            107.6405342,
-            -6.9141216
+            107.6405312,
+            -6.9141105
           ],
           [
-            107.6404441,
-            -6.914133
+            107.6404431,
+            -6.9141209
           ],
           [
-            107.6403058,
-            -6.9141506
+            107.6403048,
+            -6.9141385
           ],
           [
-            107.6402235,
-            -6.9141611
+            107.6402144,
+            -6.914148
           ],
           [
-            107.6399572,
-            -6.9141974
+            107.6399554,
+            -6.914178
           ],
           [
-            107.6399016,
-            -6.9142036
+            107.6398939,
+            -6.914186
           ],
           [
-            107.639752,
-            -6.914221
+            107.6397497,
+            -6.9142026
           ],
           [
-            107.6394886,
-            -6.9142545
+            107.6394855,
+            -6.9142369
           ],
           [
-            107.6393055,
-            -6.9142777
+            107.6393217,
+            -6.9142593
           ],
           [
-            107.6391705,
-            -6.9142949
+            107.6391686,
+            -6.914281
           ],
           [
-            107.6390974,
-            -6.9143035
+            107.6390956,
+            -6.9142912
           ],
           [
-            107.6389372,
-            -6.914324
+            107.6389363,
+            -6.9143117
           ],
           [
             107.6388474,
-            -6.914336
+            -6.9143228
           ],
           [
-            107.6386476,
-            -6.9143613
+            107.6386441,
+            -6.9143525
           ],
           [
-            107.6385849,
-            -6.9143693
+            107.6385822,
+            -6.9143614
           ],
           [
-            107.6384709,
-            -6.9143838
+            107.6385215,
+            -6.9143724
+          ],
+          [
+            107.6384678,
+            -6.9143807
           ],
           [
             107.6381956,
@@ -1973,6 +2003,9 @@
         "id": 330960872,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
@@ -1980,7 +2013,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -2228,9 +2261,9 @@
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
         "bicycle": "yes",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right": "no",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
@@ -2238,8 +2271,8 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
-        "smoothness": "good",
+        "sidewalk:both": "separate",
+        "smoothness": "excellent",
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "yes",
@@ -2364,12 +2397,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6120118,
-            -6.9217387
+            107.6120154,
+            -6.9217245
           ],
           [
-            107.6118192,
-            -6.9217111
+            107.6118219,
+            -6.9217006
           ]
         ]
       },
@@ -2394,24 +2427,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6077991,
-            -6.9212366
+            107.6077961,
+            -6.9212245
           ],
           [
-            107.6076803,
-            -6.9212261
+            107.6076762,
+            -6.9212089
           ],
           [
-            107.6075733,
-            -6.9212152
+            107.6075753,
+            -6.921193
           ],
           [
-            107.6072393,
-            -6.9211768
+            107.6072432,
+            -6.9211493
           ],
           [
-            107.6072035,
-            -6.9211727
+            107.607195,
+            -6.9211421
           ]
         ]
       },
@@ -2468,8 +2501,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6422888,
-            -6.9139602
+            107.6422876,
+            -6.9139498
           ],
           [
             107.6421252,
@@ -2517,6 +2550,10 @@
           [
             107.6122183,
             -6.920038
+          ],
+          [
+            107.6122118,
+            -6.9200856
           ],
           [
             107.6122092,
@@ -2700,8 +2737,8 @@
             -6.9138756
           ],
           [
-            107.6422888,
-            -6.9139602
+            107.6422876,
+            -6.9139498
           ]
         ]
       },
@@ -2860,12 +2897,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6080507,
-            -6.92126
+            107.6094601,
+            -6.9214117
           ],
           [
-            107.6077991,
-            -6.9212366
+            107.6092801,
+            -6.921392
+          ],
+          [
+            107.6090723,
+            -6.9213678
+          ],
+          [
+            107.6088911,
+            -6.921347
+          ],
+          [
+            107.6087921,
+            -6.9213346
+          ],
+          [
+            107.6082723,
+            -6.9212776
+          ],
+          [
+            107.6080497,
+            -6.9212529
+          ],
+          [
+            107.6077961,
+            -6.9212245
           ]
         ]
       },
@@ -3085,16 +3146,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6069278,
-            -6.9211397
+            107.6069008,
+            -6.9211076
           ],
           [
-            107.6066723,
-            -6.9211072
+            107.6066769,
+            -6.9210774
           ],
           [
-            107.6064546,
-            -6.9210818
+            107.6064585,
+            -6.9210512
           ]
         ]
       },
@@ -3281,34 +3342,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6022243,
-            -6.92058
-          ],
-          [
-            107.6021351,
-            -6.9205669
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1220953664,
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Jendral Sudirman",
-        "name:etymology:wikidata": "Q2367329",
-        "name:etymology:wikipedia": "id:Soedirman",
-        "oneway": "yes",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6313572,
             -6.9186866
           ],
@@ -3450,47 +3483,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6207064,
-            -6.9058762
-          ],
-          [
-            107.6205649,
-            -6.905862
-          ],
-          [
-            107.6203632,
-            -6.9058522
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1243068366,
-        "alt_name": "Jalan Riau",
-        "avgspeed": "30",
-        "bicycle": "yes",
-        "cycleway": "lane",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right:lane": "advisory",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan L.L. RE. Martadinata",
-        "name:etymology:wikidata": "Q5928807",
-        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
-        "ref": "2318",
-        "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
-        "smoothness": "good",
-        "source": "S2City_POI_2022",
-        "surface": "asphalt",
-        "wheelchair": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.621213,
             -6.9059876
           ],
@@ -3509,16 +3501,24 @@
           [
             107.6207064,
             -6.9058762
+          ],
+          [
+            107.6205649,
+            -6.905862
+          ],
+          [
+            107.6203632,
+            -6.9058522
           ]
         ]
       },
       "properties": {
-        "id": 1243068367,
+        "id": 1243068366,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
         "bicycle": "yes",
-        "cycleway": "lane",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
         "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
@@ -3527,7 +3527,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
         "surface": "asphalt",
@@ -3570,16 +3570,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6071455,
-            -6.9211653
+            107.6071309,
+            -6.9211347
           ],
           [
-            107.606984,
-            -6.9211463
+            107.6069871,
+            -6.9211172
           ],
           [
-            107.6069278,
-            -6.9211397
+            107.6069008,
+            -6.9211076
           ]
         ]
       },
@@ -3716,70 +3716,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5997986,
-            -6.9202943
-          ],
-          [
-            107.5997449,
-            -6.9202871
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1344899067,
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Jendral Sudirman",
-        "name:etymology:wikidata": "Q2367329",
-        "name:etymology:wikipedia": "id:Soedirman",
-        "oneway": "yes",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5997449,
-            -6.9202871
-          ],
-          [
-            107.5985204,
-            -6.9201398
-          ],
-          [
-            107.598497,
-            -6.920137
-          ],
-          [
-            107.5983386,
-            -6.9201181
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1344899068,
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Jendral Sudirman",
-        "name:etymology:wikidata": "Q2367329",
-        "name:etymology:wikipedia": "id:Soedirman",
-        "oneway": "yes",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5982729,
             -6.9163191
           ],
@@ -3873,7 +3809,8 @@
         "id": 1434389929,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
         "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "4",
@@ -3882,7 +3819,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -3906,67 +3843,11 @@
           [
             107.6113975,
             -6.9070401
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1434389930,
-        "alt_name": "Jalan Riau",
-        "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right:lane": "advisory",
-        "highway": "secondary",
-        "lanes": "4",
-        "name": "Jalan L.L. RE. Martadinata",
-        "name:etymology:wikidata": "Q5928807",
-        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
-        "ref": "2318",
-        "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6113975,
-            -6.9070401
           ],
           [
             107.6113747,
             -6.9070385
           ],
-          [
-            107.6111706,
-            -6.9070246
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1434389931,
-        "alt_name": "Jalan Riau",
-        "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right:lane": "advisory",
-        "highway": "secondary",
-        "lanes": "4",
-        "name": "Jalan L.L. RE. Martadinata",
-        "name:etymology:wikidata": "Q5928807",
-        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
-        "ref": "2318",
-        "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [
             107.6111706,
             -6.9070246
@@ -3986,10 +3867,11 @@
         ]
       },
       "properties": {
-        "id": 1434389932,
+        "id": 1434389930,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
         "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "4",
@@ -3998,7 +3880,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -4135,12 +4017,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6098247,
-            -6.9214728
+            107.6098267,
+            -6.921461
+          ],
+          [
+            107.6097986,
+            -6.9214572
           ],
           [
             107.6094601,
-            -6.9214292
+            -6.9214117
           ]
         ]
       },
@@ -4166,443 +4052,61 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6094601,
-            -6.9214292
+            107.6118219,
+            -6.9217006
           ],
           [
-            107.6092781,
-            -6.9214081
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1445399254,
-        "avgspeed": "40",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "advisory",
-        "cycleway:right": "no",
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Jalan Asia Afrika",
-        "oneway": "yes",
-        "parking:both": "no",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6092781,
-            -6.9214081
+            107.6115001,
+            -6.9216626
           ],
           [
-            107.6090693,
-            -6.9213829
+            107.6114214,
+            -6.9216524
           ],
           [
-            107.6088891,
-            -6.9213611
+            107.6112374,
+            -6.9216318
           ],
           [
-            107.6087887,
-            -6.9213491
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1445399255,
-        "avgspeed": "40",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "advisory",
-        "cycleway:right": "no",
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Jalan Asia Afrika",
-        "oneway": "yes",
-        "parking:both": "no",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6087887,
-            -6.9213491
+            107.6110246,
+            -6.9216047
           ],
           [
-            107.6087588,
-            -6.9213455
+            107.6108437,
+            -6.9215848
           ],
           [
-            107.6086038,
-            -6.921327
+            107.6106307,
+            -6.9215569
           ],
           [
-            107.6082703,
-            -6.9212857
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1445399256,
-        "avgspeed": "40",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "advisory",
-        "cycleway:right": "no",
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Jalan Asia Afrika",
-        "oneway": "yes",
-        "parking:both": "no",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6082703,
-            -6.9212857
+            107.6104259,
+            -6.9215335
           ],
           [
-            107.6081802,
-            -6.9212757
+            107.610212,
+            -6.9215095
           ],
           [
-            107.6080507,
-            -6.92126
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1445399257,
-        "avgspeed": "40",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "advisory",
-        "cycleway:right": "no",
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Jalan Asia Afrika",
-        "oneway": "yes",
-        "parking:both": "no",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6118192,
-            -6.9217111
+            107.6101463,
+            -6.9215025
           ],
           [
-            107.6114983,
-            -6.9216723
+            107.6099829,
+            -6.9214819
+          ],
+          [
+            107.6099373,
+            -6.9214762
+          ],
+          [
+            107.6098267,
+            -6.921461
           ]
         ]
       },
       "properties": {
         "id": 1445399258,
-        "avgspeed": "40",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "advisory",
-        "cycleway:right": "no",
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Jalan Asia Afrika",
-        "oneway": "yes",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6114983,
-            -6.9216723
-          ],
-          [
-            107.6114205,
-            -6.9216629
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1445399259,
-        "avgspeed": "40",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "advisory",
-        "cycleway:right": "no",
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Jalan Asia Afrika",
-        "oneway": "yes",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6114205,
-            -6.9216629
-          ],
-          [
-            107.6112374,
-            -6.9216415
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1445399260,
-        "avgspeed": "40",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "advisory",
-        "cycleway:right": "no",
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Jalan Asia Afrika",
-        "oneway": "yes",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6112374,
-            -6.9216415
-          ],
-          [
-            107.6110264,
-            -6.921617
-          ],
-          [
-            107.6108437,
-            -6.9215945
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1445399261,
-        "avgspeed": "40",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "advisory",
-        "cycleway:right": "no",
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Jalan Asia Afrika",
-        "oneway": "yes",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6108437,
-            -6.9215945
-          ],
-          [
-            107.6106298,
-            -6.9215692
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1445399262,
-        "avgspeed": "40",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "advisory",
-        "cycleway:right": "no",
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Jalan Asia Afrika",
-        "oneway": "yes",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6106298,
-            -6.9215692
-          ],
-          [
-            107.6104268,
-            -6.9215449
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1445399263,
-        "avgspeed": "40",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "advisory",
-        "cycleway:right": "no",
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Jalan Asia Afrika",
-        "oneway": "yes",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6104268,
-            -6.9215449
-          ],
-          [
-            107.610212,
-            -6.9215192
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1445399264,
-        "avgspeed": "40",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "advisory",
-        "cycleway:right": "no",
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Jalan Asia Afrika",
-        "oneway": "yes",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.610212,
-            -6.9215192
-          ],
-          [
-            107.6101457,
-            -6.9215112
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1445399265,
-        "avgspeed": "40",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "advisory",
-        "cycleway:right": "no",
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Jalan Asia Afrika",
-        "oneway": "yes",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6101457,
-            -6.9215112
-          ],
-          [
-            107.6100483,
-            -6.9214995
-          ],
-          [
-            107.6099811,
-            -6.9214915
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1445399266,
-        "avgspeed": "40",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "advisory",
-        "cycleway:right": "no",
-        "highway": "primary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Jalan Asia Afrika",
-        "oneway": "yes",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6099811,
-            -6.9214915
-          ],
-          [
-            107.6099361,
-            -6.9214856
-          ],
-          [
-            107.6098247,
-            -6.9214728
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1445399267,
         "avgspeed": "40",
         "cycleway:left": "lane",
         "cycleway:left:lane": "advisory",
@@ -4647,6 +4151,46 @@
         "oneway": "yes",
         "ref": "3836",
         "reg_ref": "22-10-3836",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6299627,
+            -6.9157488
+          ],
+          [
+            107.629917,
+            -6.9156449
+          ],
+          [
+            107.629839,
+            -6.9154679
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1547640547,
+        "alt_name": "Jalan Riau",
+        "avgspeed": "30",
+        "cycleway": "no",
+        "cycleway:left:lane": "exclusive",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     }

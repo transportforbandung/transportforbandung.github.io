@@ -7,80 +7,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6159798,
-            -6.9013693
-          ],
-          [
-            107.615855,
-            -6.9014864
-          ],
-          [
-            107.6156102,
-            -6.9017268
-          ],
-          [
-            107.6154632,
-            -6.9018918
-          ],
-          [
-            107.6153066,
-            -6.9020254
-          ],
-          [
-            107.6152904,
-            -6.902041
-          ],
-          [
-            107.6151956,
-            -6.9021326
-          ],
-          [
-            107.6151341,
-            -6.9021756
-          ],
-          [
-            107.6150537,
-            -6.902206
-          ],
-          [
-            107.6145138,
-            -6.9022384
-          ],
-          [
-            107.6143729,
-            -6.9022742
-          ],
-          [
-            107.6139964,
-            -6.9026034
-          ],
-          [
-            107.6137283,
-            -6.9028378
-          ]
-        ]
-      },
-      "properties": {
-        "id": 4256290,
-        "avgspeed": "25",
-        "highway": "tertiary",
-        "lanes": "2",
-        "name": "Jalan Trunojoyo",
-        "oneway": "no",
-        "parking:left": "no",
-        "parking:right": "lane",
-        "parking:right:orientation": "parallel",
-        "ref": "2409",
-        "reg_ref": "22-10-2409",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6117292,
             -6.9070622
           ],
@@ -451,11 +377,15 @@
             -6.9164303
           ],
           [
-            107.6044104,
+            107.6044248,
+            -6.9167276
+          ],
+          [
+            107.6044046,
             -6.9168859
           ],
           [
-            107.6043912,
+            107.6043842,
             -6.9170712
           ],
           [
@@ -660,6 +590,124 @@
         "id": 95610598,
         "highway": "tertiary",
         "name": "Jalan Karawitan",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6167125,
+            -6.8991863
+          ],
+          [
+            107.6166576,
+            -6.8991786
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153312971,
+        "bicycle": "yes",
+        "destination": "Cikapayang;Pasupati;Pasteur;Djundjunan",
+        "destination:lanes": "Cikapayang;Dago;Tamansari|Pasupati;Pasteur;Djundjunan",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "name:en": "Untung Surapati Avenue",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6166576,
+            -6.8991786
+          ],
+          [
+            107.6165356,
+            -6.8992206
+          ],
+          [
+            107.616428,
+            -6.8992677
+          ],
+          [
+            107.6162456,
+            -6.8994129
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153316270,
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "1",
+        "name": "Jalan Aria Jipang",
+        "oneway": "yes",
+        "ref": "386",
+        "reg_ref": "22-00-386K",
+        "surface": "asphalt",
+        "width": "4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6180078,
+            -6.8994561
+          ],
+          [
+            107.6179594,
+            -6.8994463
+          ],
+          [
+            107.6175848,
+            -6.8993817
+          ],
+          [
+            107.6172942,
+            -6.899333
+          ],
+          [
+            107.6170304,
+            -6.8992912
+          ],
+          [
+            107.6169055,
+            -6.8992649
+          ],
+          [
+            107.6167897,
+            -6.89924
+          ],
+          [
+            107.6167125,
+            -6.8991863
+          ]
+        ]
+      },
+      "properties": {
+        "id": 153319330,
+        "access": "yes",
+        "highway": "primary",
+        "lanes": "1",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "oneway": "yes",
+        "parking": "no",
         "surface": "asphalt"
       }
     },
@@ -1103,7 +1151,7 @@
         "cycleway:left": "lane",
         "cycleway:right": "no",
         "foot": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sumbawa",
         "oneway": "yes",
@@ -1897,6 +1945,36 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6150711,
+            -6.9006334
+          ],
+          [
+            107.6154093,
+            -6.900922
+          ]
+        ]
+      },
+      "properties": {
+        "id": 318052007,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "ref": "381",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6172878,
             -6.9135725
           ],
@@ -1924,7 +2002,7 @@
         "cycleway:left": "lane",
         "cycleway:right": "no",
         "foot": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Sumbawa",
         "oneway": "yes",
@@ -2068,8 +2146,8 @@
             -6.9195533
           ],
           [
-            107.6224657,
-            -6.9197478
+            107.6224719,
+            -6.9197548
           ],
           [
             107.6221779,
@@ -2140,38 +2218,6 @@
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6159798,
-            -6.9013693
-          ],
-          [
-            107.6163648,
-            -6.901357
-          ]
-        ]
-      },
-      "properties": {
-        "id": 320423244,
-        "avgspeed": "30",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Diponegoro",
-        "name:etymology:wikidata": "Q28899",
-        "name:etymology:wikipedia": "id:Diponegoro",
-        "parking:both": "no",
-        "ref": "381",
-        "sidewalk:left": "yes",
-        "sidewalk:right": "separate",
         "surface": "asphalt"
       }
     },
@@ -2292,6 +2338,57 @@
         "highway": "primary_link",
         "lanes": "1",
         "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6162456,
+            -6.8994129
+          ],
+          [
+            107.6162134,
+            -6.8994493
+          ],
+          [
+            107.6160568,
+            -6.8995735
+          ],
+          [
+            107.615847,
+            -6.8997551
+          ],
+          [
+            107.6156875,
+            -6.8999054
+          ],
+          [
+            107.6154024,
+            -6.9002108
+          ],
+          [
+            107.6153734,
+            -6.9002409
+          ],
+          [
+            107.6150711,
+            -6.9006334
+          ]
+        ]
+      },
+      "properties": {
+        "id": 321031842,
+        "avgspeed": "20",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "tertiary",
+        "name": "Jalan Aria Jipang",
+        "ref": "386",
+        "reg_ref": "22-00-386K",
+        "surface": "asphalt"
       }
     },
     {
@@ -2524,6 +2621,30 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6156102,
+            -6.9017268
+          ],
+          [
+            107.6155959,
+            -6.9010813
+          ]
+        ]
+      },
+      "properties": {
+        "id": 555103798,
+        "highway": "primary_link",
+        "lane_markings": "yes",
+        "lanes": "2",
+        "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6109032,
             -6.9056145
           ],
@@ -2712,7 +2833,7 @@
       "properties": {
         "id": 555601273,
         "avgspeed": "30",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
@@ -3043,7 +3164,7 @@
         "id": 769054482,
         "avgspeed": "30",
         "destination:lanes": "Braga|Jawa;Sumbawa;Bangka;Gudang|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
@@ -3173,55 +3294,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6169735,
-            -6.9013373
-          ],
-          [
-            107.6170693,
-            -6.9013319
-          ],
-          [
-            107.617339,
-            -6.9013203
-          ],
-          [
-            107.6175528,
-            -6.901311
-          ],
-          [
-            107.6176351,
-            -6.9013075
-          ],
-          [
-            107.6180552,
-            -6.9012929
-          ]
-        ]
-      },
-      "properties": {
-        "id": 786140042,
-        "avgspeed": "30",
-        "bicycle": "yes",
-        "cycleway:both": "no",
-        "foot": "yes",
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Diponegoro",
-        "name:etymology:wikidata": "Q28899",
-        "name:etymology:wikipedia": "id:Diponegoro",
-        "parking:both": "no",
-        "ref": "381",
-        "sidewalk:left": "yes",
-        "sidewalk:right": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6101984,
             -6.9153866
           ],
@@ -3315,6 +3387,10 @@
           [
             107.6306376,
             -6.9452719
+          ],
+          [
+            107.6301629,
+            -6.944779
           ],
           [
             107.6299147,
@@ -4088,8 +4164,16 @@
             -6.917436
           ],
           [
-            107.6042904,
-            -6.9182779
+            107.6043216,
+            -6.9177621
+          ],
+          [
+            107.6042891,
+            -6.9181663
+          ],
+          [
+            107.6042799,
+            -6.9182744
           ]
         ]
       },
@@ -4273,6 +4357,10 @@
             -6.9211858
           ],
           [
+            107.6177726,
+            -6.9211032
+          ],
+          [
             107.6178524,
             -6.9204334
           ]
@@ -4282,7 +4370,7 @@
         "id": 1193893116,
         "avgspeed": "30",
         "destination:lanes": "Jawa;Sumbawa;Bangka;Gudang|Jawa;Sumbawa;Bangka;Gudang|Ahmad Yani;Simpang Lima;Kosambi;Gatot Subroto",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "3",
         "name": "Jalan Sunda",
         "oneway": "yes",
@@ -4317,43 +4405,6 @@
         "name": "Jalan Pelajar Pejuang 45",
         "oneway": "yes",
         "ref": "376",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6181346,
-            -6.8994725
-          ],
-          [
-            107.6181363,
-            -6.8995197
-          ],
-          [
-            107.6181534,
-            -6.9011317
-          ],
-          [
-            107.618155,
-            -6.9012865
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1201404096,
-        "access": "yes",
-        "highway": "primary",
-        "lanes": "1",
-        "maxspeed": "20",
-        "name": "Jalan Majapahit",
-        "oneway": "yes",
-        "parking": "no",
-        "ref": "387",
-        "reg_ref": "22-00-387-11K",
         "surface": "asphalt"
       }
     },
@@ -4652,11 +4703,11 @@
             -6.9189771
           ],
           [
-            107.623691,
-            -6.9191148
+            107.6236923,
+            -6.9191175
           ],
           [
-            107.6236062,
+            107.6236089,
             -6.9191602
           ],
           [
@@ -4684,104 +4735,6 @@
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6164318,
-            -6.9013546
-          ],
-          [
-            107.6167683,
-            -6.9013466
-          ],
-          [
-            107.6168907,
-            -6.9013406
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1384127083,
-        "avgspeed": "30",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Diponegoro",
-        "name:etymology:wikidata": "Q28899",
-        "name:etymology:wikipedia": "id:Diponegoro",
-        "parking:both": "no",
-        "ref": "381",
-        "sidewalk:left": "yes",
-        "sidewalk:right": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6163648,
-            -6.901357
-          ],
-          [
-            107.6164318,
-            -6.9013546
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1384127084,
-        "avgspeed": "30",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Diponegoro",
-        "name:etymology:wikidata": "Q28899",
-        "name:etymology:wikipedia": "id:Diponegoro",
-        "parking:both": "no",
-        "ref": "381",
-        "sidewalk:left": "yes",
-        "sidewalk:right": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6168907,
-            -6.9013406
-          ],
-          [
-            107.6169735,
-            -6.9013373
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1384127085,
-        "avgspeed": "30",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Diponegoro",
-        "name:etymology:wikidata": "Q28899",
-        "name:etymology:wikipedia": "id:Diponegoro",
-        "parking:both": "no",
-        "ref": "381",
         "surface": "asphalt"
       }
     },
@@ -4864,8 +4817,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6042904,
-            -6.9182779
+            107.6042799,
+            -6.9182744
+          ],
+          [
+            107.6043277,
+            -6.91829
           ],
           [
             107.6043619,
@@ -4960,67 +4917,11 @@
           [
             107.6113975,
             -6.9070401
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1434389930,
-        "alt_name": "Jalan Riau",
-        "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right:lane": "advisory",
-        "highway": "secondary",
-        "lanes": "4",
-        "name": "Jalan L.L. RE. Martadinata",
-        "name:etymology:wikidata": "Q5928807",
-        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
-        "ref": "2318",
-        "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6113975,
-            -6.9070401
           ],
           [
             107.6113747,
             -6.9070385
           ],
-          [
-            107.6111706,
-            -6.9070246
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1434389931,
-        "alt_name": "Jalan Riau",
-        "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right:lane": "advisory",
-        "highway": "secondary",
-        "lanes": "4",
-        "name": "Jalan L.L. RE. Martadinata",
-        "name:etymology:wikidata": "Q5928807",
-        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
-        "ref": "2318",
-        "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [
             107.6111706,
             -6.9070246
@@ -5040,10 +4941,11 @@
         ]
       },
       "properties": {
-        "id": 1434389932,
+        "id": 1434389930,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
         "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "4",
@@ -5052,7 +4954,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -5853,39 +5755,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.618155,
-            -6.9012865
-          ],
-          [
-            107.6180552,
-            -6.9012929
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1537034993,
-        "avgspeed": "30",
-        "bicycle": "yes",
-        "cycleway:both": "no",
-        "foot": "yes",
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Diponegoro",
-        "name:etymology:wikidata": "Q28899",
-        "name:etymology:wikipedia": "id:Diponegoro",
-        "oneway": "yes",
-        "parking:both": "no",
-        "ref": "381",
-        "sidewalk:both": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6193024,
             -6.9011929
           ],
@@ -5933,6 +5802,37 @@
         "type": "LineString",
         "coordinates": [
           [
+            107.6181346,
+            -6.8994725
+          ],
+          [
+            107.6180909,
+            -6.8994652
+          ],
+          [
+            107.6180078,
+            -6.8994561
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1537271399,
+        "access": "yes",
+        "highway": "primary",
+        "lanes": "1",
+        "loc_name": "Jalan Surapati",
+        "name": "Jalan Surapati",
+        "oneway": "yes",
+        "parking": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             107.6191218,
             -6.8994349
           ],
@@ -5962,6 +5862,154 @@
         "parking": "no",
         "ref": "387",
         "reg_ref": "22-00-387-11K",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6143729,
+            -6.9022742
+          ],
+          [
+            107.6139964,
+            -6.9026034
+          ],
+          [
+            107.6137283,
+            -6.9028378
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1545094384,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Trunojoyo",
+        "oneway": "no",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
+        "ref": "2409",
+        "reg_ref": "22-10-2409",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6154632,
+            -6.9018918
+          ],
+          [
+            107.6153066,
+            -6.9020254
+          ],
+          [
+            107.6152904,
+            -6.902041
+          ],
+          [
+            107.6151956,
+            -6.9021326
+          ],
+          [
+            107.6151341,
+            -6.9021756
+          ],
+          [
+            107.6150537,
+            -6.902206
+          ],
+          [
+            107.6145138,
+            -6.9022384
+          ],
+          [
+            107.6143729,
+            -6.9022742
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1545094385,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Trunojoyo",
+        "oneway": "no",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
+        "ref": "2409",
+        "reg_ref": "22-10-2409",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6156102,
+            -6.9017268
+          ],
+          [
+            107.6154632,
+            -6.9018918
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1545094386,
+        "avgspeed": "25",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Jalan Trunojoyo",
+        "oneway": "no",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
+        "ref": "2409",
+        "reg_ref": "22-10-2409",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6154093,
+            -6.900922
+          ],
+          [
+            107.6155959,
+            -6.9010813
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1545094387,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "ref": "381",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     }

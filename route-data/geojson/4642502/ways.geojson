@@ -1029,16 +1029,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6343866,
-            -6.9134014
+            107.6343799,
+            -6.9133894
           ],
           [
-            107.6344419,
-            -6.9133722
+            107.634444,
+            -6.9133589
           ],
           [
-            107.6344916,
-            -6.9133543
+            107.6344903,
+            -6.913351
           ],
           [
             107.6345495,
@@ -1243,7 +1243,8 @@
         "id": 317743191,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
         "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "4",
@@ -1252,7 +1253,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -1646,8 +1647,8 @@
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
         "bicycle": "yes",
-        "cycleway": "lane",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
         "cycleway:right:lane": "advisory",
         "destination:backward": "Simpang Banda",
         "destination:forward": "Simpang Trunojoyo",
@@ -1659,7 +1660,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
         "surface": "asphalt",
@@ -1677,8 +1678,8 @@
             -6.9133508
           ],
           [
-            107.6348123,
-            -6.9131999
+            107.6348487,
+            -6.913186
           ],
           [
             107.6350723,
@@ -1785,8 +1786,8 @@
             -6.9098264
           ],
           [
-            107.6414299,
-            -6.909687
+            107.6414308,
+            -6.9096807
           ],
           [
             107.6415303,
@@ -1797,8 +1798,8 @@
             -6.9095608
           ],
           [
-            107.6418763,
-            -6.9094368
+            107.6418783,
+            -6.9094408
           ]
         ]
       },
@@ -1871,8 +1872,8 @@
             -6.9133508
           ],
           [
-            107.6343866,
-            -6.9134014
+            107.6343799,
+            -6.9133894
           ]
         ]
       },
@@ -1943,8 +1944,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6418763,
-            -6.9094368
+            107.6418783,
+            -6.9094408
+          ],
+          [
+            107.6419193,
+            -6.9094355
           ],
           [
             107.6420289,
@@ -1953,6 +1958,10 @@
           [
             107.6421602,
             -6.9093246
+          ],
+          [
+            107.6427522,
+            -6.9090058
           ],
           [
             107.6430381,
@@ -2078,8 +2087,8 @@
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
         "bicycle": "yes",
-        "cycleway": "lane",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
         "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
@@ -2088,7 +2097,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
         "surface": "asphalt",
@@ -2740,6 +2749,9 @@
         "id": 330960872,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
@@ -2747,7 +2759,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -2765,8 +2777,8 @@
             -6.9135412
           ],
           [
-            107.6437231,
-            -6.9136421
+            107.6437211,
+            -6.9136255
           ]
         ]
       },
@@ -3025,9 +3037,9 @@
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
         "bicycle": "yes",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right": "no",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan L.L. RE. Martadinata",
@@ -3035,8 +3047,8 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
-        "smoothness": "good",
+        "sidewalk:both": "separate",
+        "smoothness": "excellent",
         "source": "S2City_POI_2022",
         "surface": "asphalt",
         "wheelchair": "yes",
@@ -3614,8 +3626,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6437231,
-            -6.9136421
+            107.6437211,
+            -6.9136255
           ],
           [
             107.6437379,
@@ -5979,47 +5991,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6207064,
-            -6.9058762
-          ],
-          [
-            107.6205649,
-            -6.905862
-          ],
-          [
-            107.6203632,
-            -6.9058522
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1243068366,
-        "alt_name": "Jalan Riau",
-        "avgspeed": "30",
-        "bicycle": "yes",
-        "cycleway": "lane",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right:lane": "advisory",
-        "highway": "secondary",
-        "lanes": "2",
-        "name": "Jalan L.L. RE. Martadinata",
-        "name:etymology:wikidata": "Q5928807",
-        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
-        "ref": "2318",
-        "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
-        "smoothness": "good",
-        "source": "S2City_POI_2022",
-        "surface": "asphalt",
-        "wheelchair": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.621213,
             -6.9059876
           ],
@@ -6038,16 +6009,24 @@
           [
             107.6207064,
             -6.9058762
+          ],
+          [
+            107.6205649,
+            -6.905862
+          ],
+          [
+            107.6203632,
+            -6.9058522
           ]
         ]
       },
       "properties": {
-        "id": 1243068367,
+        "id": 1243068366,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
         "bicycle": "yes",
-        "cycleway": "lane",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
         "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
@@ -6056,7 +6035,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "smoothness": "good",
         "source": "S2City_POI_2022",
         "surface": "asphalt",
@@ -6717,7 +6696,8 @@
         "id": 1434389929,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
         "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "4",
@@ -6726,7 +6706,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -6750,67 +6730,11 @@
           [
             107.6113975,
             -6.9070401
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1434389930,
-        "alt_name": "Jalan Riau",
-        "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right:lane": "advisory",
-        "highway": "secondary",
-        "lanes": "4",
-        "name": "Jalan L.L. RE. Martadinata",
-        "name:etymology:wikidata": "Q5928807",
-        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
-        "ref": "2318",
-        "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6113975,
-            -6.9070401
           ],
           [
             107.6113747,
             -6.9070385
           ],
-          [
-            107.6111706,
-            -6.9070246
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1434389931,
-        "alt_name": "Jalan Riau",
-        "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right:lane": "advisory",
-        "highway": "secondary",
-        "lanes": "4",
-        "name": "Jalan L.L. RE. Martadinata",
-        "name:etymology:wikidata": "Q5928807",
-        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
-        "ref": "2318",
-        "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
           [
             107.6111706,
             -6.9070246
@@ -6830,10 +6754,11 @@
         ]
       },
       "properties": {
-        "id": 1434389932,
+        "id": 1434389930,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
         "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "4",
@@ -6842,7 +6767,7 @@
         "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },

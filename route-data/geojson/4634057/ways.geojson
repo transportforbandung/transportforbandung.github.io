@@ -7,14 +7,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6299627,
-            -6.9157488
-          ],
-          [
-            107.629917,
-            -6.9156449
-          ],
-          [
             107.629839,
             -6.9154679
           ],
@@ -29,7 +21,7 @@
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
         "cycleway:left": "lane",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:left:lane": "advisory",
         "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
@@ -41,7 +33,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -661,8 +654,12 @@
             -6.8862613
           ],
           [
-            107.6148941,
-            -6.8864117
+            107.6148507,
+            -6.8862747
+          ],
+          [
+            107.6148713,
+            -6.8863397
           ],
           [
             107.6149493,
@@ -944,9 +941,9 @@
         "id": 244802256,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right": "no",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
@@ -956,7 +953,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -979,7 +977,7 @@
         "id": 244802258,
         "alt_name": "Jalan Riau",
         "cycleway:left": "lane",
-        "cycleway:left:lane": "exclusive",
+        "cycleway:left:lane": "advisory",
         "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
@@ -991,7 +989,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -1297,14 +1296,6 @@
           [
             107.6154093,
             -6.900922
-          ],
-          [
-            107.6155959,
-            -6.9010813
-          ],
-          [
-            107.6159798,
-            -6.9013693
           ]
         ]
       },
@@ -1899,87 +1890,91 @@
           ],
           [
             107.6414919,
-            -6.9139998
+            -6.9139937
           ],
           [
-            107.641333,
-            -6.91402
+            107.641334,
+            -6.9140119
           ],
           [
-            107.6412294,
-            -6.9140332
+            107.6412274,
+            -6.9140241
           ],
           [
-            107.6410867,
-            -6.9140514
+            107.6410877,
+            -6.9140393
           ],
           [
-            107.6409986,
-            -6.9140626
+            107.6409956,
+            -6.9140515
           ],
           [
-            107.6405342,
-            -6.9141216
+            107.6405312,
+            -6.9141105
           ],
           [
-            107.6404441,
-            -6.914133
+            107.6404431,
+            -6.9141209
           ],
           [
-            107.6403058,
-            -6.9141506
+            107.6403048,
+            -6.9141385
           ],
           [
-            107.6402235,
-            -6.9141611
+            107.6402144,
+            -6.914148
           ],
           [
-            107.6399572,
-            -6.9141974
+            107.6399554,
+            -6.914178
           ],
           [
-            107.6399016,
-            -6.9142036
+            107.6398939,
+            -6.914186
           ],
           [
-            107.639752,
-            -6.914221
+            107.6397497,
+            -6.9142026
           ],
           [
-            107.6394886,
-            -6.9142545
+            107.6394855,
+            -6.9142369
           ],
           [
-            107.6393055,
-            -6.9142777
+            107.6393217,
+            -6.9142593
           ],
           [
-            107.6391705,
-            -6.9142949
+            107.6391686,
+            -6.914281
           ],
           [
-            107.6390974,
-            -6.9143035
+            107.6390956,
+            -6.9142912
           ],
           [
-            107.6389372,
-            -6.914324
+            107.6389363,
+            -6.9143117
           ],
           [
             107.6388474,
-            -6.914336
+            -6.9143228
           ],
           [
-            107.6386476,
-            -6.9143613
+            107.6386441,
+            -6.9143525
           ],
           [
-            107.6385849,
-            -6.9143693
+            107.6385822,
+            -6.9143614
           ],
           [
-            107.6384709,
-            -6.9143838
+            107.6385215,
+            -6.9143724
+          ],
+          [
+            107.6384678,
+            -6.9143807
           ],
           [
             107.6381956,
@@ -2511,8 +2506,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6422888,
-            -6.9139602
+            107.6422876,
+            -6.9139498
           ],
           [
             107.6421252,
@@ -3317,8 +3312,8 @@
             -6.9138756
           ],
           [
-            107.6422888,
-            -6.9139602
+            107.6422876,
+            -6.9139498
           ]
         ]
       },
@@ -6606,6 +6601,106 @@
         "highway": "unclassified",
         "name": "Jalan Riung Tineung",
         "name:en": "Riung Tineung Way",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6154093,
+            -6.900922
+          ],
+          [
+            107.6155959,
+            -6.9010813
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1545094387,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "ref": "381",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6155959,
+            -6.9010813
+          ],
+          [
+            107.6159798,
+            -6.9013693
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1545094388,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Diponegoro",
+        "name:etymology:wikidata": "Q28899",
+        "name:etymology:wikipedia": "id:Diponegoro",
+        "ref": "381",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6299627,
+            -6.9157488
+          ],
+          [
+            107.629917,
+            -6.9156449
+          ],
+          [
+            107.629839,
+            -6.9154679
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1547640547,
+        "alt_name": "Jalan Riau",
+        "avgspeed": "30",
+        "cycleway": "no",
+        "cycleway:left:lane": "exclusive",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Jalan L.L. RE. Martadinata",
+        "name:etymology:wikidata": "Q5928807",
+        "name:etymology:wikipedia": "id:Raden Eddy Martadinata",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "2318",
+        "reg_ref": "22-10-2318",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     }
