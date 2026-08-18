@@ -2,6 +2,8 @@ name: Convert GeoJSON to SHP
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "30 1 * * 1"  # every Monday at 01:30 UTC
   push:
     paths:
       - 'route-data/geojson/**'
