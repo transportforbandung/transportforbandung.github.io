@@ -1,6 +1,593 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="22016">
+    <Document id="21682">
+        <Style id="21688">
+            <IconStyle id="21689">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="21690">
+                    <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="21693">
+            <IconStyle id="21694">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="21695">
+                    <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="21698">
+            <LineStyle id="21699">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21702">
+            <LineStyle id="21703">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21706">
+            <LineStyle id="21707">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21710">
+            <LineStyle id="21711">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21714">
+            <LineStyle id="21715">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21718">
+            <LineStyle id="21719">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21722">
+            <LineStyle id="21723">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21726">
+            <LineStyle id="21727">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21730">
+            <LineStyle id="21731">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21734">
+            <LineStyle id="21735">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21738">
+            <LineStyle id="21739">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21742">
+            <LineStyle id="21743">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21746">
+            <LineStyle id="21747">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21750">
+            <LineStyle id="21751">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21754">
+            <LineStyle id="21755">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21758">
+            <LineStyle id="21759">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21762">
+            <LineStyle id="21763">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21766">
+            <LineStyle id="21767">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21770">
+            <LineStyle id="21771">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21774">
+            <LineStyle id="21775">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21778">
+            <LineStyle id="21779">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21782">
+            <LineStyle id="21783">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21786">
+            <LineStyle id="21787">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21790">
+            <LineStyle id="21791">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21794">
+            <LineStyle id="21795">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21798">
+            <LineStyle id="21799">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21802">
+            <LineStyle id="21803">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21806">
+            <LineStyle id="21807">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21810">
+            <LineStyle id="21811">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21814">
+            <LineStyle id="21815">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21818">
+            <LineStyle id="21819">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21822">
+            <LineStyle id="21823">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21826">
+            <LineStyle id="21827">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21830">
+            <LineStyle id="21831">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21834">
+            <LineStyle id="21835">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21838">
+            <LineStyle id="21839">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21842">
+            <LineStyle id="21843">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21846">
+            <LineStyle id="21847">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21850">
+            <LineStyle id="21851">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21854">
+            <LineStyle id="21855">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21858">
+            <LineStyle id="21859">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21862">
+            <LineStyle id="21863">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21866">
+            <LineStyle id="21867">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21870">
+            <LineStyle id="21871">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21874">
+            <LineStyle id="21875">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21878">
+            <LineStyle id="21879">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21882">
+            <LineStyle id="21883">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21886">
+            <LineStyle id="21887">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21890">
+            <LineStyle id="21891">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21894">
+            <LineStyle id="21895">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21898">
+            <LineStyle id="21899">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21902">
+            <LineStyle id="21903">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21906">
+            <LineStyle id="21907">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21910">
+            <LineStyle id="21911">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21914">
+            <LineStyle id="21915">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21918">
+            <LineStyle id="21919">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21922">
+            <LineStyle id="21923">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21926">
+            <LineStyle id="21927">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21930">
+            <LineStyle id="21931">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21934">
+            <LineStyle id="21935">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21938">
+            <LineStyle id="21939">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21942">
+            <LineStyle id="21943">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21946">
+            <LineStyle id="21947">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21950">
+            <LineStyle id="21951">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21954">
+            <LineStyle id="21955">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21958">
+            <LineStyle id="21959">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21962">
+            <LineStyle id="21963">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21966">
+            <LineStyle id="21967">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21970">
+            <LineStyle id="21971">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21974">
+            <LineStyle id="21975">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21978">
+            <LineStyle id="21979">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21982">
+            <LineStyle id="21983">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21986">
+            <LineStyle id="21987">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21990">
+            <LineStyle id="21991">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21994">
+            <LineStyle id="21995">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="21998">
+            <LineStyle id="21999">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22002">
+            <LineStyle id="22003">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22006">
+            <LineStyle id="22007">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22010">
+            <LineStyle id="22011">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22014">
+            <LineStyle id="22015">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22018">
+            <LineStyle id="22019">
+                <color>ff1B1985</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
         <Style id="22022">
             <LineStyle id="22023">
                 <color>ff1B1985</color>
@@ -344,593 +931,6 @@
                 <width>4</width>
             </LineStyle>
         </Style>
-        <Style id="22218">
-            <LineStyle id="22219">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22222">
-            <LineStyle id="22223">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22226">
-            <LineStyle id="22227">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22230">
-            <LineStyle id="22231">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22234">
-            <LineStyle id="22235">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22238">
-            <LineStyle id="22239">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22242">
-            <LineStyle id="22243">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22246">
-            <LineStyle id="22247">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22250">
-            <LineStyle id="22251">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22254">
-            <LineStyle id="22255">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22258">
-            <LineStyle id="22259">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22262">
-            <LineStyle id="22263">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22266">
-            <LineStyle id="22267">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22270">
-            <LineStyle id="22271">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22274">
-            <LineStyle id="22275">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22278">
-            <LineStyle id="22279">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22282">
-            <LineStyle id="22283">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22286">
-            <LineStyle id="22287">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22290">
-            <LineStyle id="22291">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22294">
-            <LineStyle id="22295">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22298">
-            <LineStyle id="22299">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22302">
-            <LineStyle id="22303">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22306">
-            <LineStyle id="22307">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22310">
-            <LineStyle id="22311">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22314">
-            <LineStyle id="22315">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22318">
-            <LineStyle id="22319">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22322">
-            <LineStyle id="22323">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22326">
-            <LineStyle id="22327">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22330">
-            <LineStyle id="22331">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22334">
-            <LineStyle id="22335">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22338">
-            <LineStyle id="22339">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22342">
-            <LineStyle id="22343">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22346">
-            <LineStyle id="22347">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22350">
-            <LineStyle id="22351">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22354">
-            <LineStyle id="22355">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22358">
-            <LineStyle id="22359">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22362">
-            <LineStyle id="22363">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22366">
-            <LineStyle id="22367">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22370">
-            <LineStyle id="22371">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22374">
-            <LineStyle id="22375">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22378">
-            <LineStyle id="22379">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22382">
-            <LineStyle id="22383">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22386">
-            <LineStyle id="22387">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22390">
-            <LineStyle id="22391">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22394">
-            <LineStyle id="22395">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22398">
-            <LineStyle id="22399">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22402">
-            <LineStyle id="22403">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22406">
-            <LineStyle id="22407">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22410">
-            <LineStyle id="22411">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22414">
-            <LineStyle id="22415">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22418">
-            <LineStyle id="22419">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22422">
-            <LineStyle id="22423">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22426">
-            <LineStyle id="22427">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22430">
-            <LineStyle id="22431">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22434">
-            <LineStyle id="22435">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22438">
-            <LineStyle id="22439">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22442">
-            <LineStyle id="22443">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22446">
-            <LineStyle id="22447">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22450">
-            <LineStyle id="22451">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22454">
-            <LineStyle id="22455">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22458">
-            <LineStyle id="22459">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22462">
-            <LineStyle id="22463">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22466">
-            <LineStyle id="22467">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22470">
-            <LineStyle id="22471">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22474">
-            <LineStyle id="22475">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22478">
-            <LineStyle id="22479">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22482">
-            <LineStyle id="22483">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22486">
-            <LineStyle id="22487">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22490">
-            <LineStyle id="22491">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22494">
-            <LineStyle id="22495">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22498">
-            <LineStyle id="22499">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22502">
-            <LineStyle id="22503">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22506">
-            <LineStyle id="22507">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22510">
-            <LineStyle id="22511">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22514">
-            <LineStyle id="22515">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22518">
-            <LineStyle id="22519">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22522">
-            <LineStyle id="22523">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22526">
-            <LineStyle id="22527">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22530">
-            <LineStyle id="22531">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22534">
-            <LineStyle id="22535">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22538">
-            <LineStyle id="22539">
-                <color>ff1B1985</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22542">
-            <IconStyle id="22543">
-                <colorMode>normal</colorMode>
-                <scale>1</scale>
-                <heading>0</heading>
-                <Icon id="22544">
-                    <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="22547">
-            <IconStyle id="22548">
-                <colorMode>normal</colorMode>
-                <scale>1</scale>
-                <heading>0</heading>
-                <Icon id="22549">
-                    <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
         <ExtendedData>
             <Data name="route-name">
                 <value>Jalur 2: Ledeng → Leuwipanjang</value>
@@ -939,929 +939,929 @@
                 <value>Transport for Bandung</value>
             </Data>
         </ExtendedData>
-        <Placemark id="22021">
+        <Placemark id="21687">
+            <name>Terminal Ledeng</name>
+            <styleUrl>#21688</styleUrl>
+            <Point id="21686">
+                <coordinates>107.5951942,-6.85933,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="21692">
+            <name>Terminal Leuwipanjang</name>
+            <styleUrl>#21693</styleUrl>
+            <Point id="21691">
+                <coordinates>107.593264,-6.9458573,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="21697">
             <name>Jalan Cicendo</name>
-            <styleUrl>#22022</styleUrl>
-            <LineString id="22020">
+            <styleUrl>#21698</styleUrl>
+            <LineString id="21696">
                 <coordinates>107.6044417,-6.9072201,0.0 107.6044521,-6.9072879,0.0 107.604458,-6.9073889,0.0 107.6044748,-6.9078654,0.0 107.6044776,-6.9079587,0.0 107.6044909,-6.9084617,0.0 107.6044917,-6.9087943,0.0 107.6044683,-6.9089756,0.0 107.6044333,-6.9091247,0.0 107.6043797,-6.9092856,0.0 107.6043042,-6.9094657,0.0 107.6042851,-6.9095101,0.0 107.6042598,-6.9095715,0.0 107.6042199,-6.9096823,0.0 107.6041664,-6.9098645,0.0 107.60413,-6.9100304,0.0 107.6041131,-6.910177,0.0 107.604095,-6.9104032,0.0 107.6040795,-6.910612,0.0 107.6040749,-6.9106747,0.0 107.6040736,-6.9106984,0.0 107.6040635,-6.9108642,0.0 107.6040608,-6.9109088,0.0 107.6039986,-6.911908,0.0 107.6039597,-6.9124977,0.0 107.6039561,-6.9125447,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22025">
+        <Placemark id="21701">
             <name>Jalan Pajajaran</name>
-            <styleUrl>#22026</styleUrl>
-            <LineString id="22024">
+            <styleUrl>#21702</styleUrl>
+            <LineString id="21700">
                 <coordinates>107.6073865,-6.9076628,0.0 107.6073442,-6.9076324,0.0 107.6072754,-6.9075859,0.0 107.6071035,-6.9074752,0.0 107.6070242,-6.9074318,0.0 107.6068765,-6.907351,0.0 107.6066403,-6.907244,0.0 107.6065225,-6.9072053,0.0 107.6064209,-6.9071852,0.0 107.6062761,-6.9071663,0.0 107.6061572,-6.9071583,0.0 107.6058415,-6.9071486,0.0 107.6055894,-6.9071347,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22029">
+        <Placemark id="21705">
             <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22030</styleUrl>
-            <LineString id="22028">
-                <coordinates>107.6040992,-6.9208034,0.0 107.6040979,-6.920819,0.0 107.6040892,-6.9209261,0.0 107.6040554,-6.9213998,0.0 107.6040537,-6.9214229,0.0 107.6040142,-6.9219758,0.0 107.6040087,-6.9220583,0.0 107.6039434,-6.9230192,0.0 107.6039369,-6.9231152,0.0</coordinates>
+            <styleUrl>#21706</styleUrl>
+            <LineString id="21704">
+                <coordinates>107.6041077,-6.920785,0.0 107.604105,-6.9208199,0.0 107.6040989,-6.920927,0.0 107.6040733,-6.9214142,0.0 107.6040726,-6.9214269,0.0 107.6040276,-6.9219745,0.0 107.6040208,-6.9220583,0.0 107.6039434,-6.9230192,0.0 107.6039369,-6.9231152,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22033">
+        <Placemark id="21709">
             <name>Jalan Braga</name>
-            <styleUrl>#22034</styleUrl>
-            <LineString id="22032">
+            <styleUrl>#21710</styleUrl>
+            <LineString id="21708">
                 <coordinates>107.6090254,-6.9139243,0.0 107.6090188,-6.9140707,0.0 107.6090157,-6.9141626,0.0 107.6090099,-6.9144741,0.0 107.6090078,-6.9145319,0.0 107.609003,-6.9147575,0.0 107.6090004,-6.9148441,0.0 107.609,-6.9150767,0.0 107.6090001,-6.9151162,0.0 107.6089998,-6.9151478,0.0 107.6089988,-6.9152244,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22037">
+        <Placemark id="21713">
             <name>Jalan Dokter Setiabudi</name>
-            <styleUrl>#22038</styleUrl>
-            <LineString id="22036">
+            <styleUrl>#21714</styleUrl>
+            <LineString id="21712">
                 <coordinates>107.600512,-6.8825853,0.0 107.600617,-6.8827057,0.0 107.6010005,-6.8831201,0.0 107.6013125,-6.8834804,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22041">
+        <Placemark id="21717">
             <name>Jalan Perintis Kemerdekaan</name>
-            <styleUrl>#22042</styleUrl>
-            <LineString id="22040">
+            <styleUrl>#21718</styleUrl>
+            <LineString id="21716">
                 <coordinates>107.6075641,-6.9142136,0.0 107.6078626,-6.9140606,0.0 107.607935,-6.9140241,0.0 107.6079799,-6.9140014,0.0 107.6081711,-6.9139136,0.0 107.6082715,-6.9138902,0.0 107.6087543,-6.9138526,0.0 107.6088925,-6.9138457,0.0 107.6089516,-6.913844,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22045">
+        <Placemark id="21721">
             <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22046</styleUrl>
-            <LineString id="22044">
-                <coordinates>107.6045054,-6.9158364,0.0 107.6044945,-6.9159639,0.0 107.6044519,-6.9164303,0.0 107.6044104,-6.9168859,0.0 107.6043912,-6.9170712,0.0 107.6043506,-6.917436,0.0</coordinates>
+            <styleUrl>#21722</styleUrl>
+            <LineString id="21720">
+                <coordinates>107.6045054,-6.9158364,0.0 107.6044945,-6.9159639,0.0 107.6044519,-6.9164303,0.0 107.6044248,-6.9167276,0.0 107.6044046,-6.9168859,0.0 107.6043842,-6.9170712,0.0 107.6043506,-6.917436,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22049">
+        <Placemark id="21725">
             <name>Jalan Sederhana</name>
-            <styleUrl>#22050</styleUrl>
-            <LineString id="22048">
+            <styleUrl>#21726</styleUrl>
+            <LineString id="21724">
                 <coordinates>107.5982533,-6.8959337,0.0 107.598061,-6.8961075,0.0 107.597854,-6.8962946,0.0 107.5975318,-6.8966067,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22053">
+        <Placemark id="21729">
             <name>Jalan Kebon Jukut</name>
-            <styleUrl>#22054</styleUrl>
-            <LineString id="22052">
+            <styleUrl>#21730</styleUrl>
+            <LineString id="21728">
                 <coordinates>107.606975,-6.9145811,0.0 107.6070234,-6.9144595,0.0 107.6070791,-6.9143956,0.0 107.6071398,-6.9143537,0.0 107.6073185,-6.9143005,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22057">
+        <Placemark id="21733">
             <name>Jalan Pasir Kaliki</name>
-            <styleUrl>#22058</styleUrl>
-            <LineString id="22056">
+            <styleUrl>#21734</styleUrl>
+            <LineString id="21732">
                 <coordinates>107.5974217,-6.8991501,0.0 107.597458,-6.899457,0.0 107.5974799,-6.8999882,0.0 107.5974825,-6.9000048,0.0 107.5974905,-6.9000261,0.0 107.5974993,-6.9000414,0.0 107.5975127,-6.9000574,0.0 107.5975315,-6.900076,0.0 107.5975596,-6.900098,0.0 107.5975838,-6.9001146,0.0 107.5976133,-6.9001333,0.0 107.5976491,-6.9001556,0.0 107.5976841,-6.9001782,0.0 107.5977317,-6.9002067,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22061">
+        <Placemark id="21737">
             <name>Jalan Dr. Setiabudi</name>
-            <styleUrl>#22062</styleUrl>
-            <LineString id="22060">
+            <styleUrl>#21738</styleUrl>
+            <LineString id="21736">
                 <coordinates>107.5977931,-6.8782315,0.0 107.597931,-6.8785445,0.0 107.5980445,-6.8788022,0.0 107.5980688,-6.8788573,0.0 107.5981465,-6.8790417,0.0 107.5981885,-6.8791416,0.0 107.5983115,-6.8793952,0.0 107.5983643,-6.8795042,0.0 107.5985332,-6.8798525,0.0 107.5985364,-6.8798582,0.0 107.5985525,-6.8798922,0.0 107.5985829,-6.879955,0.0 107.598747,-6.8802981,0.0 107.5987865,-6.8803658,0.0 107.5988461,-6.8804679,0.0 107.5989984,-6.8807227,0.0 107.5990764,-6.8808677,0.0 107.5990993,-6.8809102,0.0 107.5991857,-6.8810641,0.0 107.5993479,-6.8813024,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22065">
+        <Placemark id="21741">
             <name>Jalan Pajajaran</name>
-            <styleUrl>#22066</styleUrl>
-            <LineString id="22064">
+            <styleUrl>#21742</styleUrl>
+            <LineString id="21740">
                 <coordinates>107.6055894,-6.9071347,0.0 107.6053829,-6.907135,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22069">
+        <Placemark id="21745">
             <name>Jalan Kyai Haji Wahid Hasyim</name>
-            <styleUrl>#22070</styleUrl>
-            <LineString id="22068">
+            <styleUrl>#21746</styleUrl>
+            <LineString id="21744">
                 <coordinates>107.5899199,-6.9452949,0.0 107.5899683,-6.9452286,0.0 107.5900352,-6.9451237,0.0 107.5901553,-6.9449353,0.0 107.5903058,-6.9446993,0.0 107.5904884,-6.944413,0.0 107.5905391,-6.9443334,0.0 107.5905904,-6.944253,0.0 107.590768,-6.9439758,0.0 107.5908061,-6.9439147,0.0 107.5908631,-6.9438253,0.0 107.5910269,-6.9435481,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22073">
+        <Placemark id="21749">
             <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22074</styleUrl>
-            <LineString id="22072">
+            <styleUrl>#21750</styleUrl>
+            <LineString id="21748">
                 <coordinates>107.6032238,-6.935481,0.0 107.6032173,-6.935578,0.0 107.6032076,-6.9357215,0.0 107.6031855,-6.936049,0.0 107.6031741,-6.936219,0.0 107.6031624,-6.9363928,0.0 107.6031505,-6.9365689,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22077">
+        <Placemark id="21753">
             <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22078</styleUrl>
-            <LineString id="22076">
-                <coordinates>107.603088,-6.9372221,0.0 107.6030687,-6.9373365,0.0</coordinates>
+            <styleUrl>#21754</styleUrl>
+            <LineString id="21752">
+                <coordinates>107.603088,-6.9372221,0.0 107.6030728,-6.9373193,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22081">
+        <Placemark id="21757">
             <name>Jalan Pasir Kaliki</name>
-            <styleUrl>#22082</styleUrl>
-            <LineString id="22080">
+            <styleUrl>#21758</styleUrl>
+            <LineString id="21756">
                 <coordinates>107.5974,-6.8987139,0.0 107.5974075,-6.898977,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22085">
+        <Placemark id="21761">
             <name>Jalan Dr. Setiabudi</name>
-            <styleUrl>#22086</styleUrl>
-            <LineString id="22084">
+            <styleUrl>#21762</styleUrl>
+            <LineString id="21760">
                 <coordinates>107.5958267,-6.874066,0.0 107.5958839,-6.8741085,0.0 107.5959235,-6.8741451,0.0 107.5959994,-6.8742507,0.0 107.5960416,-6.8743074,0.0 107.596108,-6.8744075,0.0 107.5961314,-6.8744453,0.0 107.5962142,-6.8745818,0.0 107.5962411,-6.8746244,0.0 107.5962673,-6.8746659,0.0 107.5963577,-6.8748045,0.0 107.5964184,-6.8748932,0.0 107.5965371,-6.8750912,0.0 107.5966847,-6.8753563,0.0 107.5967496,-6.8754896,0.0 107.5967556,-6.8755022,0.0 107.5968567,-6.8756963,0.0 107.5969251,-6.8757837,0.0 107.5972243,-6.8760098,0.0 107.5973752,-6.876119,0.0 107.5974155,-6.8761599,0.0 107.59745,-6.8762097,0.0 107.5974932,-6.8762915,0.0 107.5975265,-6.8763939,0.0 107.5975398,-6.8764616,0.0 107.5975472,-6.8765469,0.0 107.597546,-6.8766334,0.0 107.5975168,-6.8767863,0.0 107.5975056,-6.8768315,0.0 107.59747,-6.8769861,0.0 107.5974504,-6.877112,0.0 107.5974554,-6.877208,0.0 107.5974773,-6.8773209,0.0 107.5975476,-6.8775669,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22089">
+        <Placemark id="21765">
             <name>Jalan Suniaraja</name>
-            <styleUrl>#22090</styleUrl>
-            <LineString id="22088">
+            <styleUrl>#21766</styleUrl>
+            <LineString id="21764">
                 <coordinates>107.6088792,-6.9162786,0.0 107.6088195,-6.9162932,0.0 107.6088005,-6.9162985,0.0 107.6084574,-6.9162802,0.0 107.6083144,-6.9162523,0.0 107.6081984,-6.9162109,0.0 107.6080929,-6.9161604,0.0 107.6080175,-6.9161132,0.0 107.6079775,-6.9160775,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22093">
+        <Placemark id="21769">
             <name>Jalan Cihampelas</name>
-            <styleUrl>#22094</styleUrl>
-            <LineString id="22092">
+            <styleUrl>#21770</styleUrl>
+            <LineString id="21768">
                 <coordinates>107.6042016,-6.9003842,0.0 107.604264,-6.9008715,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22097">
+        <Placemark id="21773">
             <name>Jalan Cihampelas</name>
-            <styleUrl>#22098</styleUrl>
-            <LineString id="22096">
+            <styleUrl>#21774</styleUrl>
+            <LineString id="21772">
                 <coordinates>107.6041803,-6.900144,0.0 107.6041813,-6.9001579,0.0 107.604189,-6.9002755,0.0 107.6041992,-6.9003596,0.0 107.6042016,-6.9003842,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22101">
+        <Placemark id="21777">
             <name>Jalan Profesor Christiaan Eijkman</name>
-            <styleUrl>#22102</styleUrl>
-            <LineString id="22100">
+            <styleUrl>#21778</styleUrl>
+            <LineString id="21776">
                 <coordinates>107.6014463,-6.8957141,0.0 107.6011223,-6.8958109,0.0 107.6008463,-6.8959681,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22105">
+        <Placemark id="21781">
             <name>Jalan Pasteur</name>
-            <styleUrl>#22106</styleUrl>
-            <LineString id="22104">
+            <styleUrl>#21782</styleUrl>
+            <LineString id="21780">
                 <coordinates>107.5993001,-6.900202,0.0 107.599805,-6.900195,0.0 107.6003645,-6.900192,0.0 107.6008037,-6.9002057,0.0 107.6010655,-6.9002051,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22109">
+        <Placemark id="21785">
             <name>Jalan Cihampelas</name>
-            <styleUrl>#22110</styleUrl>
-            <LineString id="22108">
+            <styleUrl>#21786</styleUrl>
+            <LineString id="21784">
                 <coordinates>107.604369,-6.9041823,0.0 107.6043878,-6.9042234,0.0 107.6044168,-6.9042582,0.0 107.604454,-6.9042842,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22113">
+        <Placemark id="21789">
             <name>Jalan Wastukencana</name>
-            <styleUrl>#22114</styleUrl>
-            <LineString id="22112">
+            <styleUrl>#21790</styleUrl>
+            <LineString id="21788">
                 <coordinates>107.604454,-6.9042842,0.0 107.6045194,-6.9042857,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22117">
+        <Placemark id="21793">
             <name>Jalan Wastukancana</name>
-            <styleUrl>#22118</styleUrl>
-            <LineString id="22116">
+            <styleUrl>#21794</styleUrl>
+            <LineString id="21792">
                 <coordinates>107.6075644,-6.9054686,0.0 107.607609,-6.9055867,0.0 107.6076511,-6.9057161,0.0 107.6076853,-6.905845,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22121">
+        <Placemark id="21797">
             <name>Jalan Raden Adipati Aria Wiranatakusumah</name>
-            <styleUrl>#22122</styleUrl>
-            <LineString id="22120">
+            <styleUrl>#21798</styleUrl>
+            <LineString id="21796">
                 <coordinates>107.60158,-6.8845161,0.0 107.6016942,-6.8850534,0.0 107.6018127,-6.8856638,0.0 107.6018854,-6.8859731,0.0 107.6021499,-6.8872977,0.0 107.6021691,-6.887391,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22125">
+        <Placemark id="21801">
             <name>Jalan Dr. Setiabudi</name>
-            <styleUrl>#22126</styleUrl>
-            <LineString id="22124">
+            <styleUrl>#21802</styleUrl>
+            <LineString id="21800">
                 <coordinates>107.5947487,-6.8601046,0.0 107.5947415,-6.8601534,0.0 107.5947299,-6.8602278,0.0 107.5946876,-6.860499,0.0 107.5946834,-6.8605895,0.0 107.594682,-6.8607123,0.0 107.594691,-6.8607829,0.0 107.5947113,-6.8608802,0.0 107.5947543,-6.8609845,0.0 107.5947885,-6.8610543,0.0 107.5948338,-6.861136,0.0 107.5948731,-6.8611888,0.0 107.5949141,-6.8612418,0.0 107.595009,-6.861346,0.0 107.5950885,-6.8614258,0.0 107.5951733,-6.8614881,0.0 107.595248,-6.861538,0.0 107.5954158,-6.8616512,0.0 107.5955484,-6.8617416,0.0 107.5958307,-6.8619379,0.0 107.5959866,-6.8620463,0.0 107.5961672,-6.8621719,0.0 107.5961991,-6.8622073,0.0 107.5962242,-6.8622608,0.0 107.5962237,-6.8623248,0.0 107.5962141,-6.862385,0.0 107.5961999,-6.8624213,0.0 107.5960469,-6.8627747,0.0 107.5959257,-6.8629855,0.0 107.5958359,-6.8630694,0.0 107.5957803,-6.8631238,0.0 107.5957352,-6.8631536,0.0 107.5956823,-6.8631776,0.0 107.5955819,-6.8632153,0.0 107.594751,-6.8634425,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22129">
+        <Placemark id="21805">
             <name>Jalan Profesor Christiaan Eijkman</name>
-            <styleUrl>#22130</styleUrl>
-            <LineString id="22128">
+            <styleUrl>#21806</styleUrl>
+            <LineString id="21804">
                 <coordinates>107.6014463,-6.8957141,0.0 107.6015518,-6.8957058,0.0 107.6021098,-6.8957803,0.0 107.6022353,-6.8957953,0.0 107.602268,-6.8958001,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22133">
+        <Placemark id="21809">
             <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22134</styleUrl>
-            <LineString id="22132">
-                <coordinates>107.6038724,-6.923931,0.0 107.6038633,-6.9241732,0.0 107.6038504,-6.9245193,0.0 107.6037853,-6.9255254,0.0 107.6037807,-6.9256072,0.0 107.6036969,-6.9271072,0.0 107.6036918,-6.9271992,0.0</coordinates>
+            <styleUrl>#21810</styleUrl>
+            <LineString id="21808">
+                <coordinates>107.6038778,-6.9239323,0.0 107.6038646,-6.9241732,0.0 107.6038465,-6.9245138,0.0 107.6037853,-6.9255254,0.0 107.6037807,-6.9256072,0.0 107.6036969,-6.9271072,0.0 107.6036918,-6.9271992,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22137">
+        <Placemark id="21813">
             <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22138</styleUrl>
-            <LineString id="22136">
-                <coordinates>107.6036918,-6.9271992,0.0 107.6036329,-6.9280445,0.0 107.6035987,-6.9285343,0.0 107.6035394,-6.9293944,0.0 107.603531,-6.9295081,0.0 107.6035279,-6.9295503,0.0 107.6035002,-6.9299478,0.0 107.6034837,-6.930184,0.0 107.6034762,-6.930325,0.0 107.6034705,-6.9303736,0.0 107.6034661,-6.9304369,0.0 107.603397,-6.9314278,0.0</coordinates>
+            <styleUrl>#21814</styleUrl>
+            <LineString id="21812">
+                <coordinates>107.6036918,-6.9271992,0.0 107.6036329,-6.9280445,0.0 107.6035987,-6.9285343,0.0 107.6035394,-6.9293944,0.0 107.603531,-6.9295081,0.0 107.6035279,-6.9295503,0.0 107.6035002,-6.9299478,0.0 107.6034837,-6.930184,0.0 107.6034742,-6.930325,0.0 107.6034705,-6.9303736,0.0 107.6034661,-6.9304369,0.0 107.603397,-6.9314278,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22141">
+        <Placemark id="21817">
             <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22142</styleUrl>
-            <LineString id="22140">
+            <styleUrl>#21818</styleUrl>
+            <LineString id="21816">
                 <coordinates>107.6039369,-6.9231152,0.0 107.6039303,-6.9231867,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22145">
+        <Placemark id="21821">
             <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22146</styleUrl>
-            <LineString id="22144">
-                <coordinates>107.6032256,-6.9338577,0.0 107.603223,-6.9339734,0.0 107.6032159,-6.9342862,0.0</coordinates>
+            <styleUrl>#21822</styleUrl>
+            <LineString id="21820">
+                <coordinates>107.6032271,-6.9338577,0.0 107.603223,-6.9339734,0.0 107.6032159,-6.9342862,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22149">
+        <Placemark id="21825">
             <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22150</styleUrl>
-            <LineString id="22148">
-                <coordinates>107.603397,-6.9314278,0.0 107.6033247,-6.9324527,0.0 107.6033123,-6.9326285,0.0 107.603267,-6.9332705,0.0 107.6032382,-6.9336792,0.0 107.6032353,-6.9337195,0.0 107.6032256,-6.9338577,0.0</coordinates>
+            <styleUrl>#21826</styleUrl>
+            <LineString id="21824">
+                <coordinates>107.603397,-6.9314278,0.0 107.6033247,-6.9324527,0.0 107.6033123,-6.9326285,0.0 107.603267,-6.9332705,0.0 107.6032353,-6.9337195,0.0 107.6032271,-6.9338577,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22153">
+        <Placemark id="21829">
             <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22154</styleUrl>
-            <LineString id="22152">
+            <styleUrl>#21830</styleUrl>
+            <LineString id="21828">
                 <coordinates>107.5905372,-6.9458885,0.0 107.5906174,-6.9459184,0.0 107.5908186,-6.9459976,0.0 107.5909454,-6.9460471,0.0 107.5912869,-6.9461769,0.0 107.5915135,-6.946263,0.0 107.5919633,-6.946418,0.0 107.5920057,-6.9464327,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22157">
+        <Placemark id="21833">
             <name>Jalan Pasteur</name>
-            <styleUrl>#22158</styleUrl>
-            <LineString id="22156">
+            <styleUrl>#21834</styleUrl>
+            <LineString id="21832">
                 <coordinates>107.5985704,-6.900207,0.0 107.5988449,-6.9002092,0.0 107.5988968,-6.9002096,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22161">
+        <Placemark id="21837">
             <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22162</styleUrl>
-            <LineString id="22160">
-                <coordinates>107.6042904,-6.9182779,0.0 107.6042692,-6.9185844,0.0 107.6042559,-6.9187767,0.0 107.6042335,-6.9191016,0.0 107.6042248,-6.9192265,0.0 107.6042084,-6.9194647,0.0 107.6041935,-6.9196695,0.0 107.6041829,-6.9198332,0.0 107.6041111,-6.9206576,0.0 107.6041071,-6.9207069,0.0 107.6040992,-6.9208034,0.0</coordinates>
+            <styleUrl>#21838</styleUrl>
+            <LineString id="21836">
+                <coordinates>107.6042799,-6.9182744,0.0 107.6042732,-6.9184683,0.0 107.6042692,-6.9185844,0.0 107.6042559,-6.9187767,0.0 107.6042335,-6.9191016,0.0 107.6042292,-6.9191633,0.0 107.6042248,-6.9192265,0.0 107.6042217,-6.919272,0.0 107.6042084,-6.9194647,0.0 107.6041935,-6.9196695,0.0 107.6041829,-6.9198332,0.0 107.6041173,-6.9206576,0.0 107.6041133,-6.9207078,0.0 107.6041077,-6.920785,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22165">
+        <Placemark id="21841">
             <name>Route Segment</name>
-            <styleUrl>#22166</styleUrl>
-            <LineString id="22164">
+            <styleUrl>#21842</styleUrl>
+            <LineString id="21840">
                 <coordinates>107.5946801,-6.9470993,0.0 107.5949015,-6.9470904,0.0 107.5949654,-6.9470873,0.0 107.5949874,-6.9470844,0.0 107.5950189,-6.9470765,0.0 107.5950591,-6.9470659,0.0 107.5950873,-6.9470551,0.0 107.5951121,-6.9470451,0.0 107.5951365,-6.9470303,0.0 107.5951489,-6.9470195,0.0 107.5951597,-6.9470058,0.0 107.5951778,-6.9469812,0.0 107.5951852,-6.9469692,0.0 107.595202,-6.9469407,0.0 107.5952184,-6.9469031,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22169">
+        <Placemark id="21845">
             <name>Jalan Wastukancana</name>
-            <styleUrl>#22170</styleUrl>
-            <LineString id="22168">
+            <styleUrl>#21846</styleUrl>
+            <LineString id="21844">
                 <coordinates>107.604907,-6.904268,0.0 107.6050035,-6.9041885,0.0 107.6051531,-6.9040927,0.0 107.605225,-6.9040549,0.0 107.6052645,-6.9040341,0.0 107.605369,-6.9039986,0.0 107.6054495,-6.9039862,0.0 107.6055461,-6.9039795,0.0 107.6056396,-6.9039773,0.0 107.6058035,-6.9039995,0.0 107.6059967,-6.9040381,0.0 107.6061616,-6.9040807,0.0 107.606306,-6.9041384,0.0 107.6063615,-6.9041606,0.0 107.6065841,-6.9042698,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22173">
+        <Placemark id="21849">
             <name>Jalan Cihampelas</name>
-            <styleUrl>#22174</styleUrl>
-            <LineString id="22172">
+            <styleUrl>#21850</styleUrl>
+            <LineString id="21848">
                 <coordinates>107.604264,-6.9008715,0.0 107.6042787,-6.9010952,0.0 107.6042858,-6.9012975,0.0 107.6043224,-6.9023437,0.0 107.6043266,-6.9027188,0.0 107.6043559,-6.9036874,0.0 107.6043657,-6.9040669,0.0 107.6043665,-6.9040981,0.0 107.604369,-6.9041823,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22177">
+        <Placemark id="21853">
             <name>Jalan Kyai Haji Wahid Hasyim</name>
+            <styleUrl>#21854</styleUrl>
+            <LineString id="21852">
+                <coordinates>107.5920724,-6.9418438,0.0 107.5922389,-6.9415903,0.0 107.5924641,-6.9412448,0.0 107.5930896,-6.9402979,0.0 107.59314,-6.9402168,0.0 107.5932148,-6.9400962,0.0 107.5932356,-6.9400628,0.0 107.5933094,-6.939944,0.0 107.5934404,-6.9397331,0.0 107.5936005,-6.9394752,0.0 107.5937688,-6.9391642,0.0 107.5939092,-6.9389121,0.0 107.5939987,-6.938752,0.0 107.5940814,-6.9386042,0.0 107.5941015,-6.9385696,0.0 107.594148,-6.9384872,0.0 107.594204,-6.9383881,0.0 107.594524,-6.9378129,0.0 107.5945872,-6.9376992,0.0 107.5946221,-6.9376377,0.0 107.5946542,-6.9375847,0.0 107.5948299,-6.9373141,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21857">
+            <name>Jalan Raden Adipati Aria Wiranatakusumah</name>
+            <styleUrl>#21858</styleUrl>
+            <LineString id="21856">
+                <coordinates>107.6025639,-6.8915152,0.0 107.6025685,-6.8916549,0.0 107.6025732,-6.8920405,0.0 107.6025767,-6.8923319,0.0 107.6025976,-6.8928234,0.0 107.6026014,-6.892912,0.0 107.6026186,-6.8933289,0.0 107.602628,-6.8935563,0.0 107.6026469,-6.8940155,0.0 107.6026305,-6.8941606,0.0 107.6025407,-6.8946976,0.0 107.602517,-6.894782,0.0 107.6022794,-6.8957544,0.0 107.602268,-6.8958001,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21861">
+            <name>Jalan Profesor Christiaan Eijkman</name>
+            <styleUrl>#21862</styleUrl>
+            <LineString id="21860">
+                <coordinates>107.6008463,-6.8959681,0.0 107.6005885,-6.8961348,0.0 107.6003014,-6.8962499,0.0 107.6001433,-6.8962722,0.0 107.5999789,-6.8962674,0.0 107.5993726,-6.8961604,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21865">
+            <name>Jalan Pasteur</name>
+            <styleUrl>#21866</styleUrl>
+            <LineString id="21864">
+                <coordinates>107.5977317,-6.9002067,0.0 107.5979866,-6.900214,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21869">
+            <name>Jalan Kebon Jukut</name>
+            <styleUrl>#21870</styleUrl>
+            <LineString id="21868">
+                <coordinates>107.6046031,-6.9144539,0.0 107.6046132,-6.9144687,0.0 107.6046449,-6.9144848,0.0 107.606675,-6.9147337,0.0 107.606787,-6.9147395,0.0 107.6068501,-6.9147298,0.0 107.6069016,-6.9147011,0.0 107.6069388,-6.9146561,0.0 107.606975,-6.9145811,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21873">
+            <name>Jalan Profesor Christiaan Eijkman</name>
+            <styleUrl>#21874</styleUrl>
+            <LineString id="21872">
+                <coordinates>107.5993726,-6.8961604,0.0 107.5993061,-6.8961476,0.0 107.5989287,-6.8960775,0.0 107.5988179,-6.8960559,0.0 107.5986468,-6.8960201,0.0 107.5985248,-6.8959937,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21877">
+            <name>Jalan Suniaraja</name>
+            <styleUrl>#21878</styleUrl>
+            <LineString id="21876">
+                <coordinates>107.6059861,-6.9155367,0.0 107.6057907,-6.9155809,0.0 107.6055816,-6.9156321,0.0 107.6054049,-6.9156698,0.0 107.605226,-6.9157035,0.0 107.6046673,-6.9158052,0.0 107.6045054,-6.9158364,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21881">
+            <name>Jalan Peta</name>
+            <styleUrl>#21882</styleUrl>
+            <LineString id="21880">
+                <coordinates>107.5971376,-6.937801,0.0 107.5970548,-6.9377924,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21885">
+            <name>Jalan Peta</name>
+            <styleUrl>#21886</styleUrl>
+            <LineString id="21884">
+                <coordinates>107.6030728,-6.9373193,0.0 107.6029983,-6.9373153,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21889">
+            <name>Jalan Peta</name>
+            <styleUrl>#21890</styleUrl>
+            <LineString id="21888">
+                <coordinates>107.6021772,-6.9372552,0.0 107.602016,-6.9372409,0.0 107.6019146,-6.9372385,0.0 107.601703,-6.9372304,0.0 107.6014696,-6.937233,0.0 107.6010236,-6.9372742,0.0 107.6000125,-6.9374564,0.0 107.5998296,-6.9374914,0.0 107.5994727,-6.9375618,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21893">
+            <name>Jalan Wastukancana</name>
+            <styleUrl>#21894</styleUrl>
+            <LineString id="21892">
+                <coordinates>107.6076516,-6.9060628,0.0 107.607682,-6.9063009,0.0 107.6076926,-6.9064512,0.0 107.6076908,-6.9066043,0.0 107.6076724,-6.9068066,0.0 107.6076183,-6.907233,0.0 107.6075667,-6.9075563,0.0 107.6075461,-6.9076136,0.0 107.6074993,-6.9076457,0.0 107.6073865,-6.9076628,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21897">
+            <name>Jalan Pajajaran</name>
+            <styleUrl>#21898</styleUrl>
+            <LineString id="21896">
+                <coordinates>107.6053829,-6.907135,0.0 107.6051824,-6.9071438,0.0 107.6051387,-6.9071446,0.0 107.6045501,-6.9071569,0.0 107.6045,-6.907158,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21901">
+            <name>Jalan Profesor Christiaan Eijkman</name>
+            <styleUrl>#21902</styleUrl>
+            <LineString id="21900">
+                <coordinates>107.5985248,-6.8959937,0.0 107.5984723,-6.8959815,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21905">
+            <name>Jalan Suniaraja</name>
+            <styleUrl>#21906</styleUrl>
+            <LineString id="21904">
+                <coordinates>107.6073053,-6.9154939,0.0 107.6071157,-6.9154839,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21909">
+            <name>Jalan Suniaraja</name>
+            <styleUrl>#21910</styleUrl>
+            <LineString id="21908">
+                <coordinates>107.6071157,-6.9154839,0.0 107.6069686,-6.9154807,0.0 107.6066681,-6.915471,0.0 107.6065499,-6.9154703,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21913">
+            <name>Route Segment</name>
+            <styleUrl>#21914</styleUrl>
+            <LineString id="21912">
+                <coordinates>107.5952296,-6.9371632,0.0 107.5951614,-6.9371577,0.0 107.5950932,-6.9371631,0.0 107.5950268,-6.9371793,0.0 107.5949529,-6.9372115,0.0 107.5948865,-6.937257,0.0 107.5948299,-6.9373141,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21917">
+            <name>Jalan Peta</name>
+            <styleUrl>#21918</styleUrl>
+            <LineString id="21916">
+                <coordinates>107.5994727,-6.9375618,0.0 107.5993708,-6.9375805,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21921">
+            <name>Jalan Peta</name>
+            <styleUrl>#21922</styleUrl>
+            <LineString id="21920">
+                <coordinates>107.5993708,-6.9375805,0.0 107.5988884,-6.9376814,0.0 107.5984434,-6.9377562,0.0 107.5983423,-6.9377695,0.0 107.5980891,-6.9378047,0.0 107.5978299,-6.9378174,0.0 107.5975831,-6.9378255,0.0 107.5972383,-6.9378114,0.0 107.5971376,-6.937801,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21925">
+            <name>Jalan Profesor Christiaan Eijkman</name>
+            <styleUrl>#21926</styleUrl>
+            <LineString id="21924">
+                <coordinates>107.5984723,-6.8959815,0.0 107.5982533,-6.8959337,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21929">
+            <name>Route Segment</name>
+            <styleUrl>#21930</styleUrl>
+            <LineString id="21928">
+                <coordinates>107.5951942,-6.85933,0.0 107.5951855,-6.8593963,0.0 107.5951822,-6.8594053,0.0 107.5951748,-6.8594103,0.0 107.5948433,-6.8593552,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21933">
+            <name>Route Segment</name>
+            <styleUrl>#21934</styleUrl>
+            <LineString id="21932">
+                <coordinates>107.6077246,-6.9060495,0.0 107.6076516,-6.9060628,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21937">
+            <name>Jalan Peta</name>
+            <styleUrl>#21938</styleUrl>
+            <LineString id="21936">
+                <coordinates>107.5970548,-6.9377924,0.0 107.5970082,-6.9377848,0.0 107.5966811,-6.9377315,0.0 107.5963307,-6.9376489,0.0 107.5961367,-6.9375778,0.0 107.5959549,-6.937498,0.0 107.5955421,-6.9372977,0.0 107.5954936,-6.9372742,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21941">
+            <name>Jalan Suniaraja</name>
+            <styleUrl>#21942</styleUrl>
+            <LineString id="21940">
+                <coordinates>107.6065499,-6.9154703,0.0 107.6064784,-6.9154686,0.0 107.6063683,-6.9154661,0.0 107.6059861,-6.9155367,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21945">
+            <name>Jalan Aceh</name>
+            <styleUrl>#21946</styleUrl>
+            <LineString id="21944">
+                <coordinates>107.6041426,-6.9127091,0.0 107.604692,-6.9127619,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21949">
+            <name>Jalan Cicendo</name>
+            <styleUrl>#21950</styleUrl>
+            <LineString id="21948">
+                <coordinates>107.6039561,-6.9125447,0.0 107.6039966,-6.9126049,0.0 107.6040499,-6.9126535,0.0 107.6041426,-6.9127091,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21953">
+            <name>Jalan Dr. Setiabudi</name>
+            <styleUrl>#21954</styleUrl>
+            <LineString id="21952">
+                <coordinates>107.5940961,-6.8651081,0.0 107.5940723,-6.8653071,0.0 107.5940489,-6.8655021,0.0 107.5940436,-6.8655555,0.0 107.5939941,-6.866016,0.0 107.59398,-6.8661473,0.0 107.5939484,-6.8664124,0.0 107.5939402,-6.8664718,0.0 107.5939135,-6.8666897,0.0 107.593824,-6.8674042,0.0 107.5937888,-6.8677009,0.0 107.5937561,-6.8679333,0.0 107.5937127,-6.8682235,0.0 107.5937093,-6.8682462,0.0 107.593703,-6.868294,0.0 107.5936933,-6.8683616,0.0 107.5936592,-6.8686283,0.0 107.5936527,-6.8686846,0.0 107.5936366,-6.868816,0.0 107.5936184,-6.8689604,0.0 107.5936057,-6.869061,0.0 107.5935721,-6.8693613,0.0 107.5935632,-6.8694388,0.0 107.5935337,-6.8696955,0.0 107.5935252,-6.8697698,0.0 107.5935167,-6.8698675,0.0 107.5935096,-6.8699573,0.0 107.593506,-6.8701005,0.0 107.5935249,-6.8704256,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21957">
+            <name>Jalan Otto Iskandardinata</name>
+            <styleUrl>#21958</styleUrl>
+            <LineString id="21956">
+                <coordinates>107.6038843,-6.9238302,0.0 107.6038778,-6.9239323,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21961">
+            <name>Jalan Raden Adipati Aria Wiranatakusumah</name>
+            <styleUrl>#21962</styleUrl>
+            <LineString id="21960">
+                <coordinates>107.6013125,-6.8834804,0.0 107.60158,-6.8845161,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21965">
+            <name>Jalan Braga</name>
+            <styleUrl>#21966</styleUrl>
+            <LineString id="21964">
+                <coordinates>107.6089865,-6.9159412,0.0 107.6089646,-6.9160333,0.0 107.608966,-6.916108,0.0 107.6089644,-6.916155,0.0 107.6089606,-6.9161782,0.0 107.608954,-6.9162093,0.0 107.6089283,-6.9162468,0.0 107.6088792,-6.9162786,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21969">
+            <name>Jalan Otto Iskandardinata</name>
+            <styleUrl>#21970</styleUrl>
+            <LineString id="21968">
+                <coordinates>107.6031033,-6.9370152,0.0 107.6030927,-6.9371305,0.0 107.603088,-6.9372221,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21973">
+            <name>Jalan Sederhana</name>
+            <styleUrl>#21974</styleUrl>
+            <LineString id="21972">
+                <coordinates>107.5975318,-6.8966067,0.0 107.5974852,-6.8966564,0.0 107.5974629,-6.8966804,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21977">
+            <name>Jalan Pasir Kaliki</name>
+            <styleUrl>#21978</styleUrl>
+            <LineString id="21976">
+                <coordinates>107.5974629,-6.8966804,0.0 107.5973832,-6.8967895,0.0 107.5973739,-6.8968101,0.0 107.5973632,-6.8968394,0.0 107.5973563,-6.8969183,0.0 107.5973743,-6.8978579,0.0 107.5973757,-6.8980113,0.0 107.5973829,-6.8982378,0.0 107.5973873,-6.8983517,0.0 107.5973974,-6.8986245,0.0 107.5974,-6.8987139,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21981">
+            <name>Jalan Perintis Kemerdekaan</name>
+            <styleUrl>#21982</styleUrl>
+            <LineString id="21980">
+                <coordinates>107.6089516,-6.913844,0.0 107.6089515,-6.9138647,0.0 107.6089575,-6.9138845,0.0 107.6089691,-6.9139001,0.0 107.6089853,-6.9139148,0.0 107.6090046,-6.9139225,0.0 107.6090254,-6.9139243,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21985">
+            <name>Jalan Pajajaran</name>
+            <styleUrl>#21986</styleUrl>
+            <LineString id="21984">
+                <coordinates>107.6045,-6.907158,0.0 107.6044996,-6.907174,0.0 107.6044946,-6.9071893,0.0 107.6044854,-6.9072025,0.0 107.6044728,-6.9072125,0.0 107.6044578,-6.9072185,0.0 107.6044417,-6.9072201,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21989">
+            <name>Jalan Wastukancana</name>
+            <styleUrl>#21990</styleUrl>
+            <LineString id="21988">
+                <coordinates>107.607556,-6.9054463,0.0 107.6075644,-6.9054686,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21993">
+            <name>Jalan Dr. Setiabudi</name>
+            <styleUrl>#21994</styleUrl>
+            <LineString id="21992">
+                <coordinates>107.594751,-6.8634425,0.0 107.5946342,-6.8634956,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="21997">
+            <name>Jalan Leuwi Panjang</name>
+            <styleUrl>#21998</styleUrl>
+            <LineString id="21996">
+                <coordinates>107.5952184,-6.9469031,0.0 107.5952459,-6.9466699,0.0 107.5952669,-6.9462117,0.0 107.595271,-6.9461694,0.0 107.5952757,-6.9461131,0.0 107.5952807,-6.9460535,0.0 107.5952859,-6.9459928,0.0 107.595295,-6.9458786,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22001">
+            <name>Jalan Otto Iskandardinata</name>
+            <styleUrl>#22002</styleUrl>
+            <LineString id="22000">
+                <coordinates>107.6031782,-6.9351372,0.0 107.6032137,-6.9352454,0.0 107.6032252,-6.9353491,0.0 107.6032238,-6.935481,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22005">
+            <name>Jalan Otto Iskandardinata</name>
+            <styleUrl>#22006</styleUrl>
+            <LineString id="22004">
+                <coordinates>107.6031505,-6.9365689,0.0 107.6031322,-6.9367751,0.0 107.6031033,-6.9370152,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22009">
+            <name>Jalan Otto Iskandardinata</name>
+            <styleUrl>#22010</styleUrl>
+            <LineString id="22008">
+                <coordinates>107.6032159,-6.9342862,0.0 107.6031855,-6.9349893,0.0 107.6031782,-6.9351372,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22013">
+            <name>Jalan Suniaraja</name>
+            <styleUrl>#22014</styleUrl>
+            <LineString id="22012">
+                <coordinates>107.6079775,-6.9160775,0.0 107.6079482,-6.9160431,0.0 107.6077131,-6.915765,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22017">
+            <name>Jalan Peta</name>
+            <styleUrl>#22018</styleUrl>
+            <LineString id="22016">
+                <coordinates>107.5954936,-6.9372742,0.0 107.5953437,-6.9372112,0.0 107.5952296,-6.9371632,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22021">
+            <name>Jalan Otto Iskandardinata</name>
+            <styleUrl>#22022</styleUrl>
+            <LineString id="22020">
+                <coordinates>107.6043506,-6.917436,0.0 107.6043216,-6.9177621,0.0 107.6042891,-6.9181663,0.0 107.6042799,-6.9182744,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22025">
+            <name>Jalan Suniaraja</name>
+            <styleUrl>#22026</styleUrl>
+            <LineString id="22024">
+                <coordinates>107.6073939,-6.915502,0.0 107.6073053,-6.9154939,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22029">
+            <name>Jalan Suniaraja</name>
+            <styleUrl>#22030</styleUrl>
+            <LineString id="22028">
+                <coordinates>107.6077131,-6.915765,0.0 107.6076272,-6.9156556,0.0 107.6075959,-6.9156165,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22033">
+            <name>Jalan Suniaraja</name>
+            <styleUrl>#22034</styleUrl>
+            <LineString id="22032">
+                <coordinates>107.6075959,-6.9156165,0.0 107.6074889,-6.9155475,0.0 107.6074384,-6.9155193,0.0 107.6073939,-6.915502,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22037">
+            <name>Jalan Dr. Setiabudi</name>
+            <styleUrl>#22038</styleUrl>
+            <LineString id="22036">
+                <coordinates>107.5975476,-6.8775669,0.0 107.5976126,-6.8777607,0.0 107.5976714,-6.8779208,0.0 107.5977931,-6.8782315,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22041">
+            <name>Jalan Pasteur</name>
+            <styleUrl>#22042</styleUrl>
+            <LineString id="22040">
+                <coordinates>107.6035214,-6.9002184,0.0 107.6038638,-6.9002105,0.0 107.6039813,-6.9001984,0.0 107.6040453,-6.9001871,0.0 107.6040633,-6.9001819,0.0 107.6041064,-6.9001685,0.0 107.6041803,-6.900144,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22045">
+            <name>Jalan Pasteur</name>
+            <styleUrl>#22046</styleUrl>
+            <LineString id="22044">
+                <coordinates>107.6031071,-6.9002112,0.0 107.6035214,-6.9002184,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22049">
+            <name>Jalan Wastukancana</name>
+            <styleUrl>#22050</styleUrl>
+            <LineString id="22048">
+                <coordinates>107.6047378,-6.9043028,0.0 107.604907,-6.904268,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22053">
+            <name>Jalan Wastukancana</name>
+            <styleUrl>#22054</styleUrl>
+            <LineString id="22052">
+                <coordinates>107.6045194,-6.9042857,0.0 107.6045928,-6.9042871,0.0 107.6046289,-6.9042878,0.0 107.6047378,-6.9043028,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22057">
+            <name>Jalan Otto Iskandardinata</name>
+            <styleUrl>#22058</styleUrl>
+            <LineString id="22056">
+                <coordinates>107.6039303,-6.9231867,0.0 107.6038843,-6.9238302,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22061">
+            <name>Jalur Bus Kota Terminal Leuwipanjang</name>
+            <styleUrl>#22062</styleUrl>
+            <LineString id="22060">
+                <coordinates>107.5938141,-6.9457411,0.0 107.593784,-6.9457712,0.0 107.5937535,-6.9458066,0.0 107.5937307,-6.9458374,0.0 107.5937192,-6.9458627,0.0 107.5937098,-6.9458851,0.0 107.5936877,-6.9458986,0.0 107.5936574,-6.9459061,0.0 107.593264,-6.9458573,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22065">
+            <name>Jalan Wastukancana</name>
+            <styleUrl>#22066</styleUrl>
+            <LineString id="22064">
+                <coordinates>107.6074587,-6.9052269,0.0 107.607556,-6.9054463,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22069">
+            <name>Jalan Pasir Kaliki</name>
+            <styleUrl>#22070</styleUrl>
+            <LineString id="22068">
+                <coordinates>107.5974075,-6.898977,0.0 107.5974217,-6.8991501,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22073">
+            <name>Route Segment</name>
+            <styleUrl>#22074</styleUrl>
+            <LineString id="22072">
+                <coordinates>107.5898972,-6.9453598,0.0 107.5898924,-6.9454526,0.0 107.5898937,-6.9455017,0.0 107.5899025,-6.94555,0.0 107.5899197,-6.9455844,0.0 107.5899482,-6.9456283,0.0 107.5899638,-6.9456485,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22077">
+            <name>Jalan Pasteur</name>
+            <styleUrl>#22078</styleUrl>
+            <LineString id="22076">
+                <coordinates>107.5979866,-6.900214,0.0 107.5985704,-6.900207,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22081">
+            <name>Jalur Masuk Bus</name>
+            <styleUrl>#22082</styleUrl>
+            <LineString id="22080">
+                <coordinates>107.595295,-6.9458786,0.0 107.5947542,-6.9458158,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22085">
+            <name>Jalur Bus Kota dan AKAP</name>
+            <styleUrl>#22086</styleUrl>
+            <LineString id="22084">
+                <coordinates>107.5944877,-6.9457804,0.0 107.5940855,-6.9457238,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22089">
+            <name>Jalan Braga</name>
+            <styleUrl>#22090</styleUrl>
+            <LineString id="22088">
+                <coordinates>107.6089988,-6.9152244,0.0 107.6089979,-6.9152703,0.0 107.6089865,-6.9159412,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22093">
+            <name>Jalan Pasteur</name>
+            <styleUrl>#22094</styleUrl>
+            <LineString id="22092">
+                <coordinates>107.6022753,-6.900203,0.0 107.6027269,-6.9002045,0.0 107.6027515,-6.9002046,0.0 107.6029796,-6.9002088,0.0 107.6031071,-6.9002112,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22097">
+            <name>Jalan Pasteur</name>
+            <styleUrl>#22098</styleUrl>
+            <LineString id="22096">
+                <coordinates>107.5988968,-6.9002096,0.0 107.5993001,-6.900202,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22101">
+            <name>Jalan Dr. Setiabudi</name>
+            <styleUrl>#22102</styleUrl>
+            <LineString id="22100">
+                <coordinates>107.5993479,-6.8813024,0.0 107.5994309,-6.8814326,0.0 107.5994716,-6.8814891,0.0 107.5996471,-6.8817279,0.0 107.5996965,-6.881795,0.0 107.6000907,-6.8822275,0.0 107.6001689,-6.8823036,0.0 107.6003584,-6.8824654,0.0 107.600512,-6.8825853,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22105">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22106</styleUrl>
+            <LineString id="22104">
+                <coordinates>107.5920057,-6.9464327,0.0 107.5922205,-6.9465024,0.0 107.5923591,-6.9465464,0.0 107.5924183,-6.9465651,0.0 107.5929217,-6.946706,0.0 107.5930626,-6.9467395,0.0 107.5934341,-6.9468277,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22109">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22110</styleUrl>
+            <LineString id="22108">
+                <coordinates>107.5899638,-6.9456485,0.0 107.5902641,-6.9457816,0.0 107.5904302,-6.9458446,0.0 107.5905372,-6.9458885,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22113">
+            <name>Jalan Wastukancana</name>
+            <styleUrl>#22114</styleUrl>
+            <LineString id="22112">
+                <coordinates>107.6076853,-6.905845,0.0 107.6077246,-6.9060495,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22117">
+            <name>Jalan Dr. Setiabudi</name>
+            <styleUrl>#22118</styleUrl>
+            <LineString id="22116">
+                <coordinates>107.5936179,-6.8707823,0.0 107.5937463,-6.8711539,0.0 107.5937922,-6.8712782,0.0 107.593895,-6.8715029,0.0 107.5940693,-6.8717924,0.0 107.5944136,-6.8722322,0.0 107.5948065,-6.8727176,0.0 107.5949802,-6.8729249,0.0 107.5951113,-6.8730936,0.0 107.5955371,-6.8736221,0.0 107.5956623,-6.8737793,0.0 107.5956814,-6.8738055,0.0 107.5956912,-6.8738171,0.0 107.5957307,-6.8738828,0.0 107.5957592,-6.8739356,0.0 107.5957878,-6.8739884,0.0 107.5958267,-6.874066,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22121">
+            <name>Jalan Kyai Haji Wahid Hasyim</name>
+            <styleUrl>#22122</styleUrl>
+            <LineString id="22120">
+                <coordinates>107.5899199,-6.9452949,0.0 107.5898972,-6.9453598,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22125">
+            <name>Jalan Wastukancana</name>
+            <styleUrl>#22126</styleUrl>
+            <LineString id="22124">
+                <coordinates>107.6070138,-6.9046,0.0 107.6071411,-6.9047305,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22129">
+            <name>Jalan Wastukancana</name>
+            <styleUrl>#22130</styleUrl>
+            <LineString id="22128">
+                <coordinates>107.6071411,-6.9047305,0.0 107.607265,-6.9048943,0.0 107.607283,-6.9049195,0.0 107.6074067,-6.905129,0.0 107.6074587,-6.9052269,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22133">
+            <name>Jalan Dr. Setiabudi</name>
+            <styleUrl>#22134</styleUrl>
+            <LineString id="22132">
+                <coordinates>107.5935249,-6.8704256,0.0 107.5936179,-6.8707823,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22137">
+            <name>Jalan Perintis Kemerdekaan</name>
+            <styleUrl>#22138</styleUrl>
+            <LineString id="22136">
+                <coordinates>107.6073185,-6.9143005,0.0 107.6073396,-6.9142915,0.0 107.6073918,-6.9142744,0.0 107.607494,-6.9142383,0.0 107.6075641,-6.9142136,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22141">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22142</styleUrl>
+            <LineString id="22140">
+                <coordinates>107.5934341,-6.9468277,0.0 107.5935172,-6.946847,0.0 107.5935575,-6.9468564,0.0 107.5936688,-6.9468823,0.0 107.593986,-6.9469544,0.0 107.5940785,-6.9469738,0.0 107.5941765,-6.9469938,0.0 107.5942182,-6.9470057,0.0 107.5946413,-6.947092,0.0 107.5946801,-6.9470993,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22145">
+            <name>Jalan Wastukancana</name>
+            <styleUrl>#22146</styleUrl>
+            <LineString id="22144">
+                <coordinates>107.6069187,-6.9045127,0.0 107.6070138,-6.9046,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22149">
+            <name>Jalan Wastukancana</name>
+            <styleUrl>#22150</styleUrl>
+            <LineString id="22148">
+                <coordinates>107.6065841,-6.9042698,0.0 107.6067222,-6.904359,0.0 107.6068568,-6.9044553,0.0 107.6069187,-6.9045127,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22153">
+            <name>Jalur Bus Kota dan AKAP</name>
+            <styleUrl>#22154</styleUrl>
+            <LineString id="22152">
+                <coordinates>107.5940315,-6.9457129,0.0 107.5939798,-6.9457037,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22157">
+            <name>Jalur Bus Kota dan AKAP</name>
+            <styleUrl>#22158</styleUrl>
+            <LineString id="22156">
+                <coordinates>107.5940855,-6.9457238,0.0 107.5940315,-6.9457129,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22161">
+            <name>Jalur Bus Kota dan AKAP</name>
+            <styleUrl>#22162</styleUrl>
+            <LineString id="22160">
+                <coordinates>107.5947542,-6.9458158,0.0 107.5946724,-6.9458045,0.0 107.5944877,-6.9457804,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22165">
+            <name>Jalan Dr. Setiabudi</name>
+            <styleUrl>#22166</styleUrl>
+            <LineString id="22164">
+                <coordinates>107.5948433,-6.8593552,0.0 107.5948312,-6.8594241,0.0 107.5948088,-6.859551,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22169">
+            <name>Jalan Dr. Setiabudi</name>
+            <styleUrl>#22170</styleUrl>
+            <LineString id="22168">
+                <coordinates>107.5948052,-6.8595708,0.0 107.594757,-6.8600369,0.0 107.5947527,-6.8600724,0.0 107.5947487,-6.8601046,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22173">
+            <name>Jalan Dr. Setiabudi</name>
+            <styleUrl>#22174</styleUrl>
+            <LineString id="22172">
+                <coordinates>107.5948088,-6.859551,0.0 107.5948052,-6.8595708,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22177">
+            <name>Jalan Raden Adipati Aria Wiranatakusumah</name>
             <styleUrl>#22178</styleUrl>
             <LineString id="22176">
-                <coordinates>107.5920724,-6.9418438,0.0 107.5922389,-6.9415903,0.0 107.5924641,-6.9412448,0.0 107.5930896,-6.9402979,0.0 107.59314,-6.9402168,0.0 107.5932148,-6.9400962,0.0 107.5932356,-6.9400628,0.0 107.5933094,-6.939944,0.0 107.5934404,-6.9397331,0.0 107.5936005,-6.9394752,0.0 107.5937688,-6.9391642,0.0 107.5939092,-6.9389121,0.0 107.5939987,-6.938752,0.0 107.5940814,-6.9386042,0.0 107.5941015,-6.9385696,0.0 107.594148,-6.9384872,0.0 107.594204,-6.9383881,0.0 107.594524,-6.9378129,0.0 107.5945872,-6.9376992,0.0 107.5946221,-6.9376377,0.0 107.5946542,-6.9375847,0.0 107.5948299,-6.9373141,0.0</coordinates>
+                <coordinates>107.6022349,-6.8878097,0.0 107.6022457,-6.8878647,0.0 107.6022526,-6.8879165,0.0 107.6022762,-6.8881022,0.0 107.602334,-6.8886184,0.0 107.6024306,-6.8897621,0.0 107.6025268,-6.8910284,0.0 107.6025599,-6.8914898,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="22181">
             <name>Jalan Raden Adipati Aria Wiranatakusumah</name>
             <styleUrl>#22182</styleUrl>
             <LineString id="22180">
-                <coordinates>107.6025639,-6.8915152,0.0 107.6025685,-6.8916549,0.0 107.6025732,-6.8920405,0.0 107.6025767,-6.8923319,0.0 107.6025976,-6.8928234,0.0 107.6026014,-6.892912,0.0 107.6026186,-6.8933289,0.0 107.602628,-6.8935563,0.0 107.6026469,-6.8940155,0.0 107.6026305,-6.8941606,0.0 107.6025407,-6.8946976,0.0 107.602517,-6.894782,0.0 107.6022794,-6.8957544,0.0 107.602268,-6.8958001,0.0</coordinates>
+                <coordinates>107.6025599,-6.8914898,0.0 107.6025639,-6.8915152,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="22185">
-            <name>Jalan Profesor Christiaan Eijkman</name>
+            <name>Jalan Raden Adipati Aria Wiranatakusumah</name>
             <styleUrl>#22186</styleUrl>
             <LineString id="22184">
-                <coordinates>107.6008463,-6.8959681,0.0 107.6005885,-6.8961348,0.0 107.6003014,-6.8962499,0.0 107.6001433,-6.8962722,0.0 107.5999789,-6.8962674,0.0 107.5993726,-6.8961604,0.0</coordinates>
+                <coordinates>107.6021691,-6.887391,0.0 107.6021839,-6.8874848,0.0 107.6022278,-6.8877643,0.0 107.6022305,-6.8877818,0.0 107.6022349,-6.8878097,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="22189">
             <name>Jalan Pasteur</name>
             <styleUrl>#22190</styleUrl>
             <LineString id="22188">
-                <coordinates>107.5977317,-6.9002067,0.0 107.5979866,-6.900214,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22193">
-            <name>Jalan Kebon Jukut</name>
-            <styleUrl>#22194</styleUrl>
-            <LineString id="22192">
-                <coordinates>107.6046031,-6.9144539,0.0 107.6046132,-6.9144687,0.0 107.6046449,-6.9144848,0.0 107.606675,-6.9147337,0.0 107.606787,-6.9147395,0.0 107.6068501,-6.9147298,0.0 107.6069016,-6.9147011,0.0 107.6069388,-6.9146561,0.0 107.606975,-6.9145811,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22197">
-            <name>Jalan Profesor Christiaan Eijkman</name>
-            <styleUrl>#22198</styleUrl>
-            <LineString id="22196">
-                <coordinates>107.5993726,-6.8961604,0.0 107.5993061,-6.8961476,0.0 107.5989287,-6.8960775,0.0 107.5988179,-6.8960559,0.0 107.5986468,-6.8960201,0.0 107.5985248,-6.8959937,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22201">
-            <name>Jalan Suniaraja</name>
-            <styleUrl>#22202</styleUrl>
-            <LineString id="22200">
-                <coordinates>107.6059861,-6.9155367,0.0 107.6057907,-6.9155809,0.0 107.6055816,-6.9156321,0.0 107.6054049,-6.9156698,0.0 107.605226,-6.9157035,0.0 107.6046673,-6.9158052,0.0 107.6045054,-6.9158364,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22205">
-            <name>Jalan Peta</name>
-            <styleUrl>#22206</styleUrl>
-            <LineString id="22204">
-                <coordinates>107.5971376,-6.937801,0.0 107.5970548,-6.9377924,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22209">
-            <name>Jalan Peta</name>
-            <styleUrl>#22210</styleUrl>
-            <LineString id="22208">
-                <coordinates>107.6030687,-6.9373365,0.0 107.6029953,-6.9373294,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22213">
-            <name>Jalan Peta</name>
-            <styleUrl>#22214</styleUrl>
-            <LineString id="22212">
-                <coordinates>107.6021772,-6.9372552,0.0 107.602016,-6.9372409,0.0 107.6019146,-6.9372385,0.0 107.601703,-6.9372304,0.0 107.6014696,-6.937233,0.0 107.6010236,-6.9372742,0.0 107.6000125,-6.9374564,0.0 107.5998296,-6.9374914,0.0 107.5994727,-6.9375618,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22217">
-            <name>Jalan Wastukancana</name>
-            <styleUrl>#22218</styleUrl>
-            <LineString id="22216">
-                <coordinates>107.6076516,-6.9060628,0.0 107.607682,-6.9063009,0.0 107.6076926,-6.9064512,0.0 107.6076908,-6.9066043,0.0 107.6076724,-6.9068066,0.0 107.6076183,-6.907233,0.0 107.6075667,-6.9075563,0.0 107.6075461,-6.9076136,0.0 107.6074993,-6.9076457,0.0 107.6073865,-6.9076628,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22221">
-            <name>Jalan Pajajaran</name>
-            <styleUrl>#22222</styleUrl>
-            <LineString id="22220">
-                <coordinates>107.6053829,-6.907135,0.0 107.6051824,-6.9071438,0.0 107.6051387,-6.9071446,0.0 107.6045501,-6.9071569,0.0 107.6045,-6.907158,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22225">
-            <name>Jalan Profesor Christiaan Eijkman</name>
-            <styleUrl>#22226</styleUrl>
-            <LineString id="22224">
-                <coordinates>107.5985248,-6.8959937,0.0 107.5984723,-6.8959815,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22229">
-            <name>Jalan Suniaraja</name>
-            <styleUrl>#22230</styleUrl>
-            <LineString id="22228">
-                <coordinates>107.6073053,-6.9154939,0.0 107.6071157,-6.9154839,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22233">
-            <name>Jalan Suniaraja</name>
-            <styleUrl>#22234</styleUrl>
-            <LineString id="22232">
-                <coordinates>107.6071157,-6.9154839,0.0 107.6069686,-6.9154807,0.0 107.6066681,-6.915471,0.0 107.6065499,-6.9154703,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22237">
-            <name>Route Segment</name>
-            <styleUrl>#22238</styleUrl>
-            <LineString id="22236">
-                <coordinates>107.5952296,-6.9371632,0.0 107.5951614,-6.9371577,0.0 107.5950932,-6.9371631,0.0 107.5950268,-6.9371793,0.0 107.5949529,-6.9372115,0.0 107.5948865,-6.937257,0.0 107.5948299,-6.9373141,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22241">
-            <name>Jalan Peta</name>
-            <styleUrl>#22242</styleUrl>
-            <LineString id="22240">
-                <coordinates>107.5994727,-6.9375618,0.0 107.5993708,-6.9375805,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22245">
-            <name>Jalan Peta</name>
-            <styleUrl>#22246</styleUrl>
-            <LineString id="22244">
-                <coordinates>107.5993708,-6.9375805,0.0 107.5988884,-6.9376814,0.0 107.5984434,-6.9377562,0.0 107.5983423,-6.9377695,0.0 107.5980891,-6.9378047,0.0 107.5978299,-6.9378174,0.0 107.5975831,-6.9378255,0.0 107.5972383,-6.9378114,0.0 107.5971376,-6.937801,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22249">
-            <name>Jalan Profesor Christiaan Eijkman</name>
-            <styleUrl>#22250</styleUrl>
-            <LineString id="22248">
-                <coordinates>107.5984723,-6.8959815,0.0 107.5982533,-6.8959337,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22253">
-            <name>Route Segment</name>
-            <styleUrl>#22254</styleUrl>
-            <LineString id="22252">
-                <coordinates>107.5951942,-6.85933,0.0 107.5951855,-6.8593963,0.0 107.5951822,-6.8594053,0.0 107.5951748,-6.8594103,0.0 107.5948433,-6.8593552,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22257">
-            <name>Route Segment</name>
-            <styleUrl>#22258</styleUrl>
-            <LineString id="22256">
-                <coordinates>107.6077246,-6.9060495,0.0 107.6076516,-6.9060628,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22261">
-            <name>Jalan Peta</name>
-            <styleUrl>#22262</styleUrl>
-            <LineString id="22260">
-                <coordinates>107.5970548,-6.9377924,0.0 107.5970082,-6.9377848,0.0 107.5966811,-6.9377315,0.0 107.5963307,-6.9376489,0.0 107.5961367,-6.9375778,0.0 107.5959549,-6.937498,0.0 107.5955421,-6.9372977,0.0 107.5954936,-6.9372742,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22265">
-            <name>Jalan Suniaraja</name>
-            <styleUrl>#22266</styleUrl>
-            <LineString id="22264">
-                <coordinates>107.6065499,-6.9154703,0.0 107.6064784,-6.9154686,0.0 107.6063683,-6.9154661,0.0 107.6059861,-6.9155367,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22269">
-            <name>Jalan Aceh</name>
-            <styleUrl>#22270</styleUrl>
-            <LineString id="22268">
-                <coordinates>107.6041426,-6.9127091,0.0 107.604692,-6.9127619,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22273">
-            <name>Jalan Cicendo</name>
-            <styleUrl>#22274</styleUrl>
-            <LineString id="22272">
-                <coordinates>107.6039561,-6.9125447,0.0 107.6039966,-6.9126049,0.0 107.6040499,-6.9126535,0.0 107.6041426,-6.9127091,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22277">
-            <name>Jalan Dr. Setiabudi</name>
-            <styleUrl>#22278</styleUrl>
-            <LineString id="22276">
-                <coordinates>107.5940961,-6.8651081,0.0 107.5940723,-6.8653071,0.0 107.5940489,-6.8655021,0.0 107.5940436,-6.8655555,0.0 107.5939941,-6.866016,0.0 107.59398,-6.8661473,0.0 107.5939484,-6.8664124,0.0 107.5939402,-6.8664718,0.0 107.5939135,-6.8666897,0.0 107.593824,-6.8674042,0.0 107.5937888,-6.8677009,0.0 107.5937561,-6.8679333,0.0 107.5937127,-6.8682235,0.0 107.5937093,-6.8682462,0.0 107.593703,-6.868294,0.0 107.5936933,-6.8683616,0.0 107.5936592,-6.8686283,0.0 107.5936527,-6.8686846,0.0 107.5936366,-6.868816,0.0 107.5936184,-6.8689604,0.0 107.5936057,-6.869061,0.0 107.5935721,-6.8693613,0.0 107.5935632,-6.8694388,0.0 107.5935337,-6.8696955,0.0 107.5935252,-6.8697698,0.0 107.5935167,-6.8698675,0.0 107.5935096,-6.8699573,0.0 107.593506,-6.8701005,0.0 107.5935249,-6.8704256,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22281">
-            <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22282</styleUrl>
-            <LineString id="22280">
-                <coordinates>107.6038803,-6.9238302,0.0 107.6038724,-6.923931,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22285">
-            <name>Jalan Raden Adipati Aria Wiranatakusumah</name>
-            <styleUrl>#22286</styleUrl>
-            <LineString id="22284">
-                <coordinates>107.6013125,-6.8834804,0.0 107.60158,-6.8845161,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22289">
-            <name>Jalan Braga</name>
-            <styleUrl>#22290</styleUrl>
-            <LineString id="22288">
-                <coordinates>107.6089865,-6.9159412,0.0 107.6089646,-6.9160333,0.0 107.608966,-6.916108,0.0 107.6089644,-6.916155,0.0 107.6089606,-6.9161782,0.0 107.608954,-6.9162093,0.0 107.6089283,-6.9162468,0.0 107.6088792,-6.9162786,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22293">
-            <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22294</styleUrl>
-            <LineString id="22292">
-                <coordinates>107.6031033,-6.9370152,0.0 107.6030927,-6.9371305,0.0 107.603088,-6.9372221,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22297">
-            <name>Jalan Sederhana</name>
-            <styleUrl>#22298</styleUrl>
-            <LineString id="22296">
-                <coordinates>107.5975318,-6.8966067,0.0 107.5974852,-6.8966564,0.0 107.5974629,-6.8966804,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22301">
-            <name>Jalan Pasir Kaliki</name>
-            <styleUrl>#22302</styleUrl>
-            <LineString id="22300">
-                <coordinates>107.5974629,-6.8966804,0.0 107.5973832,-6.8967895,0.0 107.5973739,-6.8968101,0.0 107.5973632,-6.8968394,0.0 107.5973563,-6.8969183,0.0 107.5973743,-6.8978579,0.0 107.5973757,-6.8980113,0.0 107.5973829,-6.8982378,0.0 107.5973873,-6.8983517,0.0 107.5973974,-6.8986245,0.0 107.5974,-6.8987139,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22305">
-            <name>Jalan Perintis Kemerdekaan</name>
-            <styleUrl>#22306</styleUrl>
-            <LineString id="22304">
-                <coordinates>107.6089516,-6.913844,0.0 107.6089515,-6.9138647,0.0 107.6089575,-6.9138845,0.0 107.6089691,-6.9139001,0.0 107.6089853,-6.9139148,0.0 107.6090046,-6.9139225,0.0 107.6090254,-6.9139243,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22309">
-            <name>Jalan Pajajaran</name>
-            <styleUrl>#22310</styleUrl>
-            <LineString id="22308">
-                <coordinates>107.6045,-6.907158,0.0 107.6044996,-6.907174,0.0 107.6044946,-6.9071893,0.0 107.6044854,-6.9072025,0.0 107.6044728,-6.9072125,0.0 107.6044578,-6.9072185,0.0 107.6044417,-6.9072201,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22313">
-            <name>Jalan Wastukancana</name>
-            <styleUrl>#22314</styleUrl>
-            <LineString id="22312">
-                <coordinates>107.607556,-6.9054463,0.0 107.6075644,-6.9054686,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22317">
-            <name>Jalan Dr. Setiabudi</name>
-            <styleUrl>#22318</styleUrl>
-            <LineString id="22316">
-                <coordinates>107.594751,-6.8634425,0.0 107.5946342,-6.8634956,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22321">
-            <name>Jalan Leuwi Panjang</name>
-            <styleUrl>#22322</styleUrl>
-            <LineString id="22320">
-                <coordinates>107.5952184,-6.9469031,0.0 107.5952459,-6.9466699,0.0 107.5952669,-6.9462117,0.0 107.595271,-6.9461694,0.0 107.5952757,-6.9461131,0.0 107.5952807,-6.9460535,0.0 107.5952859,-6.9459928,0.0 107.595295,-6.9458786,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22325">
-            <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22326</styleUrl>
-            <LineString id="22324">
-                <coordinates>107.6031782,-6.9351372,0.0 107.6032137,-6.9352454,0.0 107.6032252,-6.9353491,0.0 107.6032238,-6.935481,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22329">
-            <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22330</styleUrl>
-            <LineString id="22328">
-                <coordinates>107.6031505,-6.9365689,0.0 107.6031322,-6.9367751,0.0 107.6031033,-6.9370152,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22333">
-            <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22334</styleUrl>
-            <LineString id="22332">
-                <coordinates>107.6032159,-6.9342862,0.0 107.6031855,-6.9349893,0.0 107.6031782,-6.9351372,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22337">
-            <name>Jalan Suniaraja</name>
-            <styleUrl>#22338</styleUrl>
-            <LineString id="22336">
-                <coordinates>107.6079775,-6.9160775,0.0 107.6079482,-6.9160431,0.0 107.6077131,-6.915765,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22341">
-            <name>Jalan Peta</name>
-            <styleUrl>#22342</styleUrl>
-            <LineString id="22340">
-                <coordinates>107.5954936,-6.9372742,0.0 107.5953437,-6.9372112,0.0 107.5952296,-6.9371632,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22345">
-            <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22346</styleUrl>
-            <LineString id="22344">
-                <coordinates>107.6043506,-6.917436,0.0 107.6042904,-6.9182779,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22349">
-            <name>Jalan Suniaraja</name>
-            <styleUrl>#22350</styleUrl>
-            <LineString id="22348">
-                <coordinates>107.6073939,-6.915502,0.0 107.6073053,-6.9154939,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22353">
-            <name>Jalan Suniaraja</name>
-            <styleUrl>#22354</styleUrl>
-            <LineString id="22352">
-                <coordinates>107.6077131,-6.915765,0.0 107.6076272,-6.9156556,0.0 107.6075959,-6.9156165,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22357">
-            <name>Jalan Suniaraja</name>
-            <styleUrl>#22358</styleUrl>
-            <LineString id="22356">
-                <coordinates>107.6075959,-6.9156165,0.0 107.6074889,-6.9155475,0.0 107.6074384,-6.9155193,0.0 107.6073939,-6.915502,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22361">
-            <name>Jalan Dr. Setiabudi</name>
-            <styleUrl>#22362</styleUrl>
-            <LineString id="22360">
-                <coordinates>107.5975476,-6.8775669,0.0 107.5976126,-6.8777607,0.0 107.5976714,-6.8779208,0.0 107.5977931,-6.8782315,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22365">
-            <name>Jalan Pasteur</name>
-            <styleUrl>#22366</styleUrl>
-            <LineString id="22364">
-                <coordinates>107.6035214,-6.9002184,0.0 107.6038638,-6.9002105,0.0 107.6039813,-6.9001984,0.0 107.6040453,-6.9001871,0.0 107.6040633,-6.9001819,0.0 107.6041064,-6.9001685,0.0 107.6041803,-6.900144,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22369">
-            <name>Jalan Pasteur</name>
-            <styleUrl>#22370</styleUrl>
-            <LineString id="22368">
-                <coordinates>107.6031071,-6.9002112,0.0 107.6035214,-6.9002184,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22373">
-            <name>Jalan Wastukancana</name>
-            <styleUrl>#22374</styleUrl>
-            <LineString id="22372">
-                <coordinates>107.6047378,-6.9043028,0.0 107.604907,-6.904268,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22377">
-            <name>Jalan Wastukancana</name>
-            <styleUrl>#22378</styleUrl>
-            <LineString id="22376">
-                <coordinates>107.6045194,-6.9042857,0.0 107.6045928,-6.9042871,0.0 107.6046289,-6.9042878,0.0 107.6047378,-6.9043028,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22381">
-            <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22382</styleUrl>
-            <LineString id="22380">
-                <coordinates>107.6039303,-6.9231867,0.0 107.6038803,-6.9238302,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22385">
-            <name>Jalur Bus Kota Terminal Leuwipanjang</name>
-            <styleUrl>#22386</styleUrl>
-            <LineString id="22384">
-                <coordinates>107.5938141,-6.9457411,0.0 107.593784,-6.9457712,0.0 107.5937535,-6.9458066,0.0 107.5937307,-6.9458374,0.0 107.5937192,-6.9458627,0.0 107.5937098,-6.9458851,0.0 107.5936877,-6.9458986,0.0 107.5936574,-6.9459061,0.0 107.593264,-6.9458573,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22389">
-            <name>Jalan Wastukancana</name>
-            <styleUrl>#22390</styleUrl>
-            <LineString id="22388">
-                <coordinates>107.6074587,-6.9052269,0.0 107.607556,-6.9054463,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22393">
-            <name>Jalan Pasir Kaliki</name>
-            <styleUrl>#22394</styleUrl>
-            <LineString id="22392">
-                <coordinates>107.5974075,-6.898977,0.0 107.5974217,-6.8991501,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22397">
-            <name>Route Segment</name>
-            <styleUrl>#22398</styleUrl>
-            <LineString id="22396">
-                <coordinates>107.5898972,-6.9453598,0.0 107.5898924,-6.9454526,0.0 107.5898937,-6.9455017,0.0 107.5899025,-6.94555,0.0 107.5899197,-6.9455844,0.0 107.5899482,-6.9456283,0.0 107.5899638,-6.9456485,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22401">
-            <name>Jalan Pasteur</name>
-            <styleUrl>#22402</styleUrl>
-            <LineString id="22400">
-                <coordinates>107.5979866,-6.900214,0.0 107.5985704,-6.900207,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22405">
-            <name>Jalur Masuk Bus</name>
-            <styleUrl>#22406</styleUrl>
-            <LineString id="22404">
-                <coordinates>107.595295,-6.9458786,0.0 107.5947542,-6.9458158,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22409">
-            <name>Jalur Bus Kota dan AKAP</name>
-            <styleUrl>#22410</styleUrl>
-            <LineString id="22408">
-                <coordinates>107.5944877,-6.9457804,0.0 107.5940855,-6.9457238,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22413">
-            <name>Jalan Braga</name>
-            <styleUrl>#22414</styleUrl>
-            <LineString id="22412">
-                <coordinates>107.6089988,-6.9152244,0.0 107.6089979,-6.9152703,0.0 107.6089865,-6.9159412,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22417">
-            <name>Jalan Pasteur</name>
-            <styleUrl>#22418</styleUrl>
-            <LineString id="22416">
-                <coordinates>107.6022753,-6.900203,0.0 107.6027269,-6.9002045,0.0 107.6027515,-6.9002046,0.0 107.6029796,-6.9002088,0.0 107.6031071,-6.9002112,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22421">
-            <name>Jalan Pasteur</name>
-            <styleUrl>#22422</styleUrl>
-            <LineString id="22420">
-                <coordinates>107.5988968,-6.9002096,0.0 107.5993001,-6.900202,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22425">
-            <name>Jalan Dr. Setiabudi</name>
-            <styleUrl>#22426</styleUrl>
-            <LineString id="22424">
-                <coordinates>107.5993479,-6.8813024,0.0 107.5994309,-6.8814326,0.0 107.5994716,-6.8814891,0.0 107.5996471,-6.8817279,0.0 107.5996965,-6.881795,0.0 107.6000907,-6.8822275,0.0 107.6001689,-6.8823036,0.0 107.6003584,-6.8824654,0.0 107.600512,-6.8825853,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22429">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22430</styleUrl>
-            <LineString id="22428">
-                <coordinates>107.5920057,-6.9464327,0.0 107.5922205,-6.9465024,0.0 107.5923591,-6.9465464,0.0 107.5924183,-6.9465651,0.0 107.5929217,-6.946706,0.0 107.5930626,-6.9467395,0.0 107.5934341,-6.9468277,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22433">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22434</styleUrl>
-            <LineString id="22432">
-                <coordinates>107.5899638,-6.9456485,0.0 107.5902641,-6.9457816,0.0 107.5904302,-6.9458446,0.0 107.5905372,-6.9458885,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22437">
-            <name>Jalan Wastukancana</name>
-            <styleUrl>#22438</styleUrl>
-            <LineString id="22436">
-                <coordinates>107.6076853,-6.905845,0.0 107.6077246,-6.9060495,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22441">
-            <name>Jalan Dr. Setiabudi</name>
-            <styleUrl>#22442</styleUrl>
-            <LineString id="22440">
-                <coordinates>107.5936179,-6.8707823,0.0 107.5937463,-6.8711539,0.0 107.5937922,-6.8712782,0.0 107.593895,-6.8715029,0.0 107.5940693,-6.8717924,0.0 107.5944136,-6.8722322,0.0 107.5948065,-6.8727176,0.0 107.5949802,-6.8729249,0.0 107.5951113,-6.8730936,0.0 107.5955371,-6.8736221,0.0 107.5956623,-6.8737793,0.0 107.5956814,-6.8738055,0.0 107.5956912,-6.8738171,0.0 107.5957307,-6.8738828,0.0 107.5957592,-6.8739356,0.0 107.5957878,-6.8739884,0.0 107.5958267,-6.874066,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22445">
-            <name>Jalan Kyai Haji Wahid Hasyim</name>
-            <styleUrl>#22446</styleUrl>
-            <LineString id="22444">
-                <coordinates>107.5899199,-6.9452949,0.0 107.5898972,-6.9453598,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22449">
-            <name>Jalan Wastukancana</name>
-            <styleUrl>#22450</styleUrl>
-            <LineString id="22448">
-                <coordinates>107.6070138,-6.9046,0.0 107.6071411,-6.9047305,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22453">
-            <name>Jalan Wastukancana</name>
-            <styleUrl>#22454</styleUrl>
-            <LineString id="22452">
-                <coordinates>107.6071411,-6.9047305,0.0 107.607265,-6.9048943,0.0 107.607283,-6.9049195,0.0 107.6074067,-6.905129,0.0 107.6074587,-6.9052269,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22457">
-            <name>Jalan Dr. Setiabudi</name>
-            <styleUrl>#22458</styleUrl>
-            <LineString id="22456">
-                <coordinates>107.5935249,-6.8704256,0.0 107.5936179,-6.8707823,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22461">
-            <name>Jalan Perintis Kemerdekaan</name>
-            <styleUrl>#22462</styleUrl>
-            <LineString id="22460">
-                <coordinates>107.6073185,-6.9143005,0.0 107.6073396,-6.9142915,0.0 107.6073918,-6.9142744,0.0 107.607494,-6.9142383,0.0 107.6075641,-6.9142136,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22465">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22466</styleUrl>
-            <LineString id="22464">
-                <coordinates>107.5934341,-6.9468277,0.0 107.5935172,-6.946847,0.0 107.5935575,-6.9468564,0.0 107.5936688,-6.9468823,0.0 107.593986,-6.9469544,0.0 107.5940785,-6.9469738,0.0 107.5941765,-6.9469938,0.0 107.5942182,-6.9470057,0.0 107.5946413,-6.947092,0.0 107.5946801,-6.9470993,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22469">
-            <name>Jalan Wastukancana</name>
-            <styleUrl>#22470</styleUrl>
-            <LineString id="22468">
-                <coordinates>107.6069187,-6.9045127,0.0 107.6070138,-6.9046,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22473">
-            <name>Jalan Wastukancana</name>
-            <styleUrl>#22474</styleUrl>
-            <LineString id="22472">
-                <coordinates>107.6065841,-6.9042698,0.0 107.6067222,-6.904359,0.0 107.6068568,-6.9044553,0.0 107.6069187,-6.9045127,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22477">
-            <name>Jalur Bus Kota dan AKAP</name>
-            <styleUrl>#22478</styleUrl>
-            <LineString id="22476">
-                <coordinates>107.5940315,-6.9457129,0.0 107.5939798,-6.9457037,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22481">
-            <name>Jalur Bus Kota dan AKAP</name>
-            <styleUrl>#22482</styleUrl>
-            <LineString id="22480">
-                <coordinates>107.5940855,-6.9457238,0.0 107.5940315,-6.9457129,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22485">
-            <name>Jalur Bus Kota dan AKAP</name>
-            <styleUrl>#22486</styleUrl>
-            <LineString id="22484">
-                <coordinates>107.5947542,-6.9458158,0.0 107.5946724,-6.9458045,0.0 107.5944877,-6.9457804,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22489">
-            <name>Jalan Dr. Setiabudi</name>
-            <styleUrl>#22490</styleUrl>
-            <LineString id="22488">
-                <coordinates>107.5948433,-6.8593552,0.0 107.5948312,-6.8594241,0.0 107.5948088,-6.859551,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22493">
-            <name>Jalan Dr. Setiabudi</name>
-            <styleUrl>#22494</styleUrl>
-            <LineString id="22492">
-                <coordinates>107.5948052,-6.8595708,0.0 107.594757,-6.8600369,0.0 107.5947527,-6.8600724,0.0 107.5947487,-6.8601046,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22497">
-            <name>Jalan Dr. Setiabudi</name>
-            <styleUrl>#22498</styleUrl>
-            <LineString id="22496">
-                <coordinates>107.5948088,-6.859551,0.0 107.5948052,-6.8595708,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22501">
-            <name>Jalan Raden Adipati Aria Wiranatakusumah</name>
-            <styleUrl>#22502</styleUrl>
-            <LineString id="22500">
-                <coordinates>107.6022349,-6.8878097,0.0 107.6022457,-6.8878647,0.0 107.6022526,-6.8879165,0.0 107.6022762,-6.8881022,0.0 107.602334,-6.8886184,0.0 107.6024306,-6.8897621,0.0 107.6025268,-6.8910284,0.0 107.6025599,-6.8914898,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22505">
-            <name>Jalan Raden Adipati Aria Wiranatakusumah</name>
-            <styleUrl>#22506</styleUrl>
-            <LineString id="22504">
-                <coordinates>107.6025599,-6.8914898,0.0 107.6025639,-6.8915152,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22509">
-            <name>Jalan Raden Adipati Aria Wiranatakusumah</name>
-            <styleUrl>#22510</styleUrl>
-            <LineString id="22508">
-                <coordinates>107.6021691,-6.887391,0.0 107.6021839,-6.8874848,0.0 107.6022278,-6.8877643,0.0 107.6022305,-6.8877818,0.0 107.6022349,-6.8878097,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22513">
-            <name>Jalan Pasteur</name>
-            <styleUrl>#22514</styleUrl>
-            <LineString id="22512">
                 <coordinates>107.6010655,-6.9002051,0.0 107.6021013,-6.9002033,0.0 107.6021562,-6.9002043,0.0 107.6022098,-6.9002031,0.0 107.6022753,-6.900203,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22517">
+        <Placemark id="22193">
             <name>Jalan Otto Iskandardinata</name>
-            <styleUrl>#22518</styleUrl>
-            <LineString id="22516">
-                <coordinates>107.604692,-6.9127619,0.0 107.6046653,-6.9131773,0.0 107.6046562,-6.9133158,0.0 107.6046487,-6.9134899,0.0 107.6046413,-6.9136374,0.0 107.6046392,-6.9136785,0.0 107.6046344,-6.913774,0.0 107.6046298,-6.9138408,0.0 107.604621,-6.913968,0.0 107.6045855,-6.9143581,0.0 107.6045878,-6.9143974,0.0 107.6045929,-6.9144391,0.0 107.6046031,-6.9144539,0.0</coordinates>
+            <styleUrl>#22194</styleUrl>
+            <LineString id="22192">
+                <coordinates>107.604692,-6.9127619,0.0 107.6046613,-6.913176,0.0 107.6046522,-6.9133158,0.0 107.6046393,-6.9134886,0.0 107.6046306,-6.9136374,0.0 107.6046271,-6.9136785,0.0 107.604621,-6.9137727,0.0 107.6046177,-6.9138395,0.0 107.6046089,-6.913972,0.0 107.6045855,-6.9143581,0.0 107.6045878,-6.9143974,0.0 107.6045929,-6.9144391,0.0 107.6046031,-6.9144539,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22521">
+        <Placemark id="22197">
             <name>Jalan Peta</name>
-            <styleUrl>#22522</styleUrl>
-            <LineString id="22520">
-                <coordinates>107.6029953,-6.9373294,0.0 107.6028855,-6.9373188,0.0 107.6028524,-6.937315,0.0 107.6021772,-6.9372552,0.0</coordinates>
+            <styleUrl>#22198</styleUrl>
+            <LineString id="22196">
+                <coordinates>107.6029983,-6.9373153,0.0 107.6028855,-6.9373037,0.0 107.6028514,-6.9373009,0.0 107.6021772,-6.9372552,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22525">
+        <Placemark id="22201">
             <name>Jalan Dr. Setiabudi</name>
-            <styleUrl>#22526</styleUrl>
-            <LineString id="22524">
+            <styleUrl>#22202</styleUrl>
+            <LineString id="22200">
                 <coordinates>107.5946342,-6.8634956,0.0 107.594575,-6.8635338,0.0 107.5945119,-6.8636016,0.0 107.594469,-6.8636686,0.0 107.5943936,-6.8638479,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22529">
+        <Placemark id="22205">
             <name>Jalan Dr. Setiabudi</name>
-            <styleUrl>#22530</styleUrl>
-            <LineString id="22528">
+            <styleUrl>#22206</styleUrl>
+            <LineString id="22204">
                 <coordinates>107.5943936,-6.8638479,0.0 107.5943935,-6.8639227,0.0 107.594376,-6.8640132,0.0 107.5942986,-6.8642872,0.0 107.5942475,-6.8644965,0.0 107.594221,-6.8646108,0.0 107.5941843,-6.8648198,0.0 107.5941464,-6.8650627,0.0 107.5940961,-6.8651081,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22533">
+        <Placemark id="22209">
             <name>Jalan Kyai Haji Wahid Hasyim</name>
-            <styleUrl>#22534</styleUrl>
-            <LineString id="22532">
+            <styleUrl>#22210</styleUrl>
+            <LineString id="22208">
                 <coordinates>107.5910269,-6.9435481,0.0 107.5910603,-6.9434929,0.0 107.5910903,-6.9434463,0.0 107.5911028,-6.9434233,0.0 107.5911203,-6.9433931,0.0 107.5912147,-6.9432302,0.0 107.591257,-6.9431573,0.0 107.5913003,-6.9430856,0.0 107.5913435,-6.9430138,0.0 107.5914686,-6.9428144,0.0 107.5916513,-6.9425217,0.0 107.5918451,-6.942203,0.0 107.5918647,-6.9421708,0.0 107.59192,-6.9420837,0.0 107.5920724,-6.9418438,0.0</coordinates>
             </LineString>
         </Placemark>
-        <Placemark id="22537">
+        <Placemark id="22213">
             <name>Jalur Bus Kota</name>
-            <styleUrl>#22538</styleUrl>
-            <LineString id="22536">
+            <styleUrl>#22214</styleUrl>
+            <LineString id="22212">
                 <coordinates>107.5939798,-6.9457037,0.0 107.5938141,-6.9457411,0.0</coordinates>
             </LineString>
-        </Placemark>
-        <Placemark id="22541">
-            <name>Terminal Ledeng</name>
-            <styleUrl>#22542</styleUrl>
-            <Point id="22540">
-                <coordinates>107.5951942,-6.85933,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="22546">
-            <name>Terminal Leuwipanjang</name>
-            <styleUrl>#22547</styleUrl>
-            <Point id="22545">
-                <coordinates>107.593264,-6.9458573,0.0</coordinates>
-            </Point>
         </Placemark>
     </Document>
 </kml>

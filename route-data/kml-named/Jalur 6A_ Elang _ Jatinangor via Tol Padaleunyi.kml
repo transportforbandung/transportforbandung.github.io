@@ -1,6 +1,593 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="22551">
+    <Document id="22217">
+        <Style id="22223">
+            <IconStyle id="22224">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="22225">
+                    <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="22228">
+            <IconStyle id="22229">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="22230">
+                    <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="22233">
+            <LineStyle id="22234">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22237">
+            <LineStyle id="22238">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22241">
+            <LineStyle id="22242">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22245">
+            <LineStyle id="22246">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22249">
+            <LineStyle id="22250">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22253">
+            <LineStyle id="22254">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22257">
+            <LineStyle id="22258">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22261">
+            <LineStyle id="22262">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22265">
+            <LineStyle id="22266">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22269">
+            <LineStyle id="22270">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22273">
+            <LineStyle id="22274">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22277">
+            <LineStyle id="22278">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22281">
+            <LineStyle id="22282">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22285">
+            <LineStyle id="22286">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22289">
+            <LineStyle id="22290">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22293">
+            <LineStyle id="22294">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22297">
+            <LineStyle id="22298">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22301">
+            <LineStyle id="22302">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22305">
+            <LineStyle id="22306">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22309">
+            <LineStyle id="22310">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22313">
+            <LineStyle id="22314">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22317">
+            <LineStyle id="22318">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22321">
+            <LineStyle id="22322">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22325">
+            <LineStyle id="22326">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22329">
+            <LineStyle id="22330">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22333">
+            <LineStyle id="22334">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22337">
+            <LineStyle id="22338">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22341">
+            <LineStyle id="22342">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22345">
+            <LineStyle id="22346">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22349">
+            <LineStyle id="22350">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22353">
+            <LineStyle id="22354">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22357">
+            <LineStyle id="22358">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22361">
+            <LineStyle id="22362">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22365">
+            <LineStyle id="22366">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22369">
+            <LineStyle id="22370">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22373">
+            <LineStyle id="22374">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22377">
+            <LineStyle id="22378">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22381">
+            <LineStyle id="22382">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22385">
+            <LineStyle id="22386">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22389">
+            <LineStyle id="22390">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22393">
+            <LineStyle id="22394">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22397">
+            <LineStyle id="22398">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22401">
+            <LineStyle id="22402">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22405">
+            <LineStyle id="22406">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22409">
+            <LineStyle id="22410">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22413">
+            <LineStyle id="22414">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22417">
+            <LineStyle id="22418">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22421">
+            <LineStyle id="22422">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22425">
+            <LineStyle id="22426">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22429">
+            <LineStyle id="22430">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22433">
+            <LineStyle id="22434">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22437">
+            <LineStyle id="22438">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22441">
+            <LineStyle id="22442">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22445">
+            <LineStyle id="22446">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22449">
+            <LineStyle id="22450">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22453">
+            <LineStyle id="22454">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22457">
+            <LineStyle id="22458">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22461">
+            <LineStyle id="22462">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22465">
+            <LineStyle id="22466">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22469">
+            <LineStyle id="22470">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22473">
+            <LineStyle id="22474">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22477">
+            <LineStyle id="22478">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22481">
+            <LineStyle id="22482">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22485">
+            <LineStyle id="22486">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22489">
+            <LineStyle id="22490">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22493">
+            <LineStyle id="22494">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22497">
+            <LineStyle id="22498">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22501">
+            <LineStyle id="22502">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22505">
+            <LineStyle id="22506">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22509">
+            <LineStyle id="22510">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22513">
+            <LineStyle id="22514">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22517">
+            <LineStyle id="22518">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22521">
+            <LineStyle id="22522">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22525">
+            <LineStyle id="22526">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22529">
+            <LineStyle id="22530">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22533">
+            <LineStyle id="22534">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22537">
+            <LineStyle id="22538">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22541">
+            <LineStyle id="22542">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22545">
+            <LineStyle id="22546">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22549">
+            <LineStyle id="22550">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
+        <Style id="22553">
+            <LineStyle id="22554">
+                <color>ffB788F2</color>
+                <colorMode>normal</colorMode>
+                <width>4</width>
+            </LineStyle>
+        </Style>
         <Style id="22557">
             <LineStyle id="22558">
                 <color>ffB788F2</color>
@@ -169,593 +756,6 @@
                 <width>4</width>
             </LineStyle>
         </Style>
-        <Style id="22653">
-            <LineStyle id="22654">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22657">
-            <LineStyle id="22658">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22661">
-            <LineStyle id="22662">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22665">
-            <LineStyle id="22666">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22669">
-            <LineStyle id="22670">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22673">
-            <LineStyle id="22674">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22677">
-            <LineStyle id="22678">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22681">
-            <LineStyle id="22682">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22685">
-            <LineStyle id="22686">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22689">
-            <LineStyle id="22690">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22693">
-            <LineStyle id="22694">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22697">
-            <LineStyle id="22698">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22701">
-            <LineStyle id="22702">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22705">
-            <LineStyle id="22706">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22709">
-            <LineStyle id="22710">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22713">
-            <LineStyle id="22714">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22717">
-            <LineStyle id="22718">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22721">
-            <LineStyle id="22722">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22725">
-            <LineStyle id="22726">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22729">
-            <LineStyle id="22730">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22733">
-            <LineStyle id="22734">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22737">
-            <LineStyle id="22738">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22741">
-            <LineStyle id="22742">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22745">
-            <LineStyle id="22746">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22749">
-            <LineStyle id="22750">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22753">
-            <LineStyle id="22754">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22757">
-            <LineStyle id="22758">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22761">
-            <LineStyle id="22762">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22765">
-            <LineStyle id="22766">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22769">
-            <LineStyle id="22770">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22773">
-            <LineStyle id="22774">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22777">
-            <LineStyle id="22778">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22781">
-            <LineStyle id="22782">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22785">
-            <LineStyle id="22786">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22789">
-            <LineStyle id="22790">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22793">
-            <LineStyle id="22794">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22797">
-            <LineStyle id="22798">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22801">
-            <LineStyle id="22802">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22805">
-            <LineStyle id="22806">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22809">
-            <LineStyle id="22810">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22813">
-            <LineStyle id="22814">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22817">
-            <LineStyle id="22818">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22821">
-            <LineStyle id="22822">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22825">
-            <LineStyle id="22826">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22829">
-            <LineStyle id="22830">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22833">
-            <LineStyle id="22834">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22837">
-            <LineStyle id="22838">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22841">
-            <LineStyle id="22842">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22845">
-            <LineStyle id="22846">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22849">
-            <LineStyle id="22850">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22853">
-            <LineStyle id="22854">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22857">
-            <LineStyle id="22858">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22861">
-            <LineStyle id="22862">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22865">
-            <LineStyle id="22866">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22869">
-            <LineStyle id="22870">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22873">
-            <LineStyle id="22874">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22877">
-            <LineStyle id="22878">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22881">
-            <LineStyle id="22882">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22885">
-            <LineStyle id="22886">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22889">
-            <LineStyle id="22890">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22893">
-            <LineStyle id="22894">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22897">
-            <LineStyle id="22898">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22901">
-            <LineStyle id="22902">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22905">
-            <LineStyle id="22906">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22909">
-            <LineStyle id="22910">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22913">
-            <LineStyle id="22914">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22917">
-            <LineStyle id="22918">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22921">
-            <LineStyle id="22922">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22925">
-            <LineStyle id="22926">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22929">
-            <LineStyle id="22930">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22933">
-            <LineStyle id="22934">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22937">
-            <LineStyle id="22938">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22941">
-            <LineStyle id="22942">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22945">
-            <LineStyle id="22946">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22949">
-            <LineStyle id="22950">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22953">
-            <LineStyle id="22954">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22957">
-            <LineStyle id="22958">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22961">
-            <LineStyle id="22962">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22965">
-            <LineStyle id="22966">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22969">
-            <LineStyle id="22970">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22973">
-            <LineStyle id="22974">
-                <color>ffB788F2</color>
-                <colorMode>normal</colorMode>
-                <width>4</width>
-            </LineStyle>
-        </Style>
-        <Style id="22977">
-            <IconStyle id="22978">
-                <colorMode>normal</colorMode>
-                <scale>1</scale>
-                <heading>0</heading>
-                <Icon id="22979">
-                    <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
-        <Style id="22982">
-            <IconStyle id="22983">
-                <colorMode>normal</colorMode>
-                <scale>1</scale>
-                <heading>0</heading>
-                <Icon id="22984">
-                    <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-                </Icon>
-            </IconStyle>
-        </Style>
         <ExtendedData>
             <Data name="route-name">
                 <value>Jalur 6A: Elang → Jatinangor via Tol Padaleunyi</value>
@@ -764,754 +764,754 @@
                 <value>Transport for Bandung</value>
             </Data>
         </ExtendedData>
-        <Placemark id="22556">
-            <name>Jalan Rajawali Timur</name>
-            <styleUrl>#22557</styleUrl>
-            <LineString id="22555">
-                <coordinates>107.5761151,-6.9132715,0.0 107.5762053,-6.9133088,0.0 107.5762519,-6.9133265,0.0 107.5765322,-6.9134206,0.0 107.5766744,-6.9134545,0.0 107.5768473,-6.9134956,0.0 107.5771173,-6.9135481,0.0 107.5775341,-6.9136343,0.0 107.5776073,-6.9136496,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22560">
-            <name>Jalan Raya Cileunyi</name>
-            <styleUrl>#22561</styleUrl>
-            <LineString id="22559">
-                <coordinates>107.7528851,-6.9391361,0.0 107.7530294,-6.9390441,0.0 107.7537452,-6.938697,0.0 107.7540066,-6.9385699,0.0 107.7541454,-6.9385016,0.0 107.7544927,-6.9383149,0.0 107.7548022,-6.9381645,0.0 107.755132,-6.9380904,0.0 107.7553843,-6.9380561,0.0 107.7558468,-6.9379992,0.0 107.7559524,-6.9379853,0.0 107.7560525,-6.9379722,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22564">
-            <name>Jalan Akses Tol Mohammad Toha</name>
-            <styleUrl>#22565</styleUrl>
-            <LineString id="22563">
-                <coordinates>107.6119773,-6.9559046,0.0 107.6119023,-6.955933,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22568">
-            <name>Jalan Akses Tol Mohammad Toha</name>
-            <styleUrl>#22569</styleUrl>
-            <LineString id="22567">
-                <coordinates>107.6062444,-6.9594034,0.0 107.6062935,-6.9598183,0.0 107.6063891,-6.9601879,0.0 107.6064891,-6.9604204,0.0 107.6065484,-6.9605246,0.0 107.6066342,-6.9606298,0.0 107.606712,-6.960735,0.0 107.6068276,-6.9608426,0.0 107.6069614,-6.9609506,0.0 107.6071374,-6.9610507,0.0 107.6073557,-6.9611476,0.0 107.6075788,-6.9611894,0.0 107.6078236,-6.9612087,0.0 107.6080064,-6.9612283,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22572">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22573</styleUrl>
-            <LineString id="22571">
-                <coordinates>107.6376642,-6.9656491,0.0 107.6383542,-6.9657306,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22576">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22577</styleUrl>
-            <LineString id="22575">
-                <coordinates>107.6428065,-6.9656857,0.0 107.6433819,-6.9655597,0.0 107.6439457,-6.9654188,0.0 107.6444876,-6.9652811,0.0 107.6456233,-6.9649793,0.0 107.6461997,-6.9648425,0.0 107.6464447,-6.9648018,0.0 107.6471321,-6.9646894,0.0 107.6477031,-6.9646316,0.0 107.6480073,-6.9646075,0.0 107.6482899,-6.9645955,0.0 107.648769,-6.9645835,0.0 107.6492481,-6.9646002,0.0 107.6494731,-6.9646135,0.0 107.6497775,-6.9646261,0.0 107.650345,-6.9646987,0.0 107.6548013,-6.9653876,0.0 107.6570222,-6.9657337,0.0 107.6581165,-6.9659094,0.0 107.6591915,-6.9661036,0.0 107.6597561,-6.9662374,0.0 107.6602707,-6.9663703,0.0 107.6603107,-6.966378,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22580">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22581</styleUrl>
-            <LineString id="22579">
-                <coordinates>107.6605722,-6.9664426,0.0 107.6617508,-6.9667679,0.0 107.6621613,-6.9668812,0.0 107.6629525,-6.9670928,0.0 107.6637748,-6.9672708,0.0 107.6646665,-6.9674083,0.0 107.665565,-6.9675082,0.0 107.6664515,-6.9675481,0.0 107.667055,-6.9675574,0.0 107.6691132,-6.9675103,0.0 107.6700937,-6.9674908,0.0 107.6711041,-6.967534,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22584">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22585</styleUrl>
-            <LineString id="22583">
-                <coordinates>107.6603107,-6.966378,0.0 107.6605722,-6.9664426,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22588">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22589</styleUrl>
-            <LineString id="22587">
-                <coordinates>107.7274621,-6.9555628,0.0 107.730105,-6.9541849,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22592">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22593</styleUrl>
-            <LineString id="22591">
-                <coordinates>107.6780936,-6.9682142,0.0 107.6791178,-6.9683208,0.0 107.6828364,-6.9687183,0.0 107.684564,-6.9688851,0.0 107.6861756,-6.9690221,0.0 107.6864951,-6.96905,0.0 107.6873347,-6.9691278,0.0 107.6888908,-6.969272,0.0 107.6900884,-6.9694124,0.0 107.6909182,-6.9695025,0.0 107.6921685,-6.9696105,0.0 107.6929032,-6.9696526,0.0 107.6940014,-6.9696718,0.0 107.6952538,-6.9696387,0.0 107.6962926,-6.9695695,0.0 107.6970049,-6.9694949,0.0 107.6978674,-6.9693954,0.0 107.6986982,-6.9692535,0.0 107.6991637,-6.9691642,0.0 107.7003715,-6.9688969,0.0 107.7007549,-6.9688011,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22596">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22597</styleUrl>
-            <LineString id="22595">
-                <coordinates>107.7044746,-6.9675629,0.0 107.7045311,-6.9675384,0.0 107.7048064,-6.967419,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22600">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22601</styleUrl>
-            <LineString id="22599">
-                <coordinates>107.6713565,-6.9675464,0.0 107.672646,-6.9676726,0.0 107.6778229,-6.968186,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22604">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22605</styleUrl>
-            <LineString id="22603">
-                <coordinates>107.6778229,-6.968186,0.0 107.6780936,-6.9682142,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22608">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22609</styleUrl>
-            <LineString id="22607">
-                <coordinates>107.6711041,-6.967534,0.0 107.6713565,-6.9675464,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22612">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22613</styleUrl>
-            <LineString id="22611">
-                <coordinates>107.7048064,-6.967419,0.0 107.7063273,-6.9666885,0.0 107.707713,-6.9659768,0.0 107.7079453,-6.9658455,0.0 107.7100313,-6.964752,0.0 107.71226,-6.9635947,0.0 107.7142374,-6.9625564,0.0 107.7158084,-6.9617315,0.0 107.7169965,-6.9611014,0.0 107.7181569,-6.9604752,0.0 107.7189587,-6.9600552,0.0 107.7192018,-6.9599278,0.0 107.7238903,-6.9574717,0.0 107.7262495,-6.9562108,0.0 107.7274621,-6.9555628,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22616">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22617</styleUrl>
-            <LineString id="22615">
-                <coordinates>107.6138569,-6.9608687,0.0 107.6145694,-6.9608244,0.0 107.6152712,-6.9608006,0.0 107.6158234,-6.9607949,0.0 107.6163738,-6.9608351,0.0 107.6169258,-6.9608827,0.0 107.6174131,-6.9609627,0.0 107.618434,-6.9611867,0.0 107.6188986,-6.961326,0.0 107.6194087,-6.9615161,0.0 107.6204529,-6.9619211,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22620">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22621</styleUrl>
-            <LineString id="22619">
-                <coordinates>107.6133971,-6.9608951,0.0 107.6138569,-6.9608687,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22624">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22625</styleUrl>
-            <LineString id="22623">
-                <coordinates>107.5744266,-6.9194787,0.0 107.5744272,-6.9195208,0.0 107.5744343,-6.9196531,0.0 107.5744531,-6.9198794,0.0 107.5744799,-6.9200829,0.0 107.5745244,-6.9204204,0.0 107.5745632,-6.9206714,0.0 107.5745805,-6.9207727,0.0 107.574617,-6.9209716,0.0 107.5746819,-6.9214118,0.0 107.5748304,-6.9223874,0.0 107.5748829,-6.9227581,0.0 107.5749416,-6.92312,0.0 107.5749473,-6.9231553,0.0 107.575014,-6.9236585,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22628">
-            <name>Jalan Akses Tol Mohammad Toha</name>
-            <styleUrl>#22629</styleUrl>
-            <LineString id="22627">
-                <coordinates>107.6109823,-6.9562337,0.0 107.6108289,-6.956309,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22632">
-            <name>Jalan Mohammad Toha</name>
-            <styleUrl>#22633</styleUrl>
-            <LineString id="22631">
-                <coordinates>107.6116113,-6.9549027,0.0 107.6116834,-6.9550038,0.0 107.6117349,-6.955158,0.0 107.6118082,-6.9554079,0.0 107.6118897,-6.9556394,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22636">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22637</styleUrl>
-            <LineString id="22635">
-                <coordinates>107.6098249,-6.9611724,0.0 107.6133971,-6.9608951,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22640">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22641</styleUrl>
-            <LineString id="22639">
-                <coordinates>107.575014,-6.9236585,0.0 107.5750579,-6.9239839,0.0 107.5751102,-6.9243105,0.0 107.5751686,-6.9246901,0.0 107.5752003,-6.9248974,0.0 107.575247,-6.9252035,0.0 107.5752734,-6.9253766,0.0 107.5752867,-6.9254635,0.0 107.575321,-6.9256811,0.0 107.5753412,-6.9258096,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22644">
-            <name>Jalan Jendral Sudirman</name>
-            <styleUrl>#22645</styleUrl>
-            <LineString id="22643">
-                <coordinates>107.5766159,-6.9175515,0.0 107.5762592,-6.9175155,0.0 107.5760342,-6.9174893,0.0 107.5757932,-6.9174613,0.0 107.5756139,-6.9174409,0.0 107.5754537,-6.9174221,0.0 107.5751233,-6.9173833,0.0 107.5750142,-6.9173706,0.0 107.5747901,-6.9173287,0.0 107.5747047,-6.9173134,0.0 107.5746765,-6.9173067,0.0 107.5745601,-6.9172787,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22648">
-            <name>Jalan Garuda</name>
-            <styleUrl>#22649</styleUrl>
-            <LineString id="22647">
-                <coordinates>107.5776073,-6.9136496,0.0 107.5774382,-6.9143939,0.0 107.5772255,-6.9153302,0.0 107.5771848,-6.9155032,0.0 107.5771079,-6.9158293,0.0 107.5770623,-6.916012,0.0 107.5770472,-6.9160725,0.0 107.5770267,-6.9161661,0.0 107.5768707,-6.91682,0.0 107.5768513,-6.9168985,0.0 107.5768101,-6.9171039,0.0 107.5767538,-6.9173844,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22652">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22653</styleUrl>
-            <LineString id="22651">
-                <coordinates>107.5863956,-6.9441848,0.0 107.5868373,-6.9443439,0.0 107.5870102,-6.9443993,0.0 107.5876247,-6.9446579,0.0 107.5878344,-6.9447464,0.0 107.5880579,-6.9448406,0.0 107.5883073,-6.9449457,0.0 107.5888658,-6.9451811,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22656">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22657</styleUrl>
-            <LineString id="22655">
-                <coordinates>107.5905372,-6.9458885,0.0 107.5906174,-6.9459184,0.0 107.5908186,-6.9459976,0.0 107.5909454,-6.9460471,0.0 107.5912869,-6.9461769,0.0 107.5915135,-6.946263,0.0 107.5919633,-6.946418,0.0 107.5920057,-6.9464327,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22660">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22661</styleUrl>
-            <LineString id="22659">
-                <coordinates>107.5760593,-6.9304537,0.0 107.5761295,-6.9307327,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22664">
-            <name>Jalan Mohammad Toha</name>
-            <styleUrl>#22665</styleUrl>
-            <LineString id="22663">
-                <coordinates>107.6094437,-6.9483822,0.0 107.6094101,-6.9482727,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22668">
-            <name>Route Segment</name>
-            <styleUrl>#22669</styleUrl>
-            <LineString id="22667">
-                <coordinates>107.7537453,-6.9404081,0.0 107.7537018,-6.9402543,0.0 107.7536586,-6.9401195,0.0 107.7536284,-6.9400362,0.0 107.7536203,-6.9400138,0.0 107.7535735,-6.93994,0.0 107.7535061,-6.9398592,0.0 107.7534342,-6.9398036,0.0 107.7529385,-6.9394875,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22672">
-            <name>Jalan Raya Cileunyi</name>
-            <styleUrl>#22673</styleUrl>
-            <LineString id="22671">
-                <coordinates>107.7560525,-6.9379722,0.0 107.7561221,-6.9379622,0.0 107.7562242,-6.9379454,0.0 107.7565469,-6.9378853,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22676">
-            <name>Jalan Raya Jatinangor</name>
-            <styleUrl>#22677</styleUrl>
-            <LineString id="22675">
-                <coordinates>107.757487,-6.9377295,0.0 107.757703,-6.9377047,0.0 107.7579083,-6.9376765,0.0 107.758202,-6.9376231,0.0 107.7585141,-6.9375674,0.0 107.7588445,-6.937496,0.0 107.7590419,-6.9374502,0.0 107.7595382,-6.9373062,0.0 107.7595587,-6.9373015,0.0 107.7599873,-6.937175,0.0 107.7604918,-6.9370404,0.0 107.7616581,-6.9367119,0.0 107.7624109,-6.9364803,0.0 107.7624735,-6.9364562,0.0 107.7626201,-6.9363989,0.0 107.7626862,-6.9363741,0.0 107.7629,-6.9362934,0.0 107.7630053,-6.936259,0.0 107.7632526,-6.9361885,0.0 107.7635958,-6.9360836,0.0 107.7642048,-6.9359115,0.0 107.7644049,-6.9358576,0.0 107.7644404,-6.9358482,0.0 107.7644824,-6.9358361,0.0 107.7652024,-6.9356336,0.0 107.7660491,-6.935392,0.0 107.7663076,-6.9353169,0.0 107.7666588,-6.9352102,0.0 107.7671166,-6.9350782,0.0 107.7673132,-6.9350212,0.0 107.7674101,-6.9349647,0.0 107.7675131,-6.9348887,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22680">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22681</styleUrl>
-            <LineString id="22679">
-                <coordinates>107.5756277,-6.9276758,0.0 107.5756662,-6.9279277,0.0 107.575694,-6.9281099,0.0 107.5757563,-6.9285176,0.0 107.5758449,-6.9290977,0.0 107.5759894,-6.9300668,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22684">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22685</styleUrl>
-            <LineString id="22683">
-                <coordinates>107.5761295,-6.9307327,0.0 107.5762615,-6.9311707,0.0 107.5763049,-6.9313117,0.0 107.5764914,-6.9319172,0.0 107.5765033,-6.9319558,0.0 107.5765867,-6.9321758,0.0 107.5766269,-6.9322818,0.0 107.576671,-6.9323901,0.0 107.5767329,-6.9325425,0.0 107.576819,-6.9327555,0.0 107.576953,-6.9330874,0.0 107.5770589,-6.933306,0.0 107.5771271,-6.9334469,0.0 107.5773591,-6.9339262,0.0 107.5774678,-6.9341351,0.0 107.577519,-6.9342396,0.0 107.5778296,-6.9347499,0.0 107.5783524,-6.9355244,0.0 107.578457,-6.9356736,0.0 107.5788041,-6.9361935,0.0 107.5788416,-6.9362517,0.0 107.5795763,-6.937339,0.0 107.5796223,-6.9374056,0.0 107.5796859,-6.937498,0.0 107.5797906,-6.9376502,0.0 107.579936,-6.937863,0.0 107.5802287,-6.9382866,0.0 107.5803153,-6.9384059,0.0 107.5803728,-6.9384851,0.0 107.5804612,-6.9386169,0.0 107.5805598,-6.9387753,0.0 107.5806433,-6.9388996,0.0 107.5807733,-6.9390932,0.0 107.5807999,-6.9391335,0.0 107.5808244,-6.9391671,0.0 107.580938,-6.9393311,0.0 107.5810191,-6.9394536,0.0 107.5812002,-6.9397265,0.0 107.5815443,-6.9401906,0.0 107.5815743,-6.9402311,0.0 107.5817044,-6.9404068,0.0 107.5818291,-6.9405652,0.0 107.5820397,-6.9408049,0.0 107.5823106,-6.941111,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22688">
-            <name>Jalan Mohammad Toha</name>
-            <styleUrl>#22689</styleUrl>
-            <LineString id="22687">
-                <coordinates>107.6116113,-6.9549027,0.0 107.6115903,-6.9548395,0.0 107.6115496,-6.9547181,0.0 107.6115404,-6.9546891,0.0 107.6115309,-6.9546605,0.0 107.6115168,-6.954618,0.0 107.6115056,-6.9545841,0.0 107.6114306,-6.9543571,0.0 107.6114039,-6.9542777,0.0 107.6113779,-6.9541994,0.0 107.6113491,-6.9541126,0.0 107.6113021,-6.953971,0.0 107.6112433,-6.9537939,0.0 107.6112087,-6.9536897,0.0 107.6111456,-6.953493,0.0 107.6111025,-6.9533696,0.0 107.6110127,-6.9530992,0.0 107.6109821,-6.9530069,0.0 107.6109598,-6.9529395,0.0 107.610882,-6.9527052,0.0 107.6108172,-6.9525101,0.0 107.6107154,-6.9522033,0.0 107.610704,-6.9521688,0.0 107.6106927,-6.9521348,0.0 107.6106289,-6.9519383,0.0 107.6105529,-6.9517136,0.0 107.6105221,-6.9516206,0.0 107.6104355,-6.951364,0.0 107.6103879,-6.9512162,0.0 107.6103079,-6.9509754,0.0 107.6101654,-6.950546,0.0 107.6101111,-6.9503823,0.0 107.609996,-6.9500355,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22692">
-            <name>Route Segment</name>
-            <styleUrl>#22693</styleUrl>
-            <LineString id="22691">
-                <coordinates>107.7529385,-6.9394875,0.0 107.7528917,-6.9394393,0.0 107.7528665,-6.939405,0.0 107.752848,-6.9393592,0.0 107.7528383,-6.9393028,0.0 107.7528389,-6.9392537,0.0 107.7528454,-6.9392089,0.0 107.7528588,-6.9391713,0.0 107.7528851,-6.9391361,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22696">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22697</styleUrl>
-            <LineString id="22695">
-                <coordinates>107.6054387,-6.9480071,0.0 107.6057218,-6.9480258,0.0 107.6059845,-6.9480432,0.0 107.6061148,-6.9480518,0.0 107.6064402,-6.9480733,0.0 107.6065499,-6.9480806,0.0 107.6067107,-6.9480912,0.0 107.6070517,-6.9481138,0.0 107.6072302,-6.9481255,0.0 107.6072587,-6.9481274,0.0 107.6073396,-6.9481328,0.0 107.6077353,-6.9481589,0.0 107.6080187,-6.9481777,0.0 107.6086542,-6.9482197,0.0 107.6089854,-6.9482416,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22700">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22701</styleUrl>
-            <LineString id="22699">
-                <coordinates>107.6039667,-6.9478945,0.0 107.6041277,-6.947905,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22704">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22705</styleUrl>
-            <LineString id="22703">
-                <coordinates>107.6240011,-6.9634006,0.0 107.6242839,-6.9634978,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22708">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22709</styleUrl>
-            <LineString id="22707">
-                <coordinates>107.6242839,-6.9634978,0.0 107.6253366,-6.963833,0.0 107.6258435,-6.9639721,0.0 107.626347,-6.9640978,0.0 107.6267896,-6.9641948,0.0 107.6271874,-6.9642858,0.0 107.627711,-6.9643758,0.0 107.6282532,-6.9644618,0.0 107.6286813,-6.9645136,0.0 107.6293116,-6.9645915,0.0 107.629938,-6.9646675,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22712">
-            <name>Jalan Akses Tol Mohammad Toha</name>
-            <styleUrl>#22713</styleUrl>
-            <LineString id="22711">
-                <coordinates>107.6108289,-6.956309,0.0 107.6106066,-6.9564192,0.0 107.6105951,-6.9564249,0.0 107.6101198,-6.9566866,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22716">
-            <name>Jalan Akses Tol Mohammad Toha</name>
-            <styleUrl>#22717</styleUrl>
-            <LineString id="22715">
-                <coordinates>107.6097904,-6.9568141,0.0 107.6094291,-6.9568824,0.0 107.6090911,-6.9569245,0.0 107.6085312,-6.9569907,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22720">
-            <name>Jalan Akses Tol Mohammad Toha</name>
-            <styleUrl>#22721</styleUrl>
-            <LineString id="22719">
-                <coordinates>107.6101198,-6.9566866,0.0 107.6098531,-6.956786,0.0 107.6097904,-6.9568141,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22724">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22725</styleUrl>
-            <LineString id="22723">
-                <coordinates>107.730105,-6.9541849,0.0 107.7328205,-6.9527237,0.0 107.7394411,-6.9491034,0.0 107.7398865,-6.9488629,0.0 107.7408358,-6.9483505,0.0 107.7429104,-6.9472221,0.0 107.7447624,-6.9463008,0.0 107.7464588,-6.9455793,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22728">
-            <name>Simpang Susun Cileunyi</name>
-            <styleUrl>#22729</styleUrl>
-            <LineString id="22727">
-                <coordinates>107.7464588,-6.9455793,0.0 107.7466437,-6.9454658,0.0 107.7468001,-6.9453773,0.0 107.7470107,-6.9452678,0.0 107.7473345,-6.9451187,0.0 107.7482395,-6.9446799,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22732">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22733</styleUrl>
-            <LineString id="22731">
-                <coordinates>107.7007549,-6.9688011,0.0 107.70103,-6.9687285,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22736">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22737</styleUrl>
-            <LineString id="22735">
-                <coordinates>107.70103,-6.9687285,0.0 107.7018043,-6.9685122,0.0 107.7020499,-6.9684354,0.0 107.7031454,-6.9680792,0.0 107.7039354,-6.9677807,0.0 107.7044746,-6.9675629,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22740">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22741</styleUrl>
-            <LineString id="22739">
-                <coordinates>107.6419915,-6.9658012,0.0 107.6428065,-6.9656857,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22744">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22745</styleUrl>
-            <LineString id="22743">
-                <coordinates>107.6383542,-6.9657306,0.0 107.6397387,-6.9658628,0.0 107.6408974,-6.9658788,0.0 107.6415324,-6.9658455,0.0 107.6419915,-6.9658012,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22748">
-            <name>Jalan Raya Jatinangor</name>
-            <styleUrl>#22749</styleUrl>
-            <LineString id="22747">
-                <coordinates>107.7573448,-6.9377483,0.0 107.757487,-6.9377295,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22752">
-            <name>Jalan Raya Jatinangor</name>
-            <styleUrl>#22753</styleUrl>
-            <LineString id="22751">
-                <coordinates>107.7565469,-6.9378853,0.0 107.757032,-6.9378,0.0 107.7573448,-6.9377483,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22756">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22757</styleUrl>
-            <LineString id="22755">
-                <coordinates>107.5744159,-6.9173911,0.0 107.5744169,-6.9175402,0.0 107.5744188,-6.9178179,0.0 107.5744249,-6.9187278,0.0 107.574425,-6.9190065,0.0 107.5744251,-6.9191285,0.0 107.5744252,-6.9193435,0.0 107.5744259,-6.9194121,0.0 107.5744266,-6.9194787,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22760">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22761</styleUrl>
-            <LineString id="22759">
-                <coordinates>107.5831212,-6.9419015,0.0 107.5831836,-6.9419591,0.0 107.5834599,-6.9422141,0.0 107.5835578,-6.942293,0.0 107.583608,-6.942339,0.0 107.5838985,-6.9425994,0.0 107.5842331,-6.9428621,0.0 107.5842817,-6.9429003,0.0 107.5844282,-6.9430135,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22764">
-            <name>Jalan Raya Jatinangor</name>
-            <styleUrl>#22765</styleUrl>
-            <LineString id="22763">
-                <coordinates>107.7675131,-6.9348887,0.0 107.7675751,-6.9347793,0.0 107.7676277,-6.934685,0.0 107.767735,-6.9344928,0.0 107.7678125,-6.9344095,0.0 107.7678271,-6.9343939,0.0 107.7679063,-6.934321,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22768">
-            <name>Jalan Mohammad Toha</name>
-            <styleUrl>#22769</styleUrl>
-            <LineString id="22767">
-                <coordinates>107.6095322,-6.9486416,0.0 107.6094437,-6.9483822,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22772">
-            <name>Jalan Mohammad Toha</name>
-            <styleUrl>#22773</styleUrl>
-            <LineString id="22771">
-                <coordinates>107.609996,-6.9500355,0.0 107.6098084,-6.9494703,0.0 107.6097027,-6.9491518,0.0 107.6096343,-6.9489457,0.0 107.6095822,-6.9487887,0.0 107.6095322,-6.9486416,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22776">
-            <name>Simpang Susun Cileunyi</name>
-            <styleUrl>#22777</styleUrl>
-            <LineString id="22775">
-                <coordinates>107.7500827,-6.943838,0.0 107.7501644,-6.9437736,0.0 107.7502379,-6.9437034,0.0 107.7503219,-6.9436003,0.0 107.7503868,-6.9434949,0.0 107.7504375,-6.9433927,0.0 107.750497,-6.9432424,0.0 107.7506748,-6.9427502,0.0 107.750726,-6.9426504,0.0 107.7508076,-6.9425196,0.0 107.7509278,-6.9423953,0.0 107.7510431,-6.9423266,0.0 107.7511863,-6.9422715,0.0 107.7513252,-6.9422468,0.0 107.751485,-6.9422345,0.0 107.7520438,-6.9422049,0.0 107.7521489,-6.9422007,0.0 107.7522465,-6.9421996,0.0 107.7523906,-6.9422036,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22780">
-            <name>Simpang Susun Cileunyi</name>
-            <styleUrl>#22781</styleUrl>
-            <LineString id="22779">
-                <coordinates>107.7541065,-6.9418043,0.0 107.754163,-6.9417663,0.0 107.7542124,-6.941722,0.0 107.7542539,-6.9416709,0.0 107.7542888,-6.9416176,0.0 107.7543165,-6.9415433,0.0 107.7543297,-6.9414684,0.0 107.7543261,-6.941382,0.0 107.7543165,-6.9413312,0.0 107.7542878,-6.9412663,0.0 107.7542181,-6.9411235,0.0 107.7541846,-6.9410603,0.0 107.7540569,-6.9408199,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22784">
-            <name>Simpang Susun Cileunyi</name>
-            <styleUrl>#22785</styleUrl>
-            <LineString id="22783">
-                <coordinates>107.7482395,-6.9446799,0.0 107.7485419,-6.9445421,0.0 107.7489168,-6.9443776,0.0 107.7496027,-6.9440818,0.0 107.7497522,-6.9440159,0.0 107.7498739,-6.9439583,0.0 107.7499691,-6.9439075,0.0 107.7500827,-6.943838,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22788">
-            <name>Simpang Susun Cileunyi</name>
-            <styleUrl>#22789</styleUrl>
-            <LineString id="22787">
-                <coordinates>107.7526686,-6.9422553,0.0 107.7529058,-6.9422841,0.0 107.7529797,-6.9422849,0.0 107.7530559,-6.9422836,0.0 107.7531339,-6.942277,0.0 107.7532371,-6.9422492,0.0 107.7533072,-6.9422247,0.0 107.7533786,-6.9421952,0.0 107.7535068,-6.9421311,0.0 107.7541065,-6.9418043,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22792">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22793</styleUrl>
-            <LineString id="22791">
-                <coordinates>107.5753412,-6.9258096,0.0 107.5753962,-6.9261666,0.0 107.5754214,-6.9263298,0.0 107.5754361,-6.9264252,0.0 107.5754783,-6.926699,0.0 107.5754956,-6.9268114,0.0 107.5755137,-6.9269292,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22796">
-            <name>Bunderan Cibeureum</name>
-            <styleUrl>#22797</styleUrl>
-            <LineString id="22795">
-                <coordinates>107.5745601,-6.9172787,0.0 107.5745248,-6.9173306,0.0 107.5744751,-6.9173693,0.0 107.5744159,-6.9173911,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22800">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22801</styleUrl>
-            <LineString id="22799">
-                <coordinates>107.5897693,-6.9455492,0.0 107.5898471,-6.9455853,0.0 107.5899638,-6.9456485,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22804">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22805</styleUrl>
-            <LineString id="22803">
-                <coordinates>107.5760414,-6.9303848,0.0 107.5760593,-6.9304537,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22808">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22809</styleUrl>
-            <LineString id="22807">
-                <coordinates>107.5894219,-6.9454078,0.0 107.5896531,-6.9454988,0.0 107.5897088,-6.945521,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22812">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22813</styleUrl>
-            <LineString id="22811">
-                <coordinates>107.6041277,-6.947905,0.0 107.6041522,-6.9479059,0.0 107.6043426,-6.9479195,0.0 107.6047969,-6.9479564,0.0 107.6051067,-6.947983,0.0 107.6051379,-6.9479853,0.0 107.6053226,-6.947999,0.0 107.6054387,-6.9480071,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22816">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22817</styleUrl>
-            <LineString id="22815">
-                <coordinates>107.6089854,-6.9482416,0.0 107.6094101,-6.9482727,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22820">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22821</styleUrl>
-            <LineString id="22819">
-                <coordinates>107.5952745,-6.9472037,0.0 107.5954049,-6.9472261,0.0 107.5955093,-6.9472465,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22824">
-            <name>Route Segment</name>
-            <styleUrl>#22825</styleUrl>
-            <LineString id="22823">
-                <coordinates>107.6086585,-6.9611877,0.0 107.6090755,-6.9611618,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22828">
-            <name>Simpang Susun Mohammad Toha</name>
-            <styleUrl>#22829</styleUrl>
-            <LineString id="22827">
-                <coordinates>107.6080064,-6.9612283,0.0 107.6086585,-6.9611877,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22832">
-            <name>Route Segment</name>
-            <styleUrl>#22833</styleUrl>
-            <LineString id="22831">
-                <coordinates>107.6090755,-6.9611618,0.0 107.6094898,-6.9611361,0.0 107.6098249,-6.9611724,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22836">
-            <name>Jalan Garuda</name>
-            <styleUrl>#22837</styleUrl>
-            <LineString id="22835">
-                <coordinates>107.5767538,-6.9173844,0.0 107.5766836,-6.9174697,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22840">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22841</styleUrl>
-            <LineString id="22839">
-                <coordinates>107.5849105,-6.9433545,0.0 107.5850407,-6.9434372,0.0 107.5853375,-6.9436258,0.0 107.58577,-6.9438614,0.0 107.5860174,-6.9439945,0.0 107.586299,-6.9441384,0.0 107.5863956,-6.9441848,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22844">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22845</styleUrl>
-            <LineString id="22843">
-                <coordinates>107.5955093,-6.9472465,0.0 107.5960242,-6.9472981,0.0 107.5960901,-6.9473051,0.0 107.596192,-6.9473128,0.0 107.5964458,-6.9473347,0.0 107.5967222,-6.9473584,0.0 107.5968908,-6.9473718,0.0 107.5973744,-6.9474033,0.0 107.5975687,-6.9474199,0.0 107.5980357,-6.9474645,0.0 107.598288,-6.947504,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22848">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22849</styleUrl>
-            <LineString id="22847">
-                <coordinates>107.598288,-6.947504,0.0 107.5983813,-6.9475112,0.0 107.59885,-6.9475473,0.0 107.5989661,-6.9475565,0.0 107.5990579,-6.9475634,0.0 107.5992219,-6.9475759,0.0 107.5992807,-6.9475804,0.0 107.5995536,-6.9476014,0.0 107.5996333,-6.9476076,0.0 107.5999206,-6.9476297,0.0 107.5999463,-6.9476316,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22852">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22853</styleUrl>
-            <LineString id="22851">
-                <coordinates>107.6025818,-6.9478249,0.0 107.602694,-6.9478287,0.0 107.6028213,-6.947833,0.0 107.6029031,-6.9478358,0.0 107.6033305,-6.9478502,0.0 107.6039667,-6.9478945,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22856">
-            <name>Halte Metro Jabar Trans UNPAD Jatinangor</name>
-            <styleUrl>#22857</styleUrl>
-            <LineString id="22855">
-                <coordinates>107.7723146,-6.932773,0.0 107.7733061,-6.9323718,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22860">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22861</styleUrl>
-            <LineString id="22859">
-                <coordinates>107.6000414,-6.9476386,0.0 107.6004105,-6.9476656,0.0 107.6005617,-6.9476767,0.0 107.6008389,-6.9476971,0.0 107.6010847,-6.9477151,0.0 107.6012883,-6.94773,0.0 107.6013862,-6.9477372,0.0 107.6014937,-6.9477451,0.0 107.6016723,-6.9477582,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22864">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22865</styleUrl>
-            <LineString id="22863">
-                <coordinates>107.5999463,-6.9476316,0.0 107.6000414,-6.9476386,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22868">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22869</styleUrl>
-            <LineString id="22867">
-                <coordinates>107.6204529,-6.9619211,0.0 107.6224734,-6.9628093,0.0 107.6231866,-6.9631092,0.0 107.6240011,-6.9634006,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22872">
-            <name>Jalan Tol Padalarang–Cileunyi</name>
-            <styleUrl>#22873</styleUrl>
-            <LineString id="22871">
-                <coordinates>107.629938,-6.9646675,0.0 107.6371405,-6.9655837,0.0 107.6376642,-6.9656491,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22876">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22877</styleUrl>
-            <LineString id="22875">
-                <coordinates>107.6016723,-6.9477582,0.0 107.6022203,-6.9477997,0.0 107.6022466,-6.9478017,0.0 107.6024847,-6.9478198,0.0 107.6025818,-6.9478249,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22880">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22881</styleUrl>
-            <LineString id="22879">
-                <coordinates>107.5888658,-6.9451811,0.0 107.5890571,-6.9452671,0.0 107.5891029,-6.9452877,0.0 107.5891731,-6.9453141,0.0 107.5893173,-6.9453679,0.0 107.5894219,-6.9454078,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22884">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22885</styleUrl>
-            <LineString id="22883">
-                <coordinates>107.5951948,-6.9471897,0.0 107.5952745,-6.9472037,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22888">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22889</styleUrl>
-            <LineString id="22887">
-                <coordinates>107.5946801,-6.9470993,0.0 107.5949575,-6.9471456,0.0 107.5950703,-6.9471682,0.0 107.5951948,-6.9471897,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22892">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22893</styleUrl>
-            <LineString id="22891">
-                <coordinates>107.5920057,-6.9464327,0.0 107.5922205,-6.9465024,0.0 107.5923591,-6.9465464,0.0 107.5924183,-6.9465651,0.0 107.5929217,-6.946706,0.0 107.5930626,-6.9467395,0.0 107.5934341,-6.9468277,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22896">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22897</styleUrl>
-            <LineString id="22895">
-                <coordinates>107.5899638,-6.9456485,0.0 107.5902641,-6.9457816,0.0 107.5904302,-6.9458446,0.0 107.5905372,-6.9458885,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22900">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22901</styleUrl>
-            <LineString id="22899">
-                <coordinates>107.5897088,-6.945521,0.0 107.5897693,-6.9455492,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22904">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22905</styleUrl>
-            <LineString id="22903">
-                <coordinates>107.5844282,-6.9430135,0.0 107.584573,-6.9431186,0.0 107.584642,-6.9431671,0.0 107.5847245,-6.9432291,0.0 107.5848895,-6.9433396,0.0 107.5849105,-6.9433545,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22908">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22909</styleUrl>
-            <LineString id="22907">
-                <coordinates>107.5755137,-6.9269292,0.0 107.5756277,-6.9276758,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22912">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22913</styleUrl>
-            <LineString id="22911">
-                <coordinates>107.5759894,-6.9300668,0.0 107.5760161,-6.9302366,0.0 107.5760414,-6.9303848,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22916">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22917</styleUrl>
-            <LineString id="22915">
-                <coordinates>107.5934341,-6.9468277,0.0 107.5935172,-6.946847,0.0 107.5935575,-6.9468564,0.0 107.5936688,-6.9468823,0.0 107.593986,-6.9469544,0.0 107.5940785,-6.9469738,0.0 107.5941765,-6.9469938,0.0 107.5942182,-6.9470057,0.0 107.5946413,-6.947092,0.0 107.5946801,-6.9470993,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22920">
-            <name>Route Segment</name>
-            <styleUrl>#22921</styleUrl>
-            <LineString id="22919">
-                <coordinates>107.5766836,-6.9174697,0.0 107.5766159,-6.9175515,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22924">
-            <name>Jalan Akses Tol Mohammad Toha</name>
-            <styleUrl>#22925</styleUrl>
-            <LineString id="22923">
-                <coordinates>107.6085312,-6.9569907,0.0 107.6081813,-6.9571073,0.0 107.6077749,-6.9572641,0.0 107.6075633,-6.9573828,0.0 107.607347,-6.9575274,0.0 107.6071385,-6.9576995,0.0 107.6069192,-6.9579126,0.0 107.606703,-6.9581866,0.0 107.6065542,-6.9584225,0.0 107.6064008,-6.9587544,0.0 107.6063119,-6.9590451,0.0 107.6062444,-6.9594034,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22928">
-            <name>Jalan Akses Tol Mohammad Toha</name>
-            <styleUrl>#22929</styleUrl>
-            <LineString id="22927">
-                <coordinates>107.6119023,-6.955933,0.0 107.6116445,-6.9560155,0.0 107.6115943,-6.9560327,0.0 107.6110917,-6.9561978,0.0 107.6109823,-6.9562337,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22932">
-            <name>Jalan Mohammad Toha</name>
-            <styleUrl>#22933</styleUrl>
-            <LineString id="22931">
-                <coordinates>107.6118947,-6.9556604,0.0 107.611923,-6.9557408,0.0 107.6119415,-6.9557973,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22936">
-            <name>Jalan Mohammad Toha</name>
-            <styleUrl>#22937</styleUrl>
-            <LineString id="22935">
-                <coordinates>107.6118897,-6.9556394,0.0 107.6118947,-6.9556604,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22940">
-            <name>Jalan Mohammad Toha</name>
-            <styleUrl>#22941</styleUrl>
-            <LineString id="22939">
-                <coordinates>107.6119415,-6.9557973,0.0 107.6119773,-6.9559046,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22944">
-            <name>Jalan Elang</name>
-            <styleUrl>#22945</styleUrl>
-            <LineString id="22943">
-                <coordinates>107.575723,-6.9133498,0.0 107.5758021,-6.913142,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22948">
-            <name>Jalan Elang</name>
-            <styleUrl>#22949</styleUrl>
-            <LineString id="22947">
-                <coordinates>107.5753136,-6.9144895,0.0 107.5755245,-6.9138801,0.0 107.575723,-6.9133498,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22952">
-            <name>Pangkalan DAMRI Jatinangor</name>
-            <styleUrl>#22953</styleUrl>
-            <LineString id="22951">
-                <coordinates>107.7722158,-6.9328953,0.0 107.7722644,-6.932833,0.0 107.7723146,-6.932773,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22956">
-            <name>Route Segment</name>
-            <styleUrl>#22957</styleUrl>
-            <LineString id="22955">
-                <coordinates>107.7540569,-6.9408199,0.0 107.7538374,-6.9405922,0.0 107.753818,-6.940561,0.0 107.7537775,-6.9405013,0.0 107.7537453,-6.9404081,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22960">
-            <name>Jalan Soekarno-Hatta</name>
-            <styleUrl>#22961</styleUrl>
-            <LineString id="22959">
-                <coordinates>107.5823106,-6.941111,0.0 107.582497,-6.9413067,0.0 107.5826593,-6.9414771,0.0 107.5828645,-6.9416649,0.0 107.5831212,-6.9419015,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22964">
-            <name>Simpang Susun Cileunyi</name>
-            <styleUrl>#22965</styleUrl>
-            <LineString id="22963">
-                <coordinates>107.7523906,-6.9422036,0.0 107.7524946,-6.9422111,0.0 107.7525451,-6.9422183,0.0 107.7525975,-6.9422299,0.0 107.7526686,-6.9422553,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22968">
-            <name>Jalan Raya Jatinangor</name>
-            <styleUrl>#22969</styleUrl>
-            <LineString id="22967">
-                <coordinates>107.7679063,-6.934321,0.0 107.7681579,-6.9342545,0.0 107.7684973,-6.9341574,0.0 107.768833,-6.9340581,0.0 107.7688726,-6.9340481,0.0 107.7696761,-6.9338458,0.0 107.7703987,-6.9336234,0.0 107.7708274,-6.9334914,0.0 107.7709455,-6.9334391,0.0 107.7713808,-6.9332463,0.0 107.7714431,-6.9332174,0.0 107.7717685,-6.9330746,0.0 107.7718028,-6.9330593,0.0 107.7718574,-6.9330345,0.0 107.7721133,-6.9329352,0.0 107.7721658,-6.932914,0.0 107.7722158,-6.9328953,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22972">
-            <name>Jalan Rajawali Timur</name>
-            <styleUrl>#22973</styleUrl>
-            <LineString id="22971">
-                <coordinates>107.5758021,-6.913142,0.0 107.5761151,-6.9132715,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="22976">
+        <Placemark id="22222">
             <name>Terminal Elang Damri</name>
-            <styleUrl>#22977</styleUrl>
-            <Point id="22975">
+            <styleUrl>#22223</styleUrl>
+            <Point id="22221">
                 <coordinates>107.5753136,-6.9144895,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="22981">
+        <Placemark id="22227">
             <name>UNPAD Jatinangor</name>
-            <styleUrl>#22982</styleUrl>
-            <Point id="22980">
+            <styleUrl>#22228</styleUrl>
+            <Point id="22226">
                 <coordinates>107.7733061,-6.9323718,0.0</coordinates>
             </Point>
+        </Placemark>
+        <Placemark id="22232">
+            <name>Jalan Rajawali Timur</name>
+            <styleUrl>#22233</styleUrl>
+            <LineString id="22231">
+                <coordinates>107.5761151,-6.9132715,0.0 107.5762053,-6.9133088,0.0 107.5762519,-6.9133265,0.0 107.5765322,-6.9134206,0.0 107.5766744,-6.9134545,0.0 107.5768473,-6.9134956,0.0 107.5771173,-6.9135481,0.0 107.5772702,-6.9135797,0.0 107.5775341,-6.9136343,0.0 107.5776073,-6.9136496,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22236">
+            <name>Jalan Raya Cileunyi</name>
+            <styleUrl>#22237</styleUrl>
+            <LineString id="22235">
+                <coordinates>107.7528851,-6.9391361,0.0 107.7530294,-6.9390441,0.0 107.7537452,-6.938697,0.0 107.7540066,-6.9385699,0.0 107.7541454,-6.9385016,0.0 107.7544927,-6.9383149,0.0 107.7548022,-6.9381645,0.0 107.755132,-6.9380904,0.0 107.7553843,-6.9380561,0.0 107.7558468,-6.9379992,0.0 107.7559524,-6.9379853,0.0 107.7560525,-6.9379722,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22240">
+            <name>Jalan Akses Tol Mohammad Toha</name>
+            <styleUrl>#22241</styleUrl>
+            <LineString id="22239">
+                <coordinates>107.6119773,-6.9559046,0.0 107.6119023,-6.955933,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22244">
+            <name>Jalan Akses Tol Mohammad Toha</name>
+            <styleUrl>#22245</styleUrl>
+            <LineString id="22243">
+                <coordinates>107.6062444,-6.9594034,0.0 107.6062935,-6.9598183,0.0 107.6063891,-6.9601879,0.0 107.6064891,-6.9604204,0.0 107.6065484,-6.9605246,0.0 107.6066342,-6.9606298,0.0 107.606712,-6.960735,0.0 107.6068276,-6.9608426,0.0 107.6069614,-6.9609506,0.0 107.6071374,-6.9610507,0.0 107.6073557,-6.9611476,0.0 107.6075788,-6.9611894,0.0 107.6078236,-6.9612087,0.0 107.6080064,-6.9612283,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22248">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22249</styleUrl>
+            <LineString id="22247">
+                <coordinates>107.6376642,-6.9656491,0.0 107.6383542,-6.9657306,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22252">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22253</styleUrl>
+            <LineString id="22251">
+                <coordinates>107.6428065,-6.9656857,0.0 107.6433819,-6.9655597,0.0 107.6439457,-6.9654188,0.0 107.6444876,-6.9652811,0.0 107.6456233,-6.9649793,0.0 107.6461997,-6.9648425,0.0 107.6464447,-6.9648018,0.0 107.6471321,-6.9646894,0.0 107.6477031,-6.9646316,0.0 107.6480073,-6.9646075,0.0 107.6482899,-6.9645955,0.0 107.648769,-6.9645835,0.0 107.6492481,-6.9646002,0.0 107.6494731,-6.9646135,0.0 107.6497775,-6.9646261,0.0 107.650345,-6.9646987,0.0 107.6548013,-6.9653876,0.0 107.6570222,-6.9657337,0.0 107.6581165,-6.9659094,0.0 107.6591915,-6.9661036,0.0 107.6597561,-6.9662374,0.0 107.6602707,-6.9663703,0.0 107.6603107,-6.966378,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22256">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22257</styleUrl>
+            <LineString id="22255">
+                <coordinates>107.6605722,-6.9664426,0.0 107.6617508,-6.9667679,0.0 107.6621613,-6.9668812,0.0 107.6629525,-6.9670928,0.0 107.6637748,-6.9672708,0.0 107.6646665,-6.9674083,0.0 107.665565,-6.9675082,0.0 107.6664515,-6.9675481,0.0 107.667055,-6.9675574,0.0 107.6691132,-6.9675103,0.0 107.6700937,-6.9674908,0.0 107.6711041,-6.967534,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22260">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22261</styleUrl>
+            <LineString id="22259">
+                <coordinates>107.6603107,-6.966378,0.0 107.6605722,-6.9664426,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22264">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22265</styleUrl>
+            <LineString id="22263">
+                <coordinates>107.7274621,-6.9555628,0.0 107.730105,-6.9541849,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22268">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22269</styleUrl>
+            <LineString id="22267">
+                <coordinates>107.6780936,-6.9682142,0.0 107.6791178,-6.9683208,0.0 107.6828364,-6.9687183,0.0 107.684564,-6.9688851,0.0 107.6861756,-6.9690221,0.0 107.6864951,-6.96905,0.0 107.6873347,-6.9691278,0.0 107.6888908,-6.969272,0.0 107.6900884,-6.9694124,0.0 107.6909182,-6.9695025,0.0 107.6921685,-6.9696105,0.0 107.6929032,-6.9696526,0.0 107.6940014,-6.9696718,0.0 107.6952538,-6.9696387,0.0 107.6962926,-6.9695695,0.0 107.6970049,-6.9694949,0.0 107.6978674,-6.9693954,0.0 107.6986982,-6.9692535,0.0 107.6991637,-6.9691642,0.0 107.7003608,-6.9689155,0.0 107.7007549,-6.9688011,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22272">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22273</styleUrl>
+            <LineString id="22271">
+                <coordinates>107.7044746,-6.9675629,0.0 107.7045311,-6.9675384,0.0 107.7048064,-6.967419,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22276">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22277</styleUrl>
+            <LineString id="22275">
+                <coordinates>107.6713565,-6.9675464,0.0 107.672646,-6.9676726,0.0 107.6778229,-6.968186,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22280">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22281</styleUrl>
+            <LineString id="22279">
+                <coordinates>107.6778229,-6.968186,0.0 107.6780936,-6.9682142,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22284">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22285</styleUrl>
+            <LineString id="22283">
+                <coordinates>107.6711041,-6.967534,0.0 107.6713565,-6.9675464,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22288">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22289</styleUrl>
+            <LineString id="22287">
+                <coordinates>107.7048064,-6.967419,0.0 107.7049627,-6.9673439,0.0 107.7063273,-6.9666885,0.0 107.707713,-6.9659768,0.0 107.7079453,-6.9658455,0.0 107.7100313,-6.964752,0.0 107.71226,-6.9635947,0.0 107.7142374,-6.9625564,0.0 107.7158084,-6.9617315,0.0 107.7169965,-6.9611014,0.0 107.7181569,-6.9604752,0.0 107.7189587,-6.9600552,0.0 107.7192018,-6.9599278,0.0 107.7238903,-6.9574717,0.0 107.7262495,-6.9562108,0.0 107.7274621,-6.9555628,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22292">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22293</styleUrl>
+            <LineString id="22291">
+                <coordinates>107.6138569,-6.9608687,0.0 107.6145694,-6.9608244,0.0 107.6152712,-6.9608006,0.0 107.6158234,-6.9607949,0.0 107.6163738,-6.9608351,0.0 107.6169258,-6.9608827,0.0 107.6174131,-6.9609627,0.0 107.618434,-6.9611867,0.0 107.6188986,-6.961326,0.0 107.6194087,-6.9615161,0.0 107.6204529,-6.9619211,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22296">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22297</styleUrl>
+            <LineString id="22295">
+                <coordinates>107.6133971,-6.9608951,0.0 107.6138569,-6.9608687,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22300">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22301</styleUrl>
+            <LineString id="22299">
+                <coordinates>107.5744266,-6.9194787,0.0 107.5744272,-6.9195208,0.0 107.5744343,-6.9196531,0.0 107.5744531,-6.9198794,0.0 107.5744799,-6.9200829,0.0 107.5745244,-6.9204204,0.0 107.5745632,-6.9206714,0.0 107.5745805,-6.9207727,0.0 107.574617,-6.9209716,0.0 107.5746819,-6.9214118,0.0 107.5748304,-6.9223874,0.0 107.5748829,-6.9227581,0.0 107.5749416,-6.92312,0.0 107.5749473,-6.9231553,0.0 107.575014,-6.9236585,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22304">
+            <name>Jalan Akses Tol Mohammad Toha</name>
+            <styleUrl>#22305</styleUrl>
+            <LineString id="22303">
+                <coordinates>107.6109823,-6.9562337,0.0 107.6108289,-6.956309,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22308">
+            <name>Jalan Mohammad Toha</name>
+            <styleUrl>#22309</styleUrl>
+            <LineString id="22307">
+                <coordinates>107.6116113,-6.9549027,0.0 107.6116834,-6.9550038,0.0 107.6117349,-6.955158,0.0 107.6118082,-6.9554079,0.0 107.6118897,-6.9556394,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22312">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22313</styleUrl>
+            <LineString id="22311">
+                <coordinates>107.6098249,-6.9611724,0.0 107.6133971,-6.9608951,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22316">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22317</styleUrl>
+            <LineString id="22315">
+                <coordinates>107.575014,-6.9236585,0.0 107.5750579,-6.9239839,0.0 107.5751102,-6.9243105,0.0 107.5751686,-6.9246901,0.0 107.5752003,-6.9248974,0.0 107.575247,-6.9252035,0.0 107.5752734,-6.9253766,0.0 107.5752867,-6.9254635,0.0 107.575321,-6.9256811,0.0 107.5753412,-6.9258096,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22320">
+            <name>Jalan Jendral Sudirman</name>
+            <styleUrl>#22321</styleUrl>
+            <LineString id="22319">
+                <coordinates>107.5766159,-6.9175515,0.0 107.5762592,-6.9175155,0.0 107.5760342,-6.9174893,0.0 107.5757932,-6.9174613,0.0 107.5756139,-6.9174409,0.0 107.5754537,-6.9174221,0.0 107.5751233,-6.9173833,0.0 107.5750142,-6.9173706,0.0 107.5747901,-6.9173287,0.0 107.5747047,-6.9173134,0.0 107.5746765,-6.9173067,0.0 107.5745601,-6.9172787,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22324">
+            <name>Jalan Garuda</name>
+            <styleUrl>#22325</styleUrl>
+            <LineString id="22323">
+                <coordinates>107.5776073,-6.9136496,0.0 107.5774382,-6.9143939,0.0 107.5772255,-6.9153302,0.0 107.5771848,-6.9155032,0.0 107.5771079,-6.9158293,0.0 107.5770623,-6.916012,0.0 107.5770472,-6.9160725,0.0 107.5770267,-6.9161661,0.0 107.5768707,-6.91682,0.0 107.5768513,-6.9168985,0.0 107.5768101,-6.9171039,0.0 107.5767538,-6.9173844,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22328">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22329</styleUrl>
+            <LineString id="22327">
+                <coordinates>107.5863956,-6.9441848,0.0 107.5868373,-6.9443439,0.0 107.5870102,-6.9443993,0.0 107.5876247,-6.9446579,0.0 107.5878344,-6.9447464,0.0 107.5880579,-6.9448406,0.0 107.5883073,-6.9449457,0.0 107.5888658,-6.9451811,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22332">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22333</styleUrl>
+            <LineString id="22331">
+                <coordinates>107.5905372,-6.9458885,0.0 107.5906174,-6.9459184,0.0 107.5908186,-6.9459976,0.0 107.5909454,-6.9460471,0.0 107.5912869,-6.9461769,0.0 107.5915135,-6.946263,0.0 107.5919633,-6.946418,0.0 107.5920057,-6.9464327,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22336">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22337</styleUrl>
+            <LineString id="22335">
+                <coordinates>107.5760593,-6.9304537,0.0 107.5761295,-6.9307327,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22340">
+            <name>Jalan Mohammad Toha</name>
+            <styleUrl>#22341</styleUrl>
+            <LineString id="22339">
+                <coordinates>107.6094437,-6.9483822,0.0 107.6094101,-6.9482727,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22344">
+            <name>Route Segment</name>
+            <styleUrl>#22345</styleUrl>
+            <LineString id="22343">
+                <coordinates>107.7537453,-6.9404081,0.0 107.7537018,-6.9402543,0.0 107.7536586,-6.9401195,0.0 107.7536284,-6.9400362,0.0 107.7536203,-6.9400138,0.0 107.7535735,-6.93994,0.0 107.7535061,-6.9398592,0.0 107.7534342,-6.9398036,0.0 107.7529385,-6.9394875,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22348">
+            <name>Jalan Raya Cileunyi</name>
+            <styleUrl>#22349</styleUrl>
+            <LineString id="22347">
+                <coordinates>107.7560525,-6.9379722,0.0 107.7561221,-6.9379622,0.0 107.7562242,-6.9379454,0.0 107.7565469,-6.9378853,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22352">
+            <name>Jalan Raya Jatinangor</name>
+            <styleUrl>#22353</styleUrl>
+            <LineString id="22351">
+                <coordinates>107.757487,-6.9377295,0.0 107.757703,-6.9377047,0.0 107.7579083,-6.9376765,0.0 107.758202,-6.9376231,0.0 107.7585141,-6.9375674,0.0 107.7588445,-6.937496,0.0 107.7590419,-6.9374502,0.0 107.7595382,-6.9373062,0.0 107.7595587,-6.9373015,0.0 107.7599873,-6.937175,0.0 107.7604918,-6.9370404,0.0 107.7616581,-6.9367119,0.0 107.7624109,-6.9364803,0.0 107.7624735,-6.9364562,0.0 107.7626201,-6.9363989,0.0 107.7626862,-6.9363741,0.0 107.7629,-6.9362934,0.0 107.7630053,-6.936259,0.0 107.7632526,-6.9361885,0.0 107.7635958,-6.9360836,0.0 107.7642048,-6.9359115,0.0 107.7644049,-6.9358576,0.0 107.7644404,-6.9358482,0.0 107.7644824,-6.9358361,0.0 107.7652024,-6.9356336,0.0 107.7660491,-6.935392,0.0 107.7663076,-6.9353169,0.0 107.7666588,-6.9352102,0.0 107.7671166,-6.9350782,0.0 107.7673132,-6.9350212,0.0 107.7674101,-6.9349647,0.0 107.7675131,-6.9348887,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22356">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22357</styleUrl>
+            <LineString id="22355">
+                <coordinates>107.5756277,-6.9276758,0.0 107.5756662,-6.9279277,0.0 107.575694,-6.9281099,0.0 107.5757563,-6.9285176,0.0 107.5758449,-6.9290977,0.0 107.5759894,-6.9300668,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22360">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22361</styleUrl>
+            <LineString id="22359">
+                <coordinates>107.5761295,-6.9307327,0.0 107.5762615,-6.9311707,0.0 107.5763049,-6.9313117,0.0 107.5764914,-6.9319172,0.0 107.5765033,-6.9319558,0.0 107.5765867,-6.9321758,0.0 107.5766269,-6.9322818,0.0 107.576671,-6.9323901,0.0 107.5767329,-6.9325425,0.0 107.576819,-6.9327555,0.0 107.576953,-6.9330874,0.0 107.5770589,-6.933306,0.0 107.5771271,-6.9334469,0.0 107.5773591,-6.9339262,0.0 107.5774678,-6.9341351,0.0 107.577519,-6.9342396,0.0 107.5778296,-6.9347499,0.0 107.5783524,-6.9355244,0.0 107.578457,-6.9356736,0.0 107.5788041,-6.9361935,0.0 107.5788416,-6.9362517,0.0 107.5795763,-6.937339,0.0 107.5796223,-6.9374056,0.0 107.5796859,-6.937498,0.0 107.5797906,-6.9376502,0.0 107.579936,-6.937863,0.0 107.5802287,-6.9382866,0.0 107.5803153,-6.9384059,0.0 107.5803728,-6.9384851,0.0 107.5804612,-6.9386169,0.0 107.5805598,-6.9387753,0.0 107.5806433,-6.9388996,0.0 107.5807733,-6.9390932,0.0 107.5807999,-6.9391335,0.0 107.5808244,-6.9391671,0.0 107.580938,-6.9393311,0.0 107.5810191,-6.9394536,0.0 107.5812002,-6.9397265,0.0 107.5815443,-6.9401906,0.0 107.5815743,-6.9402311,0.0 107.5817044,-6.9404068,0.0 107.5818291,-6.9405652,0.0 107.5820397,-6.9408049,0.0 107.5823106,-6.941111,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22364">
+            <name>Jalan Mohammad Toha</name>
+            <styleUrl>#22365</styleUrl>
+            <LineString id="22363">
+                <coordinates>107.6116113,-6.9549027,0.0 107.6115903,-6.9548395,0.0 107.6115496,-6.9547181,0.0 107.6115404,-6.9546891,0.0 107.6115309,-6.9546605,0.0 107.6115168,-6.954618,0.0 107.6115056,-6.9545841,0.0 107.6114306,-6.9543571,0.0 107.6114039,-6.9542777,0.0 107.6113779,-6.9541994,0.0 107.6113491,-6.9541126,0.0 107.6113021,-6.953971,0.0 107.6112433,-6.9537939,0.0 107.6112087,-6.9536897,0.0 107.6111456,-6.953493,0.0 107.6111025,-6.9533696,0.0 107.6110127,-6.9530992,0.0 107.6109821,-6.9530069,0.0 107.6109598,-6.9529395,0.0 107.610882,-6.9527052,0.0 107.6108172,-6.9525101,0.0 107.6107154,-6.9522033,0.0 107.610704,-6.9521688,0.0 107.6106927,-6.9521348,0.0 107.6106289,-6.9519383,0.0 107.6105529,-6.9517136,0.0 107.6105221,-6.9516206,0.0 107.6104355,-6.951364,0.0 107.6103879,-6.9512162,0.0 107.6103079,-6.9509754,0.0 107.6101654,-6.950546,0.0 107.6101111,-6.9503823,0.0 107.609996,-6.9500355,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22368">
+            <name>Route Segment</name>
+            <styleUrl>#22369</styleUrl>
+            <LineString id="22367">
+                <coordinates>107.7529385,-6.9394875,0.0 107.7528917,-6.9394393,0.0 107.7528665,-6.939405,0.0 107.752848,-6.9393592,0.0 107.7528383,-6.9393028,0.0 107.7528389,-6.9392537,0.0 107.7528454,-6.9392089,0.0 107.7528588,-6.9391713,0.0 107.7528851,-6.9391361,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22372">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22373</styleUrl>
+            <LineString id="22371">
+                <coordinates>107.6054387,-6.9480071,0.0 107.6057218,-6.9480258,0.0 107.6059845,-6.9480432,0.0 107.6061148,-6.9480518,0.0 107.6064402,-6.9480733,0.0 107.6065499,-6.9480806,0.0 107.6067107,-6.9480912,0.0 107.6070517,-6.9481138,0.0 107.6072302,-6.9481255,0.0 107.6072587,-6.9481274,0.0 107.6073396,-6.9481328,0.0 107.6077353,-6.9481589,0.0 107.6080187,-6.9481777,0.0 107.6086542,-6.9482197,0.0 107.6089854,-6.9482416,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22376">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22377</styleUrl>
+            <LineString id="22375">
+                <coordinates>107.6039667,-6.9478945,0.0 107.6041277,-6.947905,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22380">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22381</styleUrl>
+            <LineString id="22379">
+                <coordinates>107.6240011,-6.9634006,0.0 107.6242839,-6.9634978,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22384">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22385</styleUrl>
+            <LineString id="22383">
+                <coordinates>107.6242839,-6.9634978,0.0 107.6253366,-6.963833,0.0 107.6258435,-6.9639721,0.0 107.626347,-6.9640978,0.0 107.6267896,-6.9641948,0.0 107.6271874,-6.9642858,0.0 107.627711,-6.9643758,0.0 107.6282532,-6.9644618,0.0 107.6286813,-6.9645136,0.0 107.6293116,-6.9645915,0.0 107.629938,-6.9646675,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22388">
+            <name>Jalan Akses Tol Mohammad Toha</name>
+            <styleUrl>#22389</styleUrl>
+            <LineString id="22387">
+                <coordinates>107.6108289,-6.956309,0.0 107.6106066,-6.9564192,0.0 107.6105951,-6.9564249,0.0 107.6101198,-6.9566866,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22392">
+            <name>Jalan Akses Tol Mohammad Toha</name>
+            <styleUrl>#22393</styleUrl>
+            <LineString id="22391">
+                <coordinates>107.6097904,-6.9568141,0.0 107.6094291,-6.9568824,0.0 107.6090911,-6.9569245,0.0 107.6085312,-6.9569907,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22396">
+            <name>Jalan Akses Tol Mohammad Toha</name>
+            <styleUrl>#22397</styleUrl>
+            <LineString id="22395">
+                <coordinates>107.6101198,-6.9566866,0.0 107.6098531,-6.956786,0.0 107.6097904,-6.9568141,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22400">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22401</styleUrl>
+            <LineString id="22399">
+                <coordinates>107.730105,-6.9541849,0.0 107.7328205,-6.9527237,0.0 107.7394411,-6.9491034,0.0 107.7398865,-6.9488629,0.0 107.7408358,-6.9483505,0.0 107.7429104,-6.9472221,0.0 107.7447624,-6.9463008,0.0 107.7464588,-6.9455793,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22404">
+            <name>Simpang Susun Cileunyi</name>
+            <styleUrl>#22405</styleUrl>
+            <LineString id="22403">
+                <coordinates>107.7464588,-6.9455793,0.0 107.7466437,-6.9454658,0.0 107.7468001,-6.9453773,0.0 107.7470107,-6.9452678,0.0 107.7473345,-6.9451187,0.0 107.7482395,-6.9446799,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22408">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22409</styleUrl>
+            <LineString id="22407">
+                <coordinates>107.7007549,-6.9688011,0.0 107.70103,-6.9687285,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22412">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22413</styleUrl>
+            <LineString id="22411">
+                <coordinates>107.70103,-6.9687285,0.0 107.7018043,-6.9685122,0.0 107.7020499,-6.9684354,0.0 107.7031454,-6.9680792,0.0 107.7039354,-6.9677807,0.0 107.7044746,-6.9675629,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22416">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22417</styleUrl>
+            <LineString id="22415">
+                <coordinates>107.6419915,-6.9658012,0.0 107.6428065,-6.9656857,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22420">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22421</styleUrl>
+            <LineString id="22419">
+                <coordinates>107.6383542,-6.9657306,0.0 107.6397387,-6.9658628,0.0 107.6408974,-6.9658788,0.0 107.6415324,-6.9658455,0.0 107.6419915,-6.9658012,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22424">
+            <name>Jalan Raya Jatinangor</name>
+            <styleUrl>#22425</styleUrl>
+            <LineString id="22423">
+                <coordinates>107.7573448,-6.9377483,0.0 107.757487,-6.9377295,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22428">
+            <name>Jalan Raya Jatinangor</name>
+            <styleUrl>#22429</styleUrl>
+            <LineString id="22427">
+                <coordinates>107.7565469,-6.9378853,0.0 107.757032,-6.9378,0.0 107.7573448,-6.9377483,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22432">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22433</styleUrl>
+            <LineString id="22431">
+                <coordinates>107.5744159,-6.9173911,0.0 107.5744169,-6.9175402,0.0 107.5744188,-6.9178179,0.0 107.5744249,-6.9187278,0.0 107.574425,-6.9190065,0.0 107.5744251,-6.9191285,0.0 107.5744252,-6.9193435,0.0 107.5744259,-6.9194121,0.0 107.5744266,-6.9194787,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22436">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22437</styleUrl>
+            <LineString id="22435">
+                <coordinates>107.5831212,-6.9419015,0.0 107.5831836,-6.9419591,0.0 107.5834599,-6.9422141,0.0 107.5835578,-6.942293,0.0 107.583608,-6.942339,0.0 107.5838985,-6.9425994,0.0 107.5842331,-6.9428621,0.0 107.5842817,-6.9429003,0.0 107.5844282,-6.9430135,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22440">
+            <name>Jalan Raya Jatinangor</name>
+            <styleUrl>#22441</styleUrl>
+            <LineString id="22439">
+                <coordinates>107.7675131,-6.9348887,0.0 107.7675751,-6.9347793,0.0 107.7676277,-6.934685,0.0 107.767735,-6.9344928,0.0 107.7678125,-6.9344095,0.0 107.7678271,-6.9343939,0.0 107.7679063,-6.934321,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22444">
+            <name>Jalan Mohammad Toha</name>
+            <styleUrl>#22445</styleUrl>
+            <LineString id="22443">
+                <coordinates>107.6095322,-6.9486416,0.0 107.6094437,-6.9483822,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22448">
+            <name>Jalan Mohammad Toha</name>
+            <styleUrl>#22449</styleUrl>
+            <LineString id="22447">
+                <coordinates>107.609996,-6.9500355,0.0 107.6098084,-6.9494703,0.0 107.6097027,-6.9491518,0.0 107.6096343,-6.9489457,0.0 107.6095822,-6.9487887,0.0 107.6095322,-6.9486416,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22452">
+            <name>Simpang Susun Cileunyi</name>
+            <styleUrl>#22453</styleUrl>
+            <LineString id="22451">
+                <coordinates>107.7500827,-6.943838,0.0 107.7501644,-6.9437736,0.0 107.7502379,-6.9437034,0.0 107.7503219,-6.9436003,0.0 107.7503868,-6.9434949,0.0 107.7504375,-6.9433927,0.0 107.750497,-6.9432424,0.0 107.7506748,-6.9427502,0.0 107.750726,-6.9426504,0.0 107.7508076,-6.9425196,0.0 107.7509278,-6.9423953,0.0 107.7510431,-6.9423266,0.0 107.7511863,-6.9422715,0.0 107.7513252,-6.9422468,0.0 107.751485,-6.9422345,0.0 107.7520438,-6.9422049,0.0 107.7521489,-6.9422007,0.0 107.7522465,-6.9421996,0.0 107.7523906,-6.9422036,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22456">
+            <name>Simpang Susun Cileunyi</name>
+            <styleUrl>#22457</styleUrl>
+            <LineString id="22455">
+                <coordinates>107.7541065,-6.9418043,0.0 107.754163,-6.9417663,0.0 107.7542124,-6.941722,0.0 107.7542539,-6.9416709,0.0 107.7542888,-6.9416176,0.0 107.7543165,-6.9415433,0.0 107.7543297,-6.9414684,0.0 107.7543261,-6.941382,0.0 107.7543165,-6.9413312,0.0 107.7542878,-6.9412663,0.0 107.7542181,-6.9411235,0.0 107.7541846,-6.9410603,0.0 107.7540569,-6.9408199,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22460">
+            <name>Simpang Susun Cileunyi</name>
+            <styleUrl>#22461</styleUrl>
+            <LineString id="22459">
+                <coordinates>107.7482395,-6.9446799,0.0 107.7485419,-6.9445421,0.0 107.7489168,-6.9443776,0.0 107.7496027,-6.9440818,0.0 107.7497522,-6.9440159,0.0 107.7498739,-6.9439583,0.0 107.7499691,-6.9439075,0.0 107.7500827,-6.943838,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22464">
+            <name>Simpang Susun Cileunyi</name>
+            <styleUrl>#22465</styleUrl>
+            <LineString id="22463">
+                <coordinates>107.7526686,-6.9422553,0.0 107.7529058,-6.9422841,0.0 107.7529797,-6.9422849,0.0 107.7530559,-6.9422836,0.0 107.7531339,-6.942277,0.0 107.7532371,-6.9422492,0.0 107.7533072,-6.9422247,0.0 107.7533786,-6.9421952,0.0 107.7535068,-6.9421311,0.0 107.7541065,-6.9418043,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22468">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22469</styleUrl>
+            <LineString id="22467">
+                <coordinates>107.5753412,-6.9258096,0.0 107.5753962,-6.9261666,0.0 107.5754214,-6.9263298,0.0 107.5754361,-6.9264252,0.0 107.5754783,-6.926699,0.0 107.5754956,-6.9268114,0.0 107.5755137,-6.9269292,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22472">
+            <name>Bunderan Cibeureum</name>
+            <styleUrl>#22473</styleUrl>
+            <LineString id="22471">
+                <coordinates>107.5745601,-6.9172787,0.0 107.5745248,-6.9173306,0.0 107.5744751,-6.9173693,0.0 107.5744159,-6.9173911,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22476">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22477</styleUrl>
+            <LineString id="22475">
+                <coordinates>107.5897693,-6.9455492,0.0 107.5898471,-6.9455853,0.0 107.5899638,-6.9456485,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22480">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22481</styleUrl>
+            <LineString id="22479">
+                <coordinates>107.5760414,-6.9303848,0.0 107.5760593,-6.9304537,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22484">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22485</styleUrl>
+            <LineString id="22483">
+                <coordinates>107.5894219,-6.9454078,0.0 107.5896531,-6.9454988,0.0 107.5897088,-6.945521,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22488">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22489</styleUrl>
+            <LineString id="22487">
+                <coordinates>107.6041277,-6.947905,0.0 107.6041522,-6.9479059,0.0 107.6043426,-6.9479195,0.0 107.6047969,-6.9479564,0.0 107.6051067,-6.947983,0.0 107.6051379,-6.9479853,0.0 107.6053226,-6.947999,0.0 107.6054387,-6.9480071,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22492">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22493</styleUrl>
+            <LineString id="22491">
+                <coordinates>107.6089854,-6.9482416,0.0 107.6094101,-6.9482727,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22496">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22497</styleUrl>
+            <LineString id="22495">
+                <coordinates>107.5952745,-6.9472037,0.0 107.5954049,-6.9472261,0.0 107.5955093,-6.9472465,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22500">
+            <name>Route Segment</name>
+            <styleUrl>#22501</styleUrl>
+            <LineString id="22499">
+                <coordinates>107.6086585,-6.9611877,0.0 107.6090755,-6.9611618,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22504">
+            <name>Simpang Susun Mohammad Toha</name>
+            <styleUrl>#22505</styleUrl>
+            <LineString id="22503">
+                <coordinates>107.6080064,-6.9612283,0.0 107.6086585,-6.9611877,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22508">
+            <name>Route Segment</name>
+            <styleUrl>#22509</styleUrl>
+            <LineString id="22507">
+                <coordinates>107.6090755,-6.9611618,0.0 107.6094898,-6.9611361,0.0 107.6098249,-6.9611724,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22512">
+            <name>Jalan Garuda</name>
+            <styleUrl>#22513</styleUrl>
+            <LineString id="22511">
+                <coordinates>107.5767538,-6.9173844,0.0 107.5766836,-6.9174697,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22516">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22517</styleUrl>
+            <LineString id="22515">
+                <coordinates>107.5849105,-6.9433545,0.0 107.5850407,-6.9434372,0.0 107.5853375,-6.9436258,0.0 107.58577,-6.9438614,0.0 107.5860174,-6.9439945,0.0 107.586299,-6.9441384,0.0 107.5863956,-6.9441848,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22520">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22521</styleUrl>
+            <LineString id="22519">
+                <coordinates>107.5955093,-6.9472465,0.0 107.5960242,-6.9472981,0.0 107.5960901,-6.9473051,0.0 107.596192,-6.9473128,0.0 107.5964458,-6.9473347,0.0 107.5967222,-6.9473584,0.0 107.5968908,-6.9473718,0.0 107.5973744,-6.9474033,0.0 107.5975687,-6.9474199,0.0 107.5980357,-6.9474645,0.0 107.598288,-6.947504,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22524">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22525</styleUrl>
+            <LineString id="22523">
+                <coordinates>107.598288,-6.947504,0.0 107.5983813,-6.9475112,0.0 107.59885,-6.9475473,0.0 107.5989661,-6.9475565,0.0 107.5990579,-6.9475634,0.0 107.5992219,-6.9475759,0.0 107.5992807,-6.9475804,0.0 107.5995536,-6.9476014,0.0 107.5996333,-6.9476076,0.0 107.5999206,-6.9476297,0.0 107.5999463,-6.9476316,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22528">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22529</styleUrl>
+            <LineString id="22527">
+                <coordinates>107.6025818,-6.9478249,0.0 107.602694,-6.9478287,0.0 107.6028213,-6.947833,0.0 107.6029031,-6.9478358,0.0 107.6033305,-6.9478502,0.0 107.6039667,-6.9478945,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22532">
+            <name>Halte Metro Jabar Trans UNPAD Jatinangor</name>
+            <styleUrl>#22533</styleUrl>
+            <LineString id="22531">
+                <coordinates>107.7723146,-6.932773,0.0 107.7733061,-6.9323718,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22536">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22537</styleUrl>
+            <LineString id="22535">
+                <coordinates>107.6000414,-6.9476386,0.0 107.6004105,-6.9476656,0.0 107.6005617,-6.9476767,0.0 107.6008389,-6.9476971,0.0 107.6010847,-6.9477151,0.0 107.6012883,-6.94773,0.0 107.6013862,-6.9477372,0.0 107.6014937,-6.9477451,0.0 107.6016723,-6.9477582,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22540">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22541</styleUrl>
+            <LineString id="22539">
+                <coordinates>107.5999463,-6.9476316,0.0 107.6000414,-6.9476386,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22544">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22545</styleUrl>
+            <LineString id="22543">
+                <coordinates>107.6204529,-6.9619211,0.0 107.6224734,-6.9628093,0.0 107.6231866,-6.9631092,0.0 107.6240011,-6.9634006,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22548">
+            <name>Jalan Tol Padalarang–Cileunyi</name>
+            <styleUrl>#22549</styleUrl>
+            <LineString id="22547">
+                <coordinates>107.629938,-6.9646675,0.0 107.6371405,-6.9655837,0.0 107.6376642,-6.9656491,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22552">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22553</styleUrl>
+            <LineString id="22551">
+                <coordinates>107.6016723,-6.9477582,0.0 107.6022203,-6.9477997,0.0 107.6022466,-6.9478017,0.0 107.6024847,-6.9478198,0.0 107.6025818,-6.9478249,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22556">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22557</styleUrl>
+            <LineString id="22555">
+                <coordinates>107.5888658,-6.9451811,0.0 107.5890571,-6.9452671,0.0 107.5891029,-6.9452877,0.0 107.5891731,-6.9453141,0.0 107.5893173,-6.9453679,0.0 107.5894219,-6.9454078,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22560">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22561</styleUrl>
+            <LineString id="22559">
+                <coordinates>107.5951948,-6.9471897,0.0 107.5952745,-6.9472037,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22564">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22565</styleUrl>
+            <LineString id="22563">
+                <coordinates>107.5946801,-6.9470993,0.0 107.5949575,-6.9471456,0.0 107.5950703,-6.9471682,0.0 107.5951948,-6.9471897,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22568">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22569</styleUrl>
+            <LineString id="22567">
+                <coordinates>107.5920057,-6.9464327,0.0 107.5922205,-6.9465024,0.0 107.5923591,-6.9465464,0.0 107.5924183,-6.9465651,0.0 107.5929217,-6.946706,0.0 107.5930626,-6.9467395,0.0 107.5934341,-6.9468277,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22572">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22573</styleUrl>
+            <LineString id="22571">
+                <coordinates>107.5899638,-6.9456485,0.0 107.5902641,-6.9457816,0.0 107.5904302,-6.9458446,0.0 107.5905372,-6.9458885,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22576">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22577</styleUrl>
+            <LineString id="22575">
+                <coordinates>107.5897088,-6.945521,0.0 107.5897693,-6.9455492,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22580">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22581</styleUrl>
+            <LineString id="22579">
+                <coordinates>107.5844282,-6.9430135,0.0 107.584573,-6.9431186,0.0 107.584642,-6.9431671,0.0 107.5847245,-6.9432291,0.0 107.5848895,-6.9433396,0.0 107.5849105,-6.9433545,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22584">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22585</styleUrl>
+            <LineString id="22583">
+                <coordinates>107.5755137,-6.9269292,0.0 107.5756277,-6.9276758,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22588">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22589</styleUrl>
+            <LineString id="22587">
+                <coordinates>107.5759894,-6.9300668,0.0 107.5760161,-6.9302366,0.0 107.5760414,-6.9303848,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22592">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22593</styleUrl>
+            <LineString id="22591">
+                <coordinates>107.5934341,-6.9468277,0.0 107.5935172,-6.946847,0.0 107.5935575,-6.9468564,0.0 107.5936688,-6.9468823,0.0 107.593986,-6.9469544,0.0 107.5940785,-6.9469738,0.0 107.5941765,-6.9469938,0.0 107.5942182,-6.9470057,0.0 107.5946413,-6.947092,0.0 107.5946801,-6.9470993,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22596">
+            <name>Route Segment</name>
+            <styleUrl>#22597</styleUrl>
+            <LineString id="22595">
+                <coordinates>107.5766836,-6.9174697,0.0 107.5766159,-6.9175515,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22600">
+            <name>Jalan Akses Tol Mohammad Toha</name>
+            <styleUrl>#22601</styleUrl>
+            <LineString id="22599">
+                <coordinates>107.6085312,-6.9569907,0.0 107.6081813,-6.9571073,0.0 107.6077749,-6.9572641,0.0 107.6075633,-6.9573828,0.0 107.607347,-6.9575274,0.0 107.6071385,-6.9576995,0.0 107.6069192,-6.9579126,0.0 107.606703,-6.9581866,0.0 107.6065542,-6.9584225,0.0 107.6064008,-6.9587544,0.0 107.6063119,-6.9590451,0.0 107.6062444,-6.9594034,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22604">
+            <name>Jalan Akses Tol Mohammad Toha</name>
+            <styleUrl>#22605</styleUrl>
+            <LineString id="22603">
+                <coordinates>107.6119023,-6.955933,0.0 107.6116445,-6.9560155,0.0 107.6115943,-6.9560327,0.0 107.6110917,-6.9561978,0.0 107.6109823,-6.9562337,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22608">
+            <name>Jalan Mohammad Toha</name>
+            <styleUrl>#22609</styleUrl>
+            <LineString id="22607">
+                <coordinates>107.6118947,-6.9556604,0.0 107.611923,-6.9557408,0.0 107.6119415,-6.9557973,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22612">
+            <name>Jalan Mohammad Toha</name>
+            <styleUrl>#22613</styleUrl>
+            <LineString id="22611">
+                <coordinates>107.6118897,-6.9556394,0.0 107.6118947,-6.9556604,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22616">
+            <name>Jalan Mohammad Toha</name>
+            <styleUrl>#22617</styleUrl>
+            <LineString id="22615">
+                <coordinates>107.6119415,-6.9557973,0.0 107.6119773,-6.9559046,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22620">
+            <name>Jalan Elang</name>
+            <styleUrl>#22621</styleUrl>
+            <LineString id="22619">
+                <coordinates>107.575723,-6.9133498,0.0 107.5758021,-6.913142,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22624">
+            <name>Jalan Elang</name>
+            <styleUrl>#22625</styleUrl>
+            <LineString id="22623">
+                <coordinates>107.5753136,-6.9144895,0.0 107.5755245,-6.9138801,0.0 107.575723,-6.9133498,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22628">
+            <name>Pangkalan DAMRI Jatinangor</name>
+            <styleUrl>#22629</styleUrl>
+            <LineString id="22627">
+                <coordinates>107.7722158,-6.9328953,0.0 107.7722644,-6.932833,0.0 107.7723146,-6.932773,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22632">
+            <name>Route Segment</name>
+            <styleUrl>#22633</styleUrl>
+            <LineString id="22631">
+                <coordinates>107.7540569,-6.9408199,0.0 107.7538374,-6.9405922,0.0 107.753818,-6.940561,0.0 107.7537775,-6.9405013,0.0 107.7537453,-6.9404081,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22636">
+            <name>Jalan Soekarno-Hatta</name>
+            <styleUrl>#22637</styleUrl>
+            <LineString id="22635">
+                <coordinates>107.5823106,-6.941111,0.0 107.582497,-6.9413067,0.0 107.5826593,-6.9414771,0.0 107.5828645,-6.9416649,0.0 107.5831212,-6.9419015,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22640">
+            <name>Simpang Susun Cileunyi</name>
+            <styleUrl>#22641</styleUrl>
+            <LineString id="22639">
+                <coordinates>107.7523906,-6.9422036,0.0 107.7524946,-6.9422111,0.0 107.7525451,-6.9422183,0.0 107.7525975,-6.9422299,0.0 107.7526686,-6.9422553,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22644">
+            <name>Jalan Raya Jatinangor</name>
+            <styleUrl>#22645</styleUrl>
+            <LineString id="22643">
+                <coordinates>107.7679063,-6.934321,0.0 107.7681579,-6.9342545,0.0 107.7684973,-6.9341574,0.0 107.768833,-6.9340581,0.0 107.7688726,-6.9340481,0.0 107.7696761,-6.9338458,0.0 107.7703987,-6.9336234,0.0 107.7708274,-6.9334914,0.0 107.7709455,-6.9334391,0.0 107.7713808,-6.9332463,0.0 107.7714431,-6.9332174,0.0 107.7717685,-6.9330746,0.0 107.7718028,-6.9330593,0.0 107.7718574,-6.9330345,0.0 107.7721133,-6.9329352,0.0 107.7721658,-6.932914,0.0 107.7722158,-6.9328953,0.0</coordinates>
+            </LineString>
+        </Placemark>
+        <Placemark id="22648">
+            <name>Jalan Rajawali Timur</name>
+            <styleUrl>#22649</styleUrl>
+            <LineString id="22647">
+                <coordinates>107.5758021,-6.913142,0.0 107.5761151,-6.9132715,0.0</coordinates>
+            </LineString>
         </Placemark>
     </Document>
 </kml>
