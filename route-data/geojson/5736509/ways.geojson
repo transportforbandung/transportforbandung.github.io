@@ -434,8 +434,14 @@
       "properties": {
         "id": 54856355,
         "avgspeed": "15",
+        "destination:backward": "Sumbersari;Ciparay;Pacet",
+        "destination:forward": "Sapan",
+        "destination:ref:backward": "365",
+        "destination:ref:forward": "400",
         "highway": "tertiary",
         "lanes": "2",
+        "name": "Jalan Sapan Sumbersari",
+        "name:en": "Sapan Sumbersari Drive",
         "source": "Yahoo hires",
         "surface": "concrete",
         "width": "4"
@@ -518,9 +524,11 @@
       },
       "properties": {
         "id": 244489208,
+        "destination:backward": "Ciparay;Pacet",
+        "destination:forward": "Sapan",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Stit At-Taqwa Ciparay",
+        "name": "Jalan Toha Ramdan",
         "ref": "400"
       }
     },
@@ -1252,16 +1260,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6403797,
-            -6.9541465
+            107.6404234,
+            -6.9541554
           ],
           [
-            107.6404231,
-            -6.9541579
+            107.6404301,
+            -6.9541569
           ],
           [
-            107.6404838,
-            -6.9541709
+            107.6404858,
+            -6.9541662
           ],
           [
             107.6406395,
@@ -1694,8 +1702,14 @@
       "properties": {
         "id": 340013843,
         "avgspeed": "15",
+        "bridge:name": "Jembatan Cikeruh",
+        "bridge:name:en": "Cikeruh Bridge",
+        "destination:backward": "Derwati;Ciwastra;Gedebage",
+        "destination:forward": "Sapan;Ciparay;Majalaya",
         "highway": "primary",
         "lanes": "2",
+        "name": "Jalan Raya Derwati Sapan",
+        "name:en": "Derwati Sapan Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -1801,8 +1815,12 @@
       "properties": {
         "id": 520783485,
         "avgspeed": "15",
+        "destination:backward": "Derwati;Ciwastra;Gedebage",
+        "destination:forward": "Sapan;Ciparay;Majalaya",
         "highway": "primary",
         "lanes": "2",
+        "name": "Jalan Raya Derwati Sapan",
+        "name:en": "Derwati Sapan Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -1826,9 +1844,13 @@
         "id": 520783486,
         "avgspeed": "15",
         "bridge": "yes",
+        "destination:backward": "Derwati;Ciwastra;Gedebage",
+        "destination:forward": "Sapan;Ciparay;Majalaya",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
+        "name": "Jalan Raya Derwati Sapan",
+        "name:en": "Derwati Sapan Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -1852,9 +1874,15 @@
         "id": 561406801,
         "avgspeed": "15",
         "bridge": "yes",
+        "destination:backward": "Sumbersari;Ciparay;Pacet",
+        "destination:forward": "Sapan",
+        "destination:ref:backward": "365",
+        "destination:ref:forward": "400",
         "highway": "tertiary",
         "lanes": "2",
         "layer": "1",
+        "name": "Jalan Sapan Sumbersari",
+        "name:en": "Sapan Sumbersari Drive",
         "source": "Yahoo hires"
       }
     },
@@ -1880,8 +1908,14 @@
       "properties": {
         "id": 561406802,
         "avgspeed": "15",
+        "destination:backward": "Sumbersari;Ciparay;Pacet",
+        "destination:forward": "Sapan",
+        "destination:ref:backward": "365",
+        "destination:ref:forward": "400",
         "highway": "tertiary",
         "lanes": "2",
+        "name": "Jalan Sapan Sumbersari",
+        "name:en": "Sapan Sumbersari Drive",
         "source": "Yahoo hires"
       }
     },
@@ -2054,10 +2088,15 @@
       "properties": {
         "id": 561420071,
         "bridge": "yes",
+        "bridge:name": "Jembatan Cikeruh",
+        "bridge:name:en": "Cikeruh Bridge",
+        "destination:backward": "Derwati;Ciwastra;Gedebage",
+        "destination:forward": "Sapan;Ciparay;Majalaya",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jembatan Cikeruh",
+        "name": "Jalan Raya Derwati Sapan",
+        "name:en": "Derwati Sapan Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -2172,8 +2211,14 @@
       "properties": {
         "id": 561420072,
         "avgspeed": "15",
+        "bridge:name": "Jembatan Cikeruh",
+        "bridge:name:en": "Cikeruh Bridge",
+        "destination:backward": "Derwati;Ciwastra;Gedebage",
+        "destination:forward": "Sapan;Ciparay;Majalaya",
         "highway": "primary",
         "lanes": "2",
+        "name": "Jalan Raya Derwati Sapan",
+        "name:en": "Derwati Sapan Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -2237,9 +2282,12 @@
       },
       "properties": {
         "id": 573849539,
+        "destination:backward": "Ciparay;Pacet",
+        "destination:forward": "Sapan",
+        "destination:ref:backward": "365",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Stit At-Taqwa Ciparay",
+        "name": "Jalan Toha Ramdan",
         "ref": "400"
       }
     },
@@ -2316,6 +2364,9 @@
       },
       "properties": {
         "id": 574244524,
+        "destination:backward": "Ciparay;Pacet",
+        "destination:forward": "Sapan",
+        "destination:ref:backward": "365",
         "highway": "secondary",
         "lanes": "2",
         "ref": "400"
@@ -2346,9 +2397,12 @@
       },
       "properties": {
         "id": 574244526,
+        "destination:backward": "Ciparay;Pacet",
+        "destination:forward": "Sapan",
+        "destination:ref:backward": "365",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Stit At-Taqwa Ciparay",
+        "name": "Jalan Toha Ramdan",
         "ref": "400"
       }
     },
@@ -3574,8 +3628,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6403797,
-            -6.9541465
+            107.6404234,
+            -6.9541554
+          ],
+          [
+            107.64038,
+            -6.9541562
           ],
           [
             107.6403362,

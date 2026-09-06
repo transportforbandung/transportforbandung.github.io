@@ -1109,8 +1109,14 @@
       "properties": {
         "id": 340013843,
         "avgspeed": "15",
+        "bridge:name": "Jembatan Cikeruh",
+        "bridge:name:en": "Cikeruh Bridge",
+        "destination:backward": "Derwati;Ciwastra;Gedebage",
+        "destination:forward": "Sapan;Ciparay;Majalaya",
         "highway": "primary",
         "lanes": "2",
+        "name": "Jalan Raya Derwati Sapan",
+        "name:en": "Derwati Sapan Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -1797,8 +1803,12 @@
       "properties": {
         "id": 385546262,
         "avgspeed": "15",
+        "destination:backward": "Sapan;Derwati",
+        "destination:forward": "Majalaya;Solokan Jeruk",
         "highway": "primary",
         "lanes": "2",
+        "name": "Jalan Raya Sapan Majalaya",
+        "name:en": "Sapan Majalaya Drive",
         "ref": "400",
         "smoothness": "good",
         "source": "Yahoo hires",
@@ -1872,8 +1882,12 @@
       "properties": {
         "id": 520783485,
         "avgspeed": "15",
+        "destination:backward": "Derwati;Ciwastra;Gedebage",
+        "destination:forward": "Sapan;Ciparay;Majalaya",
         "highway": "primary",
         "lanes": "2",
+        "name": "Jalan Raya Derwati Sapan",
+        "name:en": "Derwati Sapan Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -1897,9 +1911,13 @@
         "id": 520783486,
         "avgspeed": "15",
         "bridge": "yes",
+        "destination:backward": "Derwati;Ciwastra;Gedebage",
+        "destination:forward": "Sapan;Ciparay;Majalaya",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
+        "name": "Jalan Raya Derwati Sapan",
+        "name:en": "Derwati Sapan Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -1974,6 +1992,10 @@
           [
             107.6867129,
             -6.9602153
+          ],
+          [
+            107.6867131,
+            -6.9600374
           ],
           [
             107.6867134,
@@ -2209,10 +2231,15 @@
       "properties": {
         "id": 561420071,
         "bridge": "yes",
+        "bridge:name": "Jembatan Cikeruh",
+        "bridge:name:en": "Cikeruh Bridge",
+        "destination:backward": "Derwati;Ciwastra;Gedebage",
+        "destination:forward": "Sapan;Ciparay;Majalaya",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jembatan Cikeruh",
+        "name": "Jalan Raya Derwati Sapan",
+        "name:en": "Derwati Sapan Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -2327,8 +2354,14 @@
       "properties": {
         "id": 561420072,
         "avgspeed": "15",
+        "bridge:name": "Jembatan Cikeruh",
+        "bridge:name:en": "Cikeruh Bridge",
+        "destination:backward": "Derwati;Ciwastra;Gedebage",
+        "destination:forward": "Sapan;Ciparay;Majalaya",
         "highway": "primary",
         "lanes": "2",
+        "name": "Jalan Raya Derwati Sapan",
+        "name:en": "Derwati Sapan Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -2798,8 +2831,12 @@
       "properties": {
         "id": 1111597000,
         "avgspeed": "15",
+        "destination:backward": "Sapan;Derwati",
+        "destination:forward": "Majalaya;Solokan Jeruk",
         "highway": "primary",
         "lanes": "2",
+        "name": "Jalan Raya Sapan Majalaya",
+        "name:en": "Sapan Majalaya Drive",
         "source": "Yahoo hires"
       }
     },
@@ -2924,8 +2961,12 @@
       "properties": {
         "id": 1235377702,
         "avgspeed": "15",
+        "destination:backward": "Sapan;Derwati",
+        "destination:forward": "Majalaya;Solokan Jeruk",
         "highway": "primary",
         "lanes": "2",
+        "name": "Jalan Raya Sapan Majalaya",
+        "name:en": "Sapan Majalaya Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -3100,12 +3141,12 @@
             -6.9416411
           ],
           [
-            107.6918625,
-            -6.9415729
+            107.6918605,
+            -6.9415767
           ],
           [
-            107.691872,
-            -6.9415322
+            107.6918702,
+            -6.9415374
           ],
           [
             107.6918821,
