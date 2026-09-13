@@ -1071,13 +1071,13 @@
       },
       "properties": {
         "id": 339798648,
-        "access:conditional": "no@(06:00-08:00)",
         "avgspeed": "25",
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "yes",
         "name": "Jalan Cihanjuang",
         "official_name": "Jalan Daeng Muhammad Ariwinata",
+        "oneway:conditional": "yes @ (06:00-08:00,16:00-18:00)",
         "smoothness": "good",
         "surface": "asphalt",
         "width": "4"
