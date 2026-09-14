@@ -12202,9 +12202,9 @@
         "name": "IPDN B",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "yes",
-        "bin": null,
+        "bin": "yes",
         "routes": [
           4808667,
           5747409,
@@ -12230,9 +12230,9 @@
         "name": "IPDN A",
         "shelter": "no",
         "pole": "no",
-        "lit": null,
+        "lit": "no",
         "bench": "no",
-        "bin": null,
+        "bin": "no",
         "routes": [
           4808655,
           5747408,
@@ -30856,7 +30856,7 @@
       "properties": {
         "id": 13901993730,
         "name": "Stasiun Kiaracondong",
-        "shelter": null,
+        "shelter": "yes",
         "pole": null,
         "lit": null,
         "bench": null,
@@ -30866,7 +30866,7 @@
           16650576
         ],
         "route_count": 2,
-        "category": "8_shelter_none_pole_none"
+        "category": "1_shelter_yes_pole_none"
       }
     },
     {
@@ -31124,6 +31124,50 @@
         "routes": [],
         "route_count": 0,
         "category": "8_shelter_none_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.9005661,
+          -7.049387
+        ]
+      },
+      "properties": {
+        "id": 14174374668,
+        "name": "Pos Kontrol Primajasa Lebakjero 2",
+        "shelter": "yes",
+        "pole": null,
+        "lit": null,
+        "bench": "yes",
+        "bin": "no",
+        "routes": [],
+        "route_count": 0,
+        "category": "1_shelter_yes_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.9006667,
+          -7.0490123
+        ]
+      },
+      "properties": {
+        "id": 14174421638,
+        "name": "Pos Kontrol Primajasa Lebakjero 1",
+        "shelter": "yes",
+        "pole": null,
+        "lit": null,
+        "bench": "yes",
+        "bin": "no",
+        "routes": [],
+        "route_count": 0,
+        "category": "1_shelter_yes_pole_none"
       }
     }
   ]
