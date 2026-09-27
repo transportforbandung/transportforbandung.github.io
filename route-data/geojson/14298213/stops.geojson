@@ -23,6 +23,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          107.593264,
+          -6.9458573
+        ]
+      },
+      "properties": {
+        "id": 4608003593,
+        "bus": "yes",
+        "name": "Terminal Leuwipanjang",
+        "name:ar": "محطه باصات بندوق",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           107.600717,
           -6.9293977
         ]
@@ -100,6 +117,38 @@
         "id": 11104718108,
         "bus": "yes",
         "name": "Kartikasari A",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6177764,
+          -6.8923055
+        ]
+      },
+      "properties": {
+        "id": 11707030824,
+        "bus": "yes",
+        "name": "Dipatiukur",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6044055,
+          -6.9062288
+        ]
+      },
+      "properties": {
+        "id": 11739021630,
+        "bus": "yes",
+        "name": "STHB",
         "public_transport": "stop_position"
       }
     },
@@ -197,39 +246,6 @@
         "alt_name": "Balai Kota",
         "bus": "yes",
         "name": "SMK Negeri 1 Bandung",
-        "public_transport": "stop_position"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.593264,
-          -6.9458573
-        ]
-      },
-      "properties": {
-        "id": 4608003593,
-        "bus": "yes",
-        "name": "Terminal Leuwipanjang",
-        "name:ar": "محطه باصات بندوق",
-        "public_transport": "stop_position"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          107.6177764,
-          -6.8923055
-        ]
-      },
-      "properties": {
-        "id": 11707030824,
-        "bus": "yes",
-        "name": "Dipatiukur",
         "public_transport": "stop_position"
       }
     }

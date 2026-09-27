@@ -451,6 +451,7 @@
         "id": 223676385,
         "highway": "trunk",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -744,6 +745,7 @@
         "destination": "Simpang Pasir Koja",
         "highway": "trunk",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -1370,6 +1372,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -1435,10 +1438,11 @@
       },
       "properties": {
         "id": 1034748104,
-        "destination:lanes": "Holis;Cigondewah;Cijerah",
+        "destination:lanes": "||Holis;Cigondewah;Cijerah",
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -1454,6 +1458,10 @@
           [
             107.5754153,
             -6.9269421
+          ],
+          [
+            107.5753833,
+            -6.9267408
           ],
           [
             107.5753762,
@@ -1481,7 +1489,9 @@
         "id": 1034748105,
         "destination:lanes": "Holis;Cigondewah;Cijerah||Cibeureum;Garuda;Cimahi;Dungus Cariang",
         "highway": "trunk",
+        "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",

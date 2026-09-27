@@ -514,8 +514,8 @@
             -6.914736
           ],
           [
-            107.6051298,
-            -6.9147855
+            107.6053917,
+            -6.9148138
           ],
           [
             107.6063544,
@@ -1131,44 +1131,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.634859,
-            -6.9143394
-          ],
-          [
-            107.6348005,
-            -6.9143626
-          ],
-          [
-            107.6347505,
-            -6.9144006
-          ],
-          [
-            107.6347127,
-            -6.9144506
-          ],
-          [
-            107.6346899,
-            -6.914509
-          ]
-        ]
-      },
-      "properties": {
-        "id": 244799598,
-        "highway": "primary",
-        "lanes": "1",
-        "name": "Jalan Sukabumi",
-        "oneway": "yes",
-        "ref": "3624",
-        "reg_ref": "22-10-3624",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6173532,
             -6.925034
           ],
@@ -1354,55 +1316,6 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Garuda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.634419,
-            -6.9161223
-          ],
-          [
-            107.6344004,
-            -6.9162388
-          ],
-          [
-            107.6343511,
-            -6.9164827
-          ],
-          [
-            107.6342682,
-            -6.916856
-          ],
-          [
-            107.634252,
-            -6.9169288
-          ],
-          [
-            107.6342422,
-            -6.9169744
-          ],
-          [
-            107.6342207,
-            -6.9170356
-          ],
-          [
-            107.6341961,
-            -6.9170831
-          ]
-        ]
-      },
-      "properties": {
-        "id": 301544694,
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Sukabumi",
-        "ref": "3624",
-        "reg_ref": "22-10-3624",
-        "surface": "asphalt"
       }
     },
     {
@@ -1790,54 +1703,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6434964,
-            -6.9113612
-          ],
-          [
-            107.6435161,
-            -6.9115847
-          ],
-          [
-            107.6435389,
-            -6.9119283
-          ],
-          [
-            107.6435633,
-            -6.9122449
-          ],
-          [
-            107.6435953,
-            -6.9125849
-          ],
-          [
-            107.6436233,
-            -6.9128822
-          ],
-          [
-            107.643636,
-            -6.9130175
-          ]
-        ]
-      },
-      "properties": {
-        "id": 318490791,
-        "destination:lanes": "Purwakarta;Antapani;Arcamanik|Kiaracondong;Babakan Sari;Binong|Jakarta;Ahmad Yani;Supratman;Riau",
-        "foot": "use_sidepath",
-        "highway": "primary",
-        "lanes": "3",
-        "name": "Jalan H. Ibrahim Adjie",
-        "old_name": "Jalan Kiaracondong",
-        "oneway": "yes",
-        "surface": "asphalt",
-        "turn:lanes": "slight_left|slight_left;slight_right|slight_right"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6070945,
             -6.9151362
           ],
@@ -2091,6 +1956,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk": "separate",
@@ -2186,56 +2052,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6374221,
-            -6.9145133
-          ],
-          [
-            107.6374071,
-            -6.9145151
-          ]
-        ]
-      },
-      "properties": {
-        "id": 320616149,
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-04:00)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6375505,
-            -6.9144979
-          ],
-          [
-            107.6374221,
-            -6.9145133
-          ]
-        ]
-      },
-      "properties": {
-        "id": 320616150,
-        "bridge": "yes",
-        "highway": "primary",
-        "lanes": "4",
-        "layer": "1",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-04:00)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6166101,
             -6.923648
           ],
@@ -2316,199 +2132,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6417884,
-            -6.9139622
-          ],
-          [
-            107.641697,
-            -6.9139738
-          ],
-          [
-            107.6414919,
-            -6.9139937
-          ],
-          [
-            107.641334,
-            -6.9140119
-          ],
-          [
-            107.6412274,
-            -6.9140241
-          ],
-          [
-            107.6410877,
-            -6.9140393
-          ],
-          [
-            107.6409956,
-            -6.9140515
-          ],
-          [
-            107.6405312,
-            -6.9141105
-          ],
-          [
-            107.6404431,
-            -6.9141209
-          ],
-          [
-            107.6403048,
-            -6.9141385
-          ],
-          [
-            107.6402144,
-            -6.914148
-          ],
-          [
-            107.6399554,
-            -6.914178
-          ],
-          [
-            107.6398939,
-            -6.914186
-          ],
-          [
-            107.6397497,
-            -6.9142026
-          ],
-          [
-            107.6394855,
-            -6.9142369
-          ],
-          [
-            107.6393217,
-            -6.9142593
-          ],
-          [
-            107.6391686,
-            -6.914281
-          ],
-          [
-            107.6390956,
-            -6.9142912
-          ],
-          [
-            107.6389363,
-            -6.9143117
-          ],
-          [
-            107.6388474,
-            -6.9143228
-          ],
-          [
-            107.6386441,
-            -6.9143525
-          ],
-          [
-            107.6385822,
-            -6.9143614
-          ],
-          [
-            107.6385215,
-            -6.9143724
-          ],
-          [
-            107.6384678,
-            -6.9143807
-          ],
-          [
-            107.6381956,
-            -6.9144188
-          ],
-          [
-            107.6379503,
-            -6.9144499
-          ],
-          [
-            107.6378321,
-            -6.9144641
-          ],
-          [
-            107.6377113,
-            -6.9144786
-          ],
-          [
-            107.6376149,
-            -6.9144902
-          ]
-        ]
-      },
-      "properties": {
-        "id": 330594960,
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-06:00)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6373588,
-            -6.9145209
-          ],
-          [
-            107.6371438,
-            -6.9145467
-          ],
-          [
-            107.6369043,
-            -6.9145755
-          ],
-          [
-            107.6368147,
-            -6.9145887
-          ],
-          [
-            107.636513,
-            -6.914633
-          ],
-          [
-            107.6362469,
-            -6.9146627
-          ],
-          [
-            107.6362076,
-            -6.9146671
-          ],
-          [
-            107.6361335,
-            -6.9146647
-          ],
-          [
-            107.6360082,
-            -6.9146453
-          ],
-          [
-            107.6356952,
-            -6.9145626
-          ],
-          [
-            107.6356516,
-            -6.9145514
-          ]
-        ]
-      },
-      "properties": {
-        "id": 330635689,
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "surface": "asphalt",
-        "turn:lanes": "slight_left|through|through|slight_right"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5979805,
             -6.912262
           ],
@@ -2530,49 +2153,6 @@
         "oneway": "yes",
         "ref": "372",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6433608,
-            -6.9099796
-          ],
-          [
-            107.6434062,
-            -6.9104364
-          ],
-          [
-            107.6434211,
-            -6.9105823
-          ],
-          [
-            107.6434723,
-            -6.9111273
-          ],
-          [
-            107.6434794,
-            -6.9112066
-          ],
-          [
-            107.6434964,
-            -6.9113612
-          ]
-        ]
-      },
-      "properties": {
-        "id": 330996291,
-        "destination": "Jakarta;Antapani;Kiaracondong;Binong",
-        "highway": "primary",
-        "lanes": "3",
-        "name": "Jalan H. Ibrahim Adjie",
-        "note": "Cicadas",
-        "old_name": "Jalan Kiaracondong",
-        "oneway": "yes",
-        "width": "8"
       }
     },
     {
@@ -2750,6 +2330,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -2789,6 +2370,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk": "separate",
@@ -2845,33 +2427,6 @@
         "name": "Jalan Arjuna",
         "ref": "1007",
         "reg_ref": "22-10-1007"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6422876,
-            -6.9139498
-          ],
-          [
-            107.6421252,
-            -6.9139589
-          ],
-          [
-            107.6417884,
-            -6.9139622
-          ]
-        ]
-      },
-      "properties": {
-        "id": 559019369,
-        "highway": "primary",
-        "lanes": "3",
-        "name": "Jalan Jakarta",
-        "oneway": "yes"
       }
     },
     {
@@ -3339,53 +2894,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6435161,
-            -6.9136526
-          ],
-          [
-            107.643488,
-            -6.9136797
-          ],
-          [
-            107.6434706,
-            -6.9136988
-          ],
-          [
-            107.6434637,
-            -6.9137166
-          ],
-          [
-            107.6434595,
-            -6.9137474
-          ],
-          [
-            107.6434586,
-            -6.9137687
-          ],
-          [
-            107.6434476,
-            -6.9137912
-          ],
-          [
-            107.6434317,
-            -6.9138202
-          ]
-        ]
-      },
-      "properties": {
-        "id": 706394527,
-        "foot": "no",
-        "highway": "primary_link",
-        "lanes": "1",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6364159,
             -6.9278948
           ],
@@ -3472,139 +2980,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.643636,
-            -6.9130175
-          ],
-          [
-            107.6436086,
-            -6.913104
-          ],
-          [
-            107.6436341,
-            -6.913395
-          ]
-        ]
-      },
-      "properties": {
-        "id": 841362072,
-        "destination": "Jakarta;Ahmad Yani;Supratman;Riau",
-        "foot": "use_sidepath",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan H. Ibrahim Adjie",
-        "old_name": "Jalan Kiaracondong",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6436341,
-            -6.913395
-          ],
-          [
-            107.6436179,
-            -6.9134822
-          ],
-          [
-            107.64361,
-            -6.9135135
-          ],
-          [
-            107.6435938,
-            -6.9135535
-          ],
-          [
-            107.643568,
-            -6.9135924
-          ],
-          [
-            107.6435352,
-            -6.9136306
-          ],
-          [
-            107.6435161,
-            -6.9136526
-          ]
-        ]
-      },
-      "properties": {
-        "id": 841362074,
-        "foot": "no",
-        "highway": "primary_link",
-        "lanes": "1",
-        "oneway": "yes",
-        "sidewalk": "right"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6429791,
-            -6.9138756
-          ],
-          [
-            107.6422876,
-            -6.9139498
-          ]
-        ]
-      },
-      "properties": {
-        "id": 841362077,
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Jakarta",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6356516,
-            -6.9145514
-          ],
-          [
-            107.6355802,
-            -6.9145804
-          ],
-          [
-            107.635421,
-            -6.9145413
-          ],
-          [
-            107.6352225,
-            -6.9144861
-          ],
-          [
-            107.634859,
-            -6.9143394
-          ]
-        ]
-      },
-      "properties": {
-        "id": 872152156,
-        "highway": "primary",
-        "lanes": "1",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6094601,
             -6.9214117
           ],
@@ -3648,6 +3023,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk": "separate",
@@ -3731,39 +3107,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6346899,
-            -6.914509
-          ],
-          [
-            107.634483,
-            -6.9157469
-          ],
-          [
-            107.6344729,
-            -6.9158077
-          ],
-          [
-            107.634447,
-            -6.9159625
-          ]
-        ]
-      },
-      "properties": {
-        "id": 986595380,
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Sukabumi",
-        "ref": "3624",
-        "reg_ref": "22-10-3624",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.625745,
             -6.9326113
           ],
@@ -3812,58 +3155,6 @@
         "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "parking:both": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6339445,
-            -6.9173179
-          ],
-          [
-            107.6337948,
-            -6.9174252
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1064244371,
-        "bridge": "yes",
-        "highway": "primary",
-        "lanes": "2",
-        "layer": "1",
-        "name": "Jalan Sukabumi",
-        "ref": "3624",
-        "reg_ref": "22-10-3624",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.634447,
-            -6.9159625
-          ],
-          [
-            107.634419,
-            -6.9161223
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1064247852,
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Sukabumi",
-        "ref": "3624",
-        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     },
@@ -4029,35 +3320,6 @@
         "name:etymology:wikipedia": "id:Gatot Soebroto",
         "oneway": "yes",
         "parking:both": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6341961,
-            -6.9170831
-          ],
-          [
-            107.6340932,
-            -6.917204
-          ],
-          [
-            107.6339445,
-            -6.9173179
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1111616658,
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Sukabumi",
-        "ref": "3624",
-        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     },
@@ -4274,6 +3536,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -4367,78 +3630,6 @@
         "oneway": "yes",
         "ref": "370",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6374071,
-            -6.9145151
-          ],
-          [
-            107.6373588,
-            -6.9145209
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1209061171,
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-04:00)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6375655,
-            -6.9144961
-          ],
-          [
-            107.6375505,
-            -6.9144979
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1209061172,
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-06:00)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6376149,
-            -6.9144902
-          ],
-          [
-            107.6375655,
-            -6.9144961
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1209061174,
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-06:00)"
       }
     },
     {
@@ -4691,6 +3882,7 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Layang Ciroyom",
+        "oneway": "no",
         "surface": "asphalt"
       }
     },
@@ -4967,54 +4159,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6337948,
-            -6.9174252
-          ],
-          [
-            107.6337656,
-            -6.9174454
-          ],
-          [
-            107.6330451,
-            -6.9178143
-          ],
-          [
-            107.6324739,
-            -6.9181019
-          ],
-          [
-            107.6322059,
-            -6.9182368
-          ],
-          [
-            107.6321219,
-            -6.9182791
-          ],
-          [
-            107.6320827,
-            -6.9183023
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1225789976,
-        "destination:lanes:forward": "Lingkar Selatan;Gatot Subroto;Buahbatu|Ahmad Yani;Riau;Kosambi",
-        "highway": "primary",
-        "lanes": "4",
-        "lanes:backward": "2",
-        "lanes:forward": "2",
-        "name": "Jalan Sukabumi",
-        "ref": "3624",
-        "reg_ref": "22-10-3624",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.5971556,
             -6.9118368
           ],
@@ -5096,6 +4240,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt",
@@ -5160,6 +4305,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt",
@@ -5323,32 +4469,10 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6434317,
-            -6.9138202
-          ],
-          [
-            107.6429791,
-            -6.9138756
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1296453736,
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Jakarta",
-        "oneway": "yes"
       }
     },
     {
@@ -6284,6 +5408,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -6319,6 +5444,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -6358,6 +5484,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -6389,6 +5516,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -6766,6 +5894,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk": "separate",
@@ -6841,6 +5970,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -7090,6 +6220,42 @@
         "lanes": "2",
         "name": "Jalan Lodaya",
         "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6324739,
+            -6.9181019
+          ],
+          [
+            107.6322059,
+            -6.9182368
+          ],
+          [
+            107.6321219,
+            -6.9182791
+          ],
+          [
+            107.6320827,
+            -6.9183023
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1562416254,
+        "destination:lanes:forward": "Lingkar Selatan;Gatot Subroto;Buahbatu|Ahmad Yani;Riau;Kosambi",
+        "highway": "primary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     }

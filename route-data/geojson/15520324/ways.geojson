@@ -176,6 +176,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -211,6 +212,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes"
@@ -292,6 +294,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no"
@@ -635,31 +638,31 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6434964,
-            -6.9113612
+            107.6435055,
+            -6.9113592
           ],
           [
-            107.6435161,
-            -6.9115847
+            107.6435255,
+            -6.9115834
           ],
           [
-            107.6435389,
-            -6.9119283
+            107.6435572,
+            -6.9119253
           ],
           [
-            107.6435633,
-            -6.9122449
+            107.6435846,
+            -6.9122429
           ],
           [
-            107.6435953,
-            -6.9125849
+            107.6436146,
+            -6.9125869
           ],
           [
-            107.6436233,
+            107.6436356,
             -6.9128822
           ],
           [
-            107.643636,
+            107.6436422,
             -6.9130175
           ]
         ]
@@ -671,8 +674,10 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan H. Ibrahim Adjie",
+        "name:en": "Ibrahim Adjie Avenue",
         "old_name": "Jalan Kiaracondong",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "surface": "asphalt",
         "turn:lanes": "slight_left|slight_left;slight_right|slight_right"
       }
@@ -703,6 +708,7 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -826,6 +832,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -858,6 +865,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk": "separate",
@@ -943,6 +951,7 @@
         "lanes:backward": "1",
         "lanes:forward": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no",
@@ -977,6 +986,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes"
@@ -994,6 +1004,10 @@
           [
             107.6374071,
             -6.9145151
+          ],
+          [
+            107.6373588,
+            -6.9145209
           ]
         ]
       },
@@ -1002,8 +1016,10 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
         "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-04:00)"
+        "oneway:conditional": "no @ (16:00-04:00)",
+        "sidewalk:both": "separate"
       }
     },
     {
@@ -1028,8 +1044,10 @@
         "lanes": "4",
         "layer": "1",
         "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
         "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-04:00)"
+        "oneway:conditional": "no @ (16:00-04:00)",
+        "sidewalk:both": "separate"
       }
     },
     {
@@ -1101,6 +1119,7 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no",
@@ -1229,6 +1248,14 @@
           [
             107.6376149,
             -6.9144902
+          ],
+          [
+            107.6375655,
+            -6.9144961
+          ],
+          [
+            107.6375505,
+            -6.9144979
           ]
         ]
       },
@@ -1237,8 +1264,10 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
         "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-06:00)"
+        "oneway:conditional": "no @ (16:00-06:00)",
+        "sidewalk:both": "separate"
       }
     },
     {
@@ -1283,12 +1312,8 @@
             -6.9146453
           ],
           [
-            107.6356952,
-            -6.9145626
-          ],
-          [
-            107.6356516,
-            -6.9145514
+            107.6357903,
+            -6.914575
           ]
         ]
       },
@@ -1297,7 +1322,9 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "surface": "asphalt",
         "turn:lanes": "slight_left|through|through|slight_right"
       }
@@ -1344,6 +1371,7 @@
         "lanes": "4",
         "mapillary": "1466903270562717",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no",
@@ -1356,28 +1384,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6433608,
-            -6.9099796
+            107.6433703,
+            -6.9099716
           ],
           [
-            107.6434062,
-            -6.9104364
+            107.6434142,
+            -6.9104391
           ],
           [
-            107.6434211,
-            -6.9105823
+            107.6434287,
+            -6.9105814
           ],
           [
-            107.6434723,
-            -6.9111273
+            107.6434818,
+            -6.9111241
           ],
           [
-            107.6434794,
-            -6.9112066
+            107.6434906,
+            -6.9112086
           ],
           [
-            107.6434964,
-            -6.9113612
+            107.6435055,
+            -6.9113592
           ]
         ]
       },
@@ -1387,9 +1415,10 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan H. Ibrahim Adjie",
-        "note": "Cicadas",
+        "name:en": "Ibrahim Adjie Avenue",
         "old_name": "Jalan Kiaracondong",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "width": "8"
       }
     },
@@ -1449,6 +1478,7 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no"
@@ -1514,6 +1544,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no"
@@ -1583,6 +1614,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -1622,6 +1654,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk": "separate",
@@ -1750,6 +1783,7 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -1785,6 +1819,7 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -1818,6 +1853,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -1861,6 +1897,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -1908,6 +1945,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -1938,7 +1976,10 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jakarta",
-        "oneway": "yes"
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -2049,6 +2090,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no"
@@ -2076,6 +2118,7 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no"
@@ -2144,6 +2187,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes"
@@ -2163,28 +2207,28 @@
             -6.9087792
           ],
           [
-            107.6432544,
+            107.6432665,
             -6.9088245
           ],
           [
-            107.6432668,
-            -6.9090149
+            107.6432956,
+            -6.9090069
           ],
           [
-            107.6432951,
-            -6.9092189
+            107.6433233,
+            -6.9092056
           ],
           [
-            107.6433066,
-            -6.9093014
+            107.6433314,
+            -6.9092874
           ],
           [
-            107.6433104,
-            -6.9093874
+            107.6433372,
+            -6.9093721
           ],
           [
-            107.6433049,
-            -6.9094542
+            107.6433224,
+            -6.9094595
           ]
         ]
       },
@@ -2194,8 +2238,11 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan H. Ibrahim Adjie",
+        "name:en": "Ibrahim Adjie Avenue",
         "old_name": "Jalan Kiaracondong",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "turn:lanes": "through|through"
       }
     },
@@ -2335,6 +2382,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -2364,6 +2412,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -2393,6 +2442,7 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -2434,6 +2484,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -2469,6 +2520,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -2512,7 +2564,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.643636,
+            107.6436422,
             -6.9130175
           ],
           [
@@ -2520,8 +2572,8 @@
             -6.913104
           ],
           [
-            107.6436341,
-            -6.913395
+            107.6436418,
+            -6.9133935
           ]
         ]
       },
@@ -2532,6 +2584,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan H. Ibrahim Adjie",
+        "name:en": "Ibrahim Adjie Avenue",
         "old_name": "Jalan Kiaracondong",
         "oneway": "yes"
       }
@@ -2542,8 +2595,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6436341,
-            -6.913395
+            107.6436418,
+            -6.9133935
           ],
           [
             107.6436179,
@@ -2600,7 +2653,10 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jakarta",
-        "oneway": "yes"
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -2609,24 +2665,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6356516,
-            -6.9145514
+            107.6357903,
+            -6.914575
           ],
           [
-            107.6355802,
-            -6.9145804
+            107.6357337,
+            -6.9145811
           ],
           [
-            107.635421,
-            -6.9145413
+            107.6356898,
+            -6.9145768
           ],
           [
-            107.6352225,
-            -6.9144861
+            107.6356137,
+            -6.9145582
           ],
           [
-            107.634859,
-            -6.9143394
+            107.6354322,
+            -6.914512
+          ],
+          [
+            107.6352266,
+            -6.9144508
+          ],
+          [
+            107.6348552,
+            -6.9143329
           ]
         ]
       },
@@ -2635,7 +2699,10 @@
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -2688,6 +2755,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk": "separate",
@@ -2738,6 +2806,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes"
@@ -2873,6 +2942,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -2901,6 +2971,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -2932,6 +3003,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -2962,6 +3034,7 @@
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes"
@@ -2996,6 +3069,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -3008,16 +3082,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6433049,
-            -6.9094542
+            107.6433224,
+            -6.9094595
           ],
           [
-            107.6433272,
-            -6.9096134
+            107.6433364,
+            -6.9096111
           ],
           [
-            107.6433608,
-            -6.9099796
+            107.6433703,
+            -6.9099716
           ]
         ]
       },
@@ -3027,9 +3101,10 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan H. Ibrahim Adjie",
-        "note": "Cicadas",
+        "name:en": "Ibrahim Adjie Avenue",
         "old_name": "Jalan Kiaracondong",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk:both": "separate"
       }
     },
     {
@@ -3089,24 +3164,40 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.634859,
-            -6.9143394
+            107.6348552,
+            -6.9143329
+          ],
+          [
+            107.6348107,
+            -6.9143073
           ],
           [
             107.6347464,
             -6.9142618
           ],
           [
-            107.6346738,
-            -6.914201
+            107.634686,
+            -6.9142
           ],
           [
-            107.634335,
+            107.6346017,
+            -6.9140806
+          ],
+          [
+            107.6345438,
+            -6.913975
+          ],
+          [
+            107.6343335,
             -6.9135901
           ],
           [
-            107.6343263,
+            107.634324,
             -6.9135745
+          ],
+          [
+            107.634307,
+            -6.9135542
           ],
           [
             107.634283,
@@ -3119,7 +3210,10 @@
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -3209,6 +3303,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -3235,6 +3330,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -3270,78 +3366,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6374071,
-            -6.9145151
-          ],
-          [
-            107.6373588,
-            -6.9145209
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1209061171,
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-04:00)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6375655,
-            -6.9144961
-          ],
-          [
-            107.6375505,
-            -6.9144979
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1209061172,
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-06:00)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6376149,
-            -6.9144902
-          ],
-          [
-            107.6375655,
-            -6.9144961
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1209061174,
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-06:00)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6563227,
             -6.9021785
           ],
@@ -3358,6 +3382,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -3385,6 +3410,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -3463,6 +3489,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -3558,12 +3585,12 @@
             -6.9184288
           ],
           [
-            107.62493,
-            -6.9184772
+            107.6249234,
+            -6.9184833
           ],
           [
-            107.6248913,
-            -6.9185008
+            107.6248833,
+            -6.9185083
           ],
           [
             107.6247558,
@@ -3578,6 +3605,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -3628,6 +3656,7 @@
         "lanes:backward": "1",
         "lanes:forward": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no",
@@ -3684,6 +3713,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt",
@@ -3748,6 +3778,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt",
@@ -3792,6 +3823,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -4031,6 +4063,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -4061,6 +4094,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -4087,7 +4121,10 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jakarta",
-        "oneway": "yes"
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -4285,6 +4322,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -4320,6 +4358,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -4359,6 +4398,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -4390,6 +4430,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -4421,6 +4462,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -4455,6 +4497,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk": "separate",
@@ -4530,6 +4573,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"

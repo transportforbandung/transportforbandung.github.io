@@ -146,35 +146,59 @@
         "coordinates": [
           [
             107.5933422,
-            -6.9165018
+            -6.9165053
           ],
           [
-            107.5934208,
-            -6.9164973
+            107.5934217,
+            -6.9165008
           ],
           [
-            107.5942457,
-            -6.9164499
+            107.5936045,
+            -6.9164926
           ],
           [
-            107.5955023,
-            -6.9164053
+            107.5936788,
+            -6.9164782
           ],
           [
-            107.5955245,
-            -6.9164047
+            107.5937549,
+            -6.9164536
+          ],
+          [
+            107.5942465,
+            -6.9164387
+          ],
+          [
+            107.5945745,
+            -6.91643
+          ],
+          [
+            107.5946101,
+            -6.9164366
+          ],
+          [
+            107.5946649,
+            -6.9164464
+          ],
+          [
+            107.5955033,
+            -6.9164154
+          ],
+          [
+            107.5955265,
+            -6.9164153
           ],
           [
             107.5955809,
-            -6.9164032
+            -6.9164123
           ],
           [
-            107.5958327,
-            -6.9163912
+            107.5958357,
+            -6.9164043
           ],
           [
-            107.5958562,
-            -6.9163894
+            107.5958592,
+            -6.9164025
           ]
         ]
       },
@@ -455,8 +479,8 @@
             -6.914736
           ],
           [
-            107.6051298,
-            -6.9147855
+            107.6053917,
+            -6.9148138
           ],
           [
             107.6063544,
@@ -539,6 +563,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -572,6 +597,7 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -665,20 +691,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6343799,
-            -6.9133894
+            107.6343755,
+            -6.9133841
           ],
           [
-            107.634444,
-            -6.9133589
+            107.6344369,
+            -6.9133475
           ],
           [
             107.6344903,
             -6.913351
           ],
           [
-            107.6345495,
+            107.6345359,
             -6.9133508
+          ],
+          [
+            107.6346004,
+            -6.9133622
           ]
         ]
       },
@@ -688,6 +718,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -770,6 +801,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no"
@@ -802,6 +834,7 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -863,8 +896,8 @@
             -6.9134291
           ],
           [
-            107.6343799,
-            -6.9133894
+            107.6343755,
+            -6.9133841
           ]
         ]
       },
@@ -874,6 +907,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -944,76 +978,88 @@
             -6.9136496
           ],
           [
-            107.5781901,
-            -6.9137773
+            107.5777772,
+            -6.9136868
           ],
           [
-            107.578358,
-            -6.913811
+            107.5779128,
+            -6.9137286
           ],
           [
-            107.5783915,
-            -6.9138177
+            107.5781891,
+            -6.9137955
           ],
           [
-            107.5785703,
-            -6.9138613
+            107.5783539,
+            -6.9138332
           ],
           [
-            107.5787813,
-            -6.9139093
+            107.5783874,
+            -6.9138419
           ],
           [
-            107.5797157,
-            -6.9141156
+            107.5785622,
+            -6.9138805
           ],
           [
-            107.57975,
-            -6.9141241
+            107.5787762,
+            -6.9139254
           ],
           [
-            107.5799582,
-            -6.9141715
+            107.5797055,
+            -6.9141348
           ],
           [
-            107.580286,
-            -6.914244
+            107.579747,
+            -6.9141453
           ],
           [
-            107.5811424,
-            -6.9144359
+            107.5799521,
+            -6.9141897
           ],
           [
-            107.5811792,
-            -6.9144445
+            107.5802819,
+            -6.9142612
           ],
           [
-            107.5812333,
-            -6.9144578
+            107.5811363,
+            -6.9144571
           ],
           [
-            107.5813485,
-            -6.9144861
+            107.5811751,
+            -6.9144647
           ],
           [
-            107.581468,
-            -6.9145158
+            107.5812252,
+            -6.914476
           ],
           [
-            107.5817077,
-            -6.9145783
+            107.5813465,
+            -6.9145043
           ],
           [
-            107.5817891,
-            -6.9146017
+            107.581465,
+            -6.9145319
           ],
           [
-            107.5822948,
-            -6.9147358
+            107.5817067,
+            -6.9145944
           ],
           [
-            107.5825032,
-            -6.9147967
+            107.5817861,
+            -6.9146158
+          ],
+          [
+            107.5822849,
+            -6.9147532
+          ],
+          [
+            107.5823112,
+            -6.9147609
+          ],
+          [
+            107.5824997,
+            -6.9148158
           ]
         ]
       },
@@ -1033,132 +1079,100 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6345495,
-            -6.9133508
+            107.6374263,
+            -6.9118346
           ],
           [
-            107.6348487,
-            -6.913186
+            107.6376746,
+            -6.9117059
           ],
           [
-            107.6350723,
-            -6.9130642
+            107.6380463,
+            -6.9115125
           ],
           [
-            107.6360079,
-            -6.9125623
+            107.6381052,
+            -6.9114812
           ],
           [
-            107.6362369,
-            -6.9124375
+            107.6384087,
+            -6.9113142
           ],
           [
-            107.636345,
-            -6.9123786
+            107.6385292,
+            -6.9112521
           ],
           [
-            107.636549,
-            -6.9122732
+            107.6386772,
+            -6.911175
           ],
           [
-            107.6367884,
-            -6.9121496
+            107.6388085,
+            -6.9111044
           ],
           [
-            107.6368412,
-            -6.9121223
+            107.6393511,
+            -6.9108148
           ],
           [
-            107.6370568,
-            -6.9120078
+            107.6394945,
+            -6.9107372
           ],
           [
-            107.637255,
-            -6.9119025
+            107.6395509,
+            -6.9107061
           ],
           [
-            107.6373116,
-            -6.9118725
+            107.6397159,
+            -6.9106143
           ],
           [
-            107.6374113,
-            -6.9118179
+            107.6397829,
+            -6.9105782
           ],
           [
-            107.6376684,
-            -6.9116813
+            107.6399162,
+            -6.9105033
           ],
           [
-            107.6380339,
-            -6.9114875
+            107.6402409,
+            -6.9103278
           ],
           [
-            107.638094,
-            -6.9114557
+            107.64053,
+            -6.9101769
           ],
           [
-            107.6383933,
-            -6.9112942
+            107.6407412,
+            -6.9100688
           ],
           [
-            107.6385176,
-            -6.911227
+            107.641164,
+            -6.9098457
           ],
           [
-            107.6386638,
-            -6.9111484
+            107.641445,
+            -6.9096983
           ],
           [
-            107.6387971,
-            -6.9110811
+            107.6415409,
+            -6.9096449
           ],
           [
-            107.6393387,
-            -6.9107928
+            107.6416706,
+            -6.9095775
           ],
           [
-            107.6394901,
-            -6.9107108
+            107.6417659,
+            -6.9095225
           ],
           [
-            107.639527,
-            -6.9106903
+            107.6418156,
+            -6.9094919
           ],
           [
-            107.6397101,
-            -6.9105958
-          ],
-          [
-            107.6402371,
-            -6.9103096
-          ],
-          [
-            107.6405171,
-            -6.9101578
-          ],
-          [
-            107.6407295,
-            -6.9100475
-          ],
-          [
-            107.6411552,
-            -6.9098264
-          ],
-          [
-            107.6414308,
-            -6.9096807
-          ],
-          [
-            107.6415303,
-            -6.9096273
-          ],
-          [
-            107.6416573,
-            -6.9095608
-          ],
-          [
-            107.6418783,
-            -6.9094408
+            107.641865,
+            -6.9094557
           ]
         ]
       },
@@ -1170,6 +1184,7 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -1225,24 +1240,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5833434,
-            -6.9150421
+            107.5833358,
+            -6.915074
           ],
           [
-            107.5835693,
-            -6.9151171
+            107.5835594,
+            -6.9151467
           ],
           [
-            107.5840285,
-            -6.9152755
+            107.5840232,
+            -6.9153004
           ],
           [
-            107.5843036,
-            -6.9153672
+            107.5842925,
+            -6.915391
           ],
           [
-            107.5852167,
-            -6.9156963
+            107.5852149,
+            -6.9157051
           ]
         ]
       },
@@ -1261,48 +1276,48 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5858296,
-            -6.9159179
+            107.5858278,
+            -6.9159293
           ],
           [
-            107.5862132,
-            -6.9160211
+            107.586207,
+            -6.9160255
           ],
           [
-            107.5867708,
-            -6.9160926
+            107.5867681,
+            -6.9161031
           ],
           [
-            107.5869745,
-            -6.9161187
+            107.5869736,
+            -6.9161257
           ],
           [
-            107.5871346,
-            -6.9161385
+            107.5871337,
+            -6.9161429
           ],
           [
             107.5875979,
-            -6.9161866
+            -6.916198
           ],
           [
-            107.5884105,
-            -6.9162695
+            107.5884061,
+            -6.9162871
           ],
           [
             107.5887476,
-            -6.9163133
+            -6.9163221
           ],
           [
-            107.5891032,
-            -6.9163578
+            107.5891041,
+            -6.9163648
           ],
           [
-            107.5895623,
-            -6.9164063
+            107.5895676,
+            -6.9164212
           ],
           [
-            107.5900726,
-            -6.9164713
+            107.5900717,
+            -6.9164757
           ],
           [
             107.5904668,
@@ -1326,20 +1341,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5852167,
-            -6.9156963
+            107.5852149,
+            -6.9157051
           ],
           [
-            107.5853751,
-            -6.9157549
+            107.5853724,
+            -6.9157654
           ],
           [
-            107.5856065,
-            -6.9158405
+            107.5855994,
+            -6.9158493
           ],
           [
-            107.5858296,
-            -6.9159179
+            107.5858278,
+            -6.9159293
           ]
         ]
       },
@@ -1431,6 +1446,7 @@
         "lanes:backward": "1",
         "lanes:forward": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no",
@@ -1506,6 +1522,7 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no",
@@ -1556,6 +1573,7 @@
         "lanes": "4",
         "mapillary": "1466903270562717",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no",
@@ -1592,12 +1610,12 @@
             -6.9185273
           ],
           [
-            107.6247908,
-            -6.9184742
+            107.6247766,
+            -6.918483
           ],
           [
-            107.6248417,
-            -6.9184502
+            107.6248227,
+            -6.9184581
           ],
           [
             107.6248665,
@@ -1643,6 +1661,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -1682,39 +1701,39 @@
         "coordinates": [
           [
             107.5910563,
-            -6.9165244
+            -6.9165402
           ],
           [
-            107.5914837,
-            -6.9165375
+            107.5914598,
+            -6.9165542
           ],
           [
-            107.5917121,
-            -6.9165436
+            107.5917139,
+            -6.916555
           ],
           [
-            107.5918399,
-            -6.9165435
+            107.5918426,
+            -6.9165549
           ],
           [
-            107.5918967,
-            -6.916545
+            107.5919002,
+            -6.9165529
           ],
           [
             107.5922519,
-            -6.9165433
+            -6.9165451
           ],
           [
-            107.5925338,
-            -6.9165363
+            107.5925365,
+            -6.9165451
           ],
           [
-            107.5927772,
-            -6.9165302
+            107.592779,
+            -6.9165372
           ],
           [
             107.5933422,
-            -6.9165018
+            -6.9165053
           ]
         ]
       },
@@ -1750,6 +1769,7 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no"
@@ -1815,6 +1835,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no"
@@ -1826,12 +1847,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5958562,
-            -6.9163894
+            107.5958592,
+            -6.9164025
           ],
           [
-            107.5959698,
-            -6.9163849
+            107.5959332,
+            -6.916401
           ]
         ]
       },
@@ -1853,40 +1874,52 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5959698,
-            -6.9163849
+            107.5959332,
+            -6.916401
           ],
           [
-            107.5962263,
-            -6.9163777
+            107.5962286,
+            -6.9163962
           ],
           [
             107.596307,
-            -6.9163766
+            -6.9163928
           ],
           [
-            107.5963955,
-            -6.9163741
+            107.5963978,
+            -6.9163903
           ],
           [
-            107.5966005,
-            -6.9163694
+            107.596604,
+            -6.9163856
           ],
           [
             107.5967032,
-            -6.9163671
+            -6.9163833
           ],
           [
-            107.5971273,
-            -6.9163531
+            107.5971285,
+            -6.9163682
           ],
           [
-            107.5971763,
-            -6.9163515
+            107.597181,
+            -6.9163642
           ],
           [
-            107.5974046,
-            -6.916344
+            107.59731,
+            -6.9163601
+          ],
+          [
+            107.5973651,
+            -6.9163555
+          ],
+          [
+            107.5974058,
+            -6.9163469
+          ],
+          [
+            107.5974798,
+            -6.9163369
           ],
           [
             107.5980505,
@@ -1936,6 +1969,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -1975,6 +2009,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -2002,6 +2037,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -2033,6 +2069,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -2068,6 +2105,7 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -2100,6 +2138,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -2214,6 +2253,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no"
@@ -2241,6 +2281,7 @@
         "lanes": "2",
         "layer": "1",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no"
@@ -2252,8 +2293,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6418783,
-            -6.9094408
+            107.641865,
+            -6.9094557
+          ],
+          [
+            107.6418691,
+            -6.9094448
+          ],
+          [
+            107.6418928,
+            -6.9094131
           ],
           [
             107.6419984,
@@ -2283,9 +2332,12 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "turn:lanes": "left;through|through"
       }
     },
@@ -2318,6 +2370,7 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -2383,6 +2436,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes"
@@ -2417,6 +2471,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "oneway": "yes"
       }
     },
@@ -2650,6 +2705,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -2735,24 +2791,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5825032,
-            -6.9147967
+            107.5824997,
+            -6.9148158
           ],
           [
-            107.5825508,
-            -6.9148106
+            107.5825485,
+            -6.9148303
           ],
           [
-            107.5828928,
-            -6.9149105
+            107.5828858,
+            -6.9149273
           ],
           [
-            107.5830612,
-            -6.9149597
+            107.5830554,
+            -6.9149788
           ],
           [
-            107.5833434,
-            -6.9150421
+            107.5833358,
+            -6.915074
           ]
         ]
       },
@@ -2942,6 +2998,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes"
@@ -3085,7 +3142,7 @@
           ],
           [
             107.5910563,
-            -6.9165244
+            -6.9165402
           ]
         ]
       },
@@ -3121,6 +3178,7 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -3170,6 +3228,7 @@
         "lanes:backward": "1",
         "lanes:forward": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "no",
@@ -3379,6 +3438,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "oneway": "yes"
       }
     },
@@ -3503,6 +3563,116 @@
         "name": "Jalan Rajawali Timur",
         "oneway": "yes",
         "turn:lanes": "left|through|through;right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6373187,
+            -6.9118909
+          ],
+          [
+            107.6374263,
+            -6.9118346
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1561000463,
+        "avgspeed": "30",
+        "cycleway:both": "no",
+        "destination:lanes": "Cikutra;Cicaheum;Ujungberung|Cikutra;Cicaheum;Ujungberung|Antapani;Kiaracondong;Binong;Samsat|Antapani;Kiaracondong;Binong;Samsat",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
+        "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|slight_left|slight_right|slight_right",
+        "width": "8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6346004,
+            -6.9133622
+          ],
+          [
+            107.6348701,
+            -6.9132101
+          ],
+          [
+            107.6350944,
+            -6.9130848
+          ],
+          [
+            107.6360221,
+            -6.9125878
+          ],
+          [
+            107.6362555,
+            -6.9124665
+          ],
+          [
+            107.6363636,
+            -6.912405
+          ],
+          [
+            107.6365694,
+            -6.9123013
+          ],
+          [
+            107.6367997,
+            -6.9121741
+          ],
+          [
+            107.6368611,
+            -6.91214
+          ],
+          [
+            107.6370716,
+            -6.9120251
+          ],
+          [
+            107.6372585,
+            -6.9119218
+          ],
+          [
+            107.6373187,
+            -6.9118909
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1561000464,
+        "avgspeed": "30",
+        "cycleway:both": "no",
+        "destination:lanes": "Cikutra;Cicaheum;Ujungberung|Cikutra;Cicaheum;Ujungberung|Antapani;Kiaracondong;Binong;Samsat|Antapani;Kiaracondong;Binong;Samsat",
+        "highway": "primary",
+        "lanes": "4",
+        "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani",
+        "oneway": "yes",
+        "parking:left": "lane",
+        "parking:left:orientation": "parallel",
+        "parking:right": "no",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|slight_left|slight_right|slight_right",
+        "width": "8"
       }
     }
   ]

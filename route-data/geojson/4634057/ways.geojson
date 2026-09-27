@@ -842,24 +842,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.634859,
-            -6.9143394
+            107.6348552,
+            -6.9143329
           ],
           [
-            107.6348005,
-            -6.9143626
+            107.6348313,
+            -6.9143399
           ],
           [
-            107.6347505,
-            -6.9144006
+            107.6347873,
+            -6.9143636
           ],
           [
-            107.6347127,
-            -6.9144506
+            107.6347627,
+            -6.9143996
           ],
           [
-            107.6346899,
-            -6.914509
+            107.6347483,
+            -6.9144516
+          ],
+          [
+            107.6347173,
+            -6.914512
           ]
         ]
       },
@@ -1568,6 +1572,10 @@
           [
             107.6374071,
             -6.9145151
+          ],
+          [
+            107.6373588,
+            -6.9145209
           ]
         ]
       },
@@ -1576,8 +1584,10 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
         "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-04:00)"
+        "oneway:conditional": "no @ (16:00-04:00)",
+        "sidewalk:both": "separate"
       }
     },
     {
@@ -1602,8 +1612,10 @@
         "lanes": "4",
         "layer": "1",
         "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
         "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-04:00)"
+        "oneway:conditional": "no @ (16:00-04:00)",
+        "sidewalk:both": "separate"
       }
     },
     {
@@ -1996,6 +2008,14 @@
           [
             107.6376149,
             -6.9144902
+          ],
+          [
+            107.6375655,
+            -6.9144961
+          ],
+          [
+            107.6375505,
+            -6.9144979
           ]
         ]
       },
@@ -2004,8 +2024,10 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
         "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-06:00)"
+        "oneway:conditional": "no @ (16:00-06:00)",
+        "sidewalk:both": "separate"
       }
     },
     {
@@ -2050,12 +2072,8 @@
             -6.9146453
           ],
           [
-            107.6356952,
-            -6.9145626
-          ],
-          [
-            107.6356516,
-            -6.9145514
+            107.6357903,
+            -6.914575
           ]
         ]
       },
@@ -2064,7 +2082,9 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "surface": "asphalt",
         "turn:lanes": "slight_left|through|through|slight_right"
       }
@@ -2525,7 +2545,10 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jakarta",
-        "oneway": "yes"
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -3323,7 +3346,10 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jakarta",
-        "oneway": "yes"
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -3373,24 +3399,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6356516,
-            -6.9145514
+            107.6357903,
+            -6.914575
           ],
           [
-            107.6355802,
-            -6.9145804
+            107.6357337,
+            -6.9145811
           ],
           [
-            107.635421,
-            -6.9145413
+            107.6356898,
+            -6.9145768
           ],
           [
-            107.6352225,
-            -6.9144861
+            107.6356137,
+            -6.9145582
           ],
           [
-            107.634859,
-            -6.9143394
+            107.6354322,
+            -6.914512
+          ],
+          [
+            107.6352266,
+            -6.9144508
+          ],
+          [
+            107.6348552,
+            -6.9143329
           ]
         ]
       },
@@ -3399,7 +3433,10 @@
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
         "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -3689,8 +3726,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6346899,
-            -6.914509
+            107.6347173,
+            -6.914512
           ],
           [
             107.634483,
@@ -4519,78 +4556,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6374071,
-            -6.9145151
-          ],
-          [
-            107.6373588,
-            -6.9145209
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1209061171,
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-04:00)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6375655,
-            -6.9144961
-          ],
-          [
-            107.6375505,
-            -6.9144979
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1209061172,
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-06:00)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6376149,
-            -6.9144902
-          ],
-          [
-            107.6375655,
-            -6.9144961
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1209061174,
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-06:00)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6674513,
             -6.9389439
           ],
@@ -5367,18 +5332,6 @@
           [
             107.6324739,
             -6.9181019
-          ],
-          [
-            107.6322059,
-            -6.9182368
-          ],
-          [
-            107.6321219,
-            -6.9182791
-          ],
-          [
-            107.6320827,
-            -6.9183023
           ]
         ]
       },
@@ -5643,7 +5596,10 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jakarta",
-        "oneway": "yes"
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -6702,6 +6658,42 @@
         "reg_ref": "22-10-2318",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6324739,
+            -6.9181019
+          ],
+          [
+            107.6322059,
+            -6.9182368
+          ],
+          [
+            107.6321219,
+            -6.9182791
+          ],
+          [
+            107.6320827,
+            -6.9183023
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1562416254,
+        "destination:lanes:forward": "Lingkar Selatan;Gatot Subroto;Buahbatu|Ahmad Yani;Riau;Kosambi",
+        "highway": "primary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "name": "Jalan Sukabumi",
+        "ref": "3624",
+        "reg_ref": "22-10-3624",
         "surface": "asphalt"
       }
     }

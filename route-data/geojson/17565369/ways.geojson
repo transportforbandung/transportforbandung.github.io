@@ -7,7 +7,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6062697,
+            107.6062717,
             -6.9369192
           ],
           [
@@ -214,6 +214,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "ref": "11"
       }
     },
@@ -297,6 +298,7 @@
         "lit": "yes",
         "maxspeed": "80",
         "name": "Jalan Sindangsari",
+        "name:en": "Sindangsari Interchange Road",
         "oneway": "yes",
         "ref": "11",
         "source": "Yahoo hires",
@@ -602,6 +604,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "ref": "11"
       }
     },
@@ -674,6 +677,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -704,6 +708,7 @@
         "lanes": "3",
         "layer": "1",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -732,6 +737,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -2031,6 +2037,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -2325,6 +2332,7 @@
         "maxweight:signed": "no",
         "motorcycle": "designated",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -2443,7 +2451,8 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Soekarno Hatta Frontage Boulevard",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes"
@@ -2583,6 +2592,8 @@
         "highway": "trunk",
         "lanes": "3",
         "lit": "yes",
+        "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "sidewalk": "no",
@@ -3047,6 +3058,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Percobaan",
+        "name:en": "Percobaan Arterial Road",
         "oneway": "yes",
         "ref": "11"
       }
@@ -3085,6 +3097,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Percobaan",
+        "name:en": "Percobaan Arterial Road",
         "oneway": "yes",
         "ref": "11"
       }
@@ -3126,6 +3139,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through;slight_right|slight_right"
@@ -3251,8 +3265,8 @@
             -6.9377293
           ],
           [
-            107.6061595,
-            -6.9376808
+            107.606162,
+            -6.9376556
           ],
           [
             107.6061651,
@@ -3732,15 +3746,15 @@
             -6.9372527
           ],
           [
-            107.6062327,
-            -6.936977
+            107.606234,
+            -6.9369923
           ],
           [
-            107.606243,
-            -6.936943
+            107.606247,
+            -6.9369443
           ],
           [
-            107.6062697,
+            107.6062717,
             -6.9369192
           ]
         ]
@@ -3814,6 +3828,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -3873,6 +3888,8 @@
         "destination": "Bandung;Sumedang",
         "highway": "trunk",
         "motorcycle": "yes",
+        "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "source": "Yahoo hires"
@@ -3944,6 +3961,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -3976,6 +3994,7 @@
         "layer": "1",
         "maxweight:signed": "no",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4020,6 +4039,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4073,6 +4093,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4114,6 +4135,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4156,6 +4178,7 @@
         "lanes": "3",
         "lit": "yes",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4190,6 +4213,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -4223,6 +4247,7 @@
         "lanes": "3",
         "lit": "yes",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4256,6 +4281,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4284,6 +4310,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -4618,6 +4645,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4697,6 +4725,8 @@
         "lanes": "2",
         "lit": "yes",
         "motorcycle": "yes",
+        "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "sidewalk": "no",
@@ -4752,6 +4782,8 @@
         "destination:ref": "11",
         "highway": "trunk",
         "lanes": "2",
+        "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11"
       }
@@ -4785,6 +4817,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "oneway": "yes",
         "ref": "11"
       }
@@ -4932,7 +4965,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
-        "name:en": "Cinunuk Main Road",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -4956,6 +4989,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5019,6 +5053,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -5081,6 +5116,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5122,6 +5158,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5168,6 +5205,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5206,6 +5244,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5532,6 +5571,7 @@
         "lit": "no",
         "maxspeed": "80",
         "name": "Jalan Sindangsari",
+        "name:en": "Sindangsari Interchange Road",
         "oneway": "yes",
         "ref": "11",
         "source": "Yahoo hires",
@@ -5564,6 +5604,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Percobaan",
+        "name:en": "Percobaan Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through;reverse"
@@ -6131,6 +6172,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -6166,6 +6208,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -6296,6 +6339,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -6350,6 +6394,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -6602,6 +6647,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -6631,6 +6677,7 @@
         "lanes": "4",
         "layer": "1",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -6659,6 +6706,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -6685,6 +6733,7 @@
         "lanes": "4",
         "layer": "1",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -6713,6 +6762,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -6817,8 +6867,8 @@
             -6.9318519
           ],
           [
-            107.6066633,
-            -6.9317434
+            107.6066637,
+            -6.9317394
           ],
           [
             107.6066965,
@@ -6829,12 +6879,12 @@
             -6.9312859
           ],
           [
-            107.6067621,
-            -6.9307799
+            107.6067702,
+            -6.9307819
           ],
           [
-            107.6068239,
-            -6.9301306
+            107.6068307,
+            -6.9301326
           ]
         ]
       },
@@ -6882,6 +6932,8 @@
         "lanes": "3",
         "lit": "yes",
         "motorcycle": "yes",
+        "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "sidewalk": "no",
@@ -6909,6 +6961,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -6938,6 +6991,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "through|through;slight_right|slight_right"
@@ -7181,7 +7235,8 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "4",
-        "name": "Jalan Abdul Haris Nasution",
+        "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "name:etymology:wikidata": "Q317291",
         "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "ref": "11"
@@ -7210,6 +7265,7 @@
         "lanes": "4",
         "layer": "1",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "ref": "11"
       }
     },
@@ -7900,6 +7956,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "ref": "11"
       }
     },
@@ -7941,6 +7998,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -7961,6 +8019,10 @@
           [
             107.6065797,
             -6.9327947
+          ],
+          [
+            107.6066451,
+            -6.9319531
           ],
           [
             107.606653,

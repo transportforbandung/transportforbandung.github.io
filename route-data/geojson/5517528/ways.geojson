@@ -337,6 +337,7 @@
         "lanes": "3",
         "lit": "yes",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -366,6 +367,7 @@
         "lanes": "3",
         "layer": "1",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -418,6 +420,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -484,44 +487,44 @@
             -6.9280445
           ],
           [
-            107.6035987,
+            107.6035899,
             -6.9285343
           ],
           [
-            107.6035394,
-            -6.9293944
+            107.6035334,
+            -6.9293987
           ],
           [
-            107.603531,
+            107.603525,
             -6.9295081
           ],
           [
-            107.6035279,
-            -6.9295503
+            107.6035222,
+            -6.9295501
           ],
           [
-            107.6035002,
-            -6.9299478
+            107.6034974,
+            -6.9299465
           ],
           [
-            107.6034837,
-            -6.930184
+            107.6034816,
+            -6.9301831
           ],
           [
-            107.6034742,
-            -6.930325
+            107.6034721,
+            -6.9303229
           ],
           [
-            107.6034705,
-            -6.9303736
+            107.6034681,
+            -6.9303751
           ],
           [
-            107.6034661,
-            -6.9304369
+            107.6034639,
+            -6.9304346
           ],
           [
-            107.603397,
-            -6.9314278
+            107.6033984,
+            -6.9314197
           ]
         ]
       },
@@ -573,16 +576,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.603397,
-            -6.9314278
+            107.6033984,
+            -6.9314197
           ],
           [
-            107.6033247,
-            -6.9324527
+            107.6033222,
+            -6.9324354
           ],
           [
-            107.6033123,
-            -6.9326285
+            107.6033078,
+            -6.9326292
           ],
           [
             107.603267,
@@ -815,6 +818,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -845,6 +849,7 @@
         "layer": "1",
         "maxweight:signed": "no",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -1235,7 +1240,8 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Soekarno Hatta Frontage Boulevard",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes"
@@ -1486,6 +1492,7 @@
         "lanes:forward": "1",
         "maxspeed": "40",
         "name": "Jalan Rumah Sakit",
+        "name:en": "Hospital Way",
         "ref": "5334",
         "reg_ref": "22-10-5334",
         "shoulder": "no",
@@ -1547,6 +1554,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -1611,16 +1619,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6059434,
-            -6.9375062
+            107.6058679,
+            -6.9374947
           ],
           [
             107.6060689,
             -6.9375172
           ],
           [
-            107.6060979,
-            -6.9375203
+            107.6061267,
+            -6.9375223
           ],
           [
             107.6061748,
@@ -1825,16 +1833,20 @@
             -6.9384772
           ],
           [
+            107.6708415,
+            -6.938467
+          ],
+          [
             107.6713626,
             -6.9384301
           ],
           [
-            107.6717646,
-            -6.9384031
+            107.6717525,
+            -6.9384018
           ],
           [
-            107.671913,
-            -6.9383912
+            107.6719529,
+            -6.938388
           ],
           [
             107.6722412,
@@ -2309,6 +2321,7 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Rumah Sakit",
+        "name:en": "Hospital Way",
         "oneway": "yes",
         "ref": "5334",
         "reg_ref": "22-10-5334"
@@ -2643,6 +2656,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -2755,6 +2769,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -2799,6 +2814,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -2832,6 +2848,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -2860,6 +2877,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -2954,6 +2972,7 @@
         "highway": "trunk",
         "lanes": "5",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -3311,7 +3330,7 @@
             -6.937531
           ],
           [
-            107.606317,
+            107.606315,
             -6.9375353
           ],
           [
@@ -3345,8 +3364,8 @@
             -6.9374494
           ],
           [
-            107.6059434,
-            -6.9375062
+            107.6058679,
+            -6.9374947
           ]
         ]
       },
@@ -3947,6 +3966,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt"
@@ -4329,6 +4349,7 @@
         "lanes:forward": "1",
         "maxspeed": "40",
         "name": "Jalan Rumah Sakit",
+        "name:en": "Hospital Way",
         "ref": "5334",
         "reg_ref": "22-10-5334",
         "shoulder": "no",
@@ -4361,6 +4382,7 @@
         "lanes:forward": "1",
         "maxspeed": "40",
         "name": "Jalan Rumah Sakit",
+        "name:en": "Hospital Way",
         "ref": "5334",
         "reg_ref": "22-10-5334",
         "shoulder": "no",
@@ -4571,6 +4593,7 @@
         "highway": "trunk",
         "lanes": "5",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4792,6 +4815,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
