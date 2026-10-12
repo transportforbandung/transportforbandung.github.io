@@ -6818,8 +6818,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6286916,
-          -6.9164091
+          107.6286831,
+          -6.9163907
         ]
       },
       "properties": {
@@ -7778,8 +7778,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.612791,
-          -6.8954684
+          107.612799,
+          -6.8959468
         ]
       },
       "properties": {
@@ -9909,8 +9909,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6258492,
-          -6.9178881
+          107.6258323,
+          -6.9178843
         ]
       },
       "properties": {
@@ -10663,14 +10663,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6129933,
-          -6.8955412
+          107.6129794,
+          -6.895766
         ]
       },
       "properties": {
         "id": 11104718107,
         "name": "STMIK LIKMI",
-        "shelter": "no",
+        "shelter": "yes",
         "pole": "totem",
         "lit": "no",
         "bench": "yes",
@@ -10680,7 +10680,7 @@
           4643109
         ],
         "route_count": 2,
-        "category": "3_shelter_none_pole_totem"
+        "category": "6_shelter_yes_pole_totem"
       }
     },
     {
@@ -10739,8 +10739,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          107.6119221,
-          -6.9018271
+          107.6119503,
+          -6.9018211
         ]
       },
       "properties": {
@@ -31169,6 +31169,55 @@
         "routes": [],
         "route_count": 0,
         "category": "1_shelter_yes_pole_none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6107057,
+          -6.9051546
+        ]
+      },
+      "properties": {
+        "id": 14269045051,
+        "name": "Bank BTPN Dago",
+        "shelter": "yes",
+        "pole": "totem",
+        "lit": null,
+        "bench": null,
+        "bin": null,
+        "routes": [],
+        "route_count": 0,
+        "category": "6_shelter_yes_pole_totem"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6143742,
+          -6.883443
+        ]
+      },
+      "properties": {
+        "id": 14269045063,
+        "name": "Dinas Bina Teknik SDA",
+        "shelter": "no",
+        "pole": null,
+        "lit": null,
+        "bench": null,
+        "bin": null,
+        "routes": [
+          4283719,
+          4292372,
+          4634057,
+          4646137
+        ],
+        "route_count": 4,
+        "category": "8_shelter_none_pole_none"
       }
     }
   ]
