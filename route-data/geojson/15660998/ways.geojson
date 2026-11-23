@@ -8,11 +8,11 @@
         "coordinates": [
           [
             107.6193443,
-            -6.8992829
+            -6.89924
           ],
           [
-            107.6193457,
-            -6.8993497
+            107.6193467,
+            -6.8993194
           ]
         ]
       },
@@ -378,6 +378,7 @@
         "lanes": "3",
         "lit": "yes",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -802,6 +803,8 @@
         "id": 153315566,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
@@ -809,6 +812,7 @@
         "oneway": "no",
         "ref": "2380",
         "reg_ref": "22-10-2380",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -822,20 +826,20 @@
             -6.8990452
           ],
           [
-            107.617751,
-            -6.8992613
+            107.6177545,
+            -6.8992474
           ],
           [
-            107.6179657,
-            -6.8992842
+            107.6179645,
+            -6.899261
           ],
           [
-            107.6181219,
-            -6.8992936
+            107.6181289,
+            -6.8992635
           ],
           [
-            107.6184347,
-            -6.8992984
+            107.6184335,
+            -6.8992562
           ]
         ]
       },
@@ -935,8 +939,8 @@
             -6.9691642
           ],
           [
-            107.7003715,
-            -6.9688969
+            107.7003608,
+            -6.9689155
           ],
           [
             107.7007549,
@@ -1118,6 +1122,10 @@
           [
             107.7048064,
             -6.967419
+          ],
+          [
+            107.7049627,
+            -6.9673439
           ],
           [
             107.7063273,
@@ -1358,7 +1366,7 @@
       "properties": {
         "id": 174303684,
         "cycleway:both": "no",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
@@ -1609,6 +1617,10 @@
             -6.9061543
           ],
           [
+            107.6298346,
+            -6.9063292
+          ],
+          [
             107.6299279,
             -6.9064699
           ]
@@ -1648,7 +1660,7 @@
       },
       "properties": {
         "id": 244792403,
-        "highway": "tertiary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
@@ -1678,6 +1690,9 @@
         "id": 244802255,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
         "destination:lanes": "Supratman;Cicadas;Cicaheum|Laswi;Lingkar Selatan;Gatot Subroto;Buahbatu|Cikudapateuh;Kosambi;Simpang Lima;Asia Afrika",
         "destination:ref:lanes": "378;377|377|",
         "highway": "secondary",
@@ -1690,7 +1705,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_left;through|through|right"
       }
@@ -1762,9 +1778,9 @@
         "id": 244802256,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right": "no",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
@@ -1774,7 +1790,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -1981,9 +1998,9 @@
         "id": 318052002,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
-        "cycleway:left": "lane",
-        "cycleway:left:lane": "exclusive",
-        "cycleway:right": "no",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
@@ -1993,7 +2010,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:both": "separate",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -2063,28 +2081,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6184347,
-            -6.8992984
+            107.6184335,
+            -6.8992562
           ],
           [
-            107.6189625,
-            -6.8992907
+            107.6189635,
+            -6.8992333
           ],
           [
-            107.6189804,
-            -6.8992903
+            107.6190223,
+            -6.899231
           ],
           [
-            107.6190876,
-            -6.8992881
+            107.6190829,
+            -6.8992313
           ],
           [
-            107.6192835,
-            -6.8992841
+            107.6192777,
+            -6.8992377
           ],
           [
             107.6193443,
-            -6.8992829
+            -6.89924
           ]
         ]
       },
@@ -2697,8 +2715,8 @@
             -6.9376599
           ],
           [
-            107.6063143,
-            -6.9376859
+            107.6063205,
+            -6.9376809
           ],
           [
             107.6062905,
@@ -2713,12 +2731,12 @@
             -6.9377537
           ],
           [
-            107.606233,
-            -6.9377801
+            107.6062388,
+            -6.9377795
           ],
           [
-            107.6062191,
-            -6.9378081
+            107.6062171,
+            -6.9378548
           ]
         ]
       },
@@ -2783,7 +2801,7 @@
         "id": 321085761,
         "cycleway:both": "no",
         "destination:lanes": "Riau;Aceh;Gandapura|Cilaki;Katamso;Cisadea",
-        "highway": "tertiary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
@@ -2853,6 +2871,7 @@
         "id": 330592465,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
+        "cycleway": "no",
         "destination:lanes": "Laswi;Lingkar Selatan;Gatot Subroto;Buahbatu|Laswi;Lingkar Selatan;Gatot Subroto;Buahbatu|Cikudapateuh;Kosambi;Simpang Lima;Asia Afrika",
         "destination:ref:lanes": "377|377|",
         "highway": "secondary",
@@ -2865,7 +2884,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "through|through|right"
       }
@@ -2937,7 +2957,7 @@
         "id": 330648969,
         "avgspeed": "20",
         "cycleway:both": "no",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Taman Pramuka",
@@ -2957,6 +2977,10 @@
           [
             107.6299279,
             -6.9064699
+          ],
+          [
+            107.6300067,
+            -6.9065959
           ],
           [
             107.6301227,
@@ -3029,6 +3053,8 @@
         "highway": "trunk",
         "lanes": "3",
         "lit": "yes",
+        "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "sidewalk": "no",
@@ -3065,7 +3091,7 @@
         "destination": "Sumedang;Majalengka;Cirebon",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Cileunyi",
+        "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
         "source": "Bing",
@@ -3615,8 +3641,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6062191,
-            -6.9378081
+            107.6062171,
+            -6.9378548
           ],
           [
             107.6061991,
@@ -3801,6 +3827,8 @@
         "highway": "trunk",
         "lanes": "2",
         "lit": "yes",
+        "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "sidewalk": "no",
         "surface": "asphalt",
@@ -4042,12 +4070,15 @@
         "id": 621040852,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Tamansari",
         "ref": "2380",
         "reg_ref": "22-10-2380",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -4536,7 +4567,7 @@
       "properties": {
         "id": 778206501,
         "cycleway:both": "no",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Cendana",
         "name:en": "Cendana Avenue",
@@ -5057,8 +5088,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6193457,
-            -6.8993497
+            107.6193467,
+            -6.8993194
           ],
           [
             107.6193483,
@@ -5141,7 +5172,7 @@
       "properties": {
         "id": 1072146131,
         "cycleway:both": "no",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Cendana",
         "name:en": "Cendana Avenue",
@@ -5268,7 +5299,7 @@
       },
       "properties": {
         "id": 1111809090,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Cendana",
         "name:en": "Cendana Avenue",
@@ -5385,6 +5416,9 @@
         "id": 1111828375,
         "alt_name": "Jalan Riau",
         "avgspeed": "30",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
         "destination:lanes": "Supratman;Cicadas;Cicaheum|Laswi;Lingkar Selatan;Gatot Subroto;Buahbatu|Cikudapateuh;Kosambi;Simpang Lima;Asia Afrika",
         "destination:ref:lanes": "378;377|377|",
         "highway": "secondary",
@@ -5397,7 +5431,8 @@
         "parking:both": "no",
         "ref": "2318",
         "reg_ref": "22-10-2318",
-        "sidewalk": "separate",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt",
         "turn:lanes": "slight_left;through|through|right"
       }
@@ -5906,6 +5941,8 @@
       },
       "properties": {
         "id": 1206588580,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "primary_link",
         "oneway": "yes"
       }
@@ -6521,12 +6558,15 @@
         "id": 1244068453,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Tamansari",
         "ref": "2380",
         "reg_ref": "22-10-2380",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -6598,50 +6638,6 @@
           [
             107.6088287,
             -6.8948846
-          ],
-          [
-            107.6087143,
-            -6.8947151
-          ],
-          [
-            107.6086646,
-            -6.8946314
-          ],
-          [
-            107.6086077,
-            -6.8945355
-          ],
-          [
-            107.6085721,
-            -6.8944755
-          ],
-          [
-            107.6085446,
-            -6.8944122
-          ],
-          [
-            107.6085108,
-            -6.8943345
-          ],
-          [
-            107.6084937,
-            -6.8942855
-          ],
-          [
-            107.6084661,
-            -6.8942039
-          ],
-          [
-            107.6084541,
-            -6.894096
-          ],
-          [
-            107.6084513,
-            -6.8939744
-          ],
-          [
-            107.608451,
-            -6.8938318
           ]
         ]
       },
@@ -6649,6 +6645,8 @@
         "id": 1244068454,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
@@ -6924,6 +6922,8 @@
         "lanes": "3",
         "lit": "yes",
         "motorcycle": "yes",
+        "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "sidewalk": "no",
@@ -7750,6 +7750,79 @@
         "parking:both": "no",
         "ref": "376;377",
         "sidewalk": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6088287,
+            -6.8948846
+          ],
+          [
+            107.6087143,
+            -6.8947151
+          ],
+          [
+            107.6086646,
+            -6.8946314
+          ],
+          [
+            107.6086077,
+            -6.8945355
+          ],
+          [
+            107.6085721,
+            -6.8944755
+          ],
+          [
+            107.6085446,
+            -6.8944122
+          ],
+          [
+            107.6085108,
+            -6.8943345
+          ],
+          [
+            107.6084937,
+            -6.8942855
+          ],
+          [
+            107.6084661,
+            -6.8942039
+          ],
+          [
+            107.6084541,
+            -6.894096
+          ],
+          [
+            107.6084513,
+            -6.8939744
+          ],
+          [
+            107.608451,
+            -6.8938318
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1540167893,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Tamansari",
+        "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
+        "sidewalk": "separate",
         "surface": "asphalt"
       }
     }

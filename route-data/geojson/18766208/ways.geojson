@@ -506,8 +506,12 @@
             -6.914736
           ],
           [
-            107.6051298,
-            -6.9147855
+            107.6053917,
+            -6.9148138
+          ],
+          [
+            107.6063544,
+            -6.9149336
           ],
           [
             107.6064066,
@@ -522,6 +526,9 @@
         "lanes": "3",
         "name": "Jalan Stasiun Timur",
         "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "sidewalk:left": "no",
         "sidewalk:right": "separate",
         "surface": "asphalt"
@@ -568,8 +575,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6064546,
-            -6.9210818
+            107.6064585,
+            -6.9210512
           ],
           [
             107.6064774,
@@ -596,12 +603,16 @@
             -6.9200148
           ],
           [
-            107.6066668,
-            -6.919094
+            107.6066381,
+            -6.9195407
           ],
           [
-            107.6066712,
-            -6.9189713
+            107.6066715,
+            -6.9190952
+          ],
+          [
+            107.6066765,
+            -6.9189704
           ]
         ]
       },
@@ -623,68 +634,56 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6062529,
-            -6.9369183
+            107.6062717,
+            -6.9369192
           ],
           [
-            107.6062604,
-            -6.9368241
+            107.6062734,
+            -6.9368359
           ],
           [
-            107.6062815,
-            -6.9365596
+            107.6062967,
+            -6.9365546
           ],
           [
-            107.6062864,
-            -6.9364942
+            107.6063142,
+            -6.9363593
           ],
           [
-            107.6062951,
-            -6.936362
+            107.6063233,
+            -6.9362301
           ],
           [
-            107.6063031,
-            -6.9362328
+            107.6063417,
+            -6.936014
           ],
           [
-            107.6063213,
-            -6.9360167
+            107.6064406,
+            -6.9346805
           ],
           [
-            107.6064258,
-            -6.9346832
+            107.6064535,
+            -6.9345182
           ],
           [
-            107.6064347,
-            -6.9345209
+            107.6064952,
+            -6.9339342
           ],
           [
-            107.6064644,
-            -6.934149
+            107.606542,
+            -6.9332805
           ],
           [
-            107.6064804,
-            -6.9339369
+            107.6065448,
+            -6.9332508
           ],
           [
-            107.6065192,
-            -6.9332778
+            107.6065614,
+            -6.9329988
           ],
           [
-            107.6065207,
-            -6.9332521
-          ],
-          [
-            107.6065399,
-            -6.9330001
-          ],
-          [
-            107.6065556,
-            -6.9327947
-          ],
-          [
-            107.6066275,
-            -6.9318519
+            107.6065733,
+            -6.9328659
           ]
         ]
       },
@@ -693,6 +692,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Mohammad Toha",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -764,24 +764,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6067877,
-            -6.9301452
+            107.6068307,
+            -6.9301326
           ],
           [
-            107.6067936,
-            -6.9300552
+            107.6068364,
+            -6.9300622
           ],
           [
-            107.6068275,
-            -6.9296881
+            107.6068664,
+            -6.9296894
           ],
           [
-            107.6068882,
-            -6.9290306
+            107.6069258,
+            -6.9290279
           ],
           [
-            107.607029,
-            -6.9274996
+            107.6070558,
+            -6.9274889
           ]
         ]
       },
@@ -1305,6 +1305,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -1398,6 +1399,7 @@
         "lanes": "3",
         "layer": "1",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -1426,6 +1428,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -1686,24 +1689,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6059177,
-            -6.9273911
+            107.6059454,
+            -6.9273849
           ],
           [
-            107.6059915,
-            -6.926739
+            107.6059791,
+            -6.9270185
           ],
           [
-            107.6060152,
-            -6.9265391
+            107.6059757,
+            -6.9268782
           ],
           [
-            107.6060307,
-            -6.9263876
+            107.6059805,
+            -6.9267319
           ],
           [
-            107.6060915,
-            -6.925705
+            107.6059951,
+            -6.9265345
+          ],
+          [
+            107.6060102,
+            -6.926383
+          ],
+          [
+            107.6060764,
+            -6.9256868
           ]
         ]
       },
@@ -1916,32 +1927,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6060915,
-            -6.925705
+            107.6060764,
+            -6.9256868
           ],
           [
-            107.6061529,
-            -6.9250296
+            107.6061378,
+            -6.9250253
           ],
           [
-            107.6062171,
-            -6.9243269
+            107.6061983,
+            -6.9243822
           ],
           [
-            107.6062246,
-            -6.9242449
+            107.6062071,
+            -6.924326
           ],
           [
-            107.606232,
-            -6.9241526
+            107.6062157,
+            -6.9242858
           ],
           [
-            107.606261,
-            -6.9238597
+            107.6062271,
+            -6.9242427
           ],
           [
-            107.6062949,
-            -6.9235169
+            107.6062411,
+            -6.9241764
+          ],
+          [
+            107.6062448,
+            -6.9241528
+          ],
+          [
+            107.6062731,
+            -6.9238523
+          ],
+          [
+            107.6063064,
+            -6.9235364
           ]
         ]
       },
@@ -2047,11 +2070,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6061633,
+            107.6061651,
             -6.9376173
           ],
           [
-            107.6061721,
+            107.6061748,
             -6.9375256
           ]
         ]
@@ -2059,8 +2082,9 @@
       "properties": {
         "id": 318482269,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "foot": "no",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
@@ -2312,6 +2336,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -2517,28 +2542,40 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6062949,
-            -6.9235169
+            107.6063064,
+            -6.9235364
           ],
           [
-            107.6063477,
-            -6.9228989
+            107.6063176,
+            -6.9234981
           ],
           [
-            107.6063756,
-            -6.9225645
+            107.6063289,
+            -6.9234418
           ],
           [
-            107.6063778,
-            -6.922496
+            107.6063543,
+            -6.9231005
           ],
           [
-            107.6064017,
-            -6.9224398
+            107.6063668,
+            -6.9228999
           ],
           [
-            107.6064249,
-            -6.922423
+            107.6063912,
+            -6.9225658
+          ],
+          [
+            107.606396,
+            -6.9224934
+          ],
+          [
+            107.6064134,
+            -6.9224385
+          ],
+          [
+            107.6064448,
+            -6.9224162
           ]
         ]
       },
@@ -2597,16 +2634,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6072035,
-            -6.9211727
+            107.607195,
+            -6.9211421
           ],
           [
-            107.6071663,
-            -6.9211679
+            107.6071709,
+            -6.9211388
           ],
           [
-            107.6071455,
-            -6.9211653
+            107.6071309,
+            -6.9211347
           ]
         ]
       },
@@ -2618,6 +2655,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk": "separate",
@@ -2630,8 +2668,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6066712,
-            -6.9189713
+            107.6066765,
+            -6.9189704
           ],
           [
             107.6066529,
@@ -2798,8 +2836,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.607029,
-            -6.9274996
+            107.6070558,
+            -6.9274889
+          ],
+          [
+            107.6070021,
+            -6.9274842
           ],
           [
             107.6062469,
@@ -3229,11 +3271,11 @@
             -6.9377293
           ],
           [
-            107.6061595,
-            -6.9376808
+            107.606162,
+            -6.9376556
           ],
           [
-            107.6061633,
+            107.6061651,
             -6.9376173
           ]
         ]
@@ -3241,7 +3283,7 @@
       "properties": {
         "id": 340403803,
         "avgspeed": "30",
-        "designation": "city_road",
+        "designation": "provincial_road",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
@@ -3613,11 +3655,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6061721,
+            107.6061748,
             -6.9375256
           ],
           [
-            107.6061838,
+            107.6061856,
             -6.9374395
           ]
         ]
@@ -3679,16 +3721,16 @@
             -6.9372527
           ],
           [
-            107.6062336,
-            -6.9369656
+            107.606234,
+            -6.9369923
           ],
           [
-            107.6062386,
-            -6.9369386
+            107.606247,
+            -6.9369443
           ],
           [
-            107.6062529,
-            -6.9369183
+            107.6062717,
+            -6.9369192
           ]
         ]
       },
@@ -3700,6 +3742,7 @@
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
         "sidewalk:left": "separate",
+        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -4050,6 +4093,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4646,6 +4690,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4763,16 +4808,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6069278,
-            -6.9211397
+            107.6069008,
+            -6.9211076
           ],
           [
-            107.6066723,
-            -6.9211072
+            107.6066769,
+            -6.9210774
           ],
           [
-            107.6064546,
-            -6.9210818
+            107.6064585,
+            -6.9210512
           ]
         ]
       },
@@ -4783,6 +4828,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -4900,6 +4946,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4941,6 +4988,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4987,6 +5035,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5025,6 +5074,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5264,10 +5314,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6064249,
-            -6.922423
-          ],
-          [
             107.6064448,
             -6.9224162
           ],
@@ -5349,6 +5395,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5362,7 +5409,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6061838,
+            107.6061856,
             -6.9374395
           ],
           [
@@ -5431,6 +5478,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5690,6 +5738,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5826,16 +5875,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6071455,
-            -6.9211653
+            107.6071309,
+            -6.9211347
           ],
           [
-            107.606984,
-            -6.9211463
+            107.6069871,
+            -6.9211172
           ],
           [
-            107.6069278,
-            -6.9211397
+            107.6069008,
+            -6.9211076
           ]
         ]
       },
@@ -5847,6 +5896,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -5858,28 +5908,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6066275,
+            107.606653,
             -6.9318519
           ],
           [
-            107.6066459,
-            -6.9316529
+            107.6066637,
+            -6.9317394
           ],
           [
-            107.606666,
-            -6.9314348
+            107.6066965,
+            -6.9314375
           ],
           [
-            107.6066798,
+            107.606712,
             -6.9312859
           ],
           [
-            107.6067272,
-            -6.9307732
+            107.6067702,
+            -6.9307819
           ],
           [
-            107.6067877,
-            -6.9301452
+            107.6068307,
+            -6.9301326
           ]
         ]
       },
@@ -5926,16 +5976,20 @@
             -6.921273
           ],
           [
+            107.6074906,
+            -6.9212574
+          ],
+          [
             107.6073101,
-            -6.9212392
+            -6.9212316
           ],
           [
             107.6072565,
             -6.9212135
           ],
           [
-            107.6072035,
-            -6.9211727
+            107.607195,
+            -6.9211421
           ]
         ]
       },
@@ -5944,6 +5998,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk": "separate",
@@ -6099,8 +6154,8 @@
             -6.9274175
           ],
           [
-            107.6059177,
-            -6.9273911
+            107.6059454,
+            -6.9273849
           ]
         ]
       },
@@ -7780,6 +7835,37 @@
         "name": "Jalan Terusan Bojongsoang",
         "ref": "365",
         "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6065733,
+            -6.9328659
+          ],
+          [
+            107.6065797,
+            -6.9327947
+          ],
+          [
+            107.6066451,
+            -6.9319531
+          ],
+          [
+            107.606653,
+            -6.9318519
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1547321025,
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Mohammad Toha",
+        "surface": "asphalt"
       }
     }
   ]

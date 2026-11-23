@@ -704,6 +704,8 @@
         "id": 4623278,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
@@ -931,6 +933,10 @@
             -6.9343765
           ],
           [
+            107.5715293,
+            -6.9341115
+          ],
+          [
             107.5715999,
             -6.9338667
           ],
@@ -945,6 +951,10 @@
           [
             107.5718157,
             -6.9331248
+          ],
+          [
+            107.5718201,
+            -6.9331118
           ],
           [
             107.5719092,
@@ -1296,6 +1306,8 @@
         "id": 153315566,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
@@ -1303,6 +1315,7 @@
         "oneway": "no",
         "ref": "2380",
         "reg_ref": "22-10-2380",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -2944,8 +2957,8 @@
             -6.903986
           ],
           [
-            107.6081616,
-            -6.9041718
+            107.6081494,
+            -6.9042152
           ],
           [
             107.6081315,
@@ -2960,8 +2973,12 @@
             -6.9045711
           ],
           [
-            107.608047,
-            -6.9049172
+            107.6080478,
+            -6.904885
+          ],
+          [
+            107.6080324,
+            -6.9049528
           ],
           [
             107.6079073,
@@ -3167,6 +3184,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4026,16 +4044,16 @@
             -6.8864856
           ],
           [
-            107.6116953,
-            -6.8865843
+            107.6116943,
+            -6.8865813
           ],
           [
-            107.6116511,
-            -6.8866872
+            107.6116819,
+            -6.8865997
           ],
           [
-            107.6116161,
-            -6.8867935
+            107.6116475,
+            -6.8866461
           ]
         ]
       },
@@ -4074,12 +4092,15 @@
         "id": 621040852,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Tamansari",
         "ref": "2380",
         "reg_ref": "22-10-2380",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -4614,8 +4635,8 @@
             -6.8870061
           ],
           [
-            107.6116161,
-            -6.8867935
+            107.6116475,
+            -6.8866461
           ]
         ]
       },
@@ -4660,6 +4681,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4800,6 +4822,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5120,6 +5143,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5185,6 +5209,8 @@
       },
       "properties": {
         "id": 1206588580,
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "highway": "primary_link",
         "oneway": "yes"
       }
@@ -5553,6 +5579,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5647,12 +5674,15 @@
         "id": 1244068453,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:right": "no",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Tamansari",
         "ref": "2380",
         "reg_ref": "22-10-2380",
+        "sidewalk:both": "separate",
         "surface": "asphalt"
       }
     },
@@ -5724,50 +5754,6 @@
           [
             107.6088287,
             -6.8948846
-          ],
-          [
-            107.6087143,
-            -6.8947151
-          ],
-          [
-            107.6086646,
-            -6.8946314
-          ],
-          [
-            107.6086077,
-            -6.8945355
-          ],
-          [
-            107.6085721,
-            -6.8944755
-          ],
-          [
-            107.6085446,
-            -6.8944122
-          ],
-          [
-            107.6085108,
-            -6.8943345
-          ],
-          [
-            107.6084937,
-            -6.8942855
-          ],
-          [
-            107.6084661,
-            -6.8942039
-          ],
-          [
-            107.6084541,
-            -6.894096
-          ],
-          [
-            107.6084513,
-            -6.8939744
-          ],
-          [
-            107.608451,
-            -6.8938318
           ]
         ]
       },
@@ -5775,6 +5761,8 @@
         "id": 1244068454,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
@@ -6683,6 +6671,79 @@
         "ref": "106",
         "reg_ref": "22-00-106-11K",
         "turn:lanes:forward": "slight_left;through|through;right"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6088287,
+            -6.8948846
+          ],
+          [
+            107.6087143,
+            -6.8947151
+          ],
+          [
+            107.6086646,
+            -6.8946314
+          ],
+          [
+            107.6086077,
+            -6.8945355
+          ],
+          [
+            107.6085721,
+            -6.8944755
+          ],
+          [
+            107.6085446,
+            -6.8944122
+          ],
+          [
+            107.6085108,
+            -6.8943345
+          ],
+          [
+            107.6084937,
+            -6.8942855
+          ],
+          [
+            107.6084661,
+            -6.8942039
+          ],
+          [
+            107.6084541,
+            -6.894096
+          ],
+          [
+            107.6084513,
+            -6.8939744
+          ],
+          [
+            107.608451,
+            -6.8938318
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1540167893,
+        "avgspeed": "30",
+        "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Jalan Tamansari",
+        "oneway": "no",
+        "ref": "2380",
+        "reg_ref": "22-10-2380",
+        "sidewalk": "separate",
+        "surface": "asphalt"
       }
     }
   ]

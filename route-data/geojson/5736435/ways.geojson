@@ -1109,8 +1109,14 @@
       "properties": {
         "id": 340013843,
         "avgspeed": "15",
+        "bridge:name": "Jembatan Cikeruh",
+        "bridge:name:en": "Cikeruh Bridge",
+        "destination:backward": "Derwati;Ciwastra;Gedebage",
+        "destination:forward": "Sapan;Ciparay;Majalaya",
         "highway": "primary",
         "lanes": "2",
+        "name": "Jalan Raya Derwati Sapan",
+        "name:en": "Derwati Sapan Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -1797,8 +1803,12 @@
       "properties": {
         "id": 385546262,
         "avgspeed": "15",
+        "destination:backward": "Sapan;Derwati",
+        "destination:forward": "Majalaya;Solokan Jeruk",
         "highway": "primary",
         "lanes": "2",
+        "name": "Jalan Raya Sapan Majalaya",
+        "name:en": "Sapan Majalaya Drive",
         "ref": "400",
         "smoothness": "good",
         "source": "Yahoo hires",
@@ -1872,8 +1882,12 @@
       "properties": {
         "id": 520783485,
         "avgspeed": "15",
+        "destination:backward": "Derwati;Ciwastra;Gedebage",
+        "destination:forward": "Sapan;Ciparay;Majalaya",
         "highway": "primary",
         "lanes": "2",
+        "name": "Jalan Raya Derwati Sapan",
+        "name:en": "Derwati Sapan Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -1897,9 +1911,13 @@
         "id": 520783486,
         "avgspeed": "15",
         "bridge": "yes",
+        "destination:backward": "Derwati;Ciwastra;Gedebage",
+        "destination:forward": "Sapan;Ciparay;Majalaya",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
+        "name": "Jalan Raya Derwati Sapan",
+        "name:en": "Derwati Sapan Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -1974,6 +1992,10 @@
           [
             107.6867129,
             -6.9602153
+          ],
+          [
+            107.6867131,
+            -6.9600374
           ],
           [
             107.6867134,
@@ -2132,8 +2154,8 @@
             -6.9505775
           ],
           [
-            107.6868295,
-            -6.9504362
+            107.6868215,
+            -6.9504722
           ],
           [
             107.6869035,
@@ -2209,10 +2231,15 @@
       "properties": {
         "id": 561420071,
         "bridge": "yes",
+        "bridge:name": "Jembatan Cikeruh",
+        "bridge:name:en": "Cikeruh Bridge",
+        "destination:backward": "Derwati;Ciwastra;Gedebage",
+        "destination:forward": "Sapan;Ciparay;Majalaya",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "name": "Jembatan Cikeruh",
+        "name": "Jalan Raya Derwati Sapan",
+        "name:en": "Derwati Sapan Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -2327,8 +2354,14 @@
       "properties": {
         "id": 561420072,
         "avgspeed": "15",
+        "bridge:name": "Jembatan Cikeruh",
+        "bridge:name:en": "Cikeruh Bridge",
+        "destination:backward": "Derwati;Ciwastra;Gedebage",
+        "destination:forward": "Sapan;Ciparay;Majalaya",
         "highway": "primary",
         "lanes": "2",
+        "name": "Jalan Raya Derwati Sapan",
+        "name:en": "Derwati Sapan Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -2798,8 +2831,12 @@
       "properties": {
         "id": 1111597000,
         "avgspeed": "15",
+        "destination:backward": "Sapan;Derwati",
+        "destination:forward": "Majalaya;Solokan Jeruk",
         "highway": "primary",
         "lanes": "2",
+        "name": "Jalan Raya Sapan Majalaya",
+        "name:en": "Sapan Majalaya Drive",
         "source": "Yahoo hires"
       }
     },
@@ -2809,12 +2846,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6936569,
-            -6.9431563
+            107.6936817,
+            -6.943163
           ],
           [
-            107.6936775,
-            -6.9432507
+            107.6937023,
+            -6.9434627
           ]
         ]
       },
@@ -2824,6 +2861,7 @@
         "lane_markings": "yes",
         "lanes": "2",
         "name": "Bulevar Utama",
+        "name:en": "Main Boulevard",
         "oneway": "yes",
         "ref": "11113",
         "reg_ref": "22-10-11113",
@@ -2924,8 +2962,12 @@
       "properties": {
         "id": 1235377702,
         "avgspeed": "15",
+        "destination:backward": "Sapan;Derwati",
+        "destination:forward": "Majalaya;Solokan Jeruk",
         "highway": "primary",
         "lanes": "2",
+        "name": "Jalan Raya Sapan Majalaya",
+        "name:en": "Sapan Majalaya Drive",
         "ref": "400",
         "source": "Yahoo hires"
       }
@@ -2936,12 +2978,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6935148,
-            -6.9432192
+            107.693568,
+            -6.9432737
           ],
           [
-            107.6929755,
-            -6.9431376
+            107.6935237,
+            -6.9432211
+          ],
+          [
+            107.6934271,
+            -6.9431905
+          ],
+          [
+            107.6932751,
+            -6.9431705
+          ],
+          [
+            107.692978,
+            -6.9431317
           ],
           [
             107.6922485,
@@ -2954,6 +3008,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Gedebage Utama",
+        "name:en": "Main Gedebage Road",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -2982,6 +3037,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Gedebage Utama",
+        "name:en": "Main Gedebage Road",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3100,12 +3156,12 @@
             -6.9416411
           ],
           [
-            107.6918625,
-            -6.9415729
+            107.6918605,
+            -6.9415767
           ],
           [
-            107.691872,
-            -6.9415322
+            107.6918702,
+            -6.9415374
           ],
           [
             107.6918821,
@@ -3172,8 +3228,8 @@
             -6.9431345
           ],
           [
-            107.6936569,
-            -6.9431563
+            107.6936817,
+            -6.943163
           ]
         ]
       },
@@ -3182,6 +3238,7 @@
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Gedebage Utama",
+        "name:en": "Main Gedebage Road",
         "oneway": "yes",
         "surface": "concrete"
       }
@@ -3372,8 +3429,8 @@
             -6.9448901
           ],
           [
-            107.6935148,
-            -6.9432192
+            107.693568,
+            -6.9432737
           ]
         ]
       },
@@ -3395,8 +3452,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6936775,
-            -6.9432507
+            107.6937023,
+            -6.9434627
           ],
           [
             107.6939993,

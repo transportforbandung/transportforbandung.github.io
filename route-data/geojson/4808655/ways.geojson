@@ -64,6 +64,7 @@
         "lanes": "3",
         "lit": "yes",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -99,6 +100,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11"
       }
@@ -437,8 +439,8 @@
             -6.9641479
           ],
           [
-            107.7541247,
-            -6.9641882
+            107.7541239,
+            -6.9641853
           ],
           [
             107.7541145,
@@ -453,8 +455,12 @@
             -6.9643925
           ],
           [
-            107.7540113,
-            -6.9646194
+            107.7540177,
+            -6.9645997
+          ],
+          [
+            107.7540011,
+            -6.9646587
           ],
           [
             107.7539551,
@@ -805,6 +811,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "|through|merge_to_left"
@@ -955,6 +962,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "ref": "11"
       }
     },
@@ -1080,6 +1088,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "ref": "11"
       }
     },
@@ -1162,7 +1171,7 @@
         "destination": "Sumedang;Majalengka;Cirebon",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Cileunyi",
+        "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
         "source": "Bing",
@@ -1480,6 +1489,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11"
       }
@@ -2499,6 +2509,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -2579,6 +2590,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11"
       }
@@ -2721,9 +2733,12 @@
       "properties": {
         "id": 1112068912,
         "avgspeed": "30",
+        "destination:backward": "Cileunyi;Jatinangor;Rancaekek",
+        "destination:forward": "Bunderan Cibiru;Soekarno Hatta;Ujungberung",
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -2922,6 +2937,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -2951,6 +2967,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left|slight_left|slight_left;slight_right"
@@ -2981,6 +2998,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "oneway": "yes",
         "ref": "11"
       }
@@ -3272,6 +3290,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11"
       }
@@ -3301,6 +3320,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "left;slight_left|slight_left;reverse"
@@ -3331,6 +3351,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "left;slight_left|slight_left"
@@ -3359,6 +3380,7 @@
         "lanes": "4",
         "layer": "1",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -3387,6 +3409,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -3413,6 +3436,7 @@
         "lanes": "4",
         "layer": "1",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -3441,6 +3465,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -3619,6 +3644,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -4074,7 +4100,8 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "4",
-        "name": "Jalan Abdul Haris Nasution",
+        "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "name:etymology:wikidata": "Q317291",
         "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "ref": "11"
@@ -4103,6 +4130,7 @@
         "lanes": "4",
         "layer": "1",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "ref": "11"
       }
     },
@@ -4340,6 +4368,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "ref": "11"
       }
     },

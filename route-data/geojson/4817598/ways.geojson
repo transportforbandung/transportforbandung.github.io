@@ -320,7 +320,8 @@
         "name": "Jalan Underpass Ir. Soekarno",
         "name:etymology:wikidata": "Q76127",
         "name:etymology:wikipedia": "id:Sukarno",
-        "oneway": "yes"
+        "note": "One-way rule temporarily removed due to road closure in Jalan gatot Subroto. Please revert back the oneway= tag to \"yes\" after that construction finished",
+        "oneway": "no"
       }
     },
     {
@@ -605,6 +606,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -652,6 +654,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -807,6 +810,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -1011,6 +1015,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -1042,6 +1047,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -1110,6 +1116,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -1301,13 +1308,12 @@
       },
       "properties": {
         "id": 339694302,
+        "construction": "primary",
         "designation": "provincial_road",
-        "highway": "primary",
-        "lanes": "1",
+        "highway": "construction",
         "name": "Jalan Baros",
-        "oneway": "yes",
-        "ref": "170",
-        "surface": "asphalt"
+        "note": "Road closed due to underpass construction. Please map the geometry of both this existing road and new underpass when available. Please also revert oneway= tag in Underpass Dustira and review Jalan Kartini after this construction finished.",
+        "oneway": "yes"
       }
     },
     {
@@ -1876,15 +1882,14 @@
       "properties": {
         "id": 385643848,
         "alt_name": "Jalan Baros",
+        "construction": "primary",
         "designation": "provincial_road",
-        "highway": "primary",
-        "lanes": "2",
+        "highway": "construction",
         "name": "Jalan Gatot Subroto",
         "name:etymology:wikidata": "Q5261540",
         "name:etymology:wikipedia": "id:Gatot Soebroto",
-        "oneway": "yes",
-        "ref": "170",
-        "surface": "asphalt"
+        "note": "Road closed due to underpass construction. Please map the geometry of both this existing road and new underpass when available. Please also revert oneway= tag in Underpass Dustira and review Jalan Kartini after this construction finished.",
+        "oneway": "yes"
       }
     },
     {
@@ -2046,12 +2051,12 @@
             -6.895268
           ],
           [
-            107.5597061,
-            -6.8951886
+            107.5597097,
+            -6.8952017
           ],
           [
-            107.5596724,
-            -6.8951328
+            107.5596795,
+            -6.8951484
           ],
           [
             107.5595504,
@@ -3577,6 +3582,10 @@
             -6.8827206
           ],
           [
+            107.5521505,
+            -6.8825808
+          ],
+          [
             107.5520864,
             -6.8824613
           ],
@@ -3714,16 +3723,15 @@
       "properties": {
         "id": 573047226,
         "alt_name": "Jalan Baros",
+        "construction": "primary",
         "designation": "provincial_road",
-        "highway": "primary",
-        "lanes": "2",
+        "highway": "construction",
         "motorcycle": "yes",
         "name": "Jalan Gatot Subroto",
         "name:etymology:wikidata": "Q5261540",
         "name:etymology:wikipedia": "id:Gatot Soebroto",
-        "oneway": "yes",
-        "ref": "170",
-        "surface": "asphalt"
+        "note": "Road closed due to underpass construction. Please map the geometry of both this existing road and new underpass when available. Please also revert oneway= tag in Underpass Dustira and review Jalan Kartini after this construction finished.",
+        "oneway": "yes"
       }
     },
     {
@@ -3891,18 +3899,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5372378,
-            -6.8880721
-          ],
-          [
-            107.5371821,
-            -6.8882052
-          ],
-          [
-            107.5369394,
-            -6.8887796
-          ],
-          [
             107.5366629,
             -6.8894348
           ],
@@ -3921,10 +3917,6 @@
           [
             107.536637,
             -6.8901554
-          ],
-          [
-            107.5366635,
-            -6.8904132
           ],
           [
             107.5366757,
@@ -3951,10 +3943,9 @@
         "lanes": "2",
         "name": "Jalan Baros",
         "oneway": "yes",
-        "parking:both": "no",
         "ref": "170",
-        "sidewalk": "both",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -4305,6 +4296,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4463,6 +4455,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4622,7 +4615,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes",
+        "note": "One-way rule temporarily removed due to road closure in Jalan gatot Subroto. Please revert back the oneway= tag to \"yes\" after that construction finished",
+        "oneway": "no",
         "ref": "20"
       }
     },
@@ -4738,14 +4732,14 @@
       "properties": {
         "id": 892172995,
         "alt_name": "Jalan Baros",
+        "construction": "primary",
         "designation": "provincial_road",
-        "highway": "primary",
-        "lanes": "2",
+        "highway": "construction",
         "name": "Jalan Gatot Subroto",
         "name:etymology:wikidata": "Q5261540",
         "name:etymology:wikipedia": "id:Gatot Soebroto",
-        "oneway": "yes",
-        "ref": "170"
+        "note": "Road closed due to underpass construction. Please map the geometry of both this existing road and new underpass when available. Please also revert oneway= tag in Underpass Dustira and review Jalan Kartini after this construction finished.",
+        "oneway": "yes"
       }
     },
     {
@@ -4766,14 +4760,14 @@
       "properties": {
         "id": 909519329,
         "alt_name": "Jalan Baros",
+        "construction": "primary",
         "designation": "provincial_road",
-        "highway": "primary",
-        "lanes": "2",
+        "highway": "construction",
         "name": "Jalan Gatot Subroto",
         "name:etymology:wikidata": "Q5261540",
         "name:etymology:wikipedia": "id:Gatot Soebroto",
-        "oneway": "yes",
-        "ref": "170"
+        "note": "Road closed due to underpass construction. Please map the geometry of both this existing road and new underpass when available. Please also revert oneway= tag in Underpass Dustira and review Jalan Kartini after this construction finished.",
+        "oneway": "yes"
       }
     },
     {
@@ -5093,6 +5087,10 @@
             -6.9269421
           ],
           [
+            107.5753833,
+            -6.9267408
+          ],
+          [
             107.5753762,
             -6.9266961
           ],
@@ -5118,7 +5116,9 @@
         "id": 1034748105,
         "destination:lanes": "Holis;Cigondewah;Cijerah||Cibeureum;Garuda;Cimahi;Dungus Cariang",
         "highway": "trunk",
+        "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5144,6 +5144,7 @@
         "id": 1034797819,
         "highway": "trunk",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5265,7 +5266,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Dustira",
-        "oneway": "yes",
+        "note": "One-way rule temporarily removed due to road closure in Jalan gatot Subroto. Please revert back the oneway= tag to \"yes\" after that construction finished",
+        "oneway": "no",
         "ref": "19",
         "sidewalk": "left",
         "surface": "asphalt"
@@ -5579,7 +5581,8 @@
         "name": "Jalan Underpass Ir. Soekarno",
         "name:etymology:wikidata": "Q76127",
         "name:etymology:wikipedia": "id:Sukarno",
-        "oneway": "yes",
+        "note": "One-way rule temporarily removed due to road closure in Jalan gatot Subroto. Please revert back the oneway= tag to \"yes\" after that construction finished",
+        "oneway": "no",
         "tunnel": "yes"
       }
     },
@@ -5662,7 +5665,8 @@
         "name": "Jalan Underpass Ir. Soekarno",
         "name:etymology:wikidata": "Q76127",
         "name:etymology:wikipedia": "id:Sukarno",
-        "oneway": "yes"
+        "note": "One-way rule temporarily removed due to road closure in Jalan gatot Subroto. Please revert back the oneway= tag to \"yes\" after that construction finished",
+        "oneway": "no"
       }
     },
     {
@@ -5736,6 +5740,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5767,6 +5772,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5836,6 +5842,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5872,6 +5879,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5920,6 +5928,7 @@
         "highway": "trunk",
         "lanes": "1",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5992,6 +6001,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -6013,6 +6023,10 @@
             -6.9305942
           ],
           [
+            107.5759805,
+            -6.9305597
+          ],
+          [
             107.5759595,
             -6.9304856
           ]
@@ -6024,6 +6038,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -6041,6 +6056,10 @@
             -6.930415
           ],
           [
+            107.5759394,
+            -6.9303894
+          ],
+          [
             107.5758965,
             -6.9300827
           ]
@@ -6052,6 +6071,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -6365,6 +6385,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -6756,6 +6777,39 @@
         "oneway": "yes",
         "ref": "11",
         "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5372378,
+            -6.8880721
+          ],
+          [
+            107.5371821,
+            -6.8882052
+          ],
+          [
+            107.5369394,
+            -6.8887796
+          ],
+          [
+            107.5366629,
+            -6.8894348
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1550652599,
+        "construction": "primary",
+        "designation": "provincial_road",
+        "highway": "construction",
+        "name": "Jalan Baros",
+        "note": "Road closed due to underpass construction. Please map the geometry of both this existing road and new underpass when available. Please also revert oneway= tag in Underpass Dustira and review Jalan Kartini after this construction finished.",
+        "oneway": "yes"
       }
     }
   ]

@@ -178,7 +178,8 @@
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Raya Bandung - Banjaran",
-        "oneway": "yes",
+        "note": "One-way rule removed temporarily during construction",
+        "oneway": "no",
         "ref": "161"
       }
     },
@@ -201,10 +202,12 @@
         "id": 43542176,
         "avgspeed": "25",
         "bridge": "yes",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "oneway": "yes",
+        "note": "One-way rule removed temporarily during construction",
+        "oneway": "no",
         "ref": "161"
       }
     },
@@ -230,10 +233,12 @@
       "properties": {
         "id": 43542177,
         "avgspeed": "25",
+        "flood_prone": "yes",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Raya Dayeuhkolot",
-        "oneway": "yes",
+        "note": "One-way rule removed temporarily during construction",
+        "oneway": "no",
         "ref": "161"
       }
     },
@@ -1369,19 +1374,19 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6059434,
-            -6.9375062
+            107.6058679,
+            -6.9374947
           ],
           [
             107.6060689,
             -6.9375172
           ],
           [
-            107.6060979,
-            -6.9375203
+            107.6061267,
+            -6.9375223
           ],
           [
-            107.6061721,
+            107.6061748,
             -6.9375256
           ]
         ]
@@ -1804,23 +1809,23 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.606228,
+            107.6062424,
             -6.9376212
           ],
           [
-            107.6062228,
-            -6.9376862
+            107.6062384,
+            -6.9376619
           ],
           [
-            107.6062191,
-            -6.9378081
+            107.6062171,
+            -6.9378548
           ]
         ]
       },
       "properties": {
         "id": 556619980,
         "avgspeed": "30",
-        "designation": "city_road",
+        "designation": "provincial_road",
         "foot": "no",
         "highway": "primary",
         "lanes": "2",
@@ -1837,8 +1842,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6062191,
-            -6.9378081
+            107.6062171,
+            -6.9378548
           ],
           [
             107.6061991,
@@ -1878,11 +1883,11 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6062333,
-            -6.9375301
+            107.6062545,
+            -6.937531
           ],
           [
-            107.606228,
+            107.6062424,
             -6.9376212
           ]
         ]
@@ -1890,8 +1895,9 @@
       "properties": {
         "id": 556619985,
         "avgspeed": "30",
+        "designation": "provincial_road",
         "foot": "no",
-        "highway": "secondary",
+        "highway": "primary",
         "lanes": "3",
         "name": "Jalan Mohammad Toha",
         "oneway": "yes",
@@ -2037,7 +2043,8 @@
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Raya Bandung - Banjaran",
-        "oneway": "yes",
+        "note": "One-way rule removed temporarily during construction",
+        "oneway": "no",
         "ref": "161",
         "surface": "unpaved"
       }
@@ -2371,12 +2378,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6061721,
+            107.6061748,
             -6.9375256
           ],
           [
-            107.6062333,
-            -6.9375301
+            107.6062545,
+            -6.937531
           ]
         ]
       },
@@ -2507,8 +2514,12 @@
             -6.9373901
           ],
           [
-            107.6059434,
-            -6.9375062
+            107.6053694,
+            -6.9374494
+          ],
+          [
+            107.6058679,
+            -6.9374947
           ]
         ]
       },
@@ -2534,6 +2545,10 @@
             -6.9372436
           ],
           [
+            107.6035072,
+            -6.9372599
+          ],
+          [
             107.6039376,
             -6.9372954
           ],
@@ -2542,8 +2557,20 @@
             -6.9373359
           ],
           [
-            107.6046074,
-            -6.9373654
+            107.6044997,
+            -6.9373449
+          ],
+          [
+            107.6045611,
+            -6.9373516
+          ],
+          [
+            107.6046277,
+            -6.9373634
+          ],
+          [
+            107.6046918,
+            -6.937377
           ],
           [
             107.6047707,

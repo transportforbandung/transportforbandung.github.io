@@ -414,12 +414,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6066275,
+            107.606653,
             -6.9318519
           ],
           [
-            107.6067023,
-            -6.9318619
+            107.6067033,
+            -6.9318589
+          ],
+          [
+            107.6067675,
+            -6.9318679
           ],
           [
             107.6071921,
@@ -558,8 +562,8 @@
             -6.9216096
           ],
           [
-            107.6120118,
-            -6.9217387
+            107.6120154,
+            -6.9217245
           ]
         ]
       },
@@ -645,8 +649,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6120118,
-            -6.9217387
+            107.6120154,
+            -6.9217245
           ],
           [
             107.6120004,
@@ -735,7 +739,7 @@
       "properties": {
         "id": 174303684,
         "cycleway:both": "no",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
@@ -993,6 +997,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Jenderal Ahmad Yani",
+        "name:en": "Ahmad Yani Avenue",
         "name:etymology:wikidata": "Q2992817",
         "name:etymology:wikipedia": "id:Ahmad Yani",
         "oneway": "yes",
@@ -1016,7 +1021,7 @@
       },
       "properties": {
         "id": 244792403,
-        "highway": "tertiary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
@@ -1323,19 +1328,19 @@
             -6.9316877
           ],
           [
-            107.6059933,
-            -6.9317677
+            107.6059974,
+            -6.9317627
           ],
           [
             107.6060299,
-            -6.931773
+            -6.9317669
           ],
           [
-            107.6064553,
-            -6.931835
+            107.6064523,
+            -6.9318239
           ],
           [
-            107.6066275,
+            107.606653,
             -6.9318519
           ]
         ]
@@ -1554,8 +1559,9 @@
       },
       "properties": {
         "id": 318486206,
-        "cycleway:left": "lane",
-        "cycleway:right": "no",
+        "cycleway:both": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right:lane": "advisory",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Aceh",
@@ -1976,7 +1982,7 @@
         "id": 321085761,
         "cycleway:both": "no",
         "destination:lanes": "Riau;Aceh;Gandapura|Cilaki;Katamso;Cisadea",
-        "highway": "tertiary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
@@ -2058,7 +2064,7 @@
         "id": 330648969,
         "avgspeed": "20",
         "cycleway:both": "no",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "lit": "no",
         "name": "Jalan Taman Pramuka",
@@ -2557,7 +2563,7 @@
       "properties": {
         "id": 778206501,
         "cycleway:both": "no",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Cendana",
         "name:en": "Cendana Avenue",
@@ -2595,6 +2601,10 @@
           [
             107.6122183,
             -6.920038
+          ],
+          [
+            107.6122118,
+            -6.9200856
           ],
           [
             107.6122092,
@@ -2648,7 +2658,7 @@
       "properties": {
         "id": 1072146131,
         "cycleway:both": "no",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Cendana",
         "name:en": "Cendana Avenue",
@@ -2675,7 +2685,7 @@
       },
       "properties": {
         "id": 1111809090,
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "1",
         "name": "Jalan Cendana",
         "name:en": "Cendana Avenue",
@@ -3164,8 +3174,8 @@
             -6.9298025
           ],
           [
-            107.605655,
-            -6.9290349
+            107.6056708,
+            -6.9290327
           ]
         ]
       },
@@ -3187,12 +3197,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.605655,
-            -6.9290349
+            107.6056708,
+            -6.9290327
           ],
           [
-            107.6056868,
-            -6.9286757
+            107.6057162,
+            -6.9286824
           ]
         ]
       },
@@ -3214,12 +3224,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6056868,
-            -6.9286757
+            107.6057162,
+            -6.9286824
           ],
           [
-            107.6057712,
-            -6.9281145
+            107.6057961,
+            -6.9281235
           ]
         ]
       },
@@ -3241,16 +3251,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6057712,
-            -6.9281145
+            107.6057961,
+            -6.9281235
           ],
           [
-            107.6057772,
-            -6.9280104
+            107.6058055,
+            -6.928016
           ],
           [
-            107.6057934,
-            -6.9278423
+            107.6058217,
+            -6.9278434
           ]
         ]
       },
@@ -3272,12 +3282,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6057934,
-            -6.9278423
+            107.6058217,
+            -6.9278434
           ],
           [
-            107.6058121,
-            -6.9276265
+            107.6058322,
+            -6.9276428
           ]
         ]
       },

@@ -15,6 +15,10 @@
             -6.9801875
           ],
           [
+            107.7981663,
+            -6.9801685
+          ],
+          [
             107.7981013,
             -6.9801447
           ],
@@ -58,7 +62,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -86,8 +96,14 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
         "railway:track_ref": "1",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -103,8 +119,8 @@
             -6.9149339
           ],
           [
-            107.6070186,
-            -6.9148712
+            107.607019,
+            -6.9148682
           ]
         ]
       },
@@ -116,8 +132,13 @@
         "layer": "1",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
         "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -133,8 +154,12 @@
             -6.9226335
           ],
           [
-            107.6387414,
-            -6.9221646
+            107.6387855,
+            -6.9221835
+          ],
+          [
+            107.638731,
+            -6.9221637
           ],
           [
             107.6373362,
@@ -177,28 +202,36 @@
             -6.919252
           ],
           [
-            107.6253948,
-            -6.9185887
+            107.6254028,
+            -6.9185984
           ],
           [
-            107.6250883,
-            -6.9185164
+            107.6250879,
+            -6.9185239
           ],
           [
-            107.62493,
-            -6.9184772
+            107.6250513,
+            -6.9185149
           ],
           [
-            107.6248417,
-            -6.9184502
+            107.6249234,
+            -6.9184833
           ],
           [
-            107.6243909,
-            -6.9183342
+            107.6248227,
+            -6.9184581
           ],
           [
-            107.6222945,
-            -6.9178214
+            107.624384,
+            -6.9183449
+          ],
+          [
+            107.6228919,
+            -6.9179856
+          ],
+          [
+            107.6222606,
+            -6.917826
           ],
           [
             107.619164,
@@ -252,8 +285,13 @@
         "gauge": "1067",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
         "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -265,24 +303,48 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.514805,
-            -6.8637207
+            107.5146052,
+            -6.863278
           ],
           [
-            107.5143551,
-            -6.8627226
+            107.5143542,
+            -6.8627063
+          ],
+          [
+            107.5143291,
+            -6.8626499
+          ],
+          [
+            107.5140321,
+            -6.8619817
           ],
           [
             107.513967,
             -6.8618383
           ],
           [
-            107.5136749,
-            -6.8612396
+            107.5138494,
+            -6.8615946
           ],
           [
-            107.5133559,
-            -6.860702
+            107.5137387,
+            -6.8613791
+          ],
+          [
+            107.5136661,
+            -6.861244
+          ],
+          [
+            107.5134957,
+            -6.8609522
+          ],
+          [
+            107.5133453,
+            -6.8607029
+          ],
+          [
+            107.5130635,
+            -6.8603007
           ],
           [
             107.5128731,
@@ -365,40 +427,68 @@
             -6.8515563
           ],
           [
-            107.5055429,
-            -6.8503974
+            107.5055505,
+            -6.850398
           ],
           [
-            107.50499,
-            -6.8496509
+            107.5050061,
+            -6.8496449
           ],
           [
-            107.5046057,
-            -6.8491545
+            107.5047511,
+            -6.8493049
           ],
           [
-            107.5043559,
-            -6.8488606
+            107.5045916,
+            -6.8491112
           ],
           [
-            107.5041752,
-            -6.8486822
+            107.5043455,
+            -6.8488344
           ],
           [
-            107.5036843,
-            -6.8482348
+            107.5041846,
+            -6.8486722
           ],
           [
-            107.5022934,
-            -6.8471199
+            107.5038604,
+            -6.8483737
           ],
           [
-            107.5009108,
-            -6.8460116
+            107.5036923,
+            -6.8482328
           ],
           [
-            107.5008303,
-            -6.8459463
+            107.5034044,
+            -6.8479973
+          ],
+          [
+            107.5031093,
+            -6.8477648
+          ],
+          [
+            107.5023024,
+            -6.8471193
+          ],
+          [
+            107.5022575,
+            -6.8470837
+          ],
+          [
+            107.5019626,
+            -6.8468502
+          ],
+          [
+            107.5009207,
+            -6.8460154
+          ],
+          [
+            107.5008748,
+            -6.845979
+          ],
+          [
+            107.5008325,
+            -6.8459445
           ]
         ]
       },
@@ -408,7 +498,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -424,8 +520,12 @@
             -6.9234014
           ],
           [
-            107.6413929,
-            -6.9231324
+            107.6413268,
+            -6.9231175
+          ],
+          [
+            107.6413003,
+            -6.9231075
           ],
           [
             107.6401395,
@@ -439,7 +539,13 @@
         "gauge": "1067",
         "maxspeed": "90",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -492,7 +598,13 @@
         "layer": "1",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -504,12 +616,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6844754,
-            -6.93884
+            107.6844703,
+            -6.9388405
           ],
           [
-            107.6843031,
-            -6.9387764
+            107.6842899,
+            -6.9387749
           ]
         ]
       },
@@ -521,7 +633,13 @@
         "layer": "1",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -569,8 +687,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
         "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -583,12 +706,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7001761,
-            -6.9445608
-          ],
-          [
             107.7002589,
             -6.9445913
+          ],
+          [
+            107.7001761,
+            -6.9445608
           ]
         ]
       },
@@ -600,7 +723,13 @@
         "layer": "1",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -613,32 +742,40 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6916158,
+            107.6916047,
             -6.9414389
           ],
           [
-            107.6910756,
-            -6.9412443
+            107.6911272,
+            -6.9412651
+          ],
+          [
+            107.6910604,
+            -6.9412408
           ],
           [
             107.6905354,
             -6.9410496
           ],
           [
-            107.6888513,
-            -6.9404345
+            107.6888974,
+            -6.9404525
           ],
           [
-            107.6882175,
-            -6.9401997
+            107.6881814,
+            -6.9401931
+          ],
+          [
+            107.6881446,
+            -6.9401795
           ],
           [
             107.6876033,
             -6.9399816
           ],
           [
-            107.6873973,
-            -6.9399067
+            107.6873668,
+            -6.9398957
           ]
         ]
       },
@@ -648,8 +785,14 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
         "railway:track_ref": "3",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -662,12 +805,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5709419,
-            -6.9025002
+            107.5709605,
+            -6.9025168
           ],
           [
-            107.5709806,
-            -6.9025258
+            107.5709107,
+            -6.9024837
           ]
         ]
       },
@@ -679,7 +822,13 @@
         "layer": "1",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -711,12 +860,36 @@
             -6.8936914
           ],
           [
+            107.5564467,
+            -6.89367
+          ],
+          [
+            107.5556579,
+            -6.8933302
+          ],
+          [
+            107.5552812,
+            -6.8931679
+          ],
+          [
+            107.5552383,
+            -6.8931494
+          ],
+          [
             107.5550584,
             -6.8930719
           ],
           [
+            107.5547416,
+            -6.8929337
+          ],
+          [
             107.5543664,
             -6.8927701
+          ],
+          [
+            107.5532082,
+            -6.8922708
           ],
           [
             107.5527033,
@@ -751,6 +924,22 @@
             -6.8911232
           ],
           [
+            107.5462142,
+            -6.8906247
+          ],
+          [
+            107.5443969,
+            -6.8902769
+          ],
+          [
+            107.5443439,
+            -6.8902668
+          ],
+          [
+            107.5442881,
+            -6.8902562
+          ],
+          [
             107.544072,
             -6.8902148
           ],
@@ -770,7 +959,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -799,7 +994,13 @@
         "layer": "1",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -871,16 +1072,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6054321,
-            -6.9146465
+            107.6054016,
+            -6.9146581
           ],
           [
-            107.6051379,
-            -6.9146345
+            107.6053088,
+            -6.9146502
           ],
           [
-            107.6048491,
-            -6.9146166
+            107.6052019,
+            -6.9146463
+          ],
+          [
+            107.6051178,
+            -6.9146441
+          ],
+          [
+            107.6049691,
+            -6.9146378
+          ],
+          [
+            107.604827,
+            -6.9146301
           ]
         ]
       },
@@ -902,8 +1115,8 @@
             -6.9144609
           ],
           [
-            107.602796,
-            -6.9145079
+            107.6027956,
+            -6.9145101
           ]
         ]
       },
@@ -924,12 +1137,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5822421,
-            -6.9100045
+            107.582223,
+            -6.9100138
           ],
           [
-            107.5822964,
-            -6.9100398
+            107.5822692,
+            -6.9100431
           ]
         ]
       },
@@ -941,7 +1154,13 @@
         "layer": "1",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -953,12 +1172,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5817573,
-            -6.9096373
+            107.5817323,
+            -6.9096453
           ],
           [
-            107.5816584,
-            -6.9095733
+            107.5816812,
+            -6.9096115
+          ],
+          [
+            107.5816361,
+            -6.9095817
+          ],
+          [
+            107.5810499,
+            -6.9091975
           ],
           [
             107.579574,
@@ -969,20 +1196,28 @@
             -6.9080332
           ],
           [
-            107.5792049,
-            -6.9079695
+            107.5792607,
+            -6.908008
           ],
           [
-            107.5780396,
-            -6.9071962
+            107.5780383,
+            -6.907198
           ],
           [
-            107.577486,
-            -6.906831
+            107.5778545,
+            -6.9070779
           ],
           [
-            107.576919,
-            -6.9064569
+            107.5775156,
+            -6.9068565
+          ],
+          [
+            107.5774751,
+            -6.9068302
+          ],
+          [
+            107.5769035,
+            -6.9064503
           ],
           [
             107.5758283,
@@ -993,12 +1228,16 @@
             -6.9051896
           ],
           [
-            107.5728931,
-            -6.9038008
+            107.5744233,
+            -6.9048124
           ],
           [
-            107.5709806,
-            -6.9025258
+            107.572871,
+            -6.903785
+          ],
+          [
+            107.5709605,
+            -6.9025168
           ]
         ]
       },
@@ -1008,7 +1247,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -1051,8 +1296,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
         "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -1065,12 +1315,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7730842,
-            -6.971084
-          ],
-          [
             107.7732436,
             -6.9711354
+          ],
+          [
+            107.7730842,
+            -6.971084
           ]
         ]
       },
@@ -1082,7 +1332,13 @@
         "layer": "1",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -1099,12 +1355,12 @@
             -6.9710179
           ],
           [
-            107.7706547,
-            -6.9701975
+            107.7706185,
+            -6.9701895
           ],
           [
-            107.7695348,
-            -6.969787
+            107.7695225,
+            -6.9698003
           ],
           [
             107.7680425,
@@ -1119,28 +1375,32 @@
             -6.9673188
           ],
           [
-            107.7621167,
-            -6.9670944
+            107.7620996,
+            -6.9670865
+          ],
+          [
+            107.762047,
+            -6.967067
           ],
           [
             107.7610648,
             -6.9667137
           ],
           [
-            107.7596165,
-            -6.9661845
+            107.7596095,
+            -6.9661822
           ],
           [
-            107.7586189,
-            -6.9658219
+            107.75859,
+            -6.9658127
           ],
           [
-            107.7585109,
-            -6.9657822
+            107.7584866,
+            -6.9657757
           ],
           [
-            107.7580639,
-            -6.965618
+            107.7580491,
+            -6.9656144
           ]
         ]
       },
@@ -1150,7 +1410,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -1163,12 +1429,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.747952,
-            -6.9619412
-          ],
-          [
             107.7480496,
             -6.9619745
+          ],
+          [
+            107.747952,
+            -6.9619412
           ]
         ]
       },
@@ -1180,7 +1446,13 @@
         "layer": "1",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -1193,16 +1465,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7732436,
-            -6.9711354
+            107.7808479,
+            -6.9739068
           ],
           [
             107.779933,
             -6.973572
           ],
           [
-            107.7808479,
-            -6.9739068
+            107.7732436,
+            -6.9711354
           ]
         ]
       },
@@ -1212,7 +1484,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -1225,12 +1503,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7808479,
-            -6.9739068
-          ],
-          [
             107.7810284,
             -6.9739745
+          ],
+          [
+            107.7808479,
+            -6.9739068
           ]
         ]
       },
@@ -1242,7 +1520,13 @@
         "layer": "1",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -1255,8 +1539,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7542968,
-            -6.9642105
+            107.7542976,
+            -6.9642063
+          ],
+          [
+            107.7548615,
+            -6.96442
           ],
           [
             107.754917,
@@ -1267,20 +1555,28 @@
             -6.9646056
           ],
           [
-            107.7570495,
-            -6.9652133
+            107.7570304,
+            -6.9652028
           ],
           [
-            107.7572798,
-            -6.9652931
+            107.7572606,
+            -6.9652869
           ],
           [
-            107.7573839,
-            -6.9653287
+            107.7573105,
+            -6.9653054
           ],
           [
-            107.7580639,
-            -6.965618
+            107.757362,
+            -6.9653245
+          ],
+          [
+            107.7577073,
+            -6.9654702
+          ],
+          [
+            107.7580491,
+            -6.9656144
           ]
         ]
       },
@@ -1300,16 +1596,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7810284,
-            -6.9739745
+            107.7843598,
+            -6.9751803
           ],
           [
             107.7834435,
             -6.9748474
           ],
           [
-            107.7843598,
-            -6.9751803
+            107.7810284,
+            -6.9739745
           ]
         ]
       },
@@ -1319,7 +1615,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -1332,12 +1634,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7843598,
-            -6.9751803
-          ],
-          [
             107.7845186,
             -6.9752392
+          ],
+          [
+            107.7843598,
+            -6.9751803
           ]
         ]
       },
@@ -1349,7 +1651,13 @@
         "layer": "1",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -1362,12 +1670,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7728928,
-            -6.9710179
-          ],
-          [
             107.7730001,
             -6.9710556
+          ],
+          [
+            107.7728928,
+            -6.9710179
           ]
         ]
       },
@@ -1379,7 +1687,13 @@
         "layer": "1",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -1392,12 +1706,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7730001,
-            -6.9710556
-          ],
-          [
             107.7730842,
             -6.971084
+          ],
+          [
+            107.7730001,
+            -6.9710556
           ]
         ]
       },
@@ -1407,7 +1721,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -1420,16 +1740,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7542968,
-            -6.9642105
+            107.7542976,
+            -6.9642063
           ],
           [
             107.7541333,
             -6.9641479
           ],
           [
-            107.7539396,
-            -6.9640792
+            107.7539093,
+            -6.9640651
+          ],
+          [
+            107.753583,
+            -6.9639654
           ],
           [
             107.7532243,
@@ -1575,8 +1899,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
         "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -1596,6 +1925,10 @@
             -6.8436712
           ],
           [
+            107.4981744,
+            -6.8436985
+          ],
+          [
             107.4983127,
             -6.8438282
           ],
@@ -1612,8 +1945,7 @@
         "maxspeed": "30",
         "railway": "rail",
         "railway:track_ref": "2",
-        "service": "siding",
-        "usage": "main"
+        "service": "siding"
       }
     },
     {
@@ -1622,12 +1954,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.500384,
-            -6.8456388
+            107.5003833,
+            -6.8456228
           ],
           [
-            107.5008303,
-            -6.8459463
+            107.5004979,
+            -6.8457075
+          ],
+          [
+            107.5006093,
+            -6.8457833
+          ],
+          [
+            107.50069,
+            -6.8458365
+          ],
+          [
+            107.5008325,
+            -6.8459445
           ]
         ]
       },
@@ -1643,12 +1987,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5002955,
-            -6.8455676
+            107.4990727,
+            -6.8444849
           ],
           [
-            107.4991074,
-            -6.8445132
+            107.4991872,
+            -6.8445924
+          ],
+          [
+            107.4995825,
+            -6.8449524
+          ],
+          [
+            107.4998237,
+            -6.8451605
+          ],
+          [
+            107.5003057,
+            -6.8455589
           ]
         ]
       },
@@ -1658,7 +2014,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -1670,12 +2032,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5821672,
-            -6.9099526
+            107.5821404,
+            -6.9099596
           ],
           [
-            107.5822421,
-            -6.9100045
+            107.582223,
+            -6.9100138
           ]
         ]
       },
@@ -1685,7 +2047,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -1697,68 +2065,96 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5824711,
-            -6.9101568
+            107.5824446,
+            -6.9101631
           ],
           [
-            107.5826801,
-            -6.9103199
+            107.5825993,
+            -6.9102786
           ],
           [
-            107.5827912,
-            -6.9104025
+            107.582765,
+            -6.9104088
           ],
           [
-            107.5831308,
-            -6.9106441
+            107.582917,
+            -6.9105175
           ],
           [
-            107.5855602,
-            -6.912249
+            107.5831168,
+            -6.9106499
           ],
           [
-            107.5857063,
-            -6.9123455
+            107.5839059,
+            -6.9111715
           ],
           [
-            107.5862342,
-            -6.9126943
+            107.5853352,
+            -6.9121178
           ],
           [
-            107.5866065,
-            -6.9129092
+            107.5855453,
+            -6.9122569
           ],
           [
-            107.5868824,
-            -6.9130562
+            107.5855833,
+            -6.9122817
           ],
           [
-            107.5871341,
-            -6.9131758
+            107.5856529,
+            -6.9123273
           ],
           [
-            107.5874445,
-            -6.9133094
+            107.5856926,
+            -6.9123535
           ],
           [
-            107.5877123,
-            -6.9134183
+            107.5859504,
+            -6.9125232
           ],
           [
-            107.5879336,
-            -6.9134984
+            107.586121,
+            -6.9126324
           ],
           [
-            107.5881129,
-            -6.9135546
+            107.5863089,
+            -6.9127481
           ],
           [
-            107.5883393,
-            -6.9136208
+            107.5866034,
+            -6.9129165
           ],
           [
-            107.5885135,
-            -6.9136653
+            107.5868789,
+            -6.9130642
+          ],
+          [
+            107.5871337,
+            -6.9131854
+          ],
+          [
+            107.5874437,
+            -6.9133182
+          ],
+          [
+            107.5877108,
+            -6.9134225
+          ],
+          [
+            107.5879324,
+            -6.9135038
+          ],
+          [
+            107.5881391,
+            -6.9135714
+          ],
+          [
+            107.5884248,
+            -6.9136502
+          ],
+          [
+            107.5885043,
+            -6.9136722
           ]
         ]
       },
@@ -1768,7 +2164,13 @@
         "gauge": "1067",
         "maxspeed": "30",
         "name": "Jalur Kereta Api Bandung–Ciroyom–Andir",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "both",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "branch",
         "wikidata": "Q25630218"
       }
@@ -1779,52 +2181,72 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5925153,
-            -6.9140139
+            107.5925022,
+            -6.9140219
           ],
           [
-            107.5922443,
-            -6.9140006
+            107.592337,
+            -6.9140156
           ],
           [
-            107.5919841,
-            -6.9139817
+            107.5922374,
+            -6.9140067
+          ],
+          [
+            107.5920233,
+            -6.9139876
+          ],
+          [
+            107.5919809,
+            -6.913984
+          ],
+          [
+            107.5917091,
+            -6.9139628
           ],
           [
             107.5916106,
-            -6.9139546
+            -6.9139577
           ],
           [
-            107.5913621,
-            -6.9139424
+            107.5913561,
+            -6.9139497
           ],
           [
-            107.589694,
-            -6.9138895
+            107.589695,
+            -6.9138981
           ],
           [
-            107.5895746,
-            -6.9138821
+            107.5895766,
+            -6.9138892
           ],
           [
-            107.5894685,
-            -6.9138694
+            107.589468,
+            -6.9138775
           ],
           [
-            107.5893367,
-            -6.9138493
+            107.5893252,
+            -6.9138612
           ],
           [
-            107.5891897,
-            -6.9138254
+            107.5892752,
+            -6.9138541
           ],
           [
-            107.5889165,
-            -6.9137738
+            107.589176,
+            -6.9138364
           ],
           [
-            107.5885135,
-            -6.9136653
+            107.5890445,
+            -6.9138112
+          ],
+          [
+            107.5888276,
+            -6.9137602
+          ],
+          [
+            107.5885043,
+            -6.9136722
           ]
         ]
       },
@@ -1834,8 +2256,14 @@
         "gauge": "1067",
         "maxspeed": "30",
         "name": "Jalur Kereta Api Bandung–Ciroyom–Andir",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "forward",
         "railway:track_ref": "3",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "branch",
         "wikidata": "Q25630218"
       }
@@ -1846,24 +2274,40 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6070186,
-            -6.9148712
+            107.607019,
+            -6.9148682
           ],
           [
             107.6068659,
             -6.9148503
           ],
           [
+            107.6068282,
+            -6.9148455
+          ],
+          [
             107.6067657,
             -6.9148375
           ],
           [
-            107.6055898,
-            -6.9146684
+            107.6065472,
+            -6.9148089
           ],
           [
-            107.6054321,
-            -6.9146465
+            107.606351,
+            -6.9147832
+          ],
+          [
+            107.6055405,
+            -6.914677
+          ],
+          [
+            107.6054885,
+            -6.9146698
+          ],
+          [
+            107.6054016,
+            -6.9146581
           ]
         ]
       },
@@ -1873,8 +2317,13 @@
         "gauge": "1067",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
         "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -1894,8 +2343,20 @@
             -6.9432326
           ],
           [
-            107.6940085,
-            -6.942316
+            107.6964549,
+            -6.9432059
+          ],
+          [
+            107.6947176,
+            -6.9425741
+          ],
+          [
+            107.6943144,
+            -6.9424274
+          ],
+          [
+            107.6939787,
+            -6.9423053
           ]
         ]
       },
@@ -1905,7 +2366,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -1918,12 +2385,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6843031,
-            -6.9387764
+            107.6842899,
+            -6.9387749
           ],
           [
-            107.6842618,
-            -6.9387609
+            107.6842582,
+            -6.9387634
           ],
           [
             107.6835587,
@@ -1969,7 +2436,13 @@
         "gauge": "1067",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -1982,8 +2455,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.4991074,
-            -6.8445132
+            107.4990727,
+            -6.8444849
           ],
           [
             107.4988975,
@@ -2005,8 +2478,7 @@
         "gauge": "1067",
         "maxspeed": "30",
         "railway": "rail",
-        "service": "siding",
-        "usage": "main"
+        "service": "siding"
       }
     },
     {
@@ -2032,8 +2504,13 @@
         "layer": "1",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
         "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -2109,7 +2586,13 @@
         "gauge": "1067",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -2121,52 +2604,88 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5965612,
-            -6.9142885
+            107.596535,
+            -6.9142984
           ],
           [
-            107.595756,
-            -6.9142958
+            107.5964666,
+            -6.9142987
           ],
           [
-            107.5953595,
-            -6.9142877
+            107.5957626,
+            -6.9143013
+          ],
+          [
+            107.5956125,
+            -6.914298
+          ],
+          [
+            107.5953565,
+            -6.9142887
+          ],
+          [
+            107.595235,
+            -6.9142813
           ],
           [
             107.5951289,
             -6.9142731
           ],
           [
-            107.5949435,
-            -6.9142501
+            107.5949477,
+            -6.9142503
           ],
           [
-            107.5948808,
-            -6.914241
+            107.594931,
+            -6.9142478
+          ],
+          [
+            107.5948908,
+            -6.9142419
+          ],
+          [
+            107.5948764,
+            -6.9142398
           ],
           [
             107.5947453,
             -6.9142212
           ],
           [
-            107.5936875,
-            -6.9140463
+            107.5943546,
+            -6.9141601
           ],
           [
-            107.5934519,
-            -6.914019
+            107.5938368,
+            -6.914079
           ],
           [
-            107.5932671,
-            -6.9140131
+            107.5936817,
+            -6.9140559
           ],
           [
-            107.5929728,
-            -6.9140149
+            107.5934507,
+            -6.9140331
           ],
           [
-            107.5925153,
-            -6.9140139
+            107.5932717,
+            -6.9140215
+          ],
+          [
+            107.593135,
+            -6.9140181
+          ],
+          [
+            107.5930139,
+            -6.9140175
+          ],
+          [
+            107.592956,
+            -6.9140186
+          ],
+          [
+            107.5925022,
+            -6.9140219
           ]
         ]
       },
@@ -2176,7 +2695,13 @@
         "gauge": "1067",
         "maxspeed": "30",
         "name": "Jalur Kereta Api Bandung–Ciroyom–Andir",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "branch",
         "wikidata": "Q25630218"
       }
@@ -2302,8 +2827,13 @@
         "gauge": "1067",
         "maxspeed": "90",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
         "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -2331,8 +2861,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
         "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -2362,8 +2897,13 @@
         "layer": "1",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
         "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -2393,8 +2933,7 @@
         "railway": "rail",
         "railway:track_ref": "2",
         "service": "siding",
-        "tunnel": "building_passage",
-        "usage": "main"
+        "tunnel": "building_passage"
       }
     },
     {
@@ -2403,12 +2942,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5817573,
-            -6.9096373
+            107.5817323,
+            -6.9096453
           ],
           [
-            107.5821672,
-            -6.9099526
+            107.5819094,
+            -6.9097817
+          ],
+          [
+            107.5821404,
+            -6.9099596
           ]
         ]
       },
@@ -2443,7 +2986,13 @@
         "layer": "1",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -2463,32 +3012,32 @@
             -6.9320545
           ],
           [
-            107.6647514,
-            -6.9315695
+            107.6647585,
+            -6.9315856
           ],
           [
             107.664081,
             -6.9313327
           ],
           [
-            107.663407,
-            -6.9310867
+            107.6634016,
+            -6.9310974
           ],
           [
-            107.6628529,
-            -6.9308841
+            107.6628319,
+            -6.9308905
           ],
           [
             107.6620263,
             -6.9305895
           ],
           [
-            107.6606526,
-            -6.930081
+            107.6606464,
+            -6.9300902
           ],
           [
-            107.6593164,
-            -6.9295964
+            107.6593045,
+            -6.9296065
           ]
         ]
       },
@@ -2498,7 +3047,13 @@
         "gauge": "1067",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -2527,7 +3082,13 @@
         "layer": "1",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -2566,7 +3127,13 @@
         "gauge": "1067",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -2595,7 +3162,13 @@
         "layer": "1",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -2626,7 +3199,13 @@
         "gauge": "1067",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -2655,7 +3234,13 @@
         "layer": "1",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -2667,12 +3252,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5822964,
-            -6.9100398
+            107.5822692,
+            -6.9100431
           ],
           [
-            107.5824711,
-            -6.9101568
+            107.5824446,
+            -6.9101631
           ]
         ]
       },
@@ -2682,7 +3267,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -2694,12 +3285,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5002955,
-            -6.8455676
+            107.5003057,
+            -6.8455589
           ],
           [
-            107.500384,
-            -6.8456388
+            107.500345,
+            -6.8455913
+          ],
+          [
+            107.5003833,
+            -6.8456228
           ]
         ]
       },
@@ -2709,7 +3304,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -2721,12 +3322,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5988511,
-            -6.9143483
+            107.5988424,
+            -6.9143626
           ],
           [
-            107.5994266,
-            -6.9143793
+            107.5991111,
+            -6.9143763
+          ],
+          [
+            107.5993953,
+            -6.9143899
           ]
         ]
       },
@@ -2736,7 +3341,13 @@
         "gauge": "1067",
         "maxspeed": "20",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -2748,12 +3359,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5970405,
-            -6.9142999
+            107.5974882,
+            -6.9142943
           ],
           [
-            107.5974708,
-            -6.9142773
+            107.5973616,
+            -6.9142987
+          ],
+          [
+            107.5972984,
+            -6.9143032
+          ],
+          [
+            107.5972383,
+            -6.9143074
           ]
         ]
       },
@@ -2763,7 +3382,13 @@
         "gauge": "1067",
         "maxspeed": "20",
         "name": "Jalur Kereta Api Bandung–Ciroyom–Andir",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "branch",
         "wikidata": "Q25630218"
       }
@@ -2774,12 +3399,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5979399,
-            -6.9143007
+            107.5979104,
+            -6.914315
           ],
           [
-            107.5983583,
-            -6.9143265
+            107.5983164,
+            -6.9143355
           ]
         ]
       },
@@ -2789,7 +3414,13 @@
         "gauge": "1067",
         "maxspeed": "20",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -2801,16 +3432,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5970405,
-            -6.9142999
+            107.5970032,
+            -6.914311
           ],
           [
-            107.5969329,
-            -6.9142973
+            107.5969474,
+            -6.9143093
           ],
           [
-            107.5965612,
-            -6.9142885
+            107.5968982,
+            -6.9143078
+          ],
+          [
+            107.596535,
+            -6.9142984
           ]
         ]
       },
@@ -2820,7 +3455,13 @@
         "gauge": "1067",
         "maxspeed": "20",
         "name": "Jalur Kereta Api Bandung–Ciroyom–Andir",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "branch",
         "wikidata": "Q25630218"
       }
@@ -2831,12 +3472,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5994266,
-            -6.9143793
+            107.5993953,
+            -6.9143899
           ],
           [
-            107.5999908,
-            -6.9144094
+            107.5997218,
+            -6.9144064
+          ],
+          [
+            107.599955,
+            -6.9144203
           ]
         ]
       },
@@ -2855,12 +3500,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6044728,
-            -6.9145695
+            107.6044783,
+            -6.9145824
           ],
           [
-            107.6048491,
-            -6.9146166
+            107.6046639,
+            -6.9146074
+          ],
+          [
+            107.604827,
+            -6.9146301
           ]
         ]
       },
@@ -2870,7 +3519,13 @@
         "gauge": "1067",
         "maxspeed": "20",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -2905,7 +3560,13 @@
         "gauge": "1067",
         "maxspeed": "90",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -2918,20 +3579,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6863321,
-            -6.9395198
+            107.6863148,
+            -6.9395132
           ],
           [
-            107.6862312,
-            -6.9394807
+            107.686263,
+            -6.939494
           ],
           [
-            107.6854595,
-            -6.9391991
+            107.6862144,
+            -6.939476
           ],
           [
-            107.6844754,
-            -6.93884
+            107.6854729,
+            -6.9392074
+          ],
+          [
+            107.6854535,
+            -6.9392004
+          ],
+          [
+            107.6844703,
+            -6.9388405
           ]
         ]
       },
@@ -2941,7 +3610,13 @@
         "gauge": "1067",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -2958,12 +3633,20 @@
             -6.9632786
           ],
           [
+            107.7515823,
+            -6.9632656
+          ],
+          [
             107.7515427,
             -6.963251
           ],
           [
             107.7503992,
             -6.9628279
+          ],
+          [
+            107.7498949,
+            -6.9626439
           ],
           [
             107.7498533,
@@ -2981,7 +3664,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -3002,6 +3691,10 @@
             -6.9638212
           ],
           [
+            107.7523729,
+            -6.9635497
+          ],
+          [
             107.7516173,
             -6.9632786
           ]
@@ -3013,7 +3706,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -3030,20 +3729,24 @@
             -6.9145291
           ],
           [
-            107.6034618,
-            -6.9145357
+            107.6034413,
+            -6.9145438
           ],
           [
-            107.6035669,
-            -6.9145375
+            107.6034922,
+            -6.9145447
           ],
           [
-            107.6037729,
-            -6.9145416
+            107.6035404,
+            -6.9145463
           ],
           [
-            107.6040587,
-            -6.914552
+            107.6037773,
+            -6.9145503
+          ],
+          [
+            107.6040044,
+            -6.9145595
           ]
         ]
       },
@@ -3062,40 +3765,52 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5999908,
-            -6.9144094
+            107.599955,
+            -6.9144203
           ],
           [
-            107.600491,
-            -6.9144273
+            107.6001797,
+            -6.9144283
           ],
           [
-            107.600654,
-            -6.914431
+            107.6004008,
+            -6.9144394
           ],
           [
-            107.6008267,
-            -6.9144278
+            107.6004734,
+            -6.9144408
           ],
           [
-            107.6009919,
-            -6.9144228
+            107.6005699,
+            -6.9144403
           ],
           [
-            107.6010753,
-            -6.9144227
+            107.6006699,
+            -6.9144376
           ],
           [
-            107.6011442,
-            -6.9144243
+            107.6008304,
+            -6.9144337
           ],
           [
-            107.6012213,
-            -6.914426
+            107.6009876,
+            -6.9144314
           ],
           [
-            107.6013668,
-            -6.9144348
+            107.601079,
+            -6.9144326
+          ],
+          [
+            107.6011382,
+            -6.9144355
+          ],
+          [
+            107.601222,
+            -6.9144392
+          ],
+          [
+            107.6013661,
+            -6.9144483
           ]
         ]
       },
@@ -3119,10 +3834,6 @@
             -6.8849429
           ],
           [
-            107.5351439,
-            -6.8846839
-          ],
-          [
             107.5347216,
             -6.8841796
           ]
@@ -3134,7 +3845,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -3165,7 +3882,13 @@
         "gauge": "1067",
         "maxspeed": "80",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -3177,12 +3900,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6044728,
-            -6.9145695
+            107.6044783,
+            -6.9145824
           ],
           [
-            107.6040587,
-            -6.914552
+            107.6043329,
+            -6.914568
+          ],
+          [
+            107.6041726,
+            -6.9145639
+          ],
+          [
+            107.6040044,
+            -6.9145595
           ]
         ]
       },
@@ -3221,8 +3952,14 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
         "railway:track_ref": "1",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -3259,12 +3996,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6873973,
-            -6.9399067
+            107.6873668,
+            -6.9398957
           ],
           [
-            107.6863321,
-            -6.9395198
+            107.6863148,
+            -6.9395132
           ]
         ]
       },
@@ -3274,7 +4011,13 @@
         "gauge": "1067",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -3287,19 +4030,27 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6940085,
-            -6.942316
+            107.6939787,
+            -6.9423053
           ],
           [
-            107.6939009,
-            -6.942277
+            107.6939199,
+            -6.942284
           ],
           [
-            107.691872,
-            -6.9415322
+            107.6938758,
+            -6.942268
           ],
           [
-            107.6916158,
+            107.6935402,
+            -6.9421457
+          ],
+          [
+            107.6918702,
+            -6.9415374
+          ],
+          [
+            107.6916047,
             -6.9414389
           ]
         ]
@@ -3310,7 +4061,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -3366,7 +4123,13 @@
         "gauge": "1067",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -3416,7 +4179,13 @@
         "gauge": "1067",
         "maxspeed": "90",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -3456,12 +4225,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5974708,
-            -6.9142773
+            107.5974882,
+            -6.9142943
           ],
           [
-            107.5979399,
-            -6.9143007
+            107.5976996,
+            -6.9143047
+          ],
+          [
+            107.5979104,
+            -6.914315
           ]
         ]
       },
@@ -3471,7 +4244,13 @@
         "gauge": "1067",
         "maxspeed": "20",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -3483,12 +4262,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5983583,
-            -6.9143265
+            107.5983164,
+            -6.9143355
           ],
           [
-            107.5988511,
-            -6.9143483
+            107.5985242,
+            -6.9143451
+          ],
+          [
+            107.5988424,
+            -6.9143626
           ]
         ]
       },
@@ -3498,7 +4281,13 @@
         "gauge": "1067",
         "maxspeed": "20",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -3537,12 +4326,16 @@
             -6.8841796
           ],
           [
-            107.5338579,
-            -6.8831507
+            107.5338517,
+            -6.8831516
           ],
           [
-            107.5330083,
-            -6.8821935
+            107.5332502,
+            -6.882474
+          ],
+          [
+            107.5329868,
+            -6.8821902
           ],
           [
             107.5324174,
@@ -3553,124 +4346,80 @@
             -6.8810669
           ],
           [
-            107.5316128,
-            -6.8808701
+            107.5315466,
+            -6.8808085
           ],
           [
-            107.5309945,
-            -6.880273
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1289162534,
-        "electrified": "no",
-        "gauge": "1067",
-        "maxspeed": "110",
-        "name": "Jalur Kereta Api Padalarang–Kasugihan",
-        "railway": "rail",
-        "usage": "main",
-        "wikidata": "Q25630218",
-        "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5309945,
-            -6.880273
+            107.5315291,
+            -6.8807924
           ],
           [
-            107.5309265,
-            -6.8802091
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1289162535,
-        "bridge": "yes",
-        "electrified": "no",
-        "gauge": "1067",
-        "layer": "1",
-        "maxspeed": "110",
-        "name": "Jalur Kereta Api Padalarang–Kasugihan",
-        "railway": "rail",
-        "usage": "main",
-        "wikidata": "Q25630218",
-        "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5309265,
-            -6.8802091
+            107.53151,
+            -6.8807747
           ],
           [
-            107.5307426,
-            -6.8800497
+            107.5309803,
+            -6.8802851
           ],
           [
-            107.5305977,
-            -6.8799171
+            107.5306047,
+            -6.879938
           ],
           [
-            107.5303464,
-            -6.8796794
+            107.5305888,
+            -6.8799225
           ],
           [
-            107.5284935,
-            -6.8779426
+            107.530329,
+            -6.8796827
           ],
           [
-            107.5281408,
-            -6.8776153
+            107.5284864,
+            -6.8779688
           ],
           [
-            107.5273029,
-            -6.8768415
+            107.5281164,
+            -6.8776325
           ],
           [
-            107.5255321,
-            -6.8751928
+            107.5272551,
+            -6.8768314
           ],
           [
-            107.5248185,
-            -6.8745415
+            107.5254986,
+            -6.8752089
           ],
           [
-            107.5245082,
-            -6.8742776
+            107.5247992,
+            -6.8745614
           ],
           [
-            107.524133,
-            -6.8739753
+            107.5244936,
+            -6.8742937
           ],
           [
-            107.5237981,
-            -6.8737326
+            107.5240994,
+            -6.8739823
           ],
           [
-            107.5235146,
-            -6.8735536
+            107.5237786,
+            -6.873751
           ],
           [
-            107.5231388,
-            -6.8733425
+            107.5234978,
+            -6.8735712
           ],
           [
-            107.5227222,
-            -6.8731199
+            107.5233321,
+            -6.8734717
           ],
           [
-            107.5226249,
-            -6.8730736
+            107.52313,
+            -6.8733504
+          ],
+          [
+            107.5227263,
+            -6.8731355
           ],
           [
             107.5218812,
@@ -3687,12 +4436,18 @@
         ]
       },
       "properties": {
-        "id": 1303724120,
+        "id": 1289162534,
         "electrified": "no",
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Bogor–Padalarang–Kasugihan"
@@ -3704,12 +4459,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5154983,
+            107.5155013,
             -6.8652886
           ],
           [
-            107.514805,
-            -6.8637207
+            107.514957,
+            -6.8640733
+          ],
+          [
+            107.5146052,
+            -6.863278
           ]
         ]
       },
@@ -3719,8 +4478,14 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
         "railway:track_ref": "2",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -3732,24 +4497,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5709419,
-            -6.9025002
+            107.5709107,
+            -6.9024837
           ],
           [
-            107.5700143,
-            -6.9018873
+            107.5698989,
+            -6.9018151
           ],
           [
-            107.5673987,
-            -6.900152
+            107.5683033,
+            -6.9007588
           ],
           [
-            107.5652934,
-            -6.8987625
+            107.5673941,
+            -6.9001551
           ],
           [
-            107.5641881,
-            -6.8980288
+            107.565307,
+            -6.8987909
+          ],
+          [
+            107.5652834,
+            -6.8987755
+          ],
+          [
+            107.5642368,
+            -6.8980752
+          ],
+          [
+            107.5641854,
+            -6.8980408
           ]
         ]
       },
@@ -3759,7 +4536,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -3771,8 +4554,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5641881,
-            -6.8980288
+            107.5641854,
+            -6.8980408
           ],
           [
             107.5637707,
@@ -3780,19 +4563,35 @@
           ],
           [
             107.5633281,
-            -6.897465
+            -6.8974853
+          ],
+          [
+            107.5629527,
+            -6.8972258
           ],
           [
             107.5626565,
             -6.8970211
           ],
           [
-            107.5608588,
-            -6.8958278
+            107.5618409,
+            -6.8964887
           ],
           [
-            107.5606041,
-            -6.895667
+            107.5608515,
+            -6.8958324
+          ],
+          [
+            107.5605771,
+            -6.8956591
+          ],
+          [
+            107.5604131,
+            -6.8955578
+          ],
+          [
+            107.5603777,
+            -6.8955359
           ],
           [
             107.5602416,
@@ -3807,16 +4606,16 @@
             -6.8952145
           ],
           [
-            107.5596724,
-            -6.8951328
+            107.5596795,
+            -6.8951484
           ],
           [
-            107.5594462,
-            -6.8950131
+            107.5594408,
+            -6.8950192
           ],
           [
-            107.5592806,
-            -6.8949241
+            107.5591238,
+            -6.8948543
           ],
           [
             107.5587546,
@@ -3830,8 +4629,14 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
         "railway:track_ref": "3",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -3847,8 +4652,12 @@
             -6.9486453
           ],
           [
-            107.7103334,
-            -6.9482492
+            107.710294,
+            -6.9482369
+          ],
+          [
+            107.7102534,
+            -6.9482218
           ],
           [
             107.7058078,
@@ -3866,7 +4675,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -3898,9 +4713,14 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
         "railway:preferred_direction": "forward",
         "railway:track_ref": "2",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -3944,8 +4764,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
         "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -3974,8 +4799,13 @@
         "layer": "1",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
         "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -4010,8 +4840,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
         "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -4040,8 +4875,13 @@
         "layer": "1",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
         "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -4104,7 +4944,13 @@
         "gauge": "1067",
         "maxspeed": "90",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -4131,7 +4977,13 @@
         "gauge": "1067",
         "maxspeed": "90",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -4158,7 +5010,13 @@
         "gauge": "1067",
         "maxspeed": "90",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -4186,7 +5044,13 @@
         "gauge": "1067",
         "maxspeed": "90",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -4198,8 +5062,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6592273,
-            -6.9295645
+            107.6592233,
+            -6.9295781
           ],
           [
             107.6553246,
@@ -4221,7 +5085,13 @@
         "gauge": "1067",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -4233,12 +5103,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6593164,
-            -6.9295964
+            107.6593045,
+            -6.9296065
           ],
           [
-            107.6592273,
-            -6.9295645
+            107.6592233,
+            -6.9295781
           ]
         ]
       },
@@ -4250,7 +5120,13 @@
         "layer": "1",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -4310,8 +5186,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
         "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -4324,15 +5205,19 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5164779,
-            -6.8674625
+            107.5164575,
+            -6.8674713
           ],
           [
             107.516039,
             -6.866468
           ],
           [
-            107.5154983,
+            107.5156616,
+            -6.8656295
+          ],
+          [
+            107.5155013,
             -6.8652886
           ]
         ]
@@ -4343,7 +5228,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -4359,8 +5250,12 @@
             -6.8717366
           ],
           [
-            107.5195368,
-            -6.8715912
+            107.5195403,
+            -6.8715831
+          ],
+          [
+            107.519437,
+            -6.8715243
           ],
           [
             107.5190963,
@@ -4399,8 +5294,8 @@
             -6.8683035
           ],
           [
-            107.5164779,
-            -6.8674625
+            107.5164575,
+            -6.8674713
           ]
         ]
       },
@@ -4410,7 +5305,13 @@
         "gauge": "1067",
         "maxspeed": "100",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -4441,7 +5342,13 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -4471,7 +5378,13 @@
         "layer": "1",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "source": "Yahoo hires",
         "usage": "main",
         "wikidata": "Q25630218",
@@ -4484,8 +5397,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.602796,
-            -6.9145079
+            107.6027956,
+            -6.9145101
           ],
           [
             107.6031495,
@@ -4509,8 +5422,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6013668,
-            -6.9144348
+            107.6013661,
+            -6.9144483
           ],
           [
             107.6016923,
@@ -4549,8 +5462,14 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
         "railway:track_ref": "1",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -4578,8 +5497,14 @@
         "gauge": "1067",
         "maxspeed": "110",
         "name": "Jalur Kereta Api Padalarang–Kasugihan",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
         "railway": "rail",
+        "railway:bidirectional": "signals",
+        "railway:preferred_direction": "forward",
         "railway:track_ref": "1",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
         "usage": "main",
         "wikidata": "Q25630218",
         "wikipedia": "id:Jalur kereta api Padalarang–Kasugihan"
@@ -4607,8 +5532,7 @@
         "maxspeed": "30",
         "railway": "rail",
         "railway:track_ref": "2",
-        "service": "siding",
-        "usage": "main"
+        "service": "siding"
       }
     },
     {
@@ -4634,8 +5558,77 @@
         "maxspeed": "30",
         "railway": "rail",
         "railway:track_ref": "2",
-        "service": "siding",
-        "usage": "main"
+        "service": "siding"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5972053,
+            -6.9143098
+          ],
+          [
+            107.5971707,
+            -6.9143115
+          ],
+          [
+            107.5970032,
+            -6.914311
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1558173300,
+        "electrified": "no",
+        "gauge": "1067",
+        "maxspeed": "20",
+        "name": "Jalur Kereta Api Bandung–Ciroyom–Andir",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
+        "railway": "rail",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
+        "usage": "branch",
+        "wikidata": "Q25630218"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5972383,
+            -6.9143074
+          ],
+          [
+            107.5972053,
+            -6.9143098
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1558173301,
+        "bridge": "yes",
+        "electrified": "no",
+        "gauge": "1067",
+        "layer": "1",
+        "maxspeed": "20",
+        "name": "Jalur Kereta Api Bandung–Ciroyom–Andir",
+        "operator": "Kereta Api Indonesia",
+        "owner": "Direktorat Jenderal Perkeretaapian Kementerian Perhubungan Republik Indonesia",
+        "railway": "rail",
+        "railway:bidirectional": "regular",
+        "railway:preferred_direction": "forward",
+        "railway:traffic_mode": "mixed",
+        "sleeper:material": "concrete",
+        "usage": "branch",
+        "wikidata": "Q25630218"
       }
     }
   ]

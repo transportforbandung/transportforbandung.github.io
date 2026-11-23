@@ -171,8 +171,12 @@
             -6.914736
           ],
           [
-            107.6051298,
-            -6.9147855
+            107.6053917,
+            -6.9148138
+          ],
+          [
+            107.6063544,
+            -6.9149336
           ],
           [
             107.6064066,
@@ -187,6 +191,9 @@
         "lanes": "3",
         "name": "Jalan Stasiun Timur",
         "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "lane",
+        "parking:right:orientation": "parallel",
         "sidewalk:left": "no",
         "sidewalk:right": "separate",
         "surface": "asphalt"
@@ -587,7 +594,8 @@
         "name": "Jalan Underpass Ir. Soekarno",
         "name:etymology:wikidata": "Q76127",
         "name:etymology:wikipedia": "id:Sukarno",
-        "oneway": "yes"
+        "note": "One-way rule temporarily removed due to road closure in Jalan gatot Subroto. Please revert back the oneway= tag to \"yes\" after that construction finished",
+        "oneway": "no"
       }
     },
     {
@@ -1639,13 +1647,12 @@
       },
       "properties": {
         "id": 339694302,
+        "construction": "primary",
         "designation": "provincial_road",
-        "highway": "primary",
-        "lanes": "1",
+        "highway": "construction",
         "name": "Jalan Baros",
-        "oneway": "yes",
-        "ref": "170",
-        "surface": "asphalt"
+        "note": "Road closed due to underpass construction. Please map the geometry of both this existing road and new underpass when available. Please also revert oneway= tag in Underpass Dustira and review Jalan Kartini after this construction finished.",
+        "oneway": "yes"
       }
     },
     {
@@ -2214,15 +2221,14 @@
       "properties": {
         "id": 385643848,
         "alt_name": "Jalan Baros",
+        "construction": "primary",
         "designation": "provincial_road",
-        "highway": "primary",
-        "lanes": "2",
+        "highway": "construction",
         "name": "Jalan Gatot Subroto",
         "name:etymology:wikidata": "Q5261540",
         "name:etymology:wikipedia": "id:Gatot Soebroto",
-        "oneway": "yes",
-        "ref": "170",
-        "surface": "asphalt"
+        "note": "Road closed due to underpass construction. Please map the geometry of both this existing road and new underpass when available. Please also revert oneway= tag in Underpass Dustira and review Jalan Kartini after this construction finished.",
+        "oneway": "yes"
       }
     },
     {
@@ -2384,12 +2390,12 @@
             -6.895268
           ],
           [
-            107.5597061,
-            -6.8951886
+            107.5597097,
+            -6.8952017
           ],
           [
-            107.5596724,
-            -6.8951328
+            107.5596795,
+            -6.8951484
           ],
           [
             107.5595504,
@@ -4127,6 +4133,10 @@
             -6.8827206
           ],
           [
+            107.5521505,
+            -6.8825808
+          ],
+          [
             107.5520864,
             -6.8824613
           ],
@@ -4264,16 +4274,15 @@
       "properties": {
         "id": 573047226,
         "alt_name": "Jalan Baros",
+        "construction": "primary",
         "designation": "provincial_road",
-        "highway": "primary",
-        "lanes": "2",
+        "highway": "construction",
         "motorcycle": "yes",
         "name": "Jalan Gatot Subroto",
         "name:etymology:wikidata": "Q5261540",
         "name:etymology:wikipedia": "id:Gatot Soebroto",
-        "oneway": "yes",
-        "ref": "170",
-        "surface": "asphalt"
+        "note": "Road closed due to underpass construction. Please map the geometry of both this existing road and new underpass when available. Please also revert oneway= tag in Underpass Dustira and review Jalan Kartini after this construction finished.",
+        "oneway": "yes"
       }
     },
     {
@@ -4441,18 +4450,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5372378,
-            -6.8880721
-          ],
-          [
-            107.5371821,
-            -6.8882052
-          ],
-          [
-            107.5369394,
-            -6.8887796
-          ],
-          [
             107.5366629,
             -6.8894348
           ],
@@ -4471,10 +4468,6 @@
           [
             107.536637,
             -6.8901554
-          ],
-          [
-            107.5366635,
-            -6.8904132
           ],
           [
             107.5366757,
@@ -4501,10 +4494,9 @@
         "lanes": "2",
         "name": "Jalan Baros",
         "oneway": "yes",
-        "parking:both": "no",
         "ref": "170",
-        "sidewalk": "both",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
@@ -5192,7 +5184,8 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Sriwijaya Raya",
-        "oneway": "yes",
+        "note": "One-way rule temporarily removed due to road closure in Jalan gatot Subroto. Please revert back the oneway= tag to \"yes\" after that construction finished",
+        "oneway": "no",
         "ref": "20"
       }
     },
@@ -5308,14 +5301,14 @@
       "properties": {
         "id": 892172995,
         "alt_name": "Jalan Baros",
+        "construction": "primary",
         "designation": "provincial_road",
-        "highway": "primary",
-        "lanes": "2",
+        "highway": "construction",
         "name": "Jalan Gatot Subroto",
         "name:etymology:wikidata": "Q5261540",
         "name:etymology:wikipedia": "id:Gatot Soebroto",
-        "oneway": "yes",
-        "ref": "170"
+        "note": "Road closed due to underpass construction. Please map the geometry of both this existing road and new underpass when available. Please also revert oneway= tag in Underpass Dustira and review Jalan Kartini after this construction finished.",
+        "oneway": "yes"
       }
     },
     {
@@ -5362,14 +5355,14 @@
       "properties": {
         "id": 909519329,
         "alt_name": "Jalan Baros",
+        "construction": "primary",
         "designation": "provincial_road",
-        "highway": "primary",
-        "lanes": "2",
+        "highway": "construction",
         "name": "Jalan Gatot Subroto",
         "name:etymology:wikidata": "Q5261540",
         "name:etymology:wikipedia": "id:Gatot Soebroto",
-        "oneway": "yes",
-        "ref": "170"
+        "note": "Road closed due to underpass construction. Please map the geometry of both this existing road and new underpass when available. Please also revert oneway= tag in Underpass Dustira and review Jalan Kartini after this construction finished.",
+        "oneway": "yes"
       }
     },
     {
@@ -5850,7 +5843,8 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Dustira",
-        "oneway": "yes",
+        "note": "One-way rule temporarily removed due to road closure in Jalan gatot Subroto. Please revert back the oneway= tag to \"yes\" after that construction finished",
+        "oneway": "no",
         "ref": "19",
         "sidewalk": "left",
         "surface": "asphalt"
@@ -6096,6 +6090,10 @@
             -6.9160638
           ],
           [
+            107.6040403,
+            -6.915928
+          ],
+          [
             107.6043695,
             -6.9158689
           ],
@@ -6270,7 +6268,8 @@
         "name": "Jalan Underpass Ir. Soekarno",
         "name:etymology:wikidata": "Q76127",
         "name:etymology:wikipedia": "id:Sukarno",
-        "oneway": "yes",
+        "note": "One-way rule temporarily removed due to road closure in Jalan gatot Subroto. Please revert back the oneway= tag to \"yes\" after that construction finished",
+        "oneway": "no",
         "tunnel": "yes"
       }
     },
@@ -6353,7 +6352,8 @@
         "name": "Jalan Underpass Ir. Soekarno",
         "name:etymology:wikidata": "Q76127",
         "name:etymology:wikipedia": "id:Sukarno",
-        "oneway": "yes"
+        "note": "One-way rule temporarily removed due to road closure in Jalan gatot Subroto. Please revert back the oneway= tag to \"yes\" after that construction finished",
+        "oneway": "no"
       }
     },
     {
@@ -7059,36 +7059,36 @@
             -6.9127619
           ],
           [
-            107.6046653,
-            -6.9131773
+            107.6046613,
+            -6.913176
           ],
           [
-            107.6046562,
+            107.6046522,
             -6.9133158
           ],
           [
-            107.6046487,
-            -6.9134899
+            107.6046393,
+            -6.9134886
           ],
           [
-            107.6046413,
+            107.6046306,
             -6.9136374
           ],
           [
-            107.6046392,
+            107.6046271,
             -6.9136785
           ],
           [
-            107.6046344,
-            -6.913774
-          ],
-          [
-            107.6046298,
-            -6.9138408
-          ],
-          [
             107.604621,
-            -6.913968
+            -6.9137727
+          ],
+          [
+            107.6046177,
+            -6.9138395
+          ],
+          [
+            107.6046089,
+            -6.913972
           ],
           [
             107.6045855,
@@ -8045,6 +8045,39 @@
         "oneway": "yes",
         "ref": "11",
         "source": "Yahoo hires"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5372378,
+            -6.8880721
+          ],
+          [
+            107.5371821,
+            -6.8882052
+          ],
+          [
+            107.5369394,
+            -6.8887796
+          ],
+          [
+            107.5366629,
+            -6.8894348
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1550652599,
+        "construction": "primary",
+        "designation": "provincial_road",
+        "highway": "construction",
+        "name": "Jalan Baros",
+        "note": "Road closed due to underpass construction. Please map the geometry of both this existing road and new underpass when available. Please also revert oneway= tag in Underpass Dustira and review Jalan Kartini after this construction finished.",
+        "oneway": "yes"
       }
     }
   ]

@@ -4554,8 +4554,8 @@
             -6.9377567
           ],
           [
-            107.6060844,
-            -6.9377076
+            107.606077,
+            -6.9376989
           ],
           [
             107.6060472,
@@ -4566,8 +4566,12 @@
             -6.9376241
           ],
           [
-            107.6059365,
-            -6.9375973
+            107.6059433,
+            -6.9376051
+          ],
+          [
+            107.6058589,
+            -6.9375877
           ]
         ]
       },
@@ -5259,12 +5263,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6030687,
-            -6.9373365
+            107.6030728,
+            -6.9373193
           ],
           [
-            107.6029953,
-            -6.9373294
+            107.6029983,
+            -6.9373153
           ]
         ]
       },
@@ -5480,28 +5484,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6044934,
-            -6.9374561
+            107.6044944,
+            -6.937447
           ],
           [
-            107.604396,
-            -6.9374454
+            107.604397,
+            -6.9374363
           ],
           [
-            107.6036889,
-            -6.9373854
+            107.6036899,
+            -6.9373733
           ],
           [
             107.6032992,
-            -6.937358
+            -6.9373408
           ],
           [
-            107.6031703,
-            -6.9373463
+            107.6031744,
+            -6.9373291
           ],
           [
-            107.6030687,
-            -6.9373365
+            107.6030728,
+            -6.9373193
           ]
         ]
       },
@@ -6002,6 +6006,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -6087,6 +6092,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -6120,7 +6126,9 @@
       "properties": {
         "id": 570115113,
         "avgspeed": "25",
-        "highway": "primary",
+        "construction": "primary",
+        "flood_prone": "yes",
+        "highway": "construction",
         "lanes": "2",
         "name": "Jalan Raya Dayeuhkolot",
         "oneway": "yes",
@@ -6146,7 +6154,9 @@
         "id": 570115118,
         "avgspeed": "25",
         "bridge": "yes",
-        "highway": "primary",
+        "construction": "primary",
+        "flood_prone": "yes",
+        "highway": "construction",
         "lanes": "2",
         "layer": "1",
         "oneway": "yes",
@@ -6171,8 +6181,9 @@
       "properties": {
         "id": 570115121,
         "avgspeed": "25",
+        "construction": "primary",
         "flood_prone": "yes",
-        "highway": "primary",
+        "highway": "construction",
         "lanes": "1",
         "name": "Jalan Raya Bandung - Banjaran",
         "oneway": "yes",
@@ -9407,8 +9418,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6029953,
-            -6.9373294
+            107.6029983,
+            -6.9373153
           ],
           [
             107.6030015,
@@ -9967,24 +9978,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6059365,
-            -6.9375973
+            107.6058589,
+            -6.9375877
           ],
           [
-            107.6055097,
-            -6.9375586
+            107.6055067,
+            -6.9375626
           ],
           [
-            107.6046591,
-            -6.9374791
+            107.6047557,
+            -6.937495
           ],
           [
-            107.604578,
-            -6.9374674
+            107.6046571,
+            -6.9374801
           ],
           [
-            107.6044934,
-            -6.9374561
+            107.60458,
+            -6.9374634
+          ],
+          [
+            107.6044944,
+            -6.937447
           ]
         ]
       },
@@ -10056,8 +10071,9 @@
       "properties": {
         "id": 1112143764,
         "avgspeed": "25",
+        "construction": "primary",
         "flood_prone": "yes",
-        "highway": "primary",
+        "highway": "construction",
         "lanes": "1",
         "name": "Jalan Raya Bandung - Banjaran",
         "oneway": "yes",
@@ -11169,8 +11185,9 @@
       "properties": {
         "id": 1415825123,
         "avgspeed": "25",
+        "construction": "primary",
         "flood_prone": "yes",
-        "highway": "primary",
+        "highway": "construction",
         "lanes": "1",
         "name": "Jalan Raya Bandung - Banjaran",
         "oneway": "yes",

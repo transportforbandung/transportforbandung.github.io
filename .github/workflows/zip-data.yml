@@ -7,6 +7,8 @@ on:
       - 'route-data/shp-named-ungrouped/**'
       - 'route-data/kml-named/**'
   workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * 1"  # every Monday at 2:00 UTC
 
 permissions:
   contents: write

@@ -800,12 +800,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6301321,
-            -6.9069718
-          ],
-          [
             107.6300738,
             -6.9068822
+          ],
+          [
+            107.6299247,
+            -6.9066444
           ],
           [
             107.629845,
@@ -825,6 +825,7 @@
         "oneway": "yes",
         "parking:both": "no",
         "ref": "380",
+        "sidewalk:left": "separate",
         "surface": "asphalt"
       }
     },
@@ -834,16 +835,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6403797,
-            -6.9541465
+            107.6404234,
+            -6.9541554
           ],
           [
-            107.6404231,
-            -6.9541579
+            107.6404301,
+            -6.9541569
           ],
           [
-            107.6404838,
-            -6.9541709
+            107.6404858,
+            -6.9541662
           ],
           [
             107.6406395,
@@ -969,6 +970,10 @@
           [
             107.6374071,
             -6.9145151
+          ],
+          [
+            107.6373588,
+            -6.9145209
           ]
         ]
       },
@@ -977,8 +982,10 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
         "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-04:00)"
+        "oneway:conditional": "no @ (16:00-04:00)",
+        "sidewalk:both": "separate"
       }
     },
     {
@@ -1003,8 +1010,10 @@
         "lanes": "4",
         "layer": "1",
         "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
         "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-04:00)"
+        "oneway:conditional": "no @ (16:00-04:00)",
+        "sidewalk:both": "separate"
       }
     },
     {
@@ -1141,7 +1150,8 @@
         "lanes": "2",
         "name": "Jalan H. Ibrahim Adjie",
         "old_name": "Jalan Kiaracondong",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -1195,7 +1205,7 @@
         "id": 321085761,
         "cycleway:both": "no",
         "destination:lanes": "Riau;Aceh;Gandapura|Cilaki;Katamso;Cisadea",
-        "highway": "tertiary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
@@ -1225,87 +1235,91 @@
           ],
           [
             107.6414919,
-            -6.9139998
+            -6.9139937
           ],
           [
-            107.641333,
-            -6.91402
+            107.641334,
+            -6.9140119
           ],
           [
-            107.6412294,
-            -6.9140332
+            107.6412274,
+            -6.9140241
           ],
           [
-            107.6410867,
-            -6.9140514
+            107.6410877,
+            -6.9140393
           ],
           [
-            107.6409986,
-            -6.9140626
+            107.6409956,
+            -6.9140515
           ],
           [
-            107.6405342,
-            -6.9141216
+            107.6405312,
+            -6.9141105
           ],
           [
-            107.6404441,
-            -6.914133
+            107.6404431,
+            -6.9141209
           ],
           [
-            107.6403058,
-            -6.9141506
+            107.6403048,
+            -6.9141385
           ],
           [
-            107.6402235,
-            -6.9141611
+            107.6402144,
+            -6.914148
           ],
           [
-            107.6399572,
-            -6.9141974
+            107.6399554,
+            -6.914178
           ],
           [
-            107.6399016,
-            -6.9142036
+            107.6398939,
+            -6.914186
           ],
           [
-            107.639752,
-            -6.914221
+            107.6397497,
+            -6.9142026
           ],
           [
-            107.6394886,
-            -6.9142545
+            107.6394855,
+            -6.9142369
           ],
           [
-            107.6393055,
-            -6.9142777
+            107.6393217,
+            -6.9142593
           ],
           [
-            107.6391705,
-            -6.9142949
+            107.6391686,
+            -6.914281
           ],
           [
-            107.6390974,
-            -6.9143035
+            107.6390956,
+            -6.9142912
           ],
           [
-            107.6389372,
-            -6.914324
+            107.6389363,
+            -6.9143117
           ],
           [
             107.6388474,
-            -6.914336
+            -6.9143228
           ],
           [
-            107.6386476,
-            -6.9143613
+            107.6386441,
+            -6.9143525
           ],
           [
-            107.6385849,
-            -6.9143693
+            107.6385822,
+            -6.9143614
           ],
           [
-            107.6384709,
-            -6.9143838
+            107.6385215,
+            -6.9143724
+          ],
+          [
+            107.6384678,
+            -6.9143807
           ],
           [
             107.6381956,
@@ -1326,6 +1340,14 @@
           [
             107.6376149,
             -6.9144902
+          ],
+          [
+            107.6375655,
+            -6.9144961
+          ],
+          [
+            107.6375505,
+            -6.9144979
           ]
         ]
       },
@@ -1334,8 +1356,10 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
         "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-06:00)"
+        "oneway:conditional": "no @ (16:00-06:00)",
+        "sidewalk:both": "separate"
       }
     },
     {
@@ -1346,6 +1370,10 @@
           [
             107.629845,
             -6.9065172
+          ],
+          [
+            107.6297558,
+            -6.9063806
           ],
           [
             107.6296851,
@@ -1469,12 +1497,8 @@
             -6.9146453
           ],
           [
-            107.6356952,
-            -6.9145626
-          ],
-          [
-            107.6356516,
-            -6.9145514
+            107.6357903,
+            -6.914575
           ]
         ]
       },
@@ -1483,7 +1507,9 @@
         "highway": "primary",
         "lanes": "4",
         "name": "Jalan Jakarta",
+        "name:en": "Jakarta Avenue",
         "oneway": "yes",
+        "sidewalk:both": "separate",
         "surface": "asphalt",
         "turn:lanes": "slight_left|through|through|slight_right"
       }
@@ -1713,8 +1739,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6422888,
-            -6.9139602
+            107.6422876,
+            -6.9139498
           ],
           [
             107.6421252,
@@ -1731,7 +1757,10 @@
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Jakarta",
-        "oneway": "yes"
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -1883,7 +1912,7 @@
       "properties": {
         "id": 618039504,
         "cycleway:both": "no",
-        "highway": "tertiary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
@@ -2727,8 +2756,8 @@
             -6.9138756
           ],
           [
-            107.6422888,
-            -6.9139602
+            107.6422876,
+            -6.9139498
           ]
         ]
       },
@@ -2737,7 +2766,10 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jakarta",
-        "oneway": "yes"
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -2746,28 +2778,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6353848,
-            -6.9144668
+            107.6353857,
+            -6.9144404
           ],
           [
-            107.635303,
-            -6.9144435
+            107.6352711,
+            -6.9144049
           ],
           [
-            107.6350006,
-            -6.9143377
+            107.6350094,
+            -6.9143201
           ],
           [
-            107.6348698,
-            -6.9142738
+            107.6348813,
+            -6.9142677
           ],
           [
-            107.6347632,
-            -6.9141918
+            107.634806,
+            -6.9142244
           ],
           [
-            107.6346801,
-            -6.9140834
+            107.6347384,
+            -6.9141681
+          ],
+          [
+            107.6346739,
+            -6.9140816
           ],
           [
             107.6340817,
@@ -2861,12 +2897,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6356516,
-            -6.9145514
+            107.6357903,
+            -6.914575
           ],
           [
-            107.6353848,
-            -6.9144668
+            107.6353857,
+            -6.9144404
           ]
         ]
       },
@@ -3238,7 +3274,7 @@
       },
       "properties": {
         "id": 1072146130,
-        "highway": "tertiary",
+        "highway": "primary",
         "lanes": "2",
         "name": "Jalan Lapang Supratman",
         "name:en": "Supratmans Park Boulevard",
@@ -3273,40 +3309,6 @@
         "lanes": "2",
         "name": "Marga Cinta",
         "ref": "6080",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6193024,
-            -6.9011929
-          ],
-          [
-            107.6192996,
-            -6.9010729
-          ],
-          [
-            107.6192733,
-            -6.8999367
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1109942070,
-        "avgspeed": "30",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Sentot Alibasyah",
-        "oneway": "yes",
-        "parking:both": "no",
-        "ref": "387",
-        "reg_ref": "22-00-387-12K",
-        "sidewalk:left": "separate",
-        "sidewalk:right": "no",
         "surface": "asphalt"
       }
     },
@@ -3443,78 +3445,6 @@
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "through|right"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6374071,
-            -6.9145151
-          ],
-          [
-            107.6373588,
-            -6.9145209
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1209061171,
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-04:00)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6375655,
-            -6.9144961
-          ],
-          [
-            107.6375505,
-            -6.9144979
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1209061172,
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-06:00)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.6376149,
-            -6.9144902
-          ],
-          [
-            107.6375655,
-            -6.9144961
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1209061174,
-        "highway": "primary",
-        "lanes": "4",
-        "name": "Jalan Jakarta",
-        "oneway": "yes",
-        "oneway:conditional": "no @ (16:00-06:00)"
       }
     },
     {
@@ -4050,7 +3980,10 @@
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Jakarta",
-        "oneway": "yes"
+        "name:en": "Jakarta Avenue",
+        "oneway": "yes",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no"
       }
     },
     {
@@ -4059,8 +3992,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6403797,
-            -6.9541465
+            107.6404234,
+            -6.9541554
+          ],
+          [
+            107.64038,
+            -6.9541562
           ],
           [
             107.6403362,
@@ -5416,6 +5353,70 @@
         "ref": "381",
         "sidewalk:left": "separate",
         "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6193024,
+            -6.9011929
+          ],
+          [
+            107.6192996,
+            -6.9010729
+          ],
+          [
+            107.6192733,
+            -6.8999367
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1537273629,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Sentot Alibasyah",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "387",
+        "reg_ref": "22-00-387-12K",
+        "sidewalk:left": "separate",
+        "sidewalk:right": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6301321,
+            -6.9069718
+          ],
+          [
+            107.6300738,
+            -6.9068822
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1543200610,
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Jalan Supratman",
+        "name:en": "Supratman Boulevard",
+        "name:etymology:wikidata": "Q1144049",
+        "name:etymology:wikipedia": "id:Wage Rudolf Soepratman",
+        "oneway": "yes",
+        "parking:both": "no",
+        "ref": "380",
         "surface": "asphalt"
       }
     }

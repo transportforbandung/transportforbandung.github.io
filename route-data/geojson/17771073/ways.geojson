@@ -7,8 +7,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6064546,
-            -6.9210818
+            107.6064585,
+            -6.9210512
           ],
           [
             107.6064774,
@@ -35,12 +35,16 @@
             -6.9200148
           ],
           [
-            107.6066668,
-            -6.919094
+            107.6066381,
+            -6.9195407
           ],
           [
-            107.6066712,
-            -6.9189713
+            107.6066715,
+            -6.9190952
+          ],
+          [
+            107.6066765,
+            -6.9189704
           ]
         ]
       },
@@ -62,8 +66,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6066712,
-            -6.9189713
+            107.6066765,
+            -6.9189704
           ],
           [
             107.6067119,
@@ -338,6 +342,7 @@
         "lanes": "3",
         "lit": "yes",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "surface": "asphalt",
@@ -373,6 +378,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11"
       }
@@ -415,6 +421,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "|through|merge_to_left"
@@ -565,6 +572,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "ref": "11"
       }
     },
@@ -636,24 +644,24 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6067877,
-            -6.9301452
+            107.6068307,
+            -6.9301326
           ],
           [
-            107.6067936,
-            -6.9300552
+            107.6068364,
+            -6.9300622
           ],
           [
-            107.6068275,
-            -6.9296881
+            107.6068664,
+            -6.9296894
           ],
           [
-            107.6068882,
-            -6.9290306
+            107.6069258,
+            -6.9290279
           ],
           [
-            107.607029,
-            -6.9274996
+            107.6070558,
+            -6.9274889
           ]
         ]
       },
@@ -772,8 +780,8 @@
             -6.9216096
           ],
           [
-            107.6120118,
-            -6.9217387
+            107.6120154,
+            -6.9217245
           ]
         ]
       },
@@ -797,8 +805,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6120118,
-            -6.9217387
+            107.6120154,
+            -6.9217245
           ],
           [
             107.6120004,
@@ -1383,6 +1391,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "ref": "11"
       }
     },
@@ -1524,6 +1533,7 @@
         "lanes": "3",
         "lit": "yes",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -2754,24 +2764,32 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6059177,
-            -6.9273911
+            107.6059454,
+            -6.9273849
           ],
           [
-            107.6059915,
-            -6.926739
+            107.6059791,
+            -6.9270185
           ],
           [
-            107.6060152,
-            -6.9265391
+            107.6059757,
+            -6.9268782
           ],
           [
-            107.6060307,
-            -6.9263876
+            107.6059805,
+            -6.9267319
           ],
           [
-            107.6060915,
-            -6.925705
+            107.6059951,
+            -6.9265345
+          ],
+          [
+            107.6060102,
+            -6.926383
+          ],
+          [
+            107.6060764,
+            -6.9256868
           ]
         ]
       },
@@ -2793,32 +2811,44 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6060915,
-            -6.925705
+            107.6060764,
+            -6.9256868
           ],
           [
-            107.6061529,
-            -6.9250296
+            107.6061378,
+            -6.9250253
           ],
           [
-            107.6062171,
-            -6.9243269
+            107.6061983,
+            -6.9243822
           ],
           [
-            107.6062246,
-            -6.9242449
+            107.6062071,
+            -6.924326
           ],
           [
-            107.606232,
-            -6.9241526
+            107.6062157,
+            -6.9242858
           ],
           [
-            107.606261,
-            -6.9238597
+            107.6062271,
+            -6.9242427
           ],
           [
-            107.6062949,
-            -6.9235169
+            107.6062411,
+            -6.9241764
+          ],
+          [
+            107.6062448,
+            -6.9241528
+          ],
+          [
+            107.6062731,
+            -6.9238523
+          ],
+          [
+            107.6063064,
+            -6.9235364
           ]
         ]
       },
@@ -2840,28 +2870,40 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6062949,
-            -6.9235169
+            107.6063064,
+            -6.9235364
           ],
           [
-            107.6063477,
-            -6.9228989
+            107.6063176,
+            -6.9234981
           ],
           [
-            107.6063756,
-            -6.9225645
+            107.6063289,
+            -6.9234418
           ],
           [
-            107.6063778,
-            -6.922496
+            107.6063543,
+            -6.9231005
           ],
           [
-            107.6064017,
-            -6.9224398
+            107.6063668,
+            -6.9228999
           ],
           [
-            107.6064249,
-            -6.922423
+            107.6063912,
+            -6.9225658
+          ],
+          [
+            107.606396,
+            -6.9224934
+          ],
+          [
+            107.6064134,
+            -6.9224385
+          ],
+          [
+            107.6064448,
+            -6.9224162
           ]
         ]
       },
@@ -2920,16 +2962,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6072035,
-            -6.9211727
+            107.607195,
+            -6.9211421
           ],
           [
-            107.6071663,
-            -6.9211679
+            107.6071709,
+            -6.9211388
           ],
           [
-            107.6071455,
-            -6.9211653
+            107.6071309,
+            -6.9211347
           ]
         ]
       },
@@ -2941,6 +2983,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk": "separate",
@@ -3218,6 +3261,7 @@
         "layer": "1",
         "maxweight:signed": "no",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -3608,7 +3652,8 @@
         "highway": "secondary",
         "lanes": "2",
         "motorcycle": "designated",
-        "name": "Soekarno Hatta Frontage Boulevard",
+        "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Frontage Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes"
@@ -3658,8 +3703,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.607029,
-            -6.9274996
+            107.6070558,
+            -6.9274889
+          ],
+          [
+            107.6070021,
+            -6.9274842
           ],
           [
             107.6062469,
@@ -3777,7 +3826,7 @@
         "destination": "Sumedang;Majalengka;Cirebon",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Jalan Raya Cileunyi",
+        "name": "Jalan Raya Jatinangor",
         "oneway": "yes",
         "ref": "11",
         "source": "Bing",
@@ -4095,6 +4144,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11"
       }
@@ -4154,6 +4204,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4418,7 +4469,7 @@
         "lanes": "2",
         "layer": "1",
         "motorcycle": "designated",
-        "name": "Soekarno Hatta Frontage Boulevard",
+        "name": "Jalan Soekarno-Hatta",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -4516,16 +4567,20 @@
             -6.9384772
           ],
           [
+            107.6708415,
+            -6.938467
+          ],
+          [
             107.6713626,
             -6.9384301
           ],
           [
-            107.6717646,
-            -6.9384031
+            107.6717525,
+            -6.9384018
           ],
           [
-            107.671913,
-            -6.9383912
+            107.6719529,
+            -6.938388
           ],
           [
             107.6722412,
@@ -5185,6 +5240,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -5306,6 +5362,7 @@
         "highway": "trunk",
         "lanes": "5",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -5427,6 +5484,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11"
       }
@@ -5569,9 +5627,12 @@
       "properties": {
         "id": 1112068912,
         "avgspeed": "30",
+        "destination:backward": "Cileunyi;Jatinangor;Rancaekek",
+        "destination:forward": "Bunderan Cibiru;Soekarno Hatta;Ujungberung",
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -5894,6 +5955,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -5903,16 +5965,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6069278,
-            -6.9211397
+            107.6069008,
+            -6.9211076
           ],
           [
-            107.6066723,
-            -6.9211072
+            107.6066769,
+            -6.9210774
           ],
           [
-            107.6064546,
-            -6.9210818
+            107.6064585,
+            -6.9210512
           ]
         ]
       },
@@ -5923,6 +5985,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -5954,6 +6017,7 @@
         "highway": "trunk",
         "lanes": "3",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "slight_left|slight_left|slight_left;slight_right"
@@ -5984,6 +6048,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "oneway": "yes",
         "ref": "11"
       }
@@ -6408,6 +6473,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11"
       }
@@ -6437,6 +6503,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "left;slight_left|slight_left;reverse"
@@ -6467,6 +6534,7 @@
         "highway": "trunk",
         "lanes": "2",
         "name": "Jalan Raya Cileunyi",
+        "name:en": "Cileunyi Arterial Road",
         "oneway": "yes",
         "ref": "11",
         "turn:lanes": "left;slight_left|slight_left"
@@ -6726,10 +6794,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            107.6064249,
-            -6.922423
-          ],
           [
             107.6064448,
             -6.9224162
@@ -7055,6 +7119,7 @@
         "highway": "trunk",
         "lanes": "5",
         "name": "Jalan Soekarno-Hatta",
+        "name:en": "Soekarno Hatta Boulevard",
         "name:etymology:wikidata": "Q76127;Q29050",
         "name:etymology:wikipedia": "id:Sukarno;id:Mohammad Hatta",
         "oneway": "yes",
@@ -7071,6 +7136,10 @@
           [
             107.6099747,
             -6.9197157
+          ],
+          [
+            107.6100328,
+            -6.9197232
           ],
           [
             107.61015,
@@ -7293,6 +7362,7 @@
         "lanes": "4",
         "layer": "1",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -7321,6 +7391,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -7347,6 +7418,7 @@
         "lanes": "4",
         "layer": "1",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -7375,6 +7447,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -7384,16 +7457,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6071455,
-            -6.9211653
+            107.6071309,
+            -6.9211347
           ],
           [
-            107.606984,
-            -6.9211463
+            107.6069871,
+            -6.9211172
           ],
           [
-            107.6069278,
-            -6.9211397
+            107.6069008,
+            -6.9211076
           ]
         ]
       },
@@ -7405,6 +7478,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "sidewalk": "separate",
         "surface": "asphalt"
@@ -7730,6 +7804,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cinunuk",
+        "name:en": "Cinunuk Arterial Road",
         "ref": "11"
       }
     },
@@ -7847,16 +7922,20 @@
             -6.921273
           ],
           [
+            107.6074906,
+            -6.9212574
+          ],
+          [
             107.6073101,
-            -6.9212392
+            -6.9212316
           ],
           [
             107.6072565,
             -6.9212135
           ],
           [
-            107.6072035,
-            -6.9211727
+            107.607195,
+            -6.9211421
           ]
         ]
       },
@@ -7865,6 +7944,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Asia Afrika",
+        "name:en": "Asia Africa Avenue",
         "oneway": "yes",
         "parking:both": "no",
         "sidewalk": "separate",
@@ -7902,8 +7982,8 @@
             -6.9274175
           ],
           [
-            107.6059177,
-            -6.9273911
+            107.6059454,
+            -6.9273849
           ]
         ]
       },
@@ -8014,7 +8094,8 @@
         "avgspeed": "30",
         "highway": "trunk",
         "lanes": "4",
-        "name": "Jalan Abdul Haris Nasution",
+        "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "name:etymology:wikidata": "Q317291",
         "name:etymology:wikipedia": "id:Abdul Haris Nasution",
         "ref": "11"
@@ -8043,6 +8124,7 @@
         "lanes": "4",
         "layer": "1",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "ref": "11"
       }
     },
@@ -8171,6 +8253,7 @@
         "highway": "trunk",
         "lanes": "4",
         "name": "Jalan Raya Cibiru",
+        "name:en": "Cibiru Arterial Road",
         "ref": "11"
       }
     },
