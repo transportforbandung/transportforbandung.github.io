@@ -982,8 +982,8 @@
             -6.8872919
           ],
           [
-            107.5364684,
-            -6.8870194
+            107.5364456,
+            -6.8870487
           ]
         ]
       },
@@ -1095,24 +1095,28 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5364684,
-            -6.8870194
+            107.5364456,
+            -6.8870487
           ],
           [
-            107.5359459,
-            -6.8864349
+            107.5359345,
+            -6.8864475
           ],
           [
-            107.5358725,
-            -6.8863526
+            107.5359224,
+            -6.8864345
           ],
           [
-            107.5354638,
-            -6.8858941
+            107.5358517,
+            -6.8863619
           ],
           [
-            107.5351739,
-            -6.8855689
+            107.535445,
+            -6.8859144
+          ],
+          [
+            107.5354048,
+            -6.8858598
           ]
         ]
       },
@@ -1123,7 +1127,7 @@
         "lanes": "3",
         "name": "Jalan Dustira",
         "note": "One-way rule temporarily removed due to road closure in Jalan gatot Subroto. Please revert back the oneway= tag to \"yes\" after that construction finished",
-        "oneway": "no",
+        "oneway": "yes",
         "ref": "19",
         "sidewalk": "left",
         "surface": "asphalt"
@@ -1732,6 +1736,34 @@
         "highway": "secondary",
         "name": "Jalan Ibu Sangki",
         "ref": "104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5354048,
+            -6.8858598
+          ],
+          [
+            107.5351739,
+            -6.8855689
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1566752408,
+        "designation": "city_road",
+        "highway": "primary",
+        "lanes": "3",
+        "name": "Jalan Dustira",
+        "note": "One-way rule temporarily removed due to road closure in Jalan gatot Subroto. Please revert back the oneway= tag to \"yes\" after that construction finished",
+        "oneway": "no",
+        "ref": "19",
+        "sidewalk": "left",
+        "surface": "asphalt"
       }
     }
   ]

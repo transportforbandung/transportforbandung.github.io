@@ -1149,20 +1149,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.7022152,
-            -6.9631561
-          ],
-          [
             107.702215,
             -6.9632649
           ],
           [
             107.7021621,
             -6.963263
-          ],
-          [
-            107.7021638,
-            -6.9631532
           ]
         ]
       },
@@ -3356,6 +3348,60 @@
         "junction": "roundabout",
         "motorcar": "yes",
         "motorcycle": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.7021621,
+            -6.963263
+          ],
+          [
+            107.7021638,
+            -6.9631532
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1574081186,
+        "access": "private",
+        "highway": "unclassified",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Summarecon Dayana",
+        "oneway": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.7022152,
+            -6.9631561
+          ],
+          [
+            107.702215,
+            -6.9632649
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1574081187,
+        "access": "private",
+        "highway": "unclassified",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Summarecon Dayana",
+        "oneway": "yes",
+        "smoothness": "excellent",
+        "surface": "asphalt"
       }
     }
   ]

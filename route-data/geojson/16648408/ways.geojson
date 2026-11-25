@@ -287,20 +287,8 @@
             -6.9164303
           ],
           [
-            107.6044248,
-            -6.9167276
-          ],
-          [
-            107.6044046,
-            -6.9168859
-          ],
-          [
-            107.6043842,
-            -6.9170712
-          ],
-          [
-            107.6043506,
-            -6.917436
+            107.6044137,
+            -6.9168437
           ]
         ]
       },
@@ -816,11 +804,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6042799,
-            -6.9182744
-          ],
-          [
-            107.6042732,
+            107.6042773,
             -6.9184683
           ],
           [
@@ -1173,20 +1157,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6043506,
+            107.6044137,
+            -6.9168437
+          ],
+          [
+            107.6044245,
+            -6.9168898
+          ],
+          [
+            107.604428,
+            -6.916951
+          ],
+          [
+            107.6044167,
+            -6.9170742
+          ],
+          [
+            107.6043831,
             -6.917436
           ],
           [
-            107.6043216,
-            -6.9177621
+            107.6043733,
+            -6.9175622
           ],
           [
-            107.6042891,
-            -6.9181663
+            107.6043592,
+            -6.9177439
           ],
           [
-            107.6042799,
-            -6.9182744
+            107.6043145,
+            -6.9182885
           ]
         ]
       },
@@ -1194,11 +1194,12 @@
         "id": 1112059319,
         "avgspeed": "30",
         "highway": "primary",
-        "lanes": "3",
+        "lanes": "1",
         "name": "Jalan Otto Iskandardinata",
         "name:etymology:wikidata": "Q7108909",
         "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -1599,6 +1600,37 @@
         "name:etymology:wikipedia": "id:Dewi Sartika",
         "oneway": "yes",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6043145,
+            -6.9182885
+          ],
+          [
+            107.6043002,
+            -6.9183987
+          ],
+          [
+            107.6042773,
+            -6.9184683
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1572395996,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "sidewalk": "separate"
       }
     }
   ]
