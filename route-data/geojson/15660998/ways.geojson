@@ -7,12 +7,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6193443,
-            -6.89924
+            107.6191037,
+            -6.8992313
           ],
           [
-            107.6193467,
-            -6.8993194
+            107.6192702,
+            -6.8993223
           ]
         ]
       },
@@ -306,7 +306,8 @@
         "id": 4936382,
         "avgspeed": "15",
         "bicycle": "yes",
-        "foot": "yes",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Ganesha",
@@ -2097,12 +2098,8 @@
             -6.8992313
           ],
           [
-            107.6192777,
-            -6.8992377
-          ],
-          [
-            107.6193443,
-            -6.89924
+            107.6191037,
+            -6.8992313
           ]
         ]
       },
@@ -5088,8 +5085,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6193467,
-            -6.8993194
+            107.6192702,
+            -6.8993223
           ],
           [
             107.6193483,
@@ -5658,6 +5655,8 @@
         "id": 1118546783,
         "avgspeed": "30",
         "cycleway:both": "no",
+        "destination": "Simpang Buahbatu BKR",
+        "destination:lanes": "Buahbatu;Suryalaya;Cijagra|BKR;Srimahi;Muhammad Ramdhan|BKR;Srimahi;Muhammad Ramdhan",
         "highway": "primary",
         "lanes": "2",
         "name": "Jalan Pelajar Pejuang 45",
@@ -6144,8 +6143,8 @@
             -6.9410019
           ],
           [
-            107.6068982,
-            -6.9408986
+            107.6068955,
+            -6.9408873
           ],
           [
             107.6067904,
@@ -7745,6 +7744,7 @@
         "lanes": "2",
         "layer": "1",
         "lit": "yes",
+        "maxweight:signed": "no",
         "name": "Jalan Layang Laswi - Pelajar Pejuang 45",
         "name:en": "Laswi - Pelajar Pejuang 45 Flyover",
         "parking:both": "no",

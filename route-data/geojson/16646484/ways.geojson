@@ -383,7 +383,6 @@
         "bicycle": "yes",
         "cycleway": "lane",
         "cycleway:lane": "advisory",
-        "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Tamansari",
@@ -537,7 +536,9 @@
       "properties": {
         "id": 4910295,
         "avgspeed": "30",
-        "cycleway:both": "no",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Tamansari",
@@ -1241,6 +1242,9 @@
         "id": 318222716,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
@@ -1435,6 +1439,10 @@
           [
             107.6084828,
             -6.903297
+          ],
+          [
+            107.60837,
+            -6.9035906
           ],
           [
             107.60825,
@@ -2070,6 +2078,9 @@
         "id": 621093830,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
@@ -2310,6 +2321,10 @@
             -6.9028393
           ],
           [
+            107.6081258,
+            -6.9028093
+          ],
+          [
             107.6080776,
             -6.9026809
           ],
@@ -2322,12 +2337,20 @@
             -6.9024328
           ],
           [
+            107.6080559,
+            -6.9024038
+          ],
+          [
             107.6080624,
             -6.9022276
           ],
           [
             107.6080915,
             -6.9020937
+          ],
+          [
+            107.6083477,
+            -6.9016908
           ],
           [
             107.6083923,
@@ -2514,6 +2537,9 @@
         "id": 1079396132,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
@@ -2579,7 +2605,9 @@
         "id": 1112146446,
         "avgspeed": "30",
         "bicycle": "yes",
-        "cycleway:both": "no",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",

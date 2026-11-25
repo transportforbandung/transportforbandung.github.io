@@ -899,24 +899,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5947487,
-            -6.8601046
+            107.5946903,
+            -6.8604612
           ],
           [
-            107.5947415,
-            -6.8601534
-          ],
-          [
-            107.5947299,
-            -6.8602278
-          ],
-          [
-            107.5946876,
-            -6.860499
-          ],
-          [
-            107.5946834,
-            -6.8605895
+            107.5946791,
+            -6.8606041
           ],
           [
             107.594682,
@@ -2698,16 +2686,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.594917,
-            -6.8589109
+            107.5948433,
+            -6.8593552
           ],
           [
             107.5948727,
             -6.8591879
           ],
           [
-            107.5948433,
-            -6.8593552
+            107.594917,
+            -6.8589109
           ]
         ]
       },
@@ -2719,7 +2707,7 @@
         "name": "Jalan Dr. Setiabudi",
         "name:etymology:wikidata": "Q2253449",
         "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
-        "oneway": "no",
+        "oneway": "yes",
         "ref": "249",
         "reg_ref": "22-00-249-13K",
         "smoothness": "excellent",
@@ -2816,6 +2804,10 @@
           [
             107.594917,
             -6.8589109
+          ],
+          [
+            107.5949637,
+            -6.8589193
           ],
           [
             107.5952388,
@@ -3496,90 +3488,46 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5948433,
-            -6.8593552
+            107.5946903,
+            -6.8604612
+          ],
+          [
+            107.5946813,
+            -6.8603891
+          ],
+          [
+            107.5947029,
+            -6.8602252
+          ],
+          [
+            107.5947132,
+            -6.8601552
+          ],
+          [
+            107.5947222,
+            -6.8600976
+          ],
+          [
+            107.5947315,
+            -6.8600336
+          ],
+          [
+            107.5948057,
+            -6.859559
           ],
           [
             107.5948312,
             -6.8594241
           ],
           [
-            107.5948088,
-            -6.859551
+            107.5948433,
+            -6.8593552
           ]
         ]
       },
       "properties": {
         "id": 1258718409,
         "alt_name": "Jalan Dokter Setiabudi",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Dr. Setiabudi",
-        "name:etymology:wikidata": "Q2253449",
-        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
-        "oneway": "no",
-        "ref": "249",
-        "reg_ref": "22-00-249-13K",
-        "smoothness": "excellent",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5948052,
-            -6.8595708
-          ],
-          [
-            107.594757,
-            -6.8600369
-          ],
-          [
-            107.5947527,
-            -6.8600724
-          ],
-          [
-            107.5947487,
-            -6.8601046
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1258718410,
-        "alt_name": "Jalan Dokter Setiabudi",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Dr. Setiabudi",
-        "name:etymology:wikidata": "Q2253449",
-        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
-        "oneway": "no",
-        "ref": "249",
-        "reg_ref": "22-00-249-13K",
-        "smoothness": "excellent",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5948088,
-            -6.859551
-          ],
-          [
-            107.5948052,
-            -6.8595708
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1258718411,
-        "alt_name": "Jalan Dokter Setiabudhi",
         "avgspeed": "40",
         "highway": "primary",
         "lanes": "2",
@@ -3587,8 +3535,9 @@
         "name": "Jalan Dr. Setiabudi",
         "name:etymology:wikidata": "Q2253449",
         "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
-        "oneway": "no",
+        "oneway": "yes",
         "ref": "249",
+        "reg_ref": "22-00-249-13K",
         "short_name": "Jalan Dr. Setiabudhi",
         "smoothness": "excellent",
         "surface": "asphalt"

@@ -710,11 +710,15 @@
       },
       "properties": {
         "id": 317742825,
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:oneway": "-1",
         "destination": "Naripan;Asia Afrika;Lengkong",
         "foot": "yes",
         "highway": "primary",
         "lanes": "1",
         "oneway": "yes",
+        "oneway:bicycle": "no",
         "surface": "asphalt",
         "turn:lanes": "right"
       }
@@ -2591,11 +2595,15 @@
       "properties": {
         "id": 797845080,
         "avgspeed": "30",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:oneway": "-1",
         "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Asia Afrika;Alun Alun;Lengkong;Sudirman|Braga",
         "highway": "primary",
         "lanes": "3",
         "name": "Jalan Tamblong",
         "oneway": "yes",
+        "oneway:bicycle": "no",
         "surface": "asphalt",
         "turn:lanes": "left;through|through|right"
       }
@@ -3664,11 +3672,15 @@
       "properties": {
         "id": 1306065410,
         "avgspeed": "30",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:oneway": "-1",
         "destination:lanes": "Sunda;Ahmad Yani;Simpang Lima;Kosambi|Asia Afrika;Alun Alun;Lengkong;Sudirman|Braga",
         "highway": "primary",
         "lanes": "1",
         "name": "Jalan Tamblong",
         "oneway": "yes",
+        "oneway:bicycle": "no",
         "surface": "asphalt",
         "turn:lanes": "left;through|through|right"
       }

@@ -377,20 +377,8 @@
             -6.9164303
           ],
           [
-            107.6044248,
-            -6.9167276
-          ],
-          [
-            107.6044046,
-            -6.9168859
-          ],
-          [
-            107.6043842,
-            -6.9170712
-          ],
-          [
-            107.6043506,
-            -6.917436
+            107.6044137,
+            -6.9168437
           ]
         ]
       },
@@ -635,6 +623,10 @@
           [
             107.6165356,
             -6.8992206
+          ],
+          [
+            107.6165041,
+            -6.8992344
           ],
           [
             107.616428,
@@ -1063,10 +1055,14 @@
       "properties": {
         "id": 174309310,
         "avgspeed": "20",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:oneway": "-1",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Belitung",
         "oneway": "yes",
+        "oneway:bicycle": "no",
         "ref": "2046",
         "reg_ref": "22-10-2046",
         "sidewalk:left": "separate",
@@ -1190,10 +1186,14 @@
       },
       "properties": {
         "id": 177627670,
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:oneway": "-1",
         "highway": "tertiary",
         "lanes": "2",
         "name": "Jalan Kalimantan",
         "oneway": "yes",
+        "oneway:bicycle": "no",
         "ref": "2192",
         "reg_ref": "22-10-2192",
         "sidewalk:left": "separate",
@@ -1946,7 +1946,7 @@
         "coordinates": [
           [
             107.6150711,
-            -6.9006334
+            -6.9006241
           ],
           [
             107.6154093,
@@ -2368,16 +2368,16 @@
             -6.8999054
           ],
           [
-            107.6154024,
-            -6.9002108
+            107.6154075,
+            -6.9002128
           ],
           [
-            107.6153734,
-            -6.9002409
+            107.6153805,
+            -6.9002449
           ],
           [
             107.6150711,
-            -6.9006334
+            -6.9006241
           ]
         ]
       },
@@ -4171,20 +4171,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6043506,
+            107.6044137,
+            -6.9168437
+          ],
+          [
+            107.6044245,
+            -6.9168898
+          ],
+          [
+            107.604428,
+            -6.916951
+          ],
+          [
+            107.6044167,
+            -6.9170742
+          ],
+          [
+            107.6043831,
             -6.917436
           ],
           [
-            107.6043216,
-            -6.9177621
+            107.6043733,
+            -6.9175622
           ],
           [
-            107.6042891,
-            -6.9181663
+            107.6043592,
+            -6.9177439
           ],
           [
-            107.6042799,
-            -6.9182744
+            107.6043145,
+            -6.9182885
           ]
         ]
       },
@@ -4192,11 +4208,12 @@
         "id": 1112059319,
         "avgspeed": "30",
         "highway": "primary",
-        "lanes": "3",
+        "lanes": "1",
         "name": "Jalan Otto Iskandardinata",
         "name:etymology:wikidata": "Q7108909",
         "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -4831,12 +4848,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6042799,
-            -6.9182744
-          ],
-          [
-            107.6043277,
-            -6.91829
+            107.6043145,
+            -6.9182885
           ],
           [
             107.6043619,
@@ -5806,6 +5819,8 @@
       "properties": {
         "id": 1537271398,
         "highway": "primary",
+        "lane_markings": "yes",
+        "lanes": "3",
         "name": "Jalan Sentot Alibasyah",
         "oneway": "yes",
         "surface": "asphalt"

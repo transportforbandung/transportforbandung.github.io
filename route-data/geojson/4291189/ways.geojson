@@ -443,6 +443,9 @@
       "properties": {
         "id": 4698220,
         "avgspeed": "30",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Siliwangi",
@@ -528,7 +531,9 @@
       "properties": {
         "id": 4910295,
         "avgspeed": "30",
-        "cycleway:both": "no",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Tamansari",
@@ -786,7 +791,7 @@
         "destination:lanes": "Diponegoro;Gedung Sate;Citarum|Aria Jipang;Cikapayang;Pasupati",
         "foot": "yes",
         "highway": "trunk",
-        "lanes": "1",
+        "lanes": "2",
         "loc_name": "Jalan Surapati",
         "name": "Jalan Surapati",
         "name:en": "Untung Surapati Avenue",
@@ -890,7 +895,8 @@
         "id": 153340105,
         "avgspeed": "30",
         "bicycle": "yes",
-        "cycleway:both": "no",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
@@ -1104,6 +1110,8 @@
         "avgspeed": "30",
         "bicycle": "yes",
         "bridge": "yes",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
@@ -1183,6 +1191,8 @@
         "id": 168549936,
         "avgspeed": "30",
         "bicycle": "yes",
+        "cycleway": "lane",
+        "cycleway:lane": "advisory",
         "foot": "yes",
         "highway": "secondary",
         "lanes": "2",
@@ -2721,8 +2731,8 @@
             -6.899317
           ],
           [
-            107.6193467,
-            -6.8993194
+            107.6192702,
+            -6.8993223
           ]
         ]
       },
@@ -3011,8 +3021,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6191372,
-            -6.8993236
+            107.6191022,
+            -6.8993259
           ],
           [
             107.6190846,
@@ -4129,12 +4139,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6193467,
-            -6.8993194
+            107.6192702,
+            -6.8993223
           ],
           [
-            107.6191372,
-            -6.8993236
+            107.6191022,
+            -6.8993259
           ]
         ]
       },
@@ -4934,6 +4944,9 @@
       "properties": {
         "id": 1220953660,
         "avgspeed": "30",
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "advisory",
+        "cycleway:right": "no",
         "highway": "secondary",
         "lanes": "2",
         "name": "Jalan Tamansari",

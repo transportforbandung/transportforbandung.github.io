@@ -441,20 +441,8 @@
             -6.9164303
           ],
           [
-            107.6044248,
-            -6.9167276
-          ],
-          [
-            107.6044046,
-            -6.9168859
-          ],
-          [
-            107.6043842,
-            -6.9170712
-          ],
-          [
-            107.6043506,
-            -6.917436
+            107.6044137,
+            -6.9168437
           ]
         ]
       },
@@ -1436,24 +1424,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5947487,
-            -6.8601046
+            107.5946903,
+            -6.8604612
           ],
           [
-            107.5947415,
-            -6.8601534
-          ],
-          [
-            107.5947299,
-            -6.8602278
-          ],
-          [
-            107.5946876,
-            -6.860499
-          ],
-          [
-            107.5946834,
-            -6.8605895
+            107.5946791,
+            -6.8606041
           ],
           [
             107.594682,
@@ -1934,11 +1910,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6042799,
-            -6.9182744
-          ],
-          [
-            107.6042732,
+            107.6042773,
             -6.9184683
           ],
           [
@@ -3117,8 +3089,8 @@
             -6.8594103
           ],
           [
-            107.5948433,
-            -6.8593552
+            107.5948881,
+            -6.8593626
           ]
         ]
       },
@@ -4044,20 +4016,36 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.6043506,
+            107.6044137,
+            -6.9168437
+          ],
+          [
+            107.6044245,
+            -6.9168898
+          ],
+          [
+            107.604428,
+            -6.916951
+          ],
+          [
+            107.6044167,
+            -6.9170742
+          ],
+          [
+            107.6043831,
             -6.917436
           ],
           [
-            107.6043216,
-            -6.9177621
+            107.6043733,
+            -6.9175622
           ],
           [
-            107.6042891,
-            -6.9181663
+            107.6043592,
+            -6.9177439
           ],
           [
-            107.6042799,
-            -6.9182744
+            107.6043145,
+            -6.9182885
           ]
         ]
       },
@@ -4065,11 +4053,12 @@
         "id": 1112059319,
         "avgspeed": "30",
         "highway": "primary",
-        "lanes": "3",
+        "lanes": "1",
         "name": "Jalan Otto Iskandardinata",
         "name:etymology:wikidata": "Q7108909",
         "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
         "oneway": "yes",
+        "parking:both": "no",
         "sidewalk": "separate",
         "surface": "asphalt"
       }
@@ -5427,110 +5416,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            107.5948433,
-            -6.8593552
-          ],
-          [
-            107.5948312,
-            -6.8594241
-          ],
-          [
-            107.5948088,
-            -6.859551
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1258718409,
-        "alt_name": "Jalan Dokter Setiabudi",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Dr. Setiabudi",
-        "name:etymology:wikidata": "Q2253449",
-        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
-        "oneway": "no",
-        "ref": "249",
-        "reg_ref": "22-00-249-13K",
-        "smoothness": "excellent",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5948052,
-            -6.8595708
-          ],
-          [
-            107.594757,
-            -6.8600369
-          ],
-          [
-            107.5947527,
-            -6.8600724
-          ],
-          [
-            107.5947487,
-            -6.8601046
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1258718410,
-        "alt_name": "Jalan Dokter Setiabudi",
-        "highway": "primary",
-        "lanes": "2",
-        "name": "Jalan Dr. Setiabudi",
-        "name:etymology:wikidata": "Q2253449",
-        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
-        "oneway": "no",
-        "ref": "249",
-        "reg_ref": "22-00-249-13K",
-        "smoothness": "excellent",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            107.5948088,
-            -6.859551
-          ],
-          [
-            107.5948052,
-            -6.8595708
-          ]
-        ]
-      },
-      "properties": {
-        "id": 1258718411,
-        "alt_name": "Jalan Dokter Setiabudhi",
-        "avgspeed": "40",
-        "highway": "primary",
-        "lanes": "2",
-        "loc_name": "Jalan Dr. Setiabudhi",
-        "name": "Jalan Dr. Setiabudi",
-        "name:etymology:wikidata": "Q2253449",
-        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
-        "oneway": "no",
-        "ref": "249",
-        "short_name": "Jalan Dr. Setiabudhi",
-        "smoothness": "excellent",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             107.6022349,
             -6.8878097
           ],
@@ -6003,6 +5888,86 @@
         "name": "Jalur Bus Kota",
         "oneway": "yes",
         "surface": "concrete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5948881,
+            -6.8593626
+          ],
+          [
+            107.5948541,
+            -6.8595625
+          ],
+          [
+            107.5947728,
+            -6.8600744
+          ],
+          [
+            107.5947436,
+            -6.8602638
+          ],
+          [
+            107.5947207,
+            -6.8603953
+          ],
+          [
+            107.5946903,
+            -6.8604612
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1570155634,
+        "alt_name": "Jalan Dokter Setiabudi",
+        "avgspeed": "40",
+        "highway": "primary",
+        "lanes": "2",
+        "loc_name": "Jalan Dr. Setiabudhi",
+        "name": "Jalan Dr. Setiabudi",
+        "name:etymology:wikidata": "Q2253449",
+        "name:etymology:wikipedia": "id:Ernest Douwes Dekker",
+        "oneway": "yes",
+        "ref": "249",
+        "reg_ref": "22-00-249-13K",
+        "short_name": "Jalan Dr. Setiabudhi",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.6043145,
+            -6.9182885
+          ],
+          [
+            107.6043002,
+            -6.9183987
+          ],
+          [
+            107.6042773,
+            -6.9184683
+          ]
+        ]
+      },
+      "properties": {
+        "id": 1572395996,
+        "avgspeed": "30",
+        "highway": "primary",
+        "lanes": "1",
+        "name": "Jalan Otto Iskandardinata",
+        "name:etymology:wikidata": "Q7108909",
+        "name:etymology:wikipedia": "id:Oto Iskandar di Nata",
+        "oneway": "yes",
+        "sidewalk": "separate"
       }
     }
   ]
