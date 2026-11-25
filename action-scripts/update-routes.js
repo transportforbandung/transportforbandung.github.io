@@ -6,7 +6,7 @@ const axios = require('axios');
 const { mkdirp } = require('mkdirp');
 
 const ROOT = path.join(__dirname, '..');
-const OVERPASS_URL = 'https://maps.mail.ru/osm/tools/overpass/api/interpreter';
+const OVERPASS_URL = 'https://overpass-api.de/api/interpreter';
 const PAUSE_BETWEEN_ROUTES_MS = 1500; // be polite to the Overpass mirror
 
 // ---------- load routes.json ----------
