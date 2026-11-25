@@ -9,11 +9,10 @@ const ROOT = path.join(__dirname, '..');
 const OVERPASS_URL = 'https://overpass-api.de/api/interpreter';
 const REPORT_PATH = path.join(ROOT, 'route-data', 'update-report.json');
 
-const MAX_STRIKES = 3;               // attempts per route
-const RETRY_AFTER_SUCCESSES = 3;     // other routes that must succeed before a retry
+const MAX_ATTEMPTS = 3;                 // attempts per route
+const RETRY_DELAY_MS = 5000;             // back-off: 5 s, then 10 s
+const OVERLOAD_DELAY_MS = 20000;         // longer back-off after HTTP 429/502/503/504 or a server timeout
 const PAUSE_BETWEEN_ROUTES_MS = 1500;
-const COOLDOWN_AFTER_OVERLOAD_MS = 30000;   // after HTTP 429/503/504 or a server timeout
-const DRAIN_PAUSE_MS = [30000, 60000];      // waits before retries when no fresh routes are left
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
@@ -45,17 +44,18 @@ class OverpassError extends Error {
 // relation (tags + ordered members with roles), its ways (tags + node ids + geometry),
 // and its member nodes (tags + coordinates), in a single request.
 function routeQuery(relationId) {
+  // The relation is kept in the named set .rel: "way(r)" replaces the default
+  // set, so without it "node(r)" would look in the ways and find nothing.
   return `[out:json][timeout:90];
-relation(${relationId});
-out body;
-way(r);
+relation(${relationId})->.rel;
+.rel out body;
+way(r.rel);
 out geom;
-node(r);
+node(r.rel);
 out body;`;
 }
 
-// One request = one attempt. Retrying is handled by the strike queue, not here,
-// so a struggling server is not hit again immediately.
+// One request = one attempt; retries are in processWithRetries.
 async function fetchRaw(relationId) {
   let response;
   try {
@@ -171,69 +171,47 @@ async function processRoute({ relationId, type }, deps = {}) {
   fs.writeFileSync(path.join(geoDir, stopsName), JSON.stringify(stopsGeoJSON, null, 2));
 }
 
-// ---------- the strike queue ----------
-// Fresh routes run in order. A route that fails goes to the back of the retry
-// queue, stamped with the success count at that moment. It is taken again once
-// RETRY_AFTER_SUCCESSES more routes have succeeded. When no fresh routes are
-// left, the remaining retries run after a pause. Three failures = give up.
-async function runAll(routes, deps = {}) {
-  const attempt = deps.attempt || (route => processRoute(route));
+// ---------- retries (same as the old script: right away, with back-off) ----------
+async function processWithRetries(route, deps = {}) {
+  const attempt = deps.attempt || (r => processRoute(r));
   const wait = deps.sleep || sleep;
   const log = deps.log || console.log;
+  const errors = [];
 
-  const fresh = [...routes];
-  const retries = [];               // { route, strikes, errors, successesAtFail }
-  const updated = [];
-  const recovered = [];             // succeeded after at least one strike
-  const failed = [];                // gave up after MAX_STRIKES
-  let successes = 0;
-  let drainRound = 0;
-
-  while (fresh.length || retries.length) {
-    let item;
-    const due = retries.length && successes - retries[0].successesAtFail >= RETRY_AFTER_SUCCESSES;
-
-    if (due) {
-      item = retries.shift();
-    } else if (fresh.length) {
-      item = { route: fresh.shift(), strikes: 0, errors: [] };
-    } else {
-      // Only retries left and not enough successes to wait for: pause instead.
-      const pause = DRAIN_PAUSE_MS[Math.min(drainRound, DRAIN_PAUSE_MS.length - 1)];
-      drainRound++;
-      log(`No fresh routes left; waiting ${pause / 1000}s before retrying ${retries.length} route(s)`);
-      await wait(pause);
-      item = retries.shift();
-    }
-
-    const { relationId } = item.route;
-    const label = item.strikes ? ` (attempt ${item.strikes + 1}/${MAX_STRIKES})` : '';
-    log(`Processing ${relationId}${label}`);
-
+  for (let n = 1; n <= MAX_ATTEMPTS; n++) {
     try {
-      await attempt(item.route);
-      successes++;
-      updated.push(relationId);
-      if (item.strikes) recovered.push({ relationId, attempts: item.strikes + 1 });
+      await attempt(route);
+      return { ok: true, attempts: n, errors };
     } catch (error) {
-      item.strikes++;
-      item.errors.push(error.message);
-      if (item.strikes >= MAX_STRIKES) {
-        log(`  GAVE UP ${relationId} after ${MAX_STRIKES} attempts: ${error.message} (previous files kept)`);
-        failed.push({ relationId, errors: item.errors });
-      } else {
-        log(`  failed ${relationId}: ${error.message}; will retry after ${RETRY_AFTER_SUCCESSES} more successes`);
-        item.successesAtFail = successes;
-        retries.push(item);
-      }
-      if (error.overloaded) {
-        log(`  server overloaded; cooling down ${COOLDOWN_AFTER_OVERLOAD_MS / 1000}s`);
-        await wait(COOLDOWN_AFTER_OVERLOAD_MS);
-      }
+      errors.push(error.message);
+      if (n === MAX_ATTEMPTS) break;
+      const delay = error.overloaded ? OVERLOAD_DELAY_MS : RETRY_DELAY_MS * n;
+      log(`  attempt ${n}/${MAX_ATTEMPTS} failed: ${error.message}; retrying in ${delay / 1000}s`);
+      await wait(delay);
+    }
+  }
+  return { ok: false, attempts: MAX_ATTEMPTS, errors };
+}
+
+async function runAll(routes, deps = {}) {
+  const wait = deps.sleep || sleep;
+  const log = deps.log || console.log;
+  const updated = [];
+  const recovered = [];   // succeeded after at least one failed attempt
+  const failed = [];      // gave up after MAX_ATTEMPTS
+
+  for (const route of routes) {
+    log(`Processing ${route.relationId} (${route.type})`);
+    const result = await processWithRetries(route, deps);
+    if (result.ok) {
+      updated.push(route.relationId);
+      if (result.attempts > 1) recovered.push({ relationId: route.relationId, attempts: result.attempts });
+    } else {
+      log(`  FAILED ${route.relationId} after ${MAX_ATTEMPTS} attempts: ${result.errors.at(-1)} (previous files kept)`);
+      failed.push({ relationId: route.relationId, errors: result.errors });
     }
     await wait(PAUSE_BETWEEN_ROUTES_MS);
   }
-
   return { updated, recovered, failed };
 }
 
@@ -272,4 +250,4 @@ if (require.main === module) {
   })();
 }
 
-module.exports = { deriveGeojson, serializeRaw, routeQuery, checkComplete, processRoute, runAll };
+module.exports = { deriveGeojson, serializeRaw, routeQuery, checkComplete, processRoute, processWithRetries, runAll };
